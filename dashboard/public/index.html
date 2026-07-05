@@ -1035,7 +1035,8 @@ function cardBottomHTML(filename, status) {
                    : ttStatus === 'failed'   ? '↺ TikTok'
                    : ttStatus === 'uploading'? '⟳ TikTok'
                    :                          '♪ TikTok';
-  const ttBtn = (!IS_READONLY && ttState.connected && !isScheduled && ttStatus !== 'uploading')
+  // Always show TikTok button locally (click handler shows error if no session)
+  const ttBtn = (!IS_READONLY && !isScheduled && ttStatus !== 'uploading')
     ? `<button class="btn btn-tiktok btn-sm act-upload-tt" ${ttStatus === 'done' ? 'style="opacity:.6"' : ''}>${ttBtnLabel}</button>`
     : '';
 
@@ -1071,7 +1072,10 @@ function setupBottomEvents(el, filename) {
   el.querySelector('.act-upload-yt')?.addEventListener('click', () => openUploadModal(filename));
 
   el.querySelector('.act-upload-tt')?.addEventListener('click', async () => {
-    if (!ttState.connected) { toast('TikTok not connected — run: python tiktok_uploader.py --login'); return; }
+    if (!ttState.connected) {
+      toast('No TikTok session — run in terminal: python tiktok_uploader.py --login');
+      return;
+    }
     const clip = allClips.find(c => c.filename === filename);
     const caption = (clip?.title || filename.replace(/_/g, ' ')) + ' #shorts #fyp';
     activeUploads.set(filename, { status: 'starting', percent: 0, platform: 'tiktok' });

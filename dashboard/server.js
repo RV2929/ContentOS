@@ -34,7 +34,7 @@ const SCOPES = [
 const DEFAULT_CONFIG = {
   accounts: [
     { id: 'yt-1', platform: 'youtube', name: 'Main YouTube' },
-    { id: 'tt-1', platform: 'tiktok', name: 'Main TikTok' },
+    { id: 'tt-1', platform: 'tiktok', name: 'Clipperz291' },
     { id: 'ig-1', platform: 'instagram', name: 'Main Instagram' }
   ]
 };
