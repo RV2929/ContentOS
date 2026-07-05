@@ -1,7 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const { exec } = require('child_process');
+const { exec, spawn } = require('child_process');
 const { promisify } = require('util');
 const execAsync = promisify(exec);
 const { google } = require('googleapis');
@@ -16,7 +16,11 @@ const STATE_FILE = path.join(__dirname, 'state.json');
 const CONFIG_FILE = path.join(__dirname, 'config.json');
 const CREDENTIALS_FILE = path.join(__dirname, 'yt-credentials.json');
 const TOKENS_FILE = path.join(__dirname, 'yt-tokens.json');
-const SCHEDULE_FILE = path.join(__dirname, 'schedule.json');
+const SCHEDULE_FILE  = path.join(__dirname, 'schedule.json');
+const QUEUE_FILE     = path.join(__dirname, 'queue.json');
+const QUEUE_DATA_FILE = path.join(__dirname, 'public', 'queue-data.json');
+const CONTENTOS_DIR  = path.join(__dirname, '..');
+const RUN_SH         = path.join(CONTENTOS_DIR, 'run.sh');
 
 // youtube (full scope) is required for both videos.insert and videos.update (cross-linking)
 const SCOPES = [
@@ -84,7 +88,7 @@ async function syncToGitHub(label) {
       JSON.stringify({ lastUpdated: new Date().toISOString(), clips }, null, 2),
     );
 
-    await execAsync('git add public/clips-data.json public/thumbnails/', { cwd: __dirname });
+    await execAsync('git add public/clips-data.json public/thumbnails/ public/queue-data.json', { cwd: __dirname });
     try {
       await execAsync(`git commit -m "sync: ${label}"`, { cwd: __dirname });
       await execAsync('git push', { cwd: __dirname });
@@ -99,7 +103,150 @@ async function syncToGitHub(label) {
     console.error('[sync] failed:', err.message);
   }
 }
-// Batch IDs currently being cross-linked (prevents duplicate runs)
+// ── URL Queue ─────────────────────────────────────────────────────────────────
+
+function loadQueue()    { return loadJSON(QUEUE_FILE, { queue: [] }); }
+function saveQueue(q)   { saveJSON(QUEUE_FILE, q); }
+
+function updateQueueItem(id, updates) {
+  const q = loadQueue();
+  const item = q.queue.find(i => i.id === id);
+  if (item) Object.assign(item, updates);
+  saveQueue(q);
+}
+
+function writeQueueData() {
+  const q = loadQueue();
+  fs.writeFileSync(QUEUE_DATA_FILE, JSON.stringify(q, null, 2));
+}
+
+// GET /api/queue — full queue state
+app.get('/api/queue', (req, res) => res.json(loadQueue()));
+
+// POST /api/queue — add a URL
+app.post('/api/queue', (req, res) => {
+  const { url } = req.body || {};
+  if (!url || !/^https?:\/\//i.test(url.trim())) {
+    return res.status(400).json({ error: 'Valid YouTube URL required' });
+  }
+  const q = loadQueue();
+  const id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+  q.queue.push({
+    id, url: url.trim(), title: '', status: 'queued',
+    addedAt: new Date().toISOString(), startedAt: null,
+    completedAt: null, clipsCount: 0, batchId: null, error: null,
+  });
+  saveQueue(q);
+  writeQueueData();
+  scheduleSyncToGitHub('queue: added URL');
+  processQueue();
+  res.json({ ok: true, id });
+});
+
+// DELETE /api/queue/:id — remove an item (not while processing)
+app.delete('/api/queue/:id', (req, res) => {
+  const q = loadQueue();
+  const item = q.queue.find(i => i.id === req.params.id);
+  if (!item) return res.status(404).json({ error: 'Not found' });
+  if (['downloading', 'transcribing', 'generating_clips'].includes(item.status)) {
+    return res.status(409).json({ error: 'Cannot remove — item is currently processing' });
+  }
+  q.queue = q.queue.filter(i => i.id !== req.params.id);
+  saveQueue(q);
+  writeQueueData();
+  scheduleSyncToGitHub('queue: removed item');
+  res.json({ ok: true });
+});
+
+// ── Queue processor ───────────────────────────────────────────────────────────
+
+let queueBusy = false;
+
+async function processQueue() {
+  if (queueBusy) return;
+  const q = loadQueue();
+  const next = q.queue.find(i => i.status === 'queued');
+  if (!next) return;
+
+  queueBusy = true;
+  const { id, url } = next;
+  console.log(`[queue] Starting: ${url}`);
+
+  try {
+    updateQueueItem(id, { status: 'downloading', startedAt: new Date().toISOString() });
+    writeQueueData();
+    scheduleSyncToGitHub(`queue: downloading`);
+
+    // Snapshot schedule keys so we can detect newly added batch after run
+    const schedBefore = new Set(Object.keys(loadSchedule()));
+
+    await new Promise((resolve, reject) => {
+      const proc = spawn('/bin/zsh', [RUN_SH, url], { cwd: CONTENTOS_DIR });
+      let stderr = '';
+
+      proc.stdout.on('data', chunk => {
+        const text = chunk.toString();
+        process.stdout.write(text);
+
+        // Detect pipeline step from _header() output and update status
+        if      (text.includes('Step 2:')) { updateQueueItem(id, { status: 'transcribing' });    writeQueueData(); scheduleSyncToGitHub('queue: transcribing'); }
+        else if (text.includes('Step 3:') ||
+                 text.includes('Step 4:')) { updateQueueItem(id, { status: 'generating_clips' }); writeQueueData(); scheduleSyncToGitHub('queue: generating clips'); }
+      });
+
+      proc.stderr.on('data', chunk => { stderr += chunk.toString(); process.stderr.write(chunk); });
+      proc.on('close', code => {
+        if (code === 0) resolve();
+        else reject(new Error(stderr.slice(-400) || `exited ${code}`));
+      });
+    });
+
+    // Detect new schedule entries to get batchId and clip count
+    const schedAfter = loadSchedule();
+    const newFiles   = Object.keys(schedAfter).filter(f => !schedBefore.has(f));
+    const batchId    = newFiles.length ? schedAfter[newFiles[0]].batchId || null : null;
+
+    updateQueueItem(id, { status: 'scheduled', completedAt: new Date().toISOString(), clipsCount: newFiles.length, batchId });
+    writeQueueData();
+    scheduleSyncToGitHub(`queue: scheduled ${newFiles.length} clip(s)`);
+    console.log(`[queue] Done: ${url} → ${newFiles.length} clip(s) scheduled`);
+
+  } catch (err) {
+    console.error('[queue] Failed:', err.message);
+    updateQueueItem(id, { status: 'failed', completedAt: new Date().toISOString(), error: err.message.slice(0, 300) });
+    writeQueueData();
+    scheduleSyncToGitHub('queue: failed');
+  } finally {
+    queueBusy = false;
+    setTimeout(processQueue, 2000); // pick up next item if any
+  }
+}
+
+// Called after cross-linking completes to mark queue item 'done'
+function markQueueBatchDone(batchId) {
+  if (!batchId) return;
+  const q = loadQueue();
+  const item = q.queue.find(i => i.batchId === batchId && i.status === 'scheduled');
+  if (!item) return;
+  item.status = 'done';
+  item.completedAt = new Date().toISOString();
+  saveQueue(q);
+  writeQueueData();
+  scheduleSyncToGitHub(`queue: done batch ${batchId}`);
+}
+
+// Reset any items stuck mid-processing (e.g. after server restart)
+(function recoverStuckItems() {
+  const q = loadQueue();
+  const stuck = ['downloading', 'transcribing', 'generating_clips'];
+  let changed = false;
+  for (const item of q.queue) {
+    if (stuck.includes(item.status)) { item.status = 'queued'; item.startedAt = null; changed = true; }
+  }
+  if (changed) { saveQueue(q); console.log('[queue] Reset stuck items to queued'); }
+})();
+
+// ── Batch IDs currently being cross-linked (prevents duplicate runs) ──────────
 const crossLinkInProgress = new Set();
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
@@ -451,6 +598,7 @@ async function checkAndCrossLink(batchId) {
   console.log(`[cross-link] All clips done for batch "${batchId}" — updating descriptions`);
   try {
     await crossLinkBatch(batchId, batch);
+    markQueueBatchDone(batchId);
     scheduleSyncToGitHub(`cross-linked ${batchId}`);
   } finally {
     crossLinkInProgress.delete(batchId);
@@ -578,6 +726,9 @@ async function runScheduler() {
 // Check 5 s after startup then every 60 s
 setTimeout(runScheduler, 5000);
 setInterval(runScheduler, 60 * 1000);
+
+// Start queue processor — picks up any pending items
+setTimeout(processQueue, 3000);
 
 // ── Start ─────────────────────────────────────────────────────────────────────
 

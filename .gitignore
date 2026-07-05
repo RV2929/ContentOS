@@ -26,6 +26,7 @@ dashboard/schedule.json
 dashboard/config.json
 dashboard/.env.local
 dashboard/package-lock.json
+dashboard/queue.json
 
 # ── macOS ─────────────────────────────────────────────────────────────────────
 .DS_Store

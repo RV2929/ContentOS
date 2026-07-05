@@ -103,6 +103,55 @@
 
     .filter-bar .refresh-btn { margin-left: auto; }
 
+    /* ── URL Queue ── */
+    .queue-section { margin-bottom: 24px; }
+    .queue-input-row {
+      display: flex; gap: 8px; margin-bottom: 14px;
+    }
+    .queue-input-row input {
+      flex: 1; padding: 10px 14px; border: 1px solid #e2e8f0; border-radius: 8px;
+      font-size: 14px; color: #1e293b; outline: none; background: #fff;
+      transition: border-color 0.15s;
+    }
+    .queue-input-row input:focus { border-color: #6366f1; }
+    .queue-input-row input::placeholder { color: #94a3b8; }
+    .queue-label {
+      font-size: 12px; font-weight: 600; color: #64748b;
+      text-transform: uppercase; letter-spacing: .05em;
+      margin-bottom: 10px;
+    }
+    .queue-items { display: flex; flex-direction: column; gap: 8px; }
+    .queue-item {
+      display: flex; align-items: center; gap: 12px;
+      background: #fff; border: 1px solid #e2e8f0; border-radius: 10px;
+      padding: 11px 14px; font-size: 13px;
+    }
+    .queue-item-info { flex: 1; min-width: 0; }
+    .queue-item-url {
+      font-size: 12px; color: #64748b; white-space: nowrap;
+      overflow: hidden; text-overflow: ellipsis; margin-top: 2px;
+    }
+    .queue-item-title { font-weight: 600; color: #1e293b; font-size: 13px; }
+    .queue-item-meta { font-size: 11px; color: #94a3b8; margin-top: 3px; }
+    .q-badge {
+      font-size: 11px; font-weight: 600; padding: 3px 9px;
+      border-radius: 20px; white-space: nowrap; flex-shrink: 0;
+    }
+    .q-queued        { background:#f1f5f9; color:#64748b; }
+    .q-downloading   { background:#dbeafe; color:#2563eb; }
+    .q-transcribing  { background:#ede9fe; color:#7c3aed; }
+    .q-generating_clips { background:#fef3c7; color:#d97706; }
+    .q-scheduled     { background:#d1fae5; color:#059669; }
+    .q-done          { background:#dcfce7; color:#16a34a; }
+    .q-failed        { background:#fee2e2; color:#dc2626; }
+    .q-spinner { display:inline-block; animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .queue-remove-btn {
+      background: none; border: none; cursor: pointer; color: #cbd5e1;
+      font-size: 16px; line-height: 1; padding: 2px 4px; flex-shrink: 0;
+    }
+    .queue-remove-btn:hover { color: #ef4444; }
+
     /* ── Clips grid ── */
     .clips-grid {
       display: grid;
@@ -385,6 +434,21 @@
 </header>
 
 <main>
+  <!-- ── URL Queue ── -->
+  <div class="queue-section" id="queue-section">
+    <div id="url-input-area" style="display:none">
+      <div class="queue-label">Add to Queue</div>
+      <div class="queue-input-row">
+        <input type="text" id="url-input" placeholder="Paste YouTube URL and press Enter…" autocomplete="off">
+        <button class="btn btn-primary" id="add-url-btn">Add</button>
+      </div>
+    </div>
+    <div id="queue-container" style="display:none">
+      <div class="queue-label">Processing Queue</div>
+      <div class="queue-items" id="queue-items"></div>
+    </div>
+  </div>
+
   <div class="filter-bar">
     <button class="filter-btn active" data-filter="all">All</button>
     <button class="filter-btn" data-filter="ready">Ready</button>
@@ -481,6 +545,124 @@ const PLATFORM_META = {
   tiktok:    { label: 'TikTok',    icon: '♪', iconClass: 'pi-tiktok'    },
   instagram: { label: 'Instagram', icon: '◈', iconClass: 'pi-instagram' }
 };
+
+// ── Queue ─────────────────────────────────────────────────────────────────────
+
+let queueData = [];
+let queueRefreshTimer = null;
+
+const STATUS_LABELS = {
+  queued:          '● Queued',
+  downloading:     '⟳ Downloading',
+  transcribing:    '⟳ Transcribing',
+  generating_clips:'⟳ Generating',
+  scheduled:       '✓ Scheduled',
+  done:            '✓ Done',
+  failed:          '✗ Failed',
+};
+
+function shortUrl(url) {
+  try {
+    const u = new URL(url);
+    const v = u.searchParams.get('v') || '';
+    const host = u.hostname.replace('www.', '');
+    return v ? `${host}/watch?v=${v.slice(0, 8)}…` : url.slice(0, 50);
+  } catch { return url.slice(0, 50); }
+}
+
+function timeAgo(isoStr) {
+  if (!isoStr) return '';
+  const diff = (Date.now() - new Date(isoStr)) / 1000;
+  if (diff < 60)  return 'just now';
+  if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
+  if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+  return `${Math.floor(diff / 86400)}d ago`;
+}
+
+const ACTIVE_STATUSES = new Set(['downloading', 'transcribing', 'generating_clips']);
+
+function renderQueue() {
+  const container = document.getElementById('queue-container');
+  const itemsEl   = document.getElementById('queue-items');
+  if (!queueData.length) { container.style.display = 'none'; return; }
+
+  container.style.display = '';
+  itemsEl.innerHTML = queueData.map(item => {
+    const active = ACTIVE_STATUSES.has(item.status);
+    const label  = STATUS_LABELS[item.status] || item.status;
+    const spinner = active ? '<span class="q-spinner">↻</span> ' : '';
+    const removeBtn = !active && !IS_READONLY
+      ? `<button class="queue-remove-btn" onclick="removeQueueItem('${item.id}')" title="Remove">×</button>` : '';
+    const metaParts = [timeAgo(item.addedAt)];
+    if (item.clipsCount) metaParts.push(`${item.clipsCount} clip${item.clipsCount !== 1 ? 's' : ''}`);
+    if (item.error) metaParts.push(`Error: ${item.error.slice(0, 80)}`);
+    return `<div class="queue-item" data-id="${item.id}">
+      <div class="queue-item-info">
+        <div class="queue-item-title">${item.title || shortUrl(item.url)}</div>
+        <div class="queue-item-url">${item.url}</div>
+        <div class="queue-item-meta">${metaParts.join(' · ')}</div>
+      </div>
+      <span class="q-badge q-${item.status}">${spinner}${label}</span>
+      ${removeBtn}
+    </div>`;
+  }).join('');
+}
+
+async function loadQueue() {
+  try {
+    const res  = await fetch('/api/queue');
+    const data = await res.json();
+    queueData  = Array.isArray(data.queue) ? data.queue : [];
+    renderQueue();
+  } catch { /* silent */ }
+}
+
+async function addQueueItem() {
+  const input = document.getElementById('url-input');
+  const url   = (input.value || '').trim();
+  if (!url) return;
+  const btn = document.getElementById('add-url-btn');
+  btn.disabled = true;
+  btn.textContent = 'Adding…';
+  try {
+    const res = await fetch('/api/queue', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url }),
+    });
+    const json = await res.json();
+    if (!res.ok) return alert(json.error || 'Failed to add URL');
+    input.value = '';
+    await loadQueue();
+  } catch (err) { alert('Error: ' + err.message); }
+  finally { btn.disabled = false; btn.textContent = 'Add'; }
+}
+
+async function removeQueueItem(id) {
+  try {
+    await fetch(`/api/queue/${id}`, { method: 'DELETE' });
+    await loadQueue();
+  } catch (err) { alert('Error: ' + err.message); }
+}
+
+function initQueue() {
+  if (!IS_READONLY) {
+    document.getElementById('url-input-area').style.display = '';
+    const btn   = document.getElementById('add-url-btn');
+    const input = document.getElementById('url-input');
+    btn.addEventListener('click', addQueueItem);
+    input.addEventListener('keydown', e => { if (e.key === 'Enter') addQueueItem(); });
+  }
+  loadQueue();
+  // Refresh queue more frequently when items are active
+  const refreshQueue = async () => {
+    await loadQueue();
+    const hasActive = queueData.some(i => ACTIVE_STATUSES.has(i.status));
+    clearTimeout(queueRefreshTimer);
+    queueRefreshTimer = setTimeout(refreshQueue, hasActive ? 8000 : 60000);
+  };
+  setTimeout(refreshQueue, 8000);
+}
 
 // ── State ─────────────────────────────────────────────────────────────────────
 
@@ -1275,6 +1457,7 @@ if (IS_READONLY) {
   setInterval(loadData, 60_000);
 }
 
+initQueue();
 loadData().then(() => window.dispatchEvent(new Event('ytLoaded')));
 </script>
 
