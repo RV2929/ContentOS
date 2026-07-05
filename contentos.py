@@ -273,7 +273,6 @@ def _schedule_clips(
             "description": description,
             "visibility": "public",
             "status": "pending",
-            "tiktokStatus": "pending",
             "batchId": batch_id,
             "clipIndex": clip_index,
         }

@@ -22,9 +22,6 @@ const QUEUE_FILE     = path.join(__dirname, 'queue.json');
 const QUEUE_DATA_FILE = path.join(__dirname, 'public', 'queue-data.json');
 const CONTENTOS_DIR      = path.join(__dirname, '..');
 const RUN_SH             = path.join(CONTENTOS_DIR, 'run.sh');
-const TIKTOK_UPLOADER    = path.join(CONTENTOS_DIR, 'tiktok_uploader.py');
-const TIKTOK_SESSION_FILE = path.join(__dirname, 'tiktok-session.json');
-const VENV_PYTHON        = path.join(CONTENTOS_DIR, 'venv', 'bin', 'python');
 
 // youtube (full scope) is required for both videos.insert and videos.update (cross-linking)
 const SCOPES = [
@@ -394,7 +391,6 @@ app.get('/api/clips', (req, res) => {
       youtubeId: state[filename]?.youtubeId || '',
       scheduledAt: schedPending ? sched.scheduledAt : null,
       scheduleStatus: sched?.status || null,
-      tiktokStatus: sched?.tiktokStatus || null,
       thumbnailUrl,
     };
   }));
@@ -575,88 +571,6 @@ async function doUpload(jobId, filePath, filename, meta) {
   setTimeout(() => uploadJobs.delete(jobId), 10 * 60 * 1000);
 }
 
-// ── TikTok upload ─────────────────────────────────────────────────────────────
-
-const tiktokInProgress = new Set();
-
-function hasTikTokSession() {
-  return fs.existsSync(TIKTOK_SESSION_FILE);
-}
-
-// Returns a promise that resolves to { ok, error? }
-function doTikTokUpload(filePath, filename, caption) {
-  return new Promise((resolve) => {
-    if (!fs.existsSync(filePath)) {
-      return resolve({ ok: false, error: 'File not found' });
-    }
-
-    console.log(`[tiktok] Starting upload: ${filename}`);
-    const proc = spawn(VENV_PYTHON, [TIKTOK_UPLOADER, filePath, caption], {
-      cwd: CONTENTOS_DIR,
-      env: { ...process.env },
-    });
-
-    let stdout = '';
-    let stderr = '';
-    proc.stdout.on('data', d => { stdout += d; process.stdout.write('[tiktok] ' + d); });
-    proc.stderr.on('data', d => { stderr += d; process.stderr.write(d); });
-
-    proc.on('close', code => {
-      // tiktok_uploader.py prints a JSON line as the last line of stdout
-      const lines = stdout.trim().split('\n').filter(Boolean);
-      const last  = lines[lines.length - 1] || '';
-      try {
-        const result = JSON.parse(last);
-        resolve(result);
-      } catch {
-        resolve({ ok: code === 0, error: code !== 0 ? (stderr.slice(-300) || `exit ${code}`) : undefined });
-      }
-    });
-  });
-}
-
-// GET /api/tiktok/status — is a session saved?
-app.get('/api/tiktok/status', (req, res) => {
-  res.json({ connected: hasTikTokSession() });
-});
-
-// POST /api/upload/tiktok — manual upload from dashboard
-app.post('/api/upload/tiktok', async (req, res) => {
-  const { filename, caption } = req.body;
-  if (!filename) return res.status(400).json({ error: 'filename required' });
-  if (!hasTikTokSession()) return res.status(401).json({ error: 'TikTok not connected — run: python tiktok_uploader.py --login' });
-
-  const filePath = path.join(CLIPS_DIR, filename);
-  if (!fs.existsSync(filePath)) return res.status(404).json({ error: 'Clip not found' });
-  if (tiktokInProgress.has(filename)) return res.status(409).json({ error: 'TikTok upload already in progress' });
-
-  // Respond immediately with a jobId; upload happens async
-  const jobId = `tt-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`;
-  uploadJobs.set(jobId, { status: 'uploading', percent: 0, filename, platform: 'tiktok' });
-  res.json({ jobId });
-
-  tiktokInProgress.add(filename);
-  doTikTokUpload(filePath, filename, caption || filename.replace(/_/g, ' '))
-    .then(result => {
-      if (result.ok) {
-        uploadJobs.set(jobId, { status: 'complete', percent: 100, filename, platform: 'tiktok' });
-        const s = loadSchedule();
-        if (s[filename]) { s[filename].tiktokStatus = 'done'; saveJSON(SCHEDULE_FILE, s); }
-        console.log(`[tiktok] ${filename}: done`);
-        scheduleSyncToGitHub(`tiktok done: ${filename}`);
-      } else {
-        uploadJobs.set(jobId, { status: 'error', error: result.error, filename, platform: 'tiktok' });
-        const s = loadSchedule();
-        if (s[filename]) { s[filename].tiktokStatus = 'failed'; s[filename].tiktokError = result.error; saveJSON(SCHEDULE_FILE, s); }
-        console.error(`[tiktok] ${filename}: ${result.error}`);
-      }
-    })
-    .finally(() => {
-      tiktokInProgress.delete(filename);
-      setTimeout(() => uploadJobs.delete(jobId), 10 * 60 * 1000);
-    });
-});
-
 // ── Upload progress (Server-Sent Events) ──────────────────────────────────────
 
 app.get('/api/upload-progress/:jobId', (req, res) => {
@@ -784,39 +698,6 @@ async function runScheduler() {
   const schedule = loadSchedule();
   const now = new Date();
 
-  // ── TikTok auto-uploads ──────────────────────────────────────────────────
-  if (hasTikTokSession()) {
-    for (const [filename, entry] of Object.entries(schedule)) {
-      if (entry.tiktokStatus !== 'pending') continue;
-      if (tiktokInProgress.has(filename)) continue;
-      if (new Date(entry.scheduledAt) > now) continue;
-
-      const filePath = path.join(CLIPS_DIR, filename);
-      if (!fs.existsSync(filePath)) {
-        const s = loadSchedule();
-        if (s[filename]) { s[filename].tiktokStatus = 'failed'; s[filename].tiktokError = 'File not found'; saveJSON(SCHEDULE_FILE, s); }
-        continue;
-      }
-
-      tiktokInProgress.add(filename);
-      const s0 = loadSchedule();
-      if (s0[filename]) { s0[filename].tiktokStatus = 'uploading'; saveJSON(SCHEDULE_FILE, s0); }
-
-      const caption = (entry.title || filename.replace(/_/g, ' ')) + ' #shorts #fyp';
-      doTikTokUpload(filePath, filename, caption).then(result => {
-        const s = loadSchedule();
-        if (s[filename]) {
-          s[filename].tiktokStatus = result.ok ? 'done' : 'failed';
-          if (!result.ok) s[filename].tiktokError = result.error;
-          saveJSON(SCHEDULE_FILE, s);
-        }
-        console.log(`[tiktok scheduler] ${filename}: ${result.ok ? 'done' : result.error}`);
-        scheduleSyncToGitHub(`tiktok ${result.ok ? 'done' : 'failed'}: ${filename}`);
-      }).finally(() => tiktokInProgress.delete(filename));
-    }
-  }
-
-  // ── YouTube auto-uploads ─────────────────────────────────────────────────
   if (!loadJSON(TOKENS_FILE, null)) return; // YouTube not connected yet
 
   for (const [filename, entry] of Object.entries(schedule)) {
