@@ -121,6 +121,22 @@ function writeQueueData() {
   fs.writeFileSync(QUEUE_DATA_FILE, JSON.stringify(q, null, 2));
 }
 
+// Extracts the YouTube video ID from any standard URL format.
+// Returns null if it cannot be determined.
+function extractVideoId(url) {
+  try {
+    const u = new URL(url);
+    const host = u.hostname.replace(/^www\./, '');
+    if (host === 'youtu.be') return u.pathname.slice(1).split('?')[0] || null;
+    if (host === 'youtube.com' || host === 'm.youtube.com') {
+      if (u.pathname.startsWith('/shorts/')) return u.pathname.slice(8).split('/')[0] || null;
+      if (u.pathname.startsWith('/live/'))   return u.pathname.slice(6).split('/')[0] || null;
+      return u.searchParams.get('v') || null;
+    }
+  } catch { /* ignore malformed URLs */ }
+  return null;
+}
+
 // GET /api/queue — full queue state
 app.get('/api/queue', (req, res) => res.json(loadQueue()));
 
@@ -130,10 +146,24 @@ app.post('/api/queue', (req, res) => {
   if (!url || !/^https?:\/\//i.test(url.trim())) {
     return res.status(400).json({ error: 'Valid YouTube URL required' });
   }
-  const q = loadQueue();
+
+  const trimmed = url.trim();
+  const newId   = extractVideoId(trimmed);
+  const q       = loadQueue();
+
+  // Reject duplicates against any non-failed item (failed items can be retried)
+  const duplicate = q.queue.find(item => {
+    if (item.status === 'failed') return false;
+    if (newId) return extractVideoId(item.url) === newId;
+    return item.url === trimmed; // fallback: exact URL match
+  });
+  if (duplicate) {
+    return res.status(409).json({ error: 'This video has already been processed or is in the queue' });
+  }
+
   const id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
   q.queue.push({
-    id, url: url.trim(), title: '', status: 'queued',
+    id, url: trimmed, title: '', status: 'queued',
     addedAt: new Date().toISOString(), startedAt: null,
     completedAt: null, clipsCount: 0, batchId: null, error: null,
   });
