@@ -7,6 +7,7 @@ const execAsync = promisify(exec);
 const { google } = require('googleapis');
 
 const app = express();
+app.use(express.json());
 const PORT = process.env.PORT || 3000;
 // PUBLIC_URL is set when running behind a tunnel (e.g. https://contentos.yourdomain.com).
 // Falls back to localhost for local-only use.
@@ -301,7 +302,6 @@ function getAuthedClient() {
 
 // ── Express setup ─────────────────────────────────────────────────────────────
 
-app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // ── Video streaming (range request support for seeking) ───────────────────────
