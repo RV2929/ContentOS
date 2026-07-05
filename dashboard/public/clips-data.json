@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T14:26:13.304Z",
+  "lastUpdated": "2026-07-05T14:31:08.313Z",
   "clips": [
     {
       "filename": "119b_Your_Success_Door_Is_Locked_clip01_A_live_demonstration_of_mind_conditionin.mp4",
@@ -282,10 +282,10 @@
     },
     {
       "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip01_The_Ferrari_valet_story_delivers_a_jolti.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-05T14:30:37.273811+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Ia248WMo6Tw",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Nobody Is Actually Thinking About You",
       "thumbnailPath": "/thumbnails/The_Best_Financial_Advice_Youll_Ever_Hea_clip01_The_Ferrari_valet_story_delivers_a_jolti.jpg"
     },
