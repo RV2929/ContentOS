@@ -1036,7 +1036,7 @@ function cardBottomHTML(filename, status) {
                    : ttStatus === 'uploading'? '⟳ TikTok'
                    :                          '♪ TikTok';
   // Always show TikTok button locally (click handler shows error if no session)
-  const ttBtn = (!IS_READONLY && !isScheduled && ttStatus !== 'uploading')
+  const ttBtn = (!IS_READONLY && ttStatus !== 'uploading')
     ? `<button class="btn btn-tiktok btn-sm act-upload-tt" ${ttStatus === 'done' ? 'style="opacity:.6"' : ''}>${ttBtnLabel}</button>`
     : '';
 
