@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T14:17:04.307Z",
+  "lastUpdated": "2026-07-05T14:20:37Z",
   "clips": [
     {
       "filename": "119b_Your_Success_Door_Is_Locked_clip01_A_live_demonstration_of_mind_conditionin.mp4",
@@ -279,6 +279,78 @@
       "scheduleStatus": "failed",
       "title": "Gorilla Responds To Human Peace Sound",
       "thumbnailPath": null
+    },
+    {
+      "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip01_The_Ferrari_valet_story_delivers_a_jolti.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-05T14:30:37.273811+00:00",
+      "scheduleStatus": "pending",
+      "title": "Nobody Is Actually Thinking About You",
+      "thumbnailPath": "/thumbnails/The_Best_Financial_Advice_Youll_Ever_Hea_clip01_The_Ferrari_valet_story_delivers_a_jolti.jpg"
+    },
+    {
+      "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip02_The_stunning_stat_that_Warren_Buffett_bu.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-05T17:00:37.273811+00:00",
+      "scheduleStatus": "pending",
+      "title": "Warren Buffett Built 99% of His Wealth After 60",
+      "thumbnailPath": "/thumbnails/The_Best_Financial_Advice_Youll_Ever_Hea_clip02_The_stunning_stat_that_Warren_Buffett_bu.jpg"
+    },
+    {
+      "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip03_The_Vanderbilt_heirs_born_into_billions_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-05T19:30:37.273811+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Richest Family in America Was Miserable",
+      "thumbnailPath": "/thumbnails/The_Best_Financial_Advice_Youll_Ever_Hea_clip03_The_Vanderbilt_heirs_born_into_billions_.jpg"
+    },
+    {
+      "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip04_A_celebrity_story_proving_money_didnt_cu.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-05T22:00:37.273811+00:00",
+      "scheduleStatus": "pending",
+      "title": "Will Smith Got Rich and Still Felt Empty",
+      "thumbnailPath": "/thumbnails/The_Best_Financial_Advice_Youll_Ever_Hea_clip04_A_celebrity_story_proving_money_didnt_cu.jpg"
+    },
+    {
+      "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip05_A_gas-station_janitor_secretly_leaving_m.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-06T00:30:37.273811+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Gas Station Janitor Left Millions to Charity",
+      "thumbnailPath": "/thumbnails/The_Best_Financial_Advice_Youll_Ever_Hea_clip05_A_gas-station_janitor_secretly_leaving_m.jpg"
+    },
+    {
+      "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip06_Direct_answer_to_the_number-one_thing_ke.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-06T03:00:37.273811+00:00",
+      "scheduleStatus": "pending",
+      "title": "This One Thing Keeps Most People Broke Forever",
+      "thumbnailPath": "/thumbnails/The_Best_Financial_Advice_Youll_Ever_Hea_clip06_Direct_answer_to_the_number-one_thing_ke.jpg"
+    },
+    {
+      "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip07_The_line_that_every_dollar_of_debt_is_a_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-06T05:30:37.273811+00:00",
+      "scheduleStatus": "pending",
+      "title": "Debt Means Someone Else Owns Your Future",
+      "thumbnailPath": "/thumbnails/The_Best_Financial_Advice_Youll_Ever_Hea_clip07_The_line_that_every_dollar_of_debt_is_a_.jpg"
+    },
+    {
+      "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip08_A_crisp_repeatable_definition_of_happine.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-06T08:00:37.273811+00:00",
+      "scheduleStatus": "pending",
+      "title": "Happiness Is Actually Just One Simple Gap",
+      "thumbnailPath": "/thumbnails/The_Best_Financial_Advice_Youll_Ever_Hea_clip08_A_crisp_repeatable_definition_of_happine.jpg"
     }
   ]
 }
