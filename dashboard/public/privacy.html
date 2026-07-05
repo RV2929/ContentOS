@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — ContentOS</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      line-height: 1.7;
+    }
+    header {
+      background: #fff;
+      border-bottom: 1px solid #e2e8f0;
+      padding: 0 32px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo { font-weight: 700; font-size: 17px; color: #1e293b; text-decoration: none; }
+    .logo span { color: #6366f1; }
+    header a.back {
+      font-size: 13px; color: #6366f1; text-decoration: none; font-weight: 500;
+    }
+    header a.back:hover { text-decoration: underline; }
+    main {
+      max-width: 740px;
+      margin: 48px auto;
+      padding: 0 24px 80px;
+    }
+    .page-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 6px;
+    }
+    .updated {
+      font-size: 13px;
+      color: #94a3b8;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1e293b;
+      margin: 32px 0 10px;
+    }
+    p { font-size: 15px; color: #475569; margin-bottom: 12px; }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    ul li { font-size: 15px; color: #475569; margin-bottom: 6px; }
+    .highlight {
+      background: #f0fdf4;
+      border-left: 3px solid #4ade80;
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      font-size: 15px;
+      color: #166534;
+    }
+    a { color: #6366f1; }
+    hr { border: none; border-top: 1px solid #e2e8f0; margin: 40px 0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="/">Content<span>OS</span></a>
+  <a class="back" href="/">← Back to Dashboard</a>
+</header>
+
+<main>
+  <h1 class="page-title">Privacy Policy</h1>
+  <p class="updated">Last updated: July 5, 2026</p>
+
+  <div class="highlight">
+    ContentOS is a personal tool. It does not sell, share, or monetise any data. All processing happens on your own machine.
+  </div>
+
+  <p>This Privacy Policy describes how ContentOS handles information when you use the service.</p>
+
+  <h2>1. Data We Collect</h2>
+  <p>ContentOS collects minimal data necessary to operate the service:</p>
+  <ul>
+    <li><strong>YouTube OAuth tokens</strong> — stored locally on your machine to authenticate uploads. Never transmitted to third parties outside of Google's APIs.</li>
+    <li><strong>Clip metadata</strong> — titles, descriptions, and scheduling information stored locally and synced to a private or public GitHub repository you control.</li>
+    <li><strong>Video files</strong> — processed and stored locally on your machine. Not uploaded to any ContentOS server.</li>
+  </ul>
+
+  <h2>2. Data We Do Not Collect</h2>
+  <p>ContentOS does not collect or store:</p>
+  <ul>
+    <li>Personal identifying information (name, email, address)</li>
+    <li>Payment information</li>
+    <li>Usage analytics or telemetry</li>
+    <li>Browser cookies or tracking data</li>
+    <li>IP addresses or device identifiers</li>
+  </ul>
+
+  <h2>3. Third-Party Services</h2>
+  <p>ContentOS interacts with the following third-party services:</p>
+  <ul>
+    <li><strong>YouTube Data API (Google)</strong> — used to upload videos on your behalf. Governed by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+    <li><strong>Anthropic Claude API</strong> — used to generate clip titles and descriptions. Only clip transcripts are sent, no personal data. Governed by <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">Anthropic's Privacy Policy</a>.</li>
+    <li><strong>GitHub</strong> — clip status data may be synced to a GitHub repository you own and control.</li>
+    <li><strong>Vercel</strong> — this dashboard is hosted on Vercel. Vercel may collect standard server logs. Governed by <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener">Vercel's Privacy Policy</a>.</li>
+  </ul>
+
+  <h2>4. Data Storage</h2>
+  <p>All ContentOS data (video files, tokens, clip metadata) is stored locally on your own machine. The public dashboard on Vercel reads clip status from a GitHub repository you control — no data passes through any ContentOS-operated server.</p>
+
+  <h2>5. Data Retention</h2>
+  <p>ContentOS does not retain any data on external servers. You can delete all data at any time by removing files from your local machine and your GitHub repository.</p>
+
+  <h2>6. Security</h2>
+  <p>API tokens and credentials are stored in local files on your machine. You are responsible for securing your local environment. ContentOS does not transmit credentials to any server other than the authorised third-party APIs they belong to.</p>
+
+  <h2>7. Changes to This Policy</h2>
+  <p>This privacy policy may be updated from time to time. The date at the top of this page reflects the most recent revision.</p>
+
+  <h2>8. Contact</h2>
+  <p>For any questions about this privacy policy, contact us at the email associated with the ContentOS project.</p>
+
+  <hr>
+  <p><a href="/terms">Terms of Service</a> · <a href="/">Dashboard</a></p>
+</main>
+
+</body>
+</html>
