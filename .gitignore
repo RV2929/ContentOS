@@ -1,0 +1,32 @@
+# ── Generated video files ─────────────────────────────────────────────────────
+# Large binary files — regenerated on each ContentOS run
+clips/
+downloads/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ── Secrets & local config ────────────────────────────────────────────────────
+.env
+.env.*
+
+# ── Dashboard — runtime state (local only, never commit) ──────────────────────
+dashboard/node_modules/
+dashboard/yt-credentials.json
+dashboard/yt-tokens.json
+dashboard/state.json
+dashboard/schedule.json
+dashboard/config.json
+dashboard/.env.local
+dashboard/package-lock.json
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store

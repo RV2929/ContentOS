@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Runtime state — local machine only, never commit
+yt-credentials.json
+yt-tokens.json
+state.json
+schedule.json
+config.json
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+.vercel
+.env*

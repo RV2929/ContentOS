@@ -1,0 +1,588 @@
+const express = require('express');
+const fs = require('fs');
+const path = require('path');
+const { exec } = require('child_process');
+const { promisify } = require('util');
+const execAsync = promisify(exec);
+const { google } = require('googleapis');
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+// PUBLIC_URL is set when running behind a tunnel (e.g. https://contentos.yourdomain.com).
+// Falls back to localhost for local-only use.
+const PUBLIC_URL = process.env.PUBLIC_URL || `http://localhost:${PORT}`;
+const CLIPS_DIR = path.join(process.env.HOME, 'Desktop', 'ContentOS', 'clips');
+const STATE_FILE = path.join(__dirname, 'state.json');
+const CONFIG_FILE = path.join(__dirname, 'config.json');
+const CREDENTIALS_FILE = path.join(__dirname, 'yt-credentials.json');
+const TOKENS_FILE = path.join(__dirname, 'yt-tokens.json');
+const SCHEDULE_FILE = path.join(__dirname, 'schedule.json');
+
+// youtube (full scope) is required for both videos.insert and videos.update (cross-linking)
+const SCOPES = [
+  'https://www.googleapis.com/auth/youtube',
+];
+
+const DEFAULT_CONFIG = {
+  accounts: [
+    { id: 'yt-1', platform: 'youtube', name: 'Main YouTube' },
+    { id: 'tt-1', platform: 'tiktok', name: 'Main TikTok' },
+    { id: 'ig-1', platform: 'instagram', name: 'Main Instagram' }
+  ]
+};
+
+// In-memory upload jobs: jobId → { status, percent, filename, videoId?, error? }
+const uploadJobs = new Map();
+
+// Filenames the scheduler is currently uploading (prevents double-firing)
+const schedulingInProgress = new Set();
+
+// ── GitHub sync ───────────────────────────────────────────────────────────────
+// Writes clips-data.json and pushes to GitHub so Vercel reads fresh data
+// without needing a tunnel. Debounced so rapid back-to-back changes only
+// trigger one push.
+
+const CLIPS_DATA_FILE = path.join(__dirname, 'public', 'clips-data.json');
+let _syncTimer = null;
+
+function scheduleSyncToGitHub(reason) {
+  if (_syncTimer) clearTimeout(_syncTimer);
+  _syncTimer = setTimeout(() => {
+    _syncTimer = null;
+    syncToGitHub(reason).catch(err => console.error('[sync]', err.message));
+  }, 3000);
+}
+
+async function syncToGitHub(label) {
+  try {
+    let files = [];
+    try { files = fs.readdirSync(CLIPS_DIR).filter(f => /\.(mp4|mov|webm|avi)$/i.test(f)).sort(); }
+    catch (_) { /* clips dir may not exist yet */ }
+
+    const state    = loadJSON(STATE_FILE, {});
+    const schedule = loadSchedule();
+
+    const clips = files.map(filename => {
+      const stem = filename.replace(/\.[^.]+$/, '');
+      const s    = state[filename]    || {};
+      const sch  = schedule[filename] || {};
+      const pending = sch.status === 'pending' || sch.status === 'uploading';
+      const thumbFile = path.join(THUMBNAILS_DIR, `${stem}.jpg`);
+      return {
+        filename,
+        status:        s.status    || 'ready',
+        youtubeId:     s.youtubeId || '',
+        scheduledAt:   pending ? sch.scheduledAt : null,
+        scheduleStatus: sch.status || null,
+        title:         sch.title   || '',
+        thumbnailPath: fs.existsSync(thumbFile) ? `/thumbnails/${stem}.jpg` : null,
+      };
+    });
+
+    fs.writeFileSync(
+      CLIPS_DATA_FILE,
+      JSON.stringify({ lastUpdated: new Date().toISOString(), clips }, null, 2),
+    );
+
+    await execAsync('git add public/clips-data.json public/thumbnails/', { cwd: __dirname });
+    try {
+      await execAsync(`git commit -m "sync: ${label}"`, { cwd: __dirname });
+      await execAsync('git push', { cwd: __dirname });
+      console.log(`[sync] Pushed to GitHub — ${clips.length} clip(s)`);
+    } catch (e) {
+      const out = (e.stderr || '') + (e.stdout || '');
+      if (!out.includes('nothing to commit') && !out.includes('up to date')) {
+        console.error('[sync] git error:', out.trim());
+      }
+    }
+  } catch (err) {
+    console.error('[sync] failed:', err.message);
+  }
+}
+// Batch IDs currently being cross-linked (prevents duplicate runs)
+const crossLinkInProgress = new Set();
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+
+function loadJSON(file, fallback) {
+  try { return JSON.parse(fs.readFileSync(file, 'utf8')); }
+  catch { return fallback; }
+}
+
+function saveJSON(file, data) {
+  fs.writeFileSync(file, JSON.stringify(data, null, 2));
+}
+
+function ensureConfig() {
+  if (!fs.existsSync(CONFIG_FILE)) saveJSON(CONFIG_FILE, DEFAULT_CONFIG);
+}
+
+function loadSchedule() {
+  return loadJSON(SCHEDULE_FILE, {});
+}
+
+function loadCredentials() {
+  const raw = loadJSON(CREDENTIALS_FILE, null);
+  if (!raw) return null;
+  // Support { installed: {...} }, { web: {...} }, or flat { client_id, client_secret }
+  const c = raw.installed || raw.web || raw;
+  return (c.client_id && c.client_secret) ? c : null;
+}
+
+function getOAuthClient() {
+  const creds = loadCredentials();
+  if (!creds) throw new Error('No YouTube credentials configured');
+  return new google.auth.OAuth2(
+    creds.client_id,
+    creds.client_secret,
+    `${PUBLIC_URL}/auth/youtube/callback`
+  );
+}
+
+function getAuthedClient() {
+  const client = getOAuthClient();
+  const tokens = loadJSON(TOKENS_FILE, null);
+  if (!tokens) throw new Error('YouTube not connected — please authorize first');
+  client.setCredentials(tokens);
+  // Persist refreshed tokens automatically
+  client.on('tokens', (fresh) => {
+    const current = loadJSON(TOKENS_FILE, {});
+    saveJSON(TOKENS_FILE, { ...current, ...fresh });
+  });
+  return client;
+}
+
+// ── Express setup ─────────────────────────────────────────────────────────────
+
+app.use(express.json());
+app.use(express.static(path.join(__dirname, 'public')));
+
+// ── Video streaming (range request support for seeking) ───────────────────────
+
+app.get('/clips/:filename', (req, res) => {
+  const filename = decodeURIComponent(req.params.filename);
+  const filePath = path.join(CLIPS_DIR, filename);
+  if (!filePath.startsWith(CLIPS_DIR + path.sep) && filePath !== CLIPS_DIR)
+    return res.status(403).send('Forbidden');
+  if (!fs.existsSync(filePath)) return res.status(404).send('Not found');
+
+  const { size } = fs.statSync(filePath);
+  const range = req.headers.range;
+  if (range) {
+    const [s, e] = range.replace(/bytes=/, '').split('-');
+    const start = parseInt(s, 10);
+    const end = e ? parseInt(e, 10) : size - 1;
+    res.writeHead(206, {
+      'Content-Range': `bytes ${start}-${end}/${size}`,
+      'Accept-Ranges': 'bytes',
+      'Content-Length': end - start + 1,
+      'Content-Type': 'video/mp4',
+    });
+    fs.createReadStream(filePath, { start, end }).pipe(res);
+  } else {
+    res.writeHead(200, { 'Content-Length': size, 'Content-Type': 'video/mp4', 'Accept-Ranges': 'bytes' });
+    fs.createReadStream(filePath).pipe(res);
+  }
+});
+
+// ── Clips ─────────────────────────────────────────────────────────────────────
+
+const THUMBNAILS_DIR = path.join(__dirname, 'public', 'thumbnails');
+
+app.get('/api/clips', (req, res) => {
+  let files = [];
+  try {
+    files = fs.readdirSync(CLIPS_DIR).filter(f => /\.(mp4|mov|webm|avi)$/i.test(f)).sort();
+  } catch (e) {
+    return res.status(500).json({ error: 'Cannot read clips dir: ' + e.message });
+  }
+  const state = loadJSON(STATE_FILE, {});
+  const schedule = loadSchedule();
+  res.json(files.map(filename => {
+    const sched = schedule[filename];
+    const schedPending = sched?.status === 'pending' || sched?.status === 'uploading';
+    const stem = filename.replace(/\.[^.]+$/, '');
+    const thumbFile = path.join(THUMBNAILS_DIR, `${stem}.jpg`);
+    const thumbnailUrl = fs.existsSync(thumbFile)
+      ? `${PUBLIC_URL}/thumbnails/${stem}.jpg`
+      : null;
+    return {
+      filename,
+      status: state[filename]?.status || 'ready',
+      platform: state[filename]?.platform || '',
+      account: state[filename]?.account || '',
+      youtubeId: state[filename]?.youtubeId || '',
+      scheduledAt: schedPending ? sched.scheduledAt : null,
+      scheduleStatus: sched?.status || null,
+      thumbnailUrl,
+    };
+  }));
+});
+
+app.put('/api/clips/:filename', (req, res) => {
+  const filename = decodeURIComponent(req.params.filename);
+  const state = loadJSON(STATE_FILE, {});
+  state[filename] = { ...(state[filename] || {}), ...req.body };
+  saveJSON(STATE_FILE, state);
+  res.json({ ok: true });
+});
+
+// ── Accounts ──────────────────────────────────────────────────────────────────
+
+app.get('/api/accounts', (req, res) => {
+  ensureConfig();
+  res.json(loadJSON(CONFIG_FILE, DEFAULT_CONFIG).accounts || []);
+});
+
+app.post('/api/accounts', (req, res) => {
+  const { platform, name } = req.body;
+  if (!platform || !name?.trim()) return res.status(400).json({ error: 'platform and name required' });
+  ensureConfig();
+  const config = loadJSON(CONFIG_FILE, DEFAULT_CONFIG);
+  const id = `${platform.slice(0, 2)}-${Date.now()}`;
+  const account = { id, platform: platform.toLowerCase(), name: name.trim() };
+  config.accounts.push(account);
+  saveJSON(CONFIG_FILE, config);
+  res.json({ ok: true, account });
+});
+
+app.delete('/api/accounts/:id', (req, res) => {
+  ensureConfig();
+  const config = loadJSON(CONFIG_FILE, DEFAULT_CONFIG);
+  config.accounts = (config.accounts || []).filter(a => a.id !== req.params.id);
+  saveJSON(CONFIG_FILE, config);
+  res.json({ ok: true });
+});
+
+// ── YouTube OAuth ──────────────────────────────────────────────────────────────
+
+app.get('/auth/youtube', (req, res) => {
+  try {
+    const url = getOAuthClient().generateAuthUrl({
+      access_type: 'offline',
+      scope: SCOPES,
+      prompt: 'consent', // always get refresh_token
+    });
+    res.redirect(url);
+  } catch (e) {
+    res.redirect('/?yt_error=' + encodeURIComponent(e.message));
+  }
+});
+
+app.get('/auth/youtube/callback', async (req, res) => {
+  const { code, error } = req.query;
+  if (error) return res.redirect('/?yt_error=' + encodeURIComponent(error));
+  if (!code) return res.redirect('/?yt_error=no_code');
+  try {
+    const { tokens } = await getOAuthClient().getToken(code);
+    saveJSON(TOKENS_FILE, tokens);
+    res.redirect('/?yt_connected=1');
+  } catch (e) {
+    res.redirect('/?yt_error=' + encodeURIComponent(e.message));
+  }
+});
+
+// ── YouTube API endpoints ──────────────────────────────────────────────────────
+
+app.get('/api/youtube/status', async (req, res) => {
+  const hasCreds = !!loadCredentials();
+  if (!hasCreds) return res.json({ connected: false, hasCredentials: false });
+
+  const tokens = loadJSON(TOKENS_FILE, null);
+  if (!tokens) return res.json({ connected: false, hasCredentials: true });
+
+  try {
+    const client = getOAuthClient();
+    client.setCredentials(tokens);
+    const yt = google.youtube({ version: 'v3', auth: client });
+    const { data } = await yt.channels.list({ part: ['snippet'], mine: true });
+    const name = data.items?.[0]?.snippet?.title;
+    res.json({ connected: true, hasCredentials: true, channelName: name || 'Your Channel' });
+  } catch (e) {
+    res.json({ connected: false, hasCredentials: true, error: e.message });
+  }
+});
+
+app.post('/api/youtube/credentials', (req, res) => {
+  const { client_id, client_secret } = req.body;
+  if (!client_id?.trim() || !client_secret?.trim())
+    return res.status(400).json({ error: 'client_id and client_secret are required' });
+  saveJSON(CREDENTIALS_FILE, { web: { client_id: client_id.trim(), client_secret: client_secret.trim() } });
+  // Clear stale tokens when credentials change
+  if (fs.existsSync(TOKENS_FILE)) fs.unlinkSync(TOKENS_FILE);
+  res.json({ ok: true });
+});
+
+app.delete('/api/youtube/disconnect', (req, res) => {
+  if (fs.existsSync(TOKENS_FILE)) fs.unlinkSync(TOKENS_FILE);
+  res.json({ ok: true });
+});
+
+// ── Upload ────────────────────────────────────────────────────────────────────
+
+app.post('/api/upload/youtube', (req, res) => {
+  const { filename, title, description, visibility } = req.body;
+  if (!filename) return res.status(400).json({ error: 'filename required' });
+
+  const filePath = path.join(CLIPS_DIR, filename);
+  if (!fs.existsSync(filePath)) return res.status(404).json({ error: 'Clip not found' });
+  if (!loadJSON(TOKENS_FILE, null)) return res.status(401).json({ error: 'YouTube not connected' });
+
+  const jobId = `yt-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`;
+  uploadJobs.set(jobId, { status: 'starting', percent: 0, filename });
+
+  res.json({ jobId });
+
+  doUpload(jobId, filePath, filename, { title, description, visibility }).catch(console.error);
+});
+
+async function doUpload(jobId, filePath, filename, meta) {
+  const set = (update) => uploadJobs.set(jobId, { ...uploadJobs.get(jobId), ...update });
+  try {
+    set({ status: 'uploading', percent: 0 });
+
+    const client = getAuthedClient();
+    const youtube = google.youtube({ version: 'v3', auth: client });
+    const fileSize = fs.statSync(filePath).size;
+
+    const rawDesc = meta.description?.trim() || '';
+    // Auto-generated descriptions already contain #Shorts — don't duplicate it
+    const desc = rawDesc
+      ? (rawDesc.toLowerCase().includes('#shorts') ? rawDesc : rawDesc + '\n\n#Shorts')
+      : '#Shorts';
+
+    const { data } = await youtube.videos.insert(
+      {
+        part: ['snippet', 'status'],
+        requestBody: {
+          snippet: {
+            title: meta.title || path.basename(filePath, path.extname(filePath)).replace(/_/g, ' '),
+            description: desc,
+            categoryId: '22', // People & Blogs
+          },
+          status: {
+            privacyStatus: meta.visibility || 'private',
+            selfDeclaredMadeForKids: false,
+          },
+        },
+        media: { mimeType: 'video/mp4', body: fs.createReadStream(filePath) },
+      },
+      {
+        onUploadProgress: (evt) => {
+          if (fileSize > 0 && evt.bytesUploaded) {
+            set({ percent: Math.min(99, Math.round(evt.bytesUploaded / fileSize * 100)) });
+          }
+        },
+      }
+    );
+
+    // Persist to state
+    const state = loadJSON(STATE_FILE, {});
+    state[filename] = { ...(state[filename] || {}), status: 'posted', youtubeId: data.id };
+    saveJSON(STATE_FILE, state);
+
+    set({ status: 'complete', percent: 100, videoId: data.id });
+  } catch (err) {
+    const msg = err?.errors?.[0]?.message || err.message || 'Upload failed';
+    set({ status: 'error', error: msg });
+
+    const state = loadJSON(STATE_FILE, {});
+    if (state[filename]) { state[filename].status = 'failed'; saveJSON(STATE_FILE, state); }
+  }
+
+  // Keep job result in memory for 10 min so SSE clients can retrieve it
+  setTimeout(() => uploadJobs.delete(jobId), 10 * 60 * 1000);
+}
+
+// ── Upload progress (Server-Sent Events) ──────────────────────────────────────
+
+app.get('/api/upload-progress/:jobId', (req, res) => {
+  res.writeHead(200, {
+    'Content-Type': 'text/event-stream',
+    'Cache-Control': 'no-cache',
+    'Connection': 'keep-alive',
+  });
+
+  const { jobId } = req.params;
+  let closed = false;
+
+  const send = (data) => { if (!closed) res.write(`data: ${JSON.stringify(data)}\n\n`); };
+
+  const tick = () => {
+    const job = uploadJobs.get(jobId);
+    if (!job) { send({ status: 'not_found' }); clearInterval(timer); res.end(); return; }
+    send(job);
+    if (job.status === 'complete' || job.status === 'error') { clearInterval(timer); res.end(); }
+  };
+
+  tick();
+  const timer = setInterval(tick, 600);
+  req.on('close', () => { closed = true; clearInterval(timer); });
+});
+
+// ── Schedule ──────────────────────────────────────────────────────────────────
+
+app.get('/api/schedule', (req, res) => res.json(loadSchedule()));
+
+app.delete('/api/schedule/:filename', (req, res) => {
+  const filename = decodeURIComponent(req.params.filename);
+  if (schedulingInProgress.has(filename))
+    return res.status(409).json({ error: 'Upload already in progress' });
+  const schedule = loadSchedule();
+  delete schedule[filename];
+  saveJSON(SCHEDULE_FILE, schedule);
+  res.json({ ok: true });
+});
+
+// ── Cross-linking ─────────────────────────────────────────────────────────────
+
+async function checkAndCrossLink(batchId) {
+  if (crossLinkInProgress.has(batchId)) return;
+
+  const schedule = loadSchedule();
+  const batch = Object.entries(schedule).filter(([, e]) => e.batchId === batchId);
+  if (!batch.length) return;
+
+  // Already done or not all clips finished yet
+  if (batch.some(([, e]) => e.crossLinked)) return;
+  if (!batch.every(([, e]) => e.status === 'done' && e.videoId)) return;
+
+  crossLinkInProgress.add(batchId);
+  console.log(`[cross-link] All clips done for batch "${batchId}" — updating descriptions`);
+  try {
+    await crossLinkBatch(batchId, batch);
+    scheduleSyncToGitHub(`cross-linked ${batchId}`);
+  } finally {
+    crossLinkInProgress.delete(batchId);
+  }
+}
+
+async function crossLinkBatch(batchId, batch) {
+  let client;
+  try { client = getAuthedClient(); } catch (e) {
+    console.error(`[cross-link] Cannot get auth client: ${e.message}`);
+    return;
+  }
+  const youtube = google.youtube({ version: 'v3', auth: client });
+
+  // Sort by clipIndex so the list reads Clip 1, 2, 3…
+  const sorted = [...batch].sort((a, b) => (a[1].clipIndex || 0) - (b[1].clipIndex || 0));
+
+  const seriesLines = sorted
+    .map(([, e]) => `Clip ${e.clipIndex}: https://www.youtube.com/shorts/${e.videoId}`)
+    .join('\n');
+  const seriesFooter = `\n\n--- Watch the full series ---\n${seriesLines}`;
+
+  for (const [filename, entry] of sorted) {
+    try {
+      const { data } = await youtube.videos.list({ part: ['snippet'], id: [entry.videoId] });
+      const video = data.items?.[0];
+      if (!video) { console.log(`[cross-link] Not found on YouTube: ${entry.videoId}`); continue; }
+
+      const snippet = video.snippet;
+      // Guard against running twice if the footer is already there
+      if ((snippet.description || '').includes('--- Watch the full series ---')) {
+        const s = loadSchedule();
+        if (s[filename]) { s[filename].crossLinked = true; saveJSON(SCHEDULE_FILE, s); }
+        continue;
+      }
+
+      await youtube.videos.update({
+        part: ['snippet'],
+        requestBody: {
+          id: entry.videoId,
+          snippet: {
+            title: snippet.title,
+            description: (snippet.description || '') + seriesFooter,
+            categoryId: snippet.categoryId || '22',
+            ...(snippet.tags      && { tags: snippet.tags }),
+            ...(snippet.defaultLanguage && { defaultLanguage: snippet.defaultLanguage }),
+          },
+        },
+      });
+
+      const s = loadSchedule();
+      if (s[filename]) { s[filename].crossLinked = true; saveJSON(SCHEDULE_FILE, s); }
+      console.log(`[cross-link] Updated clip ${entry.clipIndex}: ${entry.videoId}`);
+    } catch (err) {
+      if (err.code === 403 || err.message?.includes('insufficientPermissions')) {
+        console.error('[cross-link] Insufficient scope — disconnect and reconnect YouTube to grant update permission');
+        break;
+      }
+      console.error(`[cross-link] Failed for ${filename}: ${err.message}`);
+    }
+  }
+}
+
+// ── Background scheduler ──────────────────────────────────────────────────────
+
+async function runScheduler() {
+  if (!loadJSON(TOKENS_FILE, null)) return; // YouTube not connected yet
+
+  const schedule = loadSchedule();
+  const now = new Date();
+
+  for (const [filename, entry] of Object.entries(schedule)) {
+    if (entry.status !== 'pending') continue;
+    if (schedulingInProgress.has(filename)) continue;
+    if (new Date(entry.scheduledAt) > now) continue;
+
+    const filePath = path.join(CLIPS_DIR, filename);
+    if (!fs.existsSync(filePath)) {
+      entry.status = 'failed';
+      entry.error = 'File not found';
+      saveJSON(SCHEDULE_FILE, loadSchedule()); // reload to avoid stomping concurrent writes
+      const s = loadSchedule();
+      s[filename] = { ...s[filename], status: 'failed', error: 'File not found' };
+      saveJSON(SCHEDULE_FILE, s);
+      continue;
+    }
+
+    schedulingInProgress.add(filename);
+    console.log(`[scheduler] Starting upload: ${filename}`);
+
+    // Mark as uploading so the dashboard reflects it immediately
+    const s0 = loadSchedule();
+    if (s0[filename]) { s0[filename].status = 'uploading'; saveJSON(SCHEDULE_FILE, s0); }
+
+    const jobId = `sched-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`;
+    uploadJobs.set(jobId, { status: 'starting', percent: 0, filename });
+
+    doUpload(jobId, filePath, filename, {
+      title: entry.title || path.basename(filename, path.extname(filename)).replace(/_/g, ' '),
+      description: entry.description || '',
+      visibility: entry.visibility || 'public',
+    }).then(async () => {
+      const job = uploadJobs.get(jobId);
+      const finalStatus = job?.status === 'complete' ? 'done' : 'failed';
+      const s = loadSchedule();
+      if (s[filename]) {
+        s[filename].status = finalStatus;
+        if (job?.videoId) s[filename].videoId = job.videoId;
+        if (job?.error)   s[filename].error   = job.error;
+        saveJSON(SCHEDULE_FILE, s);
+      }
+      console.log(`[scheduler] ${filename}: ${finalStatus}`);
+      scheduleSyncToGitHub(`${filename} ${finalStatus}`);
+
+      // When a clip succeeds, check if the whole batch is done and cross-link
+      if (finalStatus === 'done' && entry.batchId) {
+        await checkAndCrossLink(entry.batchId);
+      }
+    }).finally(() => {
+      schedulingInProgress.delete(filename);
+    });
+  }
+}
+
+// Check 5 s after startup then every 60 s
+setTimeout(runScheduler, 5000);
+setInterval(runScheduler, 60 * 1000);
+
+// ── Start ─────────────────────────────────────────────────────────────────────
+
+app.listen(PORT, () => {
+  const local = `http://localhost:${PORT}`;
+  const pub   = PUBLIC_URL !== local ? `\n  Public URL  → ${PUBLIC_URL}` : '';
+  console.log(`\n  ContentOS Dashboard → ${local}${pub}\n`);
+});
