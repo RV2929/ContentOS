@@ -27,6 +27,7 @@ dashboard/config.json
 dashboard/.env.local
 dashboard/package-lock.json
 dashboard/queue.json
+dashboard/tiktok-session.json
 
 # ── macOS ─────────────────────────────────────────────────────────────────────
 .DS_Store

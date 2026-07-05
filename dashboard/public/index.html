@@ -72,6 +72,8 @@
     .btn-neutral   { background: #64748b; color: #fff; }
     .btn-youtube   { background: #ef4444; color: #fff; }
     .btn-youtube:hover { background: #dc2626; opacity: 1; }
+    .btn-tiktok    { background: #010101; color: #fff; }
+    .btn-tiktok:hover  { background: #333; opacity: 1; }
     .btn-sm        { padding: 5px 10px; font-size: 12px; border-radius: 6px; }
 
     /* YouTube status button in header */
@@ -718,7 +720,8 @@ let allClips = [];
 let accounts = [];
 let currentFilter = 'all';
 let ytState = { connected: false, channelName: '', hasCredentials: false };
-const activeUploads = new Map(); // filename → { status, percent, videoId?, error? }
+let ttState = { connected: false };  // TikTok session state
+const activeUploads = new Map(); // filename → { status, percent, videoId?, error?, platform? }
 let uploadPendingFilename = null;
 let uploadVisibility = 'private';
 
@@ -766,7 +769,7 @@ async function loadData() {
     api('GET', '/api/clips'),
     api('GET', '/api/accounts'),
   ]);
-  await loadYtStatus();
+  await Promise.all([loadYtStatus(), loadTtStatus()]);
   updateStats();
   renderClips();
 }
@@ -818,6 +821,13 @@ async function loadYtStatus() {
     ytState = { connected: d.connected, channelName: d.channelName || '', hasCredentials: d.hasCredentials };
   } catch { ytState = { connected: false, channelName: '', hasCredentials: false }; }
   updateYtHeaderBtn();
+}
+
+async function loadTtStatus() {
+  try {
+    const d = await api('GET', '/api/tiktok/status');
+    ttState = { connected: d.connected };
+  } catch { ttState = { connected: false }; }
 }
 
 function updateYtHeaderBtn() {
@@ -991,13 +1001,16 @@ function cardBottomHTML(filename, status) {
     const isDone     = upload.status === 'complete';
     const isErr      = upload.status === 'error';
     const isStarting = upload.status === 'starting';
+    const isTikTok   = upload.platform === 'tiktok';
     const displayPct = (isDone || isErr) ? 100 : pct;
     const fillCls    = isDone ? 'done' : isErr ? 'err' : '';
-    const label = isDone     ? '✓ Uploaded to YouTube!'
+    const platform   = isTikTok ? 'TikTok' : 'YouTube';
+    const label = isDone     ? `✓ Uploaded to ${platform}!`
                 : isErr      ? '✕ ' + (upload.error || 'Upload failed')
                 : isStarting ? 'Preparing…'
+                : isTikTok   ? 'Uploading to TikTok…'
                 :              `Uploading… ${pct}%`;
-    const viewLink = (isDone && upload.videoId)
+    const viewLink = (isDone && upload.videoId && !isTikTok)
       ? `<a href="https://youtube.com/shorts/${upload.videoId}" target="_blank" rel="noopener">View ↗</a>`
       : '';
     return `
@@ -1009,13 +1022,21 @@ function cardBottomHTML(filename, status) {
       </div>`;
   }
 
-  // Scheduled clips get a cancel button; manual YouTube button is hidden (scheduler handles it)
+  // Scheduled clips get a cancel button; manual upload buttons hidden while scheduled
   const isScheduled = schedStatus === 'pending';
+  const ttStatus    = clip?.tiktokStatus;
   const cancelBtn = isScheduled
     ? `<button class="btn btn-ghost btn-sm act-cancel-sched">✕ Cancel Schedule</button>`
     : '';
   const ytBtn = (ytState.connected && status === 'ready' && !isScheduled)
     ? `<button class="btn btn-youtube btn-sm act-upload-yt">▶ YouTube</button>`
+    : '';
+  const ttBtnLabel = ttStatus === 'done'     ? '✓ TikTok'
+                   : ttStatus === 'failed'   ? '↺ TikTok'
+                   : ttStatus === 'uploading'? '⟳ TikTok'
+                   :                          '♪ TikTok';
+  const ttBtn = (!IS_READONLY && ttState.connected && !isScheduled && ttStatus !== 'uploading')
+    ? `<button class="btn btn-tiktok btn-sm act-upload-tt" ${ttStatus === 'done' ? 'style="opacity:.6"' : ''}>${ttBtnLabel}</button>`
     : '';
 
   return `
@@ -1025,6 +1046,7 @@ function cardBottomHTML(filename, status) {
       ${status !== 'ready'  ? `<button class="btn btn-neutral btn-sm act-ready">↺ Reset</button>`         : ''}
       ${cancelBtn}
       ${ytBtn}
+      ${ttBtn}
     </div>`;
 }
 
@@ -1047,6 +1069,22 @@ function setupBottomEvents(el, filename) {
     patchCard(filename, 'ready');
   });
   el.querySelector('.act-upload-yt')?.addEventListener('click', () => openUploadModal(filename));
+
+  el.querySelector('.act-upload-tt')?.addEventListener('click', async () => {
+    if (!ttState.connected) { toast('TikTok not connected — run: python tiktok_uploader.py --login'); return; }
+    const clip = allClips.find(c => c.filename === filename);
+    const caption = (clip?.title || filename.replace(/_/g, ' ')) + ' #shorts #fyp';
+    activeUploads.set(filename, { status: 'starting', percent: 0, platform: 'tiktok' });
+    patchCard(filename, clip?.status || 'ready');
+    try {
+      const { jobId } = await api('POST', '/api/upload/tiktok', { filename, caption });
+      watchTikTokJob(jobId, filename, clip);
+    } catch (err) {
+      activeUploads.delete(filename);
+      patchCard(filename, clip?.status || 'ready');
+      toast('TikTok upload error: ' + err.message);
+    }
+  });
 
   el.querySelector('.act-cancel-sched')?.addEventListener('click', async () => {
     const result = await api('DELETE', `/api/schedule/${encodeURIComponent(filename)}`);
@@ -1288,6 +1326,49 @@ function trackUpload(filename, jobId) {
       const clip = allClips.find(c => c.filename === filename);
       if (bottom) bottom.innerHTML = cardBottomHTML(filename, clip?.status || 'ready');
     }
+  };
+}
+
+// ── TikTok upload tracking (poll-based, no SSE needed) ───────────────────────
+
+function watchTikTokJob(jobId, filename, clip) {
+  const poll = setInterval(async () => {
+    try {
+      const res  = await fetch(`/api/upload-progress/${jobId}`);
+      // SSE endpoint also works for a one-shot GET: read first event
+      // Instead: use a small polling shim via the same SSE endpoint text
+    } catch { /* ignore */ }
+  }, 3000);
+
+  // Use SSE stream — same trackUpload logic but marks platform = tiktok
+  const evtSource = new EventSource(`/api/upload-progress/${jobId}`);
+  clearInterval(poll);
+
+  evtSource.onmessage = (e) => {
+    const data = JSON.parse(e.data);
+    if (data.status === 'not_found') { evtSource.close(); return; }
+
+    activeUploads.set(filename, { ...data, platform: 'tiktok' });
+    const bottom = findCard(filename)?.querySelector('.card-bottom');
+    if (bottom) bottom.innerHTML = cardBottomHTML(filename, clip?.status || 'ready');
+
+    if (data.status === 'complete') {
+      evtSource.close();
+      if (clip) clip.tiktokStatus = 'done';
+      toast('✓ Uploaded to TikTok!');
+      setTimeout(() => { activeUploads.delete(filename); patchCard(filename, clip?.status || 'ready'); }, 5000);
+    }
+    if (data.status === 'error') {
+      evtSource.close();
+      if (clip) clip.tiktokStatus = 'failed';
+      toast('TikTok upload failed: ' + (data.error || 'Unknown error'));
+      setTimeout(() => { activeUploads.delete(filename); patchCard(filename, clip?.status || 'ready'); }, 6000);
+    }
+  };
+  evtSource.onerror = () => {
+    evtSource.close();
+    activeUploads.delete(filename);
+    patchCard(filename, clip?.status || 'ready');
   };
 }
 
