@@ -1,0 +1,10 @@
+clips/
+downloads/
+venv/
+__pycache__/
+sounds/
+*.py
+*.sh
+.env
+.env.*
+.DS_Store
