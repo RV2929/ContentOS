@@ -72,6 +72,12 @@
     .btn-neutral   { background: #64748b; color: #fff; }
     .btn-youtube   { background: #ef4444; color: #fff; }
     .btn-youtube:hover { background: #dc2626; opacity: 1; }
+
+    .buffer-badge { font-size: 11px; font-weight: 500; margin-top: 4px; }
+    .buffer-badge.buffer-pending   { color: #94a3b8; }
+    .buffer-badge.buffer-uploading { color: #f59e0b; }
+    .buffer-badge.buffer-done      { color: #22c55e; }
+    .buffer-badge.buffer-failed    { color: #ef4444; }
     .btn-sm        { padding: 5px 10px; font-size: 12px; border-radius: 6px; }
 
     /* YouTube status button in header */
@@ -868,7 +874,7 @@ function renderClips() {
 }
 
 function readonlyCardHTML(clip) {
-  const { filename, status, youtubeId, scheduledAt, scheduleStatus, thumbnailPath } = clip;
+  const { filename, status, youtubeId, scheduledAt, scheduleStatus, bufferStatus, thumbnailPath } = clip;
   const { source, num, title } = parseClip(filename);
   const si = statusInfo(clip);
   const safeFilename = filename.replace(/"/g, '&quot;');
@@ -880,6 +886,11 @@ function readonlyCardHTML(clip) {
 
   const schedRow = (scheduledAt && scheduleStatus === 'pending')
     ? `<div class="sched-time">⏰ ${formatSchedTime(scheduledAt)}</div>`
+    : '';
+
+  const bufferLabels = { pending: '⬡ Buffer: queued', uploading: '⬡ Buffer: sending…', done: '✓ On Buffer', failed: '✕ Buffer failed' };
+  const bufferRow = bufferStatus
+    ? `<div class="buffer-badge buffer-${bufferStatus}">${bufferLabels[bufferStatus] || bufferStatus}</div>`
     : '';
 
   const thumb = thumbnailPath
@@ -903,6 +914,7 @@ function readonlyCardHTML(clip) {
             <div class="clip-title" title="${title}">${title}</div>
             ${source ? `<div class="clip-source" style="margin-bottom:6px">${source}</div>` : ''}
             ${schedRow}
+            ${bufferRow}
           </div>
           ${!thumb ? `<span class="status-badge status-${si.cls}">${si.label}</span>` : ''}
         </div>
@@ -913,7 +925,7 @@ function readonlyCardHTML(clip) {
 
 function cardHTML(clip) {
   if (IS_READONLY) return readonlyCardHTML(clip);
-  const { filename, status, platform, account, youtubeId, scheduledAt, scheduleStatus } = clip;
+  const { filename, status, platform, account, youtubeId, scheduledAt, scheduleStatus, bufferStatus } = clip;
   const { source, num, title } = parseClip(filename);
 
   const si = statusInfo(clip);
@@ -941,6 +953,11 @@ function cardHTML(clip) {
     ? `<div class="sched-time">⏰ ${formatSchedTime(scheduledAt)}</div>`
     : '';
 
+  const bufferLabels = { pending: '⬡ Buffer: queued', uploading: '⬡ Buffer: sending…', done: '✓ On Buffer', failed: '✕ Buffer failed' };
+  const bufferRow = bufferStatus
+    ? `<div class="buffer-badge buffer-${bufferStatus}">${bufferLabels[bufferStatus] || bufferStatus}</div>`
+    : '';
+
   return `
     <div class="clip-card" data-filename="${safeFilename}">
       <div class="thumb-wrap">
@@ -956,6 +973,7 @@ function cardHTML(clip) {
             <div class="clip-title" title="${title}">${title}</div>
             ${source ? `<div class="clip-source">${source}</div>` : ''}
             ${schedRow}
+            ${bufferRow}
           </div>
           <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0">
             <span class="status-badge status-${si.cls}">${si.label}</span>

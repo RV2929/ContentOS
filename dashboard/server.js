@@ -22,6 +22,8 @@ const QUEUE_FILE     = path.join(__dirname, 'queue.json');
 const QUEUE_DATA_FILE = path.join(__dirname, 'public', 'queue-data.json');
 const CONTENTOS_DIR      = path.join(__dirname, '..');
 const RUN_SH             = path.join(CONTENTOS_DIR, 'run.sh');
+const VENV_PYTHON        = path.join(CONTENTOS_DIR, 'venv', 'bin', 'python');
+const BUFFER_POSTER      = path.join(CONTENTOS_DIR, 'buffer_poster.py');
 
 // youtube (full scope) is required for both videos.insert and videos.update (cross-linking)
 const SCOPES = [
@@ -41,6 +43,9 @@ const uploadJobs = new Map();
 
 // Filenames the scheduler is currently uploading (prevents double-firing)
 const schedulingInProgress = new Set();
+
+// Filenames currently being sent to Buffer
+const bufferInProgress = new Set();
 
 // ── GitHub sync ───────────────────────────────────────────────────────────────
 // Writes clips-data.json and pushes to GitHub so Vercel reads fresh data
@@ -391,6 +396,7 @@ app.get('/api/clips', (req, res) => {
       youtubeId: state[filename]?.youtubeId || '',
       scheduledAt: schedPending ? sched.scheduledAt : null,
       scheduleStatus: sched?.status || null,
+      bufferStatus: sched?.bufferStatus || null,
       thumbnailUrl,
     };
   }));
@@ -692,6 +698,47 @@ async function crossLinkBatch(batchId, batch) {
   }
 }
 
+// ── Buffer helpers ────────────────────────────────────────────────────────────
+
+// Read BUFFER_ACCESS_TOKEN from .env at call time so the server doesn't need
+// a restart after the user fills in their token.
+function readBufferToken() {
+  try {
+    const envPath = path.join(CONTENTOS_DIR, '.env');
+    if (!fs.existsSync(envPath)) return '';
+    for (const line of fs.readFileSync(envPath, 'utf8').split('\n')) {
+      const m = line.trim().match(/^BUFFER_ACCESS_TOKEN=(.+)$/);
+      if (m) return m[1].trim().replace(/^['"]|['"]$/g, '');
+    }
+  } catch (_) { }
+  return '';
+}
+
+function buildBufferCaption(title) {
+  const clean = title.split(' ').filter(w => !w.startsWith('#')).join(' ');
+  return `${clean}\n\n#Reels #Instagram #FYP #Viral`;
+}
+
+function doBufferPost(filePath, filename, caption) {
+  return new Promise((resolve, reject) => {
+    const proc = spawn(VENV_PYTHON, [BUFFER_POSTER, filePath, caption]);
+    let out = '', err = '';
+    proc.stdout.on('data', d => { const t = d.toString(); out += t; process.stdout.write(t); });
+    proc.stderr.on('data', d => { err += d.toString(); process.stderr.write(d); });
+    proc.on('close', code => {
+      const lines = out.trim().split('\n').reverse();
+      const jsonLine = lines.find(l => l.trim().startsWith('{'));
+      try {
+        const result = jsonLine ? JSON.parse(jsonLine) : null;
+        if (result?.ok) resolve(result);
+        else reject(new Error(result?.error || err.trim() || `exit ${code}`));
+      } catch (_) {
+        reject(new Error(err.trim() || out.trim() || `exit ${code}`));
+      }
+    });
+  });
+}
+
 // ── Background scheduler ──────────────────────────────────────────────────────
 
 async function runScheduler() {
@@ -750,6 +797,54 @@ async function runScheduler() {
     }).finally(() => {
       schedulingInProgress.delete(filename);
     });
+  }
+
+  // ── Buffer auto-post ───────────────────────────────────────────────────────
+  const bufferToken = readBufferToken();
+  if (bufferToken) {
+    for (const [filename, entry] of Object.entries(schedule)) {
+      if (entry.bufferStatus !== 'pending') continue;
+      if (bufferInProgress.has(filename)) continue;
+      if (new Date(entry.scheduledAt) > now) continue;
+
+      const filePath = path.join(CLIPS_DIR, filename);
+      if (!fs.existsSync(filePath)) {
+        const s = loadSchedule();
+        if (s[filename]) {
+          s[filename].bufferStatus = 'failed';
+          s[filename].bufferError  = 'File not found';
+          saveJSON(SCHEDULE_FILE, s);
+        }
+        continue;
+      }
+
+      bufferInProgress.add(filename);
+      const title   = entry.title || path.basename(filename, path.extname(filename)).replace(/_/g, ' ');
+      const caption = buildBufferCaption(title);
+
+      const s0 = loadSchedule();
+      if (s0[filename]) { s0[filename].bufferStatus = 'uploading'; saveJSON(SCHEDULE_FILE, s0); }
+      console.log(`[buffer] Posting: ${filename}`);
+
+      doBufferPost(filePath, filename, caption)
+        .then(() => {
+          const s = loadSchedule();
+          if (s[filename]) { s[filename].bufferStatus = 'done'; saveJSON(SCHEDULE_FILE, s); }
+          console.log(`[buffer] Done: ${filename}`);
+          scheduleSyncToGitHub(`buffer done ${filename}`);
+        })
+        .catch(err => {
+          console.error(`[buffer] Failed ${filename}: ${err.message}`);
+          const s = loadSchedule();
+          if (s[filename]) {
+            s[filename].bufferStatus = 'failed';
+            s[filename].bufferError  = err.message.slice(0, 200);
+            saveJSON(SCHEDULE_FILE, s);
+          }
+          scheduleSyncToGitHub(`buffer failed ${filename}`);
+        })
+        .finally(() => bufferInProgress.delete(filename));
+    }
   }
 }
 

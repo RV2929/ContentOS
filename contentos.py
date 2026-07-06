@@ -273,6 +273,7 @@ def _schedule_clips(
             "description": description,
             "visibility": "public",
             "status": "pending",
+            "bufferStatus": "pending",
             "batchId": batch_id,
             "clipIndex": clip_index,
         }
