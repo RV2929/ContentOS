@@ -29,10 +29,12 @@ _IMPACT_PATH = os.path.join(SOUNDS_DIR, "impact.wav")
 OUT_WIDTH = 1080
 OUT_HEIGHT = 1920
 
-# How far to zoom out from the tight 9:16 face crop.
-# 1.0 = tight (face fills screen). 2.0 = show ~2× more horizontal context
-# (chest/shoulders visible). Increase toward 3.0 for more breathing room.
-FACE_CROP_EXPAND = 2.0
+_FACE_ZOOM       = 3.5   # crop height = median_face_h × this → face + neck + shoulders
+_FACE_Y_BIAS     = 0.35  # face centre sits this fraction from crop top (shoulders below)
+_SMOOTH_ALPHA_X  = 0.25  # EMA α for horizontal pan (higher = more responsive)
+_SMOOTH_ALPHA_Y  = 0.10  # EMA α for vertical tilt  (lower  = more stable)
+_DETECT_WIDTH    = 640   # downscale width for face detection speed
+_SAMPLE_INTERVAL = 0.5   # seconds between sampled frames
 
 
 def _fmt_ass_time(seconds: float) -> str:
@@ -203,53 +205,165 @@ def _safe_name(text: str, max_len: int = 40) -> str:
     return "".join(keep).strip().replace(" ", "_")[:max_len]
 
 
-def _detect_face_x(video_path: str, start: float, end: float) -> float:
+def _fill_none(times: list, values: list, default: float) -> list:
+    """Linear interpolation + nearest-neighbour fill for None entries."""
+    filled = list(values)
+    n = len(filled)
+    valids = [i for i, v in enumerate(filled) if v is not None]
+    if not valids:
+        return [default] * n
+    # back-fill before first detection
+    for i in range(valids[0]):
+        filled[i] = filled[valids[0]]
+    # forward-fill after last detection
+    for i in range(valids[-1] + 1, n):
+        filled[i] = filled[valids[-1]]
+    # interpolate interior gaps
+    i = valids[0]
+    while i < valids[-1]:
+        if filled[i] is None:
+            j = i + 1
+            while filled[j] is None:
+                j += 1
+            v0, v1 = filled[i - 1], filled[j]
+            t0, t1 = times[i - 1], times[j]
+            span = (t1 - t0) or 1.0
+            for k in range(i, j):
+                filled[k] = v0 + (v1 - v0) * (times[k] - t0) / span
+        i += 1
+    return filled
+
+
+def _ema(values: list, alpha: float) -> list:
+    """Exponential moving average."""
+    if not values:
+        return values
+    out = [float(values[0])]
+    for v in values[1:]:
+        out.append(alpha * float(v) + (1.0 - alpha) * out[-1])
+    return out
+
+
+def _build_crop_expr(keyframes: list, lo: int, hi: int) -> str:
     """
-    Sample 8 frames from [start, end] and return the median face-centre X
-    as a fraction of frame width (0.0–1.0).
-    Falls back to 0.5 (centre crop) if OpenCV is unavailable or no face found.
+    FFmpeg expression for piecewise-linear interpolation between (t, px) keyframes.
+    Uses sum-of-ramps: v0 + Σ delta_i * max(0, min(1, (t-t_{i-1}) / dt_i))
+    Evaluates against the frame's original PTS so pass absolute timestamps.
+    """
+    if not keyframes:
+        return str(lo)
+    # Drop keyframes where value changed less than 1 px (shorten expression)
+    simplified = [keyframes[0]]
+    for kf in keyframes[1:]:
+        if abs(kf[1] - simplified[-1][1]) >= 1.0:
+            simplified.append(kf)
+    if len(simplified) == 1:
+        return f"max({lo},min({hi},{int(round(simplified[0][1]))}))"
+    parts = [str(int(round(simplified[0][1])))]
+    for i in range(1, len(simplified)):
+        t0, v0 = simplified[i - 1]
+        t1, v1 = simplified[i]
+        dt    = t1 - t0
+        delta = int(round(v1)) - int(round(v0))
+        if dt <= 0 or delta == 0:
+            continue
+        parts.append(f"({delta})*max(0,min(1,(t-{t0:.3f})/{dt:.3f}))")
+    inner = "+".join(parts)
+    return f"max({lo},min({hi},{inner}))"
+
+
+def _detect_face_track(video_path: str, start: float, end: float):
+    """
+    Read frames sequentially from [start, end], detect faces at every
+    _SAMPLE_INTERVAL seconds, smooth the positions, and return a crop spec:
+
+        (crop_w, crop_h, x_kf, y_kf)
+
+    where x_kf / y_kf are [(t_rel_seconds, crop_left_px), ...].
+    Returns None when OpenCV is unavailable or fewer than 3 frames detect a face
+    (caller falls back to centre crop).
     """
     if not _OPENCV:
-        return 0.5
+        return None
 
     cascade = _cv2.CascadeClassifier(
         _cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
     )
-    cap = _cv2.VideoCapture(video_path)
-    fps = cap.get(_cv2.CAP_PROP_FPS) or 25.0
-    total = int(cap.get(_cv2.CAP_PROP_FRAME_COUNT))
-    frame_w = int(cap.get(_cv2.CAP_PROP_FRAME_WIDTH))
 
-    start_f = int(start * fps)
-    end_f = min(int(end * fps), total - 1)
-    n = 8
-    samples = [
-        int(start_f + (end_f - start_f) * i / max(n - 1, 1))
-        for i in range(n)
-    ]
+    cap    = _cv2.VideoCapture(video_path)
+    fps    = cap.get(_cv2.CAP_PROP_FPS) or 25.0
+    vid_w  = int(cap.get(_cv2.CAP_PROP_FRAME_WIDTH))
+    vid_h  = int(cap.get(_cv2.CAP_PROP_FRAME_HEIGHT))
 
-    face_xs = []
-    for fnum in samples:
-        cap.set(_cv2.CAP_PROP_POS_FRAMES, fnum)
-        ret, frame = cap.read()
-        if not ret:
-            continue
-        gray = _cv2.cvtColor(frame, _cv2.COLOR_BGR2GRAY)
-        faces = cascade.detectMultiScale(
-            gray, scaleFactor=1.1, minNeighbors=5, minSize=(50, 50)
-        )
-        if len(faces):
-            x, y, w, h = max(faces, key=lambda f: f[2] * f[3])
-            face_xs.append((x + w / 2) / frame_w)
+    det_scale = _DETECT_WIDTH / vid_w
+    det_h     = int(vid_h * det_scale)
 
+    # Seek to clip start, then read sequentially (much faster than random seeks).
+    cap.set(_cv2.CAP_PROP_POS_FRAMES, int(start * fps))
+
+    detections  = []   # (t_rel, cx_px | None, cy_px | None, fh_px | None)
+    frame_idx   = 0
+    next_sample = 0.0
+
+    while True:
+        t_rel = frame_idx / fps
+        if (start + t_rel) >= end:
+            break
+        ok, frame = cap.read()
+        if not ok:
+            break
+        if t_rel >= next_sample:
+            small = _cv2.resize(frame, (_DETECT_WIDTH, det_h))
+            gray  = _cv2.cvtColor(small, _cv2.COLOR_BGR2GRAY)
+            faces = cascade.detectMultiScale(
+                gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30)
+            )
+            if len(faces):
+                fx, fy, fw, fh = max(faces, key=lambda r: r[2] * r[3])
+                detections.append((
+                    t_rel,
+                    (fx + fw / 2) / det_scale,   # cx in full-res px
+                    (fy + fh / 2) / det_scale,   # cy in full-res px
+                    fh / det_scale,              # face height in full-res px
+                ))
+            else:
+                detections.append((t_rel, None, None, None))
+            next_sample += _SAMPLE_INTERVAL
+        frame_idx += 1
     cap.release()
 
-    if not face_xs:
-        return 0.5
+    if not detections:
+        return None
 
-    face_xs.sort()
-    mid = len(face_xs) // 2
-    return face_xs[mid] if len(face_xs) % 2 else (face_xs[mid - 1] + face_xs[mid]) / 2
+    valid = [(cx, cy, fh) for (_, cx, cy, fh) in detections if cx is not None]
+    if len(valid) < 3:
+        return None   # too few detections — caller uses centre crop
+
+    # Fixed crop dimensions from median face height (multiples of 16 → exact 9:16 ratio)
+    med_fh  = sorted(v[2] for v in valid)[len(valid) // 2]
+    raw_ch  = med_fh * _FACE_ZOOM
+    crop_h  = int(max(vid_h * 0.30, min(vid_h, raw_ch)) / 16) * 16
+    crop_w  = crop_h * 9 // 16   # exact 9:16 for multiples of 16
+    if crop_w > vid_w:            # very wide source: shrink to fit
+        crop_w = (vid_w // 2) * 2
+        crop_h = int(crop_w * 16 / 9 / 16) * 16
+
+    # Fill detection gaps and smooth
+    times   = [d[0] for d in detections]
+    raw_cxs = [d[1] for d in detections]
+    raw_cys = [d[2] for d in detections]
+
+    sm_cx = _ema(_fill_none(times, raw_cxs, vid_w / 2), _SMOOTH_ALPHA_X)
+    sm_cy = _ema(_fill_none(times, raw_cys, vid_h / 2), _SMOOTH_ALPHA_Y)
+
+    # Convert face centres → crop top-left coordinates
+    def to_x(cx):  return max(0, min(vid_w - crop_w, int(cx - crop_w / 2)))
+    def to_y(cy):  return max(0, min(vid_h - crop_h, int(cy - crop_h * _FACE_Y_BIAS)))
+
+    x_kf = [(t, to_x(cx)) for t, cx in zip(times, sm_cx)]
+    y_kf = [(t, to_y(cy)) for t, cy in zip(times, sm_cy)]
+
+    return crop_w, crop_h, x_kf, y_kf
 
 
 def cut_and_crop(
@@ -258,20 +372,18 @@ def cut_and_crop(
     end: float,
     output_path: str,
     ass_path: str | None = None,
-    face_x: float = 0.5,
+    face_track=None,
 ) -> str:
     """
-    Cut [start, end] from video_path, center-crop to 9:16, save to output_path.
+    Cut [start, end] from video_path, crop to 9:16 with dynamic face tracking,
+    overlay on a blurred background, burn captions, and save to output_path.
 
-    If ass_path is given, burns in captions from that ASS subtitle file.
+    face_track: return value of _detect_face_track — (crop_w, crop_h, x_kf, y_kf).
+    None falls back to a static centre crop.
 
-    Uses a single FFmpeg pass:
-      1. Fast input seek (-ss before -i) lands on a keyframe near `start`
-      2. -t limits duration
-      3. crop= filter: full height, 9/16 * height wide, centered horizontally
-      4. scale= to OUT_WIDTH x OUT_HEIGHT
-      5. subtitles= burns ASS captions (title + word-by-word)
-      6. libx264 + AAC re-encode for compatibility
+    Single FFmpeg pass:
+      -ss before -i for fast input seek (frames keep original PTS in filter graph).
+      filter_complex: split → blurred bg + face-tracked fg → overlay centred.
     """
     duration = round(end - start, 3)
     if duration <= 0:
@@ -284,25 +396,33 @@ def cut_and_crop(
         f"boxblur=20:5"
     )
 
-    # Foreground: face-aware crop, scaled to fit (no padding — overlaid on blurred bg).
-    if _OPENCV:
+    # Foreground: face-tracked dynamic crop or centre fallback.
+    if face_track is not None:
+        crop_w, crop_h, x_kf, y_kf = face_track
         _cap = _cv2.VideoCapture(video_path)
-        _vid_w = int(_cap.get(_cv2.CAP_PROP_FRAME_WIDTH))
-        _vid_h = int(_cap.get(_cv2.CAP_PROP_FRAME_HEIGHT))
+        _vw  = int(_cap.get(_cv2.CAP_PROP_FRAME_WIDTH))
+        _vh  = int(_cap.get(_cv2.CAP_PROP_FRAME_HEIGHT))
         _cap.release()
-
-        _tight_w = (int(_vid_h * 9 / 16) // 2) * 2
-        _crop_w = (min(int(_tight_w * FACE_CROP_EXPAND), _vid_w) // 2) * 2
-        _crop_x = max(0, min(_vid_w - _crop_w, int(face_x * _vid_w - _crop_w / 2)))
-
-        _sf = min(OUT_WIDTH / _crop_w, OUT_HEIGHT / _vid_h)
-        _sw = (int(_crop_w * _sf) // 2) * 2
-        _sh = (int(_vid_h * _sf) // 2) * 2
-
-        fg_filter = f"crop={_crop_w}:ih:{_crop_x}:0,scale={_sw}:{_sh}:flags=lanczos"
+        # -ss before -i keeps original PTS in filter graph → shift keyframes by start.
+        x_expr = _build_crop_expr([(t + start, px) for t, px in x_kf], 0, _vw - crop_w)
+        y_expr = _build_crop_expr([(t + start, px) for t, px in y_kf], 0, _vh - crop_h)
+        fg_filter = (
+            f"crop={crop_w}:{crop_h}:{x_expr}:{y_expr},"
+            f"scale={OUT_WIDTH}:{OUT_HEIGHT}:flags=lanczos"
+        )
+    elif _OPENCV:
+        # No face detected: tight 9:16 centre crop.
+        _cap = _cv2.VideoCapture(video_path)
+        _vw  = int(_cap.get(_cv2.CAP_PROP_FRAME_WIDTH))
+        _vh  = int(_cap.get(_cv2.CAP_PROP_FRAME_HEIGHT))
+        _cap.release()
+        _tw  = int(_vh * 9 / 16 / 16) * 16
+        _tw  = min(_tw, _vw)
+        _cx  = (_vw - _tw) // 2
+        fg_filter = f"crop={_tw}:{_vh}:{_cx}:0,scale={OUT_WIDTH}:{OUT_HEIGHT}:flags=lanczos"
     else:
-        _er = 9 / 16 * FACE_CROP_EXPAND
-        _ew = f"trunc(min(iw,ih*{_er})/2)*2"
+        # Pure-FFmpeg fallback (OpenCV not installed).
+        _ew = "trunc(min(iw,ih*9/16)/2)*2"
         fg_filter = (
             f"crop={_ew}:ih:(iw-{_ew})/2:0,"
             f"scale={OUT_WIDTH}:{OUT_HEIGHT}:force_original_aspect_ratio=decrease:flags=lanczos"
@@ -437,9 +557,12 @@ def process_clips(
         filename = f"{_safe_name(video_stem)}_clip{i:02d}_{reason_slug}.mp4"
         out_path = os.path.join(CLIPS_DIR, filename)
 
-        dur = end - start
-        face_x = _detect_face_x(video_path, start, end)
-        face_note = f"face @ {face_x:.0%}" if face_x != 0.5 else "centre crop"
+        dur        = end - start
+        face_track = _detect_face_track(video_path, start, end)
+        if face_track:
+            face_note = f"face tracked {face_track[0]}×{face_track[1]}px"
+        else:
+            face_note = "centre crop"
         print(f"  [{i}/{len(clips)}] {start:.1f}s – {end:.1f}s ({dur:.1f}s) [{face_note}] → {filename}")
 
         # Write a per-clip ASS subtitle file whenever we have captions or a title.
@@ -451,7 +574,7 @@ def process_clips(
                 af.write(ass_content)
 
         try:
-            cut_and_crop(video_path, start, end, out_path, ass_path=ass_path, face_x=face_x)
+            cut_and_crop(video_path, start, end, out_path, ass_path=ass_path, face_track=face_track)
             _generate_thumbnail(out_path)
             size_mb = os.path.getsize(out_path) / (1024 * 1024)
             print(f"    ✓ Saved ({size_mb:.1f} MB)")
