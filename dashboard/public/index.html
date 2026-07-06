@@ -584,6 +584,7 @@ const PLATFORM_META = {
 
 let queueData = [];
 let queueRefreshTimer = null;
+let showDone = false; // whether completed queue items are expanded
 
 const STATUS_LABELS = {
   queued:          '● Queued',
@@ -630,15 +631,17 @@ function renderQueue() {
     countEl.style.display = 'none';
   }
 
+  const nonDone = queueData.filter(i => i.status !== 'done');
+  const done    = queueData.filter(i => i.status === 'done');
+
   if (!queueData.length) {
     emptyEl.style.display = '';
-    // Remove any rendered items
     Array.from(itemsEl.querySelectorAll('.queue-item')).forEach(el => el.remove());
     return;
   }
   emptyEl.style.display = 'none';
 
-  itemsEl.innerHTML = queueData.map(item => {
+  const renderItem = item => {
     const isActive  = ACTIVE_STATUSES.has(item.status);
     const label     = STATUS_LABELS[item.status] || item.status;
     const spinner   = isActive ? '<span class="q-spinner">↻</span> ' : '';
@@ -656,7 +659,22 @@ function renderQueue() {
       <span class="q-badge q-${item.status}">${spinner}${label}</span>
       ${removeBtn}
     </div>`;
-  }).join('') + `<div class="queue-empty" id="queue-empty" style="display:none"></div>`;
+  };
+
+  const doneToggle = done.length ? `
+    <div style="padding:6px 0 2px;text-align:center">
+      <button class="btn btn-ghost btn-sm"
+              onclick="showDone=!showDone;renderQueue()"
+              style="font-size:12px;color:#64748b">
+        ${showDone ? '▼ Hide' : '▶ Show'} ${done.length} completed
+      </button>
+    </div>` : '';
+
+  itemsEl.innerHTML =
+    nonDone.map(renderItem).join('') +
+    doneToggle +
+    (showDone ? done.map(renderItem).join('') : '') +
+    `<div class="queue-empty" id="queue-empty" style="display:none"></div>`;
 }
 
 async function loadQueue() {
