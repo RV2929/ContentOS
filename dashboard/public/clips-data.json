@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T03:31:44.756Z",
+  "lastUpdated": "2026-07-06T03:49:44.256Z",
   "clips": [
     {
       "filename": "119b_Your_Success_Door_Is_Locked_clip01_A_live_demonstration_of_mind_conditionin.mp4",
@@ -167,8 +167,8 @@
       "filename": "Communicate_with_Confidence_The_Blueprin_clip06_A_vivid_before-and-after_demo_of_watered.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-06T03:17:37.754647+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "LET YOUR BREATH BE THE FIRST WORD",
       "thumbnailPath": "/thumbnails/Communicate_with_Confidence_The_Blueprin_clip06_A_vivid_before-and-after_demo_of_watered.jpg"
     },
