@@ -503,6 +503,51 @@ app.delete('/api/youtube/disconnect', (req, res) => {
 
 // ── Upload ────────────────────────────────────────────────────────────────────
 
+app.post('/api/upload/buffer', (req, res) => {
+  const { filename } = req.body;
+  if (!filename) return res.status(400).json({ error: 'filename required' });
+
+  const filePath = path.join(CLIPS_DIR, filename);
+  if (!fs.existsSync(filePath)) return res.status(404).json({ error: 'Clip not found' });
+
+  const bufferToken = readBufferToken();
+  if (!bufferToken) return res.status(400).json({ error: 'BUFFER_ACCESS_TOKEN not set in .env' });
+
+  if (bufferInProgress.has(filename)) return res.status(409).json({ error: 'Already posting to Buffer' });
+
+  const entry = loadSchedule()[filename] || {};
+  const title  = entry.title || path.basename(filename, path.extname(filename)).replace(/_/g, ' ');
+  const caption = buildBufferCaption(title);
+
+  const s = loadSchedule();
+  if (!s[filename]) s[filename] = {};
+  s[filename].bufferStatus = 'uploading';
+  saveJSON(SCHEDULE_FILE, s);
+
+  bufferInProgress.add(filename);
+  res.json({ ok: true });
+
+  doBufferPost(filePath, filename, caption)
+    .then(() => {
+      const s2 = loadSchedule();
+      if (!s2[filename]) s2[filename] = {};
+      s2[filename].bufferStatus = 'done';
+      saveJSON(SCHEDULE_FILE, s2);
+      console.log(`[buffer] Manual post done: ${filename}`);
+      scheduleSyncToGitHub(`buffer done ${filename}`);
+    })
+    .catch(err => {
+      console.error(`[buffer] Manual post failed ${filename}: ${err.message}`);
+      const s2 = loadSchedule();
+      if (!s2[filename]) s2[filename] = {};
+      s2[filename].bufferStatus = 'failed';
+      s2[filename].bufferError  = err.message.slice(0, 200);
+      saveJSON(SCHEDULE_FILE, s2);
+      scheduleSyncToGitHub(`buffer failed ${filename}`);
+    })
+    .finally(() => bufferInProgress.delete(filename));
+});
+
 app.post('/api/upload/youtube', (req, res) => {
   const { filename, title, description, visibility } = req.body;
   if (!filename) return res.status(400).json({ error: 'filename required' });
