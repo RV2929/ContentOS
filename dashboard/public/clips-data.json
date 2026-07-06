@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T18:53:51.307Z",
+  "lastUpdated": "2026-07-06T19:54:27.393Z",
   "clips": [
     {
       "filename": "119b_Your_Success_Door_Is_Locked_clip01_A_live_demonstration_of_mind_conditionin.mp4",
@@ -597,10 +597,10 @@
     },
     {
       "filename": "The_Future_Mark_Zuckerberg_Is_Trying_To__clip02_Zuckerberg_unveils_the_worlds_first_full.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-06T19:52:44.063723+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "QwkXX7YMUws",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Future Mark Zuckerberg Is Trying To  clip02 Zuckerberg unveils the worlds fi",
       "thumbnailPath": "/thumbnails/The_Future_Mark_Zuckerberg_Is_Trying_To__clip02_Zuckerberg_unveils_the_worlds_first_full.jpg"
     },
