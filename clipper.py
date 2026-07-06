@@ -32,6 +32,7 @@ OUT_HEIGHT = 1920
 _FACE_ZOOM    = 3.5   # crop height = median_face_h × this → face + neck + shoulders
 _FACE_Y_BIAS  = 0.35  # face centre sits this fraction from crop top (shoulders below)
 _DETECT_WIDTH = 640   # downscale width for face detection speed
+_SAMPLE_FRAMES = 30   # run detector every N frames; ~1 s at 30 fps
 
 
 def _fmt_ass_time(seconds: float) -> str:
@@ -202,15 +203,51 @@ def _safe_name(text: str, max_len: int = 40) -> str:
     return "".join(keep).strip().replace(" ", "_")[:max_len]
 
 
+def _build_crop_expr(keyframes: list, lo: int, hi: int) -> str:
+    """
+    FFmpeg piecewise-linear expression using n (frame number, 0-based).
+    keyframes: [(frame_num, px), ...]
+
+    All function-argument commas are written as \\, (FFmpeg's escaped comma)
+    so the filter_complex string parser treats them as literals and does not
+    split the expression into separate filter names.
+    """
+    C = "\\,"  # escaped comma safe for filter_complex
+    if not keyframes:
+        return str(lo)
+    simplified = [keyframes[0]]
+    for kf in keyframes[1:]:
+        if abs(kf[1] - simplified[-1][1]) >= 1.0:
+            simplified.append(kf)
+    if len(simplified) == 1:
+        return f"max({lo}{C}min({hi}{C}{int(round(simplified[0][1]))}))"
+    parts = [str(int(round(simplified[0][1])))]
+    for i in range(1, len(simplified)):
+        n0, v0 = simplified[i - 1]
+        n1, v1 = simplified[i]
+        dn    = n1 - n0
+        delta = int(round(v1)) - int(round(v0))
+        if dn <= 0 or delta == 0:
+            continue
+        parts.append(f"({delta})*max(0{C}min(1{C}(n-{n0})/{dn}))")
+    inner = "+".join(parts)
+    return f"max({lo}{C}min({hi}{C}{inner}))"
+
+
 def _detect_face_track(video_path: str, start: float, end: float):
     """
-    Sample frames every 2 s inside [start, end], detect faces, and return a
-    fixed crop window derived from the median face position:
+    Read frames sequentially from [start, end], run the face detector every
+    _SAMPLE_FRAMES frames, EMA-smooth the trajectory, and return:
 
-        (crop_w, crop_h, crop_x, crop_y)   — all plain integers
+        (crop_w, crop_h, x_kf, y_kf)
 
-    Returns None when OpenCV is unavailable or no face is detected (caller
-    falls back to a plain centre crop).
+    where x_kf / y_kf are [(frame_number, crop_left_px), ...] suitable for
+    _build_crop_expr.  frame_number is 0-based from clip start (matches FFmpeg's
+    n variable when -ss is an input option).
+
+    If no face is detected in any frame the function returns None so the caller
+    falls back to a plain centre crop.  When a face is temporarily lost the last
+    known position is held (no jump to centre).
     """
     if not _OPENCV:
         return None
@@ -220,62 +257,75 @@ def _detect_face_track(video_path: str, start: float, end: float):
     )
 
     cap   = _cv2.VideoCapture(video_path)
-    fps   = cap.get(_cv2.CAP_PROP_FPS) or 25.0
-    total = int(cap.get(_cv2.CAP_PROP_FRAME_COUNT))
+    fps   = cap.get(_cv2.CAP_PROP_FPS) or 30.0
     vid_w = int(cap.get(_cv2.CAP_PROP_FRAME_WIDTH))
     vid_h = int(cap.get(_cv2.CAP_PROP_FRAME_HEIGHT))
 
     det_scale = _DETECT_WIDTH / vid_w
     det_h     = int(vid_h * det_scale)
 
-    # Sample every 2 s; first sample 0.5 s into the clip to skip hard cuts.
-    sample_times = []
-    t = start + min(0.5, (end - start) * 0.1)
-    while t < end:
-        sample_times.append(t)
-        t += 2.0
+    cap.set(_cv2.CAP_PROP_POS_FRAMES, int(start * fps))
 
-    detections = []
-    for t_abs in sample_times:
-        fnum = min(int(t_abs * fps), total - 1)
-        cap.set(_cv2.CAP_PROP_POS_FRAMES, fnum)
+    # Seed "last known" at centre so no-face clips don't crash
+    last_cx   = vid_w / 2
+    last_cy   = vid_h / 2
+    last_fh   = vid_h * 0.15      # reasonable default face height
+    face_fhs  = []                 # face heights from real detections only
+    face_found = False
+    samples   = []                 # (frame_idx, cx, cy) — one per _SAMPLE_FRAMES
+
+    frame_idx = 0
+    while True:
+        if start + frame_idx / fps >= end:
+            break
         ok, frame = cap.read()
         if not ok:
-            continue
-        small = _cv2.resize(frame, (_DETECT_WIDTH, det_h))
-        gray  = _cv2.cvtColor(small, _cv2.COLOR_BGR2GRAY)
-        faces = cascade.detectMultiScale(
-            gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30)
-        )
-        if len(faces):
-            fx, fy, fw, fh = max(faces, key=lambda r: r[2] * r[3])
-            detections.append((
-                (fx + fw / 2) / det_scale,  # cx in full-res px
-                (fy + fh / 2) / det_scale,  # cy in full-res px
-                fh / det_scale,             # face height in full-res px
-            ))
+            break
+        if frame_idx % _SAMPLE_FRAMES == 0:
+            small = _cv2.resize(frame, (_DETECT_WIDTH, det_h))
+            gray  = _cv2.cvtColor(small, _cv2.COLOR_BGR2GRAY)
+            faces = cascade.detectMultiScale(
+                gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30)
+            )
+            if len(faces):
+                fx, fy, fw, fh = max(faces, key=lambda r: r[2] * r[3])
+                last_cx    = (fx + fw / 2) / det_scale
+                last_cy    = (fy + fh / 2) / det_scale
+                last_fh    = fh / det_scale
+                face_found = True
+                face_fhs.append(last_fh)
+            # always append: hold last known when face temporarily missing
+            samples.append((frame_idx, last_cx, last_cy))
+        frame_idx += 1
     cap.release()
 
-    if not detections:
+    if not face_found or len(samples) < 2:
         return None
 
-    n      = len(detections)
-    med_cx = sorted(d[0] for d in detections)[n // 2]
-    med_cy = sorted(d[1] for d in detections)[n // 2]
-    med_fh = sorted(d[2] for d in detections)[n // 2]
-
-    # Crop dimensions: multiples of 16 give exact 9:16 ratio
-    crop_h = int(max(vid_h * 0.30, min(vid_h, med_fh * _FACE_ZOOM)) / 16) * 16
-    crop_w = crop_h * 9 // 16
+    # Crop dimensions from median detected face height (multiples of 16 → exact 9:16)
+    med_fh  = sorted(face_fhs)[len(face_fhs) // 2]
+    crop_h  = int(max(vid_h * 0.30, min(vid_h, med_fh * _FACE_ZOOM)) / 16) * 16
+    crop_w  = crop_h * 9 // 16
     if crop_w > vid_w:
         crop_w = (vid_w // 2) * 2
         crop_h = int(crop_w * 16 / 9 / 16) * 16
 
-    # Position: face centre at _FACE_Y_BIAS from crop top (leaves room for shoulders)
-    crop_x = max(0, min(vid_w - crop_w, int(med_cx - crop_w / 2)))
-    crop_y = max(0, min(vid_h - crop_h, int(med_cy - crop_h * _FACE_Y_BIAS)))
+    # EMA smoothing: damps jitter without losing the general pan motion
+    alpha_x, alpha_y = 0.30, 0.20
+    sm_cx = [float(samples[0][1])]
+    sm_cy = [float(samples[0][2])]
+    for _, cx, cy in samples[1:]:
+        sm_cx.append(alpha_x * cx + (1 - alpha_x) * sm_cx[-1])
+        sm_cy.append(alpha_y * cy + (1 - alpha_y) * sm_cy[-1])
 
-    return crop_w, crop_h, crop_x, crop_y
+    # Convert smoothed face centres → crop top-left pixel coordinates
+    def to_x(cx): return max(0, min(vid_w - crop_w, int(cx - crop_w / 2)))
+    def to_y(cy): return max(0, min(vid_h - crop_h, int(cy - crop_h * _FACE_Y_BIAS)))
+
+    x_kf = [(s[0], to_x(cx)) for s, cx in zip(samples, sm_cx)]
+    y_kf = [(s[0], to_y(cy)) for s, cy in zip(samples, sm_cy)]
+
+    return crop_w, crop_h, x_kf, y_kf
 
 
 def cut_and_crop(
@@ -290,7 +340,7 @@ def cut_and_crop(
     Cut [start, end] from video_path, crop to 9:16 with dynamic face tracking,
     overlay on a blurred background, burn captions, and save to output_path.
 
-    face_track: return value of _detect_face_track — (crop_w, crop_h, crop_x, crop_y).
+    face_track: return value of _detect_face_track — (crop_w, crop_h, x_kf, y_kf).
     None falls back to a static centre crop.
 
     Single FFmpeg pass:
@@ -308,11 +358,18 @@ def cut_and_crop(
         f"boxblur=20:5"
     )
 
-    # Foreground: face-tracked static crop or centre fallback.
+    # Foreground: face-tracked panning crop or centre fallback.
     if face_track is not None:
-        crop_w, crop_h, crop_x, crop_y = face_track
+        crop_w, crop_h, x_kf, y_kf = face_track
+        _cap = _cv2.VideoCapture(video_path)
+        _vw  = int(_cap.get(_cv2.CAP_PROP_FRAME_WIDTH))
+        _vh  = int(_cap.get(_cv2.CAP_PROP_FRAME_HEIGHT))
+        _cap.release()
+        # n is 0-based from clip start (FFmpeg resets n after input -ss seek)
+        x_expr = _build_crop_expr(x_kf, 0, _vw - crop_w)
+        y_expr = _build_crop_expr(y_kf, 0, _vh - crop_h)
         fg_filter = (
-            f"crop={crop_w}:{crop_h}:{crop_x}:{crop_y},"
+            f"crop={crop_w}:{crop_h}:{x_expr}:{y_expr},"
             f"scale={OUT_WIDTH}:{OUT_HEIGHT}:flags=lanczos"
         )
     elif _OPENCV:
