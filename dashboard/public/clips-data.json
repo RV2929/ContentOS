@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T17:00:24.288Z",
+  "lastUpdated": "2026-07-06T17:12:44Z",
   "clips": [
     {
       "filename": "119b_Your_Success_Door_Is_Locked_clip01_A_live_demonstration_of_mind_conditionin.mp4",
@@ -522,6 +522,60 @@
       "scheduleStatus": "failed",
       "title": "Happiness Is Actually Just One Simple Gap",
       "thumbnailPath": "/thumbnails/The_Best_Financial_Advice_Youll_Ever_Hea_clip08_A_crisp_repeatable_definition_of_happine.jpg"
+    },
+    {
+      "filename": "The_Future_Mark_Zuckerberg_Is_Trying_To__clip01_Rapid-fire_cold_open_teasing_holographic.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-06T17:22:44.063723+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Future Mark Zuckerberg Is Trying To  clip01 Rapid-fire cold open teasing hol",
+      "thumbnailPath": "/thumbnails/The_Future_Mark_Zuckerberg_Is_Trying_To__clip01_Rapid-fire_cold_open_teasing_holographic.jpg"
+    },
+    {
+      "filename": "The_Future_Mark_Zuckerberg_Is_Trying_To__clip02_Zuckerberg_unveils_the_worlds_first_full.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-06T19:52:44.063723+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Future Mark Zuckerberg Is Trying To  clip02 Zuckerberg unveils the worlds fi",
+      "thumbnailPath": "/thumbnails/The_Future_Mark_Zuckerberg_Is_Trying_To__clip02_Zuckerberg_unveils_the_worlds_first_full.jpg"
+    },
+    {
+      "filename": "The_Future_Mark_Zuckerberg_Is_Trying_To__clip03_A_surprisingly_vulnerable_human_exchange.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-06T22:22:44.063723+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Future Mark Zuckerberg Is Trying To  clip03 A surprisingly vulnerable human",
+      "thumbnailPath": "/thumbnails/The_Future_Mark_Zuckerberg_Is_Trying_To__clip03_A_surprisingly_vulnerable_human_exchange.jpg"
+    },
+    {
+      "filename": "The_Future_Mark_Zuckerberg_Is_Trying_To__clip04_Striking_loneliness_statistics__friendle.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-07T00:52:44.063723+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Future Mark Zuckerberg Is Trying To  clip04 Striking loneliness statistics",
+      "thumbnailPath": "/thumbnails/The_Future_Mark_Zuckerberg_Is_Trying_To__clip04_Striking_loneliness_statistics__friendle.jpg"
+    },
+    {
+      "filename": "The_Future_Mark_Zuckerberg_Is_Trying_To__clip05_Zuckerbergs_counterintuitive_claim_that_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-07T03:22:44.063723+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Future Mark Zuckerberg Is Trying To  clip05 Zuckerbergs counterintuitive cla",
+      "thumbnailPath": "/thumbnails/The_Future_Mark_Zuckerberg_Is_Trying_To__clip05_Zuckerbergs_counterintuitive_claim_that_.jpg"
+    },
+    {
+      "filename": "The_Future_Mark_Zuckerberg_Is_Trying_To__clip06_Zuckerberg_reveals_AI_scaling_shows_no_c.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-07T05:52:44.063723+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Future Mark Zuckerberg Is Trying To  clip06 Zuckerberg reveals AI scaling sh",
+      "thumbnailPath": "/thumbnails/The_Future_Mark_Zuckerberg_Is_Trying_To__clip06_Zuckerberg_reveals_AI_scaling_shows_no_c.jpg"
     }
   ]
 }
