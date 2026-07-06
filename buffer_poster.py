@@ -138,12 +138,12 @@ mutation CreatePost($input: CreatePostInput!) {
     ... on PostActionSuccess {
       post { id status dueAt }
     }
-    ... on InvalidInputError { message type }
-    ... on UnauthorizedError { message type }
-    ... on LimitReachedError { message type }
-    ... on NotFoundError     { message type }
-    ... on UnexpectedError   { message type }
-    ... on RestProxyError    { message type }
+    ... on InvalidInputError { message }
+    ... on UnauthorizedError { message }
+    ... on LimitReachedError { message }
+    ... on NotFoundError     { message }
+    ... on UnexpectedError   { message }
+    ... on RestProxyError    { message }
   }
 }
 """
