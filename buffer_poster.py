@@ -55,39 +55,27 @@ def gql(query: str, variables: dict = None, timeout: int = 30) -> dict:
 
 # ── Channels ──────────────────────────────────────────────────────────────────
 
-CHANNELS_QUERY = """
-query GetChannels {
-  channels {
-    id
-    name
-    service
-    serviceType
-    avatar
-    isConnected
-  }
-}
-"""
-
 ORGANIZATIONS_QUERY = """
 query GetOrganizations { account { organizations { id } } }
 """
 
+# channels() requires input: ChannelsInput! { organizationId: OrganizationId! }
 ORG_CHANNELS_QUERY = """
-query GetOrgChannels($organizationId: String!) {
-  channels(organizationId: $organizationId) {
+query GetOrgChannels($input: ChannelsInput!) {
+  channels(input: $input) {
     id
     name
+    displayName
     service
-    serviceType
-    isConnected
+    type
+    descriptor
+    isDisconnected
+    serviceId
     avatar
+    externalLink
   }
 }
 """
-
-def get_channels() -> list:
-    return gql(CHANNELS_QUERY).get("channels") or []
-
 
 def get_organizations() -> list:
     data = gql(ORGANIZATIONS_QUERY)
@@ -95,15 +83,22 @@ def get_organizations() -> list:
 
 
 def get_channels_for_org(org_id: str) -> list:
-    return gql(ORG_CHANNELS_QUERY, {"organizationId": org_id}).get("channels") or []
+    return gql(ORG_CHANNELS_QUERY, {"input": {"organizationId": org_id}}).get("channels") or []
+
+
+def get_channels() -> list:
+    """Fetch channels for the first available organization."""
+    orgs = get_organizations()
+    if not orgs:
+        return []
+    return get_channels_for_org(orgs[0]["id"])
 
 
 def find_instagram_channel(channels: list) -> str | None:
     if BUFFER_PROFILE_ID:
         return BUFFER_PROFILE_ID
     for ch in channels:
-        svc = (ch.get("service") or ch.get("serviceType") or "").lower()
-        if "instagram" in svc:
+        if not ch.get("isDisconnected") and "instagram" in ch.get("service", "").lower():
             return ch.get("id")
     return None
 
@@ -309,16 +304,21 @@ if __name__ == "__main__":
                 sys.exit(0)
             for org in orgs:
                 org_id = org.get("id", "?")
+                print(f"Org: {org_id}")
                 channels = get_channels_for_org(org_id)
                 if not channels:
-                    print(f"  Org {org_id}: no channels found.")
+                    print("  No channels found.")
                     continue
                 for ch in channels:
-                    cid     = ch.get("id", "?")
-                    service = ch.get("service") or ch.get("serviceType") or "?"
-                    name    = ch.get("name") or "?"
-                    conn    = "✓" if ch.get("isConnected") else "✗"
-                    print(f"  {conn}  {service:<16}  {name:<30}  {cid}")
+                    cid        = ch.get("id", "?")
+                    service    = ch.get("service") or "?"
+                    descriptor = ch.get("descriptor") or service
+                    name       = ch.get("name") or ch.get("displayName") or "?"
+                    link       = ch.get("externalLink") or ""
+                    conn       = "✗ disconnected" if ch.get("isDisconnected") else "✓ connected"
+                    print(f"  {conn:<16}  {descriptor:<28}  {name:<25}  {cid}")
+                    if link:
+                        print(f"    {link}")
         except Exception as exc:
             print(f"Error: {exc}", file=sys.stderr)
             sys.exit(1)
