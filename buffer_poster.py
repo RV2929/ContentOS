@@ -4,6 +4,11 @@ Post a ContentOS clip to Buffer (Instagram) via Buffer's GraphQL API.
 Endpoint: https://api.buffer.com
 Auth:     Authorization: Bearer <BUFFER_ACCESS_TOKEN>
 
+Buffer's VideoAssetInput requires a public URL — it fetches the file itself.
+If VIDEO_BASE_URL is set in .env (e.g. a Cloudflare/ngrok tunnel pointing
+at the ContentOS server), clip URLs are built from that. Otherwise the file
+is uploaded to transfer.sh to get a temporary public URL.
+
 Usage:
   python buffer_poster.py /path/to/clip.mp4 "Caption #hashtags"
   python buffer_poster.py --profiles   list organizations
@@ -103,87 +108,80 @@ def find_instagram_channel(channels: list) -> str | None:
     return None
 
 
-# ── Media upload ──────────────────────────────────────────────────────────────
+# ── Video hosting ─────────────────────────────────────────────────────────────
+# Buffer's VideoAssetInput only accepts a public URL — it fetches the file itself.
+# If VIDEO_BASE_URL is set (e.g. a Cloudflare Tunnel exposing the ContentOS server),
+# the clip URL is constructed directly. Otherwise the file is pushed to transfer.sh.
 
-REQUEST_UPLOAD_MUTATION = """
-mutation RequestUpload($input: RequestUploadInput!) {
-  requestUpload(input: $input) {
-    uploadId
-    uri
-    method
-    headers {
-      name
-      value
-    }
-    maxFileSize
-  }
-}
-"""
-
-def request_upload_url(media_type: str = "video/mp4") -> tuple:
-    """Ask Buffer for a signed upload URL. Returns (uploadId, uri, method, extra_headers)."""
-    data = gql(REQUEST_UPLOAD_MUTATION, {"input": {"type": media_type}})
-    upload = data.get("requestUpload") or {}
-    upload_id  = upload.get("uploadId")
-    uri        = upload.get("uri")
-    method     = (upload.get("method") or "PUT").upper()
-    raw_hdrs   = upload.get("headers") or []
-    extra_hdrs = {h["name"]: h["value"] for h in raw_hdrs}
-    if not upload_id or not uri:
-        raise RuntimeError(f"No upload URL returned from requestUpload: {upload}")
-    return upload_id, uri, method, extra_hdrs
+VIDEO_BASE_URL = os.environ.get("VIDEO_BASE_URL", "").rstrip("/")
+CLIPS_DIR      = Path(__file__).parent / "clips"
 
 
-def upload_to_signed_url(uri: str, method: str, extra_headers: dict, video_path: Path) -> None:
-    """PUT (or POST) the video bytes to the signed storage URL."""
+def get_public_video_url(video_path: Path) -> str:
+    if VIDEO_BASE_URL:
+        url = f"{VIDEO_BASE_URL}/clips/{video_path.name}"
+        print(f"[buffer] Using public URL: {url}", flush=True)
+        return url
+
     size_mb = video_path.stat().st_size / 1024 / 1024
-    print(f"[buffer] Uploading to storage ({size_mb:.1f} MB, {method})…", flush=True)
-    headers = {"Content-Type": "video/mp4", **extra_headers}
+    print(f"[buffer] Uploading {video_path.name} ({size_mb:.1f} MB) to transfer.sh…", flush=True)
     with open(video_path, "rb") as fh:
-        fn = getattr(requests, method.lower(), requests.put)
-        r = fn(uri, data=fh, headers=headers, timeout=600)
+        r = requests.put(
+            f"https://transfer.sh/{video_path.name}",
+            data=fh,
+            headers={"Content-Type": "video/mp4", "Max-Days": "3"},
+            timeout=600,
+        )
     r.raise_for_status()
-    print(f"[buffer] Upload complete (HTTP {r.status_code})", flush=True)
+    url = r.text.strip()
+    if not url.startswith("http"):
+        raise RuntimeError(f"Unexpected transfer.sh response: {url[:200]}")
+    print(f"[buffer] Public URL: {url}", flush=True)
+    return url
 
 
 # ── Post creation ─────────────────────────────────────────────────────────────
+# createPost returns PostActionPayload (union) — must use inline fragments.
+# schedulingType: automatic  = Buffer publishes automatically at the due time
+# mode: addToQueue           = slot into the channel's posting schedule
 
 CREATE_POST_MUTATION = """
-mutation CreatePost($input: PostCreateInput!) {
-  postCreate(input: $input) {
-    post {
-      id
-      status
-      dueAt
+mutation CreatePost($input: CreatePostInput!) {
+  createPost(input: $input) {
+    ... on PostActionSuccess {
+      post { id status dueAt }
     }
-    errors {
-      type
-      message
-    }
+    ... on InvalidInputError { message type }
+    ... on UnauthorizedError { message type }
+    ... on LimitReachedError { message type }
+    ... on NotFoundError     { message type }
+    ... on UnexpectedError   { message type }
+    ... on RestProxyError    { message type }
   }
 }
 """
 
-def create_post(channel_id: str, text: str, upload_id: str) -> str:
-    """Create a Buffer post and return the post ID."""
+def create_post(channel_id: str, text: str, video_url: str) -> str:
+    """Create a Buffer post with a video URL and return the post ID."""
     variables = {
         "input": {
             "channelId": channel_id,
             "text": text,
-            "media": [{"uploadId": upload_id, "type": "VIDEO"}],
+            "schedulingType": "automatic",
+            "mode": "addToQueue",
+            "assets": [{"video": {"url": video_url}}],
         }
     }
     data = gql(CREATE_POST_MUTATION, variables)
-    result = data.get("postCreate") or {}
-    errors = result.get("errors") or []
-    if errors:
-        msgs = "; ".join(e.get("message", str(e)) for e in errors)
-        raise RuntimeError(f"postCreate error: {msgs}")
-    post = result.get("post") or {}
-    post_id = post.get("id")
-    if not post_id:
-        raise RuntimeError(f"No post ID returned: {result}")
-    return post_id
+    result = data.get("createPost") or {}
+    # Success
+    if "post" in result:
+        post_id = result["post"].get("id")
+        if post_id:
+            return post_id
+    # Error variants all have a message field
+    msg = result.get("message") or result.get("type") or "unknown error"
+    raise RuntimeError(f"createPost failed: {msg} — full response: {result}")
 
 
 # ── Introspection (for debugging schema) ─────────────────────────────────────
@@ -233,14 +231,10 @@ def post_video(video_path: str, caption: str) -> dict:
             }
         print(f"[buffer] Channel: {channel_id}", flush=True)
 
-        print("[buffer] Requesting upload URL…", flush=True)
-        upload_id, uri, method, extra_headers = request_upload_url("video/mp4")
-        print(f"[buffer] Upload ID: {upload_id}", flush=True)
-
-        upload_to_signed_url(uri, method, extra_headers, vpath)
+        video_url = get_public_video_url(vpath)
 
         print("[buffer] Creating post…", flush=True)
-        post_id = create_post(channel_id, caption, upload_id)
+        post_id = create_post(channel_id, caption, video_url)
         print(f"[buffer] Post queued! ID: {post_id}", flush=True)
         return {"ok": True, "updateId": post_id}
 
