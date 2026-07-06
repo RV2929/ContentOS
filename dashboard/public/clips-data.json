@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T06:14:34.737Z",
+  "lastUpdated": "2026-07-06T08:01:29.076Z",
   "clips": [
     {
       "filename": "119b_Your_Success_Door_Is_Locked_clip01_A_live_demonstration_of_mind_conditionin.mp4",
@@ -410,8 +410,8 @@
       "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip08_A_crisp_repeatable_definition_of_happine.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-06T08:00:37.273811+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Happiness Is Actually Just One Simple Gap",
       "thumbnailPath": "/thumbnails/The_Best_Financial_Advice_Youll_Ever_Hea_clip08_A_crisp_repeatable_definition_of_happine.jpg"
     }
