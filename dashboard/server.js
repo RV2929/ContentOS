@@ -845,10 +845,13 @@ async function runScheduler() {
   }
 
   // ── Buffer auto-post ───────────────────────────────────────────────────────
+  // Fires on the same tick as the YouTube upload: entry.status === 'pending'
+  // means the clip is due now (same scheduledAt gate below).
   const bufferToken = readBufferToken();
   if (bufferToken) {
     for (const [filename, entry] of Object.entries(schedule)) {
-      if (entry.bufferStatus !== 'pending') continue;
+      if (entry.status !== 'pending') continue;                                    // same trigger as YouTube
+      if (['uploading', 'done', 'failed'].includes(entry.bufferStatus)) continue; // already handled
       if (bufferInProgress.has(filename)) continue;
       if (new Date(entry.scheduledAt) > now) continue;
 
