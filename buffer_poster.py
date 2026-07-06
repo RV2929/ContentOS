@@ -29,7 +29,7 @@ import requests
 
 BUFFER_TOKEN      = os.environ.get("BUFFER_ACCESS_TOKEN", "")
 BUFFER_PROFILE_ID = os.environ.get("BUFFER_PROFILE_ID", "")
-GQL_URL           = "https://api.bufferapp.com/graphql"
+GQL_URL           = "https://api.buffer.com"
 
 
 # ── GraphQL client ────────────────────────────────────────────────────────────
@@ -67,8 +67,17 @@ query GetChannels {
 }
 """
 
+ORGANIZATIONS_QUERY = """
+query GetOrganizations { account { organizations { id } } }
+"""
+
 def get_channels() -> list:
     return gql(CHANNELS_QUERY).get("channels") or []
+
+
+def get_organizations() -> list:
+    data = gql(ORGANIZATIONS_QUERY)
+    return (data.get("account") or {}).get("organizations") or []
 
 
 def find_instagram_channel(channels: list) -> str | None:
@@ -263,15 +272,11 @@ if __name__ == "__main__":
 
     if args.profiles:
         try:
-            channels = get_channels()
-            if not channels:
-                print("  No channels found.")
-            for ch in channels:
-                svc  = ch.get("service") or ch.get("serviceType") or "?"
-                name = ch.get("name") or "?"
-                cid  = ch.get("id") or "?"
-                conn = "✓" if ch.get("isConnected") else "✗"
-                print(f"  {conn} {cid}  {svc}  {name}")
+            orgs = get_organizations()
+            if not orgs:
+                print("  No organizations found.")
+            for org in orgs:
+                print(f"  {org.get('id', '?')}")
         except Exception as exc:
             print(f"Error: {exc}", file=sys.stderr)
             sys.exit(1)
