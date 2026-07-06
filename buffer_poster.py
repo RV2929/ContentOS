@@ -156,6 +156,7 @@ def create_post(channel_id: str, text: str, video_url: str) -> str:
             "text": text,
             "schedulingType": "automatic",
             "mode": "addToQueue",
+            "postType": "reel",
             "assets": [{"video": {"url": video_url}}],
         }
     }
