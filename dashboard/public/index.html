@@ -584,7 +584,6 @@ const PLATFORM_META = {
 
 let queueData = [];
 let queueRefreshTimer = null;
-let showDone = false; // whether completed queue items are expanded
 
 const STATUS_LABELS = {
   queued:          '● Queued',
@@ -617,31 +616,27 @@ function timeAgo(isoStr) {
 const ACTIVE_STATUSES = new Set(['downloading', 'transcribing', 'generating_clips']);
 
 function renderQueue() {
-  const itemsEl  = document.getElementById('queue-items');
-  const emptyEl  = document.getElementById('queue-empty');
-  const countEl  = document.getElementById('queue-count-pill');
-  const active   = queueData.filter(i => ACTIVE_STATUSES.has(i.status));
-  const pending  = queueData.filter(i => i.status !== 'done');
+  const itemsEl = document.getElementById('queue-items');
+  const emptyEl = document.getElementById('queue-empty');
+  const countEl = document.getElementById('queue-count-pill');
+  const visible = queueData.filter(i => i.status !== 'done');
 
-  // Count pill
-  if (pending.length) {
-    countEl.textContent = pending.length;
+  // Count pill shows only active/pending items
+  if (visible.length) {
+    countEl.textContent = visible.length;
     countEl.style.display = '';
   } else {
     countEl.style.display = 'none';
   }
 
-  const nonDone = queueData.filter(i => i.status !== 'done');
-  const done    = queueData.filter(i => i.status === 'done');
-
-  if (!queueData.length) {
+  if (!visible.length) {
     emptyEl.style.display = '';
     Array.from(itemsEl.querySelectorAll('.queue-item')).forEach(el => el.remove());
     return;
   }
   emptyEl.style.display = 'none';
 
-  const renderItem = item => {
+  itemsEl.innerHTML = visible.map(item => {
     const isActive  = ACTIVE_STATUSES.has(item.status);
     const label     = STATUS_LABELS[item.status] || item.status;
     const spinner   = isActive ? '<span class="q-spinner">↻</span> ' : '';
@@ -659,22 +654,7 @@ function renderQueue() {
       <span class="q-badge q-${item.status}">${spinner}${label}</span>
       ${removeBtn}
     </div>`;
-  };
-
-  const doneToggle = done.length ? `
-    <div style="padding:6px 0 2px;text-align:center">
-      <button class="btn btn-ghost btn-sm"
-              onclick="showDone=!showDone;renderQueue()"
-              style="font-size:12px;color:#64748b">
-        ${showDone ? '▼ Hide' : '▶ Show'} ${done.length} completed
-      </button>
-    </div>` : '';
-
-  itemsEl.innerHTML =
-    nonDone.map(renderItem).join('') +
-    doneToggle +
-    (showDone ? done.map(renderItem).join('') : '') +
-    `<div class="queue-empty" id="queue-empty" style="display:none"></div>`;
+  }).join('') + `<div class="queue-empty" id="queue-empty" style="display:none"></div>`;
 }
 
 async function loadQueue() {
