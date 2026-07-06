@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T05:31:14.143Z",
+  "lastUpdated": "2026-07-06T06:14:34.737Z",
   "clips": [
     {
       "filename": "119b_Your_Success_Door_Is_Locked_clip01_A_live_demonstration_of_mind_conditionin.mp4",
@@ -176,8 +176,8 @@
       "filename": "Communicate_with_Confidence_The_Blueprin_clip07_The_counterintuitive_gem_the_more_words_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-06T05:47:37.754647+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "STOP BEING A WATERFALL",
       "thumbnailPath": "/thumbnails/Communicate_with_Confidence_The_Blueprin_clip07_The_counterintuitive_gem_the_more_words_.jpg"
     },
