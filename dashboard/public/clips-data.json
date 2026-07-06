@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T00:35:59.175Z",
+  "lastUpdated": "2026-07-06T01:04:17.104Z",
   "clips": [
     {
       "filename": "119b_Your_Success_Door_Is_Locked_clip01_A_live_demonstration_of_mind_conditionin.mp4",
@@ -158,8 +158,8 @@
       "filename": "Communicate_with_Confidence_The_Blueprin_clip05_Genius_parentingrelationship_reframe_wit.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-06T00:47:37.754647+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "SEPARATE THE PERSON FROM THE PROBLEM",
       "thumbnailPath": "/thumbnails/Communicate_with_Confidence_The_Blueprin_clip05_Genius_parentingrelationship_reframe_wit.jpg"
     },
