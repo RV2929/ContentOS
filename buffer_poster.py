@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
 Post a ContentOS clip to Buffer (Instagram) via Buffer's GraphQL API.
-Endpoint: https://api.bufferapp.com/graphql
+Endpoint: https://api.buffer.com
 Auth:     Authorization: Bearer <BUFFER_ACCESS_TOKEN>
 
 Usage:
   python buffer_poster.py /path/to/clip.mp4 "Caption #hashtags"
-  python buffer_poster.py --profiles   list connected channels
+  python buffer_poster.py --profiles   list organizations
+  python buffer_poster.py --channels   list all connected social channels
   python buffer_poster.py --schema     print available GraphQL mutations
 
 Output: JSON  {"ok": true, "updateId": "..."}
@@ -71,6 +72,19 @@ ORGANIZATIONS_QUERY = """
 query GetOrganizations { account { organizations { id } } }
 """
 
+ORG_CHANNELS_QUERY = """
+query GetOrgChannels($organizationId: String!) {
+  channels(organizationId: $organizationId) {
+    id
+    name
+    service
+    serviceType
+    isConnected
+    avatar
+  }
+}
+"""
+
 def get_channels() -> list:
     return gql(CHANNELS_QUERY).get("channels") or []
 
@@ -78,6 +92,10 @@ def get_channels() -> list:
 def get_organizations() -> list:
     data = gql(ORGANIZATIONS_QUERY)
     return (data.get("account") or {}).get("organizations") or []
+
+
+def get_channels_for_org(org_id: str) -> list:
+    return gql(ORG_CHANNELS_QUERY, {"organizationId": org_id}).get("channels") or []
 
 
 def find_instagram_channel(channels: list) -> str | None:
@@ -247,7 +265,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Post a clip to Buffer / Instagram (GraphQL API)"
     )
-    parser.add_argument("--profiles", action="store_true", help="List connected Buffer channels")
+    parser.add_argument("--profiles", action="store_true", help="List Buffer organizations")
+    parser.add_argument("--channels", action="store_true", help="List all connected social channels")
     parser.add_argument("--schema",   action="store_true", help="Print available GraphQL mutations")
     parser.add_argument("video",   nargs="?", help="Path to MP4 file")
     parser.add_argument("caption", nargs="?", default="", help="Caption with hashtags")
@@ -277,6 +296,29 @@ if __name__ == "__main__":
                 print("  No organizations found.")
             for org in orgs:
                 print(f"  {org.get('id', '?')}")
+        except Exception as exc:
+            print(f"Error: {exc}", file=sys.stderr)
+            sys.exit(1)
+        sys.exit(0)
+
+    if args.channels:
+        try:
+            orgs = get_organizations()
+            if not orgs:
+                print("  No organizations found.")
+                sys.exit(0)
+            for org in orgs:
+                org_id = org.get("id", "?")
+                channels = get_channels_for_org(org_id)
+                if not channels:
+                    print(f"  Org {org_id}: no channels found.")
+                    continue
+                for ch in channels:
+                    cid     = ch.get("id", "?")
+                    service = ch.get("service") or ch.get("serviceType") or "?"
+                    name    = ch.get("name") or "?"
+                    conn    = "✓" if ch.get("isConnected") else "✗"
+                    print(f"  {conn}  {service:<16}  {name:<30}  {cid}")
         except Exception as exc:
             print(f"Error: {exc}", file=sys.stderr)
             sys.exit(1)
