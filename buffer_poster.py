@@ -4,10 +4,10 @@ Post a ContentOS clip to Buffer (Instagram) via Buffer's GraphQL API.
 Endpoint: https://api.buffer.com
 Auth:     Authorization: Bearer <BUFFER_ACCESS_TOKEN>
 
-Buffer's VideoAssetInput requires a public URL — it fetches the file itself.
-If VIDEO_BASE_URL is set in .env (e.g. a Cloudflare/ngrok tunnel pointing
-at the ContentOS server), clip URLs are built from that. Otherwise the file
-is uploaded to transfer.sh to get a temporary public URL.
+Buffer's VideoAssetInput requires a public URL — it fetches the video itself.
+Set VIDEO_BASE_URL in .env to your Cloudflare tunnel URL. The ContentOS server
+already serves clips at /clips/:filename, so Buffer can reach any clip at
+VIDEO_BASE_URL/clips/filename.mp4.
 
 Usage:
   python buffer_poster.py /path/to/clip.mp4 "Caption #hashtags"
@@ -108,35 +108,22 @@ def find_instagram_channel(channels: list) -> str | None:
     return None
 
 
-# ── Video hosting ─────────────────────────────────────────────────────────────
-# Buffer's VideoAssetInput only accepts a public URL — it fetches the file itself.
-# If VIDEO_BASE_URL is set (e.g. a Cloudflare Tunnel exposing the ContentOS server),
-# the clip URL is constructed directly. Otherwise the file is pushed to transfer.sh.
+# ── Video URL ─────────────────────────────────────────────────────────────────
+# Buffer's VideoAssetInput requires a public URL — it fetches the file itself.
+# The ContentOS server serves clips at /clips/:filename. Set VIDEO_BASE_URL in
+# .env to your Cloudflare tunnel URL so Buffer can reach the file.
 
 VIDEO_BASE_URL = os.environ.get("VIDEO_BASE_URL", "").rstrip("/")
-CLIPS_DIR      = Path(__file__).parent / "clips"
 
 
 def get_public_video_url(video_path: Path) -> str:
-    if VIDEO_BASE_URL:
-        url = f"{VIDEO_BASE_URL}/clips/{video_path.name}"
-        print(f"[buffer] Using public URL: {url}", flush=True)
-        return url
-
-    size_mb = video_path.stat().st_size / 1024 / 1024
-    print(f"[buffer] Uploading {video_path.name} ({size_mb:.1f} MB) to transfer.sh…", flush=True)
-    with open(video_path, "rb") as fh:
-        r = requests.put(
-            f"https://transfer.sh/{video_path.name}",
-            data=fh,
-            headers={"Content-Type": "video/mp4", "Max-Days": "3"},
-            timeout=600,
+    if not VIDEO_BASE_URL:
+        raise RuntimeError(
+            "VIDEO_BASE_URL is not set in .env. "
+            "Add your Cloudflare tunnel URL, e.g. VIDEO_BASE_URL=https://xxxx.trycloudflare.com"
         )
-    r.raise_for_status()
-    url = r.text.strip()
-    if not url.startswith("http"):
-        raise RuntimeError(f"Unexpected transfer.sh response: {url[:200]}")
-    print(f"[buffer] Public URL: {url}", flush=True)
+    url = f"{VIDEO_BASE_URL}/clips/{video_path.name}"
+    print(f"[buffer] Video URL: {url}", flush=True)
     return url
 
 
