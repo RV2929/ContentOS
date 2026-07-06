@@ -72,8 +72,11 @@
     .btn-neutral   { background: #64748b; color: #fff; }
     .btn-youtube { background: #ef4444; color: #fff; }
     .btn-youtube:hover { background: #dc2626; opacity: 1; }
-    .btn-buffer  { background: linear-gradient(135deg, #f56040, #c13584); color: #fff; }
-    .btn-buffer:hover { opacity: 0.88; }
+    .btn-buffer          { background: linear-gradient(135deg, #f56040, #c13584); color: #fff; }
+    .btn-buffer:hover:not(:disabled) { opacity: 0.85; }
+    .btn-buffer-pending  { background: #1e293b; color: #64748b; border: 1px solid #334155; cursor: default; }
+    .btn-buffer-uploading{ background: #78350f; color: #fbbf24; cursor: default; }
+    .btn-buffer-done     { background: #14532d; color: #4ade80; cursor: default; }
 
     .buffer-badge { font-size: 11px; font-weight: 500; margin-top: 4px; }
     .buffer-badge.buffer-pending   { color: #94a3b8; }
@@ -955,11 +958,6 @@ function cardHTML(clip) {
     ? `<div class="sched-time">⏰ ${formatSchedTime(scheduledAt)}</div>`
     : '';
 
-  const bufferLabels = { pending: '⬡ Buffer: queued', uploading: '⬡ Buffer: sending…', done: '✓ Queued on Buffer', failed: '✕ Buffer failed' };
-  const bufferRow = bufferStatus
-    ? `<div class="buffer-badge buffer-${bufferStatus} js-buffer-row">${bufferLabels[bufferStatus] || bufferStatus}</div>`
-    : `<div class="buffer-badge js-buffer-row" style="display:none"></div>`;
-
   return `
     <div class="clip-card" data-filename="${safeFilename}">
       <div class="thumb-wrap">
@@ -975,7 +973,6 @@ function cardHTML(clip) {
             <div class="clip-title" title="${title}">${title}</div>
             ${source ? `<div class="clip-source">${source}</div>` : ''}
             ${schedRow}
-            ${bufferRow}
           </div>
           <div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0">
             <span class="status-badge status-${si.cls}">${si.label}</span>
@@ -1030,16 +1027,25 @@ function cardBottomHTML(filename, status) {
   }
 
   const isScheduled  = schedStatus === 'pending';
-  const bufferStatus = clip?.bufferStatus;
+  const bs           = clip?.bufferStatus || null;
   const cancelBtn = isScheduled
     ? `<button class="btn btn-ghost btn-sm act-cancel-sched">✕ Cancel Schedule</button>`
     : '';
   const ytBtn = (ytState.connected && status === 'ready' && !isScheduled)
     ? `<button class="btn btn-youtube btn-sm act-upload-yt">▶ YouTube</button>`
     : '';
-  const bufferBtn = (!bufferStatus || bufferStatus === 'failed')
-    ? `<button class="btn btn-buffer btn-sm act-upload-buffer">▲ Buffer</button>`
-    : '';
+
+  const bufferLabel = bs === 'pending'   ? '⬡ Queued'
+                    : bs === 'uploading' ? '⟳ Sending…'
+                    : bs === 'done'      ? '✓ Posted'
+                    : bs === 'failed'    ? '↺ Retry'
+                    :                     '▲ Instagram';
+  const bufferCls   = bs === 'done'      ? 'btn-buffer-done'
+                    : bs === 'uploading' ? 'btn-buffer-uploading'
+                    : bs === 'pending'   ? 'btn-buffer-pending'
+                    :                     'btn-buffer';
+  const bufferDis   = (bs === 'pending' || bs === 'uploading' || bs === 'done') ? 'disabled' : '';
+  const bufferBtn   = `<button class="btn ${bufferCls} btn-sm act-upload-buffer" ${bufferDis}>${bufferLabel}</button>`;
 
   return `
     <div class="card-actions">
@@ -1072,13 +1078,13 @@ function setupBottomEvents(el, filename) {
   });
   el.querySelector('.act-upload-yt')?.addEventListener('click', () => openUploadModal(filename));
 
-  el.querySelector('.act-upload-buffer')?.addEventListener('click', async () => {
+  el.querySelector('.act-upload-buffer')?.addEventListener('click', async (e) => {
+    if (e.currentTarget.disabled) return;
     const result = await api('POST', '/api/upload/buffer', { filename });
     if (result.error) { toast('Buffer: ' + result.error); return; }
     const c = allClips.find(c => c.filename === filename);
     if (c) c.bufferStatus = 'uploading';
     patchCard(filename, c?.status || 'ready');
-    patchBufferBadge(filename);
     toast('Sending to Buffer…');
   });
 
@@ -1094,16 +1100,8 @@ function setupBottomEvents(el, filename) {
 }
 
 function patchBufferBadge(filename) {
-  const card = findCard(filename);
-  if (!card) return;
   const clip = allClips.find(c => c.filename === filename);
-  const bs = clip?.bufferStatus;
-  const labels = { pending: '⬡ Buffer: queued', uploading: '⬡ Buffer: sending…', done: '✓ Queued on Buffer', failed: '✕ Buffer failed' };
-  const row = card.querySelector('.js-buffer-row');
-  if (!row) return;
-  row.className = `buffer-badge js-buffer-row${bs ? ' buffer-' + bs : ''}`;
-  row.textContent = bs ? (labels[bs] || bs) : '';
-  row.style.display = bs ? '' : 'none';
+  patchCard(filename, clip?.status || 'ready');
 }
 
 // Patch just the badge + bottom section without re-rendering the whole card
