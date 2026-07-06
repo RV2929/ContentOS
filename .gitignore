@@ -15,7 +15,7 @@ build/
 
 # ── Secrets & local config ────────────────────────────────────────────────────
 .env
-.env.*
+.env*
 
 # ── Dashboard — runtime state (local only, never commit) ──────────────────────
 dashboard/node_modules/
