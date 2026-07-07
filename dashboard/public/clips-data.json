@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T08:58:54.130Z",
+  "lastUpdated": "2026-07-07T09:02:19.544Z",
   "clips": [
     {
       "filename": "119b_Your_Success_Door_Is_Locked_clip01_A_live_demonstration_of_mind_conditionin.mp4",
@@ -176,8 +176,8 @@
       "filename": "Billionaires_WARNING_Im_SELLING_The_Cras_clip07_Maternal_mortality_as_the_measure_of_civ.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-07T08:43:12.637202+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Billionaires WARNING Im SELLING The Cras clip07 Maternal mortality as the measur",
       "thumbnailPath": "/thumbnails/Billionaires_WARNING_Im_SELLING_The_Cras_clip07_Maternal_mortality_as_the_measure_of_civ.jpg"
     },
