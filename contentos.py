@@ -184,17 +184,17 @@ Source video: "{video_title}"
 
 For EACH clip generate:
 - title: 60–100 chars, punchy, curiosity-driven, expert/authority framing when relevant. No emojis.
-- description: 2 sentences that tease without spoiling. Final line must be ONLY hashtags: always start with #Shorts then 4–6 topical tags.
+- description: 2 sentences that tease without spoiling. End with a line of ONLY hashtags: always include #Shorts plus 10–14 more topical hashtags relevant to the clip content (e.g. #AI #Tech #Future #Innovation #Psychology #Mindset #Motivation #Science #Health etc).
 
 Reply ONLY with a valid JSON array in the same order as the clips:
 [{{"title":"...","description":"..."}},...]"""
 
     fallback = [
         {
-            "title": os.path.splitext(fn)[0].replace("_", " ")[:80],
+            "title": c.get("title", "") or os.path.splitext(fn)[0].replace("_", " ")[:80],
             "description": "#Shorts",
         }
-        for fn, _ in path_clip_pairs
+        for fn, c in path_clip_pairs
     ]
 
     try:
@@ -262,8 +262,9 @@ def _schedule_clips(
         m_idx = re.search(r"_clip(\d+)_", filename)
         clip_index = int(m_idx.group(1)) if m_idx else (i + 1)
 
+        clip_data = clips[clip_index - 1] if 0 <= clip_index - 1 < len(clips) else {}
         meta = metadata.get(filename, {})
-        title = meta.get("title") or os.path.splitext(filename)[0].replace("_", " ")[:80]
+        title = meta.get("title") or clip_data.get("title", "") or os.path.splitext(filename)[0].replace("_", " ")[:80]
         description = meta.get("description") or "#Shorts"
 
         scheduled_at = start + datetime.timedelta(hours=i * INTERVAL_HOURS)
