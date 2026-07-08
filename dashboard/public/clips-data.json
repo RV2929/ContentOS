@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T13:32:06.697Z",
+  "lastUpdated": "2026-07-08T13:45:51.001Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -671,8 +671,8 @@
       "filename": "Stock_Expert_Becoming_Rich_Is_Simple_But_clip03_The_opportunity-cost_reveal_reframes_eve.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T13:44:59.890003+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Your Daily Coffee Actually Costs 150 Dollars",
       "thumbnailPath": "/thumbnails/Stock_Expert_Becoming_Rich_Is_Simple_But_clip03_The_opportunity-cost_reveal_reframes_eve.jpg"
     },
@@ -750,8 +750,8 @@
     },
     {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_jaw-dropping_high-stakes_awe_story_of_.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "9iM10lNn4Uk",
       "scheduledAt": null,
       "scheduleStatus": "failed",
       "title": "Swimming With Killer Whales Changed Everything",
@@ -759,8 +759,8 @@
     },
     {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip06_Jays_story_of_making_a_peace_sound_and_h.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "4-RFjUqy_nA",
       "scheduledAt": null,
       "scheduleStatus": "failed",
       "title": "Gorilla Responds To Human Peace Sound",
