@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T16:15:51.213Z",
+  "lastUpdated": "2026-07-08T16:26:51.838Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -248,8 +248,8 @@
       "filename": "5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T16:26:07.798162+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Stop Saying This One Phrase — It's Actually a Burden",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
