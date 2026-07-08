@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T09:24:02.573Z",
+  "lastUpdated": "2026-07-08T09:29:28Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -268,7 +268,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-07-08T11:26:07.798162+00:00",
       "scheduleStatus": "pending",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
     {
@@ -286,7 +286,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-07-08T16:26:07.798162+00:00",
       "scheduleStatus": "pending",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
     {
@@ -304,7 +304,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-07-08T21:26:07.798162+00:00",
       "scheduleStatus": "pending",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
     {
@@ -963,6 +963,42 @@
       "scheduleStatus": "pending",
       "title": "A Miscarriage Taught Him to Slow Down and Heal",
       "thumbnailPath": "/thumbnails/The_Mitochondria_Doctor_This_Reverses_Gr_clip08_Raw_vulnerable_confession_about_his_misc.jpg"
+    },
+    {
+      "filename": "Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip01_Naturally_funny_and_punchy__his_personal.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T09:39:28.229424+00:00",
+      "scheduleStatus": "pending",
+      "title": "MY DAD'S ANTI-DRUG PLAN",
+      "thumbnailPath": "/thumbnails/Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip01_Naturally_funny_and_punchy__his_personal.jpg"
+    },
+    {
+      "filename": "Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip02_Counterintuitive_provocative_claim_that_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T12:09:28.229424+00:00",
+      "scheduleStatus": "pending",
+      "title": "MARRIAGE IS A GOVERNMENT TRAP",
+      "thumbnailPath": "/thumbnails/Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip02_Counterintuitive_provocative_claim_that_.jpg"
+    },
+    {
+      "filename": "Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip03_Tight_story_arc_from_private_jets_and_bo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T14:39:28.229424+00:00",
+      "scheduleStatus": "pending",
+      "title": "PRISON WAS A HARD RESET",
+      "thumbnailPath": "/thumbnails/Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip03_Tight_story_arc_from_private_jets_and_bo.jpg"
+    },
+    {
+      "filename": "Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip04_Deeply_emotional_account_of_being_denied.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T17:09:28.229424+00:00",
+      "scheduleStatus": "pending",
+      "title": "WHAT THEY STOLE FROM ME",
+      "thumbnailPath": "/thumbnails/Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip04_Deeply_emotional_account_of_being_denied.jpg"
     }
   ]
 }
