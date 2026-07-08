@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T08:57:09.514Z",
+  "lastUpdated": "2026-07-08T09:13:22Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -12,47 +12,47 @@
     },
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip02_The_NASA_supercomputer_calculating_22_an.mp4",
-      "status": "ready",
+      "status": "posted",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T10:56:22.844001+00:00",
-      "scheduleStatus": "pending",
-      "title": "NASA Supercomputer Doing 2+2: The Reality Check",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
       "thumbnailPath": "/thumbnails/1000_hours_of_Learning_Claude_in_15_Minu_clip02_The_NASA_supercomputer_calculating_22_an.jpg"
     },
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip03_A_relatable_story_of_a_non-coder_buildin.mp4",
-      "status": "ready",
+      "status": "posted",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T13:26:22.844001+00:00",
-      "scheduleStatus": "pending",
-      "title": "English Is the New Programming Language",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
       "thumbnailPath": "/thumbnails/1000_hours_of_Learning_Claude_in_15_Minu_clip03_A_relatable_story_of_a_non-coder_buildin.jpg"
     },
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip04_Unexpected_humor_and_awe__writing_code_f.mp4",
-      "status": "ready",
+      "status": "posted",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T15:56:22.844001+00:00",
-      "scheduleStatus": "pending",
-      "title": "Writing Code While Mountain Biking: Peak Chaos",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
       "thumbnailPath": "/thumbnails/1000_hours_of_Learning_Claude_in_15_Minu_clip04_Unexpected_humor_and_awe__writing_code_f.jpg"
     },
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip05_The_counterintuitive_reveal_that_his_lea.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T18:26:22.844001+00:00",
-      "scheduleStatus": "pending",
-      "title": "My AI Agent Does Nothing: The Plot Twist",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
       "thumbnailPath": "/thumbnails/1000_hours_of_Learning_Claude_in_15_Minu_clip05_The_counterintuitive_reveal_that_his_lea.jpg"
     },
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip06_Provocative_human_on_the_loop_not_in_the.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T20:56:22.844001+00:00",
-      "scheduleStatus": "pending",
-      "title": "Human on the Loop, Not In It: Perspective Shift",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
       "thumbnailPath": "/thumbnails/1000_hours_of_Learning_Claude_in_15_Minu_clip06_Provocative_human_on_the_loop_not_in_the.jpg"
     },
     {
@@ -173,6 +173,87 @@
       "thumbnailPath": "/thumbnails/1_Neurosurgeon_How_to_Manifest_Anything__clip07_A_powerful_screenshot-worthy_metaphor_th.jpg"
     },
     {
+      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip01_A_vivid_ancient_story_revealing_the_coun.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T09:23:22.959617+00:00",
+      "scheduleStatus": "pending",
+      "title": "Diogenes Had More Than Alexander The Great Ever Will",
+      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip01_A_vivid_ancient_story_revealing_the_coun.jpg"
+    },
+    {
+      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip02_The_quotable_the_reason_to_win_the_game_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T11:53:22.959617+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Real Reason To Win The Game Of Life",
+      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip02_The_quotable_the_reason_to_win_the_game_.jpg"
+    },
+    {
+      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip03_A_brutal_screenshot-ready_line_about_was.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T14:23:22.959617+00:00",
+      "scheduleStatus": "pending",
+      "title": "Stop Impressing People Who Don't Care About You",
+      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip03_A_brutal_screenshot-ready_line_about_was.jpg"
+    },
+    {
+      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip04_A_charming_story_with_a_killer_reframe__.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T16:53:22.959617+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Easiest Decision You'll Ever Make",
+      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip04_A_charming_story_with_a_killer_reframe__.jpg"
+    },
+    {
+      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip05_The_we_sacrifice_the_thing_we_want_for_t.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T19:23:22.959617+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Happiness Trap Destroying Your Life",
+      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip05_The_we_sacrifice_the_thing_we_want_for_t.jpg"
+    },
+    {
+      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip06_Naval_distills_all_of_success_into_two_w.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T21:53:22.959617+00:00",
+      "scheduleStatus": "pending",
+      "title": "Two Words That Explain All Of Success",
+      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip06_Naval_distills_all_of_success_into_two_w.jpg"
+    },
+    {
+      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip07_A_gripping_thought_experiment_that_flips.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T00:23:22.959617+00:00",
+      "scheduleStatus": "pending",
+      "title": "Would You Plug Into A Machine That Makes You Happy",
+      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip07_A_gripping_thought_experiment_that_flips.jpg"
+    },
+    {
+      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip08_A_provocative_rapid-fire_list_of_hard_tr.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T02:53:22.959617+00:00",
+      "scheduleStatus": "pending",
+      "title": "Five Hard Truths You Keep Refusing To Learn",
+      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip08_A_provocative_rapid-fire_list_of_hard_tr.jpg"
+    },
+    {
+      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip09_A_counterintuitive_redefinition_of_the_a.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T05:23:22.959617+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Alpha Male Secret Nobody Talks About",
+      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip09_A_counterintuitive_redefinition_of_the_a.jpg"
+    },
+    {
       "filename": "5_Ways_to_be_a_Better_Communicator__Jeff_clip01_A_physical_demonstration_with_a_string_p.mp4",
       "status": "posted",
       "youtubeId": "Hls9pC0mSP8",
@@ -187,7 +268,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-07-08T11:26:07.798162+00:00",
       "scheduleStatus": "pending",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
     {
@@ -205,7 +286,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-07-08T16:26:07.798162+00:00",
       "scheduleStatus": "pending",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
     {
@@ -223,7 +304,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-07-08T21:26:07.798162+00:00",
       "scheduleStatus": "pending",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
     {
