@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T18:45:18.042Z",
+  "lastUpdated": "2026-07-08T18:56:18.280Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,8 +257,8 @@
       "filename": "5_Ways_to_be_a_Better_Communicator__Jeff_clip05_A_precise_three-step_script_for_disarmin.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T18:56:07.798162+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Three-Step Script to Disarm Any Insult or Attack",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip05_A_precise_three-step_script_for_disarmin.jpg"
     },
