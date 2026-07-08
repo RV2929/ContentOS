@@ -95,6 +95,18 @@
       "clipsCount": 0,
       "batchId": null,
       "error": null
+    },
+    {
+      "id": "mrbrzm2vdgys",
+      "url": "https://www.youtube.com/watch?v=5YMDIUnpBdQ",
+      "title": "",
+      "status": "queued",
+      "addedAt": "2026-07-08T07:47:52.327Z",
+      "startedAt": null,
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
