@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T14:39:51.928Z",
+  "lastUpdated": "2026-07-08T15:52:52.795Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -191,15 +191,6 @@
       "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip02_The_quotable_the_reason_to_win_the_game_.jpg"
     },
     {
-      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip03_A_brutal_screenshot-ready_line_about_was.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": "failed",
-      "title": "Stop Impressing People Who Don't Care About You",
-      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip03_A_brutal_screenshot-ready_line_about_was.jpg"
-    },
-    {
       "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip04_A_charming_story_with_a_killer_reframe__.mp4",
       "status": "ready",
       "youtubeId": "",
@@ -207,15 +198,6 @@
       "scheduleStatus": "pending",
       "title": "The Easiest Decision You'll Ever Make",
       "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip04_A_charming_story_with_a_killer_reframe__.jpg"
-    },
-    {
-      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip05_The_we_sacrifice_the_thing_we_want_for_t.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-08T19:23:22.959617+00:00",
-      "scheduleStatus": "pending",
-      "title": "The Happiness Trap Destroying Your Life",
-      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip05_The_we_sacrifice_the_thing_we_want_for_t.jpg"
     },
     {
       "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip06_Naval_distills_all_of_success_into_two_w.mp4",
@@ -234,24 +216,6 @@
       "scheduleStatus": "pending",
       "title": "Would You Plug Into A Machine That Makes You Happy",
       "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip07_A_gripping_thought_experiment_that_flips.jpg"
-    },
-    {
-      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip08_A_provocative_rapid-fire_list_of_hard_tr.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T02:53:22.959617+00:00",
-      "scheduleStatus": "pending",
-      "title": "Five Hard Truths You Keep Refusing To Learn",
-      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip08_A_provocative_rapid-fire_list_of_hard_tr.jpg"
-    },
-    {
-      "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip09_A_counterintuitive_redefinition_of_the_a.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T05:23:22.959617+00:00",
-      "scheduleStatus": "pending",
-      "title": "The Alpha Male Secret Nobody Talks About",
-      "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip09_A_counterintuitive_redefinition_of_the_a.jpg"
     },
     {
       "filename": "5_Ways_to_be_a_Better_Communicator__Jeff_clip01_A_physical_demonstration_with_a_string_p.mp4",
@@ -434,13 +398,85 @@
       "thumbnailPath": "/thumbnails/Communicate_with_Confidence_The_Blueprin_clip07_The_counterintuitive_gem_the_more_words_.jpg"
     },
     {
-      "filename": "Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip01_Opens_with_a_bold_counterintuitive_claim.mp4",
-      "status": "posted",
-      "youtubeId": "rrXw2b_BEJ8",
+      "filename": "EMILIE_KISER_EXCLUSIVE_The_Loss_That_Cha_clip01_A_devastating_cold-open_hook__a_phone_ca.mp4",
+      "status": "ready",
+      "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Harvard Psychiatrist: We've Been Treating Mental Illness All WRONG",
-      "thumbnailPath": "/thumbnails/Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip01_Opens_with_a_bold_counterintuitive_claim.jpg"
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "EMILIE_KISER_EXCLUSIVE_The_Loss_That_Cha_clip02_A_tight_gut-wrenching_story_with_clear_s.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "EMILIE_KISER_EXCLUSIVE_The_Loss_That_Cha_clip03_A_humbling_quotable_truth_about_judging_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "EMILIE_KISER_EXCLUSIVE_The_Loss_That_Cha_clip04_Counterintuitive_insight_that_the_famous.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "EMILIE_KISER_EXCLUSIVE_The_Loss_That_Cha_clip05_A_surprisingly_practical_reframe_of_good.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "EMILIE_KISER_EXCLUSIVE_The_Loss_That_Cha_clip06_Raw_vulnerability_about_anger_blame_and_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "EMILIE_KISER_EXCLUSIVE_The_Loss_That_Cha_clip07_A_provocative_screenshot-worthy_rebuttal.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "EMILIE_KISER_EXCLUSIVE_The_Loss_That_Cha_clip08_A_powerful_shareable_safety_message_turn.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip02_A_shocking_real_story_of_an_innocent-sou.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
     },
     {
       "filename": "Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip02_A_shocking_true_story_of_an_innocent-sou.mp4",
@@ -479,6 +515,15 @@
       "thumbnailPath": "/thumbnails/Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip03_A_stark_quotable_reveal_that_thousands_o.jpg"
     },
     {
+      "filename": "Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip03_The_jaw-dropping_reveal_that_food_compan.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
       "filename": "Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip04_A_jaw-dropping_statistic_that_only_7_of_.mp4",
       "status": "posted",
       "youtubeId": "l_UD9D6Stc4",
@@ -491,6 +536,24 @@
       "filename": "Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip04_Relatable_insight_that_fixing_your_healt.mp4",
       "status": "posted",
       "youtubeId": "NEceopzGoM0",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip04_The_stat_that_93_of_Americans_are_metabo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip05_Counterintuitive_insight_that_fixing_die.mp4",
+      "status": "ready",
+      "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
@@ -533,9 +596,135 @@
       "thumbnailPath": null
     },
     {
+      "filename": "Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip06_The_provocative_claim_that_heavy_marijua.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
       "filename": "Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip07_Mind-blowing_finding_that_aspartames_anx.mp4",
       "status": "posted",
       "youtubeId": "gvkBYKi1EIw",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip07_The_mind-blowing_study_showing_aspartame.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "Harvard_Psychiatrist_REVEALS_We_Have_Bee_clip08_Raw_vulnerable_origin_story_of_watching_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "I_RIPPED_50000_OF_SPORTS_CARDS_BACKSTAGE_clip01_A_high-stakes_story_of_paying_big_money_ 19.23.49.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "I_RIPPED_50000_OF_SPORTS_CARDS_BACKSTAGE_clip01_A_high-stakes_story_of_paying_big_money_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "I_RIPPED_50000_OF_SPORTS_CARDS_BACKSTAGE_clip01_Tight_story_with_stakes_ripped_all_the_c.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "I_RIPPED_50000_OF_SPORTS_CARDS_BACKSTAGE_clip02_A_jaw-dropping_flex_tour_of_a_mansion_wi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "I_RIPPED_50000_OF_SPORTS_CARDS_BACKSTAGE_clip02_Awe-inducing_house_tour_with_relatable_s.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "I_RIPPED_50000_OF_SPORTS_CARDS_BACKSTAGE_clip03_Big_emotional_payoff__winning_a_one-of-o.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "I_RIPPED_50000_OF_SPORTS_CARDS_BACKSTAGE_clip03_Pure_euphoric_payoff_with_a_live_countdo 19.23.49.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "I_RIPPED_50000_OF_SPORTS_CARDS_BACKSTAGE_clip03_Pure_euphoric_payoff_with_a_live_countdo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "I_RIPPED_50000_OF_SPORTS_CARDS_BACKSTAGE_clip04_A_self-aware_dumb_and_dumber_breakdown_s.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "I_RIPPED_50000_OF_SPORTS_CARDS_BACKSTAGE_clip04_Funny_mini-disaster_car_runs_out_of_gas_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "I_RIPPED_50000_OF_SPORTS_CARDS_BACKSTAGE_clip05_Strong_closing_payoff__pulling_a_perfect.mp4",
+      "status": "ready",
+      "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
@@ -648,6 +837,33 @@
       "scheduleStatus": "done",
       "title": "IT'S NOT TOO LATE AND HERE'S WHY",
       "thumbnailPath": "/thumbnails/Its_Not_Too_Late_How_to_Transform_Your_L_clip07_Provocative_claim_that_the_too_late_narr.jpg"
+    },
+    {
+      "filename": "My_Life_Got_Better_When_I_Stopped_Giving_clip01_Strong_relatable_opening_hook_about_wast.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "My_Life_Got_Better_When_I_Stopped_Giving_clip02_Punchy_insight_on_chasing_external_valid.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "My_Life_Got_Better_When_I_Stopped_Giving_clip03_The_courage_to_be_disliked_reframe__bein.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
     },
     {
       "filename": "Stock_Expert_Becoming_Rich_Is_Simple_But_clip01_Counterintuitive_expert_advice_that_the_.mp4",
@@ -893,6 +1109,285 @@
       "thumbnailPath": "/thumbnails/The_Future_Mark_Zuckerberg_Is_Trying_To__clip06_Zuckerberg_reveals_AI_scaling_shows_no_c.jpg"
     },
     {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip01_Counterintuitive_evolutionary-psychology 11.38.08.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip01_Counterintuitive_evolutionary-psychology.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip01_Opens_with_a_direct_question_hook_then_d.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip02_Highly_quotable_line__to_go_somewhere_yo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip02_Highly_quotable_screenshot-worthy_line_a.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip02_Provocative_claim_that_an_unseen_entity_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip02_Provocative_reframe_that_becoming_someon.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip02_Provocative_screenshot-worthy_claim_that.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip02_The_provocative_claim_that_people_fear_b.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip03_Bold_quotable_claim_that_people_fear_you.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip03_Deeply_quotable_reframe_that_conditional.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip03_Provocative_claim_that_people_fear_being.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip03_Provocative_reframe__more_humans_are_con.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip03_Shocking_quotable_line_that_people_fear_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip03_The_reframe_that_conditional_love_is_act.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip04_Brutally_relatable_callout_about_money_t.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip04_Mind-bending_reframe_that_conditional_lo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip04_Mind-bending_reframe_that_the_love_aroun.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip04_Raw_relatable_and_darkly_funny_take_on_y.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip04_Relatable_funny-but-real_take_on_family_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip04_The_line_is_that_love_or_is_that_control.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip05_Absurd_viral_comment_about_him_being_int.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip05_Brutally_relatable_examples_about_family.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip05_Brutally_relatable_money_truth_with_humo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip05_Genuinely_hilarious_off-the-cuff_bit_rea.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip05_Raw_funny_painfully_relatable_take_on_fa.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip05_Relatable_slightly_humorous_truth_about_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip06_Absurd_genuinely_funny_comment-reading_b.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip06_Genuinely_funny_off-the-cuff_reading_of_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip06_Genuinely_funny_unscripted_reaction_to_a.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "The_Hidden_Social_Cost_Of_Becoming_Who_Y_clip06_Genuinely_hilarious_reading_of_an_absurd.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
       "filename": "The_Mitochondria_Doctor_This_Reverses_Gr_clip01_Opens_with_a_shocking_counterintuitive_c.mp4",
       "status": "posted",
       "youtubeId": "E34whdjcz1U",
@@ -923,8 +1418,8 @@
       "filename": "The_Mitochondria_Doctor_This_Reverses_Gr_clip04_Startling_lab_finding_that_stress_and_ru.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T15:52:03.274395+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Worrying Burns 60 Percent of Your Daily Energy",
       "thumbnailPath": "/thumbnails/The_Mitochondria_Doctor_This_Reverses_Gr_clip04_Startling_lab_finding_that_stress_and_ru.jpg"
     },
@@ -999,6 +1494,33 @@
       "scheduleStatus": "pending",
       "title": "WHAT THEY STOLE FROM ME",
       "thumbnailPath": "/thumbnails/Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip04_Deeply_emotional_account_of_being_denied.jpg"
+    },
+    {
+      "filename": "What_You_Find_Normal_Is_What_Finds_You_clip01_Punchy_repeatable_affirmations_about_dec.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "What_You_Find_Normal_Is_What_Finds_You_clip02_Bold_I_dont_need_white_privilege_I_got_G.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
+    },
+    {
+      "filename": "What_You_Find_Normal_Is_What_Finds_You_clip03_Funny_human_dream-story_tangent_that_bre.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
     }
   ]
 }
