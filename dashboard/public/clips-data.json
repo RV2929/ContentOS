@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T08:46:45.613Z",
+  "lastUpdated": "2026-07-08T08:57:09.514Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -174,10 +174,10 @@
     },
     {
       "filename": "5_Ways_to_be_a_Better_Communicator__Jeff_clip01_A_physical_demonstration_with_a_string_p.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-08T08:56:07.798162+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Hls9pC0mSP8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Red String Test: Why Your Phone is Killing Connection",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip01_A_physical_demonstration_with_a_string_p.jpg"
     },
