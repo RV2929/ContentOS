@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T14:23:51.206Z",
+  "lastUpdated": "2026-07-08T14:39:51.928Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -986,8 +986,8 @@
       "filename": "Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip03_Tight_story_arc_from_private_jets_and_bo.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T14:39:28.229424+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "PRISON WAS A HARD RESET",
       "thumbnailPath": "/thumbnails/Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip03_Tight_story_arc_from_private_jets_and_bo.jpg"
     },
