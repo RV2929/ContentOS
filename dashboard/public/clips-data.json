@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T22:08:30.560Z",
+  "lastUpdated": "2026-07-08T23:49:49.026Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1445,8 +1445,8 @@
       "filename": "The_Mitochondria_Doctor_This_Reverses_Gr_clip07_The_most_important_meal_myth_exposed_as_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T23:22:03.274395+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Breakfast Is the Most Important Meal Because of Marketing",
       "thumbnailPath": "/thumbnails/The_Mitochondria_Doctor_This_Reverses_Gr_clip07_The_most_important_meal_myth_exposed_as_.jpg"
     },
