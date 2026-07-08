@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-08T08:23:43.014Z",
+  "lastUpdated": "2026-07-08T08:27:22.555Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-08T08:26:22.844001+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "nmmW5Op7hPs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "1000 Hours Inside Claude: You're Barely Starting",
       "thumbnailPath": "/thumbnails/1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.jpg"
     },
