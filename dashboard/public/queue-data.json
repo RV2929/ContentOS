@@ -59,6 +59,18 @@
       "clipsCount": 7,
       "batchId": "Billionaires_WARNING_Im_SELLING_The_Cras",
       "error": null
+    },
+    {
+      "id": "mrbrw6gaxodw",
+      "url": "https://www.youtube.com/watch?v=6xlmaorRY0w",
+      "title": "",
+      "status": "downloading",
+      "addedAt": "2026-07-08T07:45:12.106Z",
+      "startedAt": "2026-07-08T07:45:12.110Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
