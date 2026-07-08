@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T09:14:11.446Z",
+  "lastUpdated": "2026-07-08T09:24:02.573Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -174,10 +174,10 @@
     },
     {
       "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip01_A_vivid_ancient_story_revealing_the_coun.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-08T09:23:22.959617+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "xpTa2nWUrVc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Diogenes Had More Than Alexander The Great Ever Will",
       "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip01_A_vivid_ancient_story_revealing_the_coun.jpg"
     },
