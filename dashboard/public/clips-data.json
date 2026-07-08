@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T08:35:24.974Z",
+  "lastUpdated": "2026-07-08T08:45:22.242Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -171,6 +171,51 @@
       "scheduleStatus": "done",
       "title": "You Built Your Own Prison With Your Words",
       "thumbnailPath": "/thumbnails/1_Neurosurgeon_How_to_Manifest_Anything__clip07_A_powerful_screenshot-worthy_metaphor_th.jpg"
+    },
+    {
+      "filename": "5_Ways_to_be_a_Better_Communicator__Jeff_clip01_A_physical_demonstration_with_a_string_p.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip01_A_physical_demonstration_with_a_string_p.jpg"
+    },
+    {
+      "filename": "5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
+    },
+    {
+      "filename": "5_Ways_to_be_a_Better_Communicator__Jeff_clip03_The_relatable_turbulence_analogy__checki.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip03_The_relatable_turbulence_analogy__checki.jpg"
+    },
+    {
+      "filename": "5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
+    },
+    {
+      "filename": "5_Ways_to_be_a_Better_Communicator__Jeff_clip05_A_precise_three-step_script_for_disarmin.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "thumbnailPath": null
     },
     {
       "filename": "Billionaires_WARNING_Im_SELLING_The_Cras_clip01_Rapid-fire_contrarian_answers_Dont_own_U.mp4",
@@ -516,10 +561,10 @@
     },
     {
       "filename": "Stock_Expert_Becoming_Rich_Is_Simple_But_clip01_Counterintuitive_expert_advice_that_the_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-08T08:44:59.890003+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "WJHBLyaxEyA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Stop Checking Your Investments Right Now",
       "thumbnailPath": "/thumbnails/Stock_Expert_Becoming_Rich_Is_Simple_But_clip01_Counterintuitive_expert_advice_that_the_.jpg"
     },
