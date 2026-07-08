@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T18:22:18.453Z",
+  "lastUpdated": "2026-07-08T18:45:18.042Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -905,8 +905,8 @@
       "filename": "Stock_Expert_Becoming_Rich_Is_Simple_But_clip05_Reading_a_doom-laden_article_from_1847_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T18:44:59.890003+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "1847 Economic News Sounds Exactly Like Now",
       "thumbnailPath": "/thumbnails/Stock_Expert_Becoming_Rich_Is_Simple_But_clip05_Reading_a_doom-laden_article_from_1847_t.jpg"
     },
