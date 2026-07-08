@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T21:28:14.968Z",
+  "lastUpdated": "2026-07-08T22:08:30.560Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -203,8 +203,8 @@
       "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip06_Naval_distills_all_of_success_into_two_w.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T21:53:22.959617+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Two Words That Explain All Of Success",
       "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip06_Naval_distills_all_of_success_into_two_w.jpg"
     },
