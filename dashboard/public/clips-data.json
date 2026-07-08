@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T21:20:05.652Z",
+  "lastUpdated": "2026-07-08T21:28:14.968Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -266,8 +266,8 @@
       "filename": "5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T21:26:07.798162+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
