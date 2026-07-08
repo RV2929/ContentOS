@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T21:03:26.100Z",
+  "lastUpdated": "2026-07-08T21:20:05.652Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -914,8 +914,8 @@
       "filename": "Stock_Expert_Becoming_Rich_Is_Simple_But_clip06_Hard_data_showing_women_consistently_out.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T21:14:59.890003+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Women Investors Crush Men in the Stock Market",
       "thumbnailPath": "/thumbnails/Stock_Expert_Becoming_Rich_Is_Simple_But_clip06_Hard_data_showing_women_consistently_out.jpg"
     },
