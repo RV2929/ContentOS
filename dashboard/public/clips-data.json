@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T15:52:52.795Z",
+  "lastUpdated": "2026-07-08T16:15:51.213Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -896,8 +896,8 @@
       "filename": "Stock_Expert_Becoming_Rich_Is_Simple_But_clip04_Surprising_academic_insight_that_savers_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T16:14:59.890003+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Savers and Spenders Always Divorce",
       "thumbnailPath": "/thumbnails/Stock_Expert_Becoming_Rich_Is_Simple_But_clip04_Surprising_academic_insight_that_savers_.jpg"
     },
