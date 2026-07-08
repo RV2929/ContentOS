@@ -1,6 +1,60 @@
 {
-  "lastUpdated": "2026-07-08T08:12:19.965Z",
+  "lastUpdated": "2026-07-08T08:16:22Z",
   "clips": [
+    {
+      "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T08:26:22.844001+00:00",
+      "scheduleStatus": "pending",
+      "title": "1000 Hours Inside Claude: You're Barely Starting",
+      "thumbnailPath": "/thumbnails/1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.jpg"
+    },
+    {
+      "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip02_The_NASA_supercomputer_calculating_22_an.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T10:56:22.844001+00:00",
+      "scheduleStatus": "pending",
+      "title": "NASA Supercomputer Doing 2+2: The Reality Check",
+      "thumbnailPath": "/thumbnails/1000_hours_of_Learning_Claude_in_15_Minu_clip02_The_NASA_supercomputer_calculating_22_an.jpg"
+    },
+    {
+      "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip03_A_relatable_story_of_a_non-coder_buildin.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T13:26:22.844001+00:00",
+      "scheduleStatus": "pending",
+      "title": "English Is the New Programming Language",
+      "thumbnailPath": "/thumbnails/1000_hours_of_Learning_Claude_in_15_Minu_clip03_A_relatable_story_of_a_non-coder_buildin.jpg"
+    },
+    {
+      "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip04_Unexpected_humor_and_awe__writing_code_f.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T15:56:22.844001+00:00",
+      "scheduleStatus": "pending",
+      "title": "Writing Code While Mountain Biking: Peak Chaos",
+      "thumbnailPath": "/thumbnails/1000_hours_of_Learning_Claude_in_15_Minu_clip04_Unexpected_humor_and_awe__writing_code_f.jpg"
+    },
+    {
+      "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip05_The_counterintuitive_reveal_that_his_lea.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T18:26:22.844001+00:00",
+      "scheduleStatus": "pending",
+      "title": "My AI Agent Does Nothing: The Plot Twist",
+      "thumbnailPath": "/thumbnails/1000_hours_of_Learning_Claude_in_15_Minu_clip05_The_counterintuitive_reveal_that_his_lea.jpg"
+    },
+    {
+      "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip06_Provocative_human_on_the_loop_not_in_the.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-08T20:56:22.844001+00:00",
+      "scheduleStatus": "pending",
+      "title": "Human on the Loop, Not In It: Perspective Shift",
+      "thumbnailPath": "/thumbnails/1000_hours_of_Learning_Claude_in_15_Minu_clip06_Provocative_human_on_the_loop_not_in_the.jpg"
+    },
     {
       "filename": "119b_Your_Success_Door_Is_Locked_clip01_A_live_demonstration_of_mind_conditionin.mp4",
       "status": "posted",
