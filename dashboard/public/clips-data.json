@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T09:29:34.428Z",
+  "lastUpdated": "2026-07-08T09:40:02.899Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -966,10 +966,10 @@
     },
     {
       "filename": "Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip01_Naturally_funny_and_punchy__his_personal.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-08T09:39:28.229424+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "05kga0ohs74",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "MY DAD'S ANTI-DRUG PLAN",
       "thumbnailPath": "/thumbnails/Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip01_Naturally_funny_and_punchy__his_personal.jpg"
     },
