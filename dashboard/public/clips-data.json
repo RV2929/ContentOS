@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T13:45:51.001Z",
+  "lastUpdated": "2026-07-08T13:56:50.396Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -275,8 +275,8 @@
       "filename": "5_Ways_to_be_a_Better_Communicator__Jeff_clip03_The_relatable_turbulence_analogy__checki.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-08T13:56:07.798162+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Flight Attendant Test: How Leaders Should React to Chaos",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip03_The_relatable_turbulence_analogy__checki.jpg"
     },
@@ -408,7 +408,7 @@
     },
     {
       "filename": "Communicate_with_Confidence_The_Blueprin_clip05_Genius_parentingrelationship_reframe_wit.mp4",
-      "status": "ready",
+      "status": "failed",
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
@@ -417,7 +417,7 @@
     },
     {
       "filename": "Communicate_with_Confidence_The_Blueprin_clip06_A_vivid_before-and-after_demo_of_watered.mp4",
-      "status": "ready",
+      "status": "failed",
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
