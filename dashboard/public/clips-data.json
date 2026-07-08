@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T11:26:51.066Z",
+  "lastUpdated": "2026-07-08T11:53:49.849Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -183,10 +183,10 @@
     },
     {
       "filename": "44_Harsh_Truths_About_The_Game_Of_Life_-_clip02_The_quotable_the_reason_to_win_the_game_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-08T11:53:22.959617+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "mKEps_AL93A",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Real Reason To Win The Game Of Life",
       "thumbnailPath": "/thumbnails/44_Harsh_Truths_About_The_Game_Of_Life_-_clip02_The_quotable_the_reason_to_win_the_game_.jpg"
     },
