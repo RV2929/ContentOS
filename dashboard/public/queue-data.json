@@ -10,7 +10,8 @@
       "completedAt": "2026-07-06T05:31:10.757Z",
       "clipsCount": 7,
       "batchId": "1_Neurosurgeon_How_to_Manifest_Anything_",
-      "error": null
+      "error": null,
+      "channel": "podcast"
     },
     {
       "id": "mr7uxmf15ys2",
@@ -22,7 +23,8 @@
       "completedAt": "2026-07-05T14:20:40.300Z",
       "clipsCount": 8,
       "batchId": "The_Best_Financial_Advice_Youll_Ever_Hea",
-      "error": null
+      "error": null,
+      "channel": "podcast"
     },
     {
       "id": "mr7vvq8w92a9",
@@ -34,7 +36,8 @@
       "completedAt": "2026-07-05T14:37:40.800Z",
       "clipsCount": 7,
       "batchId": "Communicate_with_Confidence_The_Blueprin",
-      "error": null
+      "error": null,
+      "channel": "podcast"
     },
     {
       "id": "mr9gtdbpfzsl",
@@ -46,7 +49,8 @@
       "completedAt": "2026-07-07T05:58:47.953Z",
       "clipsCount": 6,
       "batchId": "The_Future_Mark_Zuckerberg_Is_Trying_To_",
-      "error": null
+      "error": null,
+      "channel": "podcast"
     },
     {
       "id": "mr9guen8lslm",
@@ -58,7 +62,8 @@
       "completedAt": "2026-07-06T17:33:15.577Z",
       "clipsCount": 7,
       "batchId": "Billionaires_WARNING_Im_SELLING_The_Cras",
-      "error": null
+      "error": null,
+      "channel": "podcast"
     },
     {
       "id": "mrbrw6gaxodw",
@@ -70,7 +75,8 @@
       "completedAt": "2026-07-08T08:12:06.396Z",
       "clipsCount": 8,
       "batchId": "The_Mitochondria_Doctor_This_Reverses_Gr",
-      "error": null
+      "error": null,
+      "channel": "podcast"
     },
     {
       "id": "mrbrzce10211",
@@ -82,7 +88,8 @@
       "completedAt": "2026-07-08T08:35:04.241Z",
       "clipsCount": 7,
       "batchId": "Stock_Expert_Becoming_Rich_Is_Simple_But",
-      "error": null
+      "error": null,
+      "channel": "podcast"
     },
     {
       "id": "mrbrzm2vdgys",
@@ -94,7 +101,8 @@
       "completedAt": "2026-07-08T08:46:10.427Z",
       "clipsCount": 6,
       "batchId": "5_Ways_to_be_a_Better_Communicator__Jeff",
-      "error": null
+      "error": null,
+      "channel": "podcast"
     },
     {
       "id": "mrbs051go12j",
@@ -106,7 +114,8 @@
       "completedAt": "2026-07-08T09:13:26.704Z",
       "clipsCount": 9,
       "batchId": "44_Harsh_Truths_About_The_Game_Of_Life_-",
-      "error": null
+      "error": null,
+      "channel": "podcast"
     },
     {
       "id": "mrbs0bl2h5a3",
@@ -118,6 +127,20 @@
       "completedAt": "2026-07-08T09:29:31.422Z",
       "clipsCount": 4,
       "batchId": "Tristan_Tate_Admits_Andrew_May_Not_Go_to",
+      "error": null,
+      "channel": "podcast"
+    },
+    {
+      "id": "mrddn5t5giod",
+      "url": "https://www.youtube.com/watch?v=TcSfWkD-cUc",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-07-09T10:41:49.097Z",
+      "startedAt": "2026-07-09T10:41:49.099Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
       "error": null
     }
   ]
