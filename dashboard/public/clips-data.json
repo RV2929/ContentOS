@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T15:13:02.650Z",
+  "lastUpdated": "2026-07-09T15:23:06Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -1352,6 +1352,16 @@
       "thumbnailPath": "/thumbnails/THANK_YOU_CRISTIANO_RONALDO__Real_Madrid_clip03_Whos_going_to_be_the_match_winner_Hes_st.jpg"
     },
     {
+      "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T15:33:06.280493+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Media Called It a Breakdown\u2014Here's What Really Happened",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.jpg"
+    },
+    {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_vulnerability_and_a_provocative_call.mp4",
       "status": "posted",
       "youtubeId": "Hr17a9t-gsM",
@@ -1370,6 +1380,26 @@
       "title": "Christian Bale's Rule For Handling Haters",
       "channel": "podcast",
       "thumbnailPath": null
+    },
+    {
+      "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip02_Vulnerable_relatable_confession_about_sp.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T18:03:06.280493+00:00",
+      "scheduleStatus": "pending",
+      "title": "From Dry January to Rock Bottom: The Moment He Knew",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip02_Vulnerable_relatable_confession_about_sp.jpg"
+    },
+    {
+      "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip03_A_jaw-dropping_awe-filled_survival_story.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T20:33:06.280493+00:00",
+      "scheduleStatus": "pending",
+      "title": "Eye to Eye With a Killer Whale: The Moment Everything Stopped",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip03_A_jaw-dropping_awe-filled_survival_story.jpg"
     },
     {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip03_Toms_honest_step-by-step_realization_tha.mp4",
@@ -1392,6 +1422,16 @@
       "thumbnailPath": null
     },
     {
+      "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip04_Wild_unexpected_rugby_story_ending_in_a_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T23:03:06.280493+00:00",
+      "scheduleStatus": "pending",
+      "title": "He Knocked Out the Dad: The Rugby Story That Went Too Far",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip04_Wild_unexpected_rugby_story_ending_in_a_.jpg"
+    },
+    {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_jaw-dropping_high-stakes_awe_story_of_.mp4",
       "status": "posted",
       "youtubeId": "9iM10lNn4Uk",
@@ -1402,6 +1442,26 @@
       "thumbnailPath": null
     },
     {
+      "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T01:33:06.280493+00:00",
+      "scheduleStatus": "pending",
+      "title": "If You Have a Problem, Text Me\u2014His Answer to Critics",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.jpg"
+    },
+    {
+      "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip06_A_counterintuitive_twist_story_exposing_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T04:03:06.280493+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Girl Who Didn't Exist: How Alcohol Hides on Social Media",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip06_A_counterintuitive_twist_story_exposing_.jpg"
+    },
+    {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip06_Jays_story_of_making_a_peace_sound_and_h.mp4",
       "status": "posted",
       "youtubeId": "4-RFjUqy_nA",
@@ -1410,6 +1470,16 @@
       "title": "Gorilla Responds To Human Peace Sound",
       "channel": "podcast",
       "thumbnailPath": null
+    },
+    {
+      "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip07_A_punchy_inspirational_quote_framing_pre.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T06:33:06.280493+00:00",
+      "scheduleStatus": "pending",
+      "title": "Pressure Is a Privilege: Reframing Everything You Fear",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip07_A_punchy_inspirational_quote_framing_pre.jpg"
     },
     {
       "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip01_The_Ferrari_valet_story_delivers_a_jolti.mp4",
