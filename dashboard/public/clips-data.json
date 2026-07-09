@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T14:32:21.051Z",
+  "lastUpdated": "2026-07-09T14:36:57Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -470,6 +470,56 @@
       "title": "Is Ronaldo Diving or Not? Expert Analysis Reveals Truth",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_100_Angry_Moments_clip03_The_repeated_normal_to_dive_commentary_s.jpg"
+    },
+    {
+      "filename": "Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip01_Perfect_counter-attack_goal_with_the_com.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T14:46:57.753945+00:00",
+      "scheduleStatus": "pending",
+      "title": "Benzema Finally Breaks Free After Weeks of Struggle",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip01_Perfect_counter-attack_goal_with_the_com.jpg"
+    },
+    {
+      "filename": "Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip02_Rapid_end-to-end_drama_as_the_game_burst.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T17:16:57.753945+00:00",
+      "scheduleStatus": "pending",
+      "title": "Ronaldo Turns Playmaker in Chaos and Equalizes Everything",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip02_Rapid_end-to-end_drama_as_the_game_burst.jpg"
+    },
+    {
+      "filename": "Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip03_A_dramatic_go-ahead_goal_right_on_the_ha.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T19:46:57.753945+00:00",
+      "scheduleStatus": "pending",
+      "title": "Halftime Stunner Flips the Script Right on the Whistle",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip03_A_dramatic_go-ahead_goal_right_on_the_ha.jpg"
+    },
+    {
+      "filename": "Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip04_A_brutal_challenge_earns_a_straight_red_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T22:16:57.753945+00:00",
+      "scheduleStatus": "pending",
+      "title": "Straight Red Card Moment That Looks Worse Every Replay",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip04_A_brutal_challenge_earns_a_straight_red_.jpg"
+    },
+    {
+      "filename": "Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip05_Tense_final-seconds_stakes_with_10_men_c.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T00:46:57.753945+00:00",
+      "scheduleStatus": "pending",
+      "title": "Ronaldo Denied at the Death in Heartbreaking Finale",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip05_Tense_final-seconds_stakes_with_10_men_c.jpg"
     },
     {
       "filename": "EMILIE_KISER_EXCLUSIVE_The_Loss_That_Cha_clip01_A_devastating_cold-open_hook__a_phone_ca.mp4",
