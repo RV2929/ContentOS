@@ -160,13 +160,13 @@
       "id": "mrddoh00i97n",
       "url": "https://www.youtube.com/watch?v=X7158uQk1yI",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "football",
       "addedAt": "2026-07-09T10:42:50.256Z",
       "startedAt": "2026-07-09T10:59:27.863Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-09T11:15:37.005Z",
+      "clipsCount": 5,
+      "batchId": "FULL_MATCH_Brazil_vs_France_2006_FIFA_Wo",
       "error": null
     }
   ]
