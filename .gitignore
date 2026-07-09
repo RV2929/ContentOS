@@ -31,3 +31,4 @@ dashboard/queue.json
 # ── macOS ─────────────────────────────────────────────────────────────────────
 .DS_Store
 **/.DS_Store
+dashboard/yt-tokens-*.json

@@ -21,6 +21,13 @@ except ImportError:
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 CLIPS_DIR = os.path.join(os.path.dirname(__file__), "clips")
 SOUNDS_DIR = os.path.join(os.path.dirname(__file__), "sounds")
+
+
+def clips_dir_for(channel: str = "podcast") -> str:
+    """clips/<channel>/ — keeps podcast and football output physically separate."""
+    channel = channel if channel in ("podcast", "football") else "podcast"
+    return os.path.join(CLIPS_DIR, channel)
+
 THUMBNAILS_DIR = os.path.join(os.path.dirname(__file__), "dashboard", "public", "thumbnails")
 _WHOOSH_PATH = os.path.join(SOUNDS_DIR, "whoosh.wav")
 _IMPACT_PATH = os.path.join(SOUNDS_DIR, "impact.wav")
@@ -397,9 +404,10 @@ def process_clips(
     video_path: str,
     clips_json_path: str,
     transcript_path: str | None = None,
+    channel: str = "podcast",
 ) -> list[str]:
     """
-    Read clips JSON and produce cropped MP4s in CLIPS_DIR.
+    Read clips JSON and produce cropped MP4s in clips/<channel>/.
 
     If transcript_path is given, burns CapCut-style word-by-word captions
     and a bold hook title onto every clip using WhisperX word timestamps.
@@ -422,7 +430,8 @@ def process_clips(
             transcript_words = _extract_words(json.load(f))
         print(f"  Loaded {len(transcript_words)} word timestamps for captions.")
 
-    os.makedirs(CLIPS_DIR, exist_ok=True)
+    out_dir = clips_dir_for(channel)
+    os.makedirs(out_dir, exist_ok=True)
 
     video_stem = os.path.splitext(os.path.basename(video_path))[0]
     output_paths = []
@@ -435,7 +444,7 @@ def process_clips(
         reason_slug = _safe_name(reason) if reason else f"clip{i}"
 
         filename = f"{_safe_name(video_stem)}_clip{i:02d}_{reason_slug}.mp4"
-        out_path = os.path.join(CLIPS_DIR, filename)
+        out_path = os.path.join(out_dir, filename)
 
         dur = end - start
         face_x = _detect_face_x(video_path, start, end)
@@ -467,12 +476,17 @@ def process_clips(
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: python clipper.py <video.mp4> <clips.json>")
-        print("  Outputs vertical MP4s to the clips/ folder.")
+        print("Usage: python clipper.py <video.mp4> <clips.json> [--channel podcast|football]")
+        print("  Outputs vertical MP4s to clips/<channel>/.")
         sys.exit(1)
 
     video = sys.argv[1]
     clips_json = sys.argv[2]
+    cli_channel = "podcast"
+    if "--channel" in sys.argv:
+        idx = sys.argv.index("--channel")
+        if idx + 1 < len(sys.argv):
+            cli_channel = sys.argv[idx + 1]
 
     if not os.path.exists(video):
         print(f"Error: video not found: {video}")
@@ -482,10 +496,10 @@ if __name__ == "__main__":
         sys.exit(1)
 
     print(f"Processing clips from: {os.path.basename(video)}")
-    paths = process_clips(video, clips_json)
+    paths = process_clips(video, clips_json, channel=cli_channel)
 
     if paths:
-        print(f"\n✓ {len(paths)} clip(s) saved to: {CLIPS_DIR}")
+        print(f"\n✓ {len(paths)} clip(s) saved to: {clips_dir_for(cli_channel)}")
         for p in paths:
             print(f"  {os.path.basename(p)}")
     else:

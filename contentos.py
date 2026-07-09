@@ -73,7 +73,7 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
     # ── 4. Cut + crop + captions ──────────────────────────────────────────────
     _header(4, "Cut, crop to 9:16, burn captions")
     from clipper import process_clips
-    output_paths = process_clips(video_path, clips_json_path, transcript_path)
+    output_paths = process_clips(video_path, clips_json_path, transcript_path, channel=channel)
 
     # ── 5. Generate titles & schedule uploads ────────────────────────────────
     if output_paths:
@@ -114,9 +114,21 @@ def _sync_to_github(label: str = "update") -> None:
         state    = json.loads(state_file.read_text())  if state_file.exists()  else {}
         schedule = json.loads(sched_file.read_text())  if sched_file.exists()  else {}
 
+        # Clips now live in clips/podcast/ and clips/football/ — fall back to
+        # the flat clips/ dir too in case anything hasn't been migrated yet.
+        mp4_paths = []
+        for sub in ("podcast", "football", "."):
+            d = clips_dir / sub if sub != "." else clips_dir
+            if d.exists():
+                mp4_paths.extend(d.glob("*.mp4"))
+        seen_names = set()
+
         clips = []
-        for mp4 in sorted(clips_dir.glob("*.mp4")) if clips_dir.exists() else []:
-            fn   = mp4.name
+        for mp4 in sorted(mp4_paths, key=lambda p: p.name):
+            fn = mp4.name
+            if fn in seen_names:
+                continue
+            seen_names.add(fn)
             stem = mp4.stem
             s    = state.get(fn, {})
             sch  = schedule.get(fn, {})
@@ -128,6 +140,7 @@ def _sync_to_github(label: str = "update") -> None:
                 "scheduledAt":   sch.get("scheduledAt") if pending else None,
                 "scheduleStatus": sch.get("status") or None,
                 "title":         sch.get("title", ""),
+                "channel":       sch.get("channel") or s.get("channel") or "podcast",
                 "thumbnailPath": f"/thumbnails/{stem}.jpg" if (thumbs_dir / f"{stem}.jpg").exists() else None,
             })
 

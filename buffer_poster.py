@@ -35,6 +35,8 @@ import requests
 
 BUFFER_TOKEN      = os.environ.get("BUFFER_ACCESS_TOKEN", "")
 BUFFER_PROFILE_ID = os.environ.get("BUFFER_PROFILE_ID", "")
+# musichub29_ — TikTok is podcast-only, so this channel never receives football clips.
+BUFFER_TIKTOK_CHANNEL_ID = os.environ.get("BUFFER_TIKTOK_CHANNEL_ID", "6a4f7c9b4048344628886484")
 GQL_URL           = "https://api.buffer.com"
 
 
@@ -108,6 +110,15 @@ def find_instagram_channel(channels: list) -> str | None:
     return None
 
 
+def find_tiktok_channel(channels: list) -> str | None:
+    if BUFFER_TIKTOK_CHANNEL_ID:
+        return BUFFER_TIKTOK_CHANNEL_ID
+    for ch in channels:
+        if not ch.get("isDisconnected") and "tiktok" in ch.get("service", "").lower():
+            return ch.get("id")
+    return None
+
+
 # ── Video URL ─────────────────────────────────────────────────────────────────
 # Buffer's VideoAssetInput requires a public URL — it fetches the file itself.
 # The ContentOS server serves clips at /clips/:filename.
@@ -139,8 +150,18 @@ def get_public_video_url(video_path: Path) -> str:
 
 # ── Post creation ─────────────────────────────────────────────────────────────
 # createPost returns PostActionPayload (union) — must use inline fragments.
-# schedulingType: automatic  = Buffer publishes automatically at the due time
-# mode: addToQueue           = slot into the channel's posting schedule
+# schedulingType: automatic  = Buffer publishes natively via API (vs "notification",
+#                              which just pings the user's phone to post manually)
+# mode: shareNow             = Buffer fetches the asset and publishes immediately.
+#                              We deliberately don't use "addToQueue": our own
+#                              scheduler (server.js) already decides the exact
+#                              post time, and addToQueue defers Buffer's own
+#                              media fetch to whenever it reaches that queue
+#                              slot — by which point our Cloudflare quick-tunnel
+#                              URL may have rotated, causing late, silent
+#                              "issue with the media attached" failures.
+#                              shareNow fetches the video right away, while the
+#                              tunnel URL we just generated is still live.
 
 CREATE_POST_MUTATION = """
 mutation CreatePost($input: CreatePostInput!) {
@@ -158,23 +179,21 @@ mutation CreatePost($input: CreatePostInput!) {
 }
 """
 
-def create_post(channel_id: str, text: str, video_url: str) -> str:
+def create_post(channel_id: str, text: str, video_url: str, platform: str = "instagram") -> str:
     """Create a Buffer post with a video URL and return the post ID."""
-    variables = {
-        "input": {
-            "channelId": channel_id,
-            "text": text,
-            "schedulingType": "automatic",
-            "mode": "addToQueue",
-            "metadata": {
-                "instagram": {
-                    "type": "reel",
-                    "shouldShareToFeed": True,
-                }
-            },
-            "assets": [{"video": {"url": video_url}}],
-        }
+    input_data = {
+        "channelId": channel_id,
+        "text": text,
+        "schedulingType": "automatic",
+        "mode": "shareNow",
+        "assets": [{"video": {"url": video_url}}],
     }
+    # TikTokPostMetadataInput has no required fields (title, isAiGenerated are
+    # both optional) — Buffer applies the account's default privacy/sharing
+    # settings, so metadata can be omitted entirely for TikTok.
+    if platform == "instagram":
+        input_data["metadata"] = {"instagram": {"type": "reel", "shouldShareToFeed": True}}
+    variables = {"input": input_data}
     data = gql(CREATE_POST_MUTATION, variables)
     result = data.get("createPost") or {}
     # Success
@@ -210,7 +229,7 @@ def build_caption(title: str) -> str:
     return f"{clean}\n\n#Reels #Instagram #FYP #Viral"
 
 
-def post_video(video_path: str, caption: str) -> dict:
+def post_video(video_path: str, caption: str, platform: str = "instagram") -> dict:
     if not BUFFER_TOKEN:
         return {"ok": False, "error": "BUFFER_ACCESS_TOKEN not set in .env"}
 
@@ -219,26 +238,27 @@ def post_video(video_path: str, caption: str) -> dict:
         return {"ok": False, "error": f"File not found: {vpath}"}
 
     try:
-        print("[buffer] Fetching channels…", flush=True)
+        print(f"[buffer:{platform}] Fetching channels…", flush=True)
         channels = get_channels()
-        channel_id = find_instagram_channel(channels)
+        channel_id = find_tiktok_channel(channels) if platform == "tiktok" else find_instagram_channel(channels)
         if not channel_id:
             names = [(ch.get("service", "?"), ch.get("name", "?")) for ch in channels]
             return {
                 "ok": False,
                 "error": (
-                    "No Instagram channel found in Buffer. "
-                    "Connect one at buffer.com, or set BUFFER_PROFILE_ID= in .env. "
+                    f"No {platform.capitalize()} channel found in Buffer. "
+                    "Connect one at buffer.com, or set "
+                    f"{'BUFFER_TIKTOK_CHANNEL_ID' if platform == 'tiktok' else 'BUFFER_PROFILE_ID'}= in .env. "
                     f"Available channels: {names}"
                 ),
             }
-        print(f"[buffer] Channel: {channel_id}", flush=True)
+        print(f"[buffer:{platform}] Channel: {channel_id}", flush=True)
 
         video_url = get_public_video_url(vpath)
 
-        print("[buffer] Creating post…", flush=True)
-        post_id = create_post(channel_id, caption, video_url)
-        print(f"[buffer] Post queued! ID: {post_id}", flush=True)
+        print(f"[buffer:{platform}] Creating post…", flush=True)
+        post_id = create_post(channel_id, caption, video_url, platform=platform)
+        print(f"[buffer:{platform}] Post queued! ID: {post_id}", flush=True)
         return {"ok": True, "updateId": post_id}
 
     except requests.HTTPError as exc:
@@ -260,6 +280,8 @@ if __name__ == "__main__":
     parser.add_argument("--profiles", action="store_true", help="List Buffer organizations")
     parser.add_argument("--channels", action="store_true", help="List all connected social channels")
     parser.add_argument("--schema",   action="store_true", help="Print available GraphQL mutations")
+    parser.add_argument("--platform", choices=["instagram", "tiktok"], default="instagram",
+                         help="Which connected channel to post to (default: instagram)")
     parser.add_argument("video",   nargs="?", help="Path to MP4 file")
     parser.add_argument("caption", nargs="?", default="", help="Caption with hashtags")
     args = parser.parse_args()
@@ -326,6 +348,6 @@ if __name__ == "__main__":
         sys.exit(1)
 
     cap = args.caption or build_caption(Path(args.video).stem.replace("_", " "))
-    result = post_video(args.video, cap)
+    result = post_video(args.video, cap, platform=args.platform)
     print(json.dumps(result))
     sys.exit(0 if result.get("ok") else 1)

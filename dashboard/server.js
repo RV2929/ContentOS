@@ -12,7 +12,53 @@ const PORT = process.env.PORT || 3000;
 // PUBLIC_URL is set when running behind a tunnel (e.g. https://contentos.yourdomain.com).
 // Falls back to localhost for local-only use.
 const PUBLIC_URL = process.env.PUBLIC_URL || `http://localhost:${PORT}`;
-const CLIPS_DIR = path.join(process.env.HOME, 'Desktop', 'ContentOS', 'clips');
+// Clips are split by channel to keep storage organized: clips/podcast/, clips/football/.
+const CLIPS_BASE_DIR = path.join(process.env.HOME, 'Desktop', 'ContentOS', 'clips');
+function clipsDirFor(channel) {
+  return path.join(CLIPS_BASE_DIR, normalizeChannel(channel));
+}
+
+// Resolve a clip filename to its on-disk path. Prefers the channel tagged in
+// schedule.json/state.json (fast path — one stat), but falls back to checking
+// both channel subfolders and the legacy flat clips/ dir so a missing/stale
+// channel tag, or a file that hasn't been migrated yet, can never turn into a
+// false 404.
+function resolveClipPath(filename) {
+  filename = path.basename(filename); // prevent path traversal via ../
+  const sched = loadSchedule()[filename];
+  const state = loadJSON(STATE_FILE, {})[filename];
+  const taggedChannel = sched?.channel || state?.channel;
+  if (taggedChannel) {
+    const preferred = path.join(clipsDirFor(taggedChannel), filename);
+    if (fs.existsSync(preferred)) return preferred;
+  }
+  for (const dir of [clipsDirFor('podcast'), clipsDirFor('football'), CLIPS_BASE_DIR]) {
+    const p = path.join(dir, filename);
+    if (fs.existsSync(p)) return p;
+  }
+  return path.join(clipsDirFor(taggedChannel || 'podcast'), filename);
+}
+
+// Scans clips/podcast/, clips/football/, and (for safety) the legacy flat
+// clips/ dir. Returns Map<filename, { channel, dir }> — folder location is
+// authoritative for channel when known, since schedule.json may not have an
+// entry yet (freshly clipped) or ever (manually-uploaded clips).
+function listAllClipFiles() {
+  const found = new Map();
+  for (const channel of ['podcast', 'football']) {
+    const dir = clipsDirFor(channel);
+    let files = [];
+    try { files = fs.readdirSync(dir).filter(f => /\.(mp4|mov|webm|avi)$/i.test(f)); } catch (_) { /* not created yet */ }
+    for (const f of files) found.set(f, { channel, dir });
+  }
+  let legacy = [];
+  try { legacy = fs.readdirSync(CLIPS_BASE_DIR).filter(f => /\.(mp4|mov|webm|avi)$/i.test(f)); } catch (_) { /* clips dir may not exist yet */ }
+  for (const f of legacy) {
+    if (!found.has(f)) found.set(f, { channel: null, dir: CLIPS_BASE_DIR });
+  }
+  return found;
+}
+
 const STATE_FILE = path.join(__dirname, 'state.json');
 const CONFIG_FILE = path.join(__dirname, 'config.json');
 const CREDENTIALS_FILE = path.join(__dirname, 'yt-credentials.json');
@@ -64,6 +110,10 @@ const schedulingInProgress = new Set();
 // Filenames currently being sent to Buffer
 const bufferInProgress = new Set();
 
+// Filenames currently being sent to Buffer/TikTok (tracked separately from
+// Instagram so the two platforms can post independently)
+const tiktokBufferInProgress = new Set();
+
 // ── GitHub sync ───────────────────────────────────────────────────────────────
 // Writes clips-data.json and pushes to GitHub so Vercel reads fresh data
 // without needing a tunnel. Debounced so rapid back-to-back changes only
@@ -82,9 +132,8 @@ function scheduleSyncToGitHub(reason) {
 
 async function syncToGitHub(label) {
   try {
-    let files = [];
-    try { files = fs.readdirSync(CLIPS_DIR).filter(f => /\.(mp4|mov|webm|avi)$/i.test(f)).sort(); }
-    catch (_) { /* clips dir may not exist yet */ }
+    const clipFiles = listAllClipFiles();
+    const files = Array.from(clipFiles.keys()).sort();
 
     const state    = loadJSON(STATE_FILE, {});
     const schedule = loadSchedule();
@@ -102,7 +151,7 @@ async function syncToGitHub(label) {
         scheduledAt:   pending ? sch.scheduledAt : null,
         scheduleStatus: sch.status || null,
         title:         sch.title   || '',
-        channel:       sch.channel || s.channel || 'podcast',
+        channel:       clipFiles.get(filename)?.channel || sch.channel || s.channel || 'podcast',
         thumbnailPath: fs.existsSync(thumbFile) ? `/thumbnails/${stem}.jpg` : null,
       };
     });
@@ -406,8 +455,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/clips/:filename', (req, res) => {
   const filename = decodeURIComponent(req.params.filename);
-  const filePath = path.join(CLIPS_DIR, filename);
-  if (!filePath.startsWith(CLIPS_DIR + path.sep) && filePath !== CLIPS_DIR)
+  const filePath = resolveClipPath(filename);
+  if (!filePath.startsWith(CLIPS_BASE_DIR + path.sep))
     return res.status(403).send('Forbidden');
   if (!fs.existsSync(filePath)) return res.status(404).send('Not found');
 
@@ -435,12 +484,9 @@ app.get('/clips/:filename', (req, res) => {
 const THUMBNAILS_DIR = path.join(__dirname, 'public', 'thumbnails');
 
 app.get('/api/clips', (req, res) => {
-  let files = [];
-  try {
-    files = fs.readdirSync(CLIPS_DIR).filter(f => /\.(mp4|mov|webm|avi)$/i.test(f)).sort();
-  } catch (e) {
-    return res.status(500).json({ error: 'Cannot read clips dir: ' + e.message });
-  }
+  const clipFiles = listAllClipFiles();
+  const files = Array.from(clipFiles.keys()).sort();
+
   const state = loadJSON(STATE_FILE, {});
   const schedule = loadSchedule();
   res.json(files.map(filename => {
@@ -460,7 +506,8 @@ app.get('/api/clips', (req, res) => {
       scheduledAt: schedPending ? sched.scheduledAt : null,
       scheduleStatus: sched?.status || null,
       bufferStatus: sched?.bufferStatus || null,
-      channel: sched?.channel || state[filename]?.channel || 'podcast',
+      tiktokBufferStatus: sched?.tiktokBufferStatus || null,
+      channel: clipFiles.get(filename)?.channel || sched?.channel || state[filename]?.channel || 'podcast',
       thumbnailUrl,
     };
   }));
@@ -602,7 +649,7 @@ app.post('/api/upload/buffer', (req, res) => {
   const { filename } = req.body;
   if (!filename) return res.status(400).json({ error: 'filename required' });
 
-  const filePath = path.join(CLIPS_DIR, filename);
+  const filePath = resolveClipPath(filename);
   if (!fs.existsSync(filePath)) return res.status(404).json({ error: 'Clip not found' });
 
   const bufferToken = readBufferToken();
@@ -648,7 +695,7 @@ app.post('/api/upload/youtube', (req, res) => {
   if (!filename) return res.status(400).json({ error: 'filename required' });
   if (!accountId) return res.status(400).json({ error: 'Choose which YouTube account to upload to' });
 
-  const filePath = path.join(CLIPS_DIR, filename);
+  const filePath = resolveClipPath(filename);
   if (!fs.existsSync(filePath)) return res.status(404).json({ error: 'Clip not found' });
   if (!loadJSON(tokensFileFor(accountId), null)) return res.status(401).json({ error: 'That YouTube account is not connected' });
 
@@ -863,9 +910,16 @@ function buildBufferCaption(title) {
   return `${clean}\n\n#Reels #Instagram #FYP #Viral`;
 }
 
-function doBufferPost(filePath, filename, caption) {
+function buildTikTokCaption(title) {
+  const clean = title.split(' ').filter(w => !w.startsWith('#')).join(' ');
+  return `${clean}\n\n#TikTok #FYP #Viral`;
+}
+
+// platform: 'instagram' | 'tiktok' — routed to musichub29_ on Buffer, which is
+// podcast-only, so callers must gate TikTok posts on channel === 'podcast'.
+function doBufferPost(filePath, filename, caption, platform = 'instagram') {
   return new Promise((resolve, reject) => {
-    const proc = spawn(VENV_PYTHON, [BUFFER_POSTER, filePath, caption]);
+    const proc = spawn(VENV_PYTHON, [BUFFER_POSTER, filePath, caption, '--platform', platform]);
     let out = '', err = '';
     proc.stdout.on('data', d => { const t = d.toString(); out += t; process.stdout.write(t); });
     proc.stderr.on('data', d => { err += d.toString(); process.stderr.write(d); });
@@ -903,7 +957,7 @@ async function runScheduler() {
     const accountId = entry.accountId || accountIdForChannel(normalizeChannel(entry.channel));
     if (!fs.existsSync(tokensFileFor(accountId))) continue; // chosen account got disconnected — skip until reconnected
 
-    const filePath = path.join(CLIPS_DIR, filename);
+    const filePath = resolveClipPath(filename);
     if (!fs.existsSync(filePath)) {
       entry.status = 'failed';
       entry.error = 'File not found';
@@ -951,54 +1005,100 @@ async function runScheduler() {
     });
   }
 
-  // ── Buffer auto-post ───────────────────────────────────────────────────────
+  // ── Buffer auto-post (Instagram + TikTok) ─────────────────────────────────
   // Fires on the same tick as the YouTube upload: entry.status === 'pending'
-  // means the clip is due now (same scheduledAt gate below).
+  // means the clip is due now (same scheduledAt gate below). Instagram posts
+  // for every channel; TikTok (musichub29_) is podcast-only, so football
+  // clips never reach it. The two platforms post independently — one failing
+  // doesn't block or retry the other — and track status under separate keys
+  // (bufferStatus vs tiktokBufferStatus).
   const bufferToken = readBufferToken();
   if (bufferToken) {
     for (const [filename, entry] of Object.entries(schedule)) {
-      if (entry.status !== 'pending') continue;                                    // same trigger as YouTube
-      if (['uploading', 'done', 'failed'].includes(entry.bufferStatus)) continue; // already handled
-      if (bufferInProgress.has(filename)) continue;
+      if (entry.status !== 'pending') continue;      // same trigger as YouTube
       if (new Date(entry.scheduledAt) > now) continue;
 
-      const filePath = path.join(CLIPS_DIR, filename);
-      if (!fs.existsSync(filePath)) {
-        const s = loadSchedule();
-        if (s[filename]) {
-          s[filename].bufferStatus = 'failed';
-          s[filename].bufferError  = 'File not found';
-          saveJSON(SCHEDULE_FILE, s);
-        }
-        continue;
-      }
+      const filePath = resolveClipPath(filename);
+      const channel  = normalizeChannel(entry.channel);
+      const title    = entry.title || path.basename(filename, path.extname(filename)).replace(/_/g, ' ');
 
-      bufferInProgress.add(filename);
-      const title   = entry.title || path.basename(filename, path.extname(filename)).replace(/_/g, ' ');
-      const caption = buildBufferCaption(title);
-
-      const s0 = loadSchedule();
-      if (s0[filename]) { s0[filename].bufferStatus = 'uploading'; saveJSON(SCHEDULE_FILE, s0); }
-      console.log(`[buffer] Posting: ${filename}`);
-
-      doBufferPost(filePath, filename, caption)
-        .then(() => {
-          const s = loadSchedule();
-          if (s[filename]) { s[filename].bufferStatus = 'done'; saveJSON(SCHEDULE_FILE, s); }
-          console.log(`[buffer] Done: ${filename}`);
-          scheduleSyncToGitHub(`buffer done ${filename}`);
-        })
-        .catch(err => {
-          console.error(`[buffer] Failed ${filename}: ${err.message}`);
+      // ── Instagram ──
+      if (!['uploading', 'done', 'failed'].includes(entry.bufferStatus) && !bufferInProgress.has(filename)) {
+        if (!fs.existsSync(filePath)) {
           const s = loadSchedule();
           if (s[filename]) {
             s[filename].bufferStatus = 'failed';
-            s[filename].bufferError  = err.message.slice(0, 200);
+            s[filename].bufferError  = 'File not found';
             saveJSON(SCHEDULE_FILE, s);
           }
-          scheduleSyncToGitHub(`buffer failed ${filename}`);
-        })
-        .finally(() => bufferInProgress.delete(filename));
+        } else {
+          bufferInProgress.add(filename);
+          const caption = buildBufferCaption(title);
+
+          const s0 = loadSchedule();
+          if (s0[filename]) { s0[filename].bufferStatus = 'uploading'; saveJSON(SCHEDULE_FILE, s0); }
+          console.log(`[buffer:instagram] Posting: ${filename}`);
+
+          doBufferPost(filePath, filename, caption, 'instagram')
+            .then(() => {
+              const s = loadSchedule();
+              if (s[filename]) { s[filename].bufferStatus = 'done'; saveJSON(SCHEDULE_FILE, s); }
+              console.log(`[buffer:instagram] Done: ${filename}`);
+              scheduleSyncToGitHub(`buffer done ${filename}`);
+            })
+            .catch(err => {
+              console.error(`[buffer:instagram] Failed ${filename}: ${err.message}`);
+              const s = loadSchedule();
+              if (s[filename]) {
+                s[filename].bufferStatus = 'failed';
+                s[filename].bufferError  = err.message.slice(0, 200);
+                saveJSON(SCHEDULE_FILE, s);
+              }
+              scheduleSyncToGitHub(`buffer failed ${filename}`);
+            })
+            .finally(() => bufferInProgress.delete(filename));
+        }
+      }
+
+      // ── TikTok (podcast only) ──
+      if (channel === 'podcast'
+          && !['uploading', 'done', 'failed'].includes(entry.tiktokBufferStatus)
+          && !tiktokBufferInProgress.has(filename)) {
+        if (!fs.existsSync(filePath)) {
+          const s = loadSchedule();
+          if (s[filename]) {
+            s[filename].tiktokBufferStatus = 'failed';
+            s[filename].tiktokBufferError  = 'File not found';
+            saveJSON(SCHEDULE_FILE, s);
+          }
+        } else {
+          tiktokBufferInProgress.add(filename);
+          const caption = buildTikTokCaption(title);
+
+          const s0 = loadSchedule();
+          if (s0[filename]) { s0[filename].tiktokBufferStatus = 'uploading'; saveJSON(SCHEDULE_FILE, s0); }
+          console.log(`[buffer:tiktok] Posting: ${filename}`);
+
+          doBufferPost(filePath, filename, caption, 'tiktok')
+            .then(() => {
+              const s = loadSchedule();
+              if (s[filename]) { s[filename].tiktokBufferStatus = 'done'; saveJSON(SCHEDULE_FILE, s); }
+              console.log(`[buffer:tiktok] Done: ${filename}`);
+              scheduleSyncToGitHub(`tiktok buffer done ${filename}`);
+            })
+            .catch(err => {
+              console.error(`[buffer:tiktok] Failed ${filename}: ${err.message}`);
+              const s = loadSchedule();
+              if (s[filename]) {
+                s[filename].tiktokBufferStatus = 'failed';
+                s[filename].tiktokBufferError  = err.message.slice(0, 200);
+                saveJSON(SCHEDULE_FILE, s);
+              }
+              scheduleSyncToGitHub(`tiktok buffer failed ${filename}`);
+            })
+            .finally(() => tiktokBufferInProgress.delete(filename));
+        }
+      }
     }
   }
 }
