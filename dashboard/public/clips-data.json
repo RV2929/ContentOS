@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T14:37:34.378Z",
+  "lastUpdated": "2026-07-09T14:39:42Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -1270,6 +1270,36 @@
       "title": "Forget the Password Get Rich Doing Nothing",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Stock_Expert_Becoming_Rich_Is_Simple_But_clip07_A_genuinely_funny_anecdote_that_lands_th.jpg"
+    },
+    {
+      "filename": "THANK_YOU_CRISTIANO_RONALDO__Real_Madrid_clip01_The_commentators_awe-struck_Its_him_agai.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T14:49:42.407904+00:00",
+      "scheduleStatus": "pending",
+      "title": "IT'S ALWAYS HIM RONALDO",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/THANK_YOU_CRISTIANO_RONALDO__Real_Madrid_clip01_The_commentators_awe-struck_Its_him_agai.jpg"
+    },
+    {
+      "filename": "THANK_YOU_CRISTIANO_RONALDO__Real_Madrid_clip02_The_build-up_the_big_moments_the_big_pla.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T17:19:42.407904+00:00",
+      "scheduleStatus": "pending",
+      "title": "BIG PLAYERS TURN UP",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/THANK_YOU_CRISTIANO_RONALDO__Real_Madrid_clip02_The_build-up_the_big_moments_the_big_pla.jpg"
+    },
+    {
+      "filename": "THANK_YOU_CRISTIANO_RONALDO__Real_Madrid_clip03_Whos_going_to_be_the_match_winner_Hes_st.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T19:49:42.407904+00:00",
+      "scheduleStatus": "pending",
+      "title": "HE'S STILL GOT THE LEGS",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/THANK_YOU_CRISTIANO_RONALDO__Real_Madrid_clip03_Whos_going_to_be_the_match_winner_Hes_st.jpg"
     },
     {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_vulnerability_and_a_provocative_call.mp4",
