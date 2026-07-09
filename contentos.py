@@ -244,12 +244,15 @@ Reply ONLY with a valid JSON array in the same order as the clips:
 def _schedule_clips(
     output_paths: list[str], clips: list[dict], metadata: dict[str, dict], channel: str = "podcast"
 ) -> None:
-    """Schedule clips every 2.5 h, storing generated titles/descriptions and batchId."""
-    import datetime
+    """Queue clips onto the shared per-channel daily posting schedule (see
+    scheduler_queue.py): up to DAILY_CAP per calendar day per channel,
+    spread across the posting window, FIFO after whatever's already queued."""
     import json
     import re
 
-    INTERVAL_HOURS = 2.5
+    from scheduler_queue import DAILY_CAP, allocate_slots, normalize_channel
+
+    channel = normalize_channel(channel)
 
     schedule_file = os.path.join(os.path.dirname(__file__), "dashboard", "schedule.json")
     try:
@@ -266,9 +269,8 @@ def _schedule_clips(
     m_batch = re.match(r"^(.+?)_clip\d+", first_name)
     batch_id = m_batch.group(1) if m_batch else os.path.splitext(first_name)[0][:50]
 
-    start = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(minutes=10)
-
-    newly_scheduled: list[tuple[str, datetime.datetime, int]] = []
+    pending_filenames: list[str] = []
+    pending_meta: dict[str, dict] = {}
     for i, clip_path in enumerate(output_paths):
         filename = os.path.basename(clip_path)
         if schedule.get(filename, {}).get("status") in ("uploading", "done"):
@@ -282,23 +284,31 @@ def _schedule_clips(
         title = meta.get("title") or clip_data.get("title", "") or os.path.splitext(filename)[0].replace("_", " ")[:80]
         description = meta.get("description") or "#Shorts"
 
-        scheduled_at = start + datetime.timedelta(hours=i * INTERVAL_HOURS)
+        pending_filenames.append(filename)
+        pending_meta[filename] = {"title": title, "description": description, "clip_index": clip_index}
+
+    if not pending_filenames:
+        print("  No new clips to schedule.")
+        return
+
+    slots = allocate_slots(schedule, channel, pending_filenames)
+
+    newly_scheduled: list[tuple[str, datetime.datetime, int]] = []
+    for filename in pending_filenames:
+        scheduled_at = slots[filename]
+        meta = pending_meta[filename]
         schedule[filename] = {
             "scheduledAt": scheduled_at.isoformat(),
-            "title": title,
-            "description": description,
+            "title": meta["title"],
+            "description": meta["description"],
             "visibility": "public",
             "status": "pending",
             "bufferStatus": "pending",
             "batchId": batch_id,
-            "clipIndex": clip_index,
+            "clipIndex": meta["clip_index"],
             "channel": channel,
         }
-        newly_scheduled.append((filename, scheduled_at, clip_index))
-
-    if not newly_scheduled:
-        print("  No new clips to schedule.")
-        return
+        newly_scheduled.append((filename, scheduled_at, meta["clip_index"]))
 
     try:
         with open(schedule_file, "w", encoding="utf-8") as f:
@@ -307,7 +317,7 @@ def _schedule_clips(
         print(f"  Warning: could not write schedule — {exc}")
         return
 
-    print(f"  {len(newly_scheduled)} clip(s) queued every {INTERVAL_HOURS}h (batch: {batch_id}):")
+    print(f"  {len(newly_scheduled)} clip(s) queued (max {DAILY_CAP}/day/channel, batch: {batch_id}):")
     for filename, at, idx in sorted(newly_scheduled, key=lambda x: x[2]):
         local_at = at.astimezone()
         print(f"  Clip {idx:02d}: {local_at.strftime('%b %d %I:%M %p')}")
