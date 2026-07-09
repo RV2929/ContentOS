@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T14:28:30.187Z",
+  "lastUpdated": "2026-07-09T14:28:55.917Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -443,6 +443,16 @@
     },
     {
       "filename": "Cristiano_Ronaldo_100_Angry_Moments_clip01_Raw_on-pitch_anger_with_a_player_already.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_100_Angry_Moments_clip01_Raw_on-pitch_anger_with_a_player_already.jpg"
+    },
+    {
+      "filename": "Cristiano_Ronaldo_100_Angry_Moments_clip02_A_controversial_studs-up_challenge_with_.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,

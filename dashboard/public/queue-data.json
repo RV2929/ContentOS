@@ -272,6 +272,19 @@
       "clipsCount": 0,
       "batchId": null,
       "error": null
+    },
+    {
+      "id": "mrdlr6069v4s",
+      "url": "https://www.youtube.com/watch?v=dDs85j1LM9o",
+      "title": "",
+      "status": "queued",
+      "channel": "football",
+      "addedAt": "2026-07-09T14:28:52.902Z",
+      "startedAt": null,
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
