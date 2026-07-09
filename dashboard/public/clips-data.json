@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T14:50:03.355Z",
+  "lastUpdated": "2026-07-09T14:52:01.014Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -603,10 +603,10 @@
     },
     {
       "filename": "Emotional_Cristiano_Ronaldo_Badly_Crying_clip01_Builds_tension_from_the_final_whistle_to.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T14:51:45.490704+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "M1aNt1E_g4k",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Cristiano Ronaldo Drops to His Knees After Final Whistle",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Emotional_Cristiano_Ronaldo_Badly_Crying_clip01_Builds_tension_from_the_final_whistle_to.jpg"
