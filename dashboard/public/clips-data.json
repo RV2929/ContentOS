@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T14:42:03.965Z",
+  "lastUpdated": "2026-07-09T14:48:03.047Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -473,10 +473,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip01_Perfect_counter-attack_goal_with_the_com.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T14:46:57.753945+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "_wgvlytI-_4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Benzema Finally Breaks Free After Weeks of Struggle",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip01_Perfect_counter-attack_goal_with_the_com.jpg"
