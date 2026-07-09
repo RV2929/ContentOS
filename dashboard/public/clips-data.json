@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T14:58:50.667Z",
+  "lastUpdated": "2026-07-09T15:02:09Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -370,6 +370,26 @@
       "title": "Billionaires WARNING Im SELLING The Cras clip07 Maternal mortality as the measur",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Billionaires_WARNING_Im_SELLING_The_Cras_clip07_Maternal_mortality_as_the_measure_of_civ.jpg"
+    },
+    {
+      "filename": "Brazil_vs_Croatia_3-1__Neymar_jr_First_W_clip01_Excited_commentary_with_a_physical_aeria.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T15:12:09.557239+00:00",
+      "scheduleStatus": "pending",
+      "title": "WARNING SIGNS FOR BRAZIL",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/Brazil_vs_Croatia_3-1__Neymar_jr_First_W_clip01_Excited_commentary_with_a_physical_aeria.jpg"
+    },
+    {
+      "filename": "Brazil_vs_Croatia_3-1__Neymar_jr_First_W_clip02_A_goal_celebration_with_the_punchy_payof.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T17:42:09.557239+00:00",
+      "scheduleStatus": "pending",
+      "title": "GOAL WITHOUT NEYMAR",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/Brazil_vs_Croatia_3-1__Neymar_jr_First_W_clip02_A_goal_celebration_with_the_punchy_payof.jpg"
     },
     {
       "filename": "Communicate_with_Confidence_The_Blueprin_clip01_A_rapid-fire_montage_of_provocative_quot.mp4",
