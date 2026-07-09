@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T15:52:59.600Z",
+  "lastUpdated": "2026-07-09T16:01:05.525Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -726,7 +726,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-07-09T16:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "End Of The Road Ronaldo - The Final Chapter Unfolds",
       "channel": "football",
       "thumbnailPath": "/thumbnails/HIGHLIGHTS_-_Portugal_v_Spain__Huge_All-_clip03_The_dramatic_emotional_final_call_as_Spa.jpg"
@@ -1222,6 +1222,76 @@
       "thumbnailPath": "/thumbnails/Its_Not_Too_Late_How_to_Transform_Your_L_clip07_Provocative_claim_that_the_too_late_narr.jpg"
     },
     {
+      "filename": "Joe_Rogan_Experience_1309_-_Naval_Ravika_clip01_A_vivid_memorable_analogy_about_why_comb.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_1309_-_Naval_Ravika_clip01_A_vivid_memorable_analogy_about_why_comb.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_Experience_1309_-_Naval_Ravika_clip02_Counterintuitive_one-liner_about_fame_be.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_1309_-_Naval_Ravika_clip02_Counterintuitive_one-liner_about_fame_be.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_Experience_1309_-_Naval_Ravika_clip03_Provocative_challenge_that_happiness_is_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_1309_-_Naval_Ravika_clip03_Provocative_challenge_that_happiness_is_.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_Experience_1309_-_Naval_Ravika_clip04_Defines_desire_as_a_contract_to_be_unhap.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_1309_-_Naval_Ravika_clip04_Defines_desire_as_a_contract_to_be_unhap.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_Experience_1309_-_Naval_Ravika_clip05_Powerful_riff_on_how_sugar_porn_drugs_an.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_1309_-_Naval_Ravika_clip05_Powerful_riff_on_how_sugar_porn_drugs_an.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_Experience_1309_-_Naval_Ravika_clip06_The_see_who_youre_not_allowed_to_critici.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_1309_-_Naval_Ravika_clip06_The_see_who_youre_not_allowed_to_critici.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_Experience_1309_-_Naval_Ravika_clip07_Awe-inducing_take_that_you_cant_say_a_pe.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
+    },
+    {
       "filename": "My_Life_Got_Better_When_I_Stopped_Giving_clip01_Strong_relatable_opening_hook_about_wast.mp4",
       "status": "ready",
       "youtubeId": "",
@@ -1486,7 +1556,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-07-09T16:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Tom Holland: More Confident Playing Spider-Man Than Being Himself",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip01_A_raw_counterintuitive_confession_that_h.jpg"
