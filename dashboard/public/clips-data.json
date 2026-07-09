@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T15:34:01.801Z",
+  "lastUpdated": "2026-07-09T15:38:17Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -1357,7 +1357,7 @@
       "youtubeId": "zSVf0SQ-frc",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "The Media Called It a Breakdown—Here's What Really Happened",
+      "title": "The Media Called It a Breakdown\u2014Here's What Really Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.jpg"
     },
@@ -1447,7 +1447,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-07-10T01:33:06.280493+00:00",
       "scheduleStatus": "pending",
-      "title": "If You Have a Problem, Text Me—His Answer to Critics",
+      "title": "If You Have a Problem, Text Me\u2014His Answer to Critics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.jpg"
     },
@@ -1480,6 +1480,76 @@
       "title": "Pressure Is a Privilege: Reframing Everything You Fear",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip07_A_punchy_inspirational_quote_framing_pre.jpg"
+    },
+    {
+      "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip01_A_raw_counterintuitive_confession_that_h.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T15:48:17.344486+00:00",
+      "scheduleStatus": "pending",
+      "title": "Tom Holland: More Confident Playing Spider-Man Than Being Himself",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip01_A_raw_counterintuitive_confession_that_h.jpg"
+    },
+    {
+      "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip02_A_tight_relatable_story_of_realizing_he_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T18:18:17.344486+00:00",
+      "scheduleStatus": "pending",
+      "title": "How One Month of Not Drinking Changed Tom Holland Forever",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip02_A_tight_relatable_story_of_realizing_he_.jpg"
+    },
+    {
+      "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip03_Vulnerable_admission_that_a_global_super.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T20:48:17.344486+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Tom Holland Turned to Alcohol to Deal With Fame",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip03_Vulnerable_admission_that_a_global_super.jpg"
+    },
+    {
+      "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip04_Funny_self-deprecating_story_about_getti.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T23:18:17.344486+00:00",
+      "scheduleStatus": "pending",
+      "title": "Tom Holland Drank Before His Spider-Man Screen Test",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip04_Funny_self-deprecating_story_about_getti.jpg"
+    },
+    {
+      "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip05_Genuinely_funny_cringe_story_of_his_dog_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T01:48:17.344486+00:00",
+      "scheduleStatus": "pending",
+      "title": "Tom Holland's Dog Destroyed a Sony Executive's Couch",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip05_Genuinely_funny_cringe_story_of_his_dog_.jpg"
+    },
+    {
+      "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip06_Screenshot-worthy_one-liner_about_sobrie.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T04:18:17.344486+00:00",
+      "scheduleStatus": "pending",
+      "title": "The One Thing Tom Holland Never Misses About Drinking",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip06_Screenshot-worthy_one-liner_about_sobrie.jpg"
+    },
+    {
+      "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip07_Surreal_manifestation_hook__a_childhood_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T06:48:17.344486+00:00",
+      "scheduleStatus": "pending",
+      "title": "Tom Holland Named Spider-Man Years Before Becoming Him",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip07_Surreal_manifestation_hook__a_childhood_.jpg"
     },
     {
       "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip01_The_Ferrari_valet_story_delivers_a_jolti.mp4",
