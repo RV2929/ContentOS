@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T19:48:45.325Z",
+  "lastUpdated": "2026-07-09T19:48:57.237Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -503,10 +503,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip02_Rapid_end-to-end_drama_as_the_game_burst.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T19:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "qxYy1B69wi0",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Ronaldo Turns Playmaker in Chaos and Equalizes Everything",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip02_Rapid_end-to-end_drama_as_the_game_burst.jpg"
@@ -1723,10 +1723,10 @@
     },
     {
       "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip02_A_tight_relatable_story_of_realizing_he_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T19:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "vB-zNo-NuKw",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "How One Month of Not Drinking Changed Tom Holland Forever",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip02_A_tight_relatable_story_of_realizing_he_.jpg"
