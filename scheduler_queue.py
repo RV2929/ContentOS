@@ -2,11 +2,9 @@
 Per-channel daily posting queue.
 
 Caps each channel (podcast, football) at DAILY_CAP posts per calendar day
-(system local time) and spreads that day's posts evenly across a
-POSTING_WINDOW_START_HOUR-POSTING_WINDOW_END_HOUR window instead of across
-all 24 hours. When a day fills up, overflow rolls to the next day, then the
-next, etc. — first-in-first-out across whatever order filenames are handed
-in.
+(system local time), spread evenly across the full 24 hours. When a day
+fills up, overflow rolls to the next day, then the next, etc. —
+first-in-first-out across whatever order filenames are handed in.
 
 Used by contentos.py to slot newly generated clips, and by reslot_backlog.py
 to re-spread any already-pending entries in schedule.json.
@@ -16,9 +14,7 @@ import datetime
 import os
 import zoneinfo
 
-DAILY_CAP = 10
-WINDOW_START_HOUR = 8   # 8am
-WINDOW_END_HOUR = 23    # 11pm
+DAILY_CAP = 15
 
 # Statuses that occupy a slot on their scheduled day (already posted, actively
 # posting, or waiting to post). "failed" clips never posted, so they don't
@@ -43,9 +39,8 @@ def _local_zone() -> datetime.tzinfo:
 
 def _slot_datetime(day: datetime.date, slot_index: int, tz: datetime.tzinfo) -> datetime.datetime:
     """The local datetime for the Nth (0-based) posting slot of a given day,
-    evenly spaced across [WINDOW_START_HOUR, WINDOW_END_HOUR)."""
-    window_minutes = (WINDOW_END_HOUR - WINDOW_START_HOUR) * 60
-    total_minutes = int(WINDOW_START_HOUR * 60 + slot_index * window_minutes / DAILY_CAP)
+    evenly spaced across the full 24 hours."""
+    total_minutes = int(slot_index * (24 * 60) / DAILY_CAP)
     hour, minute = divmod(total_minutes, 60)
     return datetime.datetime(day.year, day.month, day.day, hour, minute, tzinfo=tz)
 
@@ -58,9 +53,9 @@ def allocate_slots(
 ) -> dict[str, datetime.datetime]:
     """
     Assign each filename in `filenames` (already in FIFO order) the next
-    available posting slot for `channel`, respecting DAILY_CAP/day and the
-    posting window. Existing schedule entries for this channel (excluding
-    the filenames being (re)assigned) count against each day's cap.
+    available posting slot for `channel`, respecting DAILY_CAP/day. Existing
+    schedule entries for this channel (excluding the filenames being
+    (re)assigned) count against each day's cap.
 
     Returns {filename: scheduled_at_utc_datetime}.
     """
@@ -111,7 +106,7 @@ def allocate_slots(
                 break
 
             if chosen_idx is None:
-                # No future grid slots left today (window closed for today).
+                # All of today's remaining slot times have already elapsed.
                 day += datetime.timedelta(days=1)
                 continue
 
