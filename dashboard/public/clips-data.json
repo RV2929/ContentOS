@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T15:02:24.100Z",
+  "lastUpdated": "2026-07-09T15:13:02.650Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -373,10 +373,10 @@
     },
     {
       "filename": "Brazil_vs_Croatia_3-1__Neymar_jr_First_W_clip01_Excited_commentary_with_a_physical_aeria.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T15:12:09.557239+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "-FnHc2xZH-I",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "WARNING SIGNS FOR BRAZIL",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Brazil_vs_Croatia_3-1__Neymar_jr_First_W_clip01_Excited_commentary_with_a_physical_aeria.jpg"
