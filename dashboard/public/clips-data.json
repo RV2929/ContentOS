@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T16:25:57.567Z",
+  "lastUpdated": "2026-07-09T16:31:45Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -1517,7 +1517,7 @@
       "youtubeId": "zSVf0SQ-frc",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "The Media Called It a Breakdown—Here's What Really Happened",
+      "title": "The Media Called It a Breakdown\u2014Here's What Really Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.jpg"
     },
@@ -1607,7 +1607,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-07-10T08:36:00+00:00",
       "scheduleStatus": "pending",
-      "title": "If You Have a Problem, Text Me—His Answer to Critics",
+      "title": "If You Have a Problem, Text Me\u2014His Answer to Critics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.jpg"
     },
@@ -2240,6 +2240,76 @@
       "title": "A Miscarriage Taught Him to Slow Down and Heal",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Mitochondria_Doctor_This_Reverses_Gr_clip08_Raw_vulnerable_confession_about_his_misc.jpg"
+    },
+    {
+      "filename": "The_Two_Decisions_That_Shape_Your_Entire_clip01_Counterintuitive_redefinition_of_intelli.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T16:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Only Real Test of Intelligence",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip01_Counterintuitive_redefinition_of_intelli.jpg"
+    },
+    {
+      "filename": "The_Two_Decisions_That_Shape_Your_Entire_clip02_Provocative_screenshot-worthy_claim_that.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T18:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Guilt Is Society Living Inside Your Head",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip02_Provocative_screenshot-worthy_claim_that.jpg"
+    },
+    {
+      "filename": "The_Two_Decisions_That_Shape_Your_Entire_clip03_Striking_insight_that_we_spend_months_de.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T19:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "You're Deciding Your Whole Life Too Fast",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip03_Striking_insight_that_we_spend_months_de.jpg"
+    },
+    {
+      "filename": "The_Two_Decisions_That_Shape_Your_Entire_clip04_Directly_challenges_Gladwells_famous_100.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "10,000 Iterations Not Hours Beats Gladwell",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip04_Directly_challenges_Gladwells_famous_100.jpg"
+    },
+    {
+      "filename": "The_Two_Decisions_That_Shape_Your_Entire_clip05_Vivid_evolutionary_explanation_of_why_we.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T00:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Your Brain Is Wired for Pessimism",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip05_Vivid_evolutionary_explanation_of_why_we.jpg"
+    },
+    {
+      "filename": "The_Two_Decisions_That_Shape_Your_Entire_clip06_Compelling_argument_that_modern_life_has.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T02:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Failure Doesn't Count Anymore",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip06_Compelling_argument_that_modern_life_has.jpg"
+    },
+    {
+      "filename": "The_Two_Decisions_That_Shape_Your_Entire_clip07_Bold_shareable_take_on_how_labels_and_id.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Stop Defining Yourself by Your Trauma",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip07_Bold_shareable_take_on_how_labels_and_id.jpg"
     },
     {
       "filename": "Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip01_Naturally_funny_and_punchy__his_personal.mp4",
