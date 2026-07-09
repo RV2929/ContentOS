@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T16:32:47.030Z",
+  "lastUpdated": "2026-07-09T16:37:10.510Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -673,10 +673,10 @@
     },
     {
       "filename": "FULL_MATCH_Brazil_vs_France_2006_FIFA_Wo_clip03_Pure_awe_as_the_commentary_crowns_Zidane.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T16:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "yiTlJjMltNU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "NOBODY DOES IT LIKE ZIDANE: Pure Genius Moment",
       "channel": "football",
       "thumbnailPath": "/thumbnails/FULL_MATCH_Brazil_vs_France_2006_FIFA_Wo_clip03_Pure_awe_as_the_commentary_crowns_Zidane.jpg"
@@ -753,10 +753,10 @@
     },
     {
       "filename": "HOW_TO_TALK__Andrew_Tates_Guide_To_Effec_clip03_Provocative_claim_backed_by_primate_beha.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T16:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "N-DBoAJmAt4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Smiling Is Submission: The Truth About Your Face",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/HOW_TO_TALK__Andrew_Tates_Guide_To_Effec_clip03_Provocative_claim_backed_by_primate_beha.jpg"
@@ -1233,10 +1233,10 @@
     },
     {
       "filename": "Joe_Rogan_Experience_1309_-_Naval_Ravika_clip01_A_vivid_memorable_metaphor_for_why_combi.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T16:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "MMkW2SU_m8k",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Bear On A Unicycle: Why Weird Skills Make You Unforgettable",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_1309_-_Naval_Ravika_clip01_A_vivid_memorable_metaphor_for_why_combi.jpg"
@@ -2243,10 +2243,10 @@
     },
     {
       "filename": "The_Two_Decisions_That_Shape_Your_Entire_clip01_Counterintuitive_redefinition_of_intelli.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T16:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "DYWNjsIGqgI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Only Real Test of Intelligence",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip01_Counterintuitive_redefinition_of_intelli.jpg"
