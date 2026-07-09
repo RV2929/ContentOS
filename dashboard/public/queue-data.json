@@ -342,13 +342,13 @@
       "id": "mrdluto8mxb9",
       "url": "https://www.youtube.com/watch?v=WEP5ubPMGDU",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-07-09T14:31:43.544Z",
       "startedAt": "2026-07-09T16:31:50.425Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-09T16:58:00.571Z",
+      "clipsCount": 7,
+      "batchId": "How_to_Take_Responsibility_for_Your_Own_",
       "error": null
     }
   ]
