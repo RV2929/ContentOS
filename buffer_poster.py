@@ -110,10 +110,20 @@ def find_instagram_channel(channels: list) -> str | None:
 
 # ── Video URL ─────────────────────────────────────────────────────────────────
 # Buffer's VideoAssetInput requires a public URL — it fetches the file itself.
-# The ContentOS server serves clips at /clips/:filename. Set VIDEO_BASE_URL in
-# .env to your Cloudflare tunnel URL so Buffer can reach the file.
+# The ContentOS server serves clips at /clips/:filename.
+#
+# The tunnel doesn't use a domain, so its URL changes every time it restarts.
+# run-tunnel.sh keeps tunnel-url.txt updated with whatever URL is currently
+# live — read that first so posts never use a stale address. VIDEO_BASE_URL
+# in .env is kept as a fallback (also auto-updated by run-tunnel.sh).
 
 VIDEO_BASE_URL = os.environ.get("VIDEO_BASE_URL", "").rstrip("/")
+
+_tunnel_url_file = Path(__file__).parent / "tunnel-url.txt"
+if _tunnel_url_file.exists():
+    _live_url = _tunnel_url_file.read_text().strip()
+    if _live_url:
+        VIDEO_BASE_URL = _live_url.rstrip("/")
 
 
 def get_public_video_url(video_path: Path) -> str:

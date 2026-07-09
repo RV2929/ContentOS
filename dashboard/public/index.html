@@ -114,6 +114,30 @@
 
     .filter-bar .refresh-btn { margin-left: auto; }
 
+    /* ── Channel tabs ── */
+    .channel-tabs {
+      display: flex; gap: 8px; margin-bottom: 18px;
+    }
+    .channel-tab {
+      font-size: 14px; font-weight: 600; padding: 9px 20px;
+      border: 1.5px solid #e2e8f0; border-radius: 10px;
+      background: #fff; cursor: pointer; color: #64748b;
+      transition: all 0.12s; display: inline-flex; align-items: center; gap: 7px;
+    }
+    .channel-tab:hover  { border-color: #6366f1; color: #6366f1; }
+    .channel-tab.active { background: #6366f1; color: #fff; border-color: #6366f1; }
+
+    /* ── Queue view sub-tabs ── */
+    .queue-view-tabs { display: flex; gap: 6px; margin-left: auto; }
+    .queue-view-tab {
+      font-size: 11px; font-weight: 600; padding: 4px 11px;
+      border: 1px solid #e2e8f0; border-radius: 20px;
+      background: #fff; cursor: pointer; color: #64748b;
+      transition: all 0.12s;
+    }
+    .queue-view-tab:hover  { border-color: #6366f1; color: #6366f1; }
+    .queue-view-tab.active { background: #1e293b; color: #fff; border-color: #1e293b; }
+
     /* ── URL Queue card ── */
     .queue-card {
       background: #fff; border: 1px solid #e2e8f0; border-radius: 14px;
@@ -190,6 +214,12 @@
       gap: 18px;
     }
 
+    @media (max-width: 480px) {
+      main { padding: 14px; }
+      .clips-grid { grid-template-columns: 1fr; gap: 14px; }
+      header { padding: 0 14px; }
+    }
+
     /* ── Clip card ── */
     .clip-card {
       background: #fff; border-radius: 12px; overflow: hidden;
@@ -246,9 +276,10 @@
     }
     .clip-title {
       font-size: 13px; font-weight: 600; color: #0f172a;
-      line-height: 1.4; flex: 1;
+      line-height: 1.4; flex: 1; min-width: 0;
       display: -webkit-box; -webkit-line-clamp: 2;
       -webkit-box-orient: vertical; overflow: hidden;
+      overflow-wrap: break-word; word-break: break-word;
     }
     .clip-source {
       font-size: 11px; color: #94a3b8; margin-bottom: 11px;
@@ -465,11 +496,21 @@
 </header>
 
 <main>
+  <!-- ── Channel tabs ── -->
+  <div class="channel-tabs" id="channel-tabs">
+    <button class="channel-tab active" data-channel="podcast">🎙 Podcast</button>
+    <button class="channel-tab" data-channel="football">⚽ Football</button>
+  </div>
+
   <!-- ── URL Queue ── -->
   <div class="queue-card" id="queue-section">
     <div class="queue-card-header">
       <span class="queue-card-title">URL Queue</span>
       <span class="queue-count-pill" id="queue-count-pill" style="display:none"></span>
+      <div class="queue-view-tabs">
+        <button class="queue-view-tab active" data-view="active">Active</button>
+        <button class="queue-view-tab" data-view="history">History</button>
+      </div>
     </div>
     <div class="queue-input-row" id="url-input-area">
       <input type="text" id="url-input" placeholder="Paste a YouTube URL and press Enter…" autocomplete="off">
@@ -502,6 +543,10 @@
       <button class="modal-close" id="upload-modal-close">✕</button>
     </div>
     <div class="modal-body">
+      <div class="form-group">
+        <label class="form-label">YouTube Account</label>
+        <select class="form-select" id="upload-account"></select>
+      </div>
       <div class="form-group">
         <label class="form-label">Title</label>
         <input class="form-input" id="upload-title" type="text" maxlength="100" placeholder="Video title…">
@@ -580,10 +625,47 @@ const PLATFORM_META = {
   instagram: { label: 'Instagram', icon: '◈', iconClass: 'pi-instagram' }
 };
 
+// Which YouTube account each channel tab uploads to (mirrors server.js CHANNEL_ACCOUNT_MAP).
+const CHANNEL_ACCOUNT_MAP = {
+  podcast:  'yo-1782235160731', // Clipperz29
+  football: 'yo-1783518807860', // Footy29
+};
+
+// ── Channel tabs ──────────────────────────────────────────────────────────────
+
+let currentChannel = localStorage.getItem('contentos_channel') === 'football' ? 'football' : 'podcast';
+
+function setChannel(channel) {
+  currentChannel = channel;
+  localStorage.setItem('contentos_channel', channel);
+  document.querySelectorAll('.channel-tab').forEach(b => b.classList.toggle('active', b.dataset.channel === channel));
+  renderQueue();
+  renderClips();
+}
+
+document.querySelectorAll('.channel-tab').forEach(btn => {
+  btn.addEventListener('click', () => setChannel(btn.dataset.channel));
+});
+document.querySelectorAll('.channel-tab').forEach(b => b.classList.toggle('active', b.dataset.channel === currentChannel));
+
 // ── Queue ─────────────────────────────────────────────────────────────────────
 
 let queueData = [];
 let queueRefreshTimer = null;
+let queueView = 'active'; // 'active' | 'history'
+
+const QUEUE_VIEW_STATUSES = {
+  active:  new Set(['queued', 'downloading', 'transcribing', 'generating_clips', 'failed']),
+  history: new Set(['scheduled', 'done']),
+};
+
+document.querySelectorAll('.queue-view-tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    queueView = btn.dataset.view;
+    document.querySelectorAll('.queue-view-tab').forEach(b => b.classList.toggle('active', b.dataset.view === queueView));
+    renderQueue();
+  });
+});
 
 const STATUS_LABELS = {
   queued:          '● Queued',
@@ -619,17 +701,22 @@ function renderQueue() {
   const itemsEl = document.getElementById('queue-items');
   const emptyEl = document.getElementById('queue-empty');
   const countEl = document.getElementById('queue-count-pill');
-  const visible = queueData.filter(i => i.status !== 'done');
+  const channelItems = queueData.filter(i => (i.channel || 'podcast') === currentChannel);
+  const visible = channelItems.filter(i => QUEUE_VIEW_STATUSES[queueView].has(i.status));
 
-  // Count pill shows only active/pending items
-  if (visible.length) {
-    countEl.textContent = visible.length;
+  // Count pill shows only in-progress items for this channel, regardless of which view is open
+  const activeCount = channelItems.filter(i => ACTIVE_STATUSES.has(i.status)).length;
+  if (activeCount) {
+    countEl.textContent = activeCount;
     countEl.style.display = '';
   } else {
     countEl.style.display = 'none';
   }
 
   if (!visible.length) {
+    emptyEl.textContent = queueView === 'history'
+      ? 'No history yet for this channel.'
+      : 'No URLs in queue — paste a YouTube link above to get started.';
     emptyEl.style.display = '';
     Array.from(itemsEl.querySelectorAll('.queue-item')).forEach(el => el.remove());
     return;
@@ -678,11 +765,15 @@ async function addQueueItem() {
     const res  = await fetch('/api/queue', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ url }),
+      body: JSON.stringify({ url, channel: currentChannel }),
     });
     const json = await res.json();
     if (!res.ok) { toast(json.error || 'Failed to add URL'); return; }
     input.value = '';
+    if (queueView !== 'active') {
+      queueView = 'active';
+      document.querySelectorAll('.queue-view-tab').forEach(b => b.classList.toggle('active', b.dataset.view === 'active'));
+    }
     await loadQueue();
   } catch (err) { toast('Error: ' + err.message); }
   finally { btn.disabled = false; btn.textContent = 'Add to Queue'; }
@@ -726,10 +817,13 @@ function initQueue() {
 let allClips = [];
 let accounts = [];
 let currentFilter = 'all';
-let ytState = { connected: false, channelName: '', hasCredentials: false };
+// One entry per configured YouTube account: { id, name, connected, channelName? }
+let ytAccounts = [];
+let hasYtCredentials = false;
 const activeUploads = new Map(); // filename → { status, percent, videoId?, error?, platform? }
 let uploadPendingFilename = null;
 let uploadVisibility = 'private';
+let uploadAccountId = null;
 
 // ── API ───────────────────────────────────────────────────────────────────────
 
@@ -781,11 +875,12 @@ async function loadData() {
 }
 
 function updateStats() {
-  const r = allClips.filter(c => c.status === 'ready' && !c.scheduleStatus).length;
-  const s = allClips.filter(c => c.scheduleStatus === 'pending' || c.scheduleStatus === 'uploading').length;
-  const p = allClips.filter(c => c.status === 'posted').length;
-  const f = allClips.filter(c => c.status === 'failed').length;
-  const parts = [`${allClips.length} clips`];
+  const clips = allClips.filter(c => (c.channel || 'podcast') === currentChannel);
+  const r = clips.filter(c => c.status === 'ready' && !c.scheduleStatus).length;
+  const s = clips.filter(c => c.scheduleStatus === 'pending' || c.scheduleStatus === 'uploading').length;
+  const p = clips.filter(c => c.status === 'posted').length;
+  const f = clips.filter(c => c.status === 'failed').length;
+  const parts = [`${clips.length} clips`];
   if (r) parts.push(`${r} ready`);
   if (s) parts.push(`${s} scheduled`);
   if (p) parts.push(`${p} posted`);
@@ -824,21 +919,25 @@ async function updateClip(filename, data) {
 async function loadYtStatus() {
   try {
     const d = await api('GET', '/api/youtube/status');
-    ytState = { connected: d.connected, channelName: d.channelName || '', hasCredentials: d.hasCredentials };
-  } catch { ytState = { connected: false, channelName: '', hasCredentials: false }; }
+    hasYtCredentials = !!d.hasCredentials;
+    ytAccounts = d.accounts || [];
+  } catch { hasYtCredentials = false; ytAccounts = []; }
   updateYtHeaderBtn();
 }
 
 function updateYtHeaderBtn() {
   const btn = document.getElementById('yt-header-btn');
-  if (ytState.connected) {
+  const connected = ytAccounts.filter(a => a.connected);
+  if (connected.length) {
     btn.classList.add('connected');
-    btn.textContent = '▶ ' + (ytState.channelName || 'YouTube');
-    btn.title = 'YouTube connected';
+    btn.textContent = connected.length === 1
+      ? '▶ ' + (connected[0].channelName || connected[0].name || 'YouTube')
+      : `▶ YouTube (${connected.length})`;
+    btn.title = connected.map(a => a.channelName || a.name).join(', ');
   } else {
     btn.classList.remove('connected');
     btn.textContent = '▶ YouTube';
-    btn.title = ytState.hasCredentials ? 'Click to connect YouTube' : 'Set up YouTube uploads';
+    btn.title = hasYtCredentials ? 'Click to connect a YouTube account' : 'Set up YouTube uploads';
   }
 }
 
@@ -855,11 +954,12 @@ function parseClip(filename) {
 
 function renderClips() {
   const grid = document.getElementById('clips-grid');
+  const channelClips = allClips.filter(c => (c.channel || 'podcast') === currentChannel);
   const filtered = currentFilter === 'all'
-    ? allClips
+    ? channelClips
     : currentFilter === 'scheduled'
-    ? allClips.filter(c => c.scheduleStatus === 'pending' || c.scheduleStatus === 'uploading')
-    : allClips.filter(c => c.status === currentFilter);
+    ? channelClips.filter(c => c.scheduleStatus === 'pending' || c.scheduleStatus === 'uploading')
+    : channelClips.filter(c => c.status === currentFilter);
 
   if (filtered.length === 0) {
     grid.innerHTML = `
@@ -1029,7 +1129,7 @@ function cardBottomHTML(filename, status) {
   const cancelBtn = isScheduled
     ? `<button class="btn btn-ghost btn-sm act-cancel-sched">✕ Cancel Schedule</button>`
     : '';
-  const ytBtn = (ytState.connected && status === 'ready' && !isScheduled)
+  const ytBtn = (ytAccounts.some(a => a.connected) && status === 'ready' && !isScheduled)
     ? `<button class="btn btn-youtube btn-sm act-upload-yt">▶ YouTube</button>`
     : '';
 
@@ -1227,13 +1327,37 @@ function openUploadModal(filename) {
   document.getElementById('title-count').textContent = title.length;
   document.getElementById('upload-desc').value = '';
   setVisibility('private');
+
+  // Populate connected YouTube accounts — prefer the clip's own account tag if it's YouTube
+  const clip = allClips.find(c => c.filename === filename);
+  const connected = ytAccounts.filter(a => a.connected);
+  const acctSel = document.getElementById('upload-account');
+  if (!connected.length) {
+    acctSel.innerHTML = `<option value="">No connected YouTube accounts</option>`;
+    uploadAccountId = null;
+  } else {
+    const channelAccountId = CHANNEL_ACCOUNT_MAP[clip?.channel || currentChannel];
+    const preferred = (clip?.platform === 'youtube' && connected.some(a => a.id === clip.account))
+      ? clip.account
+      : connected.some(a => a.id === channelAccountId) ? channelAccountId : connected[0].id;
+    acctSel.innerHTML = connected.map(a =>
+      `<option value="${a.id}" ${a.id === preferred ? 'selected' : ''}>${a.channelName || a.name}</option>`
+    ).join('');
+    uploadAccountId = preferred;
+  }
+
   document.getElementById('upload-backdrop').classList.remove('hidden');
   titleEl.focus();
 }
 
+document.getElementById('upload-account').addEventListener('change', function () {
+  uploadAccountId = this.value || null;
+});
+
 function closeUploadModal() {
   document.getElementById('upload-backdrop').classList.add('hidden');
   uploadPendingFilename = null;
+  uploadAccountId = null;
 }
 
 function setVisibility(vis) {
@@ -1255,8 +1379,10 @@ document.getElementById('do-upload-btn').addEventListener('click', async () => {
   const filename = uploadPendingFilename;
   const title = document.getElementById('upload-title').value.trim();
   if (!title) { toast('Please enter a title'); return; }
+  if (!uploadAccountId) { toast('Connect and select a YouTube account first'); return; }
 
   const description = document.getElementById('upload-desc').value.trim();
+  const accountId = uploadAccountId;
   closeUploadModal();
 
   activeUploads.set(filename, { status: 'starting', percent: 0 });
@@ -1266,7 +1392,7 @@ document.getElementById('do-upload-btn').addEventListener('click', async () => {
   if (bottom) { bottom.innerHTML = cardBottomHTML(filename, 'ready'); }
 
   const result = await api('POST', '/api/upload/youtube', {
-    filename, title, description, visibility: uploadVisibility,
+    filename, title, description, visibility: uploadVisibility, accountId,
   });
 
   if (result.error) {
@@ -1340,7 +1466,7 @@ function renderYtSection() {
   const el = document.getElementById('yt-section');
   if (!el) return;
 
-  if (!ytState.hasCredentials) {
+  if (!hasYtCredentials) {
     el.innerHTML = `
       <div class="yt-section-box">
         <div class="yt-box-header">
@@ -1363,38 +1489,46 @@ function renderYtSection() {
           style="width:100%;justify-content:center">Save Credentials</button>
       </div>`;
     document.getElementById('save-yt-creds-btn').addEventListener('click', saveYtCredentials);
-  } else if (!ytState.connected) {
-    el.innerHTML = `
-      <div class="yt-section-box">
-        <div class="yt-box-header">
-          <div class="yt-logo">▶</div>
-          <div class="yt-box-title">YouTube</div>
-          <span class="yt-box-sub">Credentials saved</span>
-        </div>
-        <a href="/auth/youtube" class="btn btn-youtube"
-           style="width:100%;justify-content:center;display:flex;text-decoration:none">
-          Connect YouTube Account →
-        </a>
-        <button class="btn btn-ghost btn-sm" id="reset-yt-btn"
-          style="width:100%;justify-content:center;margin-top:6px">Reset credentials</button>
-      </div>`;
-    document.getElementById('reset-yt-btn').addEventListener('click', resetYtCredentials);
-  } else {
-    el.innerHTML = `
-      <div class="yt-section-box connected">
-        <div class="yt-box-header">
-          <div class="yt-logo">▶</div>
-          <div class="yt-box-title">YouTube</div>
-        </div>
-        <div class="yt-connected-row">
-          <span class="yt-ok-dot">●</span>
-          Connected as <strong>${ytState.channelName}</strong>
-        </div>
-        <button class="btn btn-ghost btn-sm" id="disconnect-yt-btn"
-          style="width:100%;justify-content:center">Disconnect</button>
-      </div>`;
-    document.getElementById('disconnect-yt-btn').addEventListener('click', disconnectYt);
+    return;
   }
+
+  // One row per configured YouTube account (add accounts below via "Add Account").
+  const ytNamedAccounts = accounts.filter(a => a.platform === 'youtube');
+  const rows = ytNamedAccounts.map(a => {
+    const status = ytAccounts.find(s => s.id === a.id);
+    const connected = status?.connected;
+    return `
+      <div class="yt-account-row" style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #f1f5f9">
+        <div style="flex:1;min-width:0">
+          <div style="font-weight:600;font-size:13px">${a.name}</div>
+          ${connected
+            ? `<div class="yt-connected-row" style="font-size:12px"><span class="yt-ok-dot">●</span> ${status.channelName || 'Connected'}</div>`
+            : `<div style="font-size:12px;color:#94a3b8">Not connected</div>`}
+        </div>
+        ${connected
+          ? `<button class="btn btn-ghost btn-sm yt-disconnect-btn" data-id="${a.id}" style="flex-shrink:0">Disconnect</button>`
+          : `<a href="/auth/youtube?accountId=${encodeURIComponent(a.id)}" class="btn btn-youtube btn-sm"
+               style="flex-shrink:0;text-decoration:none">Connect →</a>`}
+      </div>`;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="yt-section-box">
+      <div class="yt-box-header">
+        <div class="yt-logo">▶</div>
+        <div class="yt-box-title">YouTube Accounts</div>
+        <span class="yt-box-sub">Credentials saved</span>
+      </div>
+      ${ytNamedAccounts.length
+        ? rows
+        : `<p class="yt-help-text">Add a YouTube account below (Named Accounts → Add Account) to connect a channel.</p>`}
+      <button class="btn btn-ghost btn-sm" id="reset-yt-btn"
+        style="width:100%;justify-content:center;margin-top:10px">Reset credentials</button>
+    </div>`;
+  document.getElementById('reset-yt-btn').addEventListener('click', resetYtCredentials);
+  el.querySelectorAll('.yt-disconnect-btn').forEach(btn => {
+    btn.addEventListener('click', () => disconnectYt(btn.dataset.id));
+  });
 }
 
 async function saveYtCredentials() {
@@ -1403,32 +1537,32 @@ async function saveYtCredentials() {
   if (!client_id || !client_secret) { toast('Both fields are required'); return; }
   const result = await api('POST', '/api/youtube/credentials', { client_id, client_secret });
   if (result.ok) {
-    ytState.hasCredentials = true;
-    ytState.connected = false;
+    hasYtCredentials = true;
+    await loadYtStatus();
     renderYtSection();
-    toast('Credentials saved — now connect your account');
+    toast('Credentials saved — now connect an account below');
   } else {
     toast('Error: ' + (result.error || 'Unknown'));
   }
 }
 
 async function resetYtCredentials() {
-  await api('DELETE', '/api/youtube/disconnect');
-  ytState.hasCredentials = false;
-  ytState.connected = false;
-  ytState.channelName = '';
-  renderYtSection();
-  updateYtHeaderBtn();
-}
-
-async function disconnectYt() {
-  await api('DELETE', '/api/youtube/disconnect');
-  ytState.connected = false;
-  ytState.channelName = '';
+  await api('DELETE', '/api/youtube/credentials');
+  hasYtCredentials = false;
+  ytAccounts = [];
   renderYtSection();
   updateYtHeaderBtn();
   renderClips(); // Hide YouTube upload buttons
-  toast('YouTube disconnected');
+  toast('YouTube credentials reset');
+}
+
+async function disconnectYt(accountId) {
+  await api('DELETE', `/api/youtube/disconnect/${encodeURIComponent(accountId)}`);
+  await loadYtStatus();
+  renderYtSection();
+  updateYtHeaderBtn();
+  renderClips(); // Hide YouTube upload buttons for the disconnected account
+  toast('YouTube account disconnected');
 }
 
 function renderAccountList() {

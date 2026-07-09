@@ -16,7 +16,12 @@ const CLIPS_DIR = path.join(process.env.HOME, 'Desktop', 'ContentOS', 'clips');
 const STATE_FILE = path.join(__dirname, 'state.json');
 const CONFIG_FILE = path.join(__dirname, 'config.json');
 const CREDENTIALS_FILE = path.join(__dirname, 'yt-credentials.json');
-const TOKENS_FILE = path.join(__dirname, 'yt-tokens.json');
+const LEGACY_TOKENS_FILE = path.join(__dirname, 'yt-tokens.json');
+// Each connected YouTube channel gets its own token file so multiple accounts
+// can be authorized and used simultaneously.
+function tokensFileFor(accountId) {
+  return path.join(__dirname, `yt-tokens-${accountId}.json`);
+}
 const SCHEDULE_FILE  = path.join(__dirname, 'schedule.json');
 const QUEUE_FILE     = path.join(__dirname, 'queue.json');
 const QUEUE_DATA_FILE = path.join(__dirname, 'public', 'queue-data.json');
@@ -37,6 +42,18 @@ const DEFAULT_CONFIG = {
     { id: 'ig-1', platform: 'instagram', name: 'Main Instagram' }
   ]
 };
+
+// Which YouTube account each channel tab uploads to.
+const CHANNEL_ACCOUNT_MAP = {
+  podcast:  'yo-1782235160731', // Clipperz29
+  football: 'yo-1783518807860', // Footy29
+};
+function accountIdForChannel(channel) {
+  return CHANNEL_ACCOUNT_MAP[channel] || CHANNEL_ACCOUNT_MAP.podcast;
+}
+function normalizeChannel(channel) {
+  return channel === 'football' ? 'football' : 'podcast';
+}
 
 // In-memory upload jobs: jobId → { status, percent, filename, videoId?, error? }
 const uploadJobs = new Map();
@@ -85,6 +102,7 @@ async function syncToGitHub(label) {
         scheduledAt:   pending ? sch.scheduledAt : null,
         scheduleStatus: sch.status || null,
         title:         sch.title   || '',
+        channel:       sch.channel || s.channel || 'podcast',
         thumbnailPath: fs.existsSync(thumbFile) ? `/thumbnails/${stem}.jpg` : null,
       };
     });
@@ -147,7 +165,7 @@ app.get('/api/queue', (req, res) => res.json(loadQueue()));
 
 // POST /api/queue — add a URL
 app.post('/api/queue', (req, res) => {
-  const { url } = req.body || {};
+  const { url, channel } = req.body || {};
   if (!url || !/^https?:\/\//i.test(url.trim())) {
     return res.status(400).json({ error: 'Valid YouTube URL required' });
   }
@@ -169,6 +187,7 @@ app.post('/api/queue', (req, res) => {
   const id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
   q.queue.push({
     id, url: trimmed, title: '', status: 'queued',
+    channel: normalizeChannel(channel),
     addedAt: new Date().toISOString(), startedAt: null,
     completedAt: null, clipsCount: 0, batchId: null, error: null,
   });
@@ -206,7 +225,8 @@ async function processQueue() {
 
   queueBusy = true;
   const { id, url } = next;
-  console.log(`[queue] Starting: ${url}`);
+  const channel = normalizeChannel(next.channel);
+  console.log(`[queue] Starting: ${url} (channel: ${channel})`);
 
   try {
     updateQueueItem(id, { status: 'downloading', startedAt: new Date().toISOString() });
@@ -217,7 +237,7 @@ async function processQueue() {
     const schedBefore = new Set(Object.keys(loadSchedule()));
 
     await new Promise((resolve, reject) => {
-      const proc = spawn('/bin/zsh', [RUN_SH, url], { cwd: CONTENTOS_DIR });
+      const proc = spawn('/bin/zsh', [RUN_SH, url, '--channel', channel], { cwd: CONTENTOS_DIR });
       let stderr = '';
 
       proc.stdout.on('data', chunk => {
@@ -300,6 +320,47 @@ function ensureConfig() {
   if (!fs.existsSync(CONFIG_FILE)) saveJSON(CONFIG_FILE, DEFAULT_CONFIG);
 }
 
+function getYoutubeAccounts() {
+  ensureConfig();
+  return (loadJSON(CONFIG_FILE, DEFAULT_CONFIG).accounts || []).filter(a => a.platform === 'youtube');
+}
+
+// One-time migration: the old single-account setup stored tokens at
+// yt-tokens.json. Move it onto the first configured YouTube account so
+// existing connections keep working after upgrading to multi-account support.
+function migrateLegacyTokens() {
+  if (!fs.existsSync(LEGACY_TOKENS_FILE)) return;
+  const firstYt = getYoutubeAccounts()[0];
+  if (!firstYt) return; // no account to migrate into yet — leave legacy file alone
+  const dest = tokensFileFor(firstYt.id);
+  if (!fs.existsSync(dest)) {
+    fs.copyFileSync(LEGACY_TOKENS_FILE, dest);
+    console.log(`[migrate] yt-tokens.json → yt-tokens-${firstYt.id}.json (${firstYt.name})`);
+  }
+  fs.unlinkSync(LEGACY_TOKENS_FILE);
+}
+migrateLegacyTokens();
+
+// One-time migration: tag any pre-existing queue/schedule entries created
+// before multi-channel support with the "podcast" channel so they keep
+// routing to the original Clipperz29 account.
+function migrateChannelTags() {
+  const q = loadJSON(QUEUE_FILE, { queue: [] });
+  let queueChanged = false;
+  for (const item of q.queue) {
+    if (!item.channel) { item.channel = 'podcast'; queueChanged = true; }
+  }
+  if (queueChanged) saveJSON(QUEUE_FILE, q);
+
+  const sched = loadJSON(SCHEDULE_FILE, {});
+  let schedChanged = false;
+  for (const entry of Object.values(sched)) {
+    if (!entry.channel) { entry.channel = 'podcast'; schedChanged = true; }
+  }
+  if (schedChanged) saveJSON(SCHEDULE_FILE, sched);
+}
+migrateChannelTags();
+
 function loadSchedule() {
   return loadJSON(SCHEDULE_FILE, {});
 }
@@ -322,15 +383,17 @@ function getOAuthClient() {
   );
 }
 
-function getAuthedClient() {
+function getAuthedClient(accountId) {
+  if (!accountId) throw new Error('accountId required');
   const client = getOAuthClient();
-  const tokens = loadJSON(TOKENS_FILE, null);
-  if (!tokens) throw new Error('YouTube not connected — please authorize first');
+  const tokensFile = tokensFileFor(accountId);
+  const tokens = loadJSON(tokensFile, null);
+  if (!tokens) throw new Error('That YouTube account is not connected — please authorize it first');
   client.setCredentials(tokens);
   // Persist refreshed tokens automatically
   client.on('tokens', (fresh) => {
-    const current = loadJSON(TOKENS_FILE, {});
-    saveJSON(TOKENS_FILE, { ...current, ...fresh });
+    const current = loadJSON(tokensFile, {});
+    saveJSON(tokensFile, { ...current, ...fresh });
   });
   return client;
 }
@@ -397,6 +460,7 @@ app.get('/api/clips', (req, res) => {
       scheduledAt: schedPending ? sched.scheduledAt : null,
       scheduleStatus: sched?.status || null,
       bufferStatus: sched?.bufferStatus || null,
+      channel: sched?.channel || state[filename]?.channel || 'podcast',
       thumbnailUrl,
     };
   }));
@@ -440,11 +504,14 @@ app.delete('/api/accounts/:id', (req, res) => {
 // ── YouTube OAuth ──────────────────────────────────────────────────────────────
 
 app.get('/auth/youtube', (req, res) => {
+  const { accountId } = req.query;
+  if (!accountId) return res.redirect('/?yt_error=' + encodeURIComponent('No account selected to connect'));
   try {
     const url = getOAuthClient().generateAuthUrl({
       access_type: 'offline',
       scope: SCOPES,
       prompt: 'consent', // always get refresh_token
+      state: accountId, // carried through the redirect so the callback knows which account this is
     });
     res.redirect(url);
   } catch (e) {
@@ -453,13 +520,14 @@ app.get('/auth/youtube', (req, res) => {
 });
 
 app.get('/auth/youtube/callback', async (req, res) => {
-  const { code, error } = req.query;
+  const { code, error, state } = req.query;
   if (error) return res.redirect('/?yt_error=' + encodeURIComponent(error));
   if (!code) return res.redirect('/?yt_error=no_code');
+  if (!state) return res.redirect('/?yt_error=' + encodeURIComponent('Missing account reference'));
   try {
     const { tokens } = await getOAuthClient().getToken(code);
-    saveJSON(TOKENS_FILE, tokens);
-    res.redirect('/?yt_connected=1');
+    saveJSON(tokensFileFor(state), tokens);
+    res.redirect('/?yt_connected=' + encodeURIComponent(state));
   } catch (e) {
     res.redirect('/?yt_error=' + encodeURIComponent(e.message));
   }
@@ -467,23 +535,35 @@ app.get('/auth/youtube/callback', async (req, res) => {
 
 // ── YouTube API endpoints ──────────────────────────────────────────────────────
 
+// Returns connection status for every configured YouTube account so the
+// dashboard can manage multiple channels at once.
 app.get('/api/youtube/status', async (req, res) => {
   const hasCreds = !!loadCredentials();
-  if (!hasCreds) return res.json({ connected: false, hasCredentials: false });
+  const ytAccounts = getYoutubeAccounts();
 
-  const tokens = loadJSON(TOKENS_FILE, null);
-  if (!tokens) return res.json({ connected: false, hasCredentials: true });
-
-  try {
-    const client = getOAuthClient();
-    client.setCredentials(tokens);
-    const yt = google.youtube({ version: 'v3', auth: client });
-    const { data } = await yt.channels.list({ part: ['snippet'], mine: true });
-    const name = data.items?.[0]?.snippet?.title;
-    res.json({ connected: true, hasCredentials: true, channelName: name || 'Your Channel' });
-  } catch (e) {
-    res.json({ connected: false, hasCredentials: true, error: e.message });
+  if (!hasCreds) {
+    return res.json({
+      hasCredentials: false,
+      accounts: ytAccounts.map(a => ({ id: a.id, name: a.name, connected: false })),
+    });
   }
+
+  const accounts = await Promise.all(ytAccounts.map(async (a) => {
+    const tokens = loadJSON(tokensFileFor(a.id), null);
+    if (!tokens) return { id: a.id, name: a.name, connected: false };
+    try {
+      const client = getOAuthClient();
+      client.setCredentials(tokens);
+      const yt = google.youtube({ version: 'v3', auth: client });
+      const { data } = await yt.channels.list({ part: ['snippet'], mine: true });
+      const channelName = data.items?.[0]?.snippet?.title || 'Your Channel';
+      return { id: a.id, name: a.name, connected: true, channelName };
+    } catch (e) {
+      return { id: a.id, name: a.name, connected: false, error: e.message };
+    }
+  }));
+
+  res.json({ hasCredentials: true, accounts });
 });
 
 app.post('/api/youtube/credentials', (req, res) => {
@@ -491,13 +571,28 @@ app.post('/api/youtube/credentials', (req, res) => {
   if (!client_id?.trim() || !client_secret?.trim())
     return res.status(400).json({ error: 'client_id and client_secret are required' });
   saveJSON(CREDENTIALS_FILE, { web: { client_id: client_id.trim(), client_secret: client_secret.trim() } });
-  // Clear stale tokens when credentials change
-  if (fs.existsSync(TOKENS_FILE)) fs.unlinkSync(TOKENS_FILE);
+  // Clear stale tokens for every account — refresh tokens are tied to the OAuth client
+  for (const a of getYoutubeAccounts()) {
+    const f = tokensFileFor(a.id);
+    if (fs.existsSync(f)) fs.unlinkSync(f);
+  }
   res.json({ ok: true });
 });
 
-app.delete('/api/youtube/disconnect', (req, res) => {
-  if (fs.existsSync(TOKENS_FILE)) fs.unlinkSync(TOKENS_FILE);
+// Reset credentials entirely (removes the OAuth app + every account's tokens)
+app.delete('/api/youtube/credentials', (req, res) => {
+  if (fs.existsSync(CREDENTIALS_FILE)) fs.unlinkSync(CREDENTIALS_FILE);
+  for (const a of getYoutubeAccounts()) {
+    const f = tokensFileFor(a.id);
+    if (fs.existsSync(f)) fs.unlinkSync(f);
+  }
+  res.json({ ok: true });
+});
+
+// Disconnect a single YouTube account without touching the others
+app.delete('/api/youtube/disconnect/:accountId', (req, res) => {
+  const f = tokensFileFor(req.params.accountId);
+  if (fs.existsSync(f)) fs.unlinkSync(f);
   res.json({ ok: true });
 });
 
@@ -549,19 +644,20 @@ app.post('/api/upload/buffer', (req, res) => {
 });
 
 app.post('/api/upload/youtube', (req, res) => {
-  const { filename, title, description, visibility } = req.body;
+  const { filename, title, description, visibility, accountId } = req.body;
   if (!filename) return res.status(400).json({ error: 'filename required' });
+  if (!accountId) return res.status(400).json({ error: 'Choose which YouTube account to upload to' });
 
   const filePath = path.join(CLIPS_DIR, filename);
   if (!fs.existsSync(filePath)) return res.status(404).json({ error: 'Clip not found' });
-  if (!loadJSON(TOKENS_FILE, null)) return res.status(401).json({ error: 'YouTube not connected' });
+  if (!loadJSON(tokensFileFor(accountId), null)) return res.status(401).json({ error: 'That YouTube account is not connected' });
 
   const jobId = `yt-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`;
   uploadJobs.set(jobId, { status: 'starting', percent: 0, filename });
 
   res.json({ jobId });
 
-  doUpload(jobId, filePath, filename, { title, description, visibility }).catch(console.error);
+  doUpload(jobId, filePath, filename, { title, description, visibility, accountId }).catch(console.error);
 });
 
 async function doUpload(jobId, filePath, filename, meta) {
@@ -569,7 +665,7 @@ async function doUpload(jobId, filePath, filename, meta) {
   try {
     set({ status: 'uploading', percent: 0 });
 
-    const client = getAuthedClient();
+    const client = getAuthedClient(meta.accountId);
     const youtube = google.youtube({ version: 'v3', auth: client });
     const fileSize = fs.statSync(filePath).size;
 
@@ -606,7 +702,7 @@ async function doUpload(jobId, filePath, filename, meta) {
 
     // Persist to state
     const state = loadJSON(STATE_FILE, {});
-    state[filename] = { ...(state[filename] || {}), status: 'posted', youtubeId: data.id };
+    state[filename] = { ...(state[filename] || {}), status: 'posted', youtubeId: data.id, ytAccountId: meta.accountId };
     saveJSON(STATE_FILE, state);
 
     set({ status: 'complete', percent: 100, videoId: data.id });
@@ -636,6 +732,7 @@ app.get('/api/upload-progress/:jobId', (req, res) => {
 
   const send = (data) => { if (!closed) res.write(`data: ${JSON.stringify(data)}\n\n`); };
 
+  let timer;
   const tick = () => {
     const job = uploadJobs.get(jobId);
     if (!job) { send({ status: 'not_found' }); clearInterval(timer); res.end(); return; }
@@ -644,7 +741,7 @@ app.get('/api/upload-progress/:jobId', (req, res) => {
   };
 
   tick();
-  const timer = setInterval(tick, 600);
+  timer = setInterval(tick, 600);
   req.on('close', () => { closed = true; clearInterval(timer); });
 });
 
@@ -687,8 +784,10 @@ async function checkAndCrossLink(batchId) {
 }
 
 async function crossLinkBatch(batchId, batch) {
+  const accountId = batch.find(([, e]) => e.accountId)?.[1]?.accountId
+    || accountIdForChannel(normalizeChannel(batch[0]?.[1]?.channel));
   let client;
-  try { client = getAuthedClient(); } catch (e) {
+  try { client = getAuthedClient(accountId); } catch (e) {
     console.error(`[cross-link] Cannot get auth client: ${e.message}`);
     return;
   }
@@ -790,12 +889,19 @@ async function runScheduler() {
   const schedule = loadSchedule();
   const now = new Date();
 
-  if (!loadJSON(TOKENS_FILE, null)) return; // YouTube not connected yet
+  const anyConnected = getYoutubeAccounts().some(a => fs.existsSync(tokensFileFor(a.id)));
+  if (!anyConnected) return; // no connected YouTube account yet
 
   for (const [filename, entry] of Object.entries(schedule)) {
     if (entry.status !== 'pending') continue;
     if (schedulingInProgress.has(filename)) continue;
     if (new Date(entry.scheduledAt) > now) continue;
+
+    // Route to the account for this clip's channel (podcast/football).
+    // Entries created before multi-account support won't have a channel —
+    // normalizeChannel() defaults those to "podcast".
+    const accountId = entry.accountId || accountIdForChannel(normalizeChannel(entry.channel));
+    if (!fs.existsSync(tokensFileFor(accountId))) continue; // chosen account got disconnected — skip until reconnected
 
     const filePath = path.join(CLIPS_DIR, filename);
     if (!fs.existsSync(filePath)) {
@@ -809,7 +915,7 @@ async function runScheduler() {
     }
 
     schedulingInProgress.add(filename);
-    console.log(`[scheduler] Starting upload: ${filename}`);
+    console.log(`[scheduler] Starting upload: ${filename} (account: ${accountId})`);
 
     // Mark as uploading so the dashboard reflects it immediately
     const s0 = loadSchedule();
@@ -822,6 +928,7 @@ async function runScheduler() {
       title: entry.title || path.basename(filename, path.extname(filename)).replace(/_/g, ' '),
       description: entry.description || '',
       visibility: entry.visibility || 'public',
+      accountId,
     }).then(async () => {
       const job = uploadJobs.get(jobId);
       const finalStatus = job?.status === 'complete' ? 'done' : 'failed';

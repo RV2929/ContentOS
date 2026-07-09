@@ -35,13 +35,15 @@ def _header(step: int, title: str) -> None:
 
 # ── Main pipeline ─────────────────────────────────────────────────────────────
 
-def run(url: str, model_size: str = "base") -> list[str]:
+def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[str]:
     """
     Full pipeline: URL → list of output clip paths.
 
     Args:
         url:        YouTube URL
         model_size: WhisperX model ("tiny", "base", "small", "medium", "large-v2")
+        channel:    Which channel this content belongs to ("podcast" or "football") —
+                    tags the resulting schedule entries so uploads route to the right account
     """
     _check_api_key()
     total_start = time.time()
@@ -77,7 +79,7 @@ def run(url: str, model_size: str = "base") -> list[str]:
     if output_paths:
         _header(5, "Generate titles & schedule uploads")
         metadata = _generate_metadata(output_paths, clips, video_path)
-        _schedule_clips(output_paths, clips, metadata)
+        _schedule_clips(output_paths, clips, metadata, channel)
 
     # ── 6. Sync to GitHub so Vercel dashboard reflects new clips ─────────────
     if output_paths:
@@ -227,7 +229,7 @@ Reply ONLY with a valid JSON array in the same order as the clips:
 
 
 def _schedule_clips(
-    output_paths: list[str], clips: list[dict], metadata: dict[str, dict]
+    output_paths: list[str], clips: list[dict], metadata: dict[str, dict], channel: str = "podcast"
 ) -> None:
     """Schedule clips every 2.5 h, storing generated titles/descriptions and batchId."""
     import datetime
@@ -277,6 +279,7 @@ def _schedule_clips(
             "bufferStatus": "pending",
             "batchId": batch_id,
             "clipIndex": clip_index,
+            "channel": channel,
         }
         newly_scheduled.append((filename, scheduled_at, clip_index))
 
@@ -324,6 +327,7 @@ if __name__ == "__main__":
 
     url = args[0]
     model_size = "base"
+    channel = "podcast"
 
     i = 1
     while i < len(args):
@@ -331,9 +335,12 @@ if __name__ == "__main__":
         if flag == "--model" and i + 1 < len(args):
             model_size = args[i + 1]
             i += 2
+        elif flag == "--channel" and i + 1 < len(args):
+            channel = args[i + 1]
+            i += 2
         else:
             print(f"Unknown argument: {flag}")
             _usage()
             sys.exit(1)
 
-    run(url, model_size=model_size)
+    run(url, model_size=model_size, channel=channel)
