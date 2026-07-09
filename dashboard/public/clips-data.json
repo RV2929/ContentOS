@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T19:48:38.891Z",
+  "lastUpdated": "2026-07-09T19:48:45.325Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1333,10 +1333,10 @@
     },
     {
       "filename": "Joe_Rogan_Experience_1309_-_Naval_Ravika_clip03_Counterintuitive_Buddhist_reframe_of_des.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T19:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "DQh6O3rzKrY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Desire Is Suffering: The Buddhist Truth Nobody Wants",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_1309_-_Naval_Ravika_clip03_Counterintuitive_Buddhist_reframe_of_des.jpg"
