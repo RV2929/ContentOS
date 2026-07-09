@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T16:37:16.017Z",
+  "lastUpdated": "2026-07-09T16:57:57Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -992,6 +992,76 @@
       "thumbnailPath": null
     },
     {
+      "filename": "How_to_Take_Responsibility_for_Your_Own__clip01_Opens_with_a_provocative_question_and_de.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why a Short Life Should Make You More Ambitious, Not Less",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Take_Responsibility_for_Your_Own__clip01_Opens_with_a_provocative_question_and_de.jpg"
+    },
+    {
+      "filename": "How_to_Take_Responsibility_for_Your_Own__clip02_A_sharp_counterintuitive_turn__cynics_ar.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T00:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Cynics Aren't Cynical Enough About Their Own Cynicism",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Take_Responsibility_for_Your_Own__clip02_A_sharp_counterintuitive_turn__cynics_ar.jpg"
+    },
+    {
+      "filename": "How_to_Take_Responsibility_for_Your_Own__clip03_Uses_Russell_Brand_as_a_vivid_example_to.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T02:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "You Want Their Success, Not Their Suffering",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Take_Responsibility_for_Your_Own__clip03_Uses_Russell_Brand_as_a_vivid_example_to.jpg"
+    },
+    {
+      "filename": "How_to_Take_Responsibility_for_Your_Own__clip04_Ties_a_famous_Musk_quote_to_hypomania_an.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Elon Musk's Genius Comes With a Hidden Price",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Take_Responsibility_for_Your_Own__clip04_Ties_a_famous_Musk_quote_to_hypomania_an.jpg"
+    },
+    {
+      "filename": "How_to_Take_Responsibility_for_Your_Own__clip05_Bold_provocative_claim_that_repeated_cas.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T05:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Dark Personality Trait Linked to Casual Sex",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Take_Responsibility_for_Your_Own__clip05_Bold_provocative_claim_that_repeated_cas.jpg"
+    },
+    {
+      "filename": "How_to_Take_Responsibility_for_Your_Own__clip06_Deliberately_unpopular_sharable_claim_th.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T07:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Most Adults Never Grow Up Without This Responsibility",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Take_Responsibility_for_Your_Own__clip06_Deliberately_unpopular_sharable_claim_th.jpg"
+    },
+    {
+      "filename": "How_to_Take_Responsibility_for_Your_Own__clip07_Surprising_reinterpretation_of_a_command.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T08:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Taking God's Name in Vain Isn't What You Think",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Take_Responsibility_for_Your_Own__clip07_Surprising_reinterpretation_of_a_command.jpg"
+    },
+    {
       "filename": "I_RIPPED_50000_OF_SPORTS_CARDS_BACKSTAGE_clip01_A_high-stakes_story_of_paying_big_money_ 19.23.49.mp4",
       "status": "ready",
       "youtubeId": "",
@@ -1517,7 +1587,7 @@
       "youtubeId": "zSVf0SQ-frc",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "The Media Called It a Breakdown—Here's What Really Happened",
+      "title": "The Media Called It a Breakdown\u2014Here's What Really Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.jpg"
     },
@@ -1607,7 +1677,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-07-10T08:36:00+00:00",
       "scheduleStatus": "pending",
-      "title": "If You Have a Problem, Text Me—His Answer to Critics",
+      "title": "If You Have a Problem, Text Me\u2014His Answer to Critics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.jpg"
     },
