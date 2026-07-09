@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T11:19:07.467Z",
+  "lastUpdated": "2026-07-09T11:26:31.893Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -523,10 +523,10 @@
     },
     {
       "filename": "FULL_MATCH_Brazil_vs_France_2006_FIFA_Wo_clip01_A_little-known_insight_into_how_the_worl.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T11:25:33.256269+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "m5K-hh652Ho",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "SECRET FREE KICK PRACTICE: How Elite Players Train Daily",
       "channel": "football",
       "thumbnailPath": "/thumbnails/FULL_MATCH_Brazil_vs_France_2006_FIFA_Wo_clip01_A_little-known_insight_into_how_the_worl.jpg"
