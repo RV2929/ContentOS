@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T10:59:37.960Z",
+  "lastUpdated": "2026-07-09T11:05:30.108Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -553,10 +553,10 @@
     },
     {
       "filename": "HOW_TO_TALK__Andrew_Tates_Guide_To_Effec_clip01_Live_demonstration_of_a_repeat-the-quest.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T11:04:33.489948+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "x9LEtovJaCQ",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "How to Never Lose a Deal: The Flux Capacitor Trick",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/HOW_TO_TALK__Andrew_Tates_Guide_To_Effec_clip01_Live_demonstration_of_a_repeat-the-quest.jpg"
