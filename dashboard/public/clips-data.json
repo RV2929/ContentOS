@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T14:40:34.555Z",
+  "lastUpdated": "2026-07-09T14:41:45Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -600,6 +600,36 @@
       "title": "",
       "channel": "podcast",
       "thumbnailPath": null
+    },
+    {
+      "filename": "Emotional_Cristiano_Ronaldo_Badly_Crying_clip01_Builds_tension_from_the_final_whistle_to.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T14:51:45.490704+00:00",
+      "scheduleStatus": "pending",
+      "title": "Cristiano Ronaldo Drops to His Knees After Final Whistle",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/Emotional_Cristiano_Ronaldo_Badly_Crying_clip01_Builds_tension_from_the_final_whistle_to.jpg"
+    },
+    {
+      "filename": "Emotional_Cristiano_Ronaldo_Badly_Crying_clip02_Raw_vulnerability_of_an_icon_crying_on_h.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T17:21:45.490704+00:00",
+      "scheduleStatus": "pending",
+      "title": "His Final Dance Ends in Tears - Ronaldo's Last World Cup",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/Emotional_Cristiano_Ronaldo_Badly_Crying_clip02_Raw_vulnerability_of_an_icon_crying_on_h.jpg"
+    },
+    {
+      "filename": "Emotional_Cristiano_Ronaldo_Badly_Crying_clip03_The_lonely_walk_down_the_tunnel_gives_a_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-09T19:51:45.490704+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Legend Walks Away - Ronaldo's Quiet Exit",
+      "channel": "football",
+      "thumbnailPath": "/thumbnails/Emotional_Cristiano_Ronaldo_Badly_Crying_clip03_The_lonely_walk_down_the_tunnel_gives_a_.jpg"
     },
     {
       "filename": "FULL_MATCH_Brazil_vs_France_2006_FIFA_Wo_clip01_A_little-known_insight_into_how_the_worl.mp4",
