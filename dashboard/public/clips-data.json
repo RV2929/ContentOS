@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T18:13:08.616Z",
+  "lastUpdated": "2026-07-09T18:13:16.945Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -473,10 +473,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_100_Angry_Moments_clip02_A_controversial_studs-up_challenge_with_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T18:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "vzIGnkmH_HQ",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Studs-Up Fury: Ronaldo's Most Dangerous Challenge",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_100_Angry_Moments_clip02_A_controversial_studs-up_challenge_with_.jpg"
@@ -1613,10 +1613,10 @@
     },
     {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip02_Vulnerable_relatable_confession_about_sp.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T18:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "7_7Au22gcL8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "From Dry January to Rock Bottom: The Moment He Knew",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip02_Vulnerable_relatable_confession_about_sp.jpg"
