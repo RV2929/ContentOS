@@ -87,6 +87,10 @@ Rules:
 - Do NOT overlap clips.
 - Return between {CLIPS_MIN_COUNT} and {CLIPS_MAX_COUNT} clips. Only include a clip if it genuinely clears the bar above — do not pad to hit the minimum if the content isn't there.
 - Be selective: a shorter list of strong clips is better than a longer list of weak ones.
+- The title must be literally true and directly grounded in what is actually said or shown within this specific clip's transcript. Do not invent metaphors, comparisons, analogies, or claims that were not actually made. Punchy, bold, ALL-CAPS framing is encouraged — misrepresenting what happens in the clip is not, even if it would get more clicks. This applies to every platform the clip is posted to (YouTube, Instagram, TikTok) and matters for policy compliance, not just tone.
+  Example — a clip where someone describes a stressful 14-hour flight delay:
+    Good: "STRANDED AT THE AIRPORT FOR 14 HOURS"     (true — this is what's actually said)
+    Bad:  "THE FLIGHT DELAY NASA TRIED TO COVER UP"  (invents a claim never made in the clip)
 
 Respond ONLY with valid JSON — no markdown fences, no explanation outside the JSON.
 Format:
@@ -94,7 +98,7 @@ Format:
   {{
     "start": <float seconds>,
     "end": <float seconds>,
-    "title": "<punchy hook title, 5 words max, ALL CAPS, no emojis>",
+    "title": "<punchy hook title, 5 words max, ALL CAPS, no emojis, must accurately reflect the clip's actual content — see rules above>",
     "reason": "<one sentence: what makes this moment viral>"
   }},
   ...

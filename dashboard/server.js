@@ -645,9 +645,16 @@ app.delete('/api/youtube/disconnect/:accountId', (req, res) => {
 
 // ── Upload ────────────────────────────────────────────────────────────────────
 
+// platform: 'instagram' (default) | 'tiktok' — TikTok posts track status
+// under separate tiktokBufferStatus/tiktokBufferError keys (and a separate
+// in-progress set) so a manual retry of one platform never clobbers the
+// other's state, matching how the background scheduler keeps them independent.
 app.post('/api/upload/buffer', (req, res) => {
-  const { filename } = req.body;
+  const { filename, platform = 'instagram' } = req.body;
   if (!filename) return res.status(400).json({ error: 'filename required' });
+  if (!['instagram', 'tiktok'].includes(platform)) {
+    return res.status(400).json({ error: 'platform must be "instagram" or "tiktok"' });
+  }
 
   const filePath = resolveClipPath(filename);
   if (!fs.existsSync(filePath)) return res.status(404).json({ error: 'Clip not found' });
@@ -655,39 +662,44 @@ app.post('/api/upload/buffer', (req, res) => {
   const bufferToken = readBufferToken();
   if (!bufferToken) return res.status(400).json({ error: 'BUFFER_ACCESS_TOKEN not set in .env' });
 
-  if (bufferInProgress.has(filename)) return res.status(409).json({ error: 'Already posting to Buffer' });
+  const inProgressSet = platform === 'tiktok' ? tiktokBufferInProgress : bufferInProgress;
+  const statusKey = platform === 'tiktok' ? 'tiktokBufferStatus' : 'bufferStatus';
+  const errorKey  = platform === 'tiktok' ? 'tiktokBufferError'  : 'bufferError';
+
+  if (inProgressSet.has(filename)) return res.status(409).json({ error: `Already posting to Buffer (${platform})` });
 
   const entry = loadSchedule()[filename] || {};
   const title  = entry.title || path.basename(filename, path.extname(filename)).replace(/_/g, ' ');
-  const caption = buildBufferCaption(title);
+  const caption = platform === 'tiktok' ? buildTikTokCaption(title) : buildBufferCaption(title);
 
   const s = loadSchedule();
   if (!s[filename]) s[filename] = {};
-  s[filename].bufferStatus = 'uploading';
+  s[filename][statusKey] = 'uploading';
   saveJSON(SCHEDULE_FILE, s);
 
-  bufferInProgress.add(filename);
+  inProgressSet.add(filename);
   res.json({ ok: true });
 
-  doBufferPost(filePath, filename, caption)
+  doBufferPost(filePath, filename, caption, platform)
     .then(() => {
       const s2 = loadSchedule();
       if (!s2[filename]) s2[filename] = {};
-      s2[filename].bufferStatus = 'done';
+      s2[filename][statusKey] = 'done';
+      delete s2[filename][errorKey];
       saveJSON(SCHEDULE_FILE, s2);
-      console.log(`[buffer] Manual post done: ${filename}`);
-      scheduleSyncToGitHub(`buffer done ${filename}`);
+      console.log(`[buffer:${platform}] Manual post done: ${filename}`);
+      scheduleSyncToGitHub(`buffer ${platform} done ${filename}`);
     })
     .catch(err => {
-      console.error(`[buffer] Manual post failed ${filename}: ${err.message}`);
+      console.error(`[buffer:${platform}] Manual post failed ${filename}: ${err.message}`);
       const s2 = loadSchedule();
       if (!s2[filename]) s2[filename] = {};
-      s2[filename].bufferStatus = 'failed';
-      s2[filename].bufferError  = err.message.slice(0, 200);
+      s2[filename][statusKey] = 'failed';
+      s2[filename][errorKey]  = err.message.slice(0, 200);
       saveJSON(SCHEDULE_FILE, s2);
-      scheduleSyncToGitHub(`buffer failed ${filename}`);
+      scheduleSyncToGitHub(`buffer ${platform} failed ${filename}`);
     })
-    .finally(() => bufferInProgress.delete(filename));
+    .finally(() => inProgressSet.delete(filename));
 });
 
 app.post('/api/upload/youtube', (req, res) => {
