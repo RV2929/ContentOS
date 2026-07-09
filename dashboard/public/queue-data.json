@@ -168,6 +168,19 @@
       "clipsCount": 5,
       "batchId": "FULL_MATCH_Brazil_vs_France_2006_FIFA_Wo",
       "error": null
+    },
+    {
+      "id": "mrdln826rbmk",
+      "url": "https://www.youtube.com/watch?v=_7Q2Vaa0fJg",
+      "title": "",
+      "status": "downloading",
+      "channel": "football",
+      "addedAt": "2026-07-09T14:25:48.942Z",
+      "startedAt": "2026-07-09T14:25:48.950Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
