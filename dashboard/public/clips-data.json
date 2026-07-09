@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T14:31:46.581Z",
+  "lastUpdated": "2026-07-09T14:31:49Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -445,9 +445,9 @@
       "filename": "Cristiano_Ronaldo_100_Angry_Moments_clip01_Raw_on-pitch_anger_with_a_player_already.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-07-09T14:41:49.224311+00:00",
+      "scheduleStatus": "pending",
+      "title": "Ronaldo's Red Card Rage: The Moment He Lost Control",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_100_Angry_Moments_clip01_Raw_on-pitch_anger_with_a_player_already.jpg"
     },
@@ -455,9 +455,9 @@
       "filename": "Cristiano_Ronaldo_100_Angry_Moments_clip02_A_controversial_studs-up_challenge_with_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-07-09T17:11:49.224311+00:00",
+      "scheduleStatus": "pending",
+      "title": "Studs-Up Fury: Ronaldo's Most Dangerous Challenge",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_100_Angry_Moments_clip02_A_controversial_studs-up_challenge_with_.jpg"
     },
@@ -465,9 +465,9 @@
       "filename": "Cristiano_Ronaldo_100_Angry_Moments_clip03_The_repeated_normal_to_dive_commentary_s.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-07-09T19:41:49.224311+00:00",
+      "scheduleStatus": "pending",
+      "title": "Is Ronaldo Diving or Not? Expert Analysis Reveals Truth",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_100_Angry_Moments_clip03_The_repeated_normal_to_dive_commentary_s.jpg"
     },
