@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T15:23:45.516Z",
+  "lastUpdated": "2026-07-09T15:34:01.801Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1353,10 +1353,10 @@
     },
     {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-09T15:33:06.280493+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "zSVf0SQ-frc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Media Called It a Breakdown—Here's What Really Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.jpg"
