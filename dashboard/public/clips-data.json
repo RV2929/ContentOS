@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T13:12:17.099Z",
+  "lastUpdated": "2026-07-10T13:24:46.018Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -433,7 +433,7 @@
     },
     {
       "filename": "Communicate_with_Confidence_The_Blueprin_clip05_Genius_parentingrelationship_reframe_wit.mp4",
-      "status": "failed",
+      "status": "posted",
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
@@ -443,7 +443,7 @@
     },
     {
       "filename": "Communicate_with_Confidence_The_Blueprin_clip06_A_vivid_before-and-after_demo_of_watered.mp4",
-      "status": "failed",
+      "status": "posted",
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
@@ -533,10 +533,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip05_Tense_final-seconds_stakes_with_10_men_c.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-10T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "j0xO7I4rVBI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Ronaldo Denied at the Death in Heartbreaking Finale",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip05_Tense_final-seconds_stakes_with_10_men_c.jpg"
@@ -1482,6 +1482,86 @@
       "thumbnailPath": null
     },
     {
+      "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip01_Vivid_horrifying_step-by-step_descriptio.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip01_Vivid_horrifying_step-by-step_descriptio.jpg"
+    },
+    {
+      "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip02_Counterintuitive_screenshot-worthy_claim.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip02_Counterintuitive_screenshot-worthy_claim.jpg"
+    },
+    {
+      "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip03_Awe-inducing_poetic_reframe_that_we_shou.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip03_Awe-inducing_poetic_reframe_that_we_shou.jpg"
+    },
+    {
+      "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip04_Provocative_blunt_claim_that_the_moon_ra.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip04_Provocative_blunt_claim_that_the_moon_ra.jpg"
+    },
+    {
+      "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip05_Surprising_funny_insight_that_humans_ran.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip05_Surprising_funny_insight_that_humans_ran.jpg"
+    },
+    {
+      "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip06_Sharp_quotable_reasoning_that_the_human_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip06_Sharp_quotable_reasoning_that_the_human_.jpg"
+    },
+    {
+      "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip07_Blunt_admission_that_were_likely_simulat.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip07_Blunt_admission_that_were_likely_simulat.jpg"
+    },
+    {
+      "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip08_Counterintuitive_take_that_labeling_peop.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
+    },
+    {
       "filename": "Stock_Expert_Becoming_Rich_Is_Simple_But_clip01_Counterintuitive_expert_advice_that_the_.mp4",
       "status": "posted",
       "youtubeId": "WJHBLyaxEyA",
@@ -1683,10 +1763,10 @@
     },
     {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip06_A_counterintuitive_twist_story_exposing_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-10T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "GdT6mic2k80",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Girl Who Didn't Exist: How Alcohol Hides on Social Media",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip06_A_counterintuitive_twist_story_exposing_.jpg"
@@ -2313,10 +2393,10 @@
     },
     {
       "filename": "The_Science_of_charisma__how_to_improve__clip01_A_surprising_research_hook_people_took_1.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-10T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Qx7CcFEsQC8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Nobody Can Define Charisma (But You Know It When You See It)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_charisma__how_to_improve__clip01_A_surprising_research_hook_people_took_1.jpg"
