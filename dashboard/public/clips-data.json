@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T23:19:54.426Z",
+  "lastUpdated": "2026-07-10T23:19:57.638Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -2555,8 +2555,8 @@
       "filename": "The_Two_Decisions_That_Shape_Your_Entire_clip04_Directly_challenges_Gladwells_famous_100.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-10T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "10,000 Iterations Not Hours Beats Gladwell",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip04_Directly_challenges_Gladwells_famous_100.jpg"
