@@ -350,6 +350,19 @@
       "clipsCount": 7,
       "batchId": "How_to_Take_Responsibility_for_Your_Own_",
       "error": null
+    },
+    {
+      "id": "mrextzcr6ie1",
+      "url": "https://www.youtube.com/watch?v=WLSgOZwpMBk",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-07-10T12:54:45.819Z",
+      "startedAt": "2026-07-10T12:54:45.822Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
