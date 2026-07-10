@@ -376,6 +376,19 @@
       "clipsCount": 8,
       "batchId": "Neil_deGrasse_Tyson_The_Whistleblowers_A",
       "error": null
+    },
+    {
+      "id": "mrf0002qx70s",
+      "url": "https://www.youtube.com/watch?v=S1aukXOpJ-E",
+      "title": "",
+      "status": "downloading",
+      "channel": "football",
+      "addedAt": "2026-07-10T13:55:25.922Z",
+      "startedAt": "2026-07-10T13:55:25.926Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
