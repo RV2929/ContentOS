@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T07:08:41.025Z",
+  "lastUpdated": "2026-07-10T08:40:14.806Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -645,8 +645,8 @@
       "filename": "Emotional_Cristiano_Ronaldo_Badly_Crying_clip03_The_lonely_walk_down_the_tunnel_gives_a_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-10T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Legend Walks Away - Ronaldo's Quiet Exit",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Emotional_Cristiano_Ronaldo_Badly_Crying_clip03_The_lonely_walk_down_the_tunnel_gives_a_.jpg"
@@ -1675,8 +1675,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-10T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "If You Have a Problem, Text Me—His Answer to Critics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.jpg"
