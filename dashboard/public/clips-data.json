@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T04:09:49.589Z",
+  "lastUpdated": "2026-07-10T05:49:09.283Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -516,7 +516,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-07-10T05:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Halftime Stunner Flips the Script Right on the Whistle",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip03_A_dramatic_go-ahead_goal_right_on_the_ha.jpg"
@@ -1745,8 +1745,8 @@
       "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip04_Funny_self-deprecating_story_about_getti.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-10T05:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tom Holland Drank Before His Spider-Man Screen Test",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip04_Funny_self-deprecating_story_about_getti.jpg"
