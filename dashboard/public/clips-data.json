@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T01:05:33.591Z",
+  "lastUpdated": "2026-07-10T02:30:41.067Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -685,8 +685,8 @@
       "filename": "FULL_MATCH_Brazil_vs_France_2006_FIFA_Wo_clip04_Ronaldinhos_one_moment_to_prove_his_grea.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-10T02:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "BEST PLAYER IN THE WORLD?: Ronaldinho's Last Chance",
       "channel": "football",
       "thumbnailPath": "/thumbnails/FULL_MATCH_Brazil_vs_France_2006_FIFA_Wo_clip04_Ronaldinhos_one_moment_to_prove_his_grea.jpg"
@@ -773,10 +773,10 @@
     },
     {
       "filename": "HOW_TO_TALK__Andrew_Tates_Guide_To_Effec_clip05_Exact_scripted_power-move_for_salary_neg.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-10T02:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "6KO8kcfsWF0",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "How to Demand a Raise: The Exact Script That Works",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/HOW_TO_TALK__Andrew_Tates_Guide_To_Effec_clip05_Exact_scripted_power-move_for_salary_neg.jpg"
