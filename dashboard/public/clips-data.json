@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T10:17:14.518Z",
+  "lastUpdated": "2026-07-10T10:17:18.172Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1755,8 +1755,8 @@
       "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip05_Genuinely_funny_cringe_story_of_his_dog_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-10T10:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tom Holland's Dog Destroyed a Sony Executive's Couch",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip05_Genuinely_funny_cringe_story_of_his_dog_.jpg"
