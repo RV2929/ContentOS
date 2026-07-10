@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T11:52:06.088Z",
+  "lastUpdated": "2026-07-10T11:52:10.763Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -523,10 +523,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip04_A_brutal_challenge_earns_a_straight_red_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-10T11:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "EQRMFlriGAY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Straight Red Card Moment That Looks Worse Every Replay",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip04_A_brutal_challenge_earns_a_straight_red_.jpg"
