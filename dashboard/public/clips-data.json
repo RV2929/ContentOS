@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T19:58:38.331Z",
+  "lastUpdated": "2026-07-10T19:58:41.743Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -2515,8 +2515,8 @@
       "filename": "The_Science_of_charisma__how_to_improve__clip05_Interactive_reveal_where_80_misread_this.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-10T19:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Face That Makes People Hate You (And You Don't Even Know)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_charisma__how_to_improve__clip05_Interactive_reveal_where_80_misread_this.jpg"
