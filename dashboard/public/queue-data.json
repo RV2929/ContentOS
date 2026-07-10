@@ -381,13 +381,13 @@
       "id": "mrf00viu9cr6",
       "url": "https://www.youtube.com/watch?v=rOYlOdDgYUU",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-07-10T13:56:06.678Z",
       "startedAt": "2026-07-10T14:03:15.667Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-10T14:26:36.401Z",
+      "clipsCount": 8,
+      "batchId": "Dr_Joe_Dispenza_You_MUST_Do_This_Before_",
       "error": null
     }
   ]
