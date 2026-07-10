@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T19:58:41.743Z",
+  "lastUpdated": "2026-07-10T23:19:54.426Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1073,10 +1073,10 @@
     },
     {
       "filename": "How_to_Take_Responsibility_for_Your_Own__clip01_Opens_with_a_provocative_question_and_de.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-10T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "oHv9FVkiDGQ",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why a Short Life Should Make You More Ambitious, Not Less",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Take_Responsibility_for_Your_Own__clip01_Opens_with_a_provocative_question_and_de.jpg"
@@ -1473,10 +1473,10 @@
     },
     {
       "filename": "Joe_Rogan_Experience_1309_-_Naval_Ravika_clip06_Counterintuitive_insight_that_finishing_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-10T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "PidFQgI8h3Q",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Reading Books Is A Lie: The Vanity Trap Exposed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_1309_-_Naval_Ravika_clip06_Counterintuitive_insight_that_finishing_.jpg"
@@ -2556,7 +2556,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-07-10T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "10,000 Iterations Not Hours Beats Gladwell",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip04_Directly_challenges_Gladwells_famous_100.jpg"
