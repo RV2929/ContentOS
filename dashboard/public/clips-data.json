@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T12:57:14.243Z",
+  "lastUpdated": "2026-07-10T13:02:43Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -1587,7 +1587,7 @@
       "youtubeId": "zSVf0SQ-frc",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "The Media Called It a Breakdown—Here's What Really Happened",
+      "title": "The Media Called It a Breakdown\u2014Here's What Really Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.jpg"
     },
@@ -1677,7 +1677,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "If You Have a Problem, Text Me—His Answer to Critics",
+      "title": "If You Have a Problem, Text Me\u2014His Answer to Critics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.jpg"
     },
@@ -2310,6 +2310,56 @@
       "title": "A Miscarriage Taught Him to Slow Down and Heal",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Mitochondria_Doctor_This_Reverses_Gr_clip08_Raw_vulnerable_confession_about_his_misc.jpg"
+    },
+    {
+      "filename": "The_Science_of_charisma__how_to_improve__clip01_A_surprising_research_hook_people_took_1.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T13:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Nobody Can Define Charisma (But You Know It When You See It)",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_charisma__how_to_improve__clip01_A_surprising_research_hook_people_took_1.jpg"
+    },
+    {
+      "filename": "The_Science_of_charisma__how_to_improve__clip02_Counterintuitive_insight_that_charisma_i.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T15:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Real Formula for Charisma (It's Not What You Think)",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_charisma__how_to_improve__clip02_Counterintuitive_insight_that_charisma_i.jpg"
+    },
+    {
+      "filename": "The_Science_of_charisma__how_to_improve__clip03_Relatable_funny_moment_about_people_who_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T16:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Strangers Tell You Their Life Story on Planes",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_charisma__how_to_improve__clip03_Relatable_funny_moment_about_people_who_.jpg"
+    },
+    {
+      "filename": "The_Science_of_charisma__how_to_improve__clip04_The_still-face_experiment_with_crying_ba.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T18:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Baby Experiment That Proves Charisma Is Real",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_charisma__how_to_improve__clip04_The_still-face_experiment_with_crying_ba.jpg"
+    },
+    {
+      "filename": "The_Science_of_charisma__how_to_improve__clip05_Interactive_reveal_where_80_misread_this.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-10T19:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Face That Makes People Hate You (And You Don't Even Know)",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_charisma__how_to_improve__clip05_Interactive_reveal_where_80_misread_this.jpg"
     },
     {
       "filename": "The_Two_Decisions_That_Shape_Your_Entire_clip01_Counterintuitive_redefinition_of_intelli.mp4",
