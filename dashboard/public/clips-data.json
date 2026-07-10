@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T10:17:18.172Z",
+  "lastUpdated": "2026-07-10T10:19:37.865Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -695,8 +695,8 @@
       "filename": "FULL_MATCH_Brazil_vs_France_2006_FIFA_Wo_clip05_The_gut-punch_final_whistle_with_emotion.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-10T10:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "RONALDO'S CAREER IS OVER: Zidane Too Good for Brazil",
       "channel": "football",
       "thumbnailPath": "/thumbnails/FULL_MATCH_Brazil_vs_France_2006_FIFA_Wo_clip05_The_gut-punch_final_whistle_with_emotion.jpg"
