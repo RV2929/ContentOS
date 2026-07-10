@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T18:19:23.821Z",
+  "lastUpdated": "2026-07-10T19:58:38.331Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1933,10 +1933,10 @@
     },
     {
       "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip07_Surreal_manifestation_hook__a_childhood_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-10T19:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "6wNz2dOl_t0",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Tom Holland Named Spider-Man Years Before Becoming Him",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip07_Surreal_manifestation_hook__a_childhood_.jpg"
@@ -2516,7 +2516,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-07-10T19:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "The Face That Makes People Hate You (And You Don't Even Know)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_charisma__how_to_improve__clip05_Interactive_reveal_where_80_misread_this.jpg"
