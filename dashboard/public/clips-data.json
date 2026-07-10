@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T13:24:46.018Z",
+  "lastUpdated": "2026-07-10T13:25:15Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -1485,9 +1485,9 @@
       "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip01_Vivid_horrifying_step-by-step_descriptio.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-07-10T15:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "What a Black Hole Does to Your Body",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip01_Vivid_horrifying_step-by-step_descriptio.jpg"
     },
@@ -1495,9 +1495,9 @@
       "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip02_Counterintuitive_screenshot-worthy_claim.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-07-11T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "A Cow Is Actually a Machine We Invented",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip02_Counterintuitive_screenshot-worthy_claim.jpg"
     },
@@ -1505,9 +1505,9 @@
       "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip03_Awe-inducing_poetic_reframe_that_we_shou.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-07-12T00:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Universe Is Actually Alive Within You",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip03_Awe-inducing_poetic_reframe_that_we_shou.jpg"
     },
@@ -1515,9 +1515,9 @@
       "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip04_Provocative_blunt_claim_that_the_moon_ra.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-07-12T02:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "We Never Actually Went to the Moon for Science",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip04_Provocative_blunt_claim_that_the_moon_ra.jpg"
     },
@@ -1525,9 +1525,9 @@
       "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip05_Surprising_funny_insight_that_humans_ran.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-07-12T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Aliens Would Talk to Whales Before Humans",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip05_Surprising_funny_insight_that_humans_ran.jpg"
     },
@@ -1535,9 +1535,9 @@
       "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip06_Sharp_quotable_reasoning_that_the_human_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-07-12T05:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Neil deGrasse Tyson Won't Do Psychedelics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip06_Sharp_quotable_reasoning_that_the_human_.jpg"
     },
@@ -1545,9 +1545,9 @@
       "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip07_Blunt_admission_that_were_likely_simulat.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-07-12T07:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "We're Probably Living in a Simulation",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip07_Blunt_admission_that_were_likely_simulat.jpg"
     },
@@ -1555,11 +1555,11 @@
       "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip08_Counterintuitive_take_that_labeling_peop.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-07-12T08:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why the Word Atheist Is Causing Wars",
       "channel": "podcast",
-      "thumbnailPath": null
+      "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip08_Counterintuitive_take_that_labeling_peop.jpg"
     },
     {
       "filename": "Stock_Expert_Becoming_Rich_Is_Simple_But_clip01_Counterintuitive_expert_advice_that_the_.mp4",
@@ -1667,7 +1667,7 @@
       "youtubeId": "zSVf0SQ-frc",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "The Media Called It a Breakdown—Here's What Really Happened",
+      "title": "The Media Called It a Breakdown\u2014Here's What Really Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.jpg"
     },
@@ -1757,7 +1757,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "If You Have a Problem, Text Me—His Answer to Critics",
+      "title": "If You Have a Problem, Text Me\u2014His Answer to Critics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.jpg"
     },
