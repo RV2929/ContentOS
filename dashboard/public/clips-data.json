@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T14:03:48.349Z",
+  "lastUpdated": "2026-07-10T14:26:32Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -540,6 +540,86 @@
       "title": "Ronaldo Denied at the Death in Heartbreaking Finale",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip05_Tense_final-seconds_stakes_with_10_men_c.jpg"
+    },
+    {
+      "filename": "Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip01_A_jarring_statistic_delivered_as_a_perso.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "95% Of You Is Programmed \u2014 Here's The Proof",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip01_A_jarring_statistic_delivered_as_a_perso.jpg"
+    },
+    {
+      "filename": "Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip02_Rapid-fire_list_of_seemingly_impossible_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-12T00:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Woman Grew Her Thyroid Back After Surgery",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip02_Rapid-fire_list_of_seemingly_impossible_.jpg"
+    },
+    {
+      "filename": "Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip03_A_vivid_emotional_story_with_a_payoff_li.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-12T02:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Six People Left Their Wheelchairs In One Room",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip03_A_vivid_emotional_story_with_a_payoff_li.jpg"
+    },
+    {
+      "filename": "Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip04_A_relatable_confession_about_late-night_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-12T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "You're Actually Addicted To Your Own Guilt",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip04_A_relatable_confession_about_late-night_.jpg"
+    },
+    {
+      "filename": "Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip05_A_concrete_mind-bending_neuroscience_stu.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-12T05:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "They Learned Piano Without Touching A Single Key",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip05_A_concrete_mind-bending_neuroscience_stu.jpg"
+    },
+    {
+      "filename": "Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip06_Builds_from_addicted_to_your_own_misery_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-12T07:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Your Thoughts Can Literally Make You Sick",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip06_Builds_from_addicted_to_your_own_misery_.jpg"
+    },
+    {
+      "filename": "Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip07_The_line_reliving_a_miserable_life_they_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-12T08:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Half Your Sad Story Is Completely Fake",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip07_The_line_reliving_a_miserable_life_they_.jpg"
+    },
+    {
+      "filename": "Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip08_The_origin_story_with_clear_stakes__refu.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-12T10:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Hit By A Truck, Healed His Spine With His Mind",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip08_The_origin_story_with_clear_stakes__refu.jpg"
     },
     {
       "filename": "EMILIE_KISER_EXCLUSIVE_The_Loss_That_Cha_clip01_A_devastating_cold-open_hook__a_phone_ca.mp4",
@@ -1667,7 +1747,7 @@
       "youtubeId": "zSVf0SQ-frc",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "The Media Called It a Breakdown—Here's What Really Happened",
+      "title": "The Media Called It a Breakdown\u2014Here's What Really Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.jpg"
     },
@@ -1757,7 +1837,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "If You Have a Problem, Text Me—His Answer to Critics",
+      "title": "If You Have a Problem, Text Me\u2014His Answer to Critics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.jpg"
     },
