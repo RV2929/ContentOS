@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T05:49:09.283Z",
+  "lastUpdated": "2026-07-10T05:49:12.578Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -515,8 +515,8 @@
       "filename": "Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip03_A_dramatic_go-ahead_goal_right_on_the_ha.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-10T05:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Halftime Stunner Flips the Script Right on the Whistle",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip03_A_dramatic_go-ahead_goal_right_on_the_ha.jpg"
