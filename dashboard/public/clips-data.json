@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T16:37:05.159Z",
+  "lastUpdated": "2026-07-10T18:18:46.444Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1866,7 +1866,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-07-10T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Pressure Is a Privilege: Reframing Everything You Fear",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip07_A_punchy_inspirational_quote_framing_pre.jpg"
@@ -2503,10 +2503,10 @@
     },
     {
       "filename": "The_Science_of_charisma__how_to_improve__clip04_The_still-face_experiment_with_crying_ba.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-10T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "XgdDDQH2gW4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Baby Experiment That Proves Charisma Is Real",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_charisma__how_to_improve__clip04_The_still-face_experiment_with_crying_ba.jpg"
