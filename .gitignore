@@ -27,6 +27,9 @@ dashboard/config.json
 dashboard/.env.local
 dashboard/package-lock.json
 dashboard/queue.json
+dashboard/performance.jsonl
+dashboard/performance-state.json
+dashboard/performance.log
 
 # ── macOS ─────────────────────────────────────────────────────────────────────
 .DS_Store

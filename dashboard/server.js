@@ -75,6 +75,9 @@ const CONTENTOS_DIR      = path.join(__dirname, '..');
 const RUN_SH             = path.join(CONTENTOS_DIR, 'run.sh');
 const VENV_PYTHON        = path.join(CONTENTOS_DIR, 'venv', 'bin', 'python');
 const BUFFER_POSTER      = path.join(CONTENTOS_DIR, 'buffer_poster.py');
+const PERFORMANCE_COLLECTOR   = path.join(CONTENTOS_DIR, 'collect_performance.py');
+const PERFORMANCE_STATE_FILE  = path.join(__dirname, 'performance-state.json');
+const PERFORMANCE_LOG_FILE    = path.join(__dirname, 'performance.log');
 
 // youtube (full scope) is required for both videos.insert and videos.update (cross-linking)
 const SCOPES = [
@@ -665,6 +668,7 @@ app.post('/api/upload/buffer', (req, res) => {
   const inProgressSet = platform === 'tiktok' ? tiktokBufferInProgress : bufferInProgress;
   const statusKey = platform === 'tiktok' ? 'tiktokBufferStatus' : 'bufferStatus';
   const errorKey  = platform === 'tiktok' ? 'tiktokBufferError'  : 'bufferError';
+  const postIdKey = platform === 'tiktok' ? 'tiktokBufferPostId' : 'bufferPostId';
 
   if (inProgressSet.has(filename)) return res.status(409).json({ error: `Already posting to Buffer (${platform})` });
 
@@ -681,10 +685,11 @@ app.post('/api/upload/buffer', (req, res) => {
   res.json({ ok: true });
 
   doBufferPost(filePath, filename, caption, platform)
-    .then(() => {
+    .then((result) => {
       const s2 = loadSchedule();
       if (!s2[filename]) s2[filename] = {};
       s2[filename][statusKey] = 'done';
+      if (result?.updateId) s2[filename][postIdKey] = result.updateId;
       delete s2[filename][errorKey];
       saveJSON(SCHEDULE_FILE, s2);
       console.log(`[buffer:${platform}] Manual post done: ${filename}`);
@@ -949,6 +954,55 @@ function doBufferPost(filePath, filename, caption, platform = 'instagram') {
   });
 }
 
+// ── Daily performance collector ────────────────────────────────────────────
+// Runs collect_performance.py at most once per calendar day (gated via
+// performance-state.json so a restart mid-day can't re-trigger it), piped
+// into performance.log so failures/skips are visible without digging
+// through the dashboard's own stdout.
+
+function todayLocalDateString() {
+  const now = new Date();
+  const y = now.getFullYear();
+  const m = String(now.getMonth() + 1).padStart(2, '0');
+  const d = String(now.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+}
+
+function runPerformanceCollector() {
+  return new Promise((resolve, reject) => {
+    const logStream = fs.createWriteStream(PERFORMANCE_LOG_FILE, { flags: 'a' });
+    const proc = spawn(VENV_PYTHON, [PERFORMANCE_COLLECTOR]);
+    proc.stdout.pipe(logStream, { end: false });
+    proc.stderr.pipe(logStream, { end: false });
+    proc.stdout.on('data', d => process.stdout.write(d));
+    proc.stderr.on('data', d => process.stderr.write(d));
+    proc.on('close', code => {
+      logStream.end();
+      if (code === 0) resolve();
+      else reject(new Error(`collect_performance.py exited with code ${code}`));
+    });
+    proc.on('error', err => { logStream.end(); reject(err); });
+  });
+}
+
+let performanceCollectorRunning = false;
+
+function maybeRunPerformanceCollector() {
+  if (performanceCollectorRunning) return;
+  const today = todayLocalDateString();
+  const state = loadJSON(PERFORMANCE_STATE_FILE, {});
+  if (state.lastCollectedDate === today) return;
+
+  performanceCollectorRunning = true;
+  saveJSON(PERFORMANCE_STATE_FILE, { ...state, lastCollectedDate: today });
+  console.log(`[performance] Running daily collector for ${today}…`);
+
+  runPerformanceCollector()
+    .then(() => console.log(`[performance] Collector finished for ${today}`))
+    .catch(err => console.error(`[performance] Collector failed: ${err.message}`))
+    .finally(() => { performanceCollectorRunning = false; });
+}
+
 // ── Background scheduler ──────────────────────────────────────────────────────
 
 async function runScheduler() {
@@ -1052,9 +1106,13 @@ async function runScheduler() {
           console.log(`[buffer:instagram] Posting: ${filename}`);
 
           doBufferPost(filePath, filename, caption, 'instagram')
-            .then(() => {
+            .then((result) => {
               const s = loadSchedule();
-              if (s[filename]) { s[filename].bufferStatus = 'done'; saveJSON(SCHEDULE_FILE, s); }
+              if (s[filename]) {
+                s[filename].bufferStatus = 'done';
+                if (result?.updateId) s[filename].bufferPostId = result.updateId;
+                saveJSON(SCHEDULE_FILE, s);
+              }
               console.log(`[buffer:instagram] Done: ${filename}`);
               scheduleSyncToGitHub(`buffer done ${filename}`);
             })
@@ -1092,9 +1150,13 @@ async function runScheduler() {
           console.log(`[buffer:tiktok] Posting: ${filename}`);
 
           doBufferPost(filePath, filename, caption, 'tiktok')
-            .then(() => {
+            .then((result) => {
               const s = loadSchedule();
-              if (s[filename]) { s[filename].tiktokBufferStatus = 'done'; saveJSON(SCHEDULE_FILE, s); }
+              if (s[filename]) {
+                s[filename].tiktokBufferStatus = 'done';
+                if (result?.updateId) s[filename].tiktokBufferPostId = result.updateId;
+                saveJSON(SCHEDULE_FILE, s);
+              }
               console.log(`[buffer:tiktok] Done: ${filename}`);
               scheduleSyncToGitHub(`tiktok buffer done ${filename}`);
             })
@@ -1113,6 +1175,8 @@ async function runScheduler() {
       }
     }
   }
+
+  maybeRunPerformanceCollector();
 }
 
 // Check 5 s after startup then every 60 s
