@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T14:26:39.420Z",
+  "lastUpdated": "2026-07-10T15:01:07.612Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1566,7 +1566,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-07-10T15:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "What a Black Hole Does to Your Body",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip01_Vivid_horrifying_step-by-step_descriptio.jpg"
@@ -1923,10 +1923,10 @@
     },
     {
       "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip06_Screenshot-worthy_one-liner_about_sobrie.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-10T15:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "wPDpJAOOCxo",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The One Thing Tom Holland Never Misses About Drinking",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip06_Screenshot-worthy_one-liner_about_sobrie.jpg"
@@ -2486,7 +2486,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-07-10T15:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "The Real Formula for Charisma (It's Not What You Think)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_charisma__how_to_improve__clip02_Counterintuitive_insight_that_charisma_i.jpg"
