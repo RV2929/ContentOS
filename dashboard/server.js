@@ -78,6 +78,7 @@ const BUFFER_POSTER      = path.join(CONTENTOS_DIR, 'buffer_poster.py');
 const PERFORMANCE_COLLECTOR   = path.join(CONTENTOS_DIR, 'collect_performance.py');
 const PERFORMANCE_STATE_FILE  = path.join(__dirname, 'performance-state.json');
 const PERFORMANCE_LOG_FILE    = path.join(__dirname, 'performance.log');
+const PERFORMANCE_JSONL_FILE  = path.join(__dirname, 'performance.jsonl');
 
 // youtube (full scope) is required for both videos.insert and videos.update (cross-linking)
 const SCOPES = [
@@ -164,7 +165,7 @@ async function syncToGitHub(label) {
       JSON.stringify({ lastUpdated: new Date().toISOString(), clips }, null, 2),
     );
 
-    await execAsync('git add public/clips-data.json public/thumbnails/ public/queue-data.json', { cwd: __dirname });
+    await execAsync('git add public/clips-data.json public/thumbnails/ public/queue-data.json performance.jsonl', { cwd: __dirname });
     try {
       await execAsync(`git commit -m "sync: ${label}"`, { cwd: __dirname });
       await execAsync('git push', { cwd: __dirname });
@@ -523,6 +524,33 @@ app.put('/api/clips/:filename', (req, res) => {
   saveJSON(STATE_FILE, state);
   res.json({ ok: true });
 });
+
+// ── Performance ───────────────────────────────────────────────────────────────
+// performance.jsonl has one row per clip per day it was collected (collect_performance.py
+// appends daily). Keep only the most recent row per (filename, platform) so the
+// dashboard shows current stats, not history.
+
+function loadLatestPerformance() {
+  let raw;
+  try { raw = fs.readFileSync(PERFORMANCE_JSONL_FILE, 'utf8'); } catch { return []; }
+
+  const latest = new Map(); // `${filename}::${platform}` → row
+  for (const line of raw.split('\n')) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    let row;
+    try { row = JSON.parse(trimmed); } catch { continue; }
+    if (!row.filename || !row.platform) continue;
+    const key = `${row.filename}::${row.platform}`;
+    const existing = latest.get(key);
+    if (!existing || new Date(row.collectedAt || row.date) > new Date(existing.collectedAt || existing.date)) {
+      latest.set(key, row);
+    }
+  }
+  return Array.from(latest.values());
+}
+
+app.get('/api/performance', (req, res) => res.json(loadLatestPerformance()));
 
 // ── Accounts ──────────────────────────────────────────────────────────────────
 
