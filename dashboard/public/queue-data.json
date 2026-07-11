@@ -394,13 +394,13 @@
       "id": "mrg9fy0fogqg",
       "url": "https://www.youtube.com/watch?v=5B8-TJ8vsKY",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-07-11T11:07:32.463Z",
       "startedAt": "2026-07-11T11:07:32.466Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-11T11:14:04.791Z",
+      "clipsCount": 6,
+      "batchId": "Taylor_Swift_The_Stories_Behind_Her_Bigg",
       "error": null
     }
   ]
