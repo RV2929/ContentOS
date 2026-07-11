@@ -44,7 +44,7 @@ def main() -> None:
         # Preserve FIFO order using each entry's current (buggy) scheduledAt —
         # earlier batches were still given earlier timestamps, so sorting by
         # it recovers the correct video-processing order.
-        filenames.sort(key=lambda f: schedule[f]["scheduledAt"])
+        filenames.sort(key=lambda f: schedule[f]["scheduledAt"] or "")
 
         slots = allocate_slots(schedule, channel, filenames)
 
@@ -53,7 +53,7 @@ def main() -> None:
             old_at = schedule[filename]["scheduledAt"]
             new_at = slots[filename]
             schedule[filename]["scheduledAt"] = new_at.isoformat()
-            print(f"  {filename[:60]:60s}  {old_at[:16]}  ->  {new_at.astimezone().strftime('%Y-%m-%d %I:%M %p')}")
+            print(f"  {filename[:60]:60s}  {(old_at[:16] if old_at else 'unscheduled')}  ->  {new_at.astimezone().strftime('%Y-%m-%d %I:%M %p')}")
         total += len(filenames)
 
     if dry_run:

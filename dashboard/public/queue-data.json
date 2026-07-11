@@ -402,6 +402,58 @@
       "clipsCount": 6,
       "batchId": "Taylor_Swift_The_Stories_Behind_Her_Bigg",
       "error": null
+    },
+    {
+      "id": "mrgflq2t0rmw",
+      "url": "https://www.youtube.com/watch?v=muM7YcClWeU",
+      "title": "",
+      "status": "transcribing",
+      "channel": "podcast",
+      "addedAt": "2026-07-11T13:59:59.813Z",
+      "startedAt": "2026-07-11T14:04:35.141Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
+    },
+    {
+      "id": "mrgfma9ysm3f",
+      "url": "https://www.youtube.com/watch?v=KewakhYqrts",
+      "title": "",
+      "status": "queued",
+      "channel": "podcast",
+      "addedAt": "2026-07-11T14:00:25.990Z",
+      "startedAt": null,
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
+    },
+    {
+      "id": "mrgfnn92ogcq",
+      "url": "https://www.youtube.com/watch?v=FzRaFeQFcdc",
+      "title": "",
+      "status": "queued",
+      "channel": "podcast",
+      "addedAt": "2026-07-11T14:01:29.462Z",
+      "startedAt": null,
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
+    },
+    {
+      "id": "mrgfp0m62ont",
+      "url": "https://www.youtube.com/watch?v=o1ZOEVx_Tr8&t=66s",
+      "title": "",
+      "status": "queued",
+      "channel": "podcast",
+      "addedAt": "2026-07-11T14:02:33.438Z",
+      "startedAt": null,
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }

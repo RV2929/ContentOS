@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T11:48:39.049Z",
+  "lastUpdated": "2026-07-11T14:04:44.443Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1873,10 +1873,10 @@
     },
     {
       "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip01_A_raw_counterintuitive_confession_that_h.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "h8ab12UdAI0",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "done",
       "title": "Tom Holland: More Confident Playing Spider-Man Than Being Himself",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip01_A_raw_counterintuitive_confession_that_h.jpg"
@@ -1953,10 +1953,10 @@
     },
     {
       "filename": "Taylor_Swift_The_Stories_Behind_Her_Bigg_clip02_A_defiant_screenshot-ready_declaration_a.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-11T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "-kBRfZPP2KM",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Taylor Swift Defends Reputation: The Album Everyone Doubted",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Taylor_Swift_The_Stories_Behind_Her_Bigg_clip02_A_defiant_screenshot-ready_declaration_a.jpg"

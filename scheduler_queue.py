@@ -74,7 +74,15 @@ def allocate_slots(
             continue
         if entry.get("status") not in ACTIVE_STATUSES:
             continue
-        at = datetime.datetime.fromisoformat(entry["scheduledAt"]).astimezone(tz)
+        scheduled_at = entry.get("scheduledAt")
+        if not scheduled_at:
+            # No timestamp to attribute to a day — e.g. a stuck clip that was
+            # manually cleared for reslotting, or legacy data predating this
+            # field. It isn't part of `filenames` (this call's reassignment
+            # batch), so we can't give it a fresh slot here either; just
+            # don't count it against any day's cap instead of crashing.
+            continue
+        at = datetime.datetime.fromisoformat(scheduled_at).astimezone(tz)
         day = at.date()
         fixed_counts[day] = fixed_counts.get(day, 0) + 1
 
