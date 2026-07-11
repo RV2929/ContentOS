@@ -389,6 +389,19 @@
       "clipsCount": 8,
       "batchId": "Dr_Joe_Dispenza_You_MUST_Do_This_Before_",
       "error": null
+    },
+    {
+      "id": "mrg9fy0fogqg",
+      "url": "https://www.youtube.com/watch?v=5B8-TJ8vsKY",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-07-11T11:07:32.463Z",
+      "startedAt": "2026-07-11T11:07:32.466Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
