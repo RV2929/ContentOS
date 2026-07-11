@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T11:07:50.927Z",
+  "lastUpdated": "2026-07-11T11:14:01Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -547,7 +547,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-07-11T23:00:00+00:00",
       "scheduleStatus": "pending",
-      "title": "95% Of You Is Programmed — Here's The Proof",
+      "title": "95% Of You Is Programmed \u2014 Here's The Proof",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip01_A_jarring_statistic_delivered_as_a_perso.jpg"
     },
@@ -1747,7 +1747,7 @@
       "youtubeId": "zSVf0SQ-frc",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "The Media Called It a Breakdown—Here's What Really Happened",
+      "title": "The Media Called It a Breakdown\u2014Here's What Really Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.jpg"
     },
@@ -1837,7 +1837,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "If You Have a Problem, Text Me—His Answer to Critics",
+      "title": "If You Have a Problem, Text Me\u2014His Answer to Critics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.jpg"
     },
@@ -1940,6 +1940,66 @@
       "title": "Tom Holland Named Spider-Man Years Before Becoming Him",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip07_Surreal_manifestation_hook__a_childhood_.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_The_Stories_Behind_Her_Bigg_clip01_Taylor_reveals_Love_Story_was_born_from_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T11:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Taylor Swift: How Being Grounded Created Love Story",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_The_Stories_Behind_Her_Bigg_clip01_Taylor_reveals_Love_Story_was_born_from_.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_The_Stories_Behind_Her_Bigg_clip02_A_defiant_screenshot-ready_declaration_a.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T13:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Taylor Swift Defends Reputation: The Album Everyone Doubted",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_The_Stories_Behind_Her_Bigg_clip02_A_defiant_screenshot-ready_declaration_a.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_The_Stories_Behind_Her_Bigg_clip03_A_tight_story_with_a_joyful_payoff_about.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T15:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Taylor Swift's Favorite Plot Twist: Last Great American Dynasty",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_The_Stories_Behind_Her_Bigg_clip03_A_tight_story_with_a_joyful_payoff_about.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_The_Stories_Behind_Her_Bigg_clip04_The_gripping_origin_of_the_10-minute_ran.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T16:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "How All Too Well Almost Disappeared Forever",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_The_Stories_Behind_Her_Bigg_clip04_The_gripping_origin_of_the_10-minute_ran.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_The_Stories_Behind_Her_Bigg_clip05_Intimate_real-time_story_of_an_entire_so.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T18:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Taylor Swift: The Song That Came Like a Cloud",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_The_Stories_Behind_Her_Bigg_clip05_Intimate_real-time_story_of_an_entire_so.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_The_Stories_Behind_Her_Bigg_clip06_Counterintuitive_insight_that_Blank_Spac.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T19:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Taylor Swift: Haters Made Blank Space Possible",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_The_Stories_Behind_Her_Bigg_clip06_Counterintuitive_insight_that_Blank_Spac.jpg"
     },
     {
       "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip01_The_Ferrari_valet_story_delivers_a_jolti.mp4",
