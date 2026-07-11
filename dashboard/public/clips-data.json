@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T11:14:07.812Z",
+  "lastUpdated": "2026-07-11T11:22:26.114Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -805,7 +805,7 @@
       "filename": "HIGHLIGHTS_-_Portugal_v_Spain__Huge_All-_clip03_The_dramatic_emotional_final_call_as_Spa.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-09T16:00:00+00:00",
+      "scheduledAt": null,
       "scheduleStatus": "uploading",
       "title": "End Of The Road Ronaldo - The Final Chapter Unfolds",
       "channel": "football",
@@ -1875,8 +1875,8 @@
       "filename": "TOM_HOLLAND_Launching_A_Second_Career_Li_clip01_A_raw_counterintuitive_confession_that_h.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-09T16:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tom Holland: More Confident Playing Spider-Man Than Being Himself",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_Launching_A_Second_Career_Li_clip01_A_raw_counterintuitive_confession_that_h.jpg"
