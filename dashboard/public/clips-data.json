@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T23:19:57.638Z",
+  "lastUpdated": "2026-07-11T00:58:55.256Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1083,10 +1083,10 @@
     },
     {
       "filename": "How_to_Take_Responsibility_for_Your_Own__clip02_A_sharp_counterintuitive_turn__cynics_ar.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-11T00:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "hOuXr7n1g8s",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Cynics Aren't Cynical Enough About Their Own Cynicism",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Take_Responsibility_for_Your_Own__clip02_A_sharp_counterintuitive_turn__cynics_ar.jpg"
@@ -1503,10 +1503,10 @@
     },
     {
       "filename": "Joe_Rogan_Experience_1309_-_Naval_Ravika_clip07_The_Confucius_mic-drop_line_about_realiz.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-11T00:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "LrvPNA4Z088",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Every Man Has Two Lives: The Moment You Realize One",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_1309_-_Naval_Ravika_clip07_The_Confucius_mic-drop_line_about_realiz.jpg"
@@ -2563,10 +2563,10 @@
     },
     {
       "filename": "The_Two_Decisions_That_Shape_Your_Entire_clip05_Vivid_evolutionary_explanation_of_why_we.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-11T00:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "ZcObcvorZ8Q",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Your Brain Is Wired for Pessimism",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip05_Vivid_evolutionary_explanation_of_why_we.jpg"
