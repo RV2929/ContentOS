@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T02:40:14.131Z",
+  "lastUpdated": "2026-07-11T02:40:17.662Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1095,8 +1095,8 @@
       "filename": "How_to_Take_Responsibility_for_Your_Own__clip03_Uses_Russell_Brand_as_a_vivid_example_to.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-11T02:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "You Want Their Success, Not Their Suffering",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Take_Responsibility_for_Your_Own__clip03_Uses_Russell_Brand_as_a_vivid_example_to.jpg"
@@ -1515,8 +1515,8 @@
       "filename": "Joe_Rogan_Experience_1309_-_Naval_Ravika_clip08_Actionable_wealth_hack_about_picking_an_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-11T02:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Be Jealous Of Your Time: The Wealth Hack Nobody Uses",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_1309_-_Naval_Ravika_clip08_Actionable_wealth_hack_about_picking_an_.jpg"
@@ -2575,8 +2575,8 @@
       "filename": "The_Two_Decisions_That_Shape_Your_Entire_clip06_Compelling_argument_that_modern_life_has.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-11T02:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Failure Doesn't Count Anymore",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip06_Compelling_argument_that_modern_life_has.jpg"
