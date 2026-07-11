@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T05:26:18.589Z",
+  "lastUpdated": "2026-07-11T07:02:59.603Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1125,8 +1125,8 @@
       "filename": "How_to_Take_Responsibility_for_Your_Own__clip06_Deliberately_unpopular_sharable_claim_th.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-11T07:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Most Adults Never Grow Up Without This Responsibility",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Take_Responsibility_for_Your_Own__clip06_Deliberately_unpopular_sharable_claim_th.jpg"
