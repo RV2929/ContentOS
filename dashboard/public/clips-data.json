@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T14:42:49Z",
+  "lastUpdated": "2026-07-11T15:23:35Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1792,6 +1792,66 @@
       "thumbnailPath": "/thumbnails/PART_2_The_Cristiano_Ronaldo_Full_Interv_clip07_Piers_calls_Ronaldo_the_greatest_and_Mes.jpg"
     },
     {
+      "filename": "Rio_Meets_Cristiano_Ronaldo_His_Desire_T_clip01_Ronaldo_bluntly_says_a_Manchester_United.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "RONALDO SLAMS UNITED'S MINDSET",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rio_Meets_Cristiano_Ronaldo_His_Desire_T_clip01_Ronaldo_bluntly_says_a_Manchester_United.jpg"
+    },
+    {
+      "filename": "Rio_Meets_Cristiano_Ronaldo_His_Desire_T_clip02_Ronaldo_reveals_the_exact_mindset_shift_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T00:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "WHY I QUIT THE STEP OVERS",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rio_Meets_Cristiano_Ronaldo_His_Desire_T_clip02_Ronaldo_reveals_the_exact_mindset_shift_.jpg"
+    },
+    {
+      "filename": "Rio_Meets_Cristiano_Ronaldo_His_Desire_T_clip03_Ronaldo_casually_declares_his_goal_of_re.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T02:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "MY CHALLENGE IS 1000 GOALS",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rio_Meets_Cristiano_Ronaldo_His_Desire_T_clip03_Ronaldo_casually_declares_his_goal_of_re.jpg"
+    },
+    {
+      "filename": "Rio_Meets_Cristiano_Ronaldo_His_Desire_T_clip04_Ronaldo_explains_being_the_worlds_most-f.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "WHY I'M THE MOST FOLLOWED",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rio_Meets_Cristiano_Ronaldo_His_Desire_T_clip04_Ronaldo_explains_being_the_worlds_most-f.jpg"
+    },
+    {
+      "filename": "Rio_Meets_Cristiano_Ronaldo_His_Desire_T_clip05_Raw_and_vulnerable__Ronaldo_reveals_the_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T05:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "THE REAL REASON I CRIED",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rio_Meets_Cristiano_Ronaldo_His_Desire_T_clip05_Raw_and_vulnerable__Ronaldo_reveals_the_.jpg"
+    },
+    {
+      "filename": "Rio_Meets_Cristiano_Ronaldo_His_Desire_T_clip06_Ronaldo_fires_off_a_defiant_quotable_lin.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T07:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "TWO RATS VERSUS THE WORLD",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rio_Meets_Cristiano_Ronaldo_His_Desire_T_clip06_Ronaldo_fires_off_a_defiant_quotable_lin.jpg"
+    },
+    {
       "filename": "Stock_Expert_Becoming_Rich_Is_Simple_But_clip01_Counterintuitive_expert_advice_that_the_.mp4",
       "status": "posted",
       "youtubeId": "WJHBLyaxEyA",
@@ -2113,10 +2173,10 @@
     },
     {
       "filename": "Taylor_Swift_The_Stories_Behind_Her_Bigg_clip03_A_tight_story_with_a_joyful_payoff_about.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-11T15:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "ng2ToEpCP84",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Taylor Swift's Favorite Plot Twist: Last Great American Dynasty",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Taylor_Swift_The_Stories_Behind_Her_Bigg_clip03_A_tight_story_with_a_joyful_payoff_about.jpg"
@@ -2803,10 +2863,10 @@
     },
     {
       "filename": "Tom_Holland__Good_Hang_with_Amy_Poehler_clip01_Surprising_personal_reveal__a_global_mov.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-11T15:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "0LYeslYytdM",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Tom Holland Won't Do SNL",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland__Good_Hang_with_Amy_Poehler_clip01_Surprising_personal_reveal__a_global_mov.jpg"
