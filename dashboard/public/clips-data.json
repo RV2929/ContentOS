@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T14:04:44.443Z",
+  "lastUpdated": "2026-07-11T14:17:50Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -547,7 +547,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-07-11T23:00:00+00:00",
       "scheduleStatus": "pending",
-      "title": "95% Of You Is Programmed — Here's The Proof",
+      "title": "95% Of You Is Programmed \u2014 Here's The Proof",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip01_A_jarring_statistic_delivered_as_a_perso.jpg"
     },
@@ -1747,7 +1747,7 @@
       "youtubeId": "zSVf0SQ-frc",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "The Media Called It a Breakdown—Here's What Really Happened",
+      "title": "The Media Called It a Breakdown\u2014Here's What Really Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.jpg"
     },
@@ -1837,7 +1837,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "If You Have a Problem, Text Me—His Answer to Critics",
+      "title": "If You Have a Problem, Text Me\u2014His Answer to Critics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.jpg"
     },
@@ -2650,6 +2650,66 @@
       "title": "Stop Defining Yourself by Your Trauma",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Two_Decisions_That_Shape_Your_Entire_clip07_Bold_shareable_take_on_how_labels_and_id.jpg"
+    },
+    {
+      "filename": "Tom_Holland__Good_Hang_with_Amy_Poehler_clip01_Surprising_personal_reveal__a_global_mov.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T15:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Tom Holland Won't Do SNL",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tom_Holland__Good_Hang_with_Amy_Poehler_clip01_Surprising_personal_reveal__a_global_mov.jpg"
+    },
+    {
+      "filename": "Tom_Holland__Good_Hang_with_Amy_Poehler_clip02_Raw_vulnerability_as_Tom_candidly_explai.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T16:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "I Quit Drinking Because I Had a Problem",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tom_Holland__Good_Hang_with_Amy_Poehler_clip02_Raw_vulnerability_as_Tom_candidly_explai.jpg"
+    },
+    {
+      "filename": "Tom_Holland__Good_Hang_with_Amy_Poehler_clip03_Charming_funny_childhood_confession__his.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T18:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "I Thought My Dad Was Unemployed",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tom_Holland__Good_Hang_with_Amy_Poehler_clip03_Charming_funny_childhood_confession__his.jpg"
+    },
+    {
+      "filename": "Tom_Holland__Good_Hang_with_Amy_Poehler_clip04_Relatable_laugh-out-loud_story_of_a_come.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T19:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "My Dad Would Roast My Friends at Dinner",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tom_Holland__Good_Hang_with_Amy_Poehler_clip04_Relatable_laugh-out-loud_story_of_a_come.jpg"
+    },
+    {
+      "filename": "Tom_Holland__Good_Hang_with_Amy_Poehler_clip05_Tom_reflects_on_his_viral_umbrella_dance.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-11T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Viral Umbrella Dance That Changed Everything",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tom_Holland__Good_Hang_with_Amy_Poehler_clip05_Tom_reflects_on_his_viral_umbrella_dance.jpg"
+    },
+    {
+      "filename": "Tom_Holland__Good_Hang_with_Amy_Poehler_clip06_Counterintuitive_language_insight_thats_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-12T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Americans Say 'Quite' Completely Wrong",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tom_Holland__Good_Hang_with_Amy_Poehler_clip06_Counterintuitive_language_insight_thats_.jpg"
     },
     {
       "filename": "Tristan_Tate_Admits_Andrew_May_Not_Go_to_clip01_Naturally_funny_and_punchy__his_personal.mp4",
