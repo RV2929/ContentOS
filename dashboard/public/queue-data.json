@@ -454,6 +454,19 @@
       "clipsCount": 6,
       "batchId": "Rio_Meets_Cristiano_Ronaldo_His_Desire_T",
       "error": null
+    },
+    {
+      "id": "mrhq55ekeobl",
+      "url": "https://www.youtube.com/watch?v=-ldMzxYQQuo",
+      "title": "",
+      "status": "transcribing",
+      "channel": "podcast",
+      "addedAt": "2026-07-12T11:42:48.476Z",
+      "startedAt": "2026-07-12T11:42:48.481Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T08:46:33.693Z",
+  "lastUpdated": "2026-07-12T11:47:29Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -542,12 +542,62 @@
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Tonight_with_Al_Nassr__clip05_Tense_final-seconds_stakes_with_10_men_c.jpg"
     },
     {
+      "filename": "Cristiano_Ronaldos_Secrets_to_Longevity__clip01_Ronaldo_reacts_in_disbelief_as_WHOOP_rev.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-12T11:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "RONALDO IS 12 YEARS YOUNGER",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Cristiano_Ronaldos_Secrets_to_Longevity__clip01_Ronaldo_reacts_in_disbelief_as_WHOOP_rev.jpg"
+    },
+    {
+      "filename": "Cristiano_Ronaldos_Secrets_to_Longevity__clip02_Counterintuitive_health_claim_Ronaldo_in.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "COLD MAKES YOU LESS SICK",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Cristiano_Ronaldos_Secrets_to_Longevity__clip02_Counterintuitive_health_claim_Ronaldo_in.jpg"
+    },
+    {
+      "filename": "Cristiano_Ronaldos_Secrets_to_Longevity__clip03_Highly_quotable_relatable_line_where_Ron.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T00:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "YOU PAY THE BILL LATER",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Cristiano_Ronaldos_Secrets_to_Longevity__clip03_Highly_quotable_relatable_line_where_Ron.jpg"
+    },
+    {
+      "filename": "Cristiano_Ronaldos_Secrets_to_Longevity__clip04_Ronaldo_lands_a_natural_cocky-but-funny_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T02:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "NUMBER ONE LIKE ME",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Cristiano_Ronaldos_Secrets_to_Longevity__clip04_Ronaldo_lands_a_natural_cocky-but-funny_.jpg"
+    },
+    {
+      "filename": "Cristiano_Ronaldos_Secrets_to_Longevity__clip05_Self-aware_humour_that_lands_Ronaldo_tel.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "DONT BE LIKE CRISTIANO",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Cristiano_Ronaldos_Secrets_to_Longevity__clip05_Self-aware_humour_that_lands_Ronaldo_tel.jpg"
+    },
+    {
       "filename": "Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip01_A_jarring_statistic_delivered_as_a_perso.mp4",
       "status": "posted",
       "youtubeId": "2eJeGIMAABI",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "95% Of You Is Programmed — Here's The Proof",
+      "title": "95% Of You Is Programmed \u2014 Here's The Proof",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip01_A_jarring_statistic_delivered_as_a_perso.jpg"
     },
@@ -1693,10 +1743,10 @@
     },
     {
       "filename": "Neil_deGrasse_Tyson_The_Whistleblowers_A_clip06_Sharp_quotable_reasoning_that_the_human_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-12T10:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "x3CMGlRuKno",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Neil deGrasse Tyson Won't Do Psychedelics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neil_deGrasse_Tyson_The_Whistleblowers_A_clip06_Sharp_quotable_reasoning_that_the_human_.jpg"
@@ -1957,7 +2007,7 @@
       "youtubeId": "zSVf0SQ-frc",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "The Media Called It a Breakdown—Here's What Really Happened",
+      "title": "The Media Called It a Breakdown\u2014Here's What Really Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.jpg"
     },
@@ -2047,7 +2097,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "If You Have a Problem, Text Me—His Answer to Critics",
+      "title": "If You Have a Problem, Text Me\u2014His Answer to Critics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.jpg"
     },
