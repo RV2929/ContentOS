@@ -808,6 +808,14 @@ function perfClipTitle(filename) {
   return title || filename || '';
 }
 
+function formatPostedAt(iso) {
+  const d = new Date(iso);
+  const day = d.getDate();
+  const month = d.toLocaleDateString('en-US', { month: 'short' });
+  const time = d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true });
+  return `${day} ${month}, ${time}`;
+}
+
 function renderPerformance() {
   const body = document.getElementById('perf-table-body');
 
@@ -849,9 +857,7 @@ function renderPerformance() {
       ? `<a href="${r.externalLink}" target="_blank" rel="noopener">${title}</a>`
       : title;
     const channelLabel = (r.channel || 'podcast') === 'football' ? '⚽ Football' : '🎙 Podcast';
-    const posted = r.postedAt
-      ? new Date(r.postedAt).toLocaleDateString([], { month: 'short', day: 'numeric', year: 'numeric' })
-      : '—';
+    const posted = r.postedAt ? formatPostedAt(r.postedAt) : '—';
     return `<tr>
       <td>${clipCell}</td>
       <td>${channelLabel}</td>

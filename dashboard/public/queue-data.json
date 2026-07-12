@@ -446,13 +446,13 @@
       "id": "mrgfp0m62ont",
       "url": "https://www.youtube.com/watch?v=o1ZOEVx_Tr8&t=66s",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-07-11T14:02:33.438Z",
       "startedAt": "2026-07-11T14:42:54.567Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-11T15:23:38.878Z",
+      "clipsCount": 6,
+      "batchId": "Rio_Meets_Cristiano_Ronaldo_His_Desire_T",
       "error": null
     }
   ]
