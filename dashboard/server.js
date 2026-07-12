@@ -77,6 +77,8 @@ const VENV_PYTHON        = path.join(CONTENTOS_DIR, 'venv', 'bin', 'python');
 const BUFFER_POSTER      = path.join(CONTENTOS_DIR, 'buffer_poster.py');
 const PERFORMANCE_COLLECTOR   = path.join(CONTENTOS_DIR, 'collect_performance.py');
 const PERFORMANCE_STATE_FILE  = path.join(__dirname, 'performance-state.json');
+const ALERTS_LOG_FILE         = path.join(__dirname, 'alerts.log');
+const CONNECTION_STATE_FILE   = path.join(__dirname, 'connection-check-state.json');
 const PERFORMANCE_LOG_FILE    = path.join(__dirname, 'performance.log');
 const PERFORMANCE_JSONL_FILE  = path.join(__dirname, 'performance.jsonl');
 
@@ -613,17 +615,18 @@ app.get('/auth/youtube/callback', async (req, res) => {
 
 // ── YouTube API endpoints ──────────────────────────────────────────────────────
 
-// Returns connection status for every configured YouTube account so the
-// dashboard can manage multiple channels at once.
-app.get('/api/youtube/status', async (req, res) => {
+// Returns connection status for every configured YouTube account. Shared by
+// the route below and the daily connection-health check so both use exactly
+// the same logic instead of duplicating the OAuth/API-call flow.
+async function getYoutubeStatuses() {
   const hasCreds = !!loadCredentials();
   const ytAccounts = getYoutubeAccounts();
 
   if (!hasCreds) {
-    return res.json({
+    return {
       hasCredentials: false,
       accounts: ytAccounts.map(a => ({ id: a.id, name: a.name, connected: false })),
-    });
+    };
   }
 
   const accounts = await Promise.all(ytAccounts.map(async (a) => {
@@ -641,7 +644,11 @@ app.get('/api/youtube/status', async (req, res) => {
     }
   }));
 
-  res.json({ hasCredentials: true, accounts });
+  return { hasCredentials: true, accounts };
+}
+
+app.get('/api/youtube/status', async (req, res) => {
+  res.json(await getYoutubeStatuses());
 });
 
 app.post('/api/youtube/credentials', (req, res) => {
@@ -939,16 +946,78 @@ async function crossLinkBatch(batchId, batch) {
 // Read BUFFER_ACCESS_TOKEN from .env at call time so the server doesn't need
 // a restart after the user fills in their token.
 function readBufferToken() {
+  return readEnvVar('BUFFER_ACCESS_TOKEN');
+}
+
+// Read a single KEY=value out of .env at call time (same lazy-read approach
+// as readBufferToken, so no server restart is needed after editing .env).
+function readEnvVar(key) {
   try {
     const envPath = path.join(CONTENTOS_DIR, '.env');
     if (!fs.existsSync(envPath)) return '';
+    const re = new RegExp(`^${key}=(.+)$`);
     for (const line of fs.readFileSync(envPath, 'utf8').split('\n')) {
-      const m = line.trim().match(/^BUFFER_ACCESS_TOKEN=(.+)$/);
+      const m = line.trim().match(re);
       if (m) return m[1].trim().replace(/^['"]|['"]$/g, '');
     }
   } catch (_) { }
   return '';
 }
+
+// Checks Instagram/TikTok connection status via Buffer's GraphQL API — the
+// same channels() query buffer_poster.py uses to find channel IDs. Each
+// channel Buffer returns carries an isDisconnected flag directly, so no
+// posting attempt is needed to detect a dropped connection.
+async function getBufferChannelStatuses() {
+  const token = readBufferToken();
+  if (!token) return []; // Buffer not configured — nothing to report
+
+  const gqlBuffer = async (query, variables) => {
+    const r = await fetch('https://api.buffer.com', {
+      method: 'POST',
+      headers: { 'Authorization': `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify(variables ? { query, variables } : { query }),
+    });
+    const body = await r.json();
+    if (body.errors) throw new Error(body.errors.map(e => e.message).join('; '));
+    return body.data || {};
+  };
+
+  const orgData = await gqlBuffer(`query { account { organizations { id } } }`);
+  const orgs = orgData.account?.organizations || [];
+  if (!orgs.length) return [];
+
+  const chData = await gqlBuffer(
+    `query($input: ChannelsInput!) { channels(input: $input) { id name service isDisconnected } }`,
+    { input: { organizationId: orgs[0].id } }
+  );
+  const channels = chData.channels || [];
+
+  const igId = readEnvVar('BUFFER_PROFILE_ID');
+  const ttId = readEnvVar('BUFFER_TIKTOK_CHANNEL_ID');
+  const ig = channels.find(c => (igId ? c.id === igId : c.service?.toLowerCase().includes('instagram')));
+  const tt = channels.find(c => (ttId ? c.id === ttId : c.service?.toLowerCase().includes('tiktok')));
+
+  const out = [];
+  if (ig) out.push({ platform: 'instagram', name: ig.name || ig.displayName || 'Instagram', connected: !ig.isDisconnected });
+  if (tt) out.push({ platform: 'tiktok', name: tt.name || tt.displayName || 'TikTok', connected: !tt.isDisconnected });
+  return out;
+}
+
+// Combined live status for the dashboard's connection-health banner. Kept
+// separate from the daily alerts.log check below so polling this endpoint
+// (every 60s while the dashboard is open) never spams the log — only the
+// once-a-day background check writes to alerts.log.
+app.get('/api/connections/status', async (req, res) => {
+  const [yt, buffer] = await Promise.all([
+    getYoutubeStatuses(),
+    getBufferChannelStatuses().catch(e => {
+      console.error('[connections] Buffer status check failed:', e.message);
+      return [];
+    }),
+  ]);
+  res.json({ youtube: yt.accounts, buffer });
+});
 
 function buildBufferCaption(title) {
   const clean = title.split(' ').filter(w => !w.startsWith('#')).join(' ');
@@ -1029,6 +1098,57 @@ function maybeRunPerformanceCollector() {
     .then(() => console.log(`[performance] Collector finished for ${today}`))
     .catch(err => console.error(`[performance] Collector failed: ${err.message}`))
     .finally(() => { performanceCollectorRunning = false; });
+}
+
+// ── Daily connection-health check ───────────────────────────────────────────
+// Checks YouTube + Buffer (Instagram/TikTok) connection status once per
+// calendar day and logs any disconnected account to alerts.log — so an
+// expired OAuth token (e.g. the Clipperz29 invalid_grant case) shows up on
+// disk within a day instead of only being discovered when a scheduled clip
+// gets stuck failing. Gated via connection-check-state.json the same way
+// maybeRunPerformanceCollector gates on performance-state.json.
+
+function appendAlert(message) {
+  fs.appendFileSync(ALERTS_LOG_FILE, `${new Date().toISOString()} [ALERT] ${message}\n`);
+  console.warn(`[connections] ${message}`);
+}
+
+async function runConnectionCheck() {
+  const yt = await getYoutubeStatuses();
+  for (const a of yt.accounts) {
+    if (!a.connected) {
+      appendAlert(`YouTube account "${a.name}" is disconnected${a.error ? ` (${a.error})` : ''}`);
+    }
+  }
+
+  try {
+    const buffer = await getBufferChannelStatuses();
+    for (const c of buffer) {
+      if (!c.connected) {
+        appendAlert(`Buffer ${c.platform} channel "${c.name}" is disconnected`);
+      }
+    }
+  } catch (e) {
+    appendAlert(`Buffer connection check failed: ${e.message}`);
+  }
+}
+
+let connectionCheckRunning = false;
+
+function maybeRunConnectionCheck() {
+  if (connectionCheckRunning) return;
+  const today = todayLocalDateString();
+  const state = loadJSON(CONNECTION_STATE_FILE, {});
+  if (state.lastCheckedDate === today) return;
+
+  connectionCheckRunning = true;
+  saveJSON(CONNECTION_STATE_FILE, { ...state, lastCheckedDate: today });
+  console.log(`[connections] Running daily connection check for ${today}…`);
+
+  runConnectionCheck()
+    .then(() => console.log(`[connections] Check finished for ${today}`))
+    .catch(err => console.error(`[connections] Check failed: ${err.message}`))
+    .finally(() => { connectionCheckRunning = false; });
 }
 
 // ── Background scheduler ──────────────────────────────────────────────────────
@@ -1205,6 +1325,7 @@ async function runScheduler() {
   }
 
   maybeRunPerformanceCollector();
+  maybeRunConnectionCheck();
 }
 
 // Check 5 s after startup then every 60 s

@@ -14,6 +14,20 @@
       min-height: 100vh;
     }
 
+    /* ── Connection banner ── */
+    .connection-banner {
+      background: #fef2f2;
+      border-bottom: 1px solid #fecaca;
+      color: #b91c1c;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .connection-banner.hidden { display: none; }
+
     /* ── Header ── */
     header {
       background: #fff;
@@ -558,6 +572,8 @@
   </style>
 </head>
 <body>
+
+<div class="connection-banner hidden" id="connection-banner"></div>
 
 <header>
   <div class="logo">
@@ -1129,6 +1145,7 @@ async function loadData() {
     api('GET', '/api/accounts'),
   ]);
   await loadYtStatus();
+  await loadConnectionStatus();
   updateStats();
   renderClips();
 }
@@ -1225,6 +1242,35 @@ async function loadYtStatus() {
     ytAccounts = d.accounts || [];
   } catch { hasYtCredentials = false; ytAccounts = []; }
   updateYtHeaderBtn();
+}
+
+// Live connection-health banner — polled on the same 60s cadence as the
+// rest of the dashboard (loadData), independent of the once-a-day
+// alerts.log check the server runs in the background.
+async function loadConnectionStatus() {
+  let data;
+  try {
+    data = await api('GET', '/api/connections/status');
+  } catch {
+    return; // A failed health check shouldn't break the rest of the dashboard
+  }
+
+  const problems = [];
+  for (const a of data.youtube || []) {
+    if (!a.connected) problems.push(`YouTube "${a.name}" disconnected`);
+  }
+  for (const c of data.buffer || []) {
+    const label = c.platform === 'tiktok' ? 'TikTok' : 'Instagram';
+    if (!c.connected) problems.push(`${label} (Buffer) "${c.name}" disconnected`);
+  }
+
+  const banner = document.getElementById('connection-banner');
+  if (problems.length) {
+    banner.textContent = `⚠ ${problems.join(' · ')} — reconnect in ⚙ Accounts`;
+    banner.classList.remove('hidden');
+  } else {
+    banner.classList.add('hidden');
+  }
 }
 
 function updateYtHeaderBtn() {

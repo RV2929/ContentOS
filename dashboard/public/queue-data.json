@@ -459,13 +459,13 @@
       "id": "mrhq55ekeobl",
       "url": "https://www.youtube.com/watch?v=-ldMzxYQQuo",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-07-12T11:42:48.476Z",
       "startedAt": "2026-07-12T11:42:48.481Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-12T11:47:33.090Z",
+      "clipsCount": 5,
+      "batchId": "Cristiano_Ronaldos_Secrets_to_Longevity_",
       "error": null
     }
   ]
