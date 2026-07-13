@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T16:03:46.594Z",
+  "lastUpdated": "2026-07-13T16:49:54Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "rEzv4pANHHk",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Confidence Isn't About Knowing Everything — It's the Opposite",
+      "title": "Confidence Isn't About Knowing Everything \u2014 It's the Opposite",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip02_The_counterintuitive_screenshot-worthy_r.jpg"
     },
@@ -277,7 +277,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stop Saying This One Phrase — It's Actually a Burden",
+      "title": "Stop Saying This One Phrase \u2014 It's Actually a Burden",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip04_Counterintuitive_insight_that_let_me_kno.jpg"
     },
@@ -297,7 +297,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Stranger Started a Fight at the Gym — But This One Move Stopped It",
+      "title": "Stranger Started a Fight at the Gym \u2014 But This One Move Stopped It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/5_Ways_to_be_a_Better_Communicator__Jeff_clip06_A_vivid_personal_story_where_staying_cal.jpg"
     },
@@ -597,7 +597,7 @@
       "youtubeId": "2eJeGIMAABI",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "95% Of You Is Programmed — Here's The Proof",
+      "title": "95% Of You Is Programmed \u2014 Here's The Proof",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_You_MUST_Do_This_Before__clip01_A_jarring_statistic_delivered_as_a_perso.jpg"
     },
@@ -1243,10 +1243,10 @@
     },
     {
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip06_MrBeast_explains_his_Squid_Game_recreati.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-13T16:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "hYwI_LnxlSE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "4% OF ALL HUMANS WATCHED THIS VIDEO - MrBeast's Squid Game",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip06_MrBeast_explains_his_Squid_Game_recreati.jpg"
@@ -1415,8 +1415,8 @@
       "filename": "I_Spent_14_Days_Exploring_The_Caribbean_clip06_Genuine_emotional_beat__his_dad_leaves_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T16:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "My Dad Surprised Me Abroad For The First Time",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/I_Spent_14_Days_Exploring_The_Caribbean_clip06_Genuine_emotional_beat__his_dad_leaves_t.jpg"
@@ -1715,8 +1715,8 @@
       "filename": "Marlon_FIFA_Creator_Cup_Highlights_clip01_NFL_star_Chad_Ochocinco_scores_a_pro-lev.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T16:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "NFL Star Chad Ochocinco: This Is My Sport Now",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/Marlon_FIFA_Creator_Cup_Highlights_clip01_NFL_star_Chad_Ochocinco_scores_a_pro-lev.jpg"
@@ -2427,7 +2427,7 @@
       "youtubeId": "zSVf0SQ-frc",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "The Media Called It a Breakdown—Here's What Really Happened",
+      "title": "The Media Called It a Breakdown\u2014Here's What Really Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_provocative_opening_about_the_media_.jpg"
     },
@@ -2517,7 +2517,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "If You Have a Problem, Text Me—His Answer to Critics",
+      "title": "If You Have a Problem, Text Me\u2014His Answer to Critics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_A_perfectly_quotable_line_about_criticis.jpg"
     },
@@ -2680,6 +2680,126 @@
       "title": "Taylor Swift: Haters Made Blank Space Possible",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Taylor_Swift_The_Stories_Behind_Her_Bigg_clip06_Counterintuitive_insight_that_Blank_Spac.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_on_Reclaiming_Her_Masters_W_clip01_The_bombshell_album_reveal_via_sparkly_b.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T18:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Taylor Swift Announces Secret New Album The Life of a Showgirl",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_on_Reclaiming_Her_Masters_W_clip01_The_bombshell_album_reveal_via_sparkly_b.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_on_Reclaiming_Her_Masters_W_clip02_Taylors_hilarious_confession_that_she_th.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T19:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Taylor Thought Both Kelce Brothers Played Each Other",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_on_Reclaiming_Her_Masters_W_clip02_Taylors_hilarious_confession_that_she_th.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_on_Reclaiming_Her_Masters_W_clip03_Raw_emotional_retelling_of_getting_her_m.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T21:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Call That Made Taylor Collapse in Tears",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_on_Reclaiming_Her_Masters_W_clip03_Raw_emotional_retelling_of_getting_her_m.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_on_Reclaiming_Her_Masters_W_clip04_A_genuinely_quotable_philosophy_on_ignor.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Treat Your Energy Like It's Expensive Taylor Says",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_on_Reclaiming_Her_Masters_W_clip04_A_genuinely_quotable_philosophy_on_ignor.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_on_Reclaiming_Her_Masters_W_clip05_Touching-yet-hilarious_story_of_her_dad_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T00:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Dad Cracked Jokes Right After Open Heart Surgery",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_on_Reclaiming_Her_Masters_W_clip05_Touching-yet-hilarious_story_of_her_dad_.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_on_Reclaiming_Her_Masters_W_clip06_Taylor_describes_Traviss_friendship-brac.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T02:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Travis Asked Her Out Like an 80s John Hughes Movie",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_on_Reclaiming_Her_Masters_W_clip06_Taylor_describes_Traviss_friendship-brac.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_on_Reclaiming_Her_Masters_W_clip07_Taylor_screaming_football_draft_news_thr.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Taylor Screaming About the Xavier Worthy Draft Pick",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_on_Reclaiming_Her_Masters_W_clip07_Taylor_screaming_football_draft_news_thr.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_on_Reclaiming_Her_Masters_W_tiktok01_Hook_is_Taylors_blunt_claim_that_this_po.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T18:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "How a Podcast Appearance Led to Her Current Relationship",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_on_Reclaiming_Her_Masters_W_tiktok01_Hook_is_Taylors_blunt_claim_that_this_po.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_on_Reclaiming_Her_Masters_W_tiktok02_Hook_is_the_surprising_design_goal_of_a_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T19:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Fans Experienced Actual Amnesia During Eras Tour Shows",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_on_Reclaiming_Her_Masters_W_tiktok02_Hook_is_the_surprising_design_goal_of_a_.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_on_Reclaiming_Her_Masters_W_tiktok03_Hook_is_the_shocking_reveal_that_her_dad.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T21:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Her Dad's Shocking Health Crisis Changed Everything",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_on_Reclaiming_Her_Masters_W_tiktok03_Hook_is_the_shocking_reveal_that_her_dad.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_on_Reclaiming_Her_Masters_W_tiktok04_Hook_is_the_bold_claim_that_your_energy_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Your Energy Is a Luxury\u2014Protect It Like One",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_on_Reclaiming_Her_Masters_W_tiktok04_Hook_is_the_bold_claim_that_your_energy_.jpg"
+    },
+    {
+      "filename": "Taylor_Swift_on_Reclaiming_Her_Masters_W_tiktok05_Hook_is_that_every_eras_show_ended_one_w.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T00:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Orange Door Was Her Hidden Album Announcement",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Taylor_Swift_on_Reclaiming_Her_Masters_W_tiktok05_Hook_is_that_every_eras_show_ended_one_w.jpg"
     },
     {
       "filename": "The_Best_Financial_Advice_Youll_Ever_Hea_clip01_The_Ferrari_valet_story_delivers_a_jolti.mp4",
