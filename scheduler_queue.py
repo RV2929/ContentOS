@@ -1,7 +1,7 @@
 """
 Per-channel daily posting queue.
 
-Caps each channel (podcast, football) at DAILY_CAP posts per calendar day
+Caps each channel (podcast, football, streamers) at DAILY_CAP posts per calendar day
 (system local time), spread evenly across the full 24 hours. When a day
 fills up, overflow rolls to the next day, then the next, etc. —
 first-in-first-out across whatever order filenames are handed in.
@@ -23,9 +23,14 @@ ACTIVE_STATUSES = ("pending", "uploading", "done")
 
 
 def normalize_channel(channel: str | None) -> str:
-    """Mirror dashboard/server.js's normalizeChannel(): only "football" is
-    distinct, everything else (including missing/unknown) is "podcast"."""
-    return "football" if channel == "football" else "podcast"
+    """Mirror dashboard/server.js's normalizeChannel(): "football" and
+    "streamers" are distinct, everything else (including missing/unknown)
+    is "podcast"."""
+    if channel == "football":
+        return "football"
+    if channel == "streamers":
+        return "streamers"
+    return "podcast"
 
 
 def _local_zone() -> datetime.tzinfo:

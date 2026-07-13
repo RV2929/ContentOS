@@ -18,6 +18,14 @@ from pathlib import Path
 
 DASHBOARD_DIR = Path(__file__).parent / "dashboard"
 
+# Curated viral hashtags per channel niche — always guaranteed present in every
+# clip's description, alongside the AI-generated topical tags and speaker hashtag.
+CHANNEL_HASHTAGS = {
+    "podcast":   ["#podcast", "#podcastclips", "#interview", "#viral", "#fyp"],
+    "football":  ["#football", "#soccer", "#footballclips", "#viral", "#fyp"],
+    "streamers": ["#kick", "#streamer", "#gaming", "#twitch", "#viral", "#fyp"],
+}
+
 # ── Step checks ──────────────────────────────────────────────────────────────
 
 def _check_api_key() -> None:
@@ -42,7 +50,7 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
     Args:
         url:        YouTube URL
         model_size: WhisperX model ("tiny", "base", "small", "medium", "large-v2")
-        channel:    Which channel this content belongs to ("podcast" or "football") —
+        channel:    Which channel this content belongs to ("podcast", "football", or "streamers") —
                     tags the resulting schedule entries so uploads route to the right account
     """
     _check_api_key()
@@ -51,7 +59,7 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
     # ── 1. Download ───────────────────────────────────────────────────────────
     _header(1, "Download")
     from downloader import download_video
-    video_path = download_video(url)
+    video_path, video_meta = download_video(url)
 
     # ── 2. Transcribe ─────────────────────────────────────────────────────────
     _header(2, "Transcribe")
@@ -60,43 +68,88 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
 
     # ── 3. Analyze ────────────────────────────────────────────────────────────
     _header(3, "Find viral moments (Claude)")
-    from analyzer import find_viral_clips, save_clips_json
+    from analyzer import (
+        find_viral_clips, find_tiktok_clips, save_clips_json, save_tiktok_clips_json,
+    )
     clips = find_viral_clips(transcript_path)
 
-    if not clips:
+    # TikTok's Creator Rewards Program requires 60+ second videos, so those clips
+    # need their own ~62s pass with a strong early hook — run alongside (not
+    # instead of) the short-clip search above. TikTok posting is podcast-only
+    # today (see BUFFER_TIKTOK_CHANNEL_ID in buffer_poster.py), so this pass
+    # only runs for that channel.
+    tiktok_clips: list[dict] = []
+    if channel == "podcast":
+        print("  Finding ~62s TikTok moments…")
+        tiktok_clips = find_tiktok_clips(transcript_path)
+        if tiktok_clips:
+            print(f"  → {len(tiktok_clips)} TikTok clip(s) identified")
+        else:
+            print("  → no segment could sustain a full ~62s TikTok clip")
+
+    if not clips and not tiktok_clips:
         print("\nNo viral clips found. Try a longer video with more varied content.")
         return []
 
-    clips_json_path = save_clips_json(clips, transcript_path)
-    print(f"  → {len(clips)} clip(s) identified")
+    output_paths: list[str] = []
+    tiktok_output_paths: list[str] = []
 
-    # ── 4. Cut + crop + captions ──────────────────────────────────────────────
-    _header(4, "Cut, crop to 9:16, burn captions")
     from clipper import process_clips
-    output_paths = process_clips(video_path, clips_json_path, transcript_path, channel=channel)
+
+    if clips:
+        clips_json_path = save_clips_json(clips, transcript_path)
+
+        # ── 4. Cut + crop + captions ──────────────────────────────────────────
+        _header(4, "Cut, crop to 9:16, burn captions")
+        output_paths = process_clips(video_path, clips_json_path, transcript_path, channel=channel)
+
+    if tiktok_clips:
+        tiktok_clips_json_path = save_tiktok_clips_json(tiktok_clips, transcript_path)
+
+        _header(4, "Cut, crop to 9:16, burn captions (TikTok ~62s)")
+        tiktok_output_paths = process_clips(
+            video_path, tiktok_clips_json_path, transcript_path, channel=channel, clip_label="tiktok",
+        )
 
     # ── 5. Generate titles & schedule uploads ────────────────────────────────
-    if output_paths:
+    if output_paths or tiktok_output_paths:
         _header(5, "Generate titles & schedule uploads")
-        metadata = _generate_metadata(output_paths, clips, video_path)
-        _schedule_clips(output_paths, clips, metadata, channel)
+
+        if output_paths:
+            metadata = _generate_metadata(output_paths, clips, video_path, video_meta, channel)
+            _schedule_clips(output_paths, clips, metadata, channel)
+
+        if tiktok_output_paths:
+            tiktok_metadata = _generate_metadata(
+                tiktok_output_paths, tiktok_clips, video_path, video_meta, channel,
+                clip_label="tiktok", platform="tiktok",
+            )
+            tiktok_schedule_file = os.path.join(os.path.dirname(__file__), "dashboard", "tiktok_schedule.json")
+            _schedule_clips(
+                tiktok_output_paths, tiktok_clips, tiktok_metadata, channel,
+                clip_label="tiktok", schedule_path=tiktok_schedule_file,
+            )
+
+    all_output_paths = output_paths + tiktok_output_paths
 
     # ── 6. Sync to GitHub so Vercel dashboard reflects new clips ─────────────
-    if output_paths:
+    if all_output_paths:
         _header(6, "Sync clip data to GitHub")
-        _sync_to_github(f"{len(output_paths)} clip(s) from {os.path.basename(video_path)}")
+        _sync_to_github(f"{len(all_output_paths)} clip(s) from {os.path.basename(video_path)}")
 
     # ── Summary ───────────────────────────────────────────────────────────────
     elapsed = time.time() - total_start
     mins, secs = divmod(int(elapsed), 60)
 
     print(f"\n{'═' * 50}")
-    print(f"  Done in {mins}m {secs}s — {len(output_paths)} clip(s) ready")
+    print(f"  Done in {mins}m {secs}s — {len(all_output_paths)} clip(s) ready")
     print(f"{'═' * 50}")
     for path in output_paths:
         print(f"  {path}")
+    for path in tiktok_output_paths:
+        print(f"  {path}  (TikTok, ~62s)")
 
-    return output_paths
+    return all_output_paths
 
 
 def _sync_to_github(label: str = "update") -> None:
@@ -105,19 +158,22 @@ def _sync_to_github(label: str = "update") -> None:
     so the Vercel dashboard reads fresh data from GitHub.
     """
     try:
-        clips_dir   = DASHBOARD_DIR.parent / "clips"
-        state_file  = DASHBOARD_DIR / "state.json"
-        sched_file  = DASHBOARD_DIR / "schedule.json"
-        thumbs_dir  = DASHBOARD_DIR / "public" / "thumbnails"
-        out_file    = DASHBOARD_DIR / "public" / "clips-data.json"
+        clips_dir     = DASHBOARD_DIR.parent / "clips"
+        state_file    = DASHBOARD_DIR / "state.json"
+        sched_file    = DASHBOARD_DIR / "schedule.json"
+        tt_sched_file = DASHBOARD_DIR / "tiktok_schedule.json"
+        thumbs_dir    = DASHBOARD_DIR / "public" / "thumbnails"
+        out_file      = DASHBOARD_DIR / "public" / "clips-data.json"
 
-        state    = json.loads(state_file.read_text())  if state_file.exists()  else {}
-        schedule = json.loads(sched_file.read_text())  if sched_file.exists()  else {}
+        state         = json.loads(state_file.read_text())     if state_file.exists()     else {}
+        schedule      = json.loads(sched_file.read_text())     if sched_file.exists()     else {}
+        tiktok_schedule = json.loads(tt_sched_file.read_text()) if tt_sched_file.exists() else {}
 
-        # Clips now live in clips/podcast/ and clips/football/ — fall back to
-        # the flat clips/ dir too in case anything hasn't been migrated yet.
+        # Clips now live in clips/podcast/, clips/football/, and clips/streamers/
+        # — fall back to the flat clips/ dir too in case anything hasn't been
+        # migrated yet.
         mp4_paths = []
-        for sub in ("podcast", "football", "."):
+        for sub in ("podcast", "football", "streamers", "."):
             d = clips_dir / sub if sub != "." else clips_dir
             if d.exists():
                 mp4_paths.extend(d.glob("*.mp4"))
@@ -131,7 +187,7 @@ def _sync_to_github(label: str = "update") -> None:
             seen_names.add(fn)
             stem = mp4.stem
             s    = state.get(fn, {})
-            sch  = schedule.get(fn, {})
+            sch  = schedule.get(fn) or tiktok_schedule.get(fn) or {}
             pending = sch.get("status") in ("pending", "uploading")
             clips.append({
                 "filename":      fn,
@@ -165,23 +221,37 @@ def _sync_to_github(label: str = "update") -> None:
 
 
 def _generate_metadata(
-    output_paths: list[str], clips: list[dict], video_path: str
+    output_paths: list[str], clips: list[dict], video_path: str, video_meta: dict, channel: str,
+    clip_label: str = "clip", platform: str = "youtube",
 ) -> dict[str, dict]:
     """
-    Call Claude once to generate viral YouTube titles and descriptions for all clips.
+    Call Claude once to generate viral titles and descriptions for all clips.
     Returns {filename: {title, description}}.
+
+    clip_label must match whatever process_clips() was called with, so the
+    numeric index embedded in each filename maps back to the right clip data.
+    platform="tiktok" skips the #Shorts hashtag (YouTube-specific).
     """
     import json
     import re
     import anthropic
+    from scheduler_queue import normalize_channel
 
-    video_title = os.path.splitext(os.path.basename(video_path))[0].replace("_", " ")
+    # Prefer the real YouTube title over the filesystem-sanitized filename when available.
+    video_title = video_meta.get("title") or os.path.splitext(os.path.basename(video_path))[0].replace("_", " ")
+    video_uploader = video_meta.get("uploader") or ""
+    # Truncate — descriptions can run to thousands of chars (links, sponsor blocks,
+    # timestamps); the guest/speaker is almost always named in the first paragraph.
+    video_description = (video_meta.get("description") or "")[:500]
+
+    channel_hashtags = CHANNEL_HASHTAGS[normalize_channel(channel)]
+    channel_hashtags_str = " ".join(channel_hashtags)
 
     # Map each output path to its clip data via the numeric index in the filename (_clip01_, etc.)
     path_clip_pairs: list[tuple[str, dict]] = []
     for path in output_paths:
         filename = os.path.basename(path)
-        m = re.search(r"_clip(\d+)_", filename)
+        m = re.search(rf"_{re.escape(clip_label)}(\d+)_", filename)
         idx = int(m.group(1)) - 1 if m else None
         clip_data = clips[idx] if idx is not None and idx < len(clips) else {}
         path_clip_pairs.append((filename, clip_data))
@@ -191,23 +261,35 @@ def _generate_metadata(
         for i, (_, c) in enumerate(path_clip_pairs)
     )
 
-    prompt = f"""You are a viral YouTube Shorts content strategist.
+    leading_tag = "" if platform == "tiktok" else "#Shorts, then "
+    strategist_line = (
+        "You are a viral TikTok content strategist."
+        if platform == "tiktok"
+        else "You are a viral YouTube Shorts content strategist."
+    )
+
+    prompt = f"""{strategist_line}
 
 Source video: "{video_title}"
+Uploader/Channel: "{video_uploader}"
+Description: "{video_description}"
 
 {clips_block}
 
 For EACH clip generate:
 - title: 60–100 chars, punchy, curiosity-driven, expert/authority framing when relevant. No emojis.
-- description: 2 sentences that tease without spoiling. End with a line of ONLY hashtags: always include #Shorts plus 10–14 more topical hashtags relevant to the clip content (e.g. #AI #Tech #Future #Innovation #Psychology #Mindset #Motivation #Science #Health etc).
+- description: 2 sentences that tease without spoiling. End with a line of ONLY hashtags, in this order: {leading_tag}these required channel hashtags: {channel_hashtags_str}, then 6–10 more topical hashtags relevant to the clip content (e.g. #AI #Tech #Future #Innovation #Psychology #Mindset #Motivation #Science #Health etc) — don't repeat the channel hashtags{' or #Shorts' if leading_tag else ''} among the topical ones.
+- speaker_hashtag: a single lowercase hashtag for the video's main speaker/guest (e.g. "#taylorswift"), identified from the uploader/description/title above — not the channel's own brand name unless the channel IS the speaker. No spaces or punctuation besides the leading #. If no individual speaker can be confidently identified, return "".
 
 Reply ONLY with a valid JSON array in the same order as the clips:
-[{{"title":"...","description":"..."}},...]"""
+[{{"title":"...","description":"...","speaker_hashtag":"..."}},...]"""
 
+    base_tags = channel_hashtags if platform == "tiktok" else ["#Shorts"] + channel_hashtags
     fallback = [
         {
             "title": c.get("title", "") or os.path.splitext(fn)[0].replace("_", " ")[:80],
-            "description": "#Shorts",
+            "description": " ".join(base_tags),
+            "speaker_hashtag": "",
         }
         for fn, c in path_clip_pairs
     ]
@@ -229,9 +311,20 @@ Reply ONLY with a valid JSON array in the same order as the clips:
     for (filename, _), meta in zip(path_clip_pairs, metadata_list):
         title = (meta.get("title") or "").strip()
         description = (meta.get("description") or "").strip()
-        # Guarantee description ends with #Shorts
-        if "#Shorts" not in description:
-            description = (description + " #Shorts").strip()
+        # Normalize whatever Claude returned into a clean #hashtag token (strip spaces/punctuation).
+        speaker_tag = re.sub(r"[^a-zA-Z0-9]", "", meta.get("speaker_hashtag") or "")
+        speaker_hashtag = f"#{speaker_tag}" if speaker_tag else ""
+
+        # Guarantee #Shorts (YouTube only), the channel's curated hashtags, and the
+        # speaker hashtag are always present — Claude usually includes them, but this
+        # makes it deterministic rather than dependent on instruction-following.
+        required_tags = base_tags + ([speaker_hashtag] if speaker_hashtag else [])
+        description_lower = description.lower()
+        for tag in required_tags:
+            if tag.lower() not in description_lower:
+                description = (description + " " + tag).strip()
+                description_lower = description.lower()
+
         result[filename] = {"title": title, "description": description}
 
     print(f"  Generated metadata for {len(result)} clip(s):")
@@ -242,11 +335,21 @@ Reply ONLY with a valid JSON array in the same order as the clips:
 
 
 def _schedule_clips(
-    output_paths: list[str], clips: list[dict], metadata: dict[str, dict], channel: str = "podcast"
+    output_paths: list[str], clips: list[dict], metadata: dict[str, dict], channel: str = "podcast",
+    clip_label: str = "clip", schedule_path: str | None = None,
 ) -> None:
-    """Queue clips onto the shared per-channel daily posting schedule (see
+    """Queue clips onto a per-channel daily posting schedule (see
     scheduler_queue.py): up to DAILY_CAP per calendar day per channel,
-    spread across the posting window, FIFO after whatever's already queued."""
+    spread across the posting window, FIFO after whatever's already queued.
+
+    schedule_path defaults to dashboard/schedule.json (short clips → YouTube +
+    Instagram). Pass dashboard/tiktok_schedule.json to queue the ~62s TikTok
+    clips instead — a separate file means they get their own independent
+    daily cap/slot pool rather than competing with the short clips for slots,
+    and the dashboard server's TikTok Buffer loop reads from that file only.
+    clip_label must match whatever process_clips() was called with, so the
+    numeric index embedded in each filename maps back to the right clip data.
+    """
     import json
     import re
 
@@ -254,7 +357,7 @@ def _schedule_clips(
 
     channel = normalize_channel(channel)
 
-    schedule_file = os.path.join(os.path.dirname(__file__), "dashboard", "schedule.json")
+    schedule_file = schedule_path or os.path.join(os.path.dirname(__file__), "dashboard", "schedule.json")
     try:
         with open(schedule_file, "r", encoding="utf-8") as f:
             schedule = json.load(f)
@@ -266,7 +369,7 @@ def _schedule_clips(
 
     # Stable batch ID derived from the video stem of the first clip
     first_name = os.path.basename(output_paths[0])
-    m_batch = re.match(r"^(.+?)_clip\d+", first_name)
+    m_batch = re.match(rf"^(.+?)_{re.escape(clip_label)}\d+", first_name)
     batch_id = m_batch.group(1) if m_batch else os.path.splitext(first_name)[0][:50]
 
     pending_filenames: list[str] = []
@@ -276,13 +379,13 @@ def _schedule_clips(
         if schedule.get(filename, {}).get("status") in ("uploading", "done"):
             continue
 
-        m_idx = re.search(r"_clip(\d+)_", filename)
+        m_idx = re.search(rf"_{re.escape(clip_label)}(\d+)_", filename)
         clip_index = int(m_idx.group(1)) if m_idx else (i + 1)
 
         clip_data = clips[clip_index - 1] if 0 <= clip_index - 1 < len(clips) else {}
         meta = metadata.get(filename, {})
         title = meta.get("title") or clip_data.get("title", "") or os.path.splitext(filename)[0].replace("_", " ")[:80]
-        description = meta.get("description") or "#Shorts"
+        description = meta.get("description") or ("" if clip_label == "tiktok" else "#Shorts")
 
         pending_filenames.append(filename)
         pending_meta[filename] = {"title": title, "description": description, "clip_index": clip_index}

@@ -34,6 +34,15 @@ def _total_duration(transcript: dict) -> float:
 CLIPS_MIN_COUNT = 3
 CLIPS_MAX_COUNT = 10
 
+# TikTok Creator Rewards Program requires videos 60+ seconds long — target ~62s
+# to clear that bar with a little headroom, with a strong hook up front to
+# retain viewers through the extra runtime.
+TIKTOK_TARGET_DURATION = 62   # seconds
+TIKTOK_MIN_DURATION = 58      # seconds — floor of the acceptable range
+TIKTOK_MAX_DURATION = 68      # seconds — ceiling of the acceptable range
+TIKTOK_HOOK_MAX_START = 15    # hook must land within the first 5-15s of the clip
+TIKTOK_MAX_COUNT = 5          # soft cap — Claude returns fewer (even zero) if the content isn't there
+
 
 def find_viral_clips(transcript_path: str) -> list[dict]:
     """
@@ -163,12 +172,146 @@ Format:
     return valid
 
 
-def save_clips_json(clips: list[dict], transcript_path: str) -> str:
+def find_tiktok_clips(transcript_path: str) -> list[dict]:
+    """
+    Send the transcript to Claude and get back ~62s TikTok-specific clip candidates.
+
+    Unlike find_viral_clips (which hunts for short, single-hit viral moments),
+    this pass looks for longer segments that open with a strong hook in the
+    first 5-15s and have enough substance to sustain interest for a full
+    minute — long enough to clear TikTok's 60s Creator Rewards Program
+    threshold.
+
+    Returns a list of dicts:
+        [{"start": float, "end": float, "title": str, "reason": str, "hook_type": str}, ...]
+    """
+    with open(transcript_path, "r", encoding="utf-8") as f:
+        transcript = json.load(f)
+
+    transcript_text = _build_transcript_text(transcript)
+    total_dur = _total_duration(transcript)
+
+    if not transcript_text.strip():
+        print("⚠ Transcript appears empty — no TikTok clips to find.")
+        return []
+
+    client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
+
+    system_prompt = (
+        "You are a senior TikTok editor who has grown multiple accounts to millions of "
+        "followers, and you understand exactly how the algorithm and audience retention "
+        "work for full-minute content, not just 15-second hits. You know that a video only "
+        "earns Creator Rewards payouts if it runs 60+ seconds AND actually holds the "
+        "viewer's attention that whole time — a great opening line followed by dead air "
+        "gets abandoned and tanks completion rate. You are ruthlessly selective about "
+        "which segments have real staying power."
+    )
+
+    user_prompt = f"""Below is a word-level transcript from a video. Total duration: {total_dur:.1f}s.
+
+---
+{transcript_text}
+---
+
+Your task: identify moments in this video that can sustain a ~{TIKTOK_TARGET_DURATION}s TikTok clip start-to-finish.
+
+Requirements (a clip must meet ALL of these):
+- Clip length must be {TIKTOK_MIN_DURATION}–{TIKTOK_MAX_DURATION} seconds (target ~{TIKTOK_TARGET_DURATION}s). This is a hard requirement — TikTok's Creator Rewards Program only pays out on videos 60+ seconds long.
+- The first 5–{TIKTOK_HOOK_MAX_START} seconds of the clip must contain a strong hook: a direct question posed to the viewer, a bold/provocative claim, or a surprising/counterintuitive fact — something that makes a scroller stop and commit to watching instead of swiping past.
+- Everything after the hook must have enough real substance — a developing story, an unfolding argument, escalating stakes, or a payoff being built toward — to actually hold attention for the full ~{TIKTOK_TARGET_DURATION}s. Reject any segment that is just a strong opening line followed by filler, repetition, or a topic change with nothing riding on it.
+
+Rules:
+- Timestamps must be within 0 – {total_dur:.1f}s.
+- Do NOT overlap clips.
+- Only include a clip if it genuinely clears every requirement above — return however many segments qualify (including zero, if nothing in this video can sustain a full minute). Do not pad the list to hit any particular count.
+- The title must be literally true and directly grounded in what is actually said or shown within this specific clip's transcript. Do not invent metaphors, comparisons, analogies, or claims that were not actually made. Punchy, bold, ALL-CAPS framing is encouraged — misrepresenting what happens in the clip is not, even if it would get more clicks. This matters for policy compliance, not just tone.
+
+Respond ONLY with valid JSON — no markdown fences, no explanation outside the JSON.
+Format:
+[
+  {{
+    "start": <float seconds>,
+    "end": <float seconds>,
+    "title": "<punchy hook title, 5 words max, ALL CAPS, no emojis, must accurately reflect the clip's actual content — see rules above>",
+    "reason": "<one sentence: what the hook is and why the rest of the clip sustains interest>",
+    "hook_type": "<one of: question, bold_claim, surprising_fact>"
+  }},
+  ...
+]"""
+
+    print("Asking Claude to find ~62s TikTok moments…")
+    with client.messages.stream(
+        model="claude-opus-4-8",
+        max_tokens=4096,
+        thinking={"type": "adaptive"},
+        system=system_prompt,
+        messages=[{"role": "user", "content": user_prompt}],
+    ) as stream:
+        response = stream.get_final_message()
+
+    raw = ""
+    for block in response.content:
+        if block.type == "text":
+            raw = block.text.strip()
+            break
+
+    if not raw:
+        print("⚠ Claude returned an empty response.")
+        return []
+
+    if raw.startswith("```"):
+        raw = raw.split("```")[1]
+        if raw.startswith("json"):
+            raw = raw[4:]
+        raw = raw.strip()
+
+    try:
+        clips = json.loads(raw)
+    except json.JSONDecodeError as e:
+        print(f"⚠ Could not parse Claude's response as JSON: {e}")
+        print("Raw response:", raw[:500])
+        return []
+
+    valid = []
+    for item in clips:
+        s = float(item.get("start", 0))
+        e = float(item.get("end", 0))
+        reason = item.get("reason", "")
+        title = item.get("title", "")
+        hook_type = item.get("hook_type", "")
+        dur = e - s
+        if dur < TIKTOK_MIN_DURATION or dur > TIKTOK_MAX_DURATION:
+            print(f"  Skipping TikTok clip {s:.1f}–{e:.1f}s (duration {dur:.1f}s out of range)")
+            continue
+        if s < 0 or e > total_dur + 5:  # +5s tolerance
+            print(f"  Skipping TikTok clip {s:.1f}–{e:.1f}s (out of video range)")
+            continue
+        valid.append({
+            "start": round(s, 2),
+            "end": round(e, 2),
+            "title": title,
+            "reason": reason,
+            "hook_type": hook_type,
+        })
+
+    if len(valid) > TIKTOK_MAX_COUNT:
+        print(f"  Capping at {TIKTOK_MAX_COUNT} TikTok clips (Claude returned {len(valid)})")
+        valid = valid[:TIKTOK_MAX_COUNT]
+
+    return valid
+
+
+def save_clips_json(clips: list[dict], transcript_path: str, suffix: str = ".clips.json") -> str:
     """Save the clip list as a JSON file next to the transcript."""
-    out_path = transcript_path.replace(".transcript.json", ".clips.json")
+    out_path = transcript_path.replace(".transcript.json", suffix)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(clips, f, indent=2, ensure_ascii=False)
     return out_path
+
+
+def save_tiktok_clips_json(clips: list[dict], transcript_path: str) -> str:
+    """Save the TikTok-length clip list as a JSON file next to the transcript."""
+    return save_clips_json(clips, transcript_path, suffix=".tiktok_clips.json")
 
 
 if __name__ == "__main__":

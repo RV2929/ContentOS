@@ -23,6 +23,7 @@ dashboard/yt-credentials.json
 dashboard/yt-tokens.json
 dashboard/state.json
 dashboard/schedule.json
+dashboard/tiktok_schedule.json
 dashboard/config.json
 dashboard/.env.local
 dashboard/package-lock.json

@@ -24,8 +24,8 @@ SOUNDS_DIR = os.path.join(os.path.dirname(__file__), "sounds")
 
 
 def clips_dir_for(channel: str = "podcast") -> str:
-    """clips/<channel>/ — keeps podcast and football output physically separate."""
-    channel = channel if channel in ("podcast", "football") else "podcast"
+    """clips/<channel>/ — keeps podcast, football, and streamers output physically separate."""
+    channel = channel if channel in ("podcast", "football", "streamers") else "podcast"
     return os.path.join(CLIPS_DIR, channel)
 
 THUMBNAILS_DIR = os.path.join(os.path.dirname(__file__), "dashboard", "public", "thumbnails")
@@ -405,12 +405,17 @@ def process_clips(
     clips_json_path: str,
     transcript_path: str | None = None,
     channel: str = "podcast",
+    clip_label: str = "clip",
 ) -> list[str]:
     """
     Read clips JSON and produce cropped MP4s in clips/<channel>/.
 
     If transcript_path is given, burns CapCut-style word-by-word captions
     and a bold hook title onto every clip using WhisperX word timestamps.
+
+    clip_label distinguishes output filenames when multiple clip sets are cut
+    from the same video (e.g. "clip" for short viral clips vs "tiktok" for the
+    ~62s TikTok-length pass) so they don't collide or get mixed up.
 
     Returns list of output file paths.
     """
@@ -443,7 +448,7 @@ def process_clips(
         reason = clip.get("reason", "")
         reason_slug = _safe_name(reason) if reason else f"clip{i}"
 
-        filename = f"{_safe_name(video_stem)}_clip{i:02d}_{reason_slug}.mp4"
+        filename = f"{_safe_name(video_stem)}_{clip_label}{i:02d}_{reason_slug}.mp4"
         out_path = os.path.join(out_dir, filename)
 
         dur = end - start
@@ -476,7 +481,7 @@ def process_clips(
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: python clipper.py <video.mp4> <clips.json> [--channel podcast|football]")
+        print("Usage: python clipper.py <video.mp4> <clips.json> [--channel podcast|football|streamers]")
         print("  Outputs vertical MP4s to clips/<channel>/.")
         sys.exit(1)
 

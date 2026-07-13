@@ -13,8 +13,8 @@ DOWNLOADS_DIR = os.path.join(os.path.dirname(__file__), "downloads")
 FFMPEG_PATH = imageio_ffmpeg.get_ffmpeg_exe()
 
 
-def download_video(url: str) -> str:
-    """Download a YouTube video and return the path to the saved file."""
+def download_video(url: str) -> tuple[str, dict]:
+    """Download a YouTube video. Returns (path to saved file, video metadata)."""
     os.makedirs(DOWNLOADS_DIR, exist_ok=True)
 
     ydl_opts = {
@@ -39,7 +39,13 @@ def download_video(url: str) -> str:
 
     size_mb = os.path.getsize(filename) / (1024 * 1024)
     print(f"\n✓ Downloaded: {os.path.basename(filename)} ({size_mb:.1f} MB)")
-    return filename
+
+    video_meta = {
+        "title": info.get("title") or "",
+        "description": info.get("description") or "",
+        "uploader": info.get("uploader") or info.get("channel") or "",
+    }
+    return filename, video_meta
 
 
 if __name__ == "__main__":
@@ -49,5 +55,5 @@ if __name__ == "__main__":
 
     url = sys.argv[1]
     print(f"Downloading: {url}")
-    path = download_video(url)
+    path, meta = download_video(url)
     print(f"Saved to: {path}")

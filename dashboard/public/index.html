@@ -599,6 +599,7 @@
   <div class="channel-tabs" id="channel-tabs">
     <button class="channel-tab active" data-channel="podcast">🎙 Podcast</button>
     <button class="channel-tab" data-channel="football">⚽ Football</button>
+    <button class="channel-tab" data-channel="streamers">🎮 Streamers</button>
   </div>
 
   <!-- ── URL Queue ── -->
@@ -764,13 +765,16 @@ const PLATFORM_META = {
 
 // Which YouTube account each channel tab uploads to (mirrors server.js CHANNEL_ACCOUNT_MAP).
 const CHANNEL_ACCOUNT_MAP = {
-  podcast:  'yo-1782235160731', // Clipperz29
-  football: 'yo-1783518807860', // Footy29
+  podcast:   'yo-1782235160731', // Clipperz29
+  football:  'yo-1783518807860', // Footy29
+  streamers: 'yo-1783880594361', // kickclips2929
 };
 
 // ── Channel tabs ──────────────────────────────────────────────────────────────
 
-let currentChannel = localStorage.getItem('contentos_channel') === 'football' ? 'football' : 'podcast';
+let currentChannel = ['football', 'streamers'].includes(localStorage.getItem('contentos_channel'))
+  ? localStorage.getItem('contentos_channel')
+  : 'podcast';
 
 function setChannel(channel) {
   currentChannel = channel;
@@ -872,7 +876,7 @@ function renderPerformance() {
     const clipCell = r.externalLink
       ? `<a href="${r.externalLink}" target="_blank" rel="noopener">${title}</a>`
       : title;
-    const channelLabel = (r.channel || 'podcast') === 'football' ? '⚽ Football' : '🎙 Podcast';
+    const channelLabel = { football: '⚽ Football', streamers: '🎮 Streamers' }[r.channel] || '🎙 Podcast';
     const posted = r.postedAt ? formatPostedAt(r.postedAt) : '—';
     return `<tr>
       <td>${clipCell}</td>

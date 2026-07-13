@@ -35,7 +35,7 @@ import requests
 
 BUFFER_TOKEN      = os.environ.get("BUFFER_ACCESS_TOKEN", "")
 BUFFER_PROFILE_ID = os.environ.get("BUFFER_PROFILE_ID", "")
-# musichub29_ — TikTok is podcast-only, so this channel never receives football clips.
+# musichub29_ — TikTok is podcast-only, so this channel never receives football or streamers clips.
 BUFFER_TIKTOK_CHANNEL_ID = os.environ.get("BUFFER_TIKTOK_CHANNEL_ID", "6a4f7c9b4048344628886484")
 GQL_URL           = "https://api.buffer.com"
 

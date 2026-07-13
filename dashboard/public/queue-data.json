@@ -576,13 +576,13 @@
       "id": "mrjem7osu2ql",
       "url": "https://www.youtube.com/watch?v=KkbsmEHGBxI",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "streamers",
       "addedAt": "2026-07-13T15:55:41.548Z",
       "startedAt": "2026-07-13T15:55:41.552Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-13T16:03:43.580Z",
+      "clipsCount": 6,
+      "batchId": "Marlon_FIFA_Creator_Cup_Highlights",
       "error": null
     }
   ]
