@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T07:25:47Z",
+  "lastUpdated": "2026-07-13T16:03:40Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1193,10 +1193,10 @@
     },
     {
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip01_MrBeast_reveals_Ronaldo_shattered_his_al.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-13T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "0tvkTTGOMz8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "60 MILLION FOLLOWERS IN ONE MONTH - MrBeast's Record Shattered",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip01_MrBeast_reveals_Ronaldo_shattered_his_al.jpg"
@@ -1205,8 +1205,8 @@
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip02_Ronaldos_coolly_confident_reaction_to_be.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T10:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "A BILLION FOLLOWERS Doesn't Even Surprise Him Anymore",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip02_Ronaldos_coolly_confident_reaction_to_be.jpg"
@@ -1215,28 +1215,28 @@
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip03_The_idea_of_Ronaldo_secretly_flying_comm.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T11:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "What If Ronaldo Took a NORMAL Flight in Ray-Bans",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip03_The_idea_of_Ronaldo_secretly_flying_comm.jpg"
     },
     {
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip04_MrBeast_walks_a_stunned_Ronaldo_through_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-13T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "-VspesdFW8I",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I BURIED MYSELF ALIVE FOR 7 DAYS - MrBeast Explains Insanity",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip04_MrBeast_walks_a_stunned_Ronaldo_through_.jpg"
     },
     {
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip05_The_blunt_reveal_that_people_watched_him.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-13T15:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Shu_fGy2VwI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "189 MILLION VIEWS OF ME JUST SUFFERING - The Secret to Viral",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip05_The_blunt_reveal_that_people_watched_him.jpg"
@@ -1365,8 +1365,8 @@
       "filename": "I_Spent_14_Days_Exploring_The_Caribbean_clip01_A_funny_cautionary_tale_with_clear_setup.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Ate Raw Nutmeg and Got Weirdly High",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/I_Spent_14_Days_Exploring_The_Caribbean_clip01_A_funny_cautionary_tale_with_clear_setup.jpg"
@@ -1375,8 +1375,8 @@
       "filename": "I_Spent_14_Days_Exploring_The_Caribbean_clip02_Surprising_and_funny_reveal__he_eats_a_m.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T10:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Ate Iguana Without Knowing What It Was",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/I_Spent_14_Days_Exploring_The_Caribbean_clip02_Surprising_and_funny_reveal__he_eats_a_m.jpg"
@@ -1385,8 +1385,8 @@
       "filename": "I_Spent_14_Days_Exploring_The_Caribbean_clip03_Absurd_relatable_humor__racing_a_horse_w.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T11:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Raced a Horse While Bloated on Stream",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/I_Spent_14_Days_Exploring_The_Caribbean_clip03_Absurd_relatable_humor__racing_a_horse_w.jpg"
@@ -1395,8 +1395,8 @@
       "filename": "I_Spent_14_Days_Exploring_The_Caribbean_clip04_Raw_vulnerable_moment_where_his_body_shu.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Collapsed During My Caribbean Adventure",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/I_Spent_14_Days_Exploring_The_Caribbean_clip04_Raw_vulnerable_moment_where_his_body_shu.jpg"
@@ -1405,8 +1405,8 @@
       "filename": "I_Spent_14_Days_Exploring_The_Caribbean_clip05_High-stakes_payoff_moment__after_collaps.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T15:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Broke a World Record While Collapsing",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/I_Spent_14_Days_Exploring_The_Caribbean_clip05_High-stakes_payoff_moment__after_collaps.jpg"
@@ -1712,6 +1712,66 @@
       "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_1309_-_Naval_Ravika_clip09_A_philosophical_payoff_explaining_why_th.jpg"
     },
     {
+      "filename": "Marlon_FIFA_Creator_Cup_Highlights_clip01_NFL_star_Chad_Ochocinco_scores_a_pro-lev.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T16:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "NFL Star Chad Ochocinco: This Is My Sport Now",
+      "channel": "streamers",
+      "thumbnailPath": "/thumbnails/Marlon_FIFA_Creator_Cup_Highlights_clip01_NFL_star_Chad_Ochocinco_scores_a_pro-lev.jpg"
+    },
+    {
+      "filename": "Marlon_FIFA_Creator_Cup_Highlights_clip02_Raw_wince-inducing_moment_as_a_players_d.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T18:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Player Pops Dislocated Finger Back In Mid-Game",
+      "channel": "streamers",
+      "thumbnailPath": "/thumbnails/Marlon_FIFA_Creator_Cup_Highlights_clip02_Raw_wince-inducing_moment_as_a_players_d.jpg"
+    },
+    {
+      "filename": "Marlon_FIFA_Creator_Cup_Highlights_clip03_Surprising_stat_that_a_single_creators_3.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T19:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Creator Has More Followers Than Entire World Cup Nations",
+      "channel": "streamers",
+      "thumbnailPath": "/thumbnails/Marlon_FIFA_Creator_Cup_Highlights_clip03_Surprising_stat_that_a_single_creators_3.jpg"
+    },
+    {
+      "filename": "Marlon_FIFA_Creator_Cup_Highlights_clip04_The_whole_crowd_waits_for_IShowSpeeds_fi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T21:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "IShowSpeed Finally Scores and The Crowd Erupts",
+      "channel": "streamers",
+      "thumbnailPath": "/thumbnails/Marlon_FIFA_Creator_Cup_Highlights_clip04_The_whole_crowd_waits_for_IShowSpeeds_fi.jpg"
+    },
+    {
+      "filename": "Marlon_FIFA_Creator_Cup_Highlights_clip05_Marlon_completes_a_hat_trick_but_Speed_d.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-13T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Hat Trick Moment: MVP Gives Credit Where It's Due",
+      "channel": "streamers",
+      "thumbnailPath": "/thumbnails/Marlon_FIFA_Creator_Cup_Highlights_clip05_Marlon_completes_a_hat_trick_but_Speed_d.jpg"
+    },
+    {
+      "filename": "Marlon_FIFA_Creator_Cup_Highlights_clip06_Team_Speeds_chaotic_victory_chant_with_a.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T00:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "We Win The War: Victory Chant With a Broken Finger",
+      "channel": "streamers",
+      "thumbnailPath": "/thumbnails/Marlon_FIFA_Creator_Cup_Highlights_clip06_Team_Speeds_chaotic_victory_chant_with_a.jpg"
+    },
+    {
       "filename": "My_FULL_Interview_With_Piers_Morgan_clip01_Wild_insider_story_of_how_Ronaldo_played.mp4",
       "status": "posted",
       "youtubeId": "swiUEmf2xpY",
@@ -1773,10 +1833,10 @@
     },
     {
       "filename": "My_FULL_Interview_With_Piers_Morgan_clip07_Bold_claim_that_even_in_a_remote_Iceland.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-13T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "8tTuFdMcXuA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "IM MORE FAMOUS THAN TRUMP",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/My_FULL_Interview_With_Piers_Morgan_clip07_Bold_claim_that_even_in_a_remote_Iceland.jpg"
@@ -1785,8 +1845,8 @@
       "filename": "My_FULL_Interview_With_Piers_Morgan_clip08_Raw_surprising_confession_that_hed_trade.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T10:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I WISH I WASNT SO FAMOUS",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/My_FULL_Interview_With_Piers_Morgan_clip08_Raw_surprising_confession_that_hed_trade.jpg"
@@ -1965,8 +2025,8 @@
       "filename": "N3on_Tours_Maxx_Crosbys_20000000_Mansion_clip02_Blunt_funny_exchange_about_how_football_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "NFL Stars Reveal What They Actually Look Like Without Pads",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/N3on_Tours_Maxx_Crosbys_20000000_Mansion_clip02_Blunt_funny_exchange_about_how_football_.jpg"
@@ -1975,8 +2035,8 @@
       "filename": "N3on_Tours_Maxx_Crosbys_20000000_Mansion_clip03_Hilarious_story_of_a_teammate_jamming_hi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T10:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Teammate Thought a Wall Was a Harry Potter Portal and Failed",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/N3on_Tours_Maxx_Crosbys_20000000_Mansion_clip03_Hilarious_story_of_a_teammate_jamming_hi.jpg"
@@ -1985,8 +2045,8 @@
       "filename": "N3on_Tours_Maxx_Crosbys_20000000_Mansion_clip04_Raw_underdog_motivation__came_from_nothi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T11:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Two-Star Recruit Built a $20M Vegas Mansion From Nothing",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/N3on_Tours_Maxx_Crosbys_20000000_Mansion_clip04_Raw_underdog_motivation__came_from_nothi.jpg"
@@ -1995,8 +2055,8 @@
       "filename": "N3on_Tours_Maxx_Crosbys_20000000_Mansion_clip05_Absurd_TikTok_health_tip_about_getting_s.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Health Influencer Says Get Stung By Bees Daily for Immunity",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/N3on_Tours_Maxx_Crosbys_20000000_Mansion_clip05_Absurd_TikTok_health_tip_about_getting_s.jpg"
@@ -2005,8 +2065,8 @@
       "filename": "N3on_Tours_Maxx_Crosbys_20000000_Mansion_clip06_Quotable_provocative_line_about_loving_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-13T15:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Your Haters Are Your Unpaid Marketing Team and You Don't Know It",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/N3on_Tours_Maxx_Crosbys_20000000_Mansion_clip06_Quotable_provocative_line_about_loving_t.jpg"
