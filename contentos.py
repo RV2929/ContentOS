@@ -325,7 +325,22 @@ Reply ONLY with a valid JSON array in the same order as the clips:
                 description = (description + " " + tag).strip()
                 description_lower = description.lower()
 
-        result[filename] = {"title": title, "description": description}
+        # Whatever's left after stripping #Shorts/channel/speaker tags is the
+        # topical hashtags Claude generated for this clip — surface them
+        # separately so Instagram/TikTok captions (which don't reuse the full
+        # YouTube description) can pull a few in alongside their own tags.
+        exclude = {t.lower() for t in required_tags}
+        topical_hashtags = [
+            t for t in dict.fromkeys(re.findall(r"#\w+", description))
+            if t.lower() not in exclude
+        ]
+
+        result[filename] = {
+            "title": title,
+            "description": description,
+            "speaker_hashtag": speaker_hashtag,
+            "topical_hashtags": topical_hashtags,
+        }
 
     print(f"  Generated metadata for {len(result)} clip(s):")
     for meta in result.values():
@@ -388,7 +403,13 @@ def _schedule_clips(
         description = meta.get("description") or ("" if clip_label == "tiktok" else "#Shorts")
 
         pending_filenames.append(filename)
-        pending_meta[filename] = {"title": title, "description": description, "clip_index": clip_index}
+        pending_meta[filename] = {
+            "title": title,
+            "description": description,
+            "clip_index": clip_index,
+            "speaker_hashtag": meta.get("speaker_hashtag", ""),
+            "topical_hashtags": meta.get("topical_hashtags", []),
+        }
 
     if not pending_filenames:
         print("  No new clips to schedule.")
@@ -404,6 +425,8 @@ def _schedule_clips(
             "scheduledAt": scheduled_at.isoformat(),
             "title": meta["title"],
             "description": meta["description"],
+            "speakerHashtag": meta["speaker_hashtag"],
+            "topicalHashtags": meta["topical_hashtags"],
             "visibility": "public",
             "status": "pending",
             "bufferStatus": "pending",

@@ -733,7 +733,7 @@ app.post('/api/upload/buffer', (req, res) => {
 
   const entry = load()[filename] || {};
   const title  = entry.title || path.basename(filename, path.extname(filename)).replace(/_/g, ' ');
-  const caption = isTikTok ? buildTikTokCaption(title) : buildBufferCaption(title);
+  const caption = isTikTok ? buildTikTokCaption(title, entry) : buildBufferCaption(title, entry);
 
   const s = load();
   if (!s[filename]) s[filename] = {};
@@ -1043,14 +1043,37 @@ app.get('/api/connections/status', async (req, res) => {
   res.json({ youtube: yt.accounts, buffer });
 });
 
-function buildBufferCaption(title) {
-  const clean = title.split(' ').filter(w => !w.startsWith('#')).join(' ');
-  return `${clean}\n\n#Reels #Instagram #FYP #Viral`;
+// Pulls the speaker hashtag + a few topical hashtags (contentos.py's
+// generate_titles() stores these on the schedule.json entry) so Reels/TikTok
+// captions carry the same identity/topic tags as the YouTube description,
+// without dragging along all 6-10 of them (YouTube descriptions have more
+// room than Reels/TikTok captions).
+function pickHashtags(entry, maxTopical = 3) {
+  const topical = Array.isArray(entry.topicalHashtags) ? entry.topicalHashtags : [];
+  const tags = entry.speakerHashtag ? [entry.speakerHashtag, ...topical] : [...topical];
+  return tags.slice(0, (entry.speakerHashtag ? 1 : 0) + maxTopical);
 }
 
-function buildTikTokCaption(title) {
+function dedupeTags(tags) {
+  const seen = new Set();
+  return tags.filter(t => {
+    const key = t.toLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function buildBufferCaption(title, entry = {}) {
   const clean = title.split(' ').filter(w => !w.startsWith('#')).join(' ');
-  return `${clean}\n\n#TikTok #FYP #Viral`;
+  const tags = dedupeTags([...pickHashtags(entry), '#Reels', '#Instagram', '#FYP', '#Viral']);
+  return `${clean}\n\n${tags.join(' ')}`;
+}
+
+function buildTikTokCaption(title, entry = {}) {
+  const clean = title.split(' ').filter(w => !w.startsWith('#')).join(' ');
+  const tags = dedupeTags([...pickHashtags(entry), '#TikTok', '#FYP', '#Viral']);
+  return `${clean}\n\n${tags.join(' ')}`;
 }
 
 // platform: 'instagram' | 'tiktok' — routed to musichub29_ on Buffer, which is
@@ -1267,7 +1290,7 @@ async function runScheduler() {
           }
         } else {
           bufferInProgress.add(filename);
-          const caption = buildBufferCaption(title);
+          const caption = buildBufferCaption(title, entry);
 
           const s0 = loadSchedule();
           if (s0[filename]) { s0[filename].bufferStatus = 'uploading'; saveJSON(SCHEDULE_FILE, s0); }
@@ -1328,7 +1351,7 @@ async function runScheduler() {
       }
 
       tiktokBufferInProgress.add(filename);
-      const caption = buildTikTokCaption(title);
+      const caption = buildTikTokCaption(title, entry);
 
       const s0 = loadTikTokSchedule();
       if (s0[filename]) { s0[filename].bufferStatus = 'uploading'; saveJSON(TIKTOK_SCHEDULE_FILE, s0); }
