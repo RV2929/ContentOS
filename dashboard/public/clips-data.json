@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T16:59:03Z",
+  "lastUpdated": "2026-07-14T17:08:52Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -120,6 +120,86 @@
       "title": "",
       "channel": "podcast",
       "thumbnailPath": null
+    },
+    {
+      "filename": "19_preguntas_antes_del_Mundial_clip01_He_jokingly_claims_high_high_level_then_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-15T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "My English is High Level - Watch What Happens Next",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/19_preguntas_antes_del_Mundial_clip01_He_jokingly_claims_high_high_level_then_.jpg"
+    },
+    {
+      "filename": "19_preguntas_antes_del_Mundial_clip02_A_tight_setup-and-payoff_origin_story_ab.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-16T00:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Real Story Behind Ryan - You Won't Believe It",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/19_preguntas_antes_del_Mundial_clip02_A_tight_setup-and-payoff_origin_story_ab.jpg"
+    },
+    {
+      "filename": "19_preguntas_antes_del_Mundial_clip03_A_provocative_hot_take_naming_Fabi\u00e1n_Mer.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-16T02:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Palmer is Underrated - Hot Take Explained",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/19_preguntas_antes_del_Mundial_clip03_A_provocative_hot_take_naming_Fabi\u00e1n_Mer.jpg"
+    },
+    {
+      "filename": "19_preguntas_antes_del_Mundial_clip04_A_relatable_surprising_insight_that_a_yo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-16T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "My Top 3 Days Are Completely Normal",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/19_preguntas_antes_del_Mundial_clip04_A_relatable_surprising_insight_that_a_yo.jpg"
+    },
+    {
+      "filename": "19_preguntas_antes_del_Mundial_clip05_A_raw_vulnerable_admission_about_not_win.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-16T05:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "When Dembele Won Instead of Me",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/19_preguntas_antes_del_Mundial_clip05_A_raw_vulnerable_admission_about_not_win.jpg"
+    },
+    {
+      "filename": "19_preguntas_antes_del_Mundial_tiktok01_Opens_with_the_direct_question_of_how_th.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T18:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "How Ryan Became My Nickname: The Barcelona Restaurant Story",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/19_preguntas_antes_del_Mundial_tiktok01_Opens_with_the_direct_question_of_how_th.jpg"
+    },
+    {
+      "filename": "19_preguntas_antes_del_Mundial_tiktok02_Hook_is_a_direct_question_about_his_best.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T19:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "My Top 3 Best Days of the Year Ranked",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/19_preguntas_antes_del_Mundial_tiktok02_Hook_is_a_direct_question_about_his_best.jpg"
+    },
+    {
+      "filename": "19_preguntas_antes_del_Mundial_tiktok03_Hook_asks_if_hell_change_his_style_for_t.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-07-14T21:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "World Cup Haircut Plans and Lucky Superstitions Revealed",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/19_preguntas_antes_del_Mundial_tiktok03_Hook_asks_if_hell_change_his_style_for_t.jpg"
     },
     {
       "filename": "1_Neurosurgeon_How_to_Manifest_Anything__clip01_A_Stanford_neurosurgeon_flips_the_entire.mp4",
