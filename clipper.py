@@ -41,6 +41,10 @@ OUT_HEIGHT = 1920
 # (chest/shoulders visible). Increase toward 3.0 for more breathing room.
 FACE_CROP_EXPAND = 2.0
 
+# Brand watermark burned into every clip (bottom-left corner, below the caption band).
+WATERMARK_TEXT = "ContentOS29"
+WATERMARK_FONT = "/System/Library/Fonts/Supplemental/Arial.ttf"
+
 
 def _fmt_ass_time(seconds: float) -> str:
     """Format seconds as an ASS timestamp (H:MM:SS.CC)."""
@@ -323,12 +327,21 @@ def cut_and_crop(
         f"[bg][fg]overlay=(W-w)/2:(H-h)/2[ov]"
     )
 
+    # Brand watermark: small, semi-transparent text in the bottom-left corner,
+    # tucked under the caption band (Caption style MarginV=480 keeps captions
+    # well above the bottom edge, so this never overlaps them).
+    wm_font = WATERMARK_FONT.replace("\\", "\\\\").replace(":", "\\:")
+    video_fc += (
+        f";[ov]drawtext=text='{WATERMARK_TEXT}':fontfile='{wm_font}':fontsize=32:"
+        f"fontcolor=white@0.55:x=28:y=h-th-28:box=1:boxcolor=black@0.35:boxborderw=10[wm]"
+    )
+
     if ass_path:
         esc = ass_path.replace("\\", "\\\\").replace(":", "\\:")
-        video_fc += f";[ov]subtitles='{esc}':fontsdir='/Users/rajvi/Library/Fonts'[vout]"
+        video_fc += f";[wm]subtitles='{esc}':fontsdir='/Users/rajvi/Library/Fonts'[vout]"
         v_map = "[vout]"
     else:
-        v_map = "[ov]"
+        v_map = "[wm]"
 
     sfx = os.path.exists(_WHOOSH_PATH) and os.path.exists(_IMPACT_PATH)
     if sfx:

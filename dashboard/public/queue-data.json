@@ -693,11 +693,11 @@
       "id": "mrkun7teodwx",
       "url": "https://www.youtube.com/watch?v=vnCAzaF-FGA",
       "title": "",
-      "status": "scheduled",
+      "status": "done",
       "channel": "football",
       "addedAt": "2026-07-14T16:12:08.402Z",
       "startedAt": "2026-07-14T17:09:02.218Z",
-      "completedAt": "2026-07-14T17:10:28.498Z",
+      "completedAt": "2026-07-14T19:48:28.584Z",
       "clipsCount": 2,
       "batchId": "Spain_Locker_Room_Celebrates_Lamine_Yama",
       "error": null
@@ -836,13 +836,13 @@
       "id": "mrkx1x4xpefm",
       "url": "https://www.youtube.com/watch?v=d_b8EAKSrAw",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-07-14T17:19:33.633Z",
       "startedAt": "2026-07-14T18:32:20.595Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-14T18:41:33.413Z",
+      "clipsCount": 6,
+      "batchId": "Lamine_Yamal_The_60_Minutes_Interview",
       "error": null
     }
   ]
