@@ -844,6 +844,32 @@
       "clipsCount": 6,
       "batchId": "Lamine_Yamal_The_60_Minutes_Interview",
       "error": null
+    },
+    {
+      "id": "mrnlm0qb21jv",
+      "url": "https://www.youtube.com/watch?v=H3m1HmfXY3A",
+      "title": "",
+      "status": "failed",
+      "channel": "podcast",
+      "addedAt": "2026-07-16T14:22:34.547Z",
+      "startedAt": "2026-07-16T14:22:34.550Z",
+      "completedAt": "2026-07-16T14:26:50.495Z",
+      "clipsCount": 0,
+      "batchId": null,
+      "error": "pic/_base_client.py\", line 1194, in request\n    raise self._make_status_error_from_response(response) from None\nanthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go "
+    },
+    {
+      "id": "mrnluhd64a1o",
+      "url": "https://www.youtube.com/watch?v=H3m1HmfXY3A",
+      "title": "",
+      "status": "transcribing",
+      "channel": "podcast",
+      "addedAt": "2026-07-16T14:29:09.355Z",
+      "startedAt": "2026-07-16T14:29:09.358Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
