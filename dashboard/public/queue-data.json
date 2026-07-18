@@ -703,19 +703,6 @@
       "error": null
     },
     {
-      "id": "mrkuomn6ydsl",
-      "url": "https://www.youtube.com/watch?v=d_b8EAKSrAw",
-      "title": "",
-      "status": "failed",
-      "channel": "podcast",
-      "addedAt": "2026-07-14T16:13:14.274Z",
-      "startedAt": "2026-07-14T17:10:30.502Z",
-      "completedAt": "2026-07-14T17:10:32.122Z",
-      "clipsCount": 0,
-      "batchId": null,
-      "error": "\", self.Styles.ERROR)} {message}', *args, **kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1099, in trouble\n    raise DownloadError(message, ex"
-    },
-    {
       "id": "mrkuq89282k8",
       "url": "https://www.youtube.com/watch?v=t7NNFOnHTu8",
       "title": "",
@@ -846,29 +833,16 @@
       "error": null
     },
     {
-      "id": "mrnlm0qb21jv",
-      "url": "https://www.youtube.com/watch?v=H3m1HmfXY3A",
-      "title": "",
-      "status": "failed",
-      "channel": "podcast",
-      "addedAt": "2026-07-16T14:22:34.547Z",
-      "startedAt": "2026-07-16T14:22:34.550Z",
-      "completedAt": "2026-07-16T14:26:50.495Z",
-      "clipsCount": 0,
-      "batchId": null,
-      "error": "pic/_base_client.py\", line 1194, in request\n    raise self._make_status_error_from_response(response) from None\nanthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go "
-    },
-    {
       "id": "mrnluhd64a1o",
       "url": "https://www.youtube.com/watch?v=H3m1HmfXY3A",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-07-16T14:29:09.355Z",
       "startedAt": "2026-07-16T14:29:09.358Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-16T14:36:36.986Z",
+      "clipsCount": 6,
+      "batchId": "Everything_Revealed_-_My_Most_Personal_I",
       "error": null
     }
   ]

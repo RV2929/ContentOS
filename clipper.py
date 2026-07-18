@@ -7,6 +7,7 @@ exports MP4s to the clips/ folder.
 
 import sys
 import os
+import re
 import json
 import subprocess
 import tempfile
@@ -41,9 +42,33 @@ OUT_HEIGHT = 1920
 # (chest/shoulders visible). Increase toward 3.0 for more breathing room.
 FACE_CROP_EXPAND = 2.0
 
-# Brand watermark burned into every clip (bottom-left corner, below the caption band).
+# Brand watermark burned into every clip, three times (top/middle/bottom) so
+# cropping any one band still leaves the mark visible elsewhere in the frame.
 WATERMARK_TEXT = "ContentOS29"
 WATERMARK_FONT = "/System/Library/Fonts/Supplemental/Arial.ttf"
+
+
+def _watermark_filter(in_label: str, out_label: str) -> str:
+    """
+    Chain three subtle drawtext overlays (top, vertical-center, bottom) of
+    WATERMARK_TEXT onto `in_label`, producing `out_label`.
+
+    All three are horizontally centered and use the same faint styling as
+    before (fontsize 32, white@0.55, black@0.35 box). Top sits at y=28,
+    clear of the Title style's MarginV=420 band; bottom sits at y=h-th-28,
+    clear of the Caption style's MarginV=480 band; middle is vertically
+    centered, well clear of both.
+    """
+    wm_font = WATERMARK_FONT.replace("\\", "\\\\").replace(":", "\\:")
+    base = (
+        f"drawtext=text='{WATERMARK_TEXT}':fontfile='{wm_font}':fontsize=32:"
+        f"fontcolor=white@0.55:box=1:boxcolor=black@0.35:boxborderw=10:x=(w-tw)/2"
+    )
+    return (
+        f"[{in_label}]{base}:y=28[wm1];"
+        f"[wm1]{base}:y=(h-th)/2[wm2];"
+        f"[wm2]{base}:y=h-th-28[{out_label}]"
+    )
 
 
 def _fmt_ass_time(seconds: float) -> str:
@@ -173,6 +198,31 @@ def _build_ass(words: list[dict], title: str, clip_start: float, clip_end: float
     return "\n".join(events) + "\n"
 
 
+# ASS style for the TikTok commentary intro — a single centered, auto-wrapped
+# block of text (libass handles wrapping; raw ffmpeg drawtext does not).
+_INTRO_ASS_HEADER = f"""\
+[Script Info]
+ScriptType: v4.00+
+PlayResX: {OUT_WIDTH}
+PlayResY: {OUT_HEIGHT}
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Commentary,Arial,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,4,2,5,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+"""
+
+
+def _build_intro_ass(commentary_text: str, duration: float) -> str:
+    """Return ASS content with the commentary line centered on screen for the intro's duration."""
+    text = _ass_escape(commentary_text.strip())
+    dialogue = f"Dialogue: 0,{_fmt_ass_time(0)},{_fmt_ass_time(duration)},Commentary,,0,0,0,,{text}"
+    return _INTRO_ASS_HEADER + dialogue + "\n"
+
+
 def _ensure_sounds() -> bool:
     """Generate whoosh and impact WAV files into SOUNDS_DIR if they don't exist."""
     os.makedirs(SOUNDS_DIR, exist_ok=True)
@@ -263,6 +313,71 @@ def _detect_face_x(video_path: str, start: float, end: float) -> float:
     return face_xs[mid] if len(face_xs) % 2 else (face_xs[mid - 1] + face_xs[mid]) / 2
 
 
+def _probe_duration(path: str) -> float:
+    """Return a media file's duration in seconds by parsing ffmpeg's stderr.
+
+    imageio_ffmpeg only bundles the ffmpeg binary (no ffprobe), so this reads
+    the "Duration: HH:MM:SS.ss" line ffmpeg always prints for a valid input.
+    """
+    result = subprocess.run([FFMPEG, "-i", path], capture_output=True, text=True)
+    m = re.search(r"Duration:\s*(\d+):(\d+):(\d+\.\d+)", result.stderr)
+    if not m:
+        raise RuntimeError(f"Could not determine duration of {path}")
+    h, mnt, s = m.groups()
+    return int(h) * 3600 + int(mnt) * 60 + float(s)
+
+
+def _probe_fps(video_path: str) -> float:
+    """Return the source video's frame rate, so a generated intro can match it exactly."""
+    if _OPENCV:
+        cap = _cv2.VideoCapture(video_path)
+        fps = cap.get(_cv2.CAP_PROP_FPS) or 30.0
+        cap.release()
+        return fps
+    return 30.0
+
+
+def _bg_fg_filters(video_path: str, face_x: float) -> tuple[str, str]:
+    """
+    Shared background/foreground filter strings used by both the main clip
+    and the commentary intro, so the intro's frozen frame lines up visually
+    with how the clip itself will be cropped.
+
+    bg = full-frame cover-scaled + blurred (fills the 9:16 canvas).
+    fg = face-aware crop, scaled to fit, overlaid centred on the blurred bg.
+    """
+    bg_filter = (
+        f"scale={OUT_WIDTH}:{OUT_HEIGHT}:force_original_aspect_ratio=increase:flags=lanczos,"
+        f"crop={OUT_WIDTH}:{OUT_HEIGHT},"
+        f"boxblur=20:5"
+    )
+
+    if _OPENCV:
+        _cap = _cv2.VideoCapture(video_path)
+        _vid_w = int(_cap.get(_cv2.CAP_PROP_FRAME_WIDTH))
+        _vid_h = int(_cap.get(_cv2.CAP_PROP_FRAME_HEIGHT))
+        _cap.release()
+
+        _tight_w = (int(_vid_h * 9 / 16) // 2) * 2
+        _crop_w = (min(int(_tight_w * FACE_CROP_EXPAND), _vid_w) // 2) * 2
+        _crop_x = max(0, min(_vid_w - _crop_w, int(face_x * _vid_w - _crop_w / 2)))
+
+        _sf = min(OUT_WIDTH / _crop_w, OUT_HEIGHT / _vid_h)
+        _sw = (int(_crop_w * _sf) // 2) * 2
+        _sh = (int(_vid_h * _sf) // 2) * 2
+
+        fg_filter = f"crop={_crop_w}:ih:{_crop_x}:0,scale={_sw}:{_sh}:flags=lanczos"
+    else:
+        _er = 9 / 16 * FACE_CROP_EXPAND
+        _ew = f"trunc(min(iw,ih*{_er})/2)*2"
+        fg_filter = (
+            f"crop={_ew}:ih:(iw-{_ew})/2:0,"
+            f"scale={OUT_WIDTH}:{OUT_HEIGHT}:force_original_aspect_ratio=decrease:flags=lanczos"
+        )
+
+    return bg_filter, fg_filter
+
+
 def cut_and_crop(
     video_path: str,
     start: float,
@@ -288,36 +403,7 @@ def cut_and_crop(
     if duration <= 0:
         raise ValueError(f"Invalid clip: start={start} >= end={end}")
 
-    # Background: scale to fill 9:16 (cover), then blur.
-    bg_filter = (
-        f"scale={OUT_WIDTH}:{OUT_HEIGHT}:force_original_aspect_ratio=increase:flags=lanczos,"
-        f"crop={OUT_WIDTH}:{OUT_HEIGHT},"
-        f"boxblur=20:5"
-    )
-
-    # Foreground: face-aware crop, scaled to fit (no padding — overlaid on blurred bg).
-    if _OPENCV:
-        _cap = _cv2.VideoCapture(video_path)
-        _vid_w = int(_cap.get(_cv2.CAP_PROP_FRAME_WIDTH))
-        _vid_h = int(_cap.get(_cv2.CAP_PROP_FRAME_HEIGHT))
-        _cap.release()
-
-        _tight_w = (int(_vid_h * 9 / 16) // 2) * 2
-        _crop_w = (min(int(_tight_w * FACE_CROP_EXPAND), _vid_w) // 2) * 2
-        _crop_x = max(0, min(_vid_w - _crop_w, int(face_x * _vid_w - _crop_w / 2)))
-
-        _sf = min(OUT_WIDTH / _crop_w, OUT_HEIGHT / _vid_h)
-        _sw = (int(_crop_w * _sf) // 2) * 2
-        _sh = (int(_vid_h * _sf) // 2) * 2
-
-        fg_filter = f"crop={_crop_w}:ih:{_crop_x}:0,scale={_sw}:{_sh}:flags=lanczos"
-    else:
-        _er = 9 / 16 * FACE_CROP_EXPAND
-        _ew = f"trunc(min(iw,ih*{_er})/2)*2"
-        fg_filter = (
-            f"crop={_ew}:ih:(iw-{_ew})/2:0,"
-            f"scale={OUT_WIDTH}:{OUT_HEIGHT}:force_original_aspect_ratio=decrease:flags=lanczos"
-        )
+    bg_filter, fg_filter = _bg_fg_filters(video_path, face_x)
 
     # Build filter_complex: split source → blur bg + crop fg → overlay centred.
     video_fc = (
@@ -327,14 +413,9 @@ def cut_and_crop(
         f"[bg][fg]overlay=(W-w)/2:(H-h)/2[ov]"
     )
 
-    # Brand watermark: small, semi-transparent text in the bottom-left corner,
-    # tucked under the caption band (Caption style MarginV=480 keeps captions
-    # well above the bottom edge, so this never overlaps them).
-    wm_font = WATERMARK_FONT.replace("\\", "\\\\").replace(":", "\\:")
-    video_fc += (
-        f";[ov]drawtext=text='{WATERMARK_TEXT}':fontfile='{wm_font}':fontsize=32:"
-        f"fontcolor=white@0.55:x=28:y=h-th-28:box=1:boxcolor=black@0.35:boxborderw=10[wm]"
-    )
+    # Brand watermark: small, semi-transparent text at top/middle/bottom,
+    # clear of the Title (MarginV=420) and Caption (MarginV=480) bands.
+    video_fc += ";" + _watermark_filter("ov", "wm")
 
     if ass_path:
         esc = ass_path.replace("\\", "\\\\").replace(":", "\\:")
@@ -394,11 +475,135 @@ def cut_and_crop(
     return output_path
 
 
-def _generate_thumbnail(clip_path: str) -> None:
-    """Extract a frame at 1 s from the finished clip and save as JPG for the dashboard."""
+def _build_intro_clip(
+    video_path: str,
+    clip_start: float,
+    audio_path: str,
+    commentary_text: str,
+    output_path: str,
+    face_x: float = 0.5,
+) -> str:
+    """
+    Render a short intro segment for TikTok clips: a frozen frame from the
+    clip's start (cropped/blurred the same way the clip itself will be),
+    the spoken commentary audio, the commentary burned in as centered text,
+    and the brand watermark.
+
+    Encoded with the same codec/resolution/fps as the main clip so it can be
+    concatenated cleanly (see _concat_intro_and_clip).
+    """
+    audio_dur = _probe_duration(audio_path)
+    intro_dur = round(audio_dur + 0.4, 2)  # small pad so speech doesn't get cut off
+    fps = _probe_fps(video_path)
+
+    fd, frame_path = tempfile.mkstemp(suffix=".png", prefix="contentos_introframe_")
+    os.close(fd)
+    fr = subprocess.run(
+        [FFMPEG, "-y", "-ss", str(clip_start), "-i", video_path, "-vframes", "1", frame_path],
+        capture_output=True, text=True,
+    )
+    if fr.returncode != 0 or not os.path.exists(frame_path) or os.path.getsize(frame_path) == 0:
+        if os.path.exists(frame_path):
+            os.unlink(frame_path)
+        raise RuntimeError(f"FFmpeg failed extracting intro frame:\n{fr.stderr[-1000:]}")
+
+    try:
+        bg_filter, fg_filter = _bg_fg_filters(video_path, face_x)
+
+        video_fc = (
+            f"[0:v]split=2[bg_src][fg_src];"
+            f"[bg_src]{bg_filter}[bg];"
+            f"[fg_src]{fg_filter}[fg];"
+            f"[bg][fg]overlay=(W-w)/2:(H-h)/2[ov]"
+        )
+
+        video_fc += ";" + _watermark_filter("ov", "wm")
+
+        fd, ass_path = tempfile.mkstemp(suffix=".ass", prefix="contentos_intro_")
+        with os.fdopen(fd, "w", encoding="utf-8") as af:
+            af.write(_build_intro_ass(commentary_text, intro_dur))
+
+        try:
+            esc = ass_path.replace("\\", "\\\\").replace(":", "\\:")
+            video_fc += f";[wm]subtitles='{esc}':fontsdir='/Users/rajvi/Library/Fonts'[vout]"
+
+            cmd = [
+                FFMPEG, "-y",
+                "-loop", "1", "-i", frame_path,
+                "-i", audio_path,
+                "-t", str(intro_dur),
+                "-r", str(fps),
+                "-filter_complex", video_fc,
+                "-map", "[vout]",
+                "-map", "1:a",
+                "-c:v", "libx264",
+                "-preset", "fast",
+                "-crf", "23",
+                "-pix_fmt", "yuv420p",
+                "-c:a", "aac",
+                "-b:a", "128k",
+                "-ar", "44100",
+                "-ac", "2",
+                "-movflags", "+faststart",
+                output_path,
+            ]
+            result = subprocess.run(cmd, capture_output=True, text=True)
+            if result.returncode != 0:
+                raise RuntimeError(f"FFmpeg failed building intro:\n{result.stderr[-1000:]}")
+        finally:
+            if os.path.exists(ass_path):
+                os.unlink(ass_path)
+    finally:
+        os.unlink(frame_path)
+
+    return output_path
+
+
+def _concat_intro_and_clip(intro_path: str, clip_path: str, output_path: str) -> str:
+    """
+    Prepend intro_path onto clip_path. Both are encoded with identical codec
+    params, so a fast stream-copy concat is tried first; falls back to a
+    re-encoding concat filter if stream-copy ever produces a bad file (e.g.
+    an unexpected param mismatch).
+    """
+    fd, list_path = tempfile.mkstemp(suffix=".txt", prefix="contentos_concat_")
+    with os.fdopen(fd, "w", encoding="utf-8") as f:
+        f.write(f"file '{intro_path}'\nfile '{clip_path}'\n")
+
+    try:
+        cmd = [FFMPEG, "-y", "-f", "concat", "-safe", "0", "-i", list_path, "-c", "copy", output_path]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+    finally:
+        os.unlink(list_path)
+
+    if result.returncode != 0 or not os.path.exists(output_path) or os.path.getsize(output_path) == 0:
+        cmd = [
+            FFMPEG, "-y",
+            "-i", intro_path, "-i", clip_path,
+            "-filter_complex", "[0:v][0:a][1:v][1:a]concat=n=2:v=1:a=1[v][a]",
+            "-map", "[v]", "-map", "[a]",
+            "-c:v", "libx264", "-preset", "fast", "-crf", "23",
+            "-c:a", "aac", "-b:a", "128k",
+            "-movflags", "+faststart",
+            output_path,
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode != 0:
+            raise RuntimeError(f"FFmpeg failed concatenating intro+clip:\n{result.stderr[-1000:]}")
+
+    return output_path
+
+
+def _generate_thumbnail(clip_path: str, name_hint: str | None = None) -> None:
+    """Extract a frame at 1 s from the finished clip and save as JPG for the dashboard.
+
+    name_hint overrides the filename stem used for the thumbnail — needed when
+    clip_path is a temporary pre-intro file whose name won't match the final
+    published clip filename the dashboard looks up.
+    """
     try:
         os.makedirs(THUMBNAILS_DIR, exist_ok=True)
-        stem = os.path.splitext(os.path.basename(clip_path))[0]
+        stem = os.path.splitext(name_hint or os.path.basename(clip_path))[0]
         thumb_path = os.path.join(THUMBNAILS_DIR, f"{stem}.jpg")
         cmd = [
             FFMPEG, "-y",
@@ -477,9 +682,40 @@ def process_clips(
             with os.fdopen(fd, "w", encoding="utf-8") as af:
                 af.write(ass_content)
 
+        # TikTok clips optionally get a spoken-commentary intro prepended (see
+        # commentary.py) — gated to this clip_label so YouTube/Instagram clips
+        # are unaffected. Cut the main clip to a temp path first so the intro
+        # can be spliced in front of it before it lands at its final filename.
+        commentary_text = clip.get("commentary_text")
+        commentary_audio = clip.get("commentary_audio_path")
+        add_intro = (
+            clip_label == "tiktok" and commentary_text and commentary_audio
+            and os.path.exists(commentary_audio)
+        )
+
+        raw_path = out_path
+        intro_path = None
+        if add_intro:
+            fd, raw_path = tempfile.mkstemp(suffix=".mp4", prefix=f"contentos_rawclip{i:02d}_")
+            os.close(fd)
+
         try:
-            cut_and_crop(video_path, start, end, out_path, ass_path=ass_path, face_x=face_x)
-            _generate_thumbnail(out_path)
+            cut_and_crop(video_path, start, end, raw_path, ass_path=ass_path, face_x=face_x)
+            _generate_thumbnail(raw_path, name_hint=filename)
+
+            if add_intro:
+                try:
+                    fd, intro_path = tempfile.mkstemp(suffix=".mp4", prefix=f"contentos_intro{i:02d}_")
+                    os.close(fd)
+                    _build_intro_clip(
+                        video_path, start, commentary_audio, commentary_text, intro_path, face_x=face_x,
+                    )
+                    _concat_intro_and_clip(intro_path, raw_path, out_path)
+                    print(f"    ✓ Added commentary intro: \"{commentary_text[:60]}\"")
+                except (RuntimeError, ValueError) as e:
+                    print(f"    ⚠ Intro generation failed ({e}) — using clip without intro")
+                    os.replace(raw_path, out_path)
+
             size_mb = os.path.getsize(out_path) / (1024 * 1024)
             print(f"    ✓ Saved ({size_mb:.1f} MB)")
             output_paths.append(out_path)
@@ -488,6 +724,12 @@ def process_clips(
         finally:
             if ass_path and os.path.exists(ass_path):
                 os.unlink(ass_path)
+            if intro_path and os.path.exists(intro_path):
+                os.unlink(intro_path)
+            if add_intro and os.path.exists(raw_path) and raw_path != out_path:
+                os.unlink(raw_path)
+            if commentary_audio and os.path.exists(commentary_audio):
+                os.unlink(commentary_audio)
 
     return output_paths
 
