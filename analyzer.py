@@ -31,6 +31,22 @@ def _total_duration(transcript: dict) -> float:
     return segs[-1].get("end", 0.0)
 
 
+def _excerpt_for_range(transcript: dict, start: float, end: float) -> str:
+    """Flatten transcript segments overlapping [start, end] into a plain-text excerpt.
+
+    Used to ground commentary generation in what was actually said in a specific
+    clip, rather than just its title/reason.
+    """
+    lines = []
+    for seg in transcript.get("segments", []):
+        s = seg.get("start", 0)
+        e = seg.get("end", 0)
+        text = seg.get("text", "").strip()
+        if text and e > start and s < end:
+            lines.append(text)
+    return " ".join(lines)
+
+
 CLIPS_MIN_COUNT = 3
 CLIPS_MAX_COUNT = 10
 
@@ -292,6 +308,7 @@ Format:
             "title": title,
             "reason": reason,
             "hook_type": hook_type,
+            "transcript_excerpt": _excerpt_for_range(transcript, s, e),
         })
 
     if len(valid) > TIKTOK_MAX_COUNT:

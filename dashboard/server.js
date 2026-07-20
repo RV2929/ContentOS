@@ -79,6 +79,7 @@ const PERFORMANCE_COLLECTOR   = path.join(CONTENTOS_DIR, 'collect_performance.py
 const PERFORMANCE_STATE_FILE  = path.join(__dirname, 'performance-state.json');
 const ALERTS_LOG_FILE         = path.join(__dirname, 'alerts.log');
 const CONNECTION_STATE_FILE   = path.join(__dirname, 'connection-check-state.json');
+const PIPELINE_ERROR_STATE_FILE = path.join(__dirname, 'pipeline-error-check-state.json');
 const PERFORMANCE_LOG_FILE    = path.join(__dirname, 'performance.log');
 const PERFORMANCE_JSONL_FILE  = path.join(__dirname, 'performance.jsonl');
 
@@ -171,7 +172,7 @@ async function syncToGitHub(label) {
       JSON.stringify({ lastUpdated: new Date().toISOString(), clips }, null, 2),
     );
 
-    await execAsync('git add public/clips-data.json public/thumbnails/ public/queue-data.json performance.jsonl', { cwd: __dirname });
+    await execAsync('git add public/clips-data.json public/thumbnails/ public/queue-data.json', { cwd: __dirname });
     try {
       await execAsync(`git commit -m "sync: ${label}"`, { cwd: __dirname });
       await execAsync('git push', { cwd: __dirname });
@@ -1043,6 +1044,13 @@ app.get('/api/connections/status', async (req, res) => {
   res.json({ youtube: yt.accounts, buffer });
 });
 
+// Live pipeline-error status for the dashboard's processing-error banner. Kept
+// separate from the daily alerts.log check below — this just reads the queue
+// already on disk, so polling it every 60s while the dashboard is open is free.
+app.get('/api/pipeline/errors', (req, res) => {
+  res.json({ errors: getRecentPipelineErrors() });
+});
+
 // Pulls the speaker hashtag + a few topical hashtags (contentos.py's
 // generate_titles() stores these on the schedule.json entry) so Reels/TikTok
 // captions carry the same identity/topic tags as the YouTube description,
@@ -1196,6 +1204,48 @@ function maybeRunConnectionCheck() {
     .then(() => console.log(`[connections] Check finished for ${today}`))
     .catch(err => console.error(`[connections] Check failed: ${err.message}`))
     .finally(() => { connectionCheckRunning = false; });
+}
+
+// ── Daily pipeline-error check ──────────────────────────────────────────────
+// Scans the queue for videos whose processing failed (contentos.py raised
+// during the pipeline, caught by the spawn handler that sets status:'failed'
+// + error) in the last 24h — so a failure surfaces in alerts.log and on the
+// dashboard banner within a day instead of sitting silently in the queue
+// until someone happens to check it manually. Gated via
+// pipeline-error-check-state.json the same way maybeRunConnectionCheck gates
+// on connection-check-state.json.
+
+function getRecentPipelineErrors() {
+  const cutoff = Date.now() - 24 * 60 * 60 * 1000;
+  return loadQueue().queue.filter(item => {
+    if (!item.error) return false;
+    const at = item.completedAt ? Date.parse(item.completedAt) : NaN;
+    return !Number.isNaN(at) && at >= cutoff;
+  });
+}
+
+async function runPipelineErrorCheck() {
+  for (const item of getRecentPipelineErrors()) {
+    appendAlert(`Video processing failed for "${item.url}" (queue id ${item.id}): ${item.error}`);
+  }
+}
+
+let pipelineErrorCheckRunning = false;
+
+function maybeRunPipelineErrorCheck() {
+  if (pipelineErrorCheckRunning) return;
+  const today = todayLocalDateString();
+  const state = loadJSON(PIPELINE_ERROR_STATE_FILE, {});
+  if (state.lastCheckedDate === today) return;
+
+  pipelineErrorCheckRunning = true;
+  saveJSON(PIPELINE_ERROR_STATE_FILE, { ...state, lastCheckedDate: today });
+  console.log(`[pipeline] Running daily processing-error check for ${today}…`);
+
+  runPipelineErrorCheck()
+    .then(() => console.log(`[pipeline] Check finished for ${today}`))
+    .catch(err => console.error(`[pipeline] Check failed: ${err.message}`))
+    .finally(() => { pipelineErrorCheckRunning = false; });
 }
 
 // ── Background scheduler ──────────────────────────────────────────────────────
@@ -1384,6 +1434,7 @@ async function runScheduler() {
 
   maybeRunPerformanceCollector();
   maybeRunConnectionCheck();
+  maybeRunPipelineErrorCheck();
 }
 
 // Check 5 s after startup then every 60 s

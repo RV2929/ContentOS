@@ -84,6 +84,12 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
         tiktok_clips = find_tiktok_clips(transcript_path)
         if tiktok_clips:
             print(f"  → {len(tiktok_clips)} TikTok clip(s) identified")
+
+            # Original spoken commentary intro — helps clear TikTok's Creator
+            # Rewards "adds new ideas" bar on top of the reused source footage.
+            print("  Generating commentary intros…")
+            from commentary import add_commentary
+            tiktok_clips = add_commentary(tiktok_clips)
         else:
             print("  → no segment could sustain a full ~62s TikTok clip")
 

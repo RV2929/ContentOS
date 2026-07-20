@@ -574,6 +574,7 @@
 <body>
 
 <div class="connection-banner hidden" id="connection-banner"></div>
+<div class="connection-banner hidden" id="pipeline-error-banner"></div>
 
 <header>
   <div class="logo">
@@ -1150,6 +1151,7 @@ async function loadData() {
   ]);
   await loadYtStatus();
   await loadConnectionStatus();
+  await loadPipelineErrorStatus();
   updateStats();
   renderClips();
 }
@@ -1271,6 +1273,28 @@ async function loadConnectionStatus() {
   const banner = document.getElementById('connection-banner');
   if (problems.length) {
     banner.textContent = `⚠ ${problems.join(' · ')} — reconnect in ⚙ Accounts`;
+    banner.classList.remove('hidden');
+  } else {
+    banner.classList.add('hidden');
+  }
+}
+
+// Live processing-error banner — polled on the same 60s cadence as
+// loadConnectionStatus, independent of the once-a-day alerts.log check the
+// server runs in the background (maybeRunPipelineErrorCheck in server.js).
+async function loadPipelineErrorStatus() {
+  let data;
+  try {
+    data = await api('GET', '/api/pipeline/errors');
+  } catch {
+    return; // A failed health check shouldn't break the rest of the dashboard
+  }
+
+  const errors = data.errors || [];
+  const banner = document.getElementById('pipeline-error-banner');
+  if (errors.length) {
+    const label = errors.length === 1 ? '1 video' : `${errors.length} videos`;
+    banner.textContent = `⚠ ${label} failed processing in the last 24h — check the queue for details`;
     banner.classList.remove('hidden');
   } else {
     banner.classList.add('hidden');
