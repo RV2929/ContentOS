@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T20:52:09.272Z",
+  "lastUpdated": "2026-07-20T21:49:00.922Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -783,10 +783,10 @@
     },
     {
       "filename": "Dr_Joe_Dispenza_Rewire_Your_Brain_Heal_Y_clip05_Astonishing_personal_story_of_a_muscular.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-20T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "O7uxSusFqOc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Man Arrived In Wheelchair Left Walking Days Later",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_Rewire_Your_Brain_Heal_Y_clip05_Astonishing_personal_story_of_a_muscular.jpg"
@@ -1293,10 +1293,10 @@
     },
     {
       "filename": "HIGHLIGHTS__Spain_vs_Argentina__FIFA_Wor_clip01_Pure_commentator_eruption_of_joy_after_a.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-20T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "2absimGNtz0",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Commentator Loses It After Pure Football Brilliance",
       "channel": "football",
       "thumbnailPath": "/thumbnails/HIGHLIGHTS__Spain_vs_Argentina__FIFA_Wor_clip01_Pure_commentator_eruption_of_joy_after_a.jpg"
