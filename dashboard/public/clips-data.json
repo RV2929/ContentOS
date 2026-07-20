@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T18:40:07.000Z",
+  "lastUpdated": "2026-07-20T18:40:10.458Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -755,8 +755,8 @@
       "filename": "Dr_Joe_Dispenza_Rewire_Your_Brain_Heal_Y_clip02_Tight_setup-and-payoff_healing_story_95_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-20T18:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "9.5 Inch Tumor Vanished After Chemo Failed Completely",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_Rewire_Your_Brain_Heal_Y_clip02_Tight_setup-and-payoff_healing_story_95_.jpg"
@@ -1165,8 +1165,8 @@
       "filename": "Football_Moments_That_Will_Never_Be_Repe_clip06_A_manager_gifting_the_opposition_a_goal_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-20T18:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Manager Lets Other Team Score for Pure Fairness Insane",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Football_Moments_That_Will_Never_Be_Repe_clip06_A_manager_gifting_the_opposition_a_goal_.jpg"
