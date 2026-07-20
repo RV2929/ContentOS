@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T08:36:16.660Z",
+  "lastUpdated": "2026-07-20T08:36:23.749Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1043,10 +1043,10 @@
     },
     {
       "filename": "Football_Moments_That_Will_Never_Be_Repe_clip01_Escalating_countdown_of_Lewandowski_scor.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-20T08:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "MNIzJ-YNT4w",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Five Goals in Nine Minutes Off the Bench Absolutely Insane",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Football_Moments_That_Will_Never_Be_Repe_clip01_Escalating_countdown_of_Lewandowski_scor.jpg"
@@ -1513,10 +1513,10 @@
     },
     {
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip01_Raw_defiant_vulnerability_where_Goggins_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-20T08:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "eXCOHmkEqds",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Was the Lowest Form on Earth | David Goggins",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip01_Raw_defiant_vulnerability_where_Goggins_.jpg"
@@ -3333,10 +3333,10 @@
     },
     {
       "filename": "Spains_young_stars_ready_to_rule_world_f_clip01_Bold_prediction_naming_Spains_young_star.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-20T08:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "Dul1Rl0vP-s",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Spain's Young Stars Will RULE Football for a Decade",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Spains_young_stars_ready_to_rule_world_f_clip01_Bold_prediction_naming_Spains_young_star.jpg"
