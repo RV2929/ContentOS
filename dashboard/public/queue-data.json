@@ -940,13 +940,13 @@
       "id": "mrtfmxubcf76",
       "url": "https://www.youtube.com/watch?v=90lLQVZe2Nc",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-07-20T16:21:56.819Z",
       "startedAt": "2026-07-20T16:21:56.823Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-20T16:47:18.323Z",
+      "clipsCount": 7,
+      "batchId": "Dr_Joe_Dispenza_Rewire_Your_Brain_Heal_Y",
       "error": null
     }
   ]
