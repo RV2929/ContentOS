@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T23:01:30.612Z",
+  "lastUpdated": "2026-07-20T23:18:24.653Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -795,8 +795,8 @@
       "filename": "Dr_Joe_Dispenza_Rewire_Your_Brain_Heal_Y_clip06_Jaw-dropping_claim_of_regrowing_surgical.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-20T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Woman Regrew Her Surgically Removed Organ Completely",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_Rewire_Your_Brain_Heal_Y_clip06_Jaw-dropping_claim_of_regrowing_surgical.jpg"
@@ -1305,8 +1305,8 @@
       "filename": "HIGHLIGHTS__Spain_vs_Argentina__FIFA_Wor_clip02_Gushing_praise_calling_it_effortless_and.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-20T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "When Training Ground Perfection Meets World Cup Glory",
       "channel": "football",
       "thumbnailPath": "/thumbnails/HIGHLIGHTS__Spain_vs_Argentina__FIFA_Wor_clip02_Gushing_praise_calling_it_effortless_and.jpg"
