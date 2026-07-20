@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T10:13:15.202Z",
+  "lastUpdated": "2026-07-20T10:13:21.121Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -3343,10 +3343,10 @@
     },
     {
       "filename": "Spains_young_stars_ready_to_rule_world_f_clip02_Passionate_football_won_tonight_verdict_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-20T10:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "DlZgoldhkNk",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Attacking Football ALWAYS Wins Championships",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Spains_young_stars_ready_to_rule_world_f_clip02_Passionate_football_won_tonight_verdict_.jpg"
