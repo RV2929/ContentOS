@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T16:47:21.363Z",
+  "lastUpdated": "2026-07-20T17:01:02.731Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -433,10 +433,10 @@
     },
     {
       "filename": "AN_ABSOLUTE_DISGRACE_Jeff__Gabby_BLAST_A_clip06_Blistering_quotable_rant_mocking_FIFA_an.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-20T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Y-KZqRc00oc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "FIFA Called Out as Absolute Disgrace by Experts",
       "channel": "football",
       "thumbnailPath": "/thumbnails/AN_ABSOLUTE_DISGRACE_Jeff__Gabby_BLAST_A_clip06_Blistering_quotable_rant_mocking_FIFA_an.jpg"
@@ -743,10 +743,10 @@
     },
     {
       "filename": "Dr_Joe_Dispenza_Rewire_Your_Brain_Heal_Y_clip01_Opens_with_a_direct_question_hook_and_a_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-20T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "kGtJfOaWZpI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "10 Minutes of Gratitude Changes Everything According to Dr Joe",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_Rewire_Your_Brain_Heal_Y_clip01_Opens_with_a_direct_question_hook_and_a_.jpg"
@@ -4423,10 +4423,10 @@
     },
     {
       "filename": "The_Lost_Art_of_Reinventing_Yourself_-_M_clip06_Counterintuitive_career_gamble__turning_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-20T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "OC_TjlRF5ss",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Said No To 14 Million Dollars Career Gamble",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Lost_Art_of_Reinventing_Yourself_-_M_clip06_Counterintuitive_career_gamble__turning_.jpg"
