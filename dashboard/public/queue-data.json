@@ -935,6 +935,19 @@
       "clipsCount": 3,
       "batchId": "HIGHLIGHTS__Spain_vs_Argentina__FIFA_Wor",
       "error": null
+    },
+    {
+      "id": "mrtfmxubcf76",
+      "url": "https://www.youtube.com/watch?v=90lLQVZe2Nc",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-07-20T16:21:56.819Z",
+      "startedAt": "2026-07-20T16:21:56.823Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
