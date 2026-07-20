@@ -14,7 +14,7 @@ import datetime
 import os
 import zoneinfo
 
-DAILY_CAP = 15
+DAILY_CAP = 20
 
 # Statuses that occupy a slot on their scheduled day (already posted, actively
 # posting, or waiting to post). "failed" clips never posted, so they don't

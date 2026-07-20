@@ -1,8 +1,9 @@
 """
-One-off (re-runnable) fix-up: re-spread every currently "pending" entry in
-dashboard/schedule.json across the per-channel daily posting queue
-(scheduler_queue.py), so the existing backlog respects the same 10/day/channel
-cap and 8am-11pm posting window as newly generated clips.
+One-off (re-runnable) fix-up: re-spread every currently "pending" entry in a
+schedule file (dashboard/schedule.json or dashboard/tiktok_schedule.json)
+across the per-channel daily posting queue (scheduler_queue.py), so the
+existing backlog respects the same DAILY_CAP/channel cap and posting window
+as newly generated clips.
 
 "done"/"uploading" entries are left untouched (already posted / in flight)
 but still count against that day's cap. "pending" entries are re-ordered by
@@ -10,7 +11,9 @@ their *original* scheduledAt (which still encodes the correct FIFO order —
 earlier batches got earlier timestamps) and reassigned fresh slots starting
 from now.
 
-Usage: python3 reslot_backlog.py [--dry-run]
+Usage: python3 reslot_backlog.py [--dry-run] [--tiktok]
+  --tiktok targets dashboard/tiktok_schedule.json (the ~62s TikTok pool)
+  instead of the default dashboard/schedule.json (YouTube/Instagram pool).
 """
 
 import json
@@ -20,13 +23,14 @@ from pathlib import Path
 
 from scheduler_queue import allocate_slots, normalize_channel
 
-SCHEDULE_FILE = Path(__file__).parent / "dashboard" / "schedule.json"
+DASHBOARD_DIR = Path(__file__).parent / "dashboard"
 
 
 def main() -> None:
     dry_run = "--dry-run" in sys.argv
+    schedule_file = DASHBOARD_DIR / ("tiktok_schedule.json" if "--tiktok" in sys.argv else "schedule.json")
 
-    schedule = json.loads(SCHEDULE_FILE.read_text())
+    schedule = json.loads(schedule_file.read_text())
 
     pending_by_channel: dict[str, list[str]] = {}
     for filename, entry in schedule.items():
@@ -60,18 +64,18 @@ def main() -> None:
         print(f"\n[dry run] Would re-slot {total} clip(s). No changes written.")
         return
 
-    backup = SCHEDULE_FILE.with_suffix(".json.bak")
-    shutil.copy(SCHEDULE_FILE, backup)
+    backup = schedule_file.with_suffix(".json.bak")
+    shutil.copy(schedule_file, backup)
 
     # Re-read + merge in case the live server (background scheduler) advanced
     # any entries (e.g. pending -> uploading/done) while we were computing.
-    fresh = json.loads(SCHEDULE_FILE.read_text())
+    fresh = json.loads(schedule_file.read_text())
     for filenames in pending_by_channel.values():
         for filename in filenames:
             if fresh.get(filename, {}).get("status") == "pending":
                 fresh[filename]["scheduledAt"] = schedule[filename]["scheduledAt"]
 
-    SCHEDULE_FILE.write_text(json.dumps(fresh, indent=2))
+    schedule_file.write_text(json.dumps(fresh, indent=2))
     print(f"\nRe-slotted {total} clip(s). Backup saved to {backup.name}.")
 
 
