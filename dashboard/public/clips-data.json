@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T10:13:21.121Z",
+  "lastUpdated": "2026-07-20T12:11:36.411Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -405,8 +405,8 @@
       "filename": "AN_ABSOLUTE_DISGRACE_Jeff__Gabby_BLAST_A_clip03_Raw_emotional_post-match_reaction_from_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-20T11:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Match Winner Left Speechless After Golden Goal",
       "channel": "football",
       "thumbnailPath": "/thumbnails/AN_ABSOLUTE_DISGRACE_Jeff__Gabby_BLAST_A_clip03_Raw_emotional_post-match_reaction_from_t.jpg"
@@ -1065,8 +1065,8 @@
       "filename": "Football_Moments_That_Will_Never_Be_Repe_clip03_Goalkeeper_boots_the_ball_and_the_wind_h.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-20T11:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Goalkeeper Kicks Ball and the Wind Throws It Back at Him",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Football_Moments_That_Will_Never_Be_Repe_clip03_Goalkeeper_boots_the_ball_and_the_wind_h.jpg"
@@ -1535,8 +1535,8 @@
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip03_Intense_window_into_Goggins_internal_bat.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-20T11:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Voice Saying This Ain't You | Goggins' Internal Battle",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip03_Intense_window_into_Goggins_internal_bat.jpg"
@@ -4325,8 +4325,8 @@
       "filename": "The_Lost_Art_of_Reinventing_Yourself_-_M_clip03_The_true_improvised_backstory_of_his_leg.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-20T11:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "All Right All Right All Right Improvised Genius",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Lost_Art_of_Reinventing_Yourself_-_M_clip03_The_true_improvised_backstory_of_his_leg.jpg"
