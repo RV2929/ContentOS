@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T17:01:09.384Z",
+  "lastUpdated": "2026-07-20T18:40:07.000Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -756,7 +756,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-07-20T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "9.5 Inch Tumor Vanished After Chemo Failed Completely",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dr_Joe_Dispenza_Rewire_Your_Brain_Heal_Y_clip02_Tight_setup-and-payoff_healing_story_95_.jpg"
@@ -1166,7 +1166,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-07-20T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Manager Lets Other Team Score for Pure Fairness Insane",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Football_Moments_That_Will_Never_Be_Repe_clip06_A_manager_gifting_the_opposition_a_goal_.jpg"
@@ -1633,10 +1633,10 @@
     },
     {
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip06_Counterintuitive_insight__he_learned_fai.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-20T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "rgcbcoT3PXQ",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Taught Myself How to Fail First | Goggins' Secret",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip06_Counterintuitive_insight__he_learned_fai.jpg"
