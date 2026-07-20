@@ -927,13 +927,13 @@
       "id": "mrswspjzskrp",
       "url": "https://www.youtube.com/watch?v=5Z63vMH3rYA",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "football",
       "addedAt": "2026-07-20T07:34:33.311Z",
       "startedAt": "2026-07-20T08:24:25.987Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-20T08:27:17.250Z",
+      "clipsCount": 3,
+      "batchId": "HIGHLIGHTS__Spain_vs_Argentina__FIFA_Wor",
       "error": null
     }
   ]
