@@ -234,7 +234,8 @@ Your task: identify moments in this video that can sustain a ~{TIKTOK_TARGET_DUR
 Requirements (a clip must meet ALL of these):
 - Clip length must be {TIKTOK_MIN_DURATION}–{TIKTOK_MAX_DURATION} seconds (target ~{TIKTOK_TARGET_DURATION}s). This is a hard requirement — TikTok's Creator Rewards Program only pays out on videos 60+ seconds long.
 - The first 5–{TIKTOK_HOOK_MAX_START} seconds of the clip must contain a strong hook: a direct question posed to the viewer, a bold/provocative claim, or a surprising/counterintuitive fact — something that makes a scroller stop and commit to watching instead of swiping past.
-- Everything after the hook must have enough real substance — a developing story, an unfolding argument, escalating stakes, or a payoff being built toward — to actually hold attention for the full ~{TIKTOK_TARGET_DURATION}s. Reject any segment that is just a strong opening line followed by filler, repetition, or a topic change with nothing riding on it.
+- Everything after the hook must have enough real substance — a developing story, an unfolding argument, escalating examples building toward a bigger payoff, or a payoff being built toward — to actually hold attention for the full ~{TIKTOK_TARGET_DURATION}s. An escalating list counts as sustaining substance if it's building toward a concrete, specific payoff (e.g., naming increasingly severe conditions before landing on the most surprising cured case) — reject a segment only if it's a strong opening line followed by genuine filler, verbatim repetition, or a topic change with nothing riding on it.
+- A compelling moment doesn't have to use a story's full natural boundaries — if a longer story contains a segment that satisfies the hook-timing and duration requirements above, trim to that window rather than discarding the story because its untrimmed length or hook placement doesn't qualify.
 
 Rules:
 - Timestamps must be within 0 – {total_dur:.1f}s.

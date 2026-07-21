@@ -14,6 +14,7 @@ import time
 import json
 import datetime
 import subprocess
+import shutil
 from pathlib import Path
 
 DASHBOARD_DIR = Path(__file__).parent / "dashboard"
@@ -382,8 +383,20 @@ def _schedule_clips(
     try:
         with open(schedule_file, "r", encoding="utf-8") as f:
             schedule = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
+    except FileNotFoundError:
         schedule = {}
+    except json.JSONDecodeError as exc:
+        # File exists but won't parse — could be a mid-write race with the
+        # dashboard server (fs.writeFileSync there isn't atomic). Never treat
+        # this the same as "file doesn't exist yet": silently falling back to
+        # {} here would mean the json.dump() below overwrites the whole file
+        # with just this run's clips, wiping out everything already queued.
+        corrupt_copy = f"{schedule_file}.corrupt"
+        shutil.copy(schedule_file, corrupt_copy)
+        raise RuntimeError(
+            f"{schedule_file} exists but is not valid JSON ({exc}) — refusing to overwrite it. "
+            f"Unreadable copy saved to {corrupt_copy} for inspection."
+        ) from exc
 
     if not output_paths:
         return
