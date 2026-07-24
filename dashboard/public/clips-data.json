@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T13:27:03.128Z",
+  "lastUpdated": "2026-07-24T14:36:54.227Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -4683,10 +4683,10 @@
     },
     {
       "filename": "The_new_way_to_make_money_in_2026_The_Lu_clip05_Raw_vulnerability_as_he_admits_guilt_ove.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-24T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "YKGiqlmNPrk",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Have Millions But I Feel Guilty About It Luke Belmar",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_new_way_to_make_money_in_2026_The_Lu_clip05_Raw_vulnerability_as_he_admits_guilt_ove.jpg"
@@ -5246,7 +5246,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-07-24T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "FROM MOM'S HOUSE TO WORLD CUP - LIFE CHANGED",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/irl_stream_Argentina__Vs_Spain__World_Cu_clip05_A_vulnerable_genuinely_inspiring_speech_.jpg"
