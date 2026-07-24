@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T13:26:46.452Z",
+  "lastUpdated": "2026-07-24T13:27:03.128Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -5233,10 +5233,10 @@
     },
     {
       "filename": "irl_stream_Argentina__Vs_Spain__World_Cu_clip04_Peak_raw_emotion_as_Spain_scores_the_win.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-24T13:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "KuNALl7F29g",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I AM SAVED - SPAIN WINS AND SPEED LOSES IT",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/irl_stream_Argentina__Vs_Spain__World_Cu_clip04_Peak_raw_emotion_as_Spain_scores_the_win.jpg"
