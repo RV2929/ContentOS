@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T14:37:04.438Z",
+  "lastUpdated": "2026-07-24T15:57:49.130Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -4693,10 +4693,10 @@
     },
     {
       "filename": "The_new_way_to_make_money_in_2026_The_Lu_clip06_Surprising_health_claim_with_specifics_t.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-24T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "W9mkCz8aWAE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Shisha Is Worse Than Cigarettes Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_new_way_to_make_money_in_2026_The_Lu_clip06_Surprising_health_claim_with_specifics_t.jpg"
@@ -5253,10 +5253,10 @@
     },
     {
       "filename": "irl_stream_Argentina__Vs_Spain__World_Cu_clip06_Emotional_and_funny_fallout_when_a_fan-g.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-24T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "oM3uwWmCUwU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "WAIT YOU BROKE MY WORLD CUP TROPHY - NO",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/irl_stream_Argentina__Vs_Spain__World_Cu_clip06_Emotional_and_funny_fallout_when_a_fan-g.jpg"
