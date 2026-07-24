@@ -979,13 +979,13 @@
       "id": "mryp11lhkyw1",
       "url": "https://www.youtube.com/watch?v=4GcCFZs9ZrA",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "streamers",
       "addedAt": "2026-07-24T08:43:42.293Z",
       "startedAt": "2026-07-24T09:00:36.032Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-24T09:46:17.601Z",
+      "clipsCount": 6,
+      "batchId": "irl_stream_Argentina__Vs_Spain__World_Cu",
       "error": null
     }
   ]
