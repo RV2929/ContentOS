@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T09:49:06.958Z",
+  "lastUpdated": "2026-07-24T09:49:10.635Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -5203,10 +5203,10 @@
     },
     {
       "filename": "irl_stream_Argentina__Vs_Spain__World_Cu_clip01_Speed_excitedly_recounts_a_genuine_celeb.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-24T09:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "xjGfxAOBdvs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I MET TOM CRUISE AND TOLD HIM I JUMPED A CAR",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/irl_stream_Argentina__Vs_Spain__World_Cu_clip01_Speed_excitedly_recounts_a_genuine_celeb.jpg"
