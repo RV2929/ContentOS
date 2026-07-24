@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T09:49:16.049Z",
+  "lastUpdated": "2026-07-24T11:12:31.187Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -4655,8 +4655,8 @@
       "filename": "The_new_way_to_make_money_in_2026_The_Lu_clip02_The_vivid_spoon-and-elbow_parable_delive.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-24T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Heaven vs Hell Explained Through One Powerful Parable",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_new_way_to_make_money_in_2026_The_Lu_clip02_The_vivid_spoon-and-elbow_parable_delive.jpg"
@@ -5215,8 +5215,8 @@
       "filename": "irl_stream_Argentina__Vs_Spain__World_Cu_clip02_A_surprise_MrBeast_cameo_turns_into_a_sp.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-07-24T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "MRBEAST JUST BET ME $10,000 ON THE WORLD CUP",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/irl_stream_Argentina__Vs_Spain__World_Cu_clip02_A_surprise_MrBeast_cameo_turns_into_a_sp.jpg"
