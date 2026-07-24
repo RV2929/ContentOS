@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T09:46:20.630Z",
+  "lastUpdated": "2026-07-24T09:49:06.958Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -4643,10 +4643,10 @@
     },
     {
       "filename": "The_new_way_to_make_money_in_2026_The_Lu_clip01_A_blunt_provocative_hiring_take_backed_b.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-24T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "ilgPXBx_1JI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Women Hire Better Than Men According to Luke Belmar",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_new_way_to_make_money_in_2026_The_Lu_clip01_A_blunt_provocative_hiring_take_backed_b.jpg"
@@ -5206,7 +5206,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-07-24T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "I MET TOM CRUISE AND TOLD HIM I JUMPED A CAR",
       "channel": "streamers",
       "thumbnailPath": "/thumbnails/irl_stream_Argentina__Vs_Spain__World_Cu_clip01_Speed_excitedly_recounts_a_genuine_celeb.jpg"
