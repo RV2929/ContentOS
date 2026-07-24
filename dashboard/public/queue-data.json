@@ -948,6 +948,19 @@
       "clipsCount": 7,
       "batchId": "Dr_Joe_Dispenza_Rewire_Your_Brain_Heal_Y",
       "error": null
+    },
+    {
+      "id": "mryozl8yqmaw",
+      "url": "https://www.youtube.com/watch?v=rZpYBnvnY0Q",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-07-24T08:42:34.450Z",
+      "startedAt": "2026-07-24T08:42:34.456Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
