@@ -1005,13 +1005,13 @@
       "id": "ms077b8p897p",
       "url": "https://www.youtube.com/watch?v=_g4l7YkDQwA",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-07-25T10:00:13.993Z",
       "startedAt": "2026-07-25T10:03:07.398Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-07-25T10:48:57.318Z",
+      "clipsCount": 6,
+      "batchId": "He_Risked_Everything_To_Warn_You_No_One_",
       "error": null
     }
   ]
