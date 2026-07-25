@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T11:00:49.172Z",
+  "lastUpdated": "2026-07-25T12:13:43.791Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1593,10 +1593,10 @@
     },
     {
       "filename": "He_Risked_Everything_To_Warn_You_No_One__clip02_Insider_says_everyone_should_fear_job_lo.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-25T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "YwVS1uErmC8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Quit OpenAI and Lost $2 Million to Tell the Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/He_Risked_Everything_To_Warn_You_No_One__clip02_Insider_says_everyone_should_fear_job_lo.jpg"
@@ -3273,10 +3273,10 @@
     },
     {
       "filename": "Neymar_Jr_Plays_Against_Womens_Winning_T_clip02_A_freestyle_street_footballer_who_has_a_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-25T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "3keTBb0TW0Q",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Woman Beats Neymar 1v1 in Epic Head to Head Showdown",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Neymar_Jr_Plays_Against_Womens_Winning_T_clip02_A_freestyle_street_footballer_who_has_a_.jpg"
