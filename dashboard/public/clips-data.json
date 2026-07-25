@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T13:24:10.099Z",
+  "lastUpdated": "2026-07-25T14:39:21.222Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1613,10 +1613,10 @@
     },
     {
       "filename": "He_Risked_Everything_To_Warn_You_No_One__clip04_Cites_Hintons_point_that_no_less-intelli.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-25T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "sRSTspyg1UI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Smarter Species Always Wins: Why We Should Fear",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/He_Risked_Everything_To_Warn_You_No_One__clip04_Cites_Hintons_point_that_no_less-intelli.jpg"
@@ -3293,10 +3293,10 @@
     },
     {
       "filename": "Neymar_Jr_Plays_Against_Womens_Winning_T_clip04_A_last-gasp_winner_with_20_seconds_left_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-25T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "B0w5ms3ypeI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Neymar Scores Clutch Winner With 20 Seconds Left Last Minute Drama",
       "channel": "football",
       "thumbnailPath": "/thumbnails/Neymar_Jr_Plays_Against_Womens_Winning_T_clip04_A_last-gasp_winner_with_20_seconds_left_.jpg"
