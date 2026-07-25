@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T15:56:11.891Z",
+  "lastUpdated": "2026-07-25T17:00:07.683Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1633,10 +1633,10 @@
     },
     {
       "filename": "He_Risked_Everything_To_Warn_You_No_One__clip06_Raw_vulnerable_admission_that_his_AI_fea.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-07-25T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "bLoAIT4osrw",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "My AI Fears Were So Real, I Told My Wife No More Kids",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/He_Risked_Everything_To_Warn_You_No_One__clip06_Raw_vulnerable_admission_that_his_AI_fea.jpg"
