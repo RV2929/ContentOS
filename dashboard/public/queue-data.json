@@ -1000,6 +1000,19 @@
       "clipsCount": 0,
       "batchId": null,
       "error": null
+    },
+    {
+      "id": "ms077b8p897p",
+      "url": "https://www.youtube.com/watch?v=_g4l7YkDQwA",
+      "title": "",
+      "status": "queued",
+      "channel": "podcast",
+      "addedAt": "2026-07-25T10:00:13.993Z",
+      "startedAt": null,
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
