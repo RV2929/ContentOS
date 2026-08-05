@@ -1052,6 +1052,19 @@
       "clipsCount": 0,
       "batchId": null,
       "error": null
+    },
+    {
+      "id": "msgavc8vfj0v",
+      "url": "https://www.youtube.com/watch?v=BbGv7GTbRN8",
+      "title": "",
+      "status": "queued",
+      "channel": "podcast",
+      "addedAt": "2026-08-05T16:27:12.703Z",
+      "startedAt": null,
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
