@@ -1057,13 +1057,13 @@
       "id": "msgavc8vfj0v",
       "url": "https://www.youtube.com/watch?v=BbGv7GTbRN8",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-08-05T16:27:12.703Z",
       "startedAt": "2026-08-05T17:18:44.202Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-08-05T17:39:36.100Z",
+      "clipsCount": 9,
+      "batchId": "Vitamin_D_Expert_The_Supplement_World_Is",
       "error": null
     }
   ]
