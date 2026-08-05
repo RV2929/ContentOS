@@ -131,7 +131,7 @@ Format:
 
     print("Asking Claude to find viral moments…")
     with client.messages.stream(
-        model="claude-opus-4-8",
+        model="claude-sonnet-5",
         max_tokens=4096,
         thinking={"type": "adaptive"},
         system=system_prompt,
@@ -258,7 +258,7 @@ Format:
 
     print("Asking Claude to find ~62s TikTok moments…")
     with client.messages.stream(
-        model="claude-opus-4-8",
+        model="claude-sonnet-5",
         max_tokens=4096,
         thinking={"type": "adaptive"},
         system=system_prompt,
@@ -319,6 +319,142 @@ Format:
     return valid
 
 
+LONGFORM_MIN_DURATION = 480   # seconds — 8 minutes
+LONGFORM_MAX_DURATION = 900   # seconds — 15 minutes
+
+
+def find_long_segment(transcript_path: str) -> dict | None:
+    """
+    Send the transcript to Claude and get back a single long-form segment
+    (8-15 min) that covers one complete story, argument, or topic
+    start-to-finish — suitable as a standalone long-form YouTube upload.
+
+    Unlike find_viral_clips/find_tiktok_clips, this is a single-segment
+    pass: it looks for one cohesive stretch, not several punchy candidates.
+    Returns None if nothing in the video sustains a full cohesive arc that
+    long — this is meant to be rare and high-value, not high-volume, so
+    there is no minimum count to pad toward.
+
+    Returns either None or a dict:
+        {"start": float, "end": float, "title": str, "reason": str}
+    """
+    with open(transcript_path, "r", encoding="utf-8") as f:
+        transcript = json.load(f)
+
+    transcript_text = _build_transcript_text(transcript)
+    total_dur = _total_duration(transcript)
+
+    if not transcript_text.strip():
+        print("⚠ Transcript appears empty — no long-form segment to find.")
+        return None
+
+    if total_dur < LONGFORM_MIN_DURATION:
+        print(f"  Source video is only {total_dur:.0f}s — too short for an 8-15 min long-form segment.")
+        return None
+
+    client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
+
+    system_prompt = (
+        "You are a senior long-form YouTube editor who specializes in finding the single "
+        "best standalone segment inside a longer recording — not a punchy hook or a viral "
+        "moment, but a complete, self-contained piece of content: a full story with a "
+        "beginning, middle, and end; a complete argument that's actually developed and "
+        "resolved; or a topic that's explored in real depth rather than just mentioned. "
+        "You know the difference between content that merely started strong and content "
+        "that holds together as a coherent, standalone watch for 8-15 minutes straight. "
+        "You are extremely selective — most videos do not contain a segment that clears "
+        "this bar, and you would rather return nothing than force a mediocre one."
+    )
+
+    user_prompt = f"""Below is a word-level transcript from a video. Total duration: {total_dur:.1f}s.
+
+---
+{transcript_text}
+---
+
+Your task: find the SINGLE best long-form segment in this video, suitable for upload as a standalone regular (non-Shorts) YouTube video.
+
+Requirements (the segment must meet ALL of these):
+- Length must be {LONGFORM_MIN_DURATION}–{LONGFORM_MAX_DURATION} seconds ({LONGFORM_MIN_DURATION/60:.0f}–{LONGFORM_MAX_DURATION/60:.0f} minutes).
+- Must be cohesive: a complete story, a fully developed argument, or a topic explored in depth — with a real beginning, middle, and end. A viewer who watches only this segment, with no other context, should feel they got a complete piece of content, not an arbitrary excerpt.
+- Do not chase a hook or a viral opening line — this is not short-form. Prioritize substance and completeness over a punchy start.
+- Timestamps must be within 0 – {total_dur:.1f}s.
+
+Rules:
+- Return exactly ONE segment if — and only if — one genuinely clears the bar above. If nothing in this video sustains a complete, cohesive 8-15 minute arc, return null. Do not force a segment that merely starts strong or stitches together unrelated moments.
+- The title must be literally true and directly grounded in what is actually said or shown within this segment's transcript. Do not invent claims, comparisons, or framing not actually present.
+
+Respond ONLY with valid JSON — no markdown fences, no explanation outside the JSON.
+Format (if a qualifying segment exists):
+{{
+  "start": <float seconds>,
+  "end": <float seconds>,
+  "title": "<descriptive long-form YouTube title, plain framing, not a punchy hook>",
+  "reason": "<one or two sentences: what story/argument/topic this segment covers, and why it's cohesive start-to-finish>"
+}}
+
+Or, if nothing qualifies:
+null"""
+
+    print("Asking Claude to find one long-form segment…")
+    with client.messages.stream(
+        model="claude-sonnet-5",
+        max_tokens=2048,
+        thinking={"type": "adaptive"},
+        system=system_prompt,
+        messages=[{"role": "user", "content": user_prompt}],
+    ) as stream:
+        response = stream.get_final_message()
+
+    raw = ""
+    for block in response.content:
+        if block.type == "text":
+            raw = block.text.strip()
+            break
+
+    if not raw:
+        print("⚠ Claude returned an empty response.")
+        return None
+
+    if raw.startswith("```"):
+        raw = raw.split("```")[1]
+        if raw.startswith("json"):
+            raw = raw[4:]
+        raw = raw.strip()
+
+    try:
+        item = json.loads(raw)
+    except json.JSONDecodeError as e:
+        print(f"⚠ Could not parse Claude's response as JSON: {e}")
+        print("Raw response:", raw[:500])
+        return None
+
+    if item is None:
+        print("  → no segment could sustain a complete long-form arc")
+        return None
+
+    s = float(item.get("start", 0))
+    e = float(item.get("end", 0))
+    title = item.get("title", "")
+    reason = item.get("reason", "")
+    dur = e - s
+
+    if dur < LONGFORM_MIN_DURATION or dur > LONGFORM_MAX_DURATION:
+        print(f"  Skipping long-form segment {s:.1f}–{e:.1f}s (duration {dur:.1f}s out of range)")
+        return None
+    if s < 0 or e > total_dur + 5:  # +5s tolerance
+        print(f"  Skipping long-form segment {s:.1f}–{e:.1f}s (out of video range)")
+        return None
+
+    return {
+        "start": round(s, 2),
+        "end": round(e, 2),
+        "title": title,
+        "reason": reason,
+        "transcript_excerpt": _excerpt_for_range(transcript, s, e),
+    }
+
+
 def save_clips_json(clips: list[dict], transcript_path: str, suffix: str = ".clips.json") -> str:
     """Save the clip list as a JSON file next to the transcript."""
     out_path = transcript_path.replace(".transcript.json", suffix)
@@ -330,6 +466,12 @@ def save_clips_json(clips: list[dict], transcript_path: str, suffix: str = ".cli
 def save_tiktok_clips_json(clips: list[dict], transcript_path: str) -> str:
     """Save the TikTok-length clip list as a JSON file next to the transcript."""
     return save_clips_json(clips, transcript_path, suffix=".tiktok_clips.json")
+
+
+def save_long_segment_json(segment: dict, transcript_path: str) -> str:
+    """Save the single long-form segment (wrapped in a one-item list, matching
+    the shape clipper.process_long_segment expects) next to the transcript."""
+    return save_clips_json([segment], transcript_path, suffix=".longform.json")
 
 
 if __name__ == "__main__":

@@ -70,7 +70,8 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
     # ── 3. Analyze ────────────────────────────────────────────────────────────
     _header(3, "Find viral moments (Claude)")
     from analyzer import (
-        find_viral_clips, find_tiktok_clips, save_clips_json, save_tiktok_clips_json,
+        find_viral_clips, find_tiktok_clips, find_long_segment,
+        save_clips_json, save_tiktok_clips_json, save_long_segment_json,
     )
     clips = find_viral_clips(transcript_path)
 
@@ -94,14 +95,27 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
         else:
             print("  → no segment could sustain a full ~62s TikTok clip")
 
-    if not clips and not tiktok_clips:
+    # Long-form pass: one 8-15 min cohesive segment per video, suitable as a
+    # standalone regular (non-Shorts) YouTube upload. Rare/high-value by
+    # design — find_long_segment() returns None on most videos, and there is
+    # no volume target to pad toward. Runs for every channel; the quality bar
+    # lives in the prompt, not a channel allowlist.
+    print("  Finding a long-form segment…")
+    long_segment = find_long_segment(transcript_path)
+    if long_segment:
+        print(f"  → long-form segment identified ({(long_segment['end']-long_segment['start'])/60:.1f} min)")
+    else:
+        print("  → no segment could sustain a complete 8-15 min long-form arc")
+
+    if not clips and not tiktok_clips and not long_segment:
         print("\nNo viral clips found. Try a longer video with more varied content.")
         return []
 
     output_paths: list[str] = []
     tiktok_output_paths: list[str] = []
+    longform_output_path: str | None = None
 
-    from clipper import process_clips
+    from clipper import process_clips, process_long_segment
 
     if clips:
         clips_json_path = save_clips_json(clips, transcript_path)
@@ -117,6 +131,12 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
         tiktok_output_paths = process_clips(
             video_path, tiktok_clips_json_path, transcript_path, channel=channel, clip_label="tiktok",
         )
+
+    if long_segment:
+        longform_json_path = save_long_segment_json(long_segment, transcript_path)
+
+        _header(4, "Cut long-form segment (no crop/captions — native format)")
+        longform_output_path = process_long_segment(video_path, longform_json_path, channel=channel)
 
     # ── 5. Generate titles & schedule uploads ────────────────────────────────
     if output_paths or tiktok_output_paths:
@@ -137,7 +157,12 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
                 clip_label="tiktok", schedule_path=tiktok_schedule_file,
             )
 
-    all_output_paths = output_paths + tiktok_output_paths
+    if longform_output_path:
+        _header(5, "Generate long-form title/description & upload")
+        longform_meta = _generate_longform_metadata(longform_output_path, long_segment, video_path, video_meta)
+        _upload_longform_now(longform_output_path, longform_meta, channel)
+
+    all_output_paths = output_paths + tiktok_output_paths + ([longform_output_path] if longform_output_path else [])
 
     # ── 6. Sync to GitHub so Vercel dashboard reflects new clips ─────────────
     if all_output_paths:
@@ -155,6 +180,8 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
         print(f"  {path}")
     for path in tiktok_output_paths:
         print(f"  {path}  (TikTok, ~62s)")
+    if longform_output_path:
+        print(f"  {longform_output_path}  (long-form, native format)")
 
     return all_output_paths
 
@@ -466,6 +493,99 @@ def _schedule_clips(
     for filename, at, idx in sorted(newly_scheduled, key=lambda x: x[2]):
         local_at = at.astimezone()
         print(f"  Clip {idx:02d}: {local_at.strftime('%b %d %I:%M %p')}")
+
+
+DASHBOARD_URL = os.getenv("DASHBOARD_URL", "http://localhost:3000")
+
+
+def _generate_longform_metadata(
+    output_path: str, segment: dict, video_path: str, video_meta: dict,
+) -> dict:
+    """
+    Call Claude once to generate a proper long-form YouTube title/description
+    for the single cut segment. Unlike _generate_metadata (Shorts framing,
+    hashtag block, multi-clip batching), this asks for a plain descriptive
+    title and a real multi-sentence description — no hashtags, no #Shorts.
+
+    Returns {"title": str, "description": str}.
+    """
+    import json
+    import re
+    import anthropic
+
+    video_title = video_meta.get("title") or os.path.splitext(os.path.basename(video_path))[0].replace("_", " ")
+    video_uploader = video_meta.get("uploader") or ""
+    video_description = (video_meta.get("description") or "")[:500]
+
+    prompt = f"""You are a YouTube content editor preparing a long-form video for regular (non-Shorts) upload.
+
+Source video: "{video_title}"
+Uploader/Channel: "{video_uploader}"
+Description: "{video_description}"
+
+This segment covers: {segment.get('reason', '')}
+Working title: "{segment.get('title', '')}"
+
+Generate:
+- title: a clear, descriptive, SEO-friendly YouTube title (under 100 chars). Accurately represent the segment's content — no punchy hook framing, no ALL CAPS, no emojis.
+- description: 2-4 sentences summarizing what this segment covers, written for someone deciding whether to watch. No hashtags, no calls to subscribe, no emoji.
+
+Reply ONLY with valid JSON: {{"title":"...","description":"..."}}"""
+
+    fallback = {
+        "title": segment.get("title", "") or os.path.splitext(os.path.basename(output_path))[0].replace("_", " ")[:100],
+        "description": segment.get("reason", ""),
+    }
+
+    try:
+        client = anthropic.Anthropic()
+        response = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=1024,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        text = re.sub(r"```(?:json)?|```", "", response.content[0].text).strip()
+        meta = json.loads(text)
+        title = (meta.get("title") or "").strip() or fallback["title"]
+        description = (meta.get("description") or "").strip() or fallback["description"]
+    except Exception as exc:
+        print(f"  Warning: long-form metadata generation failed ({exc}) — using defaults")
+        title, description = fallback["title"], fallback["description"]
+
+    print(f"  Generated long-form title: {title[:72]}")
+    return {"title": title, "description": description}
+
+
+def _upload_longform_now(output_path: str, metadata: dict, channel: str) -> None:
+    """
+    Upload the long-form segment immediately as a regular YouTube video —
+    no scheduling queue, since this is one rare, high-value upload per
+    source video rather than high-volume content needing day-spreading.
+
+    Posts to the dashboard server (which already holds the per-channel
+    YouTube OAuth tokens) rather than talking to the YouTube API directly,
+    so all upload logic and credentials stay in one place.
+    """
+    import requests
+
+    filename = os.path.basename(output_path)
+    try:
+        resp = requests.post(
+            f"{DASHBOARD_URL}/api/upload/youtube-longform",
+            json={
+                "filename": filename,
+                "title": metadata["title"],
+                "description": metadata["description"],
+                "channel": channel,
+            },
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        print(f"  → Long-form upload started (job {data.get('jobId', '?')})")
+    except requests.RequestException as exc:
+        print(f"  ⚠ Long-form upload failed to start: {exc}")
+        print(f"    (Is the dashboard server running at {DASHBOARD_URL}? File is at {output_path})")
 
 
 # ── CLI ───────────────────────────────────────────────────────────────────────
