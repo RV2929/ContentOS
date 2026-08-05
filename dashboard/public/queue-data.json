@@ -1013,6 +1013,19 @@
       "clipsCount": 6,
       "batchId": "He_Risked_Everything_To_Warn_You_No_One_",
       "error": null
+    },
+    {
+      "id": "msgasj4pjrfh",
+      "url": "https://www.youtube.com/watch?v=FjrJ2DJN_pA&t=2s&pp=0gcJCcULAYcqIYzv",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-08-05T16:25:01.657Z",
+      "startedAt": "2026-08-05T16:25:01.661Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
