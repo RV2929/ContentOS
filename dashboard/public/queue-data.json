@@ -1080,19 +1080,6 @@
       "error": null
     },
     {
-      "id": "mshgkypyde1e",
-      "url": "https://www.youtube.com/watch?v=1aGpJQ8BMLI",
-      "title": "",
-      "status": "failed",
-      "channel": "podcast",
-      "addedAt": "2026-08-06T11:54:52.486Z",
-      "startedAt": "2026-08-06T11:54:52.495Z",
-      "completedAt": "2026-08-06T11:58:31.707Z",
-      "clipsCount": 0,
-      "batchId": null,
-      "error": "~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1104, in trouble\n    raise DownloadError(message, exc_info)\nyt_dlp.utils.DownloadError: ERROR: \r[download] Got error"
-    },
-    {
       "id": "mshguvobsaj0",
       "url": "https://www.youtube.com/watch?v=1aGpJQ8BMLI",
       "title": "",
