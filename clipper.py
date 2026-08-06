@@ -784,47 +784,50 @@ def process_long_segment(
     video_path: str,
     longform_json_path: str,
     channel: str = "podcast",
-) -> str | None:
+) -> list[str]:
     """
-    Read a .longform.json file (a one-item list, same shape as clips.json)
-    and cut that single segment from video_path with no crop/captions/
+    Read a .longform.json file (a list of up to 3 segments, same shape as
+    clips.json) and cut each segment from video_path with no crop/captions/
     watermark — stays in the source's native horizontal format for upload
-    as a regular (non-Shorts) YouTube video.
+    as separate regular (non-Shorts) YouTube videos.
 
-    Returns the output path, or None if there was nothing to process.
+    Returns the list of output paths (segments that failed to cut are skipped).
     """
     with open(longform_json_path, "r", encoding="utf-8") as f:
         segments = json.load(f)
 
     if not segments:
-        print("No long-form segment to process.")
-        return None
-
-    segment = segments[0]
-    start = float(segment["start"])
-    end = float(segment["end"])
-    title = segment.get("title", "")
-    title_slug = _safe_name(title) if title else "segment"
+        print("No long-form segments to process.")
+        return []
 
     out_dir = clips_dir_for(channel)
     os.makedirs(out_dir, exist_ok=True)
 
     video_stem = os.path.splitext(os.path.basename(video_path))[0]
-    filename = f"{_safe_name(video_stem)}_longform_{title_slug}.mp4"
-    out_path = os.path.join(out_dir, filename)
+    output_paths = []
 
-    dur = end - start
-    print(f"  [longform] {start:.1f}s – {end:.1f}s ({dur/60:.1f} min) → {filename}")
+    for i, segment in enumerate(segments, 1):
+        start = float(segment["start"])
+        end = float(segment["end"])
+        title = segment.get("title", "")
+        title_slug = _safe_name(title) if title else f"segment{i}"
 
-    try:
-        _cut_trim(video_path, start, end, out_path)
-        _generate_thumbnail(out_path)
-        size_mb = os.path.getsize(out_path) / (1024 * 1024)
-        print(f"    ✓ Saved ({size_mb:.1f} MB)")
-        return out_path
-    except (RuntimeError, ValueError) as e:
-        print(f"    ✗ Failed: {e}")
-        return None
+        filename = f"{_safe_name(video_stem)}_longform{i:02d}_{title_slug}.mp4"
+        out_path = os.path.join(out_dir, filename)
+
+        dur = end - start
+        print(f"  [longform {i}/{len(segments)}] {start:.1f}s – {end:.1f}s ({dur/60:.1f} min) → {filename}")
+
+        try:
+            _cut_trim(video_path, start, end, out_path)
+            _generate_thumbnail(out_path)
+            size_mb = os.path.getsize(out_path) / (1024 * 1024)
+            print(f"    ✓ Saved ({size_mb:.1f} MB)")
+            output_paths.append(out_path)
+        except (RuntimeError, ValueError) as e:
+            print(f"    ✗ Failed: {e}")
+
+    return output_paths
 
 
 if __name__ == "__main__":

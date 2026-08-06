@@ -10,6 +10,7 @@ Pipeline:
 
 import sys
 import os
+import re
 import time
 import json
 import datetime
@@ -70,7 +71,7 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
     # ── 3. Analyze ────────────────────────────────────────────────────────────
     _header(3, "Find viral moments (Claude)")
     from analyzer import (
-        find_viral_clips, find_tiktok_clips, find_long_segment,
+        find_viral_clips, find_tiktok_clips, find_long_segments,
         save_clips_json, save_tiktok_clips_json, save_long_segment_json,
     )
     clips = find_viral_clips(transcript_path)
@@ -95,25 +96,26 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
         else:
             print("  → no segment could sustain a full ~62s TikTok clip")
 
-    # Long-form pass: one 8-15 min cohesive segment per video, suitable as a
-    # standalone regular (non-Shorts) YouTube upload. Rare/high-value by
-    # design — find_long_segment() returns None on most videos, and there is
-    # no volume target to pad toward. Runs for every channel; the quality bar
-    # lives in the prompt, not a channel allowlist.
-    print("  Finding a long-form segment…")
-    long_segment = find_long_segment(transcript_path)
-    if long_segment:
-        print(f"  → long-form segment identified ({(long_segment['end']-long_segment['start'])/60:.1f} min)")
+    # Long-form pass: up to 3 non-overlapping 8-15 min cohesive segments per
+    # video, each suitable as a standalone regular (non-Shorts) YouTube
+    # upload. Rare/high-value by design — find_long_segments() returns an
+    # empty list on most videos, and there is no volume target to pad
+    # toward. Runs for every channel; the quality bar lives in the prompt,
+    # not a channel allowlist.
+    print("  Finding long-form segments…")
+    long_segments = find_long_segments(transcript_path)
+    if long_segments:
+        print(f"  → {len(long_segments)} long-form segment(s) identified")
     else:
         print("  → no segment could sustain a complete 8-15 min long-form arc")
 
-    if not clips and not tiktok_clips and not long_segment:
+    if not clips and not tiktok_clips and not long_segments:
         print("\nNo viral clips found. Try a longer video with more varied content.")
         return []
 
     output_paths: list[str] = []
     tiktok_output_paths: list[str] = []
-    longform_output_path: str | None = None
+    longform_output_paths: list[str] = []
 
     from clipper import process_clips, process_long_segment
 
@@ -132,11 +134,11 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
             video_path, tiktok_clips_json_path, transcript_path, channel=channel, clip_label="tiktok",
         )
 
-    if long_segment:
-        longform_json_path = save_long_segment_json(long_segment, transcript_path)
+    if long_segments:
+        longform_json_path = save_long_segment_json(long_segments, transcript_path)
 
-        _header(4, "Cut long-form segment (no crop/captions — native format)")
-        longform_output_path = process_long_segment(video_path, longform_json_path, channel=channel)
+        _header(4, "Cut long-form segments (no crop/captions — native format)")
+        longform_output_paths = process_long_segment(video_path, longform_json_path, channel=channel)
 
     # ── 5. Generate titles & schedule uploads ────────────────────────────────
     if output_paths or tiktok_output_paths:
@@ -157,12 +159,19 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
                 clip_label="tiktok", schedule_path=tiktok_schedule_file,
             )
 
-    if longform_output_path:
-        _header(5, "Generate long-form title/description & upload")
-        longform_meta = _generate_longform_metadata(longform_output_path, long_segment, video_path, video_meta)
-        _upload_longform_now(longform_output_path, longform_meta, channel)
+    if longform_output_paths:
+        _header(5, "Generate long-form titles/descriptions & upload")
+        for longform_output_path in longform_output_paths:
+            # Match back to its segment via the "_longformNN_" index in the filename —
+            # process_long_segment() skips segments that fail to cut, so paths and
+            # long_segments can't be assumed to stay 1:1 by position.
+            m = re.search(r"_longform(\d+)_", os.path.basename(longform_output_path))
+            idx = int(m.group(1)) - 1 if m else 0
+            segment = long_segments[idx] if 0 <= idx < len(long_segments) else {}
+            longform_meta = _generate_longform_metadata(longform_output_path, segment, video_path, video_meta)
+            _upload_longform_now(longform_output_path, longform_meta, channel)
 
-    all_output_paths = output_paths + tiktok_output_paths + ([longform_output_path] if longform_output_path else [])
+    all_output_paths = output_paths + tiktok_output_paths + longform_output_paths
 
     # ── 6. Sync to GitHub so Vercel dashboard reflects new clips ─────────────
     if all_output_paths:
@@ -180,8 +189,8 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
         print(f"  {path}")
     for path in tiktok_output_paths:
         print(f"  {path}  (TikTok, ~62s)")
-    if longform_output_path:
-        print(f"  {longform_output_path}  (long-form, native format)")
+    for path in longform_output_paths:
+        print(f"  {path}  (long-form, native format)")
 
     return all_output_paths
 
