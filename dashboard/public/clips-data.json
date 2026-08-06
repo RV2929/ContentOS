@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T18:15:11.506Z",
+  "lastUpdated": "2026-08-06T19:29:28.610Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -2473,10 +2473,10 @@
     },
     {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_blunt_quotable_rant_about_wasteful_spe.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-06T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "_-fZ7PVeCiM",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Your $28 Lunch Is Destroying Your Wealth Forever",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_blunt_quotable_rant_about_wasteful_spe.jpg"
@@ -2883,10 +2883,10 @@
     },
     {
       "filename": "Man_Who_Owns_4_Of_All_Bitcoin_His_Final__clip04_Counterintuitive_claim_that_challenges_c.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-06T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "fQkhJUujIN8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Buying a House Might Be Your Biggest Mistake",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Man_Who_Owns_4_Of_All_Bitcoin_His_Final__clip04_Counterintuitive_claim_that_challenges_c.jpg"
