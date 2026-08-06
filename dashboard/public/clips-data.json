@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T15:49:07.309Z",
+  "lastUpdated": "2026-08-06T17:06:23.307Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -2453,10 +2453,10 @@
     },
     {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_tense_cinematic_negotiation_story_wher.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-06T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "gpuOmcCGPEY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "He Won A Deal With Just One Word: Silence",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_tense_cinematic_negotiation_story_wher.jpg"
@@ -2863,10 +2863,10 @@
     },
     {
       "filename": "Man_Who_Owns_4_Of_All_Bitcoin_His_Final__clip02_Vivid_physical_demonstration_with_cash_v.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-06T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "mrZ_uUvPvyk",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Nobody Can Ever Steal Your Bitcoin",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Man_Who_Owns_4_Of_All_Bitcoin_His_Final__clip02_Vivid_physical_demonstration_with_cash_v.jpg"
