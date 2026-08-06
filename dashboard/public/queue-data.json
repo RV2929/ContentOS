@@ -1065,6 +1065,19 @@
       "clipsCount": 9,
       "batchId": "Vitamin_D_Expert_The_Supplement_World_Is",
       "error": null
+    },
+    {
+      "id": "mshd3gr3oj14",
+      "url": "https://www.youtube.com/watch?v=mpAZehPviLQ",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-08-06T10:17:17.200Z",
+      "startedAt": "2026-08-06T10:17:17.205Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
