@@ -132,12 +132,14 @@ Format:
     print("Asking Claude to find viral moments…")
     with client.messages.stream(
         model="claude-sonnet-5",
-        max_tokens=4096,
+        max_tokens=16000,
         thinking={"type": "adaptive"},
         system=system_prompt,
         messages=[{"role": "user", "content": user_prompt}],
     ) as stream:
         response = stream.get_final_message()
+
+    print(f"  stop_reason={response.stop_reason} output_tokens={response.usage.output_tokens}")
 
     # Extract the text block from the response
     raw = ""
@@ -147,7 +149,10 @@ Format:
             break
 
     if not raw:
-        print("⚠ Claude returned an empty response.")
+        if response.stop_reason == "max_tokens":
+            print("⚠ Claude hit max_tokens before emitting any output (thinking consumed the full budget) — increase max_tokens.")
+        else:
+            print(f"⚠ Claude returned an empty response (stop_reason={response.stop_reason}).")
         return []
 
     # Parse JSON — strip accidental markdown fences if present
@@ -259,12 +264,14 @@ Format:
     print("Asking Claude to find ~62s TikTok moments…")
     with client.messages.stream(
         model="claude-sonnet-5",
-        max_tokens=4096,
+        max_tokens=16000,
         thinking={"type": "adaptive"},
         system=system_prompt,
         messages=[{"role": "user", "content": user_prompt}],
     ) as stream:
         response = stream.get_final_message()
+
+    print(f"  stop_reason={response.stop_reason} output_tokens={response.usage.output_tokens}")
 
     raw = ""
     for block in response.content:
@@ -273,7 +280,10 @@ Format:
             break
 
     if not raw:
-        print("⚠ Claude returned an empty response.")
+        if response.stop_reason == "max_tokens":
+            print("⚠ Claude hit max_tokens before emitting any output (thinking consumed the full budget) — increase max_tokens.")
+        else:
+            print(f"⚠ Claude returned an empty response (stop_reason={response.stop_reason}).")
         return []
 
     if raw.startswith("```"):
@@ -407,12 +417,14 @@ Or, if nothing qualifies:
     print("Asking Claude to find long-form segments…")
     with client.messages.stream(
         model="claude-sonnet-5",
-        max_tokens=2048,
+        max_tokens=8000,
         thinking={"type": "adaptive"},
         system=system_prompt,
         messages=[{"role": "user", "content": user_prompt}],
     ) as stream:
         response = stream.get_final_message()
+
+    print(f"  stop_reason={response.stop_reason} output_tokens={response.usage.output_tokens}")
 
     raw = ""
     for block in response.content:
@@ -421,7 +433,10 @@ Or, if nothing qualifies:
             break
 
     if not raw:
-        print("⚠ Claude returned an empty response.")
+        if response.stop_reason == "max_tokens":
+            print("⚠ Claude hit max_tokens before emitting any output (thinking consumed the full budget) — increase max_tokens.")
+        else:
+            print(f"⚠ Claude returned an empty response (stop_reason={response.stop_reason}).")
         return []
 
     if raw.startswith("```"):
