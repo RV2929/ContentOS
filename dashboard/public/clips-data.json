@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T18:12:43.481Z",
+  "lastUpdated": "2026-08-06T10:01:58.309Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -3415,8 +3415,8 @@
       "filename": "Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip02_A_concrete_easy-to-follow_100-stock_exam.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-05T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "How Stock Bubbles Actually Pop: The $100 Stock Example",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip02_A_concrete_easy-to-follow_100-stock_exam.jpg"
@@ -3425,8 +3425,8 @@
       "filename": "Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip03_Blunt_quotable_advice_for_anyone_with_li.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-05T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Your Only Asset is Yourself When AI Takes Over",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip03_Blunt_quotable_advice_for_anyone_with_li.jpg"
@@ -3435,8 +3435,8 @@
       "filename": "Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip04_A_striking_real-world_example_of_why_gol.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-05T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Russia Couldn't Hide Its Gold From the World",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip04_A_striking_real-world_example_of_why_gol.jpg"
@@ -3445,8 +3445,8 @@
       "filename": "Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip05_A_genuinely_provocative_philosophical_qu.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-05T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "What Humans Have Left When AI Replaces Body and Mind",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip05_A_genuinely_provocative_philosophical_qu.jpg"
@@ -3455,8 +3455,8 @@
       "filename": "Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip06_A_counterintuitive_highly_quotable_claim.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-06T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Intelligence Loses to Adaptability Every Single Time",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip06_A_counterintuitive_highly_quotable_claim.jpg"
@@ -3465,8 +3465,8 @@
       "filename": "Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip07_A_sharp_timely_takedown_of_the_UKs_polit.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-06T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The UK's Crisis Exposes the Death of Political Stability",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip07_A_sharp_timely_takedown_of_the_UKs_polit.jpg"
@@ -3475,8 +3475,8 @@
       "filename": "Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip08_A_provocative_current-events-relevant_br.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-06T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Taxing the Rich Fails: The Math Never Works",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ray_Dalio_I_Predicted_The_2008_CRASH_I_K_clip08_A_provocative_current-events-relevant_br.jpg"
@@ -5105,8 +5105,8 @@
       "filename": "Vitamin_D_Expert_The_Supplement_World_Is_clip02_A_jarring_emotionally_charged_revelation.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-05T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "28 YEAR OLDS HAVING STROKES",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Vitamin_D_Expert_The_Supplement_World_Is_clip02_A_jarring_emotionally_charged_revelation.jpg"
@@ -5115,8 +5115,8 @@
       "filename": "Vitamin_D_Expert_The_Supplement_World_Is_clip03_A_darkly_funny_quotable_observation_that.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-05T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "NO OBESE SQUIRRELS EXIST",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Vitamin_D_Expert_The_Supplement_World_Is_clip03_A_darkly_funny_quotable_observation_that.jpg"
@@ -5125,8 +5125,8 @@
       "filename": "Vitamin_D_Expert_The_Supplement_World_Is_clip04_A_genuine_holy_crap_moment_of_realizatio.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-05T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "YOU ARE PARALYZED EVERY NIGHT",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Vitamin_D_Expert_The_Supplement_World_Is_clip04_A_genuine_holy_crap_moment_of_realizatio.jpg"
@@ -5135,8 +5135,8 @@
       "filename": "Vitamin_D_Expert_The_Supplement_World_Is_clip05_A_vivid_quotable_glymphatic_drainage_met.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-05T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "YOU NEED TO WASH YOUR BRAIN",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Vitamin_D_Expert_The_Supplement_World_Is_clip05_A_vivid_quotable_glymphatic_drainage_met.jpg"
@@ -5145,8 +5145,8 @@
       "filename": "Vitamin_D_Expert_The_Supplement_World_Is_clip06_A_stunning_well-argued_claim_that_medici.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-06T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "VITAMIN D WAS NEVER A VITAMIN",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Vitamin_D_Expert_The_Supplement_World_Is_clip06_A_stunning_well-argued_claim_that_medici.jpg"
@@ -5155,8 +5155,8 @@
       "filename": "Vitamin_D_Expert_The_Supplement_World_Is_clip07_A_gross-out_surprising_medical_fact_told.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-06T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "POOP TRANSPLANTS SAVE LIVES",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Vitamin_D_Expert_The_Supplement_World_Is_clip07_A_gross-out_surprising_medical_fact_told.jpg"
@@ -5165,8 +5165,8 @@
       "filename": "Vitamin_D_Expert_The_Supplement_World_Is_clip08_An_unexpected_genetic_insight_about_redh.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-06T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "REDHEADS HAVE A SUN SUPERPOWER",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Vitamin_D_Expert_The_Supplement_World_Is_clip08_An_unexpected_genetic_insight_about_redh.jpg"
@@ -5175,8 +5175,8 @@
       "filename": "Vitamin_D_Expert_The_Supplement_World_Is_clip09_A_jaw-dropping_taboo-breaking_story_of_a.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-06T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "SHE CURED NARCOLEPSY WITH NICOTINE",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Vitamin_D_Expert_The_Supplement_World_Is_clip09_A_jaw-dropping_taboo-breaking_story_of_a.jpg"
