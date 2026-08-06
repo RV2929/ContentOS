@@ -1078,6 +1078,19 @@
       "clipsCount": 0,
       "batchId": null,
       "error": "site-packages/anthropic/_base_client.py\", line 1194, in request\n    raise self._make_status_error_from_response(response) from None\nanthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'You have reached your specified API usage limits. "
+    },
+    {
+      "id": "mshdzr9cykc3",
+      "url": "https://www.youtube.com/watch?v=mpAZehPviLQ",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-08-06T10:42:23.808Z",
+      "startedAt": "2026-08-06T10:42:23.812Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
