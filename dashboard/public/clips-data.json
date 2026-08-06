@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T12:03:51.476Z",
+  "lastUpdated": "2026-08-06T12:13:09.949Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -2413,10 +2413,10 @@
     },
     {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip01_A_vivid_emotionally_charged_origin_story.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-06T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "AEH1Cj6JtpA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Fired For Refusing To Scrape Gum: The Moment That Made Him Rich",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip01_A_vivid_emotionally_charged_origin_story.jpg"
