@@ -1070,13 +1070,13 @@
       "id": "mshdzr9cykc3",
       "url": "https://www.youtube.com/watch?v=mpAZehPviLQ",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-08-06T10:42:23.808Z",
       "startedAt": "2026-08-06T10:42:23.812Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-08-06T11:02:31.319Z",
+      "clipsCount": 10,
+      "batchId": "Kevin_OLeary_Every_Time_You_Get_Paid_Do_",
       "error": null
     }
   ]
