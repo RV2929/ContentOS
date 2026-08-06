@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T12:16:24.743Z",
+  "lastUpdated": "2026-08-06T13:25:03.588Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -2423,10 +2423,10 @@
     },
     {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_shocking_quotable_exchange_where_Steve.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-06T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Xs3GITkteao",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Steve Jobs Told Him To Shut Up And Listen",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_shocking_quotable_exchange_where_Steve.jpg"
