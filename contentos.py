@@ -168,7 +168,7 @@ def run(url: str, model_size: str = "base", channel: str = "podcast") -> list[st
             m = re.search(r"_longform(\d+)_", os.path.basename(longform_output_path))
             idx = int(m.group(1)) - 1 if m else 0
             segment = long_segments[idx] if 0 <= idx < len(long_segments) else {}
-            longform_meta = _generate_longform_metadata(longform_output_path, segment, video_path, video_meta)
+            longform_meta = _generate_longform_metadata(longform_output_path, segment, video_path, video_meta, channel)
             _upload_longform_now(longform_output_path, longform_meta, channel)
 
     all_output_paths = output_paths + tiktok_output_paths + longform_output_paths
@@ -508,13 +508,14 @@ DASHBOARD_URL = os.getenv("DASHBOARD_URL", "http://localhost:3000")
 
 
 def _generate_longform_metadata(
-    output_path: str, segment: dict, video_path: str, video_meta: dict,
+    output_path: str, segment: dict, video_path: str, video_meta: dict, channel: str = "podcast",
 ) -> dict:
     """
     Call Claude once to generate a proper long-form YouTube title/description
     for the single cut segment. Unlike _generate_metadata (Shorts framing,
-    hashtag block, multi-clip batching), this asks for a plain descriptive
-    title and a real multi-sentence description — no hashtags, no #Shorts.
+    multi-clip batching), this asks for a plain descriptive title and a real
+    multi-sentence description — no #Shorts tag, but the same speaker +
+    topical hashtags used for short clips are appended at the end.
 
     Returns {"title": str, "description": str}.
     """
@@ -522,9 +523,14 @@ def _generate_longform_metadata(
     import re
     import anthropic
 
+    from scheduler_queue import normalize_channel
+
     video_title = video_meta.get("title") or os.path.splitext(os.path.basename(video_path))[0].replace("_", " ")
     video_uploader = video_meta.get("uploader") or ""
     video_description = (video_meta.get("description") or "")[:500]
+
+    channel_hashtags = CHANNEL_HASHTAGS[normalize_channel(channel)]
+    channel_hashtags_str = " ".join(channel_hashtags)
 
     prompt = f"""You are a YouTube content editor preparing a long-form video for regular (non-Shorts) upload.
 
@@ -538,13 +544,13 @@ Working title: "{segment.get('title', '')}"
 Generate:
 - title: a clear, descriptive, SEO-friendly YouTube title (under 100 chars). Accurately represent the segment's content — no punchy hook framing, no ALL CAPS, no emojis.
 - description: 2-4 sentences summarizing what this segment covers, written for someone deciding whether to watch. No hashtags, no calls to subscribe, no emoji.
+- speaker_hashtag: a single lowercase hashtag for the video's main speaker/guest (e.g. "#taylorswift"), identified from the uploader/description/title above — not the channel's own brand name unless the channel IS the speaker. No spaces or punctuation besides the leading #. If no individual speaker can be confidently identified, return "".
+- topical_hashtags: an array of 6-10 topical hashtags relevant to the segment's content (e.g. "#AI", "#Tech", "#Psychology", "#Mindset"), not repeating the channel hashtags: {channel_hashtags_str}.
 
-Reply ONLY with valid JSON: {{"title":"...","description":"..."}}"""
+Reply ONLY with valid JSON: {{"title":"...","description":"...","speaker_hashtag":"...","topical_hashtags":["...","..."]}}"""
 
-    fallback = {
-        "title": segment.get("title", "") or os.path.splitext(os.path.basename(output_path))[0].replace("_", " ")[:100],
-        "description": segment.get("reason", ""),
-    }
+    fallback_title = segment.get("title", "") or os.path.splitext(os.path.basename(output_path))[0].replace("_", " ")[:100]
+    fallback_description = segment.get("reason", "")
 
     try:
         client = anthropic.Anthropic()
@@ -555,11 +561,23 @@ Reply ONLY with valid JSON: {{"title":"...","description":"..."}}"""
         )
         text = re.sub(r"```(?:json)?|```", "", response.content[0].text).strip()
         meta = json.loads(text)
-        title = (meta.get("title") or "").strip() or fallback["title"]
-        description = (meta.get("description") or "").strip() or fallback["description"]
+        title = (meta.get("title") or "").strip() or fallback_title
+        description = (meta.get("description") or "").strip() or fallback_description
+
+        speaker_tag = re.sub(r"[^a-zA-Z0-9]", "", meta.get("speaker_hashtag") or "")
+        speaker_hashtag = f"#{speaker_tag}" if speaker_tag else ""
+        topical_hashtags = [
+            f"#{re.sub(r'[^a-zA-Z0-9]', '', t)}"
+            for t in (meta.get("topical_hashtags") or [])
+            if re.sub(r"[^a-zA-Z0-9]", "", t)
+        ]
+
+        hashtags = channel_hashtags + ([speaker_hashtag] if speaker_hashtag else []) + topical_hashtags
+        description = description + "\n\n" + " ".join(dict.fromkeys(hashtags))
     except Exception as exc:
         print(f"  Warning: long-form metadata generation failed ({exc}) — using defaults")
-        title, description = fallback["title"], fallback["description"]
+        title = fallback_title
+        description = fallback_description + "\n\n" + channel_hashtags_str
 
     print(f"  Generated long-form title: {title[:72]}")
     return {"title": title, "description": description}
