@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T22:12:34.499Z",
+  "lastUpdated": "2026-08-06T23:24:42.312Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -2503,10 +2503,10 @@
     },
     {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip10_A_punchy_list-style_breakdown_of_relatio.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-06T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "m-VQ3qdD9NE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The 5 Money Personalities Destroying Your Relationship",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip10_A_punchy_list-style_breakdown_of_relatio.jpg"
@@ -2913,10 +2913,10 @@
     },
     {
       "filename": "Man_Who_Owns_4_Of_All_Bitcoin_His_Final__clip07_Short_punchy_highly_quotable_life_advice.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-06T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "hVwTsuS1JUM",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "You Become Who You Surround Yourself With",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Man_Who_Owns_4_Of_All_Bitcoin_His_Final__clip07_Short_punchy_highly_quotable_life_advice.jpg"
