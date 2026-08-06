@@ -1091,6 +1091,19 @@
       "clipsCount": 0,
       "batchId": null,
       "error": "~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1104, in trouble\n    raise DownloadError(message, exc_info)\nyt_dlp.utils.DownloadError: ERROR: \r[download] Got error"
+    },
+    {
+      "id": "mshguvobsaj0",
+      "url": "https://www.youtube.com/watch?v=1aGpJQ8BMLI",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-08-06T12:02:35.099Z",
+      "startedAt": "2026-08-06T12:02:35.125Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
