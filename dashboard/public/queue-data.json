@@ -1083,11 +1083,11 @@
       "id": "mshguvobsaj0",
       "url": "https://www.youtube.com/watch?v=1aGpJQ8BMLI",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-08-06T12:02:35.099Z",
       "startedAt": "2026-08-06T12:02:35.125Z",
-      "completedAt": null,
+      "completedAt": "2026-08-06T12:16:21.690Z",
       "clipsCount": 0,
       "batchId": null,
       "error": null
