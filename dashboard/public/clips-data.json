@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T23:24:42.312Z",
+  "lastUpdated": "2026-08-07T00:40:28.221Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -2923,10 +2923,10 @@
     },
     {
       "filename": "Man_Who_Owns_4_Of_All_Bitcoin_His_Final__clip08_Tense_insider_story_of_a_market_doom_loo.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-07T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "rVp-MlDSyIM",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why I Sold My Bitcoin and Shocked Everyone",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Man_Who_Owns_4_Of_All_Bitcoin_His_Final__clip08_Tense_insider_story_of_a_market_doom_loo.jpg"
