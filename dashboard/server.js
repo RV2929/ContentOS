@@ -732,12 +732,24 @@ app.post('/api/upload/buffer', (req, res) => {
 
   if (inProgressSet.has(filename)) return res.status(409).json({ error: `Already posting to Buffer (${platform})` });
 
-  const entry = load()[filename] || {};
-  const title  = entry.title || path.basename(filename, path.extname(filename)).replace(/_/g, ' ');
-  const caption = isTikTok ? buildTikTokCaption(title, entry) : buildBufferCaption(title, entry);
+  // Require a fully-scheduled entry (with title + channel) to exist before
+  // allowing a manual Buffer upload. Without this guard the handler would
+  // silently create a stub entry with no metadata, which is exactly the
+  // corruption that produced 68 title-less/channel-less records in
+  // tiktok_schedule.json. For TikTok retries the entry must already be in
+  // tiktok_schedule.json; for Instagram it must be in schedule.json.
+  const existingEntry = load()[filename];
+  if (!existingEntry || !existingEntry.title || !existingEntry.channel) {
+    return res.status(400).json({
+      error: `No scheduled entry with metadata found for "${filename}" in ${isTikTok ? 'tiktok_schedule.json' : 'schedule.json'}. ` +
+             `Run the pipeline to generate metadata before retrying.`,
+    });
+  }
+
+  const title  = existingEntry.title;
+  const caption = isTikTok ? buildTikTokCaption(title, existingEntry) : buildBufferCaption(title, existingEntry);
 
   const s = load();
-  if (!s[filename]) s[filename] = {};
   s[filename].bufferStatus = 'uploading';
   saveJSON(scheduleFile, s);
 
@@ -747,21 +759,23 @@ app.post('/api/upload/buffer', (req, res) => {
   doBufferPost(filePath, filename, caption, platform)
     .then((result) => {
       const s2 = load();
-      if (!s2[filename]) s2[filename] = {};
-      s2[filename].bufferStatus = 'done';
-      if (result?.updateId) s2[filename].bufferPostId = result.updateId;
-      delete s2[filename].bufferError;
-      saveJSON(scheduleFile, s2);
+      if (s2[filename]) {
+        s2[filename].bufferStatus = 'done';
+        if (result?.updateId) s2[filename].bufferPostId = result.updateId;
+        delete s2[filename].bufferError;
+        saveJSON(scheduleFile, s2);
+      }
       console.log(`[buffer:${platform}] Manual post done: ${filename}`);
       scheduleSyncToGitHub(`buffer ${platform} done ${filename}`);
     })
     .catch(err => {
       console.error(`[buffer:${platform}] Manual post failed ${filename}: ${err.message}`);
       const s2 = load();
-      if (!s2[filename]) s2[filename] = {};
-      s2[filename].bufferStatus = 'failed';
-      s2[filename].bufferError  = err.message.slice(0, 200);
-      saveJSON(scheduleFile, s2);
+      if (s2[filename]) {
+        s2[filename].bufferStatus = 'failed';
+        s2[filename].bufferError  = err.message.slice(0, 200);
+        saveJSON(scheduleFile, s2);
+      }
       scheduleSyncToGitHub(`buffer ${platform} failed ${filename}`);
     })
     .finally(() => inProgressSet.delete(filename));
