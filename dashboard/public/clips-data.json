@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T21:06:37.737Z",
+  "lastUpdated": "2026-08-12T22:15:41.485Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -395,8 +395,8 @@
       "filename": "AI_Whistleblower_We_Are_Being_Gaslit_By__clip02_A_counterintuitive_insight_showing_how_A.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-12T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Sam Altman Copied Elon Musk's Fear to Recruit Him",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/AI_Whistleblower_We_Are_Being_Gaslit_By__clip02_A_counterintuitive_insight_showing_how_A.jpg"
@@ -1782,6 +1782,56 @@
       "thumbnailPath": "/thumbnails/He_Risked_Everything_To_Warn_You_No_One__tiktok05_Personal_bombshell_that_AI_put_his_dream.jpg"
     },
     {
+      "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip01_Opens_with_jaw-dropping_numbers_six-figu.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_I_Sold_My_Influencer_Marketing_Agenc_clip01_Opens_with_jaw-dropping_numbers_six-figu.jpg"
+    },
+    {
+      "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip02_Reveals_shocking_real-world_influencer_p.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_I_Sold_My_Influencer_Marketing_Agenc_clip02_Reveals_shocking_real-world_influencer_p.jpg"
+    },
+    {
+      "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip03_A_surprising_business_story_with_a_payof.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_I_Sold_My_Influencer_Marketing_Agenc_clip03_A_surprising_business_story_with_a_payof.jpg"
+    },
+    {
+      "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip04_A_counterintuitive_and_quotable_business.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_I_Sold_My_Influencer_Marketing_Agenc_clip04_A_counterintuitive_and_quotable_business.jpg"
+    },
+    {
+      "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip05_A_tense_high-stakes_story_of_a_deal_near.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
+    },
+    {
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip01_Raw_defiant_vulnerability_where_Goggins_.mp4",
       "status": "posted",
       "youtubeId": "eXCOHmkEqds",
@@ -3163,10 +3213,10 @@
     },
     {
       "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip01_Opens_with_a_bold_scroll-stopping_claim_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-12T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "4ZHaWTx9x44",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "10 Million Subs in 6 Months? Here's the Real Secret",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip01_Opens_with_a_bold_scroll-stopping_claim_.jpg"
@@ -5965,8 +6015,8 @@
       "filename": "Why_Willpower_Doesnt_Work_A_Neuroscienti_clip01_A_bold_absolute_claim_from_a_leading_neu.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-12T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Everything Is Recoverable, Everything: Neuroscientist Reveals the Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Why_Willpower_Doesnt_Work_A_Neuroscienti_clip01_A_bold_absolute_claim_from_a_leading_neu.jpg"
@@ -6063,8 +6113,8 @@
     },
     {
       "filename": "Why_Willpower_Doesnt_Work_A_Neuroscienti_longform02_Can_You_Really_Rewire_Your_Brain_Debunki.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "j_ZsZVpw1so",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
@@ -6073,8 +6123,8 @@
     },
     {
       "filename": "Why_Willpower_Doesnt_Work_A_Neuroscienti_longform03_One_Slip_Doesnt_Mean_Failure_How_to_Hand.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "53ItfOJdwSI",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
