@@ -264,7 +264,7 @@ Format:
     print("Asking Claude to find ~62s TikTok moments…")
     with client.messages.stream(
         model="claude-sonnet-5",
-        max_tokens=16000,
+        max_tokens=24000,
         thinking={"type": "adaptive"},
         system=system_prompt,
         messages=[{"role": "user", "content": user_prompt}],
@@ -417,7 +417,7 @@ Or, if nothing qualifies:
     print("Asking Claude to find long-form segments…")
     with client.messages.stream(
         model="claude-sonnet-5",
-        max_tokens=8000,
+        max_tokens=16000,
         thinking={"type": "adaptive"},
         system=system_prompt,
         messages=[{"role": "user", "content": user_prompt}],
