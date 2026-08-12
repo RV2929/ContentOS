@@ -44,7 +44,7 @@ FACE_CROP_EXPAND = 2.0
 
 # Brand watermark burned into every clip, three times (top/middle/bottom) so
 # cropping any one band still leaves the mark visible elsewhere in the frame.
-WATERMARK_TEXT = "ContentOS29"
+WATERMARK_TEXT = "clippy2929"
 WATERMARK_FONT = "/System/Library/Fonts/Supplemental/Arial.ttf"
 
 
