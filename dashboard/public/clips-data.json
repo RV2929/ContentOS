@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T20:28:47.586Z",
+  "lastUpdated": "2026-08-12T20:36:06.605Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -383,10 +383,10 @@
     },
     {
       "filename": "AI_Whistleblower_We_Are_Being_Gaslit_By__clip01_A_blunt_provocative_opening_claim_follow.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-12T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "xMe2RkiRZYA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Break Up The Empires of AI Before It's Too Late",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/AI_Whistleblower_We_Are_Being_Gaslit_By__clip01_A_blunt_provocative_opening_claim_follow.jpg"
@@ -3160,6 +3160,76 @@
       "title": "",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Micah_To_Get_the_Yamal_Haircut_Lamine_Ya_tiktok01_Opens_with_the_fan_directly_asking_the_p.jpg"
+    },
+    {
+      "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip01_Opens_with_a_bold_scroll-stopping_claim_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip01_Opens_with_a_bold_scroll-stopping_claim_.jpg"
+    },
+    {
+      "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip02_Blunt_provocative_advice-to-self_moment_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip02_Blunt_provocative_advice-to-self_moment_.jpg"
+    },
+    {
+      "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip03_Counterintuitive_insight_comparing_YouTu.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip03_Counterintuitive_insight_comparing_YouTu.jpg"
+    },
+    {
+      "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip04_Concrete_actionable_and_slightly_harsh_r.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip04_Concrete_actionable_and_slightly_harsh_r.jpg"
+    },
+    {
+      "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip05_Live_example_Fiji_water_is_the_worst_wat.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip05_Live_example_Fiji_water_is_the_worst_wat.jpg"
+    },
+    {
+      "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip06_A_bold_controversial_claim_that_virality.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip06_A_bold_controversial_claim_that_virality.jpg"
+    },
+    {
+      "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip07_Reveals_an_underrated_growth_insight__vi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
     },
     {
       "filename": "My_FULL_Interview_With_Piers_Morgan_clip01_Wild_insider_story_of_how_Ronaldo_played.mp4",
