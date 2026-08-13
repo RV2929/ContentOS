@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T04:00:56.519Z",
+  "lastUpdated": "2026-08-13T04:01:04.061Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -443,10 +443,10 @@
     },
     {
       "filename": "AI_Whistleblower_We_Are_Being_Gaslit_By__clip07_A_tense_back-and-forth_where_a_seemingly.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T03:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "EJTeaZBqr8E",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Playing Devil's Advocate on AI and China Backfires",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/AI_Whistleblower_We_Are_Being_Gaslit_By__clip07_A_tense_back-and-forth_where_a_seemingly.jpg"
