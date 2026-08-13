@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T09:25:55.427Z",
+  "lastUpdated": "2026-08-13T09:48:32.572Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1163,8 +1163,8 @@
     },
     {
       "filename": "Elon_Musk__In_36_months_the_cheapest_pla_longform02_Elon_Musks_Philosophy_Why_AI_Should_Be_B.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "wJn9PYx12AY",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
@@ -1173,8 +1173,8 @@
     },
     {
       "filename": "Elon_Musk__In_36_months_the_cheapest_pla_longform03_The_Story_of_Why_Starship_Switched_from_.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "UbRJT6F_wRo",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
@@ -1923,10 +1923,10 @@
     },
     {
       "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip03_A_surprising_business_story_with_a_payof.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "6s4E_uq_48o",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "How A Nobody Brand Spent Millions On Famous Creators",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_I_Sold_My_Influencer_Marketing_Agenc_clip03_A_surprising_business_story_with_a_payof.jpg"
@@ -5633,10 +5633,10 @@
     },
     {
       "filename": "The_full-length_interview_with_Elon_Musk_clip02_A_counterintuitive_quotable_framing_of_r.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "KTOkSAFQpms",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "How Robots and AI Create an Infinite Economy",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_full-length_interview_with_Elon_Musk_clip02_A_counterintuitive_quotable_framing_of_r.jpg"
