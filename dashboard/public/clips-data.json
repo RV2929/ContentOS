@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T23:18:54.491Z",
+  "lastUpdated": "2026-08-13T00:36:33.569Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -416,7 +416,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-13T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "OpenAI Subpoenaed Its Own Critics at Their Door",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/AI_Whistleblower_We_Are_Being_Gaslit_By__clip04_A_shocking_little-known_story_of_a_watch.jpg"
@@ -1823,6 +1823,16 @@
     },
     {
       "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip05_A_tense_high-stakes_story_of_a_deal_near.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_I_Sold_My_Influencer_Marketing_Agenc_clip05_A_tense_high-stakes_story_of_a_deal_near.jpg"
+    },
+    {
+      "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip06_A_sharp_quotable_insight_on_why_personal.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
@@ -3236,7 +3246,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-13T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Stop Blaming the Algorithm, Start Blaming Yourself",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip03_Counterintuitive_insight_comparing_YouTu.jpg"
@@ -6036,7 +6046,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-13T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "The 21-Day Habit Myth Is Completely Fake",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Why_Willpower_Doesnt_Work_A_Neuroscienti_clip03_A_surprising_funny_debunking_revealing_t.jpg"
