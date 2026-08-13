@@ -321,18 +321,20 @@ Description: "{video_description}"
 
 For EACH clip generate:
 - title: 60–100 chars, punchy, curiosity-driven, expert/authority framing when relevant. No emojis.
-- description: 2 sentences that tease without spoiling. End with a line of ONLY hashtags, in this order: {leading_tag}these required channel hashtags: {channel_hashtags_str}, then 6–10 more topical hashtags relevant to the clip content (e.g. #AI #Tech #Future #Innovation #Psychology #Mindset #Motivation #Science #Health etc) — don't repeat the channel hashtags{' or #Shorts' if leading_tag else ''} among the topical ones.
+- description: 2 sentences that tease without spoiling. No hashtags in the description text.
 - speaker_hashtag: a single lowercase hashtag for the video's main speaker/guest (e.g. "#taylorswift"), identified from the uploader/description/title above — not the channel's own brand name unless the channel IS the speaker. No spaces or punctuation besides the leading #. If no individual speaker can be confidently identified, return "".
+- topical_hashtags: an array of 6–10 hashtags specific to this clip's content (e.g. "#Entrepreneurship", "#PersonalBrand", "#StartupLife") — do NOT include the channel hashtags ({channel_hashtags_str}){' or #Shorts' if leading_tag else ''}, and do not repeat the speaker_hashtag.
 
 Reply ONLY with a valid JSON array in the same order as the clips:
-[{{"title":"...","description":"...","speaker_hashtag":"..."}},...]"""
+[{{"title":"...","description":"...","speaker_hashtag":"...","topical_hashtags":["...","..."]}},...]"""
 
     base_tags = channel_hashtags if platform == "tiktok" else ["#Shorts"] + channel_hashtags
     fallback = [
         {
             "title": c.get("title", "") or os.path.splitext(fn)[0].replace("_", " ")[:80],
-            "description": " ".join(base_tags),
+            "description": "",
             "speaker_hashtag": "",
+            "topical_hashtags": [],
         }
         for fn, c in path_clip_pairs
     ]
@@ -358,25 +360,19 @@ Reply ONLY with a valid JSON array in the same order as the clips:
         speaker_tag = re.sub(r"[^a-zA-Z0-9]", "", meta.get("speaker_hashtag") or "")
         speaker_hashtag = f"#{speaker_tag}" if speaker_tag else ""
 
-        # Guarantee #Shorts (YouTube only), the channel's curated hashtags, and the
-        # speaker hashtag are always present — Claude usually includes them, but this
-        # makes it deterministic rather than dependent on instruction-following.
-        required_tags = base_tags + ([speaker_hashtag] if speaker_hashtag else [])
-        description_lower = description.lower()
-        for tag in required_tags:
-            if tag.lower() not in description_lower:
-                description = (description + " " + tag).strip()
-                description_lower = description.lower()
-
-        # Whatever's left after stripping #Shorts/channel/speaker tags is the
-        # topical hashtags Claude generated for this clip — surface them
-        # separately so Instagram/TikTok captions (which don't reuse the full
-        # YouTube description) can pull a few in alongside their own tags.
-        exclude = {t.lower() for t in required_tags}
+        # Normalize topical hashtags from the dedicated field Claude returns.
+        # Exclude any that Claude accidentally duplicated from channel/speaker tags.
+        exclude = {t.lower() for t in base_tags + ([speaker_hashtag] if speaker_hashtag else [])}
         topical_hashtags = [
-            t for t in dict.fromkeys(re.findall(r"#\w+", description))
-            if t.lower() not in exclude
+            f"#{re.sub(r'[^a-zA-Z0-9]', '', t)}"
+            for t in (meta.get("topical_hashtags") or [])
+            if re.sub(r"[^a-zA-Z0-9]", "", t) and f"#{re.sub(r'[^a-zA-Z0-9]', '', t).lower()}" not in exclude
         ]
+
+        # Build the full hashtag line for the YouTube description.
+        required_tags = base_tags + ([speaker_hashtag] if speaker_hashtag else [])
+        all_hashtags = list(dict.fromkeys(required_tags + topical_hashtags))
+        description = description + "\n\n" + " ".join(all_hashtags)
 
         result[filename] = {
             "title": title,
