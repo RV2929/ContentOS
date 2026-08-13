@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T00:36:33.569Z",
+  "lastUpdated": "2026-08-13T00:36:36.702Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -415,8 +415,8 @@
       "filename": "AI_Whistleblower_We_Are_Being_Gaslit_By__clip04_A_shocking_little-known_story_of_a_watch.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-13T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "OpenAI Subpoenaed Its Own Critics at Their Door",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/AI_Whistleblower_We_Are_Being_Gaslit_By__clip04_A_shocking_little-known_story_of_a_watch.jpg"
@@ -3245,8 +3245,8 @@
       "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip03_Counterintuitive_insight_comparing_YouTu.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-13T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Stop Blaming the Algorithm, Start Blaming Yourself",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip03_Counterintuitive_insight_comparing_YouTu.jpg"
@@ -6045,8 +6045,8 @@
       "filename": "Why_Willpower_Doesnt_Work_A_Neuroscienti_clip03_A_surprising_funny_debunking_revealing_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-13T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The 21-Day Habit Myth Is Completely Fake",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Why_Willpower_Doesnt_Work_A_Neuroscienti_clip03_A_surprising_funny_debunking_revealing_t.jpg"
