@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T05:00:18.027Z",
+  "lastUpdated": "2026-08-13T05:16:43.800Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -455,8 +455,8 @@
       "filename": "AI_Whistleblower_We_Are_Being_Gaslit_By__clip08_A_raw_emotional_real-world_story_of_a_la.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-13T05:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "AI Work Grind Made Her Scream at Her Child",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/AI_Whistleblower_We_Are_Being_Gaslit_By__clip08_A_raw_emotional_real-world_story_of_a_la.jpg"
@@ -3305,8 +3305,8 @@
       "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip07_Reveals_an_underrated_growth_insight__vi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-13T05:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "There's No Such Thing as a Perfect Video",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip07_Reveals_an_underrated_growth_insight__vi.jpg"
@@ -6105,8 +6105,8 @@
       "filename": "Why_Willpower_Doesnt_Work_A_Neuroscienti_clip07_A_comedic_back-and-forth_No_More_Yes_ple.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-13T05:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "One Slip Doesn't Reset Your Brain: Why Relapse Isn't Failure",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Why_Willpower_Doesnt_Work_A_Neuroscienti_clip07_A_comedic_back-and-forth_No_More_Yes_ple.jpg"
