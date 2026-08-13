@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T01:55:30.084Z",
+  "lastUpdated": "2026-08-13T02:59:12.110Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -436,7 +436,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-13T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "AI Executives Are Living Out a Sci-Fi Myth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/AI_Whistleblower_We_Are_Being_Gaslit_By__clip06_A_vivid_original_analogy_comparing_AI_CE.jpg"
@@ -3273,10 +3273,10 @@
     },
     {
       "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip05_Live_example_Fiji_water_is_the_worst_wat.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Q4ST237d04M",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Extreme Title Formula That Actually Works",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip05_Live_example_Fiji_water_is_the_worst_wat.jpg"
@@ -6076,7 +6076,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-13T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Your Phone Is Literally a Slot Machine: Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Why_Willpower_Doesnt_Work_A_Neuroscienti_clip05_A_vivid_counterintuitive_metaphor_explai.jpg"
