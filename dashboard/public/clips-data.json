@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T07:20:07.568Z",
+  "lastUpdated": "2026-08-13T07:27:49.558Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1783,10 +1783,10 @@
     },
     {
       "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip01_Opens_with_jaw-dropping_numbers_six-figu.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "lY66zfI6OFg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Six Figures For One Video: How Gaming Built His Empire",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_I_Sold_My_Influencer_Marketing_Agenc_clip01_Opens_with_jaw-dropping_numbers_six-figu.jpg"
@@ -1863,8 +1863,8 @@
     },
     {
       "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_longform01_From_Teenage_YouTuber_to_Agency_Founder_.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "LTgjNsB4BXA",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
@@ -1873,8 +1873,8 @@
     },
     {
       "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_longform02_Why_and_How_I_Sold_My_Influencer_Marketi.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "CMWIoiE3aNk",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
@@ -1883,8 +1883,8 @@
     },
     {
       "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_longform03_What_Actually_Makes_an_Agency_Attractive.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "j0FUBQu_yiY",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
