@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T08:06:57.190Z",
+  "lastUpdated": "2026-08-13T08:36:38.734Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1793,10 +1793,10 @@
     },
     {
       "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip02_Reveals_shocking_real-world_influencer_p.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "XPq_O63ZYjQ",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Sidemen And MrBeast's Insane Creator Rates Revealed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_I_Sold_My_Influencer_Marketing_Agenc_clip02_Reveals_shocking_real-world_influencer_p.jpg"
@@ -5503,10 +5503,10 @@
     },
     {
       "filename": "The_full-length_interview_with_Elon_Musk_clip01_Musk_makes_a_jaw-dropping_specific_predi.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "q3oVRM2DSVc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "AI Smarter Than All Humans Combined in Just 5 Years",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_full-length_interview_with_Elon_Musk_clip01_Musk_makes_a_jaw-dropping_specific_predi.jpg"
@@ -5603,8 +5603,8 @@
     },
     {
       "filename": "The_full-length_interview_with_Elon_Musk_longform01_Elon_Musk_on_Losing_Control_to_AI_From_F.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "xHl3ytftu_w",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
@@ -5613,8 +5613,8 @@
     },
     {
       "filename": "The_full-length_interview_with_Elon_Musk_longform02_Will_AI_Take_Every_Job_Elon_Musk_on_Stoc.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "hI2k1Pqobrg",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
@@ -5623,8 +5623,8 @@
     },
     {
       "filename": "The_full-length_interview_with_Elon_Musk_longform03_Elon_Musk_Defends_His_European_Politics_.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "RmdFjt8MjJ4",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
