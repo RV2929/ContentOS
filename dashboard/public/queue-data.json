@@ -1161,13 +1161,13 @@
       "id": "msqin619c27c",
       "url": "https://www.youtube.com/watch?v=BYXbuik3dgA",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-08-12T20:02:30.093Z",
       "startedAt": "2026-08-13T08:06:46.978Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-08-13T09:25:52.401Z",
+      "clipsCount": 9,
+      "batchId": "Elon_Musk__In_36_months_the_cheapest_pla",
       "error": null
     }
   ]
