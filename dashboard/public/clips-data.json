@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T00:36:36.702Z",
+  "lastUpdated": "2026-08-13T01:55:30.084Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -423,10 +423,10 @@
     },
     {
       "filename": "AI_Whistleblower_We_Are_Being_Gaslit_By__clip05_A_satisfying_gotcha_moment_where_the_aut.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "ILLfcBkfKDg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Sam Altman's Tweet Was Directly About Her Book",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/AI_Whistleblower_We_Are_Being_Gaslit_By__clip05_A_satisfying_gotcha_moment_where_the_aut.jpg"
@@ -1833,6 +1833,16 @@
     },
     {
       "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip06_A_sharp_quotable_insight_on_why_personal.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_I_Sold_My_Influencer_Marketing_Agenc_clip06_A_sharp_quotable_insight_on_why_personal.jpg"
+    },
+    {
+      "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip07_A_raw_vulnerable_origin_story__building_.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
@@ -3253,10 +3263,10 @@
     },
     {
       "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip04_Concrete_actionable_and_slightly_harsh_r.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "JMaLjgDJYN4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Make 100 Videos Before You Ask for Help",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip04_Concrete_actionable_and_slightly_harsh_r.jpg"
@@ -6053,10 +6063,10 @@
     },
     {
       "filename": "Why_Willpower_Doesnt_Work_A_Neuroscienti_clip04_A_jaw-dropping_statistic_contrast5-15_re.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "nr7mJFAS3T4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Your Brain Needs 293,000 Reps to Change One Habit",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Why_Willpower_Doesnt_Work_A_Neuroscienti_clip04_A_jaw-dropping_statistic_contrast5-15_re.jpg"
