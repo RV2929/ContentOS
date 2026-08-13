@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T14:36:46.931Z",
+  "lastUpdated": "2026-08-13T15:48:38.203Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1973,10 +1973,10 @@
     },
     {
       "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip08_An_emotionally_resonant_screenshot-worth.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "D60-RTmtLvo",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Business Problems Feel Trivial After Surviving Cancer",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_I_Sold_My_Influencer_Marketing_Agenc_clip08_An_emotionally_resonant_screenshot-worth.jpg"
