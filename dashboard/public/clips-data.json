@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T06:27:28.761Z",
+  "lastUpdated": "2026-08-13T06:27:32.008Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -465,8 +465,8 @@
       "filename": "AI_Whistleblower_We_Are_Being_Gaslit_By__clip09_A_startling_environmental_justice_story_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-13T06:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "AI Data Center Gassed Out an Entire Community",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/AI_Whistleblower_We_Are_Being_Gaslit_By__clip09_A_startling_environmental_justice_story_.jpg"
@@ -3315,8 +3315,8 @@
       "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip08_Raw_vulnerable_admission_about_the_perso.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-13T06:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Have a Mental Breakdown Every Week",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip08_Raw_vulnerable_admission_about_the_perso.jpg"
