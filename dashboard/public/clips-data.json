@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T12:50:24.440Z",
+  "lastUpdated": "2026-08-13T13:24:39.404Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1953,10 +1953,10 @@
     },
     {
       "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip06_A_sharp_quotable_insight_on_why_personal.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "B_ZlGR0Cf08",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "People Buy People, Not Companies. Here's Why That Matters",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_I_Sold_My_Influencer_Marketing_Agenc_clip06_A_sharp_quotable_insight_on_why_personal.jpg"
@@ -5663,10 +5663,10 @@
     },
     {
       "filename": "The_full-length_interview_with_Elon_Musk_clip05_Raw_unsettling_honesty_about_existential.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "XaOtdW7B4i8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "There's a 10-20% Chance AI Wipes Out Humanity",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_full-length_interview_with_Elon_Musk_clip05_Raw_unsettling_honesty_about_existential.jpg"
