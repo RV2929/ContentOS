@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T02:59:15.392Z",
+  "lastUpdated": "2026-08-13T04:00:56.519Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -446,7 +446,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-13T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Playing Devil's Advocate on AI and China Backfires",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/AI_Whistleblower_We_Are_Being_Gaslit_By__clip07_A_tense_back-and-forth_where_a_seemingly.jpg"
@@ -1843,6 +1843,16 @@
     },
     {
       "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip07_A_raw_vulnerable_origin_story__building_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_I_Sold_My_Influencer_Marketing_Agenc_clip07_A_raw_vulnerable_origin_story__building_.jpg"
+    },
+    {
+      "filename": "How_I_Sold_My_Influencer_Marketing_Agenc_clip08_An_emotionally_resonant_screenshot-worth.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
@@ -3283,10 +3293,10 @@
     },
     {
       "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip06_A_bold_controversial_claim_that_virality.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "-PZVTNF4rzE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Going Viral Has Nothing to Do With Luck",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MrBeast_Shares_His_Best_YouTube_Advice_clip06_A_bold_controversial_claim_that_virality.jpg"
@@ -6083,10 +6093,10 @@
     },
     {
       "filename": "Why_Willpower_Doesnt_Work_A_Neuroscienti_clip06_A_relatable_guilt-inducing_and_darkly_fu.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "RS3t4gR_mUA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Your Dog Knows You're Addicted to Your Phone",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Why_Willpower_Doesnt_Work_A_Neuroscienti_clip06_A_relatable_guilt-inducing_and_darkly_fu.jpg"
