@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T23:08:10.897Z",
+  "lastUpdated": "2026-08-13T23:08:17.280Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1063,10 +1063,10 @@
     },
     {
       "filename": "Elon_Musk__In_36_months_the_cheapest_pla_clip01_Elon_sarcastically_mocks_the_idea_of_inf.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "34NB9AVDtlA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Solar Panels in Space Beat Earth by 5-10x",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Elon_Musk__In_36_months_the_cheapest_pla_clip01_Elon_sarcastically_mocks_the_idea_of_inf.jpg"
@@ -5673,10 +5673,10 @@
     },
     {
       "filename": "The_full-length_interview_with_Elon_Musk_clip06_A_vivid_memorable_analogy_explaining_how.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "vTVJ5hspkGk",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "AI Will Dominate Every Job Like Stockfish Dominates Chess",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_full-length_interview_with_Elon_Musk_clip06_A_vivid_memorable_analogy_explaining_how.jpg"
@@ -6493,10 +6493,10 @@
     },
     {
       "filename": "Why_Willpower_Doesnt_Work_A_Neuroscienti_clip08_A_tattoo-worthy_deeply_quotable_reframe_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-13T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "1W3VM5Iye1Y",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Meet the Need, Not the Want: The Real Secret to Cravings",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Why_Willpower_Doesnt_Work_A_Neuroscienti_clip08_A_tattoo-worthy_deeply_quotable_reframe_.jpg"
