@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T03:06:41.974Z",
+  "lastUpdated": "2026-08-14T03:06:45.532Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -5705,8 +5705,8 @@
       "filename": "The_full-length_interview_with_Elon_Musk_clip09_A_tense_provocative_clash_where_Musk_def.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-14T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Civil War in Britain Is Inevitable, Musk Predicts",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_full-length_interview_with_Elon_Musk_clip09_A_tense_provocative_clash_where_Musk_def.jpg"
