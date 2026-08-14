@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T00:36:29.538Z",
+  "lastUpdated": "2026-08-14T01:43:37.148Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1086,7 +1086,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-14T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "OpenAI Isn't Open, Anthropic Isn't Anthropic",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Elon_Musk__In_36_months_the_cheapest_pla_clip03_A_bizarre_simulation_theory_leads_to_a_l.jpg"
@@ -5693,10 +5693,10 @@
     },
     {
       "filename": "The_full-length_interview_with_Elon_Musk_clip08_A_stunning_boastful_claim_about_paying_t.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-14T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "ldKzDa0INSA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I've Paid More Tax Than Any Human in History, Musk Claims",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_full-length_interview_with_Elon_Musk_clip08_A_stunning_boastful_claim_about_paying_t.jpg"
