@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T06:19:09.887Z",
+  "lastUpdated": "2026-08-14T06:30:55.962Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1123,10 +1123,10 @@
     },
     {
       "filename": "Elon_Musk__In_36_months_the_cheapest_pla_clip07_An_absurd_almost_comedic_revelation_abou.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-14T06:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "QeJZa3TCNoo",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "20 Million Dead People Still Marked Alive in Records",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Elon_Musk__In_36_months_the_cheapest_pla_clip07_An_absurd_almost_comedic_revelation_abou.jpg"
