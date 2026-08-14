@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T00:19:58.940Z",
+  "lastUpdated": "2026-08-14T00:36:25.928Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -6503,10 +6503,10 @@
     },
     {
       "filename": "Why_Willpower_Doesnt_Work_A_Neuroscienti_clip09_A_beautifully_phrased_rarely-heard_compl.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-14T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "Vm7-RHuy8II",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "What We Feel, We Heal: The Completion That Changes Everything",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Why_Willpower_Doesnt_Work_A_Neuroscienti_clip09_A_beautifully_phrased_rarely-heard_compl.jpg"
