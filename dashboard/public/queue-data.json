@@ -1169,6 +1169,19 @@
       "clipsCount": 9,
       "batchId": "Elon_Musk__In_36_months_the_cheapest_pla",
       "error": null
+    },
+    {
+      "id": "msu3nq778omh",
+      "url": "https://www.youtube.com/watch?v=jSqCL7Npln0",
+      "title": "",
+      "status": "failed",
+      "channel": "podcast",
+      "addedAt": "2026-08-15T08:14:06.691Z",
+      "startedAt": "2026-08-15T08:14:06.697Z",
+      "completedAt": "2026-08-15T08:14:09.118Z",
+      "clipsCount": 0,
+      "batchId": null,
+      "error": "\", self.Styles.ERROR)} {message}', *args, **kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1104, in trouble\n    raise DownloadError(message, ex"
     }
   ]
 }
