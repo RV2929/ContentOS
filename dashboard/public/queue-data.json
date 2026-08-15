@@ -1187,13 +1187,13 @@
       "id": "msu3o9gr0m6c",
       "url": "https://www.youtube.com/watch?v=gAxNYd01I6E",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-08-15T08:14:31.659Z",
       "startedAt": "2026-08-15T08:14:31.662Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-08-15T08:40:58.282Z",
+      "clipsCount": 10,
+      "batchId": "Were_At_The_Beginning_Of_A_Revolution_-_",
       "error": null
     }
   ]
