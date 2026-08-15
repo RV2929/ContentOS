@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T08:41:01.303Z",
+  "lastUpdated": "2026-08-15T09:51:28.733Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -6123,10 +6123,10 @@
     },
     {
       "filename": "Were_At_The_Beginning_Of_A_Revolution_-__clip01_Opens_with_a_hook_question_about_doing_2.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-15T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "z44BF5MyMao",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "ONE SHOW FOR ME, ONE FOR TAX",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Were_At_The_Beginning_Of_A_Revolution_-__clip01_Opens_with_a_hook_question_about_doing_2.jpg"
@@ -6223,8 +6223,8 @@
     },
     {
       "filename": "Were_At_The_Beginning_Of_A_Revolution_-__longform01_Anxiety_Flow_States_and_Why_Mental_Healt.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "PdnMFkNZPqY",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
@@ -6233,8 +6233,8 @@
     },
     {
       "filename": "Were_At_The_Beginning_Of_A_Revolution_-__longform02_Why_Generations_Dont_Exist_Ambition_Enti.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "0BYN4zee_V0",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
@@ -6243,8 +6243,8 @@
     },
     {
       "filename": "Were_At_The_Beginning_Of_A_Revolution_-__longform03_How_Jimmy_Carr_Would_Actually_Fix_the_UK.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "JMLjujmuAmw",
       "scheduledAt": null,
       "scheduleStatus": null,
       "title": "",
