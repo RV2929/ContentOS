@@ -1208,6 +1208,19 @@
       "clipsCount": 0,
       "batchId": null,
       "error": "\", self.Styles.ERROR)} {message}', *args, **kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1104, in trouble\n    raise DownloadError(message, ex"
+    },
+    {
+      "id": "msx0yi0sl6fo",
+      "url": "https://www.youtube.com/watch?v=0lMn_-EXyhQ",
+      "title": "",
+      "status": "failed",
+      "channel": "podcast",
+      "addedAt": "2026-08-17T09:21:48.988Z",
+      "startedAt": "2026-08-17T09:21:48.991Z",
+      "completedAt": "2026-08-17T09:21:50.982Z",
+      "clipsCount": 0,
+      "batchId": null,
+      "error": "\", self.Styles.ERROR)} {message}', *args, **kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1104, in trouble\n    raise DownloadError(message, ex"
     }
   ]
 }
