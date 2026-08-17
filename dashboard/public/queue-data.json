@@ -1195,6 +1195,19 @@
       "clipsCount": 10,
       "batchId": "Were_At_The_Beginning_Of_A_Revolution_-_",
       "error": null
+    },
+    {
+      "id": "msx0sy859sea",
+      "url": "https://www.youtube.com/watch?v=VHUrdELKjDw",
+      "title": "",
+      "status": "failed",
+      "channel": "podcast",
+      "addedAt": "2026-08-17T09:17:30.053Z",
+      "startedAt": "2026-08-17T09:17:30.057Z",
+      "completedAt": "2026-08-17T09:17:32.352Z",
+      "clipsCount": 0,
+      "batchId": null,
+      "error": "\", self.Styles.ERROR)} {message}', *args, **kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1104, in trouble\n    raise DownloadError(message, ex"
     }
   ]
 }
