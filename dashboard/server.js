@@ -475,7 +475,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // ── Video streaming (range request support for seeking) ───────────────────────
 
-app.get('/clips/:filename', (req, res) => {
+app.all('/clips/:filename', (req, res) => {
   const filename = decodeURIComponent(req.params.filename);
   const filePath = resolveClipPath(filename);
   if (!filePath.startsWith(CLIPS_BASE_DIR + path.sep))
@@ -483,6 +483,7 @@ app.get('/clips/:filename', (req, res) => {
   if (!fs.existsSync(filePath)) return res.status(404).send('Not found');
 
   const { size } = fs.statSync(filePath);
+  const isHead = req.method === 'HEAD';
   const range = req.headers.range;
   if (range) {
     const [s, e] = range.replace(/bytes=/, '').split('-');
@@ -494,9 +495,11 @@ app.get('/clips/:filename', (req, res) => {
       'Content-Length': end - start + 1,
       'Content-Type': 'video/mp4',
     });
+    if (isHead) return res.end();
     fs.createReadStream(filePath, { start, end }).pipe(res);
   } else {
     res.writeHead(200, { 'Content-Length': size, 'Content-Type': 'video/mp4', 'Accept-Ranges': 'bytes' });
+    if (isHead) return res.end();
     fs.createReadStream(filePath).pipe(res);
   }
 });
