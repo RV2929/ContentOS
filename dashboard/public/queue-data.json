@@ -1221,6 +1221,19 @@
       "clipsCount": 0,
       "batchId": null,
       "error": "\", self.Styles.ERROR)} {message}', *args, **kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1104, in trouble\n    raise DownloadError(message, ex"
+    },
+    {
+      "id": "msx0yo2w76tq",
+      "url": "https://www.youtube.com/watch?v=-pZFywOMqNc",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-08-17T09:21:56.840Z",
+      "startedAt": "2026-08-17T09:21:56.845Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
