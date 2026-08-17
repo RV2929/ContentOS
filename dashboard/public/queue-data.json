@@ -1187,14 +1187,14 @@
       "id": "msx0yx9n5595",
       "url": "https://www.youtube.com/watch?v=CdMtxDHT0DI",
       "title": "",
-      "status": "transcribing",
+      "status": "failed",
       "channel": "podcast",
       "addedAt": "2026-08-17T09:22:08.749Z",
       "startedAt": "2026-08-17T09:25:57.187Z",
-      "completedAt": null,
+      "completedAt": "2026-08-17T09:29:51.463Z",
       "clipsCount": 0,
       "batchId": null,
-      "error": null
+      "error": "pic/_base_client.py\", line 1194, in request\n    raise self._make_status_error_from_response(response) from None\nanthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go "
     }
   ]
 }
