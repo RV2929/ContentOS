@@ -50,16 +50,6 @@ def _excerpt_for_range(transcript: dict, start: float, end: float) -> str:
 CLIPS_MIN_COUNT = 3
 CLIPS_MAX_COUNT = 10
 
-# TikTok Creator Rewards Program requires videos 60+ seconds long — target ~62s
-# to clear that bar with a little headroom, with a strong hook up front to
-# retain viewers through the extra runtime.
-TIKTOK_TARGET_DURATION = 62   # seconds
-TIKTOK_MIN_DURATION = 58      # seconds — floor of the acceptable range
-TIKTOK_MAX_DURATION = 68      # seconds — ceiling of the acceptable range
-TIKTOK_HOOK_MAX_START = 15    # hook must land within the first 5-15s of the clip
-TIKTOK_MAX_COUNT = 5          # soft cap — Claude returns fewer (even zero) if the content isn't there
-
-
 def find_viral_clips(transcript_path: str) -> list[dict]:
     """
     Send the transcript to Claude and get back viral clip candidates.
@@ -193,141 +183,6 @@ Format:
     return valid
 
 
-def find_tiktok_clips(transcript_path: str) -> list[dict]:
-    """
-    Send the transcript to Claude and get back ~62s TikTok-specific clip candidates.
-
-    Unlike find_viral_clips (which hunts for short, single-hit viral moments),
-    this pass looks for longer segments that open with a strong hook in the
-    first 5-15s and have enough substance to sustain interest for a full
-    minute — long enough to clear TikTok's 60s Creator Rewards Program
-    threshold.
-
-    Returns a list of dicts:
-        [{"start": float, "end": float, "title": str, "reason": str, "hook_type": str}, ...]
-    """
-    with open(transcript_path, "r", encoding="utf-8") as f:
-        transcript = json.load(f)
-
-    transcript_text = _build_transcript_text(transcript)
-    total_dur = _total_duration(transcript)
-
-    if not transcript_text.strip():
-        print("⚠ Transcript appears empty — no TikTok clips to find.")
-        return []
-
-    client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY from env
-
-    system_prompt = (
-        "You are a senior TikTok editor who has grown multiple accounts to millions of "
-        "followers, and you understand exactly how the algorithm and audience retention "
-        "work for full-minute content, not just 15-second hits. You know that a video only "
-        "earns Creator Rewards payouts if it runs 60+ seconds AND actually holds the "
-        "viewer's attention that whole time — a great opening line followed by dead air "
-        "gets abandoned and tanks completion rate. You are ruthlessly selective about "
-        "which segments have real staying power."
-    )
-
-    user_prompt = f"""Below is a word-level transcript from a video. Total duration: {total_dur:.1f}s.
-
----
-{transcript_text}
----
-
-Your task: identify moments in this video that can sustain a ~{TIKTOK_TARGET_DURATION}s TikTok clip start-to-finish.
-
-Requirements (a clip must meet ALL of these):
-- Clip length must be {TIKTOK_MIN_DURATION}–{TIKTOK_MAX_DURATION} seconds (target ~{TIKTOK_TARGET_DURATION}s). This is a hard requirement — TikTok's Creator Rewards Program only pays out on videos 60+ seconds long.
-- The first 5–{TIKTOK_HOOK_MAX_START} seconds of the clip must contain a strong hook: a direct question posed to the viewer, a bold/provocative claim, or a surprising/counterintuitive fact — something that makes a scroller stop and commit to watching instead of swiping past.
-- Everything after the hook must have enough real substance — a developing story, an unfolding argument, escalating examples building toward a bigger payoff, or a payoff being built toward — to actually hold attention for the full ~{TIKTOK_TARGET_DURATION}s. An escalating list counts as sustaining substance if it's building toward a concrete, specific payoff (e.g., naming increasingly severe conditions before landing on the most surprising cured case) — reject a segment only if it's a strong opening line followed by genuine filler, verbatim repetition, or a topic change with nothing riding on it.
-- A compelling moment doesn't have to use a story's full natural boundaries — if a longer story contains a segment that satisfies the hook-timing and duration requirements above, trim to that window rather than discarding the story because its untrimmed length or hook placement doesn't qualify.
-
-Rules:
-- Timestamps must be within 0 – {total_dur:.1f}s.
-- Do NOT overlap clips.
-- Only include a clip if it genuinely clears every requirement above — return however many segments qualify (including zero, if nothing in this video can sustain a full minute). Do not pad the list to hit any particular count.
-- The title must be literally true and directly grounded in what is actually said or shown within this specific clip's transcript. Do not invent metaphors, comparisons, analogies, or claims that were not actually made. Punchy, bold, ALL-CAPS framing is encouraged — misrepresenting what happens in the clip is not, even if it would get more clicks. This matters for policy compliance, not just tone.
-
-Respond ONLY with valid JSON — no markdown fences, no explanation outside the JSON.
-Format:
-[
-  {{
-    "start": <float seconds>,
-    "end": <float seconds>,
-    "title": "<punchy hook title, 5 words max, ALL CAPS, no emojis, must accurately reflect the clip's actual content — see rules above>",
-    "reason": "<one sentence: what the hook is and why the rest of the clip sustains interest>",
-    "hook_type": "<one of: question, bold_claim, surprising_fact>"
-  }},
-  ...
-]"""
-
-    print("Asking Claude to find ~62s TikTok moments…")
-    with client.messages.stream(
-        model="claude-sonnet-5",
-        max_tokens=24000,
-        thinking={"type": "adaptive"},
-        system=system_prompt,
-        messages=[{"role": "user", "content": user_prompt}],
-    ) as stream:
-        response = stream.get_final_message()
-
-    print(f"  stop_reason={response.stop_reason} output_tokens={response.usage.output_tokens}")
-
-    raw = ""
-    for block in response.content:
-        if block.type == "text":
-            raw = block.text.strip()
-            break
-
-    if not raw:
-        if response.stop_reason == "max_tokens":
-            print("⚠ Claude hit max_tokens before emitting any output (thinking consumed the full budget) — increase max_tokens.")
-        else:
-            print(f"⚠ Claude returned an empty response (stop_reason={response.stop_reason}).")
-        return []
-
-    if raw.startswith("```"):
-        raw = raw.split("```")[1]
-        if raw.startswith("json"):
-            raw = raw[4:]
-        raw = raw.strip()
-
-    try:
-        clips = json.loads(raw)
-    except json.JSONDecodeError as e:
-        print(f"⚠ Could not parse Claude's response as JSON: {e}")
-        print("Raw response:", raw[:500])
-        return []
-
-    valid = []
-    for item in clips:
-        s = float(item.get("start", 0))
-        e = float(item.get("end", 0))
-        reason = item.get("reason", "")
-        title = item.get("title", "")
-        hook_type = item.get("hook_type", "")
-        dur = e - s
-        if dur < TIKTOK_MIN_DURATION or dur > TIKTOK_MAX_DURATION:
-            print(f"  Skipping TikTok clip {s:.1f}–{e:.1f}s (duration {dur:.1f}s out of range)")
-            continue
-        if s < 0 or e > total_dur + 5:  # +5s tolerance
-            print(f"  Skipping TikTok clip {s:.1f}–{e:.1f}s (out of video range)")
-            continue
-        valid.append({
-            "start": round(s, 2),
-            "end": round(e, 2),
-            "title": title,
-            "reason": reason,
-            "hook_type": hook_type,
-            "transcript_excerpt": _excerpt_for_range(transcript, s, e),
-        })
-
-    if len(valid) > TIKTOK_MAX_COUNT:
-        print(f"  Capping at {TIKTOK_MAX_COUNT} TikTok clips (Claude returned {len(valid)})")
-        valid = valid[:TIKTOK_MAX_COUNT]
-
-    return valid
-
 
 LONGFORM_MIN_DURATION = 480   # seconds — 8 minutes
 LONGFORM_MAX_DURATION = 900   # seconds — 15 minutes
@@ -341,7 +196,7 @@ def find_long_segments(transcript_path: str) -> list[dict]:
     argument, or topic start-to-finish — suitable as standalone long-form
     YouTube uploads.
 
-    Unlike find_viral_clips/find_tiktok_clips, this hunts for cohesive,
+    Unlike find_viral_clips, this hunts for cohesive,
     complete arcs rather than punchy hooks. Returns an empty list if
     nothing in the video sustains even one full cohesive arc that long —
     this is meant to be rare and high-value, not high-volume, so there is
@@ -496,10 +351,6 @@ def save_clips_json(clips: list[dict], transcript_path: str, suffix: str = ".cli
         json.dump(clips, f, indent=2, ensure_ascii=False)
     return out_path
 
-
-def save_tiktok_clips_json(clips: list[dict], transcript_path: str) -> str:
-    """Save the TikTok-length clip list as a JSON file next to the transcript."""
-    return save_clips_json(clips, transcript_path, suffix=".tiktok_clips.json")
 
 
 def save_long_segment_json(segments: list[dict], transcript_path: str) -> str:
