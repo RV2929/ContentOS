@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T10:59:11.322Z",
+  "lastUpdated": "2026-08-21T11:06:05.826Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -545,8 +545,8 @@
       "filename": "Alex_Hormozi_The_4_Steps_To_Your_First_D_clip01_Counterintuitive_claim_that_debunks_the_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-21T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Investing Is The Last Thing You Do, Not First",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_The_4_Steps_To_Your_First_D_clip01_Counterintuitive_claim_that_debunks_the_.jpg"
@@ -4625,8 +4625,8 @@
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip01_A_counterintuitive_insight_that_being_ki.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-21T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "What Women Leave Out About Attraction",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip01_A_counterintuitive_insight_that_being_ki.jpg"
