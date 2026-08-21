@@ -1382,105 +1382,105 @@
       "id": "mt2spmi4zqg6",
       "url": "https://www.youtube.com/watch?v=u1Aam_1NlRs",
       "title": "",
-      "status": "downloading",
+      "status": "failed",
       "channel": "podcast",
       "addedAt": "2026-08-21T10:17:35.020Z",
       "startedAt": "2026-08-21T10:34:20.188Z",
-      "completedAt": null,
+      "completedAt": "2026-08-21T10:49:57.032Z",
       "clipsCount": 0,
       "batchId": null,
-      "error": null
+      "error": "ajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1103, in trouble\n    raise DownloadError(message, exc_info)\nyt_dlp.utils.DownloadError: ERROR: \r[download] Got error: HTTPSConnection(host='rr2---sn-uxax4vopj503-ac5e.googlevideo.com', port=443): Failed to resolve 'r"
     },
     {
       "id": "mt2spo2z635g",
       "url": "https://www.youtube.com/watch?v=UwMS0J2eTXE",
       "title": "",
-      "status": "queued",
+      "status": "failed",
       "channel": "podcast",
       "addedAt": "2026-08-21T10:17:37.067Z",
-      "startedAt": null,
-      "completedAt": null,
+      "startedAt": "2026-08-21T10:49:59.045Z",
+      "completedAt": "2026-08-21T10:49:59.461Z",
       "clipsCount": 0,
       "batchId": null,
-      "error": null
+      "error": "p.utils.DownloadError: ERROR: [youtube] UwMS0J2eTXE: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=44"
     },
     {
       "id": "mt2sppnko0hr",
       "url": "https://www.youtube.com/watch?v=mKckoZIlKmI",
       "title": "",
-      "status": "queued",
+      "status": "failed",
       "channel": "podcast",
       "addedAt": "2026-08-21T10:17:39.104Z",
-      "startedAt": null,
-      "completedAt": null,
+      "startedAt": "2026-08-21T10:50:01.465Z",
+      "completedAt": "2026-08-21T10:50:01.723Z",
       "clipsCount": 0,
       "batchId": null,
-      "error": null
+      "error": "p.utils.DownloadError: ERROR: [youtube] mKckoZIlKmI: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=44"
     },
     {
       "id": "mt2spr8akazn",
       "url": "https://www.youtube.com/watch?v=6t7C_NIkDPk",
       "title": "",
-      "status": "queued",
+      "status": "failed",
       "channel": "podcast",
       "addedAt": "2026-08-21T10:17:41.146Z",
-      "startedAt": null,
-      "completedAt": null,
+      "startedAt": "2026-08-21T10:50:03.727Z",
+      "completedAt": "2026-08-21T10:50:03.982Z",
       "clipsCount": 0,
       "batchId": null,
-      "error": null
+      "error": "p.utils.DownloadError: ERROR: [youtube] 6t7C_NIkDPk: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=44"
     },
     {
       "id": "mt2spssj1vsu",
       "url": "https://www.youtube.com/watch?v=XnbCSboujF4",
       "title": "",
-      "status": "queued",
+      "status": "failed",
       "channel": "podcast",
       "addedAt": "2026-08-21T10:17:43.171Z",
-      "startedAt": null,
-      "completedAt": null,
+      "startedAt": "2026-08-21T10:50:05.986Z",
+      "completedAt": "2026-08-21T10:50:06.272Z",
       "clipsCount": 0,
       "batchId": null,
-      "error": null
+      "error": "p.utils.DownloadError: ERROR: [youtube] XnbCSboujF4: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=44"
     },
     {
       "id": "mt2sxx5sgebk",
       "url": "https://www.youtube.com/watch?v=jSqCL7Npln0",
       "title": "",
-      "status": "queued",
+      "status": "failed",
       "channel": "podcast",
       "addedAt": "2026-08-21T10:24:02.080Z",
-      "startedAt": null,
-      "completedAt": null,
+      "startedAt": "2026-08-21T10:50:08.279Z",
+      "completedAt": "2026-08-21T10:50:09.277Z",
       "clipsCount": 0,
       "batchId": null,
-      "error": null
+      "error": "p.utils.DownloadError: ERROR: [youtube] jSqCL7Npln0: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=44"
     },
     {
       "id": "mt2sxyq5ni8d",
       "url": "https://www.youtube.com/watch?v=VHUrdELKjDw",
       "title": "",
-      "status": "queued",
+      "status": "failed",
       "channel": "podcast",
       "addedAt": "2026-08-21T10:24:04.109Z",
-      "startedAt": null,
-      "completedAt": null,
+      "startedAt": "2026-08-21T10:50:11.297Z",
+      "completedAt": "2026-08-21T10:50:11.955Z",
       "clipsCount": 0,
       "batchId": null,
-      "error": null
+      "error": "p.utils.DownloadError: ERROR: [youtube] VHUrdELKjDw: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=44"
     },
     {
       "id": "mt2sy0adltfu",
       "url": "https://www.youtube.com/watch?v=0lMn_-EXyhQ",
       "title": "",
-      "status": "queued",
+      "status": "failed",
       "channel": "podcast",
       "addedAt": "2026-08-21T10:24:06.133Z",
-      "startedAt": null,
-      "completedAt": null,
+      "startedAt": "2026-08-21T10:59:07.741Z",
+      "completedAt": "2026-08-21T10:59:08.247Z",
       "clipsCount": 0,
       "batchId": null,
-      "error": null
+      "error": "p.utils.DownloadError: ERROR: [youtube] 0lMn_-EXyhQ: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=44"
     }
   ]
 }
