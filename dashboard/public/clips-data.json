@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T17:06:32.320Z",
+  "lastUpdated": "2026-08-21T18:39:13.449Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -603,10 +603,10 @@
     },
     {
       "filename": "Alex_Hormozi_The_4_Steps_To_Your_First_D_clip07_A_genuinely_striking_question_paired_wit.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-21T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Hwy1xJdvp8E",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "What Would You Do If You Genuinely Weren't Afraid",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_The_4_Steps_To_Your_First_D_clip07_A_genuinely_striking_question_paired_wit.jpg"
@@ -4686,7 +4686,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-21T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "You're Here Because of What You Hope I Am",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip07_A_sharp_quotable_insight_about_projected.jpg"
