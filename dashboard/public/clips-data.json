@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T19:40:56.729Z",
+  "lastUpdated": "2026-08-21T19:41:00.241Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -615,8 +615,8 @@
       "filename": "Alex_Hormozi_The_4_Steps_To_Your_First_D_clip08_Vivid_funny_relatable_breakdown_of_how_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-21T19:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Your Brain Is Lying About Failure Equaling Death",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_The_4_Steps_To_Your_First_D_clip08_Vivid_funny_relatable_breakdown_of_how_t.jpg"
@@ -4695,8 +4695,8 @@
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip08_A_striking_almost_poetic_idea_that_relat.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-21T19:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Crisis of Disappointment in Love",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip08_A_striking_almost_poetic_idea_that_relat.jpg"
