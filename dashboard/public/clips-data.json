@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T17:06:27.389Z",
+  "lastUpdated": "2026-08-21T17:06:32.320Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -593,10 +593,10 @@
     },
     {
       "filename": "Alex_Hormozi_The_4_Steps_To_Your_First_D_clip06_Hyper-actionable_unexpected_claim_that_s.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-21T17:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "r-aeV6T5izk",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Start A Real Business Tomorrow, Here Are 4 Steps",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_The_4_Steps_To_Your_First_D_clip06_Hyper-actionable_unexpected_claim_that_s.jpg"
@@ -4673,10 +4673,10 @@
     },
     {
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip06_A_raw_vulnerable_personal_story_about_fa.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-21T17:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "DQNMgizWxYY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Was the Contextual Alpha on Stage",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip06_A_raw_vulnerable_personal_story_about_fa.jpg"
