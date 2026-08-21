@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T13:28:40.641Z",
+  "lastUpdated": "2026-08-21T16:32:58.632Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -575,8 +575,8 @@
       "filename": "Alex_Hormozi_The_4_Steps_To_Your_First_D_clip04_A_clear_quotable_framework_uninformed_op.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-21T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The 5 Stages Every Entrepreneur Actually Goes Through",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_The_4_Steps_To_Your_First_D_clip04_A_clear_quotable_framework_uninformed_op.jpg"
@@ -585,8 +585,8 @@
       "filename": "Alex_Hormozi_The_4_Steps_To_Your_First_D_clip05_A_provocative_takedown_of_one_of_the_mos.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-21T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Follow Your Passion Is Actually Terrible Advice",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_The_4_Steps_To_Your_First_D_clip05_A_provocative_takedown_of_one_of_the_mos.jpg"
@@ -4655,8 +4655,8 @@
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip04_A_playful_demonstrable_insight_about_emo.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-21T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "You Can Say Please a Hundred Ways",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip04_A_playful_demonstrable_insight_about_emo.jpg"
@@ -4665,8 +4665,8 @@
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip05_A_provocative_claim_backed_by_a_vivid_st.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-21T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "You Don't Need Money to Get Laid",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip05_A_provocative_claim_backed_by_a_vivid_st.jpg"
