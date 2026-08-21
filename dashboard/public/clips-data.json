@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T20:51:35.716Z",
+  "lastUpdated": "2026-08-21T20:56:03.026Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -625,8 +625,8 @@
       "filename": "Alex_Hormozi_The_4_Steps_To_Your_First_D_clip09_A_bold_philosophical_closing_statement_w.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-21T20:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Give All Your Wealth Away His Final Law Of Success",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_The_4_Steps_To_Your_First_D_clip09_A_bold_philosophical_closing_statement_w.jpg"
