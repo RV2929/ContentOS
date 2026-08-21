@@ -6,7 +6,10 @@ Reads a .transcript.json file and returns a list of {start, end, reason} dicts.
 import sys
 import os
 import json
+import time
 import anthropic
+from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
+from anthropic.types.messages.batch_create_params import Request
 
 CLIPS_MIN_DURATION = 15   # seconds — ignore candidate clips shorter than this
 CLIPS_MAX_DURATION = 90   # seconds — cap candidates at this length
@@ -119,15 +122,44 @@ Format:
   ...
 ]"""
 
-    print("Asking Claude to find viral moments…")
-    with client.messages.stream(
-        model="claude-sonnet-5",
-        max_tokens=16000,
-        thinking={"type": "adaptive"},
-        system=system_prompt,
-        messages=[{"role": "user", "content": user_prompt}],
-    ) as stream:
-        response = stream.get_final_message()
+    print("Submitting batch request to Claude (Batch API — 50% cost reduction)…")
+    batch = client.messages.batches.create(
+        requests=[
+            Request(
+                custom_id="viral-clips",
+                params=MessageCreateParamsNonStreaming(
+                    model="claude-sonnet-5",
+                    max_tokens=16000,
+                    thinking={"type": "adaptive"},
+                    system=system_prompt,
+                    messages=[{"role": "user", "content": user_prompt}],
+                ),
+            )
+        ]
+    )
+    print(f"  Batch ID: {batch.id} — polling for completion…")
+
+    while True:
+        batch = client.messages.batches.retrieve(batch.id)
+        if batch.processing_status == "ended":
+            break
+        counts = batch.request_counts
+        print(f"  Status: {batch.processing_status} (processing={counts.processing}, succeeded={counts.succeeded})")
+        time.sleep(60)
+
+    # Collect the single result
+    response = None
+    for result in client.messages.batches.results(batch.id):
+        if result.custom_id == "viral-clips":
+            if result.result.type != "succeeded":
+                print(f"⚠ Batch request did not succeed: type={result.result.type}")
+                return []
+            response = result.result.message
+            break
+
+    if response is None:
+        print("⚠ No result found in completed batch.")
+        return []
 
     print(f"  stop_reason={response.stop_reason} output_tokens={response.usage.output_tokens}")
 
