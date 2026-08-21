@@ -758,30 +758,6 @@ app.post('/api/upload/youtube', (req, res) => {
   doUpload(jobId, filePath, filename, { title, description, visibility, accountId }).catch(console.error);
 });
 
-// Long-form pass (analyzer.find_long_segment / clipper.process_long_segment):
-// one 8-15 min horizontal segment per source video, uploaded as a regular
-// YouTube video rather than a Short. contentos.py calls this directly (no
-// schedule.json entry, no queue) since it's a rare, one-per-video upload.
-app.post('/api/upload/youtube-longform', (req, res) => {
-  const { filename, title, description, channel } = req.body;
-  if (!filename) return res.status(400).json({ error: 'filename required' });
-
-  const accountId = accountIdForChannel(normalizeChannel(channel));
-
-  const filePath = resolveClipPath(filename);
-  if (!fs.existsSync(filePath)) return res.status(404).json({ error: 'Clip not found' });
-  if (!loadJSON(tokensFileFor(accountId), null)) return res.status(401).json({ error: 'That YouTube account is not connected' });
-
-  const jobId = `yt-longform-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`;
-  uploadJobs.set(jobId, { status: 'starting', percent: 0, filename });
-
-  res.json({ jobId });
-
-  doUpload(jobId, filePath, filename, {
-    title, description, accountId, visibility: 'public', isShort: false,
-  }).catch(console.error);
-});
-
 async function doUpload(jobId, filePath, filename, meta) {
   const set = (update) => uploadJobs.set(jobId, { ...uploadJobs.get(jobId), ...update });
   try {
@@ -791,14 +767,10 @@ async function doUpload(jobId, filePath, filename, meta) {
     const youtube = google.youtube({ version: 'v3', auth: client });
     const fileSize = fs.statSync(filePath).size;
 
-    // isShort defaults to true — the long-form route passes isShort: false so a
-    // 10-minute video never gets tagged/miscategorized as a Short.
-    const isShort = meta.isShort !== false;
     const rawDesc = meta.description?.trim() || '';
-    // Auto-generated Shorts descriptions already contain #Shorts — don't duplicate it
-    const desc = isShort
-      ? (rawDesc ? (rawDesc.toLowerCase().includes('#shorts') ? rawDesc : rawDesc + '\n\n#Shorts') : '#Shorts')
-      : rawDesc;
+    const desc = rawDesc
+      ? (rawDesc.toLowerCase().includes('#shorts') ? rawDesc : rawDesc + '\n\n#Shorts')
+      : '#Shorts';
 
     const { data } = await youtube.videos.insert(
       {
