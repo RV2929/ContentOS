@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T12:12:32.115Z",
+  "lastUpdated": "2026-08-21T13:28:40.641Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -565,8 +565,8 @@
       "filename": "Alex_Hormozi_The_4_Steps_To_Your_First_D_clip03_A_punchy_casino_analogy_and_the_control_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-21T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Would You Put Your Entire Savings On Black",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_The_4_Steps_To_Your_First_D_clip03_A_punchy_casino_analogy_and_the_control_.jpg"
@@ -4645,8 +4645,8 @@
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip03_A_vivid_memorable_analogy_tuning_forks_e.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-21T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Men and Women Talk Differently",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip03_A_vivid_memorable_analogy_tuning_forks_e.jpg"
