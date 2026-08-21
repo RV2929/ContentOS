@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T18:39:13.449Z",
+  "lastUpdated": "2026-08-21T18:39:16.656Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -4685,8 +4685,8 @@
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip07_A_sharp_quotable_insight_about_projected.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-21T18:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "You're Here Because of What You Hope I Am",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip07_A_sharp_quotable_insight_about_projected.jpg"
