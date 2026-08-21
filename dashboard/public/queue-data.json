@@ -1317,14 +1317,14 @@
       "id": "mt2rqkyp1z4w",
       "url": "https://www.youtube.com/watch?v=XnbCSboujF4",
       "title": "",
-      "status": "downloading",
+      "status": "failed",
       "channel": "podcast",
       "addedAt": "2026-08-21T09:50:20.065Z",
       "startedAt": "2026-08-21T10:07:02.689Z",
-      "completedAt": null,
+      "completedAt": "2026-08-21T10:07:06.966Z",
       "clipsCount": 0,
       "batchId": null,
-      "error": null
+      "error": "\", self.Styles.ERROR)} {message}', *args, **kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1104, in trouble\n    raise DownloadError(message, ex"
     }
   ]
 }
