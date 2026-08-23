@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T18:09:12.235Z",
+  "lastUpdated": "2026-08-23T18:12:25.418Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -653,10 +653,10 @@
     },
     {
       "filename": "Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip01_A_raw_vulnerable_confession_about_reject.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-23T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "AedBttlkyws",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "My Mantra: Fuck Happiness",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip01_A_raw_vulnerable_confession_about_reject.jpg"
@@ -1583,10 +1583,10 @@
     },
     {
       "filename": "Give_me_58_secill_DELETE_your_fear_of_re_clip01_Opens_with_a_bold_promise-hook_and_immed.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-23T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "N4B7rFvFD0w",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Delete Your Fear of Rejection in 58 Seconds",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Give_me_58_secill_DELETE_your_fear_of_re_clip01_Opens_with_a_bold_promise-hook_and_immed.jpg"
