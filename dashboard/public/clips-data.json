@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T21:49:15.109Z",
+  "lastUpdated": "2026-08-23T23:31:38.926Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -406,7 +406,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-23T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Never Google Yourself Again",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/73_Questions_With_Taylor_Swift__Vogue_clip03_A_quick_deadpan_joke_about_her_cats_foll.jpg"
@@ -753,10 +753,10 @@
     },
     {
       "filename": "Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip05_A_blunt_emotionally_charged_confrontatio.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-23T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "b5juMhvcYBo",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Get Off Your Emotional Ass",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip05_A_blunt_emotionally_charged_confrontatio.jpg"
@@ -826,7 +826,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-23T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Locked Up at 14: The Turning Point Nobody Expects",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip03_A_gripping_personal_story_of_being_taken.jpg"
@@ -2656,7 +2656,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-23T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "No One Said You Don't Matter",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Create_a_Frequency_So_Magnetic_Yo_clip04_A_raw_personal_vulnerability_moment_with.jpg"
@@ -4786,7 +4786,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-23T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Why The Tortured Poets Department Ranked Way Higher Than Expected",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip04_A_genuinely_surprising_reveal_Tortured_P.jpg"
