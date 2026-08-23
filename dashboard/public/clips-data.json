@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T20:37:10.947Z",
+  "lastUpdated": "2026-08-23T20:37:17.250Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -733,10 +733,10 @@
     },
     {
       "filename": "Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip03_An_inspiring_high-stakes_story_of_settin.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-23T20:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "ui48uzMHeUk",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "From 42 Million Meals to a Billion: The Audacious Goal",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip03_An_inspiring_high-stakes_story_of_settin.jpg"
@@ -4683,10 +4683,10 @@
     },
     {
       "filename": "Ranking_every_Taylor_Swift_album_worst_t_clip02_A_rapid-fire_absurd_comedic_bit_where_th.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-23T20:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "65ecKWxi8Zo",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "These Critics Completely Disagree About Reputation's Vibe",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip02_A_rapid-fire_absurd_comedic_bit_where_th.jpg"
