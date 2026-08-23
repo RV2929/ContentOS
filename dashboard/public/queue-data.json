@@ -1577,13 +1577,13 @@
       "id": "mt63jdo6qz2f",
       "url": "https://www.youtube.com/watch?v=VHUrdELKjDw",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-08-23T17:43:57.942Z",
       "startedAt": "2026-08-23T20:14:00.067Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-08-23T20:44:38.912Z",
+      "clipsCount": 8,
+      "batchId": "Body_Language_Expert_Stop_Using_This_Its",
       "error": null
     }
   ]
