@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T19:24:14.002Z",
+  "lastUpdated": "2026-08-23T19:24:20.551Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -663,10 +663,10 @@
     },
     {
       "filename": "Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip02_A_surprising_counterintuitive_story_abou.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-23T19:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "F1zIhE_I8fo",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Astronauts Became Alcoholics After Landing on the Moon",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip02_A_surprising_counterintuitive_story_abou.jpg"
@@ -4523,10 +4523,10 @@
     },
     {
       "filename": "Ranking_every_Taylor_Swift_album_worst_t_clip01_A_hilarious_quotable_rant_about_how_Tayl.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-23T19:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "hIgpQXNQPp0",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Taylor Swift Treats Duet Partners Like Unwanted Guests",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip01_A_hilarious_quotable_rant_about_how_Tayl.jpg"
