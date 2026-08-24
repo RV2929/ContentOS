@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T02:54:37.371Z",
+  "lastUpdated": "2026-08-24T04:08:19.363Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -793,10 +793,10 @@
     },
     {
       "filename": "Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip09_A_surprising_concrete_numeric_comparison.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-24T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "i4eysgGSLSQ",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "iPhone vs Stock Market: The Math That Shocks Everyone",
       "channel": "podcast",
       "thumbnailPath": null
@@ -2703,10 +2703,10 @@
     },
     {
       "filename": "How_to_Create_a_Frequency_So_Magnetic_Yo_clip08_A_striking_video-gamestained-glass_analo.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-24T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "GVlNz65cQzY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "You Are the Character AND the Player",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Create_a_Frequency_So_Magnetic_Yo_clip08_A_striking_video-gamestained-glass_analo.jpg"
