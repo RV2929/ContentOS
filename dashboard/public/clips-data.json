@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T00:26:05.540Z",
+  "lastUpdated": "2026-08-24T00:41:58.024Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -415,8 +415,8 @@
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip04_Sharp_comedic_advice_get_a_good_lawyer_p.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-24T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Get a Good Lawyer Then She Gets Emotional",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/73_Questions_With_Taylor_Swift__Vogue_clip04_Sharp_comedic_advice_get_a_good_lawyer_p.jpg"
@@ -2675,8 +2675,8 @@
       "filename": "How_to_Create_a_Frequency_So_Magnetic_Yo_clip05_A_compelling_personal_story_with_real_st.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-24T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "She Sabotaged Her Own YouTube Channel",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Create_a_Frequency_So_Magnetic_Yo_clip05_A_compelling_personal_story_with_real_st.jpg"
@@ -4795,8 +4795,8 @@
       "filename": "Ranking_every_Taylor_Swift_album_worst_t_clip05_A_raw_emotional_confession_of_literally_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-24T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Dear John Made A Music Critic Cry, Here's What Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip05_A_raw_emotional_confession_of_literally_.jpg"
