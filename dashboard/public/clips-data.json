@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T23:31:42.022Z",
+  "lastUpdated": "2026-08-24T00:26:05.540Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -416,7 +416,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-24T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Get a Good Lawyer Then She Gets Emotional",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/73_Questions_With_Taylor_Swift__Vogue_clip04_Sharp_comedic_advice_get_a_good_lawyer_p.jpg"
@@ -763,10 +763,10 @@
     },
     {
       "filename": "Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip06_A_funny_insightful_live_coaching_moment_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-24T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "wueOnuehGV8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Analytical Alex vs Anabolic Alex: Two Personas Revealed",
       "channel": "podcast",
       "thumbnailPath": null
@@ -2676,7 +2676,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-24T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "She Sabotaged Her Own YouTube Channel",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Create_a_Frequency_So_Magnetic_Yo_clip05_A_compelling_personal_story_with_real_st.jpg"
@@ -4796,7 +4796,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-24T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Dear John Made A Music Critic Cry, Here's What Happened",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip05_A_raw_emotional_confession_of_literally_.jpg"
