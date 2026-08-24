@@ -20,6 +20,7 @@ Output: JSON  {"ok": true, "updateId": "..."}
 """
 
 import sys, os, json, argparse
+from datetime import datetime, timedelta
 from pathlib import Path
 
 # Load .env from ContentOS root
@@ -181,11 +182,13 @@ mutation CreatePost($input: CreatePostInput!) {
 
 def create_post(channel_id: str, text: str, video_url: str, platform: str = "instagram") -> str:
     """Create a Buffer post with a video URL and return the post ID."""
+    # customScheduled with dueAt=now avoids the 'shareNow' video-fetch failure.
+    due_at = (datetime.utcnow() + timedelta(seconds=30)).strftime("%Y-%m-%dT%H:%M:%SZ")
     input_data = {
         "channelId": channel_id,
         "text": text,
-        "schedulingType": "automatic",
-        "mode": "shareNow",
+        "mode": "customScheduled",
+        "dueAt": due_at,
         "assets": [{"video": {"url": video_url}}],
     }
     # TikTokPostMetadataInput has no required fields (title, isAiGenerated are
