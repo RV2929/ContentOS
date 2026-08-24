@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T23:23:43.390Z",
+  "lastUpdated": "2026-08-24T23:23:46.964Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -975,8 +975,8 @@
       "filename": "Body_Language_Expert_Stop_Using_This_Its_clip02_A_relatable_funny_back-and-forth_where_s.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-24T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Your Resting Face Is Lying About You",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip02_A_relatable_funny_back-and-forth_where_s.jpg"
