@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T01:48:08.332Z",
+  "lastUpdated": "2026-08-24T01:48:11.882Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -425,8 +425,8 @@
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip05_A_fun_high-energy_speed_challenge_that_s.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-24T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Name Cat Breeds in 10 Seconds Challenge",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/73_Questions_With_Taylor_Swift__Vogue_clip05_A_fun_high-energy_speed_challenge_that_s.jpg"
@@ -2685,8 +2685,8 @@
       "filename": "How_to_Create_a_Frequency_So_Magnetic_Yo_clip06_A_raw_almost_cringe-honest_confession_of.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-24T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Talking to Her Inner Stupid Girl",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Create_a_Frequency_So_Magnetic_Yo_clip06_A_raw_almost_cringe-honest_confession_of.jpg"
@@ -4805,8 +4805,8 @@
       "filename": "Ranking_every_Taylor_Swift_album_worst_t_clip06_A_bold_hyperbolic_declaration_that_Reput.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-24T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Reputation Just Beat Every Jay-Z and Kanye Album Ever Made",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip06_A_bold_hyperbolic_declaration_that_Reput.jpg"
