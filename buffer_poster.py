@@ -187,6 +187,7 @@ def create_post(channel_id: str, text: str, video_url: str, platform: str = "ins
     input_data = {
         "channelId": channel_id,
         "text": text,
+        "schedulingType": "automatic",
         "mode": "customScheduled",
         "dueAt": due_at,
         "assets": [{"video": {"url": video_url}}],
