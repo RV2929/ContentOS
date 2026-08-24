@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T19:53:53.809Z",
+  "lastUpdated": "2026-08-24T23:23:43.390Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -833,10 +833,10 @@
     },
     {
       "filename": "Andrew_Huberman_You_Must_Control_Your_Do_clip04_A_confident_myth-busting_claim_backed_by.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-24T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "QKA9s5jP8Js",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "You Can Teach an Old Dog New Tricks—Science Proves It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip04_A_confident_myth-busting_claim_backed_by.jpg"
@@ -976,7 +976,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-24T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Your Resting Face Is Lying About You",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip02_A_relatable_funny_back-and-forth_where_s.jpg"
