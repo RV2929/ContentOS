@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T05:27:59.328Z",
+  "lastUpdated": "2026-08-25T05:28:02.756Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1025,8 +1025,8 @@
       "filename": "Body_Language_Expert_Stop_Using_This_Its_clip07_A_bold_provocative_claim_followed_by_a_n.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-25T05:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "AirPods Are Killing Your Friendships",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip07_A_bold_provocative_claim_followed_by_a_n.jpg"
