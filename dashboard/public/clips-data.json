@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T01:50:59.872Z",
+  "lastUpdated": "2026-08-25T02:54:51.364Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -863,10 +863,10 @@
     },
     {
       "filename": "Andrew_Huberman_You_Must_Control_Your_Do_clip07_A_provocative_screenshot-worthy_personal.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-25T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "5mMGsx5LNWM",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Think Pornography Is Bad—Steven's Bold Stance",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip07_A_provocative_screenshot-worthy_personal.jpg"
@@ -1006,7 +1006,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-25T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "She Said She Feels Like Katniss Everdeen",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip05_An_emotionally_striking_story_where_one_.jpg"
