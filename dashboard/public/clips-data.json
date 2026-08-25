@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T04:04:42.731Z",
+  "lastUpdated": "2026-08-25T05:27:59.328Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -883,10 +883,10 @@
     },
     {
       "filename": "Andrew_Huberman_You_Must_Control_Your_Do_clip09_An_emotional_cathartic_payoff_story_abou.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-25T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "lKCDfYBm_yU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "He Just Sat With Me—The Power of Presence",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip09_An_emotional_cathartic_payoff_story_abou.jpg"
@@ -1026,7 +1026,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-25T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "AirPods Are Killing Your Friendships",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip07_A_bold_provocative_claim_followed_by_a_n.jpg"
