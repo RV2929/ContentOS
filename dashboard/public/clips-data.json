@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T23:23:46.964Z",
+  "lastUpdated": "2026-08-25T00:42:31.290Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -843,10 +843,10 @@
     },
     {
       "filename": "Andrew_Huberman_You_Must_Control_Your_Do_clip05_A_short_funny_quotable_line_about_solvin.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-25T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "xaWKnsyU8TI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Messy? Just Get Rich—Andrew Huberman's Life Hack",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip05_A_short_funny_quotable_line_about_solvin.jpg"
@@ -986,7 +986,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-25T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Popular Kids Share One Secret Trait",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip03_A_counterintuitive_research_finding_that.jpg"
