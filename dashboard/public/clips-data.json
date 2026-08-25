@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T02:54:54.962Z",
+  "lastUpdated": "2026-08-25T04:04:42.731Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -873,10 +873,10 @@
     },
     {
       "filename": "Andrew_Huberman_You_Must_Control_Your_Do_clip08_Simple_counterintuitive_highly_actionabl.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-25T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "XDNCu6eGP9c",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Send One Text Every Morning—The Loneliness Cure",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip08_Simple_counterintuitive_highly_actionabl.jpg"
@@ -1013,10 +1013,10 @@
     },
     {
       "filename": "Body_Language_Expert_Stop_Using_This_Its_clip06_A_cringe-worthy_funny_confession_about_a.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-25T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "biwzGPKVg6E",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Hugged a TV Exec and Lost the Deal",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip06_A_cringe-worthy_funny_confession_about_a.jpg"
