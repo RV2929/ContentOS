@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T00:42:34.865Z",
+  "lastUpdated": "2026-08-25T01:50:56.288Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -853,10 +853,10 @@
     },
     {
       "filename": "Andrew_Huberman_You_Must_Control_Your_Do_clip06_A_genuinely_funny_quotable_historical_an.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-25T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "clfjnlvQfGg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Same Hen or Different Hens? President Coolidge Knew",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip06_A_genuinely_funny_quotable_historical_an.jpg"
@@ -996,7 +996,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-25T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "He Asked If His Wife Got Oxytocin",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip04_A_genuinely_funny_surprising_story_with_.jpg"
