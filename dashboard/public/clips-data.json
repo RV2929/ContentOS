@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T11:47:57.969Z",
+  "lastUpdated": "2026-08-26T12:12:22.982Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -816,7 +816,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-26T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Friends Showed Up When Life Cracked: The Power of Real Support",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip01_Raw_emotional_opening_where_he_tears_up_.jpg"
@@ -1052,6 +1052,16 @@
       "thumbnailPath": "/thumbnails/Billionaires_WARNING_Im_SELLING_The_Cras_clip07_Maternal_mortality_as_the_measure_of_civ.jpg"
     },
     {
+      "filename": "Body_Language_Expert_Stop_Using_This_Its_clip01_Opens_with_a_shocking_stat_and_a_live_de.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip01_Opens_with_a_shocking_stat_and_a_live_de.jpg"
+    },
+    {
       "filename": "Body_Language_Expert_Stop_Using_This_Its_clip01_Opens_with_a_wild_statistic_125x_more_li.mp4",
       "status": "posted",
       "youtubeId": "TE33jH0YIE0",
@@ -1060,6 +1070,16 @@
       "title": "Your Brain Believes Gestures Not Words",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip01_Opens_with_a_wild_statistic_125x_more_li.jpg"
+    },
+    {
+      "filename": "Body_Language_Expert_Stop_Using_This_Its_clip02_A_counterintuitive_research_reveal_popul.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip02_A_counterintuitive_research_reveal_popul.jpg"
     },
     {
       "filename": "Body_Language_Expert_Stop_Using_This_Its_clip02_A_relatable_funny_back-and-forth_where_s.mp4",
@@ -1080,6 +1100,26 @@
       "title": "Popular Kids Share One Secret Trait",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip03_A_counterintuitive_research_finding_that.jpg"
+    },
+    {
+      "filename": "Body_Language_Expert_Stop_Using_This_Its_clip03_Genuinely_funny_relatable_back-and-forth.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip03_Genuinely_funny_relatable_back-and-forth.jpg"
+    },
+    {
+      "filename": "Body_Language_Expert_Stop_Using_This_Its_clip04_A_bizarre_little-known_study_where_smell.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
     },
     {
       "filename": "Body_Language_Expert_Stop_Using_This_Its_clip04_A_genuinely_funny_surprising_story_with_.mp4",
@@ -5266,7 +5306,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-26T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Women Only Want Kindness From Attractive Men",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip01_A_counterintuitive_dating_insight_that_f.jpg"
@@ -5286,7 +5326,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-26T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "The Part Women Leave Out About Attraction",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip01_Reveals_a_counterintuitive_insight_that_.jpg"
