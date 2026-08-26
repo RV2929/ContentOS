@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T14:36:58.578Z",
+  "lastUpdated": "2026-08-26T14:37:04.750Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1013,10 +1013,10 @@
     },
     {
       "filename": "Andrew_Huberman_You_Must_Control_Your_Do_clip04_Funny_vivid_story_of_his_total_personali.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-26T14:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "BDDPvVUfZFs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "My Girlfriend Called Me a Monster: The Discipline Shift",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip04_Funny_vivid_story_of_his_total_personali.jpg"
@@ -5863,10 +5863,10 @@
     },
     {
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip03_A_vivid_original_metaphor_explaining_a_u.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-26T14:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "QFGrTe6sDDQ",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Men and Women Fight: The Tuning Fork",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip03_A_vivid_original_metaphor_explaining_a_u.jpg"
