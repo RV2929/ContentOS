@@ -1421,13 +1421,13 @@
       "id": "mt9zi3389eo1",
       "url": "https://www.youtube.com/watch?v=XnbCSboujF4",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-08-26T11:02:03.812Z",
       "startedAt": "2026-08-26T13:23:06.724Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-08-26T13:29:02.036Z",
+      "clipsCount": 8,
+      "batchId": "73_Questions_With_Taylor_Swift__Vogue",
       "error": null
     }
   ]
