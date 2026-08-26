@@ -228,16 +228,6 @@ app.post('/api/queue', (req, res) => {
   const newId   = extractVideoId(trimmed);
   const q       = loadQueue();
 
-  // Reject duplicates against any non-failed item (failed items can be retried)
-  const duplicate = q.queue.find(item => {
-    if (item.status === 'failed') return false;
-    if (newId) return extractVideoId(item.url) === newId;
-    return item.url === trimmed; // fallback: exact URL match
-  });
-  if (duplicate) {
-    return res.status(409).json({ error: 'This video has already been processed or is in the queue' });
-  }
-
   const id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
   q.queue.push({
     id, url: trimmed, title: '', status: 'queued',
