@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T15:48:56.403Z",
+  "lastUpdated": "2026-08-26T15:49:03.881Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1033,10 +1033,10 @@
     },
     {
       "filename": "Andrew_Huberman_You_Must_Control_Your_Do_clip05_A_simple_relatable_at-home_experiment_th.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-26T15:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "fvR_r8U6J9k",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Try This Chocolate Experiment: How Dopamine Hijacks Your Brain",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip05_A_simple_relatable_at-home_experiment_th.jpg"
@@ -5903,10 +5903,10 @@
     },
     {
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip04_A_surprising_claim_backed_by_a_personal_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-26T15:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "9hklA2P2f5s",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Fame Beats Money and Power in Dating",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip04_A_surprising_claim_backed_by_a_personal_.jpg"
@@ -5933,10 +5933,10 @@
     },
     {
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip05_A_surprising_claim_backed_by_a_funny_viv.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-26T15:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "5vkks-ujtXk",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "You Don't Need Money to Get Laid",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip05_A_surprising_claim_backed_by_a_funny_viv.jpg"
