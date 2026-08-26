@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T13:23:16.481Z",
+  "lastUpdated": "2026-08-26T13:24:24.251Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -903,10 +903,10 @@
     },
     {
       "filename": "Andrew_Huberman_You_Must_Control_Your_Do_clip03_A_darkly_funny_quotable_line_from_his_ti.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-26T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "xlqZ0qjG_3w",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "You're Not Crazy, You Just Have Problems: Teen Wisdom",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip03_A_darkly_funny_quotable_line_from_his_ti.jpg"
@@ -5763,10 +5763,10 @@
     },
     {
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip02_A_bold_quotable_one-liner_about_seductio.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-26T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "pj391KcJPGs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Her Biggest Erogenous Zone Is Her Mind",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip02_A_bold_quotable_one-liner_about_seductio.jpg"
@@ -5793,10 +5793,10 @@
     },
     {
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip03_The_vivid_tuning-fork_metaphor_makes_an_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-26T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "C3iQYBhQpCM",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Men and Women Communicate Totally Differently",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip03_The_vivid_tuning-fork_metaphor_makes_an_.jpg"
