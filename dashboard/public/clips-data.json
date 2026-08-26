@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T13:29:05.060Z",
+  "lastUpdated": "2026-08-26T14:36:58.578Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1016,7 +1016,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-26T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "My Girlfriend Called Me a Monster: The Discipline Shift",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip04_Funny_vivid_story_of_his_total_personali.jpg"
@@ -5866,7 +5866,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-26T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Why Men and Women Fight: The Tuning Fork",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip03_A_vivid_original_metaphor_explaining_a_u.jpg"
@@ -5893,10 +5893,10 @@
     },
     {
       "filename": "THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip04_A_poetic_quotable_framing_of_seduction_a.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-26T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "x8Xgdzav4rg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Seduction Creates a Private Universe Between Two People",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/THIS_Is_1_FASTEST_Way_To_Attract_Beautif_clip04_A_poetic_quotable_framing_of_seduction_a.jpg"
