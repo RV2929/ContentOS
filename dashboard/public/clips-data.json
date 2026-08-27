@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T00:43:39.332Z",
+  "lastUpdated": "2026-08-27T00:43:42.824Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1065,8 +1065,8 @@
       "filename": "Andrew_Huberman_You_Must_Control_Your_Do_clip07_A_hilarious_perfectly-timed_anecdote_abo.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-27T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The President and the Rooster: Neuroscience Through Comedy",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_You_Must_Control_Your_Do_clip07_A_hilarious_perfectly-timed_anecdote_abo.jpg"
@@ -1225,8 +1225,8 @@
       "filename": "Body_Language_Expert_Stop_Using_This_Its_clip02_A_counterintuitive_research_reveal_popul.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-27T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "What Actually Makes Popular Kids Popular",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip02_A_counterintuitive_research_reveal_popul.jpg"
