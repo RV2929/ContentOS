@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T05:03:51.234Z",
+  "lastUpdated": "2026-08-27T05:19:55.778Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1315,8 +1315,8 @@
       "filename": "Body_Language_Expert_Stop_Using_This_Its_clip06_Concrete_viral-vs-flop_TED_talk_data_465.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-27T05:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Viral TED Talks Gesture 465 Times vs Flopped Ones 271",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip06_Concrete_viral-vs-flop_TED_talk_data_465.jpg"
