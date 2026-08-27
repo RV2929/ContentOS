@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T04:14:09.550Z",
+  "lastUpdated": "2026-08-27T04:14:12.765Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1295,8 +1295,8 @@
       "filename": "Body_Language_Expert_Stop_Using_This_Its_clip05_Surprising_neuroscience_trick_simply_nam.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-27T03:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Stop Catching Fear From Others With This Trick",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip05_Surprising_neuroscience_trick_simply_nam.jpg"
@@ -3535,8 +3535,8 @@
       "filename": "If_Youre_in_Your_20s_or_30s_Heres_How_to_clip05_A_brutally_simple_highly_quotable_succes.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-27T03:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Get Better. Never Stop.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/If_Youre_in_Your_20s_or_30s_Heres_How_to_clip05_A_brutally_simple_highly_quotable_succes.jpg"
