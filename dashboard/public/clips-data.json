@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T06:12:29.448Z",
+  "lastUpdated": "2026-08-27T06:22:53.839Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1335,8 +1335,8 @@
       "filename": "Body_Language_Expert_Stop_Using_This_Its_clip07_Playful_quotable_explanation_of_the_lowe.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-27T06:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Lower Lid Flex Is Why Squinting Actually Works",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip07_Playful_quotable_explanation_of_the_lowe.jpg"
