@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T07:33:43.429Z",
+  "lastUpdated": "2026-08-27T07:44:25.069Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1345,8 +1345,8 @@
       "filename": "Body_Language_Expert_Stop_Using_This_Its_clip08_A_sharp_testable_deception_cue_the_accid.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-27T07:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Liars Accidentally Turn Their Lies Into Questions",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Body_Language_Expert_Stop_Using_This_Its_clip08_A_sharp_testable_deception_cue_the_accid.jpg"
