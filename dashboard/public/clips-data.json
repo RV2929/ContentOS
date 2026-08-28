@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T06:22:14.351Z",
+  "lastUpdated": "2026-08-28T23:05:20.370Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -385,8 +385,8 @@
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip01_A_genuinely_funny_unexpected_bit_where_a.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-28T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Taylor Swift Stirs Coffee With a VMA Award",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/73_Questions_With_Taylor_Swift__Vogue_clip01_A_genuinely_funny_unexpected_bit_where_a.jpg"
@@ -3115,8 +3115,8 @@
       "filename": "How_to_Create_a_Frequency_So_Magnetic_Yo_clip07_A_memorable_stained-glass-window_and_vid.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-28T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Your Ego Is Just a Character",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Create_a_Frequency_So_Magnetic_Yo_clip07_A_memorable_stained-glass-window_and_vid.jpg"
@@ -5315,8 +5315,8 @@
       "filename": "Ranking_every_Taylor_Swift_album_worst_t_clip01_A_punchy_comedic_cold_open_where_one_hos.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-28T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Reputation Is Not Top Seven, And That's Final",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip01_A_punchy_comedic_cold_open_where_one_hos.jpg"
