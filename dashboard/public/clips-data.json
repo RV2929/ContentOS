@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T01:53:12.825Z",
+  "lastUpdated": "2026-08-28T03:00:02.106Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -873,10 +873,10 @@
     },
     {
       "filename": "Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip05_A_punchy_quotable_redefinition_of_wealth.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-28T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "0Mu6YCe5270",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Rich and Poor Isn't About Money",
       "channel": "podcast",
       "thumbnailPath": null
@@ -3086,7 +3086,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-08-28T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "She Sabotaged Her Own YouTube Channel",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Create_a_Frequency_So_Magnetic_Yo_clip05_A_complete_emotional_story_arc__bad_rela.jpg"
@@ -3573,10 +3573,10 @@
     },
     {
       "filename": "If_Youre_in_Your_20s_or_30s_Heres_How_to_clip09_A_surprising_claim_that_worse_relative_r.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-28T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "0e7woWO3j8M",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why He'd Take $2M Over $100",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/If_Youre_in_Your_20s_or_30s_Heres_How_to_clip09_A_surprising_claim_that_worse_relative_r.jpg"
