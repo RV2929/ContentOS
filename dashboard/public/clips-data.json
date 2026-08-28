@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T04:14:21.469Z",
+  "lastUpdated": "2026-08-28T05:20:53.216Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -903,10 +903,10 @@
     },
     {
       "filename": "Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip07_A_humorous_yet_insightful_personal_story.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-28T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "qH8HOGPOYHg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why My Mom Was Always Humiliated",
       "channel": "podcast",
       "thumbnailPath": null
