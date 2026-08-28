@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T00:32:32.446Z",
+  "lastUpdated": "2026-08-28T00:32:35.875Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -825,8 +825,8 @@
       "filename": "Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip03_An_awe-inspiring_escalating_story_of_tur.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-28T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tony Robbins' Plan to Feed a Billion People",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip03_An_awe-inspiring_escalating_story_of_tur.jpg"
@@ -3015,8 +3015,8 @@
       "filename": "How_to_Create_a_Frequency_So_Magnetic_Yo_clip03_A_funny_vivid_childhood_story_that_lands.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-28T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "She Thought She Was Britney Spears",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Create_a_Frequency_So_Magnetic_Yo_clip03_A_funny_vivid_childhood_story_that_lands.jpg"
@@ -3555,8 +3555,8 @@
       "filename": "If_Youre_in_Your_20s_or_30s_Heres_How_to_clip07_A_counterintuitive_framing_of_why_consta.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-28T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Would You Take a Guaranteed 20% Loss",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/If_Youre_in_Your_20s_or_30s_Heres_How_to_clip07_A_counterintuitive_framing_of_why_consta.jpg"
