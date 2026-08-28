@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T05:20:53.216Z",
+  "lastUpdated": "2026-08-28T06:22:14.351Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -923,10 +923,10 @@
     },
     {
       "filename": "Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip08_A_concrete_jaw-dropping_financial_compar.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-08-28T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "YI37IfWTtF4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "iPhones vs Stocks: The 326K Gap",
       "channel": "podcast",
       "thumbnailPath": null
