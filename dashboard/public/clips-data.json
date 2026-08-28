@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T01:36:34.101Z",
+  "lastUpdated": "2026-08-28T01:53:12.825Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -845,8 +845,8 @@
       "filename": "Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip04_An_intense_emotionally_charged_personal_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-28T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tony Went Undercover to Free Trafficking Victims",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Alex_Hormozi_x_Tony_Robbins_-_A_Brutally_clip04_An_intense_emotionally_charged_personal_.jpg"
@@ -2195,8 +2195,8 @@
       "filename": "Give_me_58_secill_DELETE_your_fear_of_re_clip03_A_provocative_quotable_closing_argument_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-28T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Staying Stuck Should Terrify You More Than Rejection",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Give_me_58_secill_DELETE_your_fear_of_re_clip03_A_provocative_quotable_closing_argument_.jpg"
@@ -3055,8 +3055,8 @@
       "filename": "How_to_Create_a_Frequency_So_Magnetic_Yo_clip04_A_raw_vulnerable_personal_admission_that.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-28T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "No One Ever Said I Didn't Matter",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Create_a_Frequency_So_Magnetic_Yo_clip04_A_raw_vulnerable_personal_admission_that.jpg"
@@ -3565,8 +3565,8 @@
       "filename": "If_Youre_in_Your_20s_or_30s_Heres_How_to_clip08_A_punchy_original_analogy_about_business.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-28T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Stop Asking What's in the Fridge",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/If_Youre_in_Your_20s_or_30s_Heres_How_to_clip08_A_punchy_original_analogy_about_business.jpg"
