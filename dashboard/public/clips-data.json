@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T03:00:02.106Z",
+  "lastUpdated": "2026-08-28T03:00:05.736Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -3085,8 +3085,8 @@
       "filename": "How_to_Create_a_Frequency_So_Magnetic_Yo_clip05_A_complete_emotional_story_arc__bad_rela.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-28T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "She Sabotaged Her Own YouTube Channel",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Create_a_Frequency_So_Magnetic_Yo_clip05_A_complete_emotional_story_arc__bad_rela.jpg"
