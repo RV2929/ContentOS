@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T06:38:08.123Z",
+  "lastUpdated": "2026-08-29T07:38:39.351Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -515,8 +515,8 @@
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip08_A_striking_answer_reveals_writing_a_publ.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Taylor's Bravest Moment: The Apple Letter",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/73_Questions_With_Taylor_Swift__Vogue_clip08_A_striking_answer_reveals_writing_a_publ.jpg"
@@ -5435,8 +5435,8 @@
       "filename": "Ranking_every_Taylor_Swift_album_worst_t_clip08_The_dramatic_payoff_of_the_entire_rankin.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Number One Taylor Swift Album Is Finally Revealed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip08_The_dramatic_payoff_of_the_entire_rankin.jpg"
