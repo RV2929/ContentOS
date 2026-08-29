@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T05:03:45.001Z",
+  "lastUpdated": "2026-08-29T06:38:08.123Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -505,8 +505,8 @@
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip07_Charming_childhood_story_pivots_into_a_s.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Taylor Wanted to Be a Stockbroker at Five",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/73_Questions_With_Taylor_Swift__Vogue_clip07_Charming_childhood_story_pivots_into_a_s.jpg"
@@ -5425,8 +5425,8 @@
       "filename": "Ranking_every_Taylor_Swift_album_worst_t_clip07_A_bold_quotable_claim_placing_teenage_Ta.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Taylor Swift at 19 Matches Dylan and the Beatles",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip07_A_bold_quotable_claim_placing_teenage_Ta.jpg"
