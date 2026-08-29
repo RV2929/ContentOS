@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T03:50:27.040Z",
+  "lastUpdated": "2026-08-29T05:03:45.001Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -485,8 +485,8 @@
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip06_A_relatable_funny_everyday_moment_about_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Taylor's Secret Bathroom Hack Will Change Your Life",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/73_Questions_With_Taylor_Swift__Vogue_clip06_A_relatable_funny_everyday_moment_about_.jpg"
@@ -5415,8 +5415,8 @@
       "filename": "Ranking_every_Taylor_Swift_album_worst_t_clip06_Raw_emotional_confession_comparing_Dear_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Dear John Made This Music Critic Cry",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip06_Raw_emotional_confession_comparing_Dear_.jpg"
