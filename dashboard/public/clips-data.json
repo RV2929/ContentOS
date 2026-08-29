@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T00:29:53.042Z",
+  "lastUpdated": "2026-08-29T01:50:53.223Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -435,8 +435,8 @@
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip03_A_witty_royalties_joke_followed_by_a_hea.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "She Wishes She Wrote Friends Theme Song",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/73_Questions_With_Taylor_Swift__Vogue_clip03_A_witty_royalties_joke_followed_by_a_hea.jpg"
@@ -3165,8 +3165,8 @@
       "filename": "How_to_Create_a_Frequency_So_Magnetic_Yo_clip09_A_tight_quotable_closing_summary_of_the_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Three Truths to Live By",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Create_a_Frequency_So_Magnetic_Yo_clip09_A_tight_quotable_closing_summary_of_the_.jpg"
@@ -5355,8 +5355,8 @@
       "filename": "Ranking_every_Taylor_Swift_album_worst_t_clip03_A_sharp_quotable_running_joke_about_how_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Taylor Keeps Her Duet Partners Locked in the Basement",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip03_A_sharp_quotable_running_joke_about_how_.jpg"
