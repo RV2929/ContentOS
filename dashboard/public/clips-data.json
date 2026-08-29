@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T23:05:20.370Z",
+  "lastUpdated": "2026-08-29T00:29:53.042Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -405,8 +405,8 @@
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip02_A_quick_laugh_Kevin_Hart_followed_by_a_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Taylor Swift Defines Creativity as Lightning Bolts",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/73_Questions_With_Taylor_Swift__Vogue_clip02_A_quick_laugh_Kevin_Hart_followed_by_a_t.jpg"
@@ -3135,8 +3135,8 @@
       "filename": "How_to_Create_a_Frequency_So_Magnetic_Yo_clip08_A_powerful_screenshot-worthy_monologue_a.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "You Are Not Your Past",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Create_a_Frequency_So_Magnetic_Yo_clip08_A_powerful_screenshot-worthy_monologue_a.jpg"
@@ -5325,8 +5325,8 @@
       "filename": "Ranking_every_Taylor_Swift_album_worst_t_clip02_A_genuinely_funny_riff_imagining_Taylor_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Taylor Swift Album Drops Are Basically UFC Events",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip02_A_genuinely_funny_riff_imagining_Taylor_.jpg"
