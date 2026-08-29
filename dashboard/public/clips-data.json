@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T02:39:45.671Z",
+  "lastUpdated": "2026-08-29T03:50:27.040Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -465,8 +465,8 @@
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip05_A_fun_fast-paced_challenge_with_genuine_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Can Taylor Name Cat Breeds in 10 Seconds",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/73_Questions_With_Taylor_Swift__Vogue_clip05_A_fun_fast-paced_challenge_with_genuine_.jpg"
@@ -5395,8 +5395,8 @@
       "filename": "Ranking_every_Taylor_Swift_album_worst_t_clip05_A_surprising_little-known_insight_that_T.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-08-29T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Taylor's Early Records Had Secret Male Singers Uncredited",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ranking_every_Taylor_Swift_album_worst_t_clip05_A_surprising_little-known_insight_that_T.jpg"
