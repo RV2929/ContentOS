@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T21:56:07.885Z",
+  "lastUpdated": "2026-09-01T23:12:04.631Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1156,7 +1156,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-01T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "How Billionaires Actually Take Risk and Win Big",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Billionaire_Reveals_BRUTAL_Truth_About_M_clip03_Reveals_the_little-known_asymmetrical_ri.jpg"
@@ -1716,7 +1716,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-01T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "THREE CHARISMA MISTAKES THAT KILLED YOUR PRESENCE",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Diary_of_a_CEO_The_WORST_InterviewofMyLi_clip04_A_concrete_teachable_breakdown_of_body_l.jpg"
@@ -2653,6 +2653,36 @@
     },
     {
       "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip07_A_intense_quotable_monologue_claiming_hu.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip07_A_intense_quotable_monologue_claiming_hu.jpg"
+    },
+    {
+      "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip08_Vivid_original_metaphor_comparing_ancien.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip08_Vivid_original_metaphor_comparing_ancien.jpg"
+    },
+    {
+      "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip09_An_extremely_provocative_hot_take_claimi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip09_An_extremely_provocative_hot_take_claimi.jpg"
+    },
+    {
+      "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip10_A_bold_controversial_claim_delivered_wit.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
@@ -4836,7 +4866,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-01T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Europe Lost Its Soul to Knife Crime, He Claims",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip03_A_hard-hitting_controversial_rant_contra.jpg"
