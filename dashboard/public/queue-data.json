@@ -1429,6 +1429,19 @@
       "clipsCount": 8,
       "batchId": "73_Questions_With_Taylor_Swift__Vogue",
       "error": null
+    },
+    {
+      "id": "mtj16mw6u5es",
+      "url": "https://www.youtube.com/watch?v=5MOgSPqlJL8",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-09-01T18:59:04.422Z",
+      "startedAt": "2026-09-01T18:59:04.429Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
