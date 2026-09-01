@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T20:38:04.537Z",
+  "lastUpdated": "2026-09-01T21:55:57.903Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1146,7 +1146,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-01T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Your iPhone Cost You $300,000 in Missed Wealth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Billionaire_Reveals_BRUTAL_Truth_About_M_clip02_A_jaw-dropping_counterintuitive_math_bre.jpg"
@@ -1706,7 +1706,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-01T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "IT WAS ABYSMAL: Raw Truth About Losing Your Audience",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Diary_of_a_CEO_The_WORST_InterviewofMyLi_clip03_Raw_vulnerable_self-criticism_with_a_quo.jpg"
@@ -2633,6 +2633,26 @@
     },
     {
       "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip05_Uses_a_vivid_One_Piece_anime_analogy_to_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip05_Uses_a_vivid_One_Piece_anime_analogy_to_.jpg"
+    },
+    {
+      "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip06_A_candid_surprising_confession_delivered.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip06_A_candid_surprising_confession_delivered.jpg"
+    },
+    {
+      "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip07_A_intense_quotable_monologue_claiming_hu.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
@@ -4806,7 +4826,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-01T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Dubai's Soul Is Endless Winning, Change My Mind",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip02_A_provocative_quotable_counter-argument_.jpg"
