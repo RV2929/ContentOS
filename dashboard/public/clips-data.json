@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T19:07:27.407Z",
+  "lastUpdated": "2026-09-01T19:24:18.313Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1603,10 +1603,10 @@
     },
     {
       "filename": "Diary_of_a_CEO_The_WORST_InterviewofMyLi_clip01_Opens_with_a_bold_confession_from_a_char.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-01T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "EixPhHUIqaA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "WORST INTERVIEW OF MY LIFE: A Charisma Coach's Confession",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Diary_of_a_CEO_The_WORST_InterviewofMyLi_clip01_Opens_with_a_bold_confession_from_a_char.jpg"
@@ -4660,6 +4660,106 @@
       "title": "",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Micah_To_Get_the_Yamal_Haircut_Lamine_Ya_tiktok01_Opens_with_the_fan_directly_asking_the_p.jpg"
+    },
+    {
+      "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip01_A_darkly_funny_quotable_exchange_where_h.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip01_A_darkly_funny_quotable_exchange_where_h.jpg"
+    },
+    {
+      "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip02_A_provocative_quotable_counter-argument_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip02_A_provocative_quotable_counter-argument_.jpg"
+    },
+    {
+      "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip03_A_hard-hitting_controversial_rant_contra.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip03_A_hard-hitting_controversial_rant_contra.jpg"
+    },
+    {
+      "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip04_A_sharp_counterintuitive_framework_divid.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip04_A_sharp_counterintuitive_framework_divid.jpg"
+    },
+    {
+      "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip05_A_bold_screenshot-worthy_claim_arguing_m.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip05_A_bold_screenshot-worthy_claim_arguing_m.jpg"
+    },
+    {
+      "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip06_A_raw_conspiratorial_story_with_real_sta.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip06_A_raw_conspiratorial_story_with_real_sta.jpg"
+    },
+    {
+      "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip07_A_funny_brutally_honest_riff_on_losing_i.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip07_A_funny_brutally_honest_riff_on_losing_i.jpg"
+    },
+    {
+      "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip08_An_emotional_quotable_rant_defending_wor.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip08_An_emotional_quotable_rant_defending_wor.jpg"
+    },
+    {
+      "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip09_A_vivid_punchy_confrontation_story_where.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip09_A_vivid_punchy_confrontation_story_where.jpg"
+    },
+    {
+      "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip10_A_genuinely_surprising_provocative_argum.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
     },
     {
       "filename": "MrBeast_Shares_His_Best_YouTube_Advice_clip01_Opens_with_a_bold_scroll-stopping_claim_.mp4",
