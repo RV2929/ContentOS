@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T20:36:20.912Z",
+  "lastUpdated": "2026-09-01T20:38:04.537Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1133,10 +1133,10 @@
     },
     {
       "filename": "Billionaire_Reveals_BRUTAL_Truth_About_M_clip01_A_vivid_unexpected_personal_story_about_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-01T20:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "QI8itH7GM1k",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Went to the USSR at 24 and Saw the Truth About Money",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Billionaire_Reveals_BRUTAL_Truth_About_M_clip01_A_vivid_unexpected_personal_story_about_.jpg"
@@ -1693,10 +1693,10 @@
     },
     {
       "filename": "Diary_of_a_CEO_The_WORST_InterviewofMyLi_clip02_A_relatable_almost_cringe-comedy_story_o.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-01T20:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "TnFap6sTAP8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I FORGOT MY OWN ANSWER ON CAMERA: The Freezing Moment",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Diary_of_a_CEO_The_WORST_InterviewofMyLi_clip02_A_relatable_almost_cringe-comedy_story_o.jpg"
@@ -2623,6 +2623,16 @@
     },
     {
       "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip04_Bizarre_funny_corporate_perk_decision_ti.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip04_Bizarre_funny_corporate_perk_decision_ti.jpg"
+    },
+    {
+      "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip05_Uses_a_vivid_One_Piece_anime_analogy_to_.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
@@ -4783,10 +4793,10 @@
     },
     {
       "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip01_A_darkly_funny_quotable_exchange_where_h.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-01T20:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "Zf2PSgPLrxE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Abusing Baguettes Not Women: Dark Comedy Gold",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip01_A_darkly_funny_quotable_exchange_where_h.jpg"
