@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T01:52:18.457Z",
+  "lastUpdated": "2026-09-02T01:52:22.550Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1175,8 +1175,8 @@
       "filename": "Billionaire_Reveals_BRUTAL_Truth_About_M_clip05_Mind-blowing_specific_numbers_28M_vs_328.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-02T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Private Equity Returns Demolish the Stock Market",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Billionaire_Reveals_BRUTAL_Truth_About_M_clip05_Mind-blowing_specific_numbers_28M_vs_328.jpg"
@@ -4885,8 +4885,8 @@
       "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip05_A_bold_screenshot-worthy_claim_arguing_m.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-02T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Monarchy Beats Democracy: A Controversial Take",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip05_A_bold_screenshot-worthy_claim_arguing_m.jpg"
