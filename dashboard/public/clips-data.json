@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T07:24:30.873Z",
+  "lastUpdated": "2026-09-02T07:24:40.100Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -2593,10 +2593,10 @@
     },
     {
       "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip01_Fast-paced_cold_open_packed_with_shockin.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-02T07:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "nTjCy3UIJLc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "21-Year-Old Built $120M Company Using AI to Cheat",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip01_Fast-paced_cold_open_packed_with_shockin.jpg"
@@ -4933,10 +4933,10 @@
     },
     {
       "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip10_A_genuinely_surprising_provocative_argum.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-02T07:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "ftgR2mPfJDE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "He'd Rather Go To Jail Than Live Normal Life",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip10_A_genuinely_surprising_provocative_argum.jpg"
