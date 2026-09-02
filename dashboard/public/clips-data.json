@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T00:34:05.451Z",
+  "lastUpdated": "2026-09-02T00:34:09.245Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1165,8 +1165,8 @@
       "filename": "Billionaire_Reveals_BRUTAL_Truth_About_M_clip04_A_rare_highly_quotable_secret_from_the_w.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-02T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ray Dalio's Holy Grail of Investing Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Billionaire_Reveals_BRUTAL_Truth_About_M_clip04_A_rare_highly_quotable_secret_from_the_w.jpg"
@@ -1725,8 +1725,8 @@
       "filename": "Diary_of_a_CEO_The_WORST_InterviewofMyLi_clip05_Delivers_a_quotable_counterintuitive_ide.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-02T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "LEARN THE RULES BEFORE BREAKING THEM: Mastery Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Diary_of_a_CEO_The_WORST_InterviewofMyLi_clip05_Delivers_a_quotable_counterintuitive_ide.jpg"
@@ -4875,8 +4875,8 @@
       "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip04_A_sharp_counterintuitive_framework_divid.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-02T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Fear Criminals or Government: Where Do You Live?",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip04_A_sharp_counterintuitive_framework_divid.jpg"
