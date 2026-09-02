@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T01:35:32.151Z",
+  "lastUpdated": "2026-09-02T01:52:18.457Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1733,10 +1733,10 @@
     },
     {
       "filename": "Diary_of_a_CEO_The_WORST_InterviewofMyLi_clip06_A_vulnerable_emotionally_raw_moment_desc.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-02T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "j9u3iJK3ARE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "TORN BETWEEN TWO WAYS OF SPEAKING: The Internal Conflict",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Diary_of_a_CEO_The_WORST_InterviewofMyLi_clip06_A_vulnerable_emotionally_raw_moment_desc.jpg"
