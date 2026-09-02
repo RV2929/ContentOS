@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T15:48:28.813Z",
+  "lastUpdated": "2026-09-02T23:22:33.430Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -2673,10 +2673,10 @@
     },
     {
       "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip09_An_extremely_provocative_hot_take_claimi.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-02T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "en0V6-IcFrI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Looks Matter More Than Racism or Homophobia",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip09_An_extremely_provocative_hot_take_claimi.jpg"
@@ -4192,6 +4192,26 @@
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip01_A_vivid_emotionally_charged_origin_story.jpg"
     },
     {
+      "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip01_A_vivid_funny_and_emotionally_resonant_o.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip01_A_vivid_funny_and_emotionally_resonant_o.jpg"
+    },
+    {
+      "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
+    },
+    {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_shocking_quotable_exchange_where_Steve.mp4",
       "status": "posted",
       "youtubeId": "Xs3GITkteao",
@@ -4200,6 +4220,16 @@
       "title": "Steve Jobs Told Him To Shut Up And Listen",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_shocking_quotable_exchange_where_Steve.jpg"
+    },
+    {
+      "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip03_A_counterintuitive_framework_signal_vs_n.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip03_A_counterintuitive_framework_signal_vs_n.jpg"
     },
     {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip03_Reveals_a_counterintuitive_productivity_.mp4",
@@ -4222,6 +4252,26 @@
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip04_A_surprising_data-backed_claim_that_wome.jpg"
     },
     {
+      "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip04_A_tight_suspenseful_story_with_a_clear_p.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip04_A_tight_suspenseful_story_with_a_clear_p.jpg"
+    },
+    {
+      "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
+    },
+    {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_tense_cinematic_negotiation_story_wher.mp4",
       "status": "posted",
       "youtubeId": "gpuOmcCGPEY",
@@ -4230,6 +4280,16 @@
       "title": "He Won A Deal With Just One Word: Silence",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_tense_cinematic_negotiation_story_wher.jpg"
+    },
+    {
+      "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip06_An_emotional_surprising_story_about_his_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip06_An_emotional_surprising_story_about_his_.jpg"
     },
     {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip06_Bold_provocative_claim_about_reading_peo.mp4",
@@ -4252,6 +4312,26 @@
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_blunt_quotable_rant_about_wasteful_spe.jpg"
     },
     {
+      "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
+    },
+    {
+      "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip08_A_blunt_provocative_take_on_divorce_dest.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip08_A_blunt_provocative_take_on_divorce_dest.jpg"
+    },
+    {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip08_An_emotional_surprising_reveal_that_his_.mp4",
       "status": "posted",
       "youtubeId": "52pvCSdbUjs",
@@ -4272,6 +4352,16 @@
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip09_A_blunt_provocative_take_on_how_divorce_.jpg"
     },
     {
+      "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip09_A_punchy_listicle-style_breakdown_of_rel.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip09_A_punchy_listicle-style_breakdown_of_rel.jpg"
+    },
+    {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip10_A_punchy_list-style_breakdown_of_relatio.mp4",
       "status": "posted",
       "youtubeId": "m-VQ3qdD9NE",
@@ -4280,6 +4370,16 @@
       "title": "The 5 Money Personalities Destroying Your Relationship",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip10_A_punchy_list-style_breakdown_of_relatio.jpg"
+    },
+    {
+      "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip10_A_specific_actionable_and_slightly_provo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip10_A_specific_actionable_and_slightly_provo.jpg"
     },
     {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__longform_Kevin_OLeary_on_the_Defining_Traits_of_S.mp4",
