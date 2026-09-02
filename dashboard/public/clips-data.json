@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T12:14:19.911Z",
+  "lastUpdated": "2026-09-02T13:24:49.599Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -2643,10 +2643,10 @@
     },
     {
       "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip06_A_candid_surprising_confession_delivered.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-02T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "i03fgGUU4qY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "He Admits to Getting a Nose Job on Podcast",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip06_A_candid_surprising_confession_delivered.jpg"
