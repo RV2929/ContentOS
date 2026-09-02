@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T03:09:23.815Z",
+  "lastUpdated": "2026-09-02T04:15:17.540Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1193,10 +1193,10 @@
     },
     {
       "filename": "Billionaire_Reveals_BRUTAL_Truth_About_M_clip07_A_raw_vulnerable_emotional_moment_reveal.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-02T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "rEag-P_PqWg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Two Times Tony Robbins Cried and Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Billionaire_Reveals_BRUTAL_Truth_About_M_clip07_A_raw_vulnerable_emotional_moment_reveal.jpg"
@@ -4906,7 +4906,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-02T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Is The Juice Worth The Squeeze Anymore?",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip07_A_funny_brutally_honest_riff_on_losing_i.jpg"
