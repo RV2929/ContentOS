@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T01:52:22.550Z",
+  "lastUpdated": "2026-09-02T02:51:59.486Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1186,7 +1186,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-02T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Tony Robbins Saved Nuns From Eviction With Generosity",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Billionaire_Reveals_BRUTAL_Truth_About_M_clip06_A_heartfelt_tightly-told_story_with_real.jpg"
@@ -1743,10 +1743,10 @@
     },
     {
       "filename": "Diary_of_a_CEO_The_WORST_InterviewofMyLi_clip07_A_powerful_quotable_closing_message_givi.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-02T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "_APXD5wl0tI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "IT'S OKAY TO JUST BE: Permission to Let Go",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Diary_of_a_CEO_The_WORST_InterviewofMyLi_clip07_A_powerful_quotable_closing_message_givi.jpg"
@@ -4896,7 +4896,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-02T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "One Lie From Your Ex Can Destroy Your Life Forever",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip06_A_raw_conspiratorial_story_with_real_sta.jpg"
