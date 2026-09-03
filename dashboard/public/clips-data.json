@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T19:24:45.226Z",
+  "lastUpdated": "2026-09-03T21:03:02.385Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -4373,10 +4373,10 @@
     },
     {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip10_A_specific_actionable_and_slightly_provo.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-03T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "BABrkFgtwvs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Talk Money On The Third Date: The Relationship Rule",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip10_A_specific_actionable_and_slightly_provo.jpg"
