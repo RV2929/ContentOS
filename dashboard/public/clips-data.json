@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T18:12:47.823Z",
+  "lastUpdated": "2026-09-03T19:24:45.226Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -4353,10 +4353,10 @@
     },
     {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip09_A_punchy_listicle-style_breakdown_of_rel.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-03T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "viUpEL0CWXs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "5 Money Types That Ruin Relationships: Which One Are You",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip09_A_punchy_listicle-style_breakdown_of_rel.jpg"
