@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T17:02:01.234Z",
+  "lastUpdated": "2026-09-03T18:12:47.823Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -4323,10 +4323,10 @@
     },
     {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip08_A_blunt_provocative_take_on_divorce_dest.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-03T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "anwAYxzCD1E",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Divorce: The Stupidest Financial Move You Can Make",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip08_A_blunt_provocative_take_on_divorce_dest.jpg"
