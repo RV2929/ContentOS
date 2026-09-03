@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T16:00:22.398Z",
+  "lastUpdated": "2026-09-03T17:02:01.234Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -4313,10 +4313,10 @@
     },
     {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-03T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Gf1rLxUAPHw",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
