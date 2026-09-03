@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T13:24:59.515Z",
+  "lastUpdated": "2026-09-03T14:38:11.571Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -4265,8 +4265,8 @@
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-03T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Know You're A Winner Before You Speak—Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
