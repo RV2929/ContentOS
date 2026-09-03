@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T14:38:11.571Z",
+  "lastUpdated": "2026-09-03T16:00:22.398Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -4285,8 +4285,8 @@
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip06_An_emotional_surprising_story_about_his_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-03T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "My Mother's Secret Million Dollar Portfolio: 55 Year Surprise",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip06_An_emotional_surprising_story_about_his_.jpg"
