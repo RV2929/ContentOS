@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T23:22:33.430Z",
+  "lastUpdated": "2026-09-03T00:41:15.321Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -2683,10 +2683,10 @@
     },
     {
       "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip10_A_bold_controversial_claim_delivered_wit.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-03T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "e7KeRIb4ArY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Therapy Is Completely Useless for Men",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip10_A_bold_controversial_claim_delivered_wit.jpg"
