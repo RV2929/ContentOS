@@ -1494,6 +1494,19 @@
       "clipsCount": 10,
       "batchId": "Kevin_OLeary_Every_Time_You_Get_Paid_Do_",
       "error": null
+    },
+    {
+      "id": "mto5uw4f6j9z",
+      "url": "https://www.youtube.com/watch?v=MGxcosNuC8k",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-09-05T09:08:45.471Z",
+      "startedAt": "2026-09-05T09:08:45.475Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
