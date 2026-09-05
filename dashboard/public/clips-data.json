@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T09:45:23.035Z",
+  "lastUpdated": "2026-09-05T09:49:05.488Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -953,10 +953,10 @@
     },
     {
       "filename": "Andrew_Huberman_My_Exact_Routine_To_Opti_clip01_Opens_with_a_shocking_claim_that_bright_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-05T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "KLIpyu59YOE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Bright Nights Are Killing You Early, Says Stanford Neuroscientist",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip01_Opens_with_a_shocking_claim_that_bright_.jpg"
