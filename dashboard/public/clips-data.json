@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T12:08:05.186Z",
+  "lastUpdated": "2026-09-05T12:12:46.237Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -973,10 +973,10 @@
     },
     {
       "filename": "Andrew_Huberman_My_Exact_Routine_To_Opti_clip03_Directly_contradicts_the_common_belief_t.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-05T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "2fUa4ROoqaI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why You Actually Want High Morning Cortisol Levels",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip03_Directly_contradicts_the_common_belief_t.jpg"
@@ -3536,7 +3536,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-05T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "The Fake Scar Experiment That Exposes Your Hidden Bias",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip02_A_jaw-dropping_psychology_study_with_a_t.jpg"
@@ -8066,7 +8066,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-05T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Four Money Scripts Keeping You Broke",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip02_Surprising_psychological_framework_money.jpg"
