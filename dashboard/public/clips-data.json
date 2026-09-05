@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:51:10.035Z",
+  "lastUpdated": "2026-09-05T17:02:42.911Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1015,8 +1015,8 @@
       "filename": "Andrew_Huberman_My_Exact_Routine_To_Opti_clip07_A_raw_vulnerable_personal_story_about_fa.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Praying Brought Me Miracles, So I Prayed for Three Years",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip07_A_raw_vulnerable_personal_story_about_fa.jpg"
@@ -8105,8 +8105,8 @@
       "filename": "The_Psychology_of_Making_Money_clip06_Tight_story_with_real_stakes_and_a_satis.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "She Hired a $40K Coach When Broke",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip06_Tight_story_with_real_stakes_and_a_satis.jpg"
