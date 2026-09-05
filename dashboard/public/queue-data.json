@@ -1577,13 +1577,13 @@
       "id": "mto5vzl0gdz5",
       "url": "https://www.youtube.com/watch?v=eeU1fNZ2pZA",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-09-05T09:09:36.612Z",
       "startedAt": "2026-09-05T11:46:51.373Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-09-05T12:08:02.159Z",
+      "clipsCount": 9,
+      "batchId": "The_Formula_For_Freedom_Confidence__Happ",
       "error": null
     }
   ]
