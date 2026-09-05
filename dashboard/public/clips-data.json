@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T23:23:46.226Z",
+  "lastUpdated": "2026-09-05T23:23:49.736Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -3555,8 +3555,8 @@
       "filename": "How_to_Eliminate_Self-Doubt_Forever__Bui_clip04_A_counterintuitive_research-backed_claim.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Stop Using Positive Affirmations Right Now",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip04_A_counterintuitive_research-backed_claim.jpg"
@@ -4905,8 +4905,8 @@
       "filename": "MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip01_Scott_Galloway_delivers_a_sharp_quotable.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Rich Is What You See, Wealth Isn't",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip01_Scott_Galloway_delivers_a_sharp_quotable.jpg"
@@ -7975,8 +7975,8 @@
       "filename": "The_New_Era_of_Social_Media_Has_Just_Beg_clip01_Opens_with_a_bold_reframing_of_social_me.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "We're In Interest Media Now, Not Social Media",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip01_Opens_with_a_bold_reframing_of_social_me.jpg"
