@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T15:48:24.911Z",
+  "lastUpdated": "2026-09-05T15:49:01.635Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1003,10 +1003,10 @@
     },
     {
       "filename": "Andrew_Huberman_My_Exact_Routine_To_Opti_clip06_A_bold_funny_comparison_as_true_as_mastu.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-05T15:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "7RUaj4QDCd4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "GLP Drugs and Blindness: Debunking the Health Fear Myth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip06_A_bold_funny_comparison_as_true_as_mastu.jpg"
