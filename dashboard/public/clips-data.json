@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T19:45:41.285Z",
+  "lastUpdated": "2026-09-05T19:45:44.791Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -8125,8 +8125,8 @@
       "filename": "The_Psychology_of_Making_Money_clip08_Counterintuitive_math_showing_how_saving.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T19:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Cleaning Your House Is Costing You Millions",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip08_Counterintuitive_math_showing_how_saving.jpg"
