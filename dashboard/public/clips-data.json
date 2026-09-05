@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T10:21:16.151Z",
+  "lastUpdated": "2026-09-05T11:08:00.970Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -963,10 +963,10 @@
     },
     {
       "filename": "Andrew_Huberman_My_Exact_Routine_To_Opti_clip02_A_teasing_quotable_line_about_miracles_h.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-05T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "M2igptt0YJA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Moment My Life Got Better: Supplement Honesty",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip02_A_teasing_quotable_line_about_miracles_h.jpg"
@@ -3526,7 +3526,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-05T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "The 4-Part Framework for Building Unshakeable Confidence",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip01_A_clear_punchy_framework_reveal_that_hoo.jpg"
@@ -4900,6 +4900,36 @@
       "title": "",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lamine_Yamal_The_60_Minutes_Interview_tiktok05_Hook_asks_if_he_can_be_a_normal_18-year-.jpg"
+    },
+    {
+      "filename": "MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip01_Scott_Galloway_delivers_a_sharp_quotable.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip01_Scott_Galloway_delivers_a_sharp_quotable.jpg"
+    },
+    {
+      "filename": "MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip02_A_vivid_surprising_contrast_storya_Wall_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip02_A_vivid_surprising_contrast_storya_Wall_.jpg"
+    },
+    {
+      "filename": "MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip03_Raw_vulnerable_personal_storytelling_abo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
     },
     {
       "filename": "Man_Who_Owns_4_Of_All_Bitcoin_His_Final__clip01_Shocking_opening_claim_followed_by_count.mp4",
@@ -7686,7 +7716,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-05T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Arrested Six Times to Billions: The Real Skill",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip01_A_jaw-dropping_personal_transformation_s.jpg"
