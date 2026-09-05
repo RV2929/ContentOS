@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T17:02:42.911Z",
+  "lastUpdated": "2026-09-05T18:13:22.588Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -1025,8 +1025,8 @@
       "filename": "Andrew_Huberman_My_Exact_Routine_To_Opti_clip08_An_unexpected_emotionally_honest_admissi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Prayed Before This Podcast to Remove My Ego",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip08_An_unexpected_emotionally_honest_admissi.jpg"
@@ -8115,8 +8115,8 @@
       "filename": "The_Psychology_of_Making_Money_clip07_A_shockingly_quotable_line_about_reframi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Paid $3 Million for a Lesson",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip07_A_shockingly_quotable_line_about_reframi.jpg"
