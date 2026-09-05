@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T12:13:00.464Z",
+  "lastUpdated": "2026-09-05T13:25:26.994Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -985,8 +985,8 @@
       "filename": "Andrew_Huberman_My_Exact_Routine_To_Opti_clip04_Introduces_the_anterior_mid-cingulate_co.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Your Brain Has a Tenacity Muscle and You Can Grow It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip04_Introduces_the_anterior_mid-cingulate_co.jpg"
@@ -3545,8 +3545,8 @@
       "filename": "How_to_Eliminate_Self-Doubt_Forever__Bui_clip03_A_vivid_relatable_visual_analogy_showing.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Self-Doubt Sinks Like a Golf Ball in Water",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip03_A_vivid_relatable_visual_analogy_showing.jpg"
@@ -8075,8 +8075,8 @@
       "filename": "The_Psychology_of_Making_Money_clip03_Raw_vulnerable_admission_from_a_wealthy_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why She Won't Spend Her Millions",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip03_Raw_vulnerable_admission_from_a_wealthy_.jpg"
