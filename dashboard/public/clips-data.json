@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T11:08:00.970Z",
+  "lastUpdated": "2026-09-05T11:08:08.230Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -3523,10 +3523,10 @@
     },
     {
       "filename": "How_to_Eliminate_Self-Doubt_Forever__Bui_clip01_A_clear_punchy_framework_reveal_that_hoo.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-05T11:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "J8UoR8tw1rk",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The 4-Part Framework for Building Unshakeable Confidence",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip01_A_clear_punchy_framework_reveal_that_hoo.jpg"
@@ -7713,10 +7713,10 @@
     },
     {
       "filename": "The_Psychology_of_Making_Money_clip01_A_jaw-dropping_personal_transformation_s.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-05T11:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "l-ZQoXFUbUw",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Arrested Six Times to Billions: The Real Skill",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip01_A_jaw-dropping_personal_transformation_s.jpg"
