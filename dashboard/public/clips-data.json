@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T13:25:26.994Z",
+  "lastUpdated": "2026-09-05T14:49:47.204Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -995,8 +995,8 @@
       "filename": "Andrew_Huberman_My_Exact_Routine_To_Opti_clip05_A_jarring_quotable_claim_you_are_brain_d.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Cold Plunges Cause Temporary Brain Damage, Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip05_A_jarring_quotable_claim_you_are_brain_d.jpg"
@@ -8085,8 +8085,8 @@
       "filename": "The_Psychology_of_Making_Money_clip04_Counterintuitive_thermostat_theory_of_we.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-05T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Your Self-Image Caps Your Income",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip04_Counterintuitive_thermostat_theory_of_we.jpg"
