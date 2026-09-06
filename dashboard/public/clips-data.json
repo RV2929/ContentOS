@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T00:37:45.933Z",
+  "lastUpdated": "2026-09-06T01:44:39.096Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -3576,7 +3576,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-06T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "She Designed a $1.5M Logo on a Napkin",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip06_A_tight_satisfying_story_with_a_punchlin.jpg"
@@ -4926,7 +4926,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-06T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "A Ghost Told Me We Weren't Worthy",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip03_Raw_vulnerable_personal_storytelling_abo.jpg"
@@ -7993,10 +7993,10 @@
     },
     {
       "filename": "The_New_Era_of_Social_Media_Has_Just_Beg_clip03_Delivers_a_punchy_screenshot-worthy_line.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-06T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "r-eRBrXEd0Q",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Algorithm Exposed Everyone, Not Changed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip03_Delivers_a_punchy_screenshot-worthy_line.jpg"
