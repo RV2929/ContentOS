@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T04:12:14.212Z",
+  "lastUpdated": "2026-09-06T04:12:17.802Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -3595,8 +3595,8 @@
       "filename": "How_to_Eliminate_Self-Doubt_Forever__Bui_clip08_A_surprising_bit_of_body-science_with_an.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-06T03:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "This Neck Trick Makes You Feel Instantly Powerful",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip08_A_surprising_bit_of_body-science_with_an.jpg"
