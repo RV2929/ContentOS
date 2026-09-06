@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T05:14:17.083Z",
+  "lastUpdated": "2026-09-06T05:31:37.753Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -3605,8 +3605,8 @@
       "filename": "How_to_Eliminate_Self-Doubt_Forever__Bui_clip09_A_fun_visual_try-it-yourself_exercise_wi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-06T05:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Pen Trick That Fixes How You Sound When Speaking",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip09_A_fun_visual_try-it-yourself_exercise_wi.jpg"
@@ -4955,8 +4955,8 @@
       "filename": "MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip06_A_tight_high-stakes_personal_story_with_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-06T05:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Survived on $78 a Week",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip06_A_tight_high-stakes_personal_story_with_.jpg"
