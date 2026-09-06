@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T23:26:54.833Z",
+  "lastUpdated": "2026-09-06T23:26:57.908Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -7265,8 +7265,8 @@
       "filename": "The_Formula_For_Freedom_Confidence__Happ_clip01_A_counterintuitive_quotable_claim_that_s.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-06T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Self-Esteem Is Earned, Not Given",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip01_A_counterintuitive_quotable_claim_that_s.jpg"
@@ -7795,8 +7795,8 @@
       "filename": "The_Man_That_Makes_Millionaires_How_To_T_clip01_A_raw_shocking_admission_of_suicidal_des.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-06T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Always Hoped I Wouldn't Wake Up",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Man_That_Makes_Millionaires_How_To_T_clip01_A_raw_shocking_admission_of_suicidal_des.jpg"
@@ -8015,8 +8015,8 @@
       "filename": "The_New_Era_of_Social_Media_Has_Just_Beg_clip05_Reveals_a_little-known_tactic__deliberat.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-06T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Your Content Is Actually a Research Machine",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip05_Reveals_a_little-known_tactic__deliberat.jpg"
