@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T04:03:30.141Z",
+  "lastUpdated": "2026-09-07T04:03:33.614Z",
   "clips": [
     {
       "filename": "1000_hours_of_Learning_Claude_in_15_Minu_clip01_Strong_credibility_hook_with_a_curiosity.mp4",
@@ -7305,8 +7305,8 @@
       "filename": "The_Formula_For_Freedom_Confidence__Happ_clip05_A_sharp_surprising_insight_backed_by_aud.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-07T03:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Even Billionaires Focus on What's Missing",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip05_A_sharp_surprising_insight_backed_by_aud.jpg"
