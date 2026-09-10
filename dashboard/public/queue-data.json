@@ -1585,6 +1585,19 @@
       "clipsCount": 9,
       "batchId": "The_Formula_For_Freedom_Confidence__Happ",
       "error": null
+    },
+    {
+      "id": "mtvr9hhkdbi4",
+      "url": "https://www.youtube.com/watch?v=1G4JLqFdNHs",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-09-10T16:42:21.512Z",
+      "startedAt": "2026-09-10T16:42:21.526Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
