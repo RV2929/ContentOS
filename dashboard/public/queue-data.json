@@ -1676,6 +1676,19 @@
       "clipsCount": 0,
       "batchId": null,
       "error": null
+    },
+    {
+      "id": "mtvs7aycocn0",
+      "url": "https://www.youtube.com/watch?v=6xdW0bdVkVU",
+      "title": "",
+      "status": "queued",
+      "channel": "podcast",
+      "addedAt": "2026-09-10T17:08:39.348Z",
+      "startedAt": null,
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
