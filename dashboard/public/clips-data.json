@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T18:12:22.962Z",
+  "lastUpdated": "2026-09-10T18:12:27.503Z",
   "clips": [
     {
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip01_A_genuinely_funny_unexpected_bit_where_a.mp4",
@@ -1113,10 +1113,10 @@
     },
     {
       "filename": "Elicitation_CIAs_Technique_to_Make_Peopl_clip01_Opens_with_a_bold_counterintuitive_claim.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-10T18:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "sMNtY2xTL4I",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The CIA Trick That Skips Your Brain",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Elicitation_CIAs_Technique_to_Make_Peopl_clip01_Opens_with_a_bold_counterintuitive_claim.jpg"
