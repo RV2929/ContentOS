@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T11:01:09.185Z",
+  "lastUpdated": "2026-09-11T12:13:05.560Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -2443,10 +2443,10 @@
     },
     {
       "filename": "Mentalist_Secrets_Revealed_How_To_Read_A_clip06_A_sharp_screenshot-worthy_insight_refram.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-11T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "IHFrrOQBDss",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Some Criticism Stings Even When It's False",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mentalist_Secrets_Revealed_How_To_Read_A_clip06_A_sharp_screenshot-worthy_insight_refram.jpg"
