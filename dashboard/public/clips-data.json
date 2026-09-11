@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T09:49:10.091Z",
+  "lastUpdated": "2026-09-11T11:01:09.185Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -2433,10 +2433,10 @@
     },
     {
       "filename": "Mentalist_Secrets_Revealed_How_To_Read_A_clip05_A_concrete_surprising_step-by-step_techn.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-11T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "IItkF1nnbnU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Master Lucid Dreams In Just One Week",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mentalist_Secrets_Revealed_How_To_Read_A_clip05_A_concrete_surprising_step-by-step_techn.jpg"
