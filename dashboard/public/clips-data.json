@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T08:37:04.818Z",
+  "lastUpdated": "2026-09-11T08:37:18.770Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -13,10 +13,10 @@
     },
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip02_Huberman_uses_his_own_fear_of_a_heart_at.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-11T08:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "ynSFlvW99Ao",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Fear Is Your Secret Weapon for Change",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip02_Huberman_uses_his_own_fear_of_a_heart_at.jpg"
@@ -2413,10 +2413,10 @@
     },
     {
       "filename": "Mentalist_Secrets_Revealed_How_To_Read_A_clip03_A_beautifully_told_story_with_real_emoti.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-11T08:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "VNSSDNhPg1s",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "They Secretly Recreated Their Ruined Wedding Dance",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mentalist_Secrets_Revealed_How_To_Read_A_clip03_A_beautifully_told_story_with_real_emoti.jpg"
