@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T03:03:07.860Z",
+  "lastUpdated": "2026-09-11T03:03:11.273Z",
   "clips": [
     {
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip01_A_genuinely_funny_unexpected_bit_where_a.mp4",
@@ -485,8 +485,8 @@
       "filename": "Andrew_Huberman_Become_Mentally_Dangerou_clip08_A_tight_deeply_quotable_monologue_defini.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-11T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Losers vs Winners: The ONE Difference That Matters",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip08_A_tight_deeply_quotable_monologue_defini.jpg"
