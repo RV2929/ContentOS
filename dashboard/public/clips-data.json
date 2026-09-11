@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T14:36:21.170Z",
+  "lastUpdated": "2026-09-11T15:50:13.724Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -2473,10 +2473,10 @@
     },
     {
       "filename": "Mentalist_Secrets_Revealed_How_To_Read_A_clip09_A_stunning_high-energy_live_mind-reading.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-11T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "6NztKVFnXRU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "He Guessed His Teacher's Name Live On Stage",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mentalist_Secrets_Revealed_How_To_Read_A_clip09_A_stunning_high-energy_live_mind-reading.jpg"
