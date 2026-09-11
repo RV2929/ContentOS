@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T01:56:10.344Z",
+  "lastUpdated": "2026-09-11T03:03:07.860Z",
   "clips": [
     {
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip01_A_genuinely_funny_unexpected_bit_where_a.mp4",
@@ -486,7 +486,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-11T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Losers vs Winners: The ONE Difference That Matters",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip08_A_tight_deeply_quotable_monologue_defini.jpg"
@@ -2312,6 +2312,16 @@
       "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip10_A_funny_relatable_true_story_about_a_mil.jpg"
     },
     {
+      "filename": "Mentalist_Secrets_Revealed_How_To_Read_A_clip01_A_blunt_confrontational_opener_where_a_m.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
+    },
+    {
       "filename": "Mike_Thurston_x_Andrew_Tate_Part_2_clip01_A_darkly_funny_quotable_exchange_where_h.mp4",
       "status": "posted",
       "youtubeId": "Zf2PSgPLrxE",
@@ -2883,10 +2893,10 @@
     },
     {
       "filename": "The_Easy_Habit_That_Sets_Your_Mood_For_T_clip08_A_punchy_empowering_reframe_on_self-cont.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-11T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "-07q4XQyikk",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Stop Letting Dopamine Control You",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Easy_Habit_That_Sets_Your_Mood_For_T_clip08_A_punchy_empowering_reframe_on_self-cont.jpg"
