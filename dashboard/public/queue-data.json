@@ -1694,13 +1694,13 @@
       "id": "mtvs8lv73omu",
       "url": "https://www.youtube.com/watch?v=NKyyF9MQXn4&pp=ugUHEgVlbi1VUw%3D%3D",
       "title": "",
-      "status": "generating_clips",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-09-10T17:09:40.147Z",
       "startedAt": "2026-09-11T05:37:16.610Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-09-11T07:10:47.123Z",
+      "clipsCount": 8,
+      "batchId": "1_Neuroscientist_Truth_About_Laziness_Di",
       "error": null
     }
   ]
