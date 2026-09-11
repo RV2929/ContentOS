@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T12:13:05.560Z",
+  "lastUpdated": "2026-09-11T13:25:08.370Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -2453,10 +2453,10 @@
     },
     {
       "filename": "Mentalist_Secrets_Revealed_How_To_Read_A_clip07_A_raw_vulnerable_confession_about_quitti.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-11T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "JF6IO0j2cCo",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Quit The Marathon And It Changed Everything",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mentalist_Secrets_Revealed_How_To_Read_A_clip07_A_raw_vulnerable_confession_about_quitti.jpg"
