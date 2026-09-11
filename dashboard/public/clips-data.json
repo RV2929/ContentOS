@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T01:38:16.778Z",
+  "lastUpdated": "2026-09-11T01:56:10.344Z",
   "clips": [
     {
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip01_A_genuinely_funny_unexpected_bit_where_a.mp4",
@@ -475,8 +475,8 @@
       "filename": "Andrew_Huberman_Become_Mentally_Dangerou_clip07_A_direct_hopeful_question_answered_with_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-11T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Can You Build Courage? Yes. Here's the Protocol.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip07_A_direct_hopeful_question_answered_with_.jpg"
@@ -1575,8 +1575,8 @@
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip03_A_striking_almost_mythic_framing_of_his_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-11T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "God Put This Lab Rat on the Planet: The Suffering Framework",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip03_A_striking_almost_mythic_framing_of_his_.jpg"
@@ -2875,8 +2875,8 @@
       "filename": "The_Easy_Habit_That_Sets_Your_Mood_For_T_clip07_A_shocking_real_brain-stimulation_study_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-11T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "People Chose Anger Over Joy in Brain Study",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Easy_Habit_That_Sets_Your_Mood_For_T_clip07_A_shocking_real_brain-stimulation_study_.jpg"
