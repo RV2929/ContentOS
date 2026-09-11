@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T04:08:58.267Z",
+  "lastUpdated": "2026-09-11T05:15:02.024Z",
   "clips": [
     {
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip01_A_genuinely_funny_unexpected_bit_where_a.mp4",
@@ -506,7 +506,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-11T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "How He Let Go of Heartbreak: The Flick Switch Moment",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip10_A_raw_vulnerable_personal_story_about_po.jpg"
@@ -2319,6 +2319,16 @@
       "scheduleStatus": null,
       "title": "",
       "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mentalist_Secrets_Revealed_How_To_Read_A_clip01_A_blunt_confrontational_opener_where_a_m.jpg"
+    },
+    {
+      "filename": "Mentalist_Secrets_Revealed_How_To_Read_A_clip02_A_jaw-dropping_live_demonstration_builds.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
       "thumbnailPath": null
     },
     {
@@ -2916,7 +2926,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-11T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "The One Habit That Could Save Humanity",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Easy_Habit_That_Sets_Your_Mood_For_T_clip10_An_emotional_definitive_closing_statemen.jpg"
