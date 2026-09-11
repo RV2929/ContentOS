@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T04:08:54.687Z",
+  "lastUpdated": "2026-09-11T04:08:58.267Z",
   "clips": [
     {
       "filename": "73_Questions_With_Taylor_Swift__Vogue_clip01_A_genuinely_funny_unexpected_bit_where_a.mp4",
@@ -495,8 +495,8 @@
       "filename": "Andrew_Huberman_Become_Mentally_Dangerou_clip09_A_provocative_question_and_answer_about_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-11T03:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Immigrants Outperform Everyone: The Real Reason",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip09_A_provocative_question_and_answer_about_.jpg"
