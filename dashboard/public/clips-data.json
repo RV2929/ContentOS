@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T07:30:27.620Z",
+  "lastUpdated": "2026-09-12T07:30:30.919Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -3485,8 +3485,8 @@
       "filename": "The_Power_Expert_Nothing_Is_Real_And_I_C_clip08_A_chillingly_specific_breakdown_of_Epste.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-12T07:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "How Epstein Manipulated the Powerful",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Power_Expert_Nothing_Is_Real_And_I_C_clip08_A_chillingly_specific_breakdown_of_Epste.jpg"
