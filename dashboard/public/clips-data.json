@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T00:41:53.338Z",
+  "lastUpdated": "2026-09-12T01:45:49.651Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -43,10 +43,10 @@
     },
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip05_A_raw_vulnerable_admission_about_an_unst.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-12T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "_dmVq0Y8CdE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "How a Feral Childhood Built Unbreakable Resilience",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip05_A_raw_vulnerable_admission_about_an_unst.jpg"
@@ -1686,7 +1686,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-12T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "There's No Fucking Hack, Bro: The Hard Truth on Shortcuts",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip06_A_provocative_quotable_rejection_of_self.jpg"
@@ -3436,7 +3436,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-12T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "My Bones Were Dissolving at My Own Funeral",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Power_Expert_Nothing_Is_Real_And_I_C_clip03_A_gripping_first-person_near-death_accou.jpg"
