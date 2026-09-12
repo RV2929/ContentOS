@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T00:41:50.051Z",
+  "lastUpdated": "2026-09-12T00:41:53.338Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -35,8 +35,8 @@
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip04_A_live_demonstration_of_the_physiologica.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-12T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Breathing Technique That Calms You Instantly",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip04_A_live_demonstration_of_the_physiologica.jpg"
@@ -1675,8 +1675,8 @@
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip05_A_rapid-fire_screenshot-worthy_monologue.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-12T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "How Do You Want to Be Remembered: Strip Away the Bullshit",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip05_A_rapid-fire_screenshot-worthy_monologue.jpg"
@@ -3425,8 +3425,8 @@
       "filename": "The_Power_Expert_Nothing_Is_Real_And_I_C_clip02_A_quotable_parable_about_a_sane_man_who_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-12T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Sufi Tale About Going Insane",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Power_Expert_Nothing_Is_Real_And_I_C_clip02_A_quotable_parable_about_a_sane_man_who_.jpg"
