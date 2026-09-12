@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T05:02:58.836Z",
+  "lastUpdated": "2026-09-12T05:03:02.795Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1713,10 +1713,10 @@
     },
     {
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip09_An_intense_almost_theatrical_self-talk_d.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-12T05:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "5SThN7ir1D4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Built Frankenstein Alone: The Self-Talk Demonstration",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip09_An_intense_almost_theatrical_self-talk_d.jpg"
