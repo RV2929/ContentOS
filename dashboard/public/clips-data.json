@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T02:54:54.401Z",
+  "lastUpdated": "2026-09-12T04:00:08.482Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1703,10 +1703,10 @@
     },
     {
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip08_A_tight_humorous_and_satisfying_real-lif.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-12T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "gQzu9Rhz230",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "A Case of Beer a Day: The Moment He Chose Differently",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip08_A_tight_humorous_and_satisfying_real-lif.jpg"
@@ -3456,7 +3456,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-12T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "The Woman Who Heard Music While Clinically Dead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Power_Expert_Nothing_Is_Real_And_I_C_clip05_A_jaw-dropping_well-documented_near-deat.jpg"
