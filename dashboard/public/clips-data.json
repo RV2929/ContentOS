@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T01:45:49.651Z",
+  "lastUpdated": "2026-09-12T01:45:53.474Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1685,8 +1685,8 @@
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip06_A_provocative_quotable_rejection_of_self.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-12T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "There's No Fucking Hack, Bro: The Hard Truth on Shortcuts",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip06_A_provocative_quotable_rejection_of_self.jpg"
@@ -3435,8 +3435,8 @@
       "filename": "The_Power_Expert_Nothing_Is_Real_And_I_C_clip03_A_gripping_first-person_near-death_accou.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-12T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "My Bones Were Dissolving at My Own Funeral",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Power_Expert_Nothing_Is_Real_And_I_C_clip03_A_gripping_first-person_near-death_accou.jpg"
