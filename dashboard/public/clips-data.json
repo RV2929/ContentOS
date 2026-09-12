@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T01:45:53.474Z",
+  "lastUpdated": "2026-09-12T02:39:17.629Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -56,7 +56,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-12T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Why Failing Reps Are Actually Your Best Friend",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip06_A_sharp_screenshot-worthy_mindset_shift_.jpg"
@@ -1696,7 +1696,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-12T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "I Found It in the Suck: Redefining Happiness Through Suffering",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip07_An_unexpected_redefinition_of_happinessp.jpg"
@@ -3446,7 +3446,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-12T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Death Reveals the World Is Fake",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Power_Expert_Nothing_Is_Real_And_I_C_clip04_A_mind-bending_claim_that_the_brain_cons.jpg"
