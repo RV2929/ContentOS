@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:40:18.291Z",
+  "lastUpdated": "2026-09-13T21:48:33.584Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -886,7 +886,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-13T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "One Habit To Better Your Life: Do This Tomorrow",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip03_A_sweeping_quotable_claim_about_the_sing.jpg"
@@ -1756,7 +1756,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-13T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Your Amygdala Isn't Actually a Fear Center",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip03_A_counterintuitive_neuroscience_reframe_.jpg"
@@ -1766,7 +1766,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-13T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Your Amygdala Isn't What You Think It Does",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip03_A_counterintuitive_reframe_of_the_amygda.jpg"
@@ -1876,7 +1876,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-13T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "God Made Me a Lab Rat | David Goggins on Childhood",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip02_A_striking_quotable_religiousscientific_.jpg"
@@ -2882,6 +2882,86 @@
       "thumbnailPath": "/thumbnails/Mike_Thurston_x_Andrew_Tate_Part_2_clip10_A_genuinely_surprising_provocative_argum.jpg"
     },
     {
+      "filename": "Money_Business_Family__Ambition__George__clip01_A_counterintuitive_industry_insight__a_t.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip01_A_counterintuitive_industry_insight__a_t.jpg"
+    },
+    {
+      "filename": "Money_Business_Family__Ambition__George__clip02_A_tight_origin_story_with_clear_stakes_a.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip02_A_tight_origin_story_with_clear_stakes_a.jpg"
+    },
+    {
+      "filename": "Money_Business_Family__Ambition__George__clip03_Surprising_business_insight__becoming_fa.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip03_Surprising_business_insight__becoming_fa.jpg"
+    },
+    {
+      "filename": "Money_Business_Family__Ambition__George__clip04_Genuinely_funny_relatable_moment_about_b.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip04_Genuinely_funny_relatable_moment_about_b.jpg"
+    },
+    {
+      "filename": "Money_Business_Family__Ambition__George__clip05_A_raw_funny_personal_story_arc_from_chil.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip05_A_raw_funny_personal_story_arc_from_chil.jpg"
+    },
+    {
+      "filename": "Money_Business_Family__Ambition__George__clip06_Provocative_opinion_delivered_with_comed.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip06_Provocative_opinion_delivered_with_comed.jpg"
+    },
+    {
+      "filename": "Money_Business_Family__Ambition__George__clip07_A_blunt_quotable_rant_calling_out_online.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip07_A_blunt_quotable_rant_calling_out_online.jpg"
+    },
+    {
+      "filename": "Money_Business_Family__Ambition__George__clip08_A_sharp_quotable_philosophical_one-liner.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
+    },
+    {
       "filename": "Ranking_every_Taylor_Swift_album_worst_t_clip01_A_hilarious_quotable_rant_about_how_Tayl.mp4",
       "status": "posted",
       "youtubeId": "hIgpQXNQPp0",
@@ -3036,7 +3116,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-13T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "The Boy Who Cried Wolf Problem in AI Safety Warnings",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip02_A_quotable_provocative_admission_that_AI.jpg"
