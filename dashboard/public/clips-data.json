@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T20:20:46.528Z",
+  "lastUpdated": "2026-09-13T20:40:07.248Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -876,7 +876,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-13T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "The Good Morning Text Ritual That Rewires Your Brain",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip02_A_simple_relatable_daily_habit_reframed_.jpg"
@@ -1736,7 +1736,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-13T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Why Weed Stays in Your System for 80 Days",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Directly_answers_a_widely_searched_quest.jpg"
@@ -1746,7 +1746,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-13T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "THC Stays in Your Body for 80 Days—Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
@@ -1846,7 +1846,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-13T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "I Was the Lowest Form on Earth | David Goggins",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip01_Goggins_delivers_a_raw_vulnerable_confes.jpg"
@@ -3026,7 +3026,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-13T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Sam Altman: The AI Escape That Felt Like Science Fiction",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip01_Sam_Altman_describes_the_Hugging_Face_in.jpg"
