@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T19:05:44.058Z",
+  "lastUpdated": "2026-09-13T19:24:16.034Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -863,10 +863,10 @@
     },
     {
       "filename": "Andrew_Hubermans_Hack_To_Increase_Your_D_clip01_A_bold_counterintuitive_neuroscience_cla.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-13T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "FYQ0BDMrKT0",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Friendship Is Pure Predictability: Why It Beats Everything",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip01_A_bold_counterintuitive_neuroscience_cla.jpg"
@@ -1726,7 +1726,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-13T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Your Brain Gets High in 30 Seconds—Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip01_A_surprising_concrete_fact_about_how_fas.jpg"
