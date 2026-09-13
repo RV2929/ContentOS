@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T19:24:16.034Z",
+  "lastUpdated": "2026-09-13T19:24:19.889Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1723,10 +1723,10 @@
     },
     {
       "filename": "How_Marijuana_Affects_the_Brain__Body__D_clip01_A_surprising_concrete_fact_about_how_fas.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-13T19:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "O0N96ZHba8A",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Your Brain Gets High in 30 Seconds—Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip01_A_surprising_concrete_fact_about_how_fas.jpg"
