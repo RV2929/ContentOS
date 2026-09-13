@@ -1702,6 +1702,19 @@
       "clipsCount": 8,
       "batchId": "1_Neuroscientist_Truth_About_Laziness_Di",
       "error": null
+    },
+    {
+      "id": "mu04lpfjocjn",
+      "url": "https://www.youtube.com/watch?v=UCbqfBAhmPY",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-09-13T18:06:51.391Z",
+      "startedAt": "2026-09-13T18:06:51.415Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
