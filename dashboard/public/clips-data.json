@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T21:48:36.936Z",
+  "lastUpdated": "2026-09-13T21:48:44.536Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1753,20 +1753,20 @@
     },
     {
       "filename": "How_Marijuana_Affects_the_Brain__Body__D_clip03_A_counterintuitive_neuroscience_reframe_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-13T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "Bcm7bbeTdtI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Your Amygdala Isn't Actually a Fear Center",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip03_A_counterintuitive_neuroscience_reframe_.jpg"
     },
     {
       "filename": "How_Marijuana_Affects_the_Brain__Body__D_clip03_A_counterintuitive_reframe_of_the_amygda.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-13T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "cg2xNUrkYHU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Your Amygdala Isn't What You Think It Does",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip03_A_counterintuitive_reframe_of_the_amygda.jpg"
@@ -1873,10 +1873,10 @@
     },
     {
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip02_A_striking_quotable_religiousscientific_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-13T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "lzLYdEkaL_U",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "God Made Me a Lab Rat | David Goggins on Childhood",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip02_A_striking_quotable_religiousscientific_.jpg"
@@ -3113,10 +3113,10 @@
     },
     {
       "filename": "Sam_Altman_on_Astra_AGI_and_the_future_o_clip02_A_quotable_provocative_admission_that_AI.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-13T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "O7qBsh5pDgg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Boy Who Cried Wolf Problem in AI Safety Warnings",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip02_A_quotable_provocative_admission_that_AI.jpg"
