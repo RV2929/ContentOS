@@ -1715,6 +1715,19 @@
       "clipsCount": 0,
       "batchId": null,
       "error": null
+    },
+    {
+      "id": "mu04ovztpri5",
+      "url": "https://www.youtube.com/watch?v=UCbqfBAhmPY",
+      "title": "",
+      "status": "queued",
+      "channel": "podcast",
+      "addedAt": "2026-09-13T18:09:19.865Z",
+      "startedAt": null,
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
