@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T23:20:29.055Z",
+  "lastUpdated": "2026-09-13T08:44:02.085Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -75,8 +75,8 @@
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip08_A_hilarious_self-deprecating_and_highly_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-13T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Even Neuroscientists Struggle With Their Phones",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip08_A_hilarious_self-deprecating_and_highly_.jpg"
