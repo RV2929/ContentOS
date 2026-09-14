@@ -1824,13 +1824,13 @@
       "id": "mu04qlgybct4",
       "url": "https://www.youtube.com/watch?v=1bszFX_XcbU",
       "title": "",
-      "status": "generating_clips",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-09-13T18:10:39.538Z",
       "startedAt": "2026-09-14T07:18:20.546Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-09-14T07:27:46.041Z",
+      "clipsCount": 6,
+      "batchId": "The_Top_Study_Habits_to_Improve_Learning",
       "error": null
     }
   ]
