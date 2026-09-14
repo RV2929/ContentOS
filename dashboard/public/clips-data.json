@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T16:15:39.941Z",
+  "lastUpdated": "2026-09-14T17:00:31.660Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1163,10 +1163,10 @@
     },
     {
       "filename": "Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip01_A_genuinely_funny_quotable_moment_where_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "ELr_zyD2Y3s",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "My Name Became a Saying for Broken Cars",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip01_A_genuinely_funny_quotable_moment_where_.jpg"
