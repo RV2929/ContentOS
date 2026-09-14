@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T09:59:37.227Z",
+  "lastUpdated": "2026-09-14T09:59:40.760Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1483,10 +1483,10 @@
     },
     {
       "filename": "Essentials_Science_of_Mindsets_for_Healt_clip03_A_tight_quotable_story_where_simply_tell.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T09:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "Dp-TBk7UnDI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Hotel Housekeepers Lost Weight Without Changing Exercise Habits",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Essentials_Science_of_Mindsets_for_Healt_clip03_A_tight_quotable_story_where_simply_tell.jpg"
