@@ -1782,32 +1782,6 @@
       "error": null
     },
     {
-      "id": "mu04puzu9z73",
-      "url": "https://www.youtube.com/watch?v=yJTt8RtjBGs",
-      "title": "",
-      "status": "failed",
-      "channel": "podcast",
-      "addedAt": "2026-09-13T18:10:05.226Z",
-      "startedAt": "2026-09-13T21:58:39.829Z",
-      "completedAt": "2026-09-13T22:02:48.181Z",
-      "clipsCount": 0,
-      "batchId": null,
-      "error": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1103, in trouble\n    raise DownloadError(message, exc_info)\nyt_dlp.utils.DownloadError: ERROR: \r[download] Got error: (\"Connection broken: Connectio"
-    },
-    {
-      "id": "mu04q6lh13xq",
-      "url": "https://www.youtube.com/watch?v=4Vz6L8B73i4",
-      "title": "",
-      "status": "failed",
-      "channel": "podcast",
-      "addedAt": "2026-09-13T18:10:20.261Z",
-      "startedAt": "2026-09-13T22:02:50.187Z",
-      "completedAt": "2026-09-13T22:10:01.898Z",
-      "clipsCount": 0,
-      "batchId": null,
-      "error": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1103, in trouble\n    raise DownloadError(message, exc_info)\nyt_dlp.utils.DownloadError: ERROR: \r[download] Got error: (\"Connection broken: Connectio"
-    },
-    {
       "id": "mu04qdh6t2ok",
       "url": "https://www.youtube.com/watch?v=alVWRl_X_AA",
       "title": "",
@@ -1841,6 +1815,19 @@
       "channel": "podcast",
       "addedAt": "2026-09-14T14:39:47.777Z",
       "startedAt": "2026-09-14T14:39:47.783Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
+    },
+    {
+      "id": "mu1cnd81d0vc",
+      "url": "https://www.youtube.com/watch?v=4Vz6L8B73i4",
+      "title": "",
+      "status": "queued",
+      "channel": "podcast",
+      "addedAt": "2026-09-14T14:39:51.985Z",
+      "startedAt": null,
       "completedAt": null,
       "clipsCount": 0,
       "batchId": null,
