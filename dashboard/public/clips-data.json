@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T09:59:40.760Z",
+  "lastUpdated": "2026-09-14T11:01:25.340Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1493,10 +1493,10 @@
     },
     {
       "filename": "Essentials_Science_of_Mindsets_for_Healt_clip04_A_bold_counterintuitive_claim_that_decad.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "XyXFQ4Pv-dU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Everything You Know About Stress Is Wrong",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Essentials_Science_of_Mindsets_for_Healt_clip04_A_bold_counterintuitive_claim_that_decad.jpg"
@@ -4173,10 +4173,10 @@
     },
     {
       "filename": "The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "tFazccPGqO8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
