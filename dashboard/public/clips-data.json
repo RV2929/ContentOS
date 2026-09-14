@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T18:12:33.651Z",
+  "lastUpdated": "2026-09-14T19:24:35.370Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1183,10 +1183,10 @@
     },
     {
       "filename": "Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip03_A_tight_story_with_real_stakes_lockdown_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "mOdioYcBbdk",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Furloughed, Then I Quit My Job Forever",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip03_A_tight_story_with_real_stakes_lockdown_.jpg"
