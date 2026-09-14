@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T03:04:38.876Z",
+  "lastUpdated": "2026-09-14T03:52:05.720Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -933,10 +933,10 @@
     },
     {
       "filename": "Andrew_Hubermans_Hack_To_Increase_Your_D_clip08_A_sharp_quotable_personal_philosophy_on_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "7hOfn8rdgKs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Cynicism Never Helps Anyone: A Hard Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip08_A_sharp_quotable_personal_philosophy_on_.jpg"
@@ -1963,10 +1963,10 @@
     },
     {
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip07_An_explosive_cathartic_self-talk_moment_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "31HVXLMYsw8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "You Had Nobody Anyway Motherfucker | Self Motivation",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip07_An_explosive_cathartic_self-talk_moment_.jpg"
