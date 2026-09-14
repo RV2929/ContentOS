@@ -80,6 +80,8 @@ const PERFORMANCE_STATE_FILE  = path.join(__dirname, 'performance-state.json');
 const ALERTS_LOG_FILE         = path.join(__dirname, 'alerts.log');
 const CONNECTION_STATE_FILE   = path.join(__dirname, 'connection-check-state.json');
 const PIPELINE_ERROR_STATE_FILE = path.join(__dirname, 'pipeline-error-check-state.json');
+const DOWNLOADS_DIR             = path.join(CONTENTOS_DIR, 'downloads');
+const CLEANUP_HOLD_MS           = 24 * 60 * 60 * 1000; // 24 hours
 const PERFORMANCE_LOG_FILE    = path.join(__dirname, 'performance.log');
 const PERFORMANCE_JSONL_FILE  = path.join(__dirname, 'performance.jsonl');
 
@@ -1200,6 +1202,141 @@ function maybeRunPipelineErrorCheck() {
     .finally(() => { pipelineErrorCheckRunning = false; });
 }
 
+// ── Disk cleanup ─────────────────────────────────────────────────────────────
+// Once a clip is fully posted to all configured platforms and 24 h have passed
+// since the later completion, delete the clip file from disk (metadata in
+// schedule.json is preserved). Podcast clips require both YouTube (status===
+// 'done') and Instagram (bufferStatus==='done'). Football and streamers clips
+// only require YouTube, since those channels don't post to Instagram.
+// After all clips from a source video are deleted, the source .mp4,
+// .transcript.json, and .clips.json in downloads/ are removed too.
+//
+// Completion timestamps (ytDoneAt / bufferDoneAt) are written by the scheduler
+// at the moment each platform marks done. Older entries that predate these
+// fields fall back to scheduledAt + 24 h as a conservative proxy.
+
+function safeNameSlug(text, maxLen = 40) {
+  const keep = [];
+  for (const ch of text) {
+    if (/[a-zA-Z0-9 \-_]/.test(ch)) keep.push(ch);
+  }
+  return keep.join('').trim().replace(/ /g, '_').slice(0, maxLen);
+}
+
+function isClipFullyPosted(entry) {
+  if (entry.status !== 'done') return false;
+  const channel = normalizeChannel(entry.channel);
+  if (channel === 'podcast') {
+    return entry.bufferStatus === 'done';
+  }
+  // football / streamers: YouTube only
+  return true;
+}
+
+function cleanupReadyAt(entry) {
+  // Returns the Date after which the clip file may be deleted (latest platform
+  // done time + 24 h). Falls back to scheduledAt when timestamps are absent.
+  const ytTime    = entry.ytDoneAt    ? Date.parse(entry.ytDoneAt)    : NaN;
+  const bufTime   = entry.bufferDoneAt ? Date.parse(entry.bufferDoneAt) : NaN;
+  const schedTime = entry.scheduledAt  ? Date.parse(entry.scheduledAt)  : NaN;
+
+  const channel = normalizeChannel(entry.channel);
+  let laterMs;
+  if (channel === 'podcast') {
+    const valid = [ytTime, bufTime].filter(t => !Number.isNaN(t));
+    laterMs = valid.length ? Math.max(...valid) : schedTime;
+  } else {
+    laterMs = !Number.isNaN(ytTime) ? ytTime : schedTime;
+  }
+
+  return new Date(laterMs + CLEANUP_HOLD_MS);
+}
+
+async function runDiskCleanup() {
+  const schedule = loadSchedule();
+  const now = new Date();
+  let anyDeleted = false;
+
+  for (const [filename, entry] of Object.entries(schedule)) {
+    if (entry.fileDeleted) continue;
+    if (!isClipFullyPosted(entry)) continue;
+    if (now < cleanupReadyAt(entry)) continue;
+
+    const filePath = resolveClipPath(filename);
+    if (!fs.existsSync(filePath)) {
+      // File already gone — just mark it so we don't re-check
+      const s = loadSchedule();
+      if (s[filename]) { s[filename].fileDeleted = true; saveJSON(SCHEDULE_FILE, s); }
+      continue;
+    }
+
+    try {
+      fs.unlinkSync(filePath);
+      const s = loadSchedule();
+      if (s[filename]) {
+        s[filename].fileDeleted = true;
+        s[filename].deletedAt   = now.toISOString();
+        saveJSON(SCHEDULE_FILE, s);
+      }
+      console.log(`[cleanup] Deleted clip: ${filename}`);
+      anyDeleted = true;
+    } catch (err) {
+      console.error(`[cleanup] Failed to delete clip ${filename}: ${err.message}`);
+    }
+  }
+
+  // Source cleanup: once ALL clips in a batch are deleted, remove the source
+  // downloads/ files (.mp4, .transcript.json, .clips.json).
+  const byBatch = {};
+  const freshSchedule = loadSchedule();
+  for (const [filename, entry] of Object.entries(freshSchedule)) {
+    if (!entry.batchId) continue;
+    if (!byBatch[entry.batchId]) byBatch[entry.batchId] = [];
+    byBatch[entry.batchId].push(entry);
+  }
+
+  for (const [batchId, entries] of Object.entries(byBatch)) {
+    if (!entries.every(e => e.fileDeleted)) continue;
+
+    // Find the matching source file in downloads/ by slug-matching the stem
+    let sourceBase = null;
+    try {
+      const files = fs.readdirSync(DOWNLOADS_DIR);
+      for (const f of files) {
+        if (!f.endsWith('.mp4')) continue;
+        const stem = path.basename(f, '.mp4');
+        if (safeNameSlug(stem) === batchId) { sourceBase = stem; break; }
+      }
+    } catch (err) {
+      console.error(`[cleanup] Could not read downloads/ for batch ${batchId}: ${err.message}`);
+      continue;
+    }
+
+    if (!sourceBase) continue; // source already deleted or never downloaded here
+
+    for (const ext of ['.mp4', '.transcript.json', '.clips.json']) {
+      const filePath = path.join(DOWNLOADS_DIR, sourceBase + ext);
+      if (!fs.existsSync(filePath)) continue;
+      try {
+        fs.unlinkSync(filePath);
+        console.log(`[cleanup] Deleted source file: ${sourceBase + ext}`);
+      } catch (err) {
+        console.error(`[cleanup] Failed to delete source ${sourceBase + ext}: ${err.message}`);
+      }
+    }
+  }
+}
+
+let diskCleanupRunning = false;
+
+function maybeRunDiskCleanup() {
+  if (diskCleanupRunning) return;
+  diskCleanupRunning = true;
+  runDiskCleanup()
+    .catch(err => console.error(`[cleanup] Unexpected error: ${err.message}`))
+    .finally(() => { diskCleanupRunning = false; });
+}
+
 // ── Background scheduler ──────────────────────────────────────────────────────
 
 async function runScheduler() {
@@ -1254,6 +1391,7 @@ async function runScheduler() {
         s[filename].status = finalStatus;
         if (job?.videoId) s[filename].videoId = job.videoId;
         if (job?.error)   s[filename].error   = job.error;
+        if (finalStatus === 'done') s[filename].ytDoneAt = new Date().toISOString();
         saveJSON(SCHEDULE_FILE, s);
       }
       console.log(`[scheduler] ${filename}: ${finalStatus}`);
@@ -1301,6 +1439,7 @@ async function runScheduler() {
               const s = loadSchedule();
               if (s[filename]) {
                 s[filename].bufferStatus = 'done';
+                s[filename].bufferDoneAt = new Date().toISOString();
                 if (result?.updateId) s[filename].bufferPostId = result.updateId;
                 saveJSON(SCHEDULE_FILE, s);
               }
@@ -1326,6 +1465,7 @@ async function runScheduler() {
   maybeRunPerformanceCollector();
   maybeRunConnectionCheck();
   maybeRunPipelineErrorCheck();
+  maybeRunDiskCleanup();
 }
 
 // Check 5 s after startup then every 60 s
