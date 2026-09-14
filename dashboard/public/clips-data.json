@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T13:31:32.176Z",
+  "lastUpdated": "2026-09-14T13:31:41.828Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1513,10 +1513,10 @@
     },
     {
       "filename": "Essentials_Science_of_Mindsets_for_Healt_clip06_A_surprising_mechanistic_science_nugget_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T13:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "HTT3Z5CyU4Q",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Skydiving Spikes Testosterone Because of How Your Mind Interprets Stress",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Essentials_Science_of_Mindsets_for_Healt_clip06_A_surprising_mechanistic_science_nugget_.jpg"
@@ -4193,10 +4193,10 @@
     },
     {
       "filename": "The_Top_Study_Habits_to_Improve_Learning_clip05_A_genuinely_funny_anecdote_about_a_kid_t.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T13:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "EHdtxIj7L_M",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Book-on-Head Learning Myth: Why Effort Is Non-Negotiable",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip05_A_genuinely_funny_anecdote_about_a_kid_t.jpg"
