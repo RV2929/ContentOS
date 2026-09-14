@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T08:52:58.494Z",
+  "lastUpdated": "2026-09-14T08:53:01.876Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1475,8 +1475,8 @@
       "filename": "Essentials_Science_of_Mindsets_for_Healt_clip02_A_surprising_scientific_reveal_that_beli.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-14T08:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Milkshake Study That Proved Your Mind Controls Your Hormones",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Essentials_Science_of_Mindsets_for_Healt_clip02_A_surprising_scientific_reveal_that_beli.jpg"
@@ -4155,8 +4155,8 @@
       "filename": "The_Top_Study_Habits_to_Improve_Learning_clip01_Counterintuitive_research_finding_helpin.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-14T08:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Teaching Your Competitors Actually Makes You Smarter",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip01_Counterintuitive_research_finding_helpin.jpg"
