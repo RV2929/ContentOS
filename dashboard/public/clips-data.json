@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T17:32:20.316Z",
+  "lastUpdated": "2026-09-14T18:12:33.651Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1175,8 +1175,8 @@
       "filename": "Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip02_A_quotable_life_philosophy_paired_with_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-14T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "If You Love It, You Never Work Again",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip02_A_quotable_life_philosophy_paired_with_t.jpg"
