@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T11:01:25.340Z",
+  "lastUpdated": "2026-09-14T12:12:40.831Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1503,10 +1503,10 @@
     },
     {
       "filename": "Essentials_Science_of_Mindsets_for_Healt_clip05_A_concrete_almost_unbelievable_result_fr.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "_ABU6ShzZYU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "9 Minutes Changed Their Stress Response During a Financial Crisis",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Essentials_Science_of_Mindsets_for_Healt_clip05_A_concrete_almost_unbelievable_result_fr.jpg"
@@ -4183,10 +4183,10 @@
     },
     {
       "filename": "The_Top_Study_Habits_to_Improve_Learning_clip04_Reveals_the_surprisingly_abstract_aspira.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "j536xobxXiA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The One Mindset That Separates Top Students From Everyone Else",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip04_Reveals_the_surprisingly_abstract_aspira.jpg"
