@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T23:17:04.596Z",
+  "lastUpdated": "2026-09-14T23:33:59.383Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1193,10 +1193,10 @@
     },
     {
       "filename": "Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip04_A_high-stakes_gamble_storycash_only_no_f.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "Btl2L6FThFk",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Risking My House Deposit on a Crashed Rolls",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip04_A_high-stakes_gamble_storycash_only_no_f.jpg"
@@ -1343,10 +1343,10 @@
     },
     {
       "filename": "Money_Business_Family__Ambition__George__clip01_A_counterintuitive_industry_insight__a_t.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "gGSfxH2_mNE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Hardest Thing to Design? A Plain T-Shirt",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip01_A_counterintuitive_industry_insight__a_t.jpg"
@@ -1493,10 +1493,10 @@
     },
     {
       "filename": "Sam_Altman_on_Astra_AGI_and_the_future_o_clip03_A_jaw-dropping_screenshot-worthy_detail_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-14T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "vPJlSGZPBkU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Moment an AI Said Holy Shit After Breaking Free",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip03_A_jaw-dropping_screenshot-worthy_detail_.jpg"
