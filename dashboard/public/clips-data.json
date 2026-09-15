@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T01:45:39.028Z",
+  "lastUpdated": "2026-09-15T03:10:37.371Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1373,10 +1373,10 @@
     },
     {
       "filename": "Money_Business_Family__Ambition__George__clip04_Genuinely_funny_relatable_moment_about_b.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-15T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "AH4C56KnvgU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "My Brother Is My Ego Buster and That's Genius",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip04_Genuinely_funny_relatable_moment_about_b.jpg"
@@ -1523,10 +1523,10 @@
     },
     {
       "filename": "Sam_Altman_on_Astra_AGI_and_the_future_o_clip06_Relatable_oddly_delightful_anecdotes_abo.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-15T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "PZ_ggFDqYks",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "34 Hours of AI Research and Post Office Forms",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip06_Relatable_oddly_delightful_anecdotes_abo.jpg"
