@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T05:32:26.888Z",
+  "lastUpdated": "2026-09-15T06:18:47.696Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1403,10 +1403,10 @@
     },
     {
       "filename": "Money_Business_Family__Ambition__George__clip07_A_blunt_quotable_rant_calling_out_online.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-15T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "hoIYaeEAtxQ",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Online Courses Are a Complete Scam and Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip07_A_blunt_quotable_rant_calling_out_online.jpg"
@@ -1553,10 +1553,10 @@
     },
     {
       "filename": "Sam_Altman_on_Astra_AGI_and_the_future_o_clip09_A_leaked_internal_note_revelation_that_O.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-15T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Ehe0EmmY7ug",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why OpenAI Might Delay Going Public Over AGI Timeline",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip09_A_leaked_internal_note_revelation_that_O.jpg"
