@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T05:16:24.141Z",
+  "lastUpdated": "2026-09-15T05:32:26.888Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1545,8 +1545,8 @@
       "filename": "Sam_Altman_on_Astra_AGI_and_the_future_o_clip08_A_rare_moment_of_corporate_vulnerability.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-15T05:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Sam Altman Admits Our Worst Year Was Mostly My Fault",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip08_A_rare_moment_of_corporate_vulnerability.jpg"
