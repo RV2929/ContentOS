@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T10:10:09.704Z",
+  "lastUpdated": "2026-09-15T23:04:15.193Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1225,8 +1225,8 @@
       "filename": "Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip07_A_vivid_emotional_storytelling_momenthat.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-15T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "A Rocket Launch Saved My Worst Day",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip07_A_vivid_emotional_storytelling_momenthat.jpg"
@@ -1445,8 +1445,8 @@
       "filename": "Neuroscientists_Guide_To_10X_Your_Focus__clip01_Shocking_claim_backed_by_a_study_that_a_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-15T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Phones Make Your Team Dumber Even In Meetings",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neuroscientists_Guide_To_10X_Your_Focus__clip01_Shocking_claim_backed_by_a_study_that_a_.jpg"
