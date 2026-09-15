@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T01:45:35.394Z",
+  "lastUpdated": "2026-09-15T01:45:39.028Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1215,8 +1215,8 @@
       "filename": "Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip06_A_sharp_counterintuitive_mindset_insight.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-15T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "You've Already Lost Before You Started",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip06_A_sharp_counterintuitive_mindset_insight.jpg"
@@ -1365,8 +1365,8 @@
       "filename": "Money_Business_Family__Ambition__George__clip03_Surprising_business_insight__becoming_fa.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-15T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Becoming Famous for One Thing Almost Killed the Brand",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip03_Surprising_business_insight__becoming_fa.jpg"
