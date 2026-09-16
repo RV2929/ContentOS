@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T00:25:28.933Z",
+  "lastUpdated": "2026-09-16T01:31:43.864Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -1245,8 +1245,8 @@
       "filename": "Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip09_A_surprising_brag-worthy_story_with_a_cl.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-16T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Beat a Formula One Driver on Track",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip09_A_surprising_brag-worthy_story_with_a_cl.jpg"
@@ -1465,8 +1465,8 @@
       "filename": "Neuroscientists_Guide_To_10X_Your_Focus__clip03_A_vivid_relatable_analogy_explaining_why.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-16T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Endless Scrolling Leaves You More Lonely",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neuroscientists_Guide_To_10X_Your_Focus__clip03_A_vivid_relatable_analogy_explaining_why.jpg"
