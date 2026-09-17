@@ -1296,7 +1296,12 @@ async function runDiskCleanup() {
   }
 
   for (const [batchId, entries] of Object.entries(byBatch)) {
-    if (!entries.every(e => e.fileDeleted)) continue;
+    const allClipsDeleted = entries.every(e => e.fileDeleted);
+    const batchAgeMs = Date.now() - Math.min(
+      ...entries.map(e => Date.parse(e.scheduledAt || e.addedAt || Date.now()))
+    );
+    const batchOlderThan14Days = batchAgeMs > 14 * 24 * 60 * 60 * 1000;
+    if (!allClipsDeleted && !batchOlderThan14Days) continue;
 
     // Find the matching source file in downloads/ by slug-matching the stem
     let sourceBase = null;
