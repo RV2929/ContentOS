@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T08:52:05.851Z",
+  "lastUpdated": "2026-09-20T08:59:47Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -117,7 +117,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -220,6 +220,86 @@
       "title": "One Calf Muscle Controls Your Blood Sugar and Longevity",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip09_A_surprising_practical_science_fact_abou.jpg"
+    },
+    {
+      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip01_A_funny_specific_college_nickname_story_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T09:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why They Called Him Cucumber Boy in College",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip01_A_funny_specific_college_nickname_story_.jpg"
+    },
+    {
+      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip02_Delivers_a_counterintuitive_actionable_i.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T11:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Caffeine Trick That Stops Energy Crashes",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip02_Delivers_a_counterintuitive_actionable_i.jpg"
+    },
+    {
+      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip03_Hyper-specific_quotable_rant_about_burge.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T12:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "His Strict Rules for the Perfect Cheeseburger",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip03_Hyper-specific_quotable_rant_about_burge.jpg"
+    },
+    {
+      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip04_Strong_funny_opinions_on_sardines_tannic.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T13:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Foods He Absolutely Cannot Stand",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip04_Strong_funny_opinions_on_sardines_tannic.jpg"
+    },
+    {
+      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip05_Reveals_a_specific_surprising_personal_h.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T14:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "His Personal Microdose TRT Protocol Revealed",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip05_Reveals_a_specific_surprising_personal_h.jpg"
+    },
+    {
+      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip06_A_counterintuitive_claim_that_challenges.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T15:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Exercise Does NOT Make You Smarter, Here's Why",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip06_A_counterintuitive_claim_that_challenges.jpg"
+    },
+    {
+      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip07_A_punchy_funny_screenshot-worthy_line_ab.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T17:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Smart People Never Skip Leg Day",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip07_A_punchy_funny_screenshot-worthy_line_ab.jpg"
+    },
+    {
+      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip08_Fast-paced_rapid-fire_QA_format_keeps_en.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T18:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Rapid Fire: Squat, Sleep or Cardio for Health",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip08_Fast-paced_rapid-fire_QA_format_keeps_en.jpg"
     },
     {
       "filename": "Andrew_Hubermans_Hack_To_Increase_Your_D_clip02_A_simple_relatable_daily_habit_reframed_.mp4",
@@ -427,7 +507,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -457,7 +537,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -487,7 +567,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -507,7 +587,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -837,7 +917,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -857,7 +937,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -877,7 +957,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -1957,7 +2037,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
