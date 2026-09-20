@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:00:30.672Z",
+  "lastUpdated": "2026-09-20T18:12:36.592Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -373,10 +373,10 @@
     },
     {
       "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip08_Fast-paced_rapid-fire_QA_format_keeps_en.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-20T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "-nzeigOzhec",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Rapid Fire: Squat, Sleep or Cardio for Health",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip08_Fast-paced_rapid-fire_QA_format_keeps_en.jpg"
@@ -2346,7 +2346,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-20T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Stop Taking High-Dose Melatonin Now",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip08_A_provocative_contrarian_warning_against.jpg"
