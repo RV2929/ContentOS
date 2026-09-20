@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T12:12:21.438Z",
+  "lastUpdated": "2026-09-20T12:12:33.048Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -23,10 +23,10 @@
     },
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip03_A_raw_intense_highly_quotable_Kanye_West.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-20T12:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "OhLpGfZABUE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Kanye's Achievement Rant: Raw, Intense, and Unforgettable",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip03_A_raw_intense_highly_quotable_Kanye_West.jpg"
@@ -2293,10 +2293,10 @@
     },
     {
       "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip03_Bizarre_funny_highly_personal_reveal_abo.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-20T12:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "92m2TK5qdnk",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "He Lives in an Art Gallery With an Octopus",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip03_Bizarre_funny_highly_personal_reveal_abo.jpg"
