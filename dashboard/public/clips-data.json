@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-20T09:19:54.748Z",
+  "lastUpdated": "2026-09-20T09:48:30.185Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-20T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "I'm a Lazy Workaholic: Rick Rubin's Secret to Creative Genius",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.jpg"
@@ -306,7 +306,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-20T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Why They Called Him Cucumber Boy in College",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip01_A_funny_specific_college_nickname_story_.jpg"
@@ -950,6 +950,96 @@
       "title": "The Pen Trick That Fixes How You Sound When Speaking",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip09_A_fun_visual_try-it-yourself_exercise_wi.jpg"
+    },
+    {
+      "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip01_A_vivid_psychiatric-ward_story_with_a_su.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip01_A_vivid_psychiatric-ward_story_with_a_su.jpg"
+    },
+    {
+      "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip02_Raw_personal_vulnerability_as_Hollis_des.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip02_Raw_personal_vulnerability_as_Hollis_des.jpg"
+    },
+    {
+      "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip03_A_striking_Kierkegaard_anecdote_paired_w.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip03_A_striking_Kierkegaard_anecdote_paired_w.jpg"
+    },
+    {
+      "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip04_A_quotable_2000-year-old_line_reframes_j.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip04_A_quotable_2000-year-old_line_reframes_j.jpg"
+    },
+    {
+      "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip05_A_deeply_emotional_true_story_about_his_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip05_A_deeply_emotional_true_story_about_his_.jpg"
+    },
+    {
+      "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip06_A_sharp_quotable_takedown_of_a_billionai.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip06_A_sharp_quotable_takedown_of_a_billionai.jpg"
+    },
+    {
+      "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip07_A_powerful_thought_experiment_exposing_t.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip07_A_powerful_thought_experiment_exposing_t.jpg"
+    },
+    {
+      "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip08_A_punchy_screenshot-worthy_personal_mott.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip08_A_punchy_screenshot-worthy_personal_mott.jpg"
+    },
+    {
+      "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip09_A_profound_quotable_paradox_arguing_that.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
     },
     {
       "filename": "How_to_Unlock_Your_Flirting_Superpowers__clip02_Counterintuitive_claim_that_introverts_a.mp4",
@@ -2016,7 +2106,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-20T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Casinos Copied Social Media's Addictive Algorithm",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip01_A_shocking_little-known_insight_that_slo.jpg"
