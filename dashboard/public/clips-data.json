@@ -1,6 +1,86 @@
 {
-  "lastUpdated": "2026-09-20T09:00:28.159Z",
+  "lastUpdated": "2026-09-20T09:18:57Z",
   "clips": [
+    {
+      "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T09:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "I'm a Lazy Workaholic: Rick Rubin's Secret to Creative Genius",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.jpg"
+    },
+    {
+      "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T11:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Homeless to Billionaire: The 17-Year-Old Who Slept in His Office",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.jpg"
+    },
+    {
+      "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip03_A_raw_intense_highly_quotable_Kanye_West.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T12:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Kanye's Achievement Rant: Raw, Intense, and Unforgettable",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip03_A_raw_intense_highly_quotable_Kanye_West.jpg"
+    },
+    {
+      "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip04_A_surprising_Michael_Jordan_quote_and_a_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T13:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Steve Jobs Fired His Own Board: A Michael Jordan Lesson",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip04_A_surprising_Michael_Jordan_quote_and_a_.jpg"
+    },
+    {
+      "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip05_A_devastating_true_story_about_Charlie_M.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Day Charlie Munger's Son Got Leukemia: A Wisdom Story",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip05_A_devastating_true_story_about_Charlie_M.jpg"
+    },
+    {
+      "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip06_Rick_Rubins_vivid_thought_experiment_abo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The House on the Mountain: Rick Rubin's Authenticity Test",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip06_Rick_Rubins_vivid_thought_experiment_abo.jpg"
+    },
+    {
+      "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip07_James_Dysons_staggering_failure_count_an.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "5,126 Failed Prototypes: James Dyson's Decade of Pain",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip07_James_Dysons_staggering_failure_count_an.jpg"
+    },
+    {
+      "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip08_A_counterintuitive_claimthat_many_people.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T02:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "You're Not Famous Because You Can't Handle Success",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip08_A_counterintuitive_claimthat_many_people.jpg"
+    },
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
       "status": "posted",
@@ -117,7 +197,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -507,7 +587,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -537,7 +617,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -567,7 +647,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -587,7 +667,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -917,7 +997,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -937,7 +1017,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -957,7 +1037,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -2037,7 +2117,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
