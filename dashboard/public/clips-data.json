@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:00:23.491Z",
+  "lastUpdated": "2026-09-20T17:00:30.672Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -2333,10 +2333,10 @@
     },
     {
       "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip07_A_dark_surprising_psychological_insight_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-20T17:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "mOXPhcaXssA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Gambling Addicts Aren't Chasing the Win",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip07_A_dark_surprising_psychological_insight_.jpg"
