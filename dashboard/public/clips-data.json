@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T12:12:33.048Z",
+  "lastUpdated": "2026-09-20T12:12:37.824Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -323,10 +323,10 @@
     },
     {
       "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip03_Hyper-specific_quotable_rant_about_burge.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-20T12:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "mZf6n8wVlN4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "His Strict Rules for the Perfect Cheeseburger",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip03_Hyper-specific_quotable_rant_about_burge.jpg"
