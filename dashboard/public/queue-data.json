@@ -1832,6 +1832,19 @@
       "clipsCount": 3,
       "batchId": "Neuroscientists_Guide_To_10X_Your_Focus_",
       "error": null
+    },
+    {
+      "id": "mu9k73iisxyi",
+      "url": "https://www.youtube.com/watch?v=7qgAaTMf_pc",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-09-20T08:33:19.242Z",
+      "startedAt": "2026-09-20T08:33:19.251Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
