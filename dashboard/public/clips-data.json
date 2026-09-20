@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T11:12:41.769Z",
+  "lastUpdated": "2026-09-20T11:31:50Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -197,7 +197,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -587,7 +587,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -617,7 +617,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -647,7 +647,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -667,7 +667,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -1087,7 +1087,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -1107,7 +1107,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -1127,7 +1127,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -1140,6 +1140,96 @@
       "title": "Talk Money On The Third Date: The Relationship Rule",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip10_A_specific_actionable_and_slightly_provo.jpg"
+    },
+    {
+      "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip01_Opens_with_a_bold_quotable_claim_that_ri.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "How to Feel Rich While Broke",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip01_Opens_with_a_bold_quotable_claim_that_ri.jpg"
+    },
+    {
+      "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip02_Raw_vulnerable_childhood_story_about_fee.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Everyone Had Rollerblades, I Didn't",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip02_Raw_vulnerable_childhood_story_about_fee.jpg"
+    },
+    {
+      "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip03_Shocking_quotable_contradiction__a_milli.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "A Millionaire Sleeping on Couches",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip03_Shocking_quotable_contradiction__a_milli.jpg"
+    },
+    {
+      "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip04_Surprising_deeply_personal_confession_ab.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T02:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "I Believed Good People Stay Poor",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip04_Surprising_deeply_personal_confession_ab.jpg"
+    },
+    {
+      "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip05_Tight_story_with_clear_payoff_showing_ho.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "She Got 3 Job Offers in Minutes",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip05_Tight_story_with_clear_payoff_showing_ho.jpg"
+    },
+    {
+      "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip06_Perfect_setup-and-payoff_story_almost_ig.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T05:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "A Dirty Penny Worth $4000",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip06_Perfect_setup-and-payoff_story_almost_ig.jpg"
+    },
+    {
+      "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip07_Provocative_thought_experiment_personify.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T06:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Would Money Want to Be Your Friend",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip07_Provocative_thought_experiment_personify.jpg"
+    },
+    {
+      "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip08_Sharp_quotable_line_the_speed_at_which_y.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T07:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Quick Money Always Disappears",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip08_Sharp_quotable_line_the_speed_at_which_y.jpg"
+    },
+    {
+      "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip09_Shocking_emotionally_heavy_true_story_th.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T08:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "A Billionaire Jumped From This Building",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip09_Shocking_emotionally_heavy_true_story_th.jpg"
     },
     {
       "filename": "MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip01_Scott_Galloway_delivers_a_sharp_quotable.mp4",
@@ -2287,7 +2377,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
