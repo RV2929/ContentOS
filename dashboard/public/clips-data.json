@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T09:53:28.763Z",
+  "lastUpdated": "2026-09-20T10:11:27Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -197,7 +197,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -587,7 +587,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -617,7 +617,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -647,7 +647,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -667,7 +667,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -1087,7 +1087,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -1107,7 +1107,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -1127,7 +1127,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -2207,7 +2207,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
@@ -2220,6 +2220,96 @@
       "title": "The Book-on-Head Learning Myth: Why Effort Is Non-Negotiable",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip05_A_genuinely_funny_anecdote_about_a_kid_t.jpg"
+    },
+    {
+      "filename": "World_Leading_Psychologist_How_To_Detach_clip01_A_sharp_relatable_insight_that_chasing_p.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Perfection Is Impossible: The Psychology of Instant Relief",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip01_A_sharp_relatable_insight_that_chasing_p.jpg"
+    },
+    {
+      "filename": "World_Leading_Psychologist_How_To_Detach_clip02_A_raw_emotional_confession_about_being_u.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "I Can't Stop Doing This: The Burden of Helping Others",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip02_A_raw_emotional_confession_about_being_u.jpg"
+    },
+    {
+      "filename": "World_Leading_Psychologist_How_To_Detach_clip03_A_counterintuitive_evolutionary_explanat.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Criticism Feels Like Rejection: An Evolutionary Truth",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip03_A_counterintuitive_evolutionary_explanat.jpg"
+    },
+    {
+      "filename": "World_Leading_Psychologist_How_To_Detach_clip04_A_stunning_tightly-told_personal_story_w.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T02:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "I Thought My Dad Was in Prison: How Childhood Shapes Love",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip04_A_stunning_tightly-told_personal_story_w.jpg"
+    },
+    {
+      "filename": "World_Leading_Psychologist_How_To_Detach_clip05_Raw_vulnerable_admission_that_a_baseless.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "A Fake Story Almost Cost Me My Girlfriend: Media Lies",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip05_Raw_vulnerable_admission_that_a_baseless.jpg"
+    },
+    {
+      "filename": "World_Leading_Psychologist_How_To_Detach_clip06_A_vivid_emotionally_honest_story_about_h.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T05:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "My Body Kept Score of My Stress: Hidden Signals Revealed",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip06_A_vivid_emotionally_honest_story_about_h.jpg"
+    },
+    {
+      "filename": "World_Leading_Psychologist_How_To_Detach_clip07_A_punchy_quotable_insight_that_instant-r.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T06:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Things That Help Are Hardest: Why Instant Relief Wins",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip07_A_punchy_quotable_insight_that_instant-r.jpg"
+    },
+    {
+      "filename": "World_Leading_Psychologist_How_To_Detach_clip08_A_memorable_balloon_analogy_explaining_t.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Confidence Can't Grow Without This: The Vulnerability Balloon",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip08_A_memorable_balloon_analogy_explaining_t.jpg"
+    },
+    {
+      "filename": "World_Leading_Psychologist_How_To_Detach_clip09_A_striking_provocative_reframe_using_the.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Death Makes Life More Precious: The Scarcity Reframe",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip09_A_striking_provocative_reframe_using_the.jpg"
     }
   ]
 }
