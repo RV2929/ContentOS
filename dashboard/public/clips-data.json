@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T13:24:25.046Z",
+  "lastUpdated": "2026-09-20T13:24:29.452Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -333,10 +333,10 @@
     },
     {
       "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip04_Strong_funny_opinions_on_sardines_tannic.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-20T13:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "BuRK2DyEkfg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Foods He Absolutely Cannot Stand",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip04_Strong_funny_opinions_on_sardines_tannic.jpg"
