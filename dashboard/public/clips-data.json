@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T15:48:21.447Z",
+  "lastUpdated": "2026-09-20T15:48:30.752Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -353,10 +353,10 @@
     },
     {
       "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip06_A_counterintuitive_claim_that_challenges.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-20T15:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "p7QEiQzuYsI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Exercise Does NOT Make You Smarter, Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip06_A_counterintuitive_claim_that_challenges.jpg"
@@ -2323,10 +2323,10 @@
     },
     {
       "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip06_A_raw_vulnerable_emotional_confession_fr.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-20T15:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "QAicQTJJloc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "At 50, I Finally Felt Real Peace",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip06_A_raw_vulnerable_emotional_confession_fr.jpg"
