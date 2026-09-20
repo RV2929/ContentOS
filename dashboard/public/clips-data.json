@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T10:12:00.549Z",
+  "lastUpdated": "2026-09-20T10:26:45Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -197,7 +197,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -587,7 +587,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -617,7 +617,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -647,7 +647,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -667,7 +667,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -1087,7 +1087,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -1107,7 +1107,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -1127,7 +1127,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -1240,6 +1240,86 @@
       "title": "My $500 Car vs a $150K Car",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip10_A_funny_relatable_true_story_about_a_mil.jpg"
+    },
+    {
+      "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip01_Counterintuitive_claim_that_concentrated.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why One AI Lab Scares Mark Zuckerberg More Than You'd Think",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip01_Counterintuitive_claim_that_concentrated.jpg"
+    },
+    {
+      "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip02_A_relatable_funny_mini-story_with_a_clea.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Mark Zuckerberg's AI Agent Makes Him Cake Pops. Here's What Happened.",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip02_A_relatable_funny_mini-story_with_a_clea.jpg"
+    },
+    {
+      "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip03_Genuine_humor_as_his_own_AI_agent_calls_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Zuckerberg's AI Roasts Him During MMA Training. He Loved It.",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip03_Genuine_humor_as_his_own_AI_agent_calls_.jpg"
+    },
+    {
+      "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip04_A_quick_quotable_anecdote_showing_a_tech.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T02:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "A Tech Skeptic Got Hooked on Zuckerberg's AI in One Day",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip04_A_quick_quotable_anecdote_showing_a_tech.jpg"
+    },
+    {
+      "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip05_A_surprising_high-trust_admission_that_M.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Meta Built Its AI So It Can't Even Spy on You. Here's Why.",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip05_A_surprising_high-trust_admission_that_M.jpg"
+    },
+    {
+      "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip06_A_sharp_quotable_analogy_comparing_AI_re.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T05:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Training AI is Like Parenting. Zuckerberg Explains the Hard Part.",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip06_A_sharp_quotable_analogy_comparing_AI_re.jpg"
+    },
+    {
+      "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip07_A_vivid_screenshot-worthy_thought_experi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T06:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "What If Everyone Had a Superintelligent Lawyer? Zuckerberg's Vision.",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip07_A_vivid_screenshot-worthy_thought_experi.jpg"
+    },
+    {
+      "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip08_Addresses_the_viral_spy_glasses_controve.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T07:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Meta's Smart Glasses Have a Secret Privacy Defense. Here's How It Works.",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip08_Addresses_the_viral_spy_glasses_controve.jpg"
     },
     {
       "filename": "Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip02_A_quotable_life_philosophy_paired_with_t.mp4",
@@ -2207,7 +2287,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
