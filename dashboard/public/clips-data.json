@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T11:35:34.073Z",
+  "lastUpdated": "2026-09-20T12:12:21.438Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -26,7 +26,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-20T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Kanye's Achievement Rant: Raw, Intense, and Unforgettable",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip03_A_raw_intense_highly_quotable_Kanye_West.jpg"
@@ -326,7 +326,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-20T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "His Strict Rules for the Perfect Cheeseburger",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip03_Hyper-specific_quotable_rant_about_burge.jpg"
@@ -2296,7 +2296,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-20T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "He Lives in an Art Gallery With an Octopus",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip03_Bizarre_funny_highly_personal_reveal_abo.jpg"
