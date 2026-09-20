@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T13:24:21.047Z",
+  "lastUpdated": "2026-09-20T13:24:25.046Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -2303,10 +2303,10 @@
     },
     {
       "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip04_A_relatable_quotable_breakdown_wired_but.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-20T13:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "XpV2PInPstQ",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Two Types of Burnout: Wired But Tired",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip04_A_relatable_quotable_breakdown_wired_but.jpg"
