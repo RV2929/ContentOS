@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T11:12:38.491Z",
+  "lastUpdated": "2026-09-20T11:12:41.769Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -2193,10 +2193,10 @@
     },
     {
       "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip02_A_live_interactive_demonstration_the_Gol.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-20T11:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "mypc4sT4_4A",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "What Are Thoughts, Really? The Golden Retriever Test",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip02_A_live_interactive_demonstration_the_Gol.jpg"
