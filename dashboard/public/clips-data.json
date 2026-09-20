@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T23:29:40.780Z",
+  "lastUpdated": "2026-09-20T23:29:44.164Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -45,8 +45,8 @@
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip05_A_devastating_true_story_about_Charlie_M.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-20T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Day Charlie Munger's Son Got Leukemia: A Wisdom Story",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip05_A_devastating_true_story_about_Charlie_M.jpg"
@@ -955,8 +955,8 @@
       "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip01_A_vivid_psychiatric-ward_story_with_a_su.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-20T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why the Man Kept Breaking Glass: Psychology's Hidden Logic",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip01_A_vivid_psychiatric-ward_story_with_a_su.jpg"
@@ -2395,8 +2395,8 @@
       "filename": "World_Leading_Psychologist_How_To_Detach_clip01_A_sharp_relatable_insight_that_chasing_p.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-20T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Perfection Is Impossible: The Psychology of Instant Relief",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip01_A_sharp_relatable_insight_that_chasing_p.jpg"
