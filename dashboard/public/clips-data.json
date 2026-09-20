@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T08:35:18.257Z",
+  "lastUpdated": "2026-09-20T08:51:16Z",
   "clips": [
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip01_A_vivid_counterintuitive_science_story_s.mp4",
@@ -117,7 +117,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -427,7 +427,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -457,7 +457,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -487,7 +487,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -507,7 +507,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -837,7 +837,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -857,7 +857,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -877,7 +877,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -1852,6 +1852,86 @@
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip08_Counterintuitive_math_showing_how_saving.jpg"
     },
     {
+      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip01_A_shocking_little-known_insight_that_slo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T09:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Casinos Copied Social Media's Addictive Algorithm",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip01_A_shocking_little-known_insight_that_slo.jpg"
+    },
+    {
+      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip02_A_live_interactive_demonstration_the_Gol.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T11:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "What Are Thoughts, Really? The Golden Retriever Test",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip02_A_live_interactive_demonstration_the_Gol.jpg"
+    },
+    {
+      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip03_Bizarre_funny_highly_personal_reveal_abo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T12:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "He Lives in an Art Gallery With an Octopus",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip03_Bizarre_funny_highly_personal_reveal_abo.jpg"
+    },
+    {
+      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip04_A_relatable_quotable_breakdown_wired_but.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T13:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Two Types of Burnout: Wired But Tired",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip04_A_relatable_quotable_breakdown_wired_but.jpg"
+    },
+    {
+      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip05_A_counterintuitive_heretical_claim_that_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T14:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Low-Carb Diets Are Secretly Destroying Your Sleep",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip05_A_counterintuitive_heretical_claim_that_.jpg"
+    },
+    {
+      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip06_A_raw_vulnerable_emotional_confession_fr.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T15:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "At 50, I Finally Felt Real Peace",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip06_A_raw_vulnerable_emotional_confession_fr.jpg"
+    },
+    {
+      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip07_A_dark_surprising_psychological_insight_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T17:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Gambling Addicts Aren't Chasing the Win",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip07_A_dark_surprising_psychological_insight_.jpg"
+    },
+    {
+      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip08_A_provocative_contrarian_warning_against.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-20T18:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Stop Taking High-Dose Melatonin Now",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip08_A_provocative_contrarian_warning_against.jpg"
+    },
+    {
       "filename": "The_Top_Study_Habits_to_Improve_Learning_clip01_Counterintuitive_research_finding_helpin.mp4",
       "status": "ready",
       "youtubeId": "",
@@ -1877,7 +1957,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
