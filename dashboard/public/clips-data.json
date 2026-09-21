@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T04:05:28.859Z",
+  "lastUpdated": "2026-09-21T05:09:17.794Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -1003,10 +1003,10 @@
     },
     {
       "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip06_A_sharp_quotable_takedown_of_a_billionai.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-21T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "zfK6bcB-E5w",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The $400 Million Man Who Lost Everything: Materialism Exposed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip06_A_sharp_quotable_takedown_of_a_billionai.jpg"
@@ -2446,7 +2446,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-21T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "My Body Kept Score of My Stress: Hidden Signals Revealed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip06_A_vivid_emotionally_honest_story_about_h.jpg"
