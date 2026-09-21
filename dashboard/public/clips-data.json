@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T18:12:50.426Z",
+  "lastUpdated": "2026-09-21T18:21:55Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -167,7 +167,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -280,16 +280,6 @@
       "title": "The Caffeine Trick That Stops Energy Crashes",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip02_Delivers_a_counterintuitive_actionable_i.jpg"
-    },
-    {
-      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip08_Fast-paced_rapid-fire_QA_format_keeps_en.mp4",
-      "status": "posted",
-      "youtubeId": "-nzeigOzhec",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Rapid Fire: Squat, Sleep or Cardio for Health",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip08_Fast-paced_rapid-fire_QA_format_keeps_en.jpg"
     },
     {
       "filename": "Andrew_Hubermans_Hack_To_Increase_Your_D_clip02_A_simple_relatable_daily_habit_reframed_.mp4",
@@ -442,6 +432,96 @@
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip07_A_perfect_closing_riff_that_lays_out_a_c.jpg"
     },
     {
+      "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip01_Ed_Sheeran_calls_out_Jordan_Belfort_as_h.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-23T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Ed Sheeran Names His Least Favorite Podcast Guest Ever",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip01_Ed_Sheeran_calls_out_Jordan_Belfort_as_h.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip02_A_genuinely_funny_relatable_story_about_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Ed Sheeran Fished for an Hour Without Bait",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip02_A_genuinely_funny_relatable_story_about_.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip03_A_rapid-fire_absurd_comedic_bit_about_ho.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Id Yell I Have a Meat Cleaver During Home Invasion",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip03_A_rapid-fire_absurd_comedic_bit_about_ho.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip04_A_high-stakes_dramatic_story_about_a_sta.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T02:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Stadium Stage Collapsed 20 Minutes Before Show",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip04_A_high-stakes_dramatic_story_about_a_sta.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip05_Surprising_raw_honesty_from_a_global_sup.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Ed Sheeran Opens Up About His Drug of Choice",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip05_Surprising_raw_honesty_from_a_global_sup.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip06_A_counterintuitive_insight_into_songwrit.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T05:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Shape of You Came From 4 Terrible Songs",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip06_A_counterintuitive_insight_into_songwrit.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip07_A_gripping_story_with_real_tension_and_s.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T06:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Toughest Gig of Ed Sheeran's Life",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip07_A_gripping_story_with_real_tension_and_s.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip08_A_vulnerable_emotional_confession_about_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T07:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Ed Sheeran Missed His Grandmother's Funeral",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip08_A_vulnerable_emotional_confession_about_.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip09_A_raw_intimate_moment_where_Ed_Sheeran_s.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T08:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Ed Sheeran Sings the Song He Wants at His Funeral",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip09_A_raw_intimate_moment_where_Ed_Sheeran_s.jpg"
+    },
+    {
       "filename": "Elicitation_CIAs_Technique_to_Make_Peopl_clip02_Creates_mystery_and_curiosity_around_a_r.mp4",
       "status": "posted",
       "youtubeId": "7c7UjoObtNE",
@@ -567,7 +647,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -597,7 +677,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -627,7 +707,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -647,7 +727,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -1207,7 +1287,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -1227,7 +1307,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -1247,7 +1327,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -2562,16 +2642,6 @@
       "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip02_A_live_interactive_demonstration_the_Gol.jpg"
     },
     {
-      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip08_A_provocative_contrarian_warning_against.mp4",
-      "status": "posted",
-      "youtubeId": "8jnJoOss72g",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Stop Taking High-Dose Melatonin Now",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip08_A_provocative_contrarian_warning_against.jpg"
-    },
-    {
       "filename": "The_Top_Study_Habits_to_Improve_Learning_clip01_Counterintuitive_research_finding_helpin.mp4",
       "status": "ready",
       "youtubeId": "",
@@ -2597,7 +2667,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
