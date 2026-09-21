@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T16:57:19.851Z",
+  "lastUpdated": "2026-09-21T17:00:38.184Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -280,16 +280,6 @@
       "title": "The Caffeine Trick That Stops Energy Crashes",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip02_Delivers_a_counterintuitive_actionable_i.jpg"
-    },
-    {
-      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip07_A_punchy_funny_screenshot-worthy_line_ab.mp4",
-      "status": "posted",
-      "youtubeId": "0cggAUbU87s",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Why Smart People Never Skip Leg Day",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip07_A_punchy_funny_screenshot-worthy_line_ab.jpg"
     },
     {
       "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip08_Fast-paced_rapid-fire_QA_format_keeps_en.mp4",
@@ -603,10 +593,10 @@
     },
     {
       "filename": "How_To_Improve_Dopamine_to_Feel_Motivati_clip01_Opens_with_a_bold_universal_claim_about_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-21T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "NtD46FxCr6k",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Your Dopamine Set Point Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_To_Improve_Dopamine_to_Feel_Motivati_clip01_Opens_with_a_bold_universal_claim_about_.jpg"
@@ -1063,10 +1053,10 @@
     },
     {
       "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip01_Opens_with_a_curious_hook_about_weed_the.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-21T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "0y8SxstmfY8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Zero Therapeutic Uses for Alcohol",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip01_Opens_with_a_curious_hook_about_weed_the.jpg"
@@ -2340,16 +2330,6 @@
       "title": "What Are Thoughts, Really? The Golden Retriever Test",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip02_A_live_interactive_demonstration_the_Gol.jpg"
-    },
-    {
-      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip07_A_dark_surprising_psychological_insight_.mp4",
-      "status": "posted",
-      "youtubeId": "mOXPhcaXssA",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Gambling Addicts Aren't Chasing the Win",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip07_A_dark_surprising_psychological_insight_.jpg"
     },
     {
       "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip08_A_provocative_contrarian_warning_against.mp4",
