@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T00:23:18.629Z",
+  "lastUpdated": "2026-09-21T00:40:45.163Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -55,8 +55,8 @@
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip06_Rick_Rubins_vivid_thought_experiment_abo.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-21T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The House on the Mountain: Rick Rubin's Authenticity Test",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip06_Rick_Rubins_vivid_thought_experiment_abo.jpg"
@@ -965,8 +965,8 @@
       "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip02_Raw_personal_vulnerability_as_Hollis_des.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-21T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "My Success Collapsed Into Depression: The Dark Side of Achievement",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip02_Raw_personal_vulnerability_as_Hollis_des.jpg"
@@ -2405,8 +2405,8 @@
       "filename": "World_Leading_Psychologist_How_To_Detach_clip02_A_raw_emotional_confession_about_being_u.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-21T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Can't Stop Doing This: The Burden of Helping Others",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip02_A_raw_emotional_confession_about_being_u.jpg"
