@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T21:48:46.144Z",
+  "lastUpdated": "2026-09-21T21:51:03Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -125,9 +125,9 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip01_A_bizarre_deadpan_hypothetical_about_Jas.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-09-27T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "If Aquaman Walked Out the Ocean Right Now",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip01_A_bizarre_deadpan_hypothetical_about_Jas.jpg"
     },
@@ -135,9 +135,9 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip02_A_tight_absurd_story_with_a_clear_setup_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-09-28T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "How Drake Got Called Jersey Drake Rogers",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip02_A_tight_absurd_story_with_a_clear_setup_.jpg"
     },
@@ -145,9 +145,9 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip03_A_raw_vulnerable_moment_where_Drake_admi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-09-28T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Does Drake Fear for His Mother's Safety",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip03_A_raw_vulnerable_moment_where_Drake_admi.jpg"
     },
@@ -155,9 +155,9 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip04_A_surprisingly_introspective_and_counter.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-09-28T02:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake on Planning His Own Graceful Exit",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip04_A_surprisingly_introspective_and_counter.jpg"
     },
@@ -165,9 +165,9 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip05_A_vulnerable_confession_where_Drake_reve.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-09-28T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Drake Regrets Naming Girls in Songs",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip05_A_vulnerable_confession_where_Drake_reve.jpg"
     },
@@ -175,9 +175,9 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip06_Drake_reveals_the_one_criticism_that_act.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-09-29T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The One Criticism That Actually Gets to Drake",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip06_Drake_reveals_the_one_criticism_that_act.jpg"
     },
@@ -185,11 +185,31 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip07_An_unexpected_hilarious_analogy_from_a_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": null,
-      "scheduleStatus": null,
-      "title": "",
+      "scheduledAt": "2026-09-29T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "A Therapist's Wild Big Tits Theory About Fame",
       "channel": "podcast",
-      "thumbnailPath": null
+      "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip07_An_unexpected_hilarious_analogy_from_a_t.jpg"
+    },
+    {
+      "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip08_A_funny_quotable_riff_where_Drake_says_h.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-29T02:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake's Real Answer on Aliens and the Unknown",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip08_A_funny_quotable_riff_where_Drake_says_h.jpg"
+    },
+    {
+      "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip09_A_wild_specific_personal_story_with_a_cl.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-29T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake Wore Prosthetics to Sneak Into Court",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip09_A_wild_specific_personal_story_with_a_cl.jpg"
     },
     {
       "filename": "Andrew_Huberman_Become_Mentally_Dangerou_clip02_Huberman_states_plainly_this_is_the_sing.mp4",
@@ -237,7 +257,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -787,7 +807,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-09-26T01:24:00+00:00",
       "scheduleStatus": "pending",
-      "title": "I'm Not a Piggy Bank — Why Ed Fought in Court",
+      "title": "I'm Not a Piggy Bank \u2014 Why Ed Fought in Court",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_No_Fluff_Interview_Overcoming_clip03_A_sharp_quotable_line_explaining_why_Ed_.jpg"
     },
@@ -1307,7 +1327,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -1337,7 +1357,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -1367,7 +1387,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -1387,7 +1407,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -1827,7 +1847,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-09-27T23:00:00+00:00",
       "scheduleStatus": "pending",
-      "title": "Dopamine Isn't About Reward — Here's What It Actually Does",
+      "title": "Dopamine Isn't About Reward \u2014 Here's What It Actually Does",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip01_Opens_with_a_bold_neuroscience_claim_and.jpg"
     },
@@ -1867,7 +1887,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-09-28T03:48:00+00:00",
       "scheduleStatus": "pending",
-      "title": "Addiction Narrows Your Pleasures — This Is the Alternative",
+      "title": "Addiction Narrows Your Pleasures \u2014 This Is the Alternative",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip05_Two_crisp_contrasting_definitions_of_add.jpg"
     },
@@ -1887,7 +1907,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-09-28T06:12:00+00:00",
       "scheduleStatus": "pending",
-      "title": "Ice Baths Spike Dopamine 250% — Here's Why Pain Works",
+      "title": "Ice Baths Spike Dopamine 250% \u2014 Here's Why Pain Works",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip07_A_surprising_science-backed_reveal_shock.jpg"
     },
@@ -2017,7 +2037,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -2037,7 +2057,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -2057,7 +2077,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -3487,7 +3507,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
