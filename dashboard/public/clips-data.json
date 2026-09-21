@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T19:08:29.245Z",
+  "lastUpdated": "2026-09-21T19:24:37.203Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -450,6 +450,86 @@
       "title": "You'd Blush If the Teacher Called on You, Ed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dear_Ed_Sheeran_clip09_A_playful_humanizing_insult_aimed_at_Ed_.jpg"
+    },
+    {
+      "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip01_A_personal_surprising_anecdote_that_sets.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip01_A_personal_surprising_anecdote_that_sets.jpg"
+    },
+    {
+      "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip02_A_blunt_quotable_hot_take_delivered_with.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip02_A_blunt_quotable_hot_take_delivered_with.jpg"
+    },
+    {
+      "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip03_A_sharp_nuanced_take_that_builds_to_a_hi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip03_A_sharp_nuanced_take_that_builds_to_a_hi.jpg"
+    },
+    {
+      "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip04_Hosts_mock_a_public_figures_confusing_st.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip04_Hosts_mock_a_public_figures_confusing_st.jpg"
+    },
+    {
+      "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip05_A_genuine_vulnerable_personal_story_show.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip05_A_genuine_vulnerable_personal_story_show.jpg"
+    },
+    {
+      "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip06_A_punchy_provocative_highly_quotable_lin.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip06_A_punchy_provocative_highly_quotable_lin.jpg"
+    },
+    {
+      "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip07_Raw_specific_family_history_story_about_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip07_Raw_specific_family_history_story_about_.jpg"
+    },
+    {
+      "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip08_A_tight_story_with_a_clear_setup_and_pay.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
     },
     {
       "filename": "ED_SHEERAN_Sundae_Conversation_with_Cale_clip01_An_escalating_awkward_word-association_g.mp4",
@@ -1026,7 +1106,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-21T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Dopamine Can Literally Run Out",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_To_Improve_Dopamine_to_Feel_Motivati_clip03_A_surprising_little-known_biological_fac.jpg"
@@ -1486,7 +1566,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-21T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Weed as a Rest Stop for Type A Personalities",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip03_A_relatable_quotable_insight_into_why_hi.jpg"
@@ -2466,7 +2546,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-21T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "We Broke the Record, Then Kept Going",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip02_A_tight_story_with_real_stakes_and_payof.jpg"
