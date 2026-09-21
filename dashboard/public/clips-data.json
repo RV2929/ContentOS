@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T17:00:44.912Z",
+  "lastUpdated": "2026-09-21T17:27:43Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -167,7 +167,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -497,7 +497,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -527,7 +527,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -557,7 +557,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -577,7 +577,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -1137,7 +1137,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -1157,7 +1157,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -1177,7 +1177,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -2042,6 +2042,106 @@
       "thumbnailPath": "/thumbnails/The_Man_That_Makes_Millionaires_How_To_T_clip08_A_provocative_unapologetic_take_on_hustl.jpg"
     },
     {
+      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip01_A_counterintuitive_quotable_framework_th.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T18:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Winning Isn't Enough Anymore",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip01_A_counterintuitive_quotable_framework_th.jpg"
+    },
+    {
+      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip02_A_tight_story_with_real_stakes_and_payof.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T19:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "We Broke the Record, Then Kept Going",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip02_A_tight_story_with_real_stakes_and_payof.jpg"
+    },
+    {
+      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip03_A_simple_screenshot-worthy_good_day_form.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T20:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "My Secret Formula for a Perfect Day",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip03_A_simple_screenshot-worthy_good_day_form.jpg"
+    },
+    {
+      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip04_A_sharp_counterintuitive_insight_that_AI.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T21:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "AI Is Making Entrepreneurs Dumber, Faster",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip04_A_sharp_counterintuitive_insight_that_AI.jpg"
+    },
+    {
+      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip05_A_surprising_highly_practical_explanatio.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Most Businesses Get Stuck at $1-3M",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip05_A_surprising_highly_practical_explanatio.jpg"
+    },
+    {
+      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip06_A_vivid_quotable_analogy_about_how_risk_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-23T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "A Billionaire Playing $10 Hands Loses Money",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip06_A_vivid_quotable_analogy_about_how_risk_.jpg"
+    },
+    {
+      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip07_A_vulnerable_personal_childhood_story_us.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-23T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Boogeyman in My Closet Taught Me Risk",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip07_A_vulnerable_personal_childhood_story_us.jpg"
+    },
+    {
+      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip08_A_genuinely_surprising_psychological_ins.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-23T02:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Fear Only Exists in the Vague",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip08_A_genuinely_surprising_psychological_ins.jpg"
+    },
+    {
+      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip09_A_clever_highly_shareable_analogy_explai.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-23T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Entrepreneurship Is Like a Video Game",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip09_A_clever_highly_shareable_analogy_explai.jpg"
+    },
+    {
+      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip10_A_simple_powerful_personal_risk-filter_t.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-23T05:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "What Will This Change About My Day",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip10_A_simple_powerful_personal_risk-filter_t.jpg"
+    },
+    {
       "filename": "The_New_Era_of_Social_Media_Has_Just_Beg_clip01_Opens_with_a_bold_reframing_of_social_me.mp4",
       "status": "ready",
       "youtubeId": "",
@@ -2367,7 +2467,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
