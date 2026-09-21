@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T00:40:45.163Z",
+  "lastUpdated": "2026-09-21T01:47:34.476Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -66,7 +66,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-21T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "5,126 Failed Prototypes: James Dyson's Decade of Pain",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip07_James_Dysons_staggering_failure_count_an.jpg"
@@ -976,7 +976,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-21T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "He Didn't Know He Was Alive: The Kierkegaard Wake-Up Call",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip03_A_striking_Kierkegaard_anecdote_paired_w.jpg"
@@ -2416,7 +2416,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-21T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Why Criticism Feels Like Rejection: An Evolutionary Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip03_A_counterintuitive_evolutionary_explanat.jpg"
