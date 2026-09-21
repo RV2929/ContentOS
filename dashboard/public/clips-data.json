@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T16:49:38.857Z",
+  "lastUpdated": "2026-09-21T16:56:43Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -167,7 +167,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -507,7 +507,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -537,7 +537,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -567,7 +567,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -587,7 +587,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -1062,12 +1062,92 @@
       "thumbnailPath": "/thumbnails/How_to_Unlock_Your_Flirting_Superpowers__clip05_Lands_a_genuinely_funny_scripted_flirt_l.jpg"
     },
     {
+      "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip01_Opens_with_a_curious_hook_about_weed_the.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T17:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Zero Therapeutic Uses for Alcohol",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip01_Opens_with_a_curious_hook_about_weed_the.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip02_A_counterintuitive_scientific_explanatio.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T18:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Cannabis Can Sharpen Your Focus",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip02_A_counterintuitive_scientific_explanatio.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip03_A_relatable_quotable_insight_into_why_hi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T19:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Weed as a Rest Stop for Type A Personalities",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip03_A_relatable_quotable_insight_into_why_hi.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip04_A_surprising_analogy_connecting_improvis.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T20:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Jiu Jitsu Is Like Jazz",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip04_A_surprising_analogy_connecting_improvis.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip05_Vivid_almost_sensory_storytelling_about_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-21T21:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Feeling Muscle Fibers Down to the Bone",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip05_Vivid_almost_sensory_storytelling_about_.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip06_A_surprising_testable_neuroscience_fact_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-22T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Count Your Heartbeat Without a Pulse",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip06_A_surprising_testable_neuroscience_fact_.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip07_Reveals_a_peer-reviewed_counterintuitive.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-23T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Science Behind Mind-Muscle Connection",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip07_Reveals_a_peer-reviewed_counterintuitive.jpg"
+    },
+    {
+      "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip08_A_little-known_insight_suggesting_watchi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-23T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Gym Mirrors Might Hurt Your Gains",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip08_A_little-known_insight_suggesting_watchi.jpg"
+    },
+    {
       "filename": "Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -1087,7 +1167,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -1107,7 +1187,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -2307,7 +2387,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
