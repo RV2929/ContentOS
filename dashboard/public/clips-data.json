@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T21:38:24.433Z",
+  "lastUpdated": "2026-09-21T21:48:35.674Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -120,6 +120,76 @@
       "title": "Even Neuroscientists Struggle With Their Phones",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip08_A_hilarious_self-deprecating_and_highly_.jpg"
+    },
+    {
+      "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip01_A_bizarre_deadpan_hypothetical_about_Jas.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip01_A_bizarre_deadpan_hypothetical_about_Jas.jpg"
+    },
+    {
+      "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip02_A_tight_absurd_story_with_a_clear_setup_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip02_A_tight_absurd_story_with_a_clear_setup_.jpg"
+    },
+    {
+      "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip03_A_raw_vulnerable_moment_where_Drake_admi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip03_A_raw_vulnerable_moment_where_Drake_admi.jpg"
+    },
+    {
+      "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip04_A_surprisingly_introspective_and_counter.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip04_A_surprisingly_introspective_and_counter.jpg"
+    },
+    {
+      "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip05_A_vulnerable_confession_where_Drake_reve.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip05_A_vulnerable_confession_where_Drake_reve.jpg"
+    },
+    {
+      "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip06_Drake_reveals_the_one_criticism_that_act.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip06_Drake_reveals_the_one_criticism_that_act.jpg"
+    },
+    {
+      "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip07_An_unexpected_hilarious_analogy_from_a_t.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
     },
     {
       "filename": "Andrew_Huberman_Become_Mentally_Dangerou_clip02_Huberman_states_plainly_this_is_the_sing.mp4",
@@ -1376,7 +1446,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-21T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "The Sinister Way Dopamine Drops",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_To_Improve_Dopamine_to_Feel_Motivati_clip05_Highly_quotable_and_emotionally_resonant.jpg"
@@ -1906,7 +1976,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-21T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Feeling Muscle Fibers Down to the Bone",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip05_Vivid_almost_sensory_storytelling_about_.jpg"
@@ -2976,7 +3046,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-21T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "AI Is Making Entrepreneurs Dumber, Faster",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip04_A_sharp_counterintuitive_insight_that_AI.jpg"
