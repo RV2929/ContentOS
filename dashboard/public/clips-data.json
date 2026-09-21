@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T18:22:54.650Z",
+  "lastUpdated": "2026-09-21T18:46:14Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -167,7 +167,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -632,6 +632,106 @@
       "thumbnailPath": "/thumbnails/Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip10_A_bold_controversial_claim_delivered_wit.jpg"
     },
     {
+      "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip01_A_rapid-fire_hook_montage_of_quotable_li.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-23T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "I Didn't Have a Plan B: Ed Sheeran on Perseverance",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip01_A_rapid-fire_hook_montage_of_quotable_li.jpg"
+    },
+    {
+      "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip02_A_colorful_celebrity-packed_backstage_an.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Freestyling Backstage With Skrillex and Jon Snow",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip02_A_colorful_celebrity-packed_backstage_an.jpg"
+    },
+    {
+      "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip03_A_counterintuitive_well-argued_claim_abo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why Paul McCartney Might Actually Beat John Lennon",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip03_A_counterintuitive_well-argued_claim_abo.jpg"
+    },
+    {
+      "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip04_A_blunt_raw_admission_from_a_global_supe.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T02:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Music Industry Is a Foul Place, Says Ed Sheeran",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip04_A_blunt_raw_admission_from_a_global_supe.jpg"
+    },
+    {
+      "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip05_Vulnerable_specific_storytelling_about_e.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Same Socks for a Week: Ed Sheeran's Struggle Years",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip05_Vulnerable_specific_storytelling_about_e.jpg"
+    },
+    {
+      "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip06_A_funny_self-deprecating_origin_story_ab.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T05:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Discovered by Jamie Foxx While Broke and Embarrassed",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip06_A_funny_self-deprecating_origin_story_ab.jpg"
+    },
+    {
+      "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip07_An_emotional_screenshot-worthy_gratitude.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T06:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Thank You on Behalf of All Songwriters: Ed's Emotional Moment",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip07_An_emotional_screenshot-worthy_gratitude.jpg"
+    },
+    {
+      "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip08_A_gut-wrenching_raw_disclosure_of_person.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T07:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Cancer, Death and a Lawsuit Collided in One Week",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip08_A_gut-wrenching_raw_disclosure_of_person.jpg"
+    },
+    {
+      "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip09_Surprising_humility_from_the_artist_behi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T08:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "I'll Never Top Shape of You, Ed Sheeran Admits",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip09_Surprising_humility_from_the_artist_behi.jpg"
+    },
+    {
+      "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip10_A_punchy_quotable_piece_of_creative_advi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-24T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Dare to Suck: Ed Sheeran's Advice for His Kids",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip10_A_punchy_quotable_piece_of_creative_advi.jpg"
+    },
+    {
       "filename": "How_Marijuana_Affects_the_Brain__Body__D_clip02_Directly_answers_a_widely_searched_quest.mp4",
       "status": "posted",
       "youtubeId": "Yeohxh6ybJU",
@@ -647,7 +747,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -677,7 +777,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -707,7 +807,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -727,7 +827,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -1287,7 +1387,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -1307,7 +1407,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -1327,7 +1427,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -2667,7 +2767,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
