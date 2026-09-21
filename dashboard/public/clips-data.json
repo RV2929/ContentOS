@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T02:39:23.365Z",
+  "lastUpdated": "2026-09-21T02:54:38.114Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
@@ -75,8 +75,8 @@
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip08_A_counterintuitive_claimthat_many_people.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-21T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "You're Not Famous Because You Can't Handle Success",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip08_A_counterintuitive_claimthat_many_people.jpg"
@@ -985,8 +985,8 @@
       "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip04_A_quotable_2000-year-old_line_reframes_j.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-21T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Nothing Human Is Alien to Me: Your Shadow Traits Revealed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip04_A_quotable_2000-year-old_line_reframes_j.jpg"
@@ -2425,8 +2425,8 @@
       "filename": "World_Leading_Psychologist_How_To_Detach_clip04_A_stunning_tightly-told_personal_story_w.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-21T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Thought My Dad Was in Prison: How Childhood Shapes Love",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip04_A_stunning_tightly-told_personal_story_w.jpg"
