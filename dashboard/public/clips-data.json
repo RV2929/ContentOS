@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T16:41:05.045Z",
+  "lastUpdated": "2026-09-21T16:41:15.096Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -600,6 +600,16 @@
       "title": "The Real Neuroscience Behind the Munchies",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip07_A_detailed_surprising_explanation_of_exa.jpg"
+    },
+    {
+      "filename": "How_To_Improve_Dopamine_to_Feel_Motivati_clip01_Opens_with_a_bold_universal_claim_about_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
     },
     {
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip01_Goggins_delivers_a_raw_vulnerable_confes.mp4",
