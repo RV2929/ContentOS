@@ -1962,6 +1962,19 @@
       "clipsCount": 0,
       "batchId": null,
       "error": "p.utils.DownloadError: ERROR: [youtube] D6EmhvQgBh4: Unable to download API page: HTTPSConnection(host='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not known) (caused by TransportError(\"HTTPSConnection(host='www.youtube.com', port=44"
+    },
+    {
+      "id": "mubgw8soevc8",
+      "url": "https://www.youtube.com/watch?v=lc0h3KaWhec",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-09-21T16:36:26.376Z",
+      "startedAt": "2026-09-21T16:36:26.382Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }

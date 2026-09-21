@@ -1,16 +1,6 @@
 {
-  "lastUpdated": "2026-09-21T08:37:05.623Z",
+  "lastUpdated": "2026-09-21T16:36:29.404Z",
   "clips": [
-    {
-      "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.mp4",
-      "status": "posted",
-      "youtubeId": "aQJl7ZTVHqc",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "I'm a Lazy Workaholic: Rick Rubin's Secret to Creative Genius",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip01_A_shocking_confession_from_music_legend_.jpg"
-    },
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
       "status": "posted",
@@ -20,26 +10,6 @@
       "title": "Homeless to Billionaire: The 17-Year-Old Who Slept in His Office",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.jpg"
-    },
-    {
-      "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip03_A_raw_intense_highly_quotable_Kanye_West.mp4",
-      "status": "posted",
-      "youtubeId": "OhLpGfZABUE",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Kanye's Achievement Rant: Raw, Intense, and Unforgettable",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip03_A_raw_intense_highly_quotable_Kanye_West.jpg"
-    },
-    {
-      "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip04_A_surprising_Michael_Jordan_quote_and_a_.mp4",
-      "status": "posted",
-      "youtubeId": "3X9ApleVA8Q",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Why Steve Jobs Fired His Own Board: A Michael Jordan Lesson",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip04_A_surprising_Michael_Jordan_quote_and_a_.jpg"
     },
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip05_A_devastating_true_story_about_Charlie_M.mp4",
@@ -302,16 +272,6 @@
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip09_A_surprising_practical_science_fact_abou.jpg"
     },
     {
-      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip01_A_funny_specific_college_nickname_story_.mp4",
-      "status": "posted",
-      "youtubeId": "OIpCdraQqMQ",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Why They Called Him Cucumber Boy in College",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip01_A_funny_specific_college_nickname_story_.jpg"
-    },
-    {
       "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip02_Delivers_a_counterintuitive_actionable_i.mp4",
       "status": "posted",
       "youtubeId": "OPJCw87nxec",
@@ -320,46 +280,6 @@
       "title": "The Caffeine Trick That Stops Energy Crashes",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip02_Delivers_a_counterintuitive_actionable_i.jpg"
-    },
-    {
-      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip03_Hyper-specific_quotable_rant_about_burge.mp4",
-      "status": "posted",
-      "youtubeId": "mZf6n8wVlN4",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "His Strict Rules for the Perfect Cheeseburger",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip03_Hyper-specific_quotable_rant_about_burge.jpg"
-    },
-    {
-      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip04_Strong_funny_opinions_on_sardines_tannic.mp4",
-      "status": "posted",
-      "youtubeId": "BuRK2DyEkfg",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Foods He Absolutely Cannot Stand",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip04_Strong_funny_opinions_on_sardines_tannic.jpg"
-    },
-    {
-      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip05_Reveals_a_specific_surprising_personal_h.mp4",
-      "status": "posted",
-      "youtubeId": "27okerxgwqs",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "His Personal Microdose TRT Protocol Revealed",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip05_Reveals_a_specific_surprising_personal_h.jpg"
-    },
-    {
-      "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip06_A_counterintuitive_claim_that_challenges.mp4",
-      "status": "posted",
-      "youtubeId": "p7QEiQzuYsI",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Exercise Does NOT Make You Smarter, Here's Why",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip06_A_counterintuitive_claim_that_challenges.jpg"
     },
     {
       "filename": "Andrew_Huberman_Shows_Off_His_Gym__Fridg_clip07_A_punchy_funny_screenshot-worthy_line_ab.mp4",
@@ -2272,16 +2192,6 @@
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip08_Counterintuitive_math_showing_how_saving.jpg"
     },
     {
-      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip01_A_shocking_little-known_insight_that_slo.mp4",
-      "status": "posted",
-      "youtubeId": "xIgD-Usax5w",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Casinos Copied Social Media's Addictive Algorithm",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip01_A_shocking_little-known_insight_that_slo.jpg"
-    },
-    {
       "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip02_A_live_interactive_demonstration_the_Gol.mp4",
       "status": "posted",
       "youtubeId": "mypc4sT4_4A",
@@ -2290,46 +2200,6 @@
       "title": "What Are Thoughts, Really? The Golden Retriever Test",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip02_A_live_interactive_demonstration_the_Gol.jpg"
-    },
-    {
-      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip03_Bizarre_funny_highly_personal_reveal_abo.mp4",
-      "status": "posted",
-      "youtubeId": "92m2TK5qdnk",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "He Lives in an Art Gallery With an Octopus",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip03_Bizarre_funny_highly_personal_reveal_abo.jpg"
-    },
-    {
-      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip04_A_relatable_quotable_breakdown_wired_but.mp4",
-      "status": "posted",
-      "youtubeId": "XpV2PInPstQ",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "The Two Types of Burnout: Wired But Tired",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip04_A_relatable_quotable_breakdown_wired_but.jpg"
-    },
-    {
-      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip05_A_counterintuitive_heretical_claim_that_.mp4",
-      "status": "posted",
-      "youtubeId": "se1rrEVCn0k",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Low-Carb Diets Are Secretly Destroying Your Sleep",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip05_A_counterintuitive_heretical_claim_that_.jpg"
-    },
-    {
-      "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip06_A_raw_vulnerable_emotional_confession_fr.mp4",
-      "status": "posted",
-      "youtubeId": "QAicQTJJloc",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "At 50, I Finally Felt Real Peace",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_Science_of_Rewiring_Your_Brain_for_a_clip06_A_raw_vulnerable_emotional_confession_fr.jpg"
     },
     {
       "filename": "The_Science_of_Rewiring_Your_Brain_for_a_clip07_A_dark_surprising_psychological_insight_.mp4",
