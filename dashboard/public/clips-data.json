@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T21:51:42.697Z",
+  "lastUpdated": "2026-09-21T23:28:58.996Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1475,8 +1475,8 @@
       "filename": "How_To_Improve_Dopamine_to_Feel_Motivati_clip06_An_uplifting_quotable_closing_statement_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-21T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Dopamine Is a Good Thing",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_To_Improve_Dopamine_to_Feel_Motivati_clip06_An_uplifting_quotable_closing_statement_.jpg"
@@ -2095,8 +2095,8 @@
       "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip01_Opens_with_a_bold_quotable_claim_that_ri.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-21T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "How to Feel Rich While Broke",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip01_Opens_with_a_bold_quotable_claim_that_ri.jpg"
@@ -2285,8 +2285,8 @@
       "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip01_Counterintuitive_claim_that_concentrated.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-21T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why One AI Lab Scares Mark Zuckerberg More Than You'd Think",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip01_Counterintuitive_claim_that_concentrated.jpg"
@@ -3695,8 +3695,8 @@
       "filename": "World_Leading_Psychologist_How_To_Detach_clip08_A_memorable_balloon_analogy_explaining_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-21T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Confidence Can't Grow Without This: The Vulnerability Balloon",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip08_A_memorable_balloon_analogy_explaining_t.jpg"
