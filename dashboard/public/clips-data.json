@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T20:07:44.690Z",
+  "lastUpdated": "2026-09-21T20:24:14Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -167,7 +167,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -627,7 +627,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-09-26T01:24:00+00:00",
       "scheduleStatus": "pending",
-      "title": "I'm Not a Piggy Bank — Why Ed Fought in Court",
+      "title": "I'm Not a Piggy Bank \u2014 Why Ed Fought in Court",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_No_Fluff_Interview_Overcoming_clip03_A_sharp_quotable_line_explaining_why_Ed_.jpg"
     },
@@ -740,6 +740,96 @@
       "title": "AI Billionaires Admit They're Just Creeps: The PR Conspiracy",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip07_A_perfect_closing_riff_that_lays_out_a_c.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip01_A_genuinely_funny_natural_mishearing_mom.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-26T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "BALSAMIC VINEGAR OR BALL SACK: The Funniest Mishearing",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip01_A_genuinely_funny_natural_mishearing_mom.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip02_A_sharp_funny_cultural_observation_from_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "British Guy Discovers American Chicken Wings Are on Steroids",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip02_A_sharp_funny_cultural_observation_from_.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip03_Counterintuitive_insight_about_fandom_ps.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Why People Either LOVE or HATE Ed Sheeran (The Real Reason)",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip03_Counterintuitive_insight_about_fandom_ps.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip04_A_heartfelt_story_about_preserving_both_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T02:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "He Built a Pub to Honor Both Moms' Maiden Names",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip04_A_heartfelt_story_about_preserving_both_.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip05_A_perfectly_structured_embarrassing_stor.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Caught NAKED in Hotel Hallway at 4AM by Security",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip05_A_perfectly_structured_embarrassing_stor.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip06_A_shocking_lyric_read_aloud_triggers_gen.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T05:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "EYEBROWS PLUCKED AND ASSHOLE BLEACHED: A Shocking Lyric",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip06_A_shocking_lyric_read_aloud_triggers_gen.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip07_An_inspiring_quotable_statement_about_ac.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T06:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "ANY KID CAN PICK UP A GUITAR: Ed's Legacy Statement",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip07_An_inspiring_quotable_statement_about_ac.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip08_A_powerful_quotable_piece_of_career_advi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T07:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "NEVER HAVE A PLAN B: Career Advice That Changed Everything",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip08_A_powerful_quotable_piece_of_career_advi.jpg"
+    },
+    {
+      "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip09_A_tight_story_with_a_painful_setup_and_a.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T08:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Friends Prank Called Him as a JOKE: Four Years Later...",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip09_A_tight_story_with_a_painful_setup_and_a.jpg"
     },
     {
       "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip01_Ed_Sheeran_calls_out_Jordan_Belfort_as_h.mp4",
@@ -1057,7 +1147,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -1087,7 +1177,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -1117,7 +1207,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -1137,7 +1227,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -1697,7 +1787,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -1717,7 +1807,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -1737,7 +1827,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -3167,7 +3257,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
