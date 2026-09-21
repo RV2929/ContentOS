@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T18:12:35.659Z",
+  "lastUpdated": "2026-09-21T18:12:40.293Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -673,10 +673,10 @@
     },
     {
       "filename": "How_To_Improve_Dopamine_to_Feel_Motivati_clip02_A_relatable_everyday_example_eating_choc.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-21T18:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "K1O6viSgozs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Chocolate Makes You Want More",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_To_Improve_Dopamine_to_Feel_Motivati_clip02_A_relatable_everyday_example_eating_choc.jpg"
