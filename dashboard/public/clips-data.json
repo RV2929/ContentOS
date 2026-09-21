@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T20:36:45.041Z",
+  "lastUpdated": "2026-09-21T20:53:09Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -167,7 +167,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -627,7 +627,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-09-26T01:24:00+00:00",
       "scheduleStatus": "pending",
-      "title": "I'm Not a Piggy Bank — Why Ed Fought in Court",
+      "title": "I'm Not a Piggy Bank \u2014 Why Ed Fought in Court",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_No_Fluff_Interview_Overcoming_clip03_A_sharp_quotable_line_explaining_why_Ed_.jpg"
     },
@@ -1147,7 +1147,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -1177,7 +1177,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -1207,7 +1207,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -1227,7 +1227,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -1787,7 +1787,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -1807,7 +1807,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -1827,7 +1827,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -3257,7 +3257,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
@@ -3270,6 +3270,106 @@
       "title": "The Book-on-Head Learning Myth: Why Effort Is Non-Negotiable",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip05_A_genuinely_funny_anecdote_about_a_kid_t.jpg"
+    },
+    {
+      "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip01_Tim_reveals_a_shocking_personal_experime.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-26T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "One Day Cured His Anxiety: The Shocking Treatment",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip01_Tim_reveals_a_shocking_personal_experime.jpg"
+    },
+    {
+      "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip02_A_vivid_almost_unbelievable_story_of_an_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Ketone Shot Like Stage Magic: Memory Restored Instantly",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip02_A_vivid_almost_unbelievable_story_of_an_.jpg"
+    },
+    {
+      "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip03_A_relatable_surprising_personal_story_sh.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Vitamin D Was the Real Problem: Not What You Think",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip03_A_relatable_surprising_personal_story_sh.jpg"
+    },
+    {
+      "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip04_A_jaw-dropping_little-known_scientific_c.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T02:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "This Drug Reversed Brain Age in Trauma Survivors",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip04_A_jaw-dropping_little-known_scientific_c.jpg"
+    },
+    {
+      "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip05_A_funny_painfully_relatable_story_about_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "He Quit Social Media, Then Got Dragged Back In",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip05_A_funny_painfully_relatable_story_about_.jpg"
+    },
+    {
+      "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip06_A_punchy_quotable_framework_for_living__.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T05:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Avoid the Simmering Six: On or Off, Never In-Between",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip06_A_punchy_quotable_framework_for_living__.jpg"
+    },
+    {
+      "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip07_An_extremely_provocative_screenshot-wort.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T06:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Two Weeks Beats 10 Years of Therapy, Says Ferriss",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip07_An_extremely_provocative_screenshot-wort.jpg"
+    },
+    {
+      "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip08_A_sharp_memorable_metaphor_for_productiv.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T07:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Are You Hunting Antelope or Mice: Focus Redefined",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip08_A_sharp_memorable_metaphor_for_productiv.jpg"
+    },
+    {
+      "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip09_Tim_answers_directly_what_made_him_the_m.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T08:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "The Advice That Made Him Rich: The Strategy",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip09_Tim_answers_directly_what_made_him_the_m.jpg"
+    },
+    {
+      "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip10_A_counterintuitive_insight_into_what_tru.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-27T09:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "What Top 1% Secretly Obsess Over: Attention Control",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip10_A_counterintuitive_insight_into_what_tru.jpg"
     },
     {
       "filename": "World_Leading_Psychologist_How_To_Detach_clip01_A_sharp_relatable_insight_that_chasing_p.mp4",
