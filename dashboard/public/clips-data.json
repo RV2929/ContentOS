@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T21:48:35.674Z",
+  "lastUpdated": "2026-09-21T21:48:46.144Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1443,10 +1443,10 @@
     },
     {
       "filename": "How_To_Improve_Dopamine_to_Feel_Motivati_clip05_Highly_quotable_and_emotionally_resonant.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-21T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "8V1eAg7nXrA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Sinister Way Dopamine Drops",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_To_Improve_Dopamine_to_Feel_Motivati_clip05_Highly_quotable_and_emotionally_resonant.jpg"
@@ -1973,10 +1973,10 @@
     },
     {
       "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip05_Vivid_almost_sensory_storytelling_about_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-21T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "9soRgKAd_lg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Feeling Muscle Fibers Down to the Bone",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip05_Vivid_almost_sensory_storytelling_about_.jpg"
@@ -3043,10 +3043,10 @@
     },
     {
       "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip04_A_sharp_counterintuitive_insight_that_AI.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-21T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "ScNkimaTjS8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "AI Is Making Entrepreneurs Dumber, Faster",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip04_A_sharp_counterintuitive_insight_that_AI.jpg"
