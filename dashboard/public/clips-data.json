@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T18:08:59.694Z",
+  "lastUpdated": "2026-09-22T18:12:30.440Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2913,10 +2913,10 @@
     },
     {
       "filename": "Rap_Radar_Drake_clip10_A_raw_emotional_closing_reflection_on_su.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-22T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "j71Bn9xnBow",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "My Biggest Win: Simply Staying Alive Through the Fame",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip10_A_raw_emotional_closing_reflection_on_su.jpg"
