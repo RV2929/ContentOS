@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T08:02:12.180Z",
+  "lastUpdated": "2026-09-22T08:22:41Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -257,7 +257,7 @@
       "youtubeId": "7CYhLDxRy5A",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Forget Flow State—Learn the Clutch State Instead",
+      "title": "Forget Flow State\u2014Learn the Clutch State Instead",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip06_Introduces_a_brand-new_rarely-discussed_.jpg"
     },
@@ -540,6 +540,106 @@
       "title": "Don't Wear Reactions Like a Romper | Internet Advice",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip09_A_genuinely_insightful_piece_of_advice_a.jpg"
+    },
+    {
+      "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip01_A_cute_funny_exchange_where_Drakes_young.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-28T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake's Son Reveals His Secret Fight Move Against Bullies",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip01_A_cute_funny_exchange_where_Drakes_young.jpg"
+    },
+    {
+      "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip02_The_kids_deadpan_admission_he_cant_read_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-29T00:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake's Kid Admits He Can't Read and Roasts His Dad",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip02_The_kids_deadpan_admission_he_cant_read_.jpg"
+    },
+    {
+      "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip03_Playful_quotable_banter_about_flying_bea.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-29T01:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake Brags About Toronto Girls and Private Plane Perks",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip03_Playful_quotable_banter_about_flying_bea.jpg"
+    },
+    {
+      "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip04_A_cheeky_innuendo-laced_exchange_about_u.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-29T02:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake Explains How He Travels Heavy With Awkward Details",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip04_A_cheeky_innuendo-laced_exchange_about_u.jpg"
+    },
+    {
+      "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip05_A_wildly_quotable_absurd_claim_about_a_d.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-29T03:48:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake's Necklace For Every Boob Thought Theory Explained",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip05_A_wildly_quotable_absurd_claim_about_a_d.jpg"
+    },
+    {
+      "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip06_A_provocative_real-time_debate_about_cal.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-29T05:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake and Caleb Debate What to Call Women Candidly",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip06_A_provocative_real-time_debate_about_cal.jpg"
+    },
+    {
+      "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip07_A_shockingly_blunt_provocative_joke_abou.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-29T06:12:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake's Outrageous Take on Why Girls Don't Adopt",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip07_A_shockingly_blunt_provocative_joke_abou.jpg"
+    },
+    {
+      "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip08_A_drunk_escalating_argument_over_a_bizar.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-29T07:24:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake and Caleb Fight Over Dan Aykroyd Inventing Patron",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip08_A_drunk_escalating_argument_over_a_bizar.jpg"
+    },
+    {
+      "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip09_An_increasingly_absurd_name_that_feeling.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-29T08:36:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake Plays Name That Feeling and Gets Extremely Explicit",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip09_An_increasingly_absurd_name_that_feeling.jpg"
+    },
+    {
+      "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip10_A_surprisingly_heartfelt_yet_comedic_tan.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": "2026-09-29T23:00:00+00:00",
+      "scheduleStatus": "pending",
+      "title": "Drake's Life Lesson: Always Bet on Fatherhood Over Gambling",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip10_A_surprisingly_heartfelt_yet_comedic_tan.jpg"
     },
     {
       "filename": "Dear_Ed_Sheeran_clip01_A_direct_repeated_demand_aimed_at_a_glob.mp4",
@@ -897,7 +997,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-09-26T01:24:00+00:00",
       "scheduleStatus": "pending",
-      "title": "I'm Not a Piggy Bank — Why Ed Fought in Court",
+      "title": "I'm Not a Piggy Bank \u2014 Why Ed Fought in Court",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_No_Fluff_Interview_Overcoming_clip03_A_sharp_quotable_line_explaining_why_Ed_.jpg"
     },
@@ -1417,7 +1517,7 @@
       "youtubeId": "CqlIzNKSF-M",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "THC Stays in Your Body for 80 Days—Science Explains",
+      "title": "THC Stays in Your Body for 80 Days\u2014Science Explains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip02_Little-known_shareable_claim_that_THC_li.jpg"
     },
@@ -1447,7 +1547,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
+      "title": "Smoking More Weed Won't Stop Paranoia\u2014Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
     },
@@ -1477,7 +1577,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Science Can't Predict Your Cannabis High—Yet",
+      "title": "Science Can't Predict Your Cannabis High\u2014Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
     },
@@ -1497,7 +1597,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
+      "title": "Why Weed Makes You Crave Pizza\u2014Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
     },
@@ -1937,7 +2037,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-09-27T23:00:00+00:00",
       "scheduleStatus": "pending",
-      "title": "Dopamine Isn't About Reward — Here's What It Actually Does",
+      "title": "Dopamine Isn't About Reward \u2014 Here's What It Actually Does",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip01_Opens_with_a_bold_neuroscience_claim_and.jpg"
     },
@@ -1977,7 +2077,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-09-28T03:48:00+00:00",
       "scheduleStatus": "pending",
-      "title": "Addiction Narrows Your Pleasures — This Is the Alternative",
+      "title": "Addiction Narrows Your Pleasures \u2014 This Is the Alternative",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip05_Two_crisp_contrasting_definitions_of_add.jpg"
     },
@@ -1997,7 +2097,7 @@
       "youtubeId": "",
       "scheduledAt": "2026-09-28T06:12:00+00:00",
       "scheduleStatus": "pending",
-      "title": "Ice Baths Spike Dopamine 250% — Here's Why Pain Works",
+      "title": "Ice Baths Spike Dopamine 250% \u2014 Here's Why Pain Works",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip07_A_surprising_science-backed_reveal_shock.jpg"
     },
@@ -2127,7 +2227,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
+      "title": "Steve Jobs: Shut Up And Execute\u2014Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
     },
@@ -2147,7 +2247,7 @@
       "youtubeId": "",
       "scheduledAt": null,
       "scheduleStatus": "failed",
-      "title": "I Know You're A Winner Before You Speak—Here's How",
+      "title": "I Know You're A Winner Before You Speak\u2014Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
     },
@@ -2167,7 +2267,7 @@
       "youtubeId": "Gf1rLxUAPHw",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Billionaire Was Bleeding Millions Weekly—Didn't Even Know",
+      "title": "Billionaire Was Bleeding Millions Weekly\u2014Didn't Even Know",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip07_A_jaw-dropping_story_of_a_billionaire_cl.jpg"
     },
@@ -3697,7 +3797,7 @@
       "youtubeId": "tFazccPGqO8",
       "scheduledAt": null,
       "scheduleStatus": "done",
-      "title": "Your Brain's Attention Has a Limited Budget—Here's How to Spend It",
+      "title": "Your Brain's Attention Has a Limited Budget\u2014Here's How to Spend It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip03_Surprising_neuroscience_insight_that_foc.jpg"
     },
