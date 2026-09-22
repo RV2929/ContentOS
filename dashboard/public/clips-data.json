@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T00:42:00.407Z",
+  "lastUpdated": "2026-09-22T02:04:13.803Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2115,8 +2115,8 @@
       "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip03_Shocking_quotable_contradiction__a_milli.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-22T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "A Millionaire Sleeping on Couches",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip03_Shocking_quotable_contradiction__a_milli.jpg"
@@ -2305,8 +2305,8 @@
       "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip03_Genuine_humor_as_his_own_AI_agent_calls_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-22T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Zuckerberg's AI Roasts Him During MMA Training. He Loved It.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip03_Genuine_humor_as_his_own_AI_agent_calls_.jpg"
