@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T23:20:24.596Z",
+  "lastUpdated": "2026-09-22T23:20:29.426Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1115,8 +1115,8 @@
       "filename": "Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip01_A_juicy_real-world_story_with_stakes_bil.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-22T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ed Sheeran's Band Walks Out: Inside the Billionaire Meltdown",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip01_A_juicy_real-world_story_with_stakes_bil.jpg"
@@ -2155,8 +2155,8 @@
       "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip06_A_surprising_testable_neuroscience_fact_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-22T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Count Your Heartbeat Without a Pulse",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip06_A_surprising_testable_neuroscience_fact_.jpg"
@@ -3285,8 +3285,8 @@
       "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip05_A_surprising_highly_practical_explanatio.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-22T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Most Businesses Get Stuck at $1-3M",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip05_A_surprising_highly_practical_explanatio.jpg"
@@ -3625,8 +3625,8 @@
       "filename": "The_Real_Secret_to_Having_Aura_Science-B_clip01_A_relatable_heartwarming_story_where_the.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-22T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "My 8-Year-Old Named the Charismatic Kids",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip01_A_relatable_heartwarming_story_where_the.jpg"
