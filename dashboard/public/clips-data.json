@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T07:24:40.043Z",
+  "lastUpdated": "2026-09-22T07:24:43.086Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2593,10 +2593,10 @@
     },
     {
       "filename": "Rap_Radar_Drake_clip01_A_jaw-dropping_quotable_stat_400_weeks_i.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-22T07:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "kgqp0fjhUP0",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Drake's 400+ Weeks in Top 10: A Decade of Pure Dominance",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip01_A_jaw-dropping_quotable_stat_400_weeks_i.jpg"
