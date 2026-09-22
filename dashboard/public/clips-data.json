@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T09:56:42.757Z",
+  "lastUpdated": "2026-09-22T11:02:46.191Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -903,10 +903,10 @@
     },
     {
       "filename": "Drake_and_Bobbi__FULL_INTERVIEW_clip03_A_surprising_celebrity_connection_reveal.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-22T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "D9j4ssx7Sjc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "SNOOP DOGG IS MY UNCLE",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_and_Bobbi__FULL_INTERVIEW_clip03_A_surprising_celebrity_connection_reveal.jpg"
@@ -2873,10 +2873,10 @@
     },
     {
       "filename": "Rap_Radar_Drake_clip04_A_heartfelt_almost_unbelievable_story_of.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-22T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "A_7Y4ROgss4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Young Drake Manifested His Mansion Into Reality",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip04_A_heartfelt_almost_unbelievable_story_of.jpg"
