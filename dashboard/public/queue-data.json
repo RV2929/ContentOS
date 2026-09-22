@@ -2149,13 +2149,13 @@
       "id": "mubh44ys2bsf",
       "url": "https://www.youtube.com/watch?v=mmsasEoupO4",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-09-21T16:42:34.660Z",
       "startedAt": "2026-09-21T21:51:10.217Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-09-22T06:21:07.261Z",
+      "clipsCount": 10,
+      "batchId": "Rap_Radar_Drake",
       "error": null
     },
     {
