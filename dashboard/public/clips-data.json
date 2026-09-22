@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T18:28:01.106Z",
+  "lastUpdated": "2026-09-22T23:20:24.596Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1116,7 +1116,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-22T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Ed Sheeran's Band Walks Out: Inside the Billionaire Meltdown",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip01_A_juicy_real-world_story_with_stakes_bil.jpg"
@@ -1682,36 +1682,6 @@
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip07_A_detailed_surprising_explanation_of_exa.jpg"
     },
     {
-      "filename": "How_To_Improve_Dopamine_to_Feel_Motivati_clip03_A_surprising_little-known_biological_fac.mp4",
-      "status": "posted",
-      "youtubeId": "zk218GIxfro",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Dopamine Can Literally Run Out",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/How_To_Improve_Dopamine_to_Feel_Motivati_clip03_A_surprising_little-known_biological_fac.jpg"
-    },
-    {
-      "filename": "How_To_Improve_Dopamine_to_Feel_Motivati_clip04_A_relatable_story_with_clear_stakes_abou.mp4",
-      "status": "posted",
-      "youtubeId": "0kccQKvHyeU",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "The Work Hard Play Hard Trap",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/How_To_Improve_Dopamine_to_Feel_Motivati_clip04_A_relatable_story_with_clear_stakes_abou.jpg"
-    },
-    {
-      "filename": "How_To_Improve_Dopamine_to_Feel_Motivati_clip05_Highly_quotable_and_emotionally_resonant.mp4",
-      "status": "posted",
-      "youtubeId": "8V1eAg7nXrA",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "The Sinister Way Dopamine Drops",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/How_To_Improve_Dopamine_to_Feel_Motivati_clip05_Highly_quotable_and_emotionally_resonant.jpg"
-    },
-    {
       "filename": "How_To_Improve_Dopamine_to_Feel_Motivati_clip06_An_uplifting_quotable_closing_statement_.mp4",
       "status": "ready",
       "youtubeId": "",
@@ -2182,41 +2152,11 @@
       "thumbnailPath": "/thumbnails/How_to_Unlock_Your_Flirting_Superpowers__clip05_Lands_a_genuinely_funny_scripted_flirt_l.jpg"
     },
     {
-      "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip03_A_relatable_quotable_insight_into_why_hi.mp4",
-      "status": "posted",
-      "youtubeId": "KVkrixkGgmI",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Weed as a Rest Stop for Type A Personalities",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip03_A_relatable_quotable_insight_into_why_hi.jpg"
-    },
-    {
-      "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip04_A_surprising_analogy_connecting_improvis.mp4",
-      "status": "posted",
-      "youtubeId": "JFDbzEVR1wY",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Why Jiu Jitsu Is Like Jazz",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip04_A_surprising_analogy_connecting_improvis.jpg"
-    },
-    {
-      "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip05_Vivid_almost_sensory_storytelling_about_.mp4",
-      "status": "posted",
-      "youtubeId": "9soRgKAd_lg",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Feeling Muscle Fibers Down to the Bone",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip05_Vivid_almost_sensory_storytelling_about_.jpg"
-    },
-    {
       "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip06_A_surprising_testable_neuroscience_fact_.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-22T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Count Your Heartbeat Without a Pulse",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip06_A_surprising_testable_neuroscience_fact_.jpg"
@@ -3342,41 +3282,11 @@
       "thumbnailPath": "/thumbnails/The_Man_That_Makes_Millionaires_How_To_T_clip08_A_provocative_unapologetic_take_on_hustl.jpg"
     },
     {
-      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip02_A_tight_story_with_real_stakes_and_payof.mp4",
-      "status": "posted",
-      "youtubeId": "lDRWxB_tVUM",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "We Broke the Record, Then Kept Going",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip02_A_tight_story_with_real_stakes_and_payof.jpg"
-    },
-    {
-      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip03_A_simple_screenshot-worthy_good_day_form.mp4",
-      "status": "posted",
-      "youtubeId": "MgRMNN8WOx8",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "My Secret Formula for a Perfect Day",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip03_A_simple_screenshot-worthy_good_day_form.jpg"
-    },
-    {
-      "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip04_A_sharp_counterintuitive_insight_that_AI.mp4",
-      "status": "posted",
-      "youtubeId": "ScNkimaTjS8",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "AI Is Making Entrepreneurs Dumber, Faster",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip04_A_sharp_counterintuitive_insight_that_AI.jpg"
-    },
-    {
       "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip05_A_surprising_highly_practical_explanatio.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-22T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Why Most Businesses Get Stuck at $1-3M",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip05_A_surprising_highly_practical_explanatio.jpg"
@@ -3716,7 +3626,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-22T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "My 8-Year-Old Named the Charismatic Kids",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip01_A_relatable_heartwarming_story_where_the.jpg"
