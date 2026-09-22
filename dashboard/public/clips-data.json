@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T11:02:46.191Z",
+  "lastUpdated": "2026-09-22T12:14:44.352Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2883,10 +2883,10 @@
     },
     {
       "filename": "Rap_Radar_Drake_clip05_A_tight_story_with_real_stakes_a_throwaw.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-22T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "N4MpxcS_oxg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "God's Plan Was Almost Given Away: Inside the Leak",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip05_A_tight_story_with_real_stakes_a_throwaw.jpg"
