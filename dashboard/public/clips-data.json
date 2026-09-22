@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T04:45:52.078Z",
+  "lastUpdated": "2026-09-22T05:05:36.389Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2146,7 +2146,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-22T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "A Dirty Penny Worth $4000",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip06_Perfect_setup-and-payoff_story_almost_ig.jpg"
@@ -2333,10 +2333,10 @@
     },
     {
       "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip06_A_sharp_quotable_analogy_comparing_AI_re.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-22T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "a1A_dnXJz-8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Training AI is Like Parenting. Zuckerberg Explains the Hard Part.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip06_A_sharp_quotable_analogy_comparing_AI_re.jpg"
