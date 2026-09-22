@@ -2188,13 +2188,13 @@
       "id": "mubh4nz19ka6",
       "url": "https://www.youtube.com/watch?v=DN8qjUdZeyM",
       "title": "",
-      "status": "generating_clips",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-09-21T16:42:59.293Z",
       "startedAt": "2026-09-22T08:22:49.827Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-09-22T09:01:46.579Z",
+      "clipsCount": 7,
+      "batchId": "Drake_Answers_the_Worlds_Most_Asked_Ques",
       "error": null
     }
   ]
