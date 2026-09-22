@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T05:13:42.011Z",
+  "lastUpdated": "2026-09-22T06:20:33.737Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2153,10 +2153,10 @@
     },
     {
       "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip07_Provocative_thought_experiment_personify.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-22T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "OKyqhIIbA_8",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Would Money Want to Be Your Friend",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip07_Provocative_thought_experiment_personify.jpg"
@@ -2343,10 +2343,10 @@
     },
     {
       "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip07_A_vivid_screenshot-worthy_thought_experi.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-22T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "jSorhC-ofYY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "What If Everyone Had a Superintelligent Lawyer? Zuckerberg's Vision.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip07_A_vivid_screenshot-worthy_thought_experi.jpg"
@@ -2590,6 +2590,106 @@
       "title": "Why Endless Scrolling Leaves You More Lonely",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neuroscientists_Guide_To_10X_Your_Focus__clip03_A_vivid_relatable_analogy_explaining_why.jpg"
+    },
+    {
+      "filename": "Rap_Radar_Drake_clip01_A_jaw-dropping_quotable_stat_400_weeks_i.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip01_A_jaw-dropping_quotable_stat_400_weeks_i.jpg"
+    },
+    {
+      "filename": "Rap_Radar_Drake_clip02_Drake_delivers_a_piece_of_timeless_quota.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip02_Drake_delivers_a_piece_of_timeless_quota.jpg"
+    },
+    {
+      "filename": "Rap_Radar_Drake_clip03_A_surprising_vivid_celebrity_cameo_story.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip03_A_surprising_vivid_celebrity_cameo_story.jpg"
+    },
+    {
+      "filename": "Rap_Radar_Drake_clip04_A_heartfelt_almost_unbelievable_story_of.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip04_A_heartfelt_almost_unbelievable_story_of.jpg"
+    },
+    {
+      "filename": "Rap_Radar_Drake_clip05_A_tight_story_with_real_stakes_a_throwaw.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip05_A_tight_story_with_real_stakes_a_throwaw.jpg"
+    },
+    {
+      "filename": "Rap_Radar_Drake_clip06_An_unexpected_little-known_origin_story_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip06_An_unexpected_little-known_origin_story_.jpg"
+    },
+    {
+      "filename": "Rap_Radar_Drake_clip07_Raw_vulnerable_admission_of_losing_a_rap.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip07_Raw_vulnerable_admission_of_losing_a_rap.jpg"
+    },
+    {
+      "filename": "Rap_Radar_Drake_clip08_A_shocking_funny_and_vulnerable_reveal_t.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip08_A_shocking_funny_and_vulnerable_reveal_t.jpg"
+    },
+    {
+      "filename": "Rap_Radar_Drake_clip09_A_humbling_self-deprecating_and_funny_st.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip09_A_humbling_self-deprecating_and_funny_st.jpg"
+    },
+    {
+      "filename": "Rap_Radar_Drake_clip10_A_raw_emotional_closing_reflection_on_su.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
     },
     {
       "filename": "Sam_Altman_on_Astra_AGI_and_the_future_o_clip01_Sam_Altman_describes_the_Hugging_Face_in.mp4",
