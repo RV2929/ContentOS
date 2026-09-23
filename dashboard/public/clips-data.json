@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:22:44.009Z",
+  "lastUpdated": "2026-09-23T16:22:56.027Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -403,10 +403,10 @@
     },
     {
       "filename": "Andrew_Hubermans_Hack_To_Increase_Your_D_clip05_A_provocative_reframe_of_why_uncertainty.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "0XYCQBqrQiE",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Living In The Gray Is The Adventure: Embrace Nuance",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip05_A_provocative_reframe_of_why_uncertainty.jpg"
@@ -1636,7 +1636,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "Science Can't Predict Your Cannabis High—Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
@@ -2903,10 +2903,10 @@
     },
     {
       "filename": "The_Easy_Habit_That_Sets_Your_Mood_For_T_clip05_A_quotable_personal_rulejudging_pleasure.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "h7dpofHDzS0",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Judge Pleasure by How You Feel After",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Easy_Habit_That_Sets_Your_Mood_For_T_clip05_A_quotable_personal_rulejudging_pleasure.jpg"
@@ -3076,7 +3076,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "My Mom Chased Me With a Knife",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip03_Raw_vulnerable_disclosure_about_childhoo.jpg"
