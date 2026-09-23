@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:21:06.114Z",
+  "lastUpdated": "2026-09-23T16:21:12.503Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -16,7 +16,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "The Day Charlie Munger's Son Got Leukemia: A Wisdom Story",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip05_A_devastating_true_story_about_Charlie_M.jpg"
@@ -2473,10 +2473,10 @@
     },
     {
       "filename": "Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip02_A_quotable_life_philosophy_paired_with_t.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "ZE1yHxHNM3Y",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "If You Love It, You Never Work Again",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip02_A_quotable_life_philosophy_paired_with_t.jpg"
