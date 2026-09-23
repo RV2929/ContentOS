@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:23:20.157Z",
+  "lastUpdated": "2026-09-23T16:23:31.802Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -423,10 +423,10 @@
     },
     {
       "filename": "Andrew_Hubermans_Hack_To_Increase_Your_D_clip07_A_counterintuitive_highly_practical_prot.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "ZOcnvi_6FS0",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Count The Walls In A Cold Plunge: A Mental Skill",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip07_A_counterintuitive_highly_practical_prot.jpg"
@@ -1903,10 +1903,10 @@
     },
     {
       "filename": "How_to_Eliminate_Self-Doubt_Forever__Bui_clip05_A_surprising_statistic_paired_with_a_ref.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "AtldPwSMRYI",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "82% of People Feel Like Imposters (Here's Why That's Good)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip05_A_surprising_statistic_paired_with_a_ref.jpg"
@@ -2613,10 +2613,10 @@
     },
     {
       "filename": "Money_Business_Family__Ambition__George__clip05_A_raw_funny_personal_story_arc_from_chil.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "g0cViGt15AI",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Lifelong Shark Obsession: From Drawings to Cage Diving",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip05_A_raw_funny_personal_story_arc_from_chil.jpg"
@@ -2846,7 +2846,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "The Viral AI Water Myth Gets Debunked by Altman",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip07_A_surprising_myth-busting_statistic_clai.jpg"
@@ -3146,7 +3146,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "I Always Hoped I Wouldn't Wake Up",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Man_That_Makes_Millionaires_How_To_T_clip01_A_raw_shocking_admission_of_suicidal_des.jpg"
@@ -3603,10 +3603,10 @@
     },
     {
       "filename": "The_Real_Secret_to_Having_Aura_Science-B_clip05_A_vivid_escalating_story_billionaire_can.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "AnozxvfVO58",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "The Billionaire Introduction Circle",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip05_A_vivid_escalating_story_billionaire_can.jpg"
@@ -4013,10 +4013,10 @@
     },
     {
       "filename": "World_Leading_Psychologist_How_To_Detach_clip01_A_sharp_relatable_insight_that_chasing_p.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "dmFoVR09xwI",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Why Perfection Is Impossible: The Psychology of Instant Relief",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip01_A_sharp_relatable_insight_that_chasing_p.jpg"
