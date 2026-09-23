@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:21:25.102Z",
+  "lastUpdated": "2026-09-23T16:21:30.557Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1883,10 +1883,10 @@
     },
     {
       "filename": "How_to_Eliminate_Self-Doubt_Forever__Bui_clip03_A_vivid_relatable_visual_analogy_showing.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "84DQrty2B-0",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Why Self-Doubt Sinks Like a Golf Ball in Water",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip03_A_vivid_relatable_visual_analogy_showing.jpg"
@@ -2696,7 +2696,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "Why Endless Scrolling Leaves You More Lonely",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neuroscientists_Guide_To_10X_Your_Focus__clip03_A_vivid_relatable_analogy_explaining_why.jpg"
