@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T04:09:27.583Z",
+  "lastUpdated": "2026-09-23T04:09:30.797Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1155,8 +1155,8 @@
       "filename": "Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip05_An_unhinged_emotionally_raw_rant_that_sp.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T03:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "You're Just a Man Eating Steak in America: Fatherhood Rant",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip05_An_unhinged_emotionally_raw_rant_that_sp.jpg"
@@ -3325,8 +3325,8 @@
       "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip09_A_clever_highly_shareable_analogy_explai.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T03:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Entrepreneurship Is Like a Video Game",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip09_A_clever_highly_shareable_analogy_explai.jpg"
@@ -3665,8 +3665,8 @@
       "filename": "The_Real_Secret_to_Having_Aura_Science-B_clip05_A_vivid_escalating_story_billionaire_can.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T03:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Billionaire Introduction Circle",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip05_A_vivid_escalating_story_billionaire_can.jpg"
