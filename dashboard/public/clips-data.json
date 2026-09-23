@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:51:29.272Z",
+  "lastUpdated": "2026-09-23T17:00:18.805Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1155,8 +1155,8 @@
       "filename": "Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip06_A_genuinely_funny_unexpected_personal_ch.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "My Martina Navratilova Towel: The Perfect Controversy Skewer",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip06_A_genuinely_funny_unexpected_personal_ch.jpg"
