@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:21:30.557Z",
+  "lastUpdated": "2026-09-23T16:21:33.777Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3286,7 +3286,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "We're In Interest Media Now, Not Social Media",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip01_Opens_with_a_bold_reframing_of_social_me.jpg"
