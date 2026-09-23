@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T05:15:09.106Z",
+  "lastUpdated": "2026-09-23T16:19:13.337Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -16,7 +16,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Day Charlie Munger's Son Got Leukemia: A Wisdom Story",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip05_A_devastating_true_story_about_Charlie_M.jpg"
@@ -26,7 +26,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The House on the Mountain: Rick Rubin's Authenticity Test",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip06_Rick_Rubins_vivid_thought_experiment_abo.jpg"
@@ -36,7 +36,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "5,126 Failed Prototypes: James Dyson's Decade of Pain",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip07_James_Dysons_staggering_failure_count_an.jpg"
@@ -46,7 +46,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "You're Not Famous Because You Can't Handle Success",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip08_A_counterintuitive_claimthat_many_people.jpg"
@@ -76,7 +76,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Breathing Technique That Calms You Instantly",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip04_A_live_demonstration_of_the_physiologica.jpg"
@@ -96,7 +96,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why Failing Reps Are Actually Your Best Friend",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip06_A_sharp_screenshot-worthy_mindset_shift_.jpg"
@@ -106,7 +106,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "In-N-Out Burgers and the Cost of Obsession",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip07_A_tight_funny_and_relatable_personal_sto.jpg"
@@ -116,7 +116,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Even Neuroscientists Struggle With Their Phones",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip08_A_hilarious_self-deprecating_and_highly_.jpg"
@@ -125,8 +125,8 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip01_A_bizarre_deadpan_hypothetical_about_Jas.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "If Aquaman Walked Out the Ocean Right Now",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip01_A_bizarre_deadpan_hypothetical_about_Jas.jpg"
@@ -135,8 +135,8 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip02_A_tight_absurd_story_with_a_clear_setup_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "How Drake Got Called Jersey Drake Rogers",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip02_A_tight_absurd_story_with_a_clear_setup_.jpg"
@@ -145,8 +145,8 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip03_A_raw_vulnerable_moment_where_Drake_admi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Does Drake Fear for His Mother's Safety",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip03_A_raw_vulnerable_moment_where_Drake_admi.jpg"
@@ -155,8 +155,8 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip04_A_surprisingly_introspective_and_counter.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake on Planning His Own Graceful Exit",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip04_A_surprisingly_introspective_and_counter.jpg"
@@ -165,8 +165,8 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip05_A_vulnerable_confession_where_Drake_reve.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Drake Regrets Naming Girls in Songs",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip05_A_vulnerable_confession_where_Drake_reve.jpg"
@@ -175,8 +175,8 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip06_Drake_reveals_the_one_criticism_that_act.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The One Criticism That Actually Gets to Drake",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip06_Drake_reveals_the_one_criticism_that_act.jpg"
@@ -185,8 +185,8 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip07_An_unexpected_hilarious_analogy_from_a_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "A Therapist's Wild Big Tits Theory About Fame",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip07_An_unexpected_hilarious_analogy_from_a_t.jpg"
@@ -195,8 +195,8 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip08_A_funny_quotable_riff_where_Drake_says_h.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake's Real Answer on Aliens and the Unknown",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip08_A_funny_quotable_riff_where_Drake_says_h.jpg"
@@ -205,8 +205,8 @@
       "filename": "A_Moody_Conversation_ft_Lil_Yachty__Drak_clip09_A_wild_specific_personal_story_with_a_cl.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake Wore Prosthetics to Sneak Into Court",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_Moody_Conversation_ft_Lil_Yachty__Drak_clip09_A_wild_specific_personal_story_with_a_cl.jpg"
@@ -246,7 +246,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Counterintuitive Reason Athletes Choke Under Pressure",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip05_Reveals_a_counterintuitive_brain_mechani.jpg"
@@ -266,7 +266,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Can You Build Courage? Yes. Here's the Protocol.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip07_A_direct_hopeful_question_answered_with_.jpg"
@@ -276,7 +276,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Losers vs Winners: The ONE Difference That Matters",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip08_A_tight_deeply_quotable_monologue_defini.jpg"
@@ -286,7 +286,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why Immigrants Outperform Everyone: The Real Reason",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip09_A_provocative_question_and_answer_about_.jpg"
@@ -316,7 +316,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Your Brain Has a Tenacity Muscle and You Can Grow It",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip04_Introduces_the_anterior_mid-cingulate_co.jpg"
@@ -326,7 +326,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Cold Plunges Cause Temporary Brain Damage, Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip05_A_jarring_quotable_claim_you_are_brain_d.jpg"
@@ -336,7 +336,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Praying Brought Me Miracles, So I Prayed for Three Years",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip07_A_raw_vulnerable_personal_story_about_fa.jpg"
@@ -346,7 +346,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Prayed Before This Podcast to Remove My Ego",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip08_An_unexpected_emotionally_honest_admissi.jpg"
@@ -396,7 +396,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "What's In Your Heart? Silence: A Friendship Moment",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip04_A_raw_vulnerable_personal_story_with_gen.jpg"
@@ -406,7 +406,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Living In The Gray Is The Adventure: Embrace Nuance",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip05_A_provocative_reframe_of_why_uncertainty.jpg"
@@ -416,7 +416,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Brain Region Behind Willpower: A Surgery Story",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip06_A_little-known_neuroscience_discovery_re.jpg"
@@ -426,7 +426,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Count The Walls In A Cold Plunge: A Mental Skill",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip07_A_counterintuitive_highly_practical_prot.jpg"
@@ -455,8 +455,8 @@
       "filename": "DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip01_A_rapid-fire_back-and-forth_of_failed_in.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "We Keep Ruining the Intro | Drake & Bobbi's Comedy Bit",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip01_A_rapid-fire_back-and-forth_of_failed_in.jpg"
@@ -465,8 +465,8 @@
       "filename": "DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip02_A_raw_vulnerable_moment_where_she_reveal.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Two Happy Homes Beat One Unhappy | Real Talk on Divorce",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip02_A_raw_vulnerable_moment_where_she_reveal.jpg"
@@ -475,8 +475,8 @@
       "filename": "DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip03_The_awkward_funny_confession_about_being.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake Got Caught Using Auto-Tune | The Confession",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip03_The_awkward_funny_confession_about_being.jpg"
@@ -485,8 +485,8 @@
       "filename": "DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip04_A_shockingly_candid_laugh-out-loud_story.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Airport Security Fail: Carrying Dope Through Customs",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip04_A_shockingly_candid_laugh-out-loud_story.jpg"
@@ -495,8 +495,8 @@
       "filename": "DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip05_A_surprising_personal_confession_of_spen.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Nine Hours in a Swedish Jail | Unexpected Arrest Story",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip05_A_surprising_personal_confession_of_spen.jpg"
@@ -505,8 +505,8 @@
       "filename": "DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip06_A_hilarious_oddly_specific_reveal_of_his.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake's Dream Girl Type Revealed | Goth Baddie Energy",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip06_A_hilarious_oddly_specific_reveal_of_his.jpg"
@@ -515,8 +515,8 @@
       "filename": "DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip07_An_escalating_absurd_riff_on_breast-pump.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "More Milk Than Tennessee Cows | Touring Mom Life",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip07_An_escalating_absurd_riff_on_breast-pump.jpg"
@@ -525,8 +525,8 @@
       "filename": "DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip08_A_funny_unexpected_answer_about_what_hed.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "No Bunker Needed | How Billionaires Face the Apocalypse",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip08_A_funny_unexpected_answer_about_what_hed.jpg"
@@ -535,8 +535,8 @@
       "filename": "DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip09_A_genuinely_insightful_piece_of_advice_a.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Don't Wear Reactions Like a Romper | Internet Advice",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Im_Sorry__NOT_THIS_AGAIN_clip09_A_genuinely_insightful_piece_of_advice_a.jpg"
@@ -545,8 +545,8 @@
       "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip01_A_cute_funny_exchange_where_Drakes_young.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake's Son Reveals His Secret Fight Move Against Bullies",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip01_A_cute_funny_exchange_where_Drakes_young.jpg"
@@ -555,8 +555,8 @@
       "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip02_The_kids_deadpan_admission_he_cant_read_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake's Kid Admits He Can't Read and Roasts His Dad",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip02_The_kids_deadpan_admission_he_cant_read_.jpg"
@@ -565,8 +565,8 @@
       "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip03_Playful_quotable_banter_about_flying_bea.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake Brags About Toronto Girls and Private Plane Perks",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip03_Playful_quotable_banter_about_flying_bea.jpg"
@@ -575,8 +575,8 @@
       "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip04_A_cheeky_innuendo-laced_exchange_about_u.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake Explains How He Travels Heavy With Awkward Details",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip04_A_cheeky_innuendo-laced_exchange_about_u.jpg"
@@ -585,8 +585,8 @@
       "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip05_A_wildly_quotable_absurd_claim_about_a_d.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake's Necklace For Every Boob Thought Theory Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip05_A_wildly_quotable_absurd_claim_about_a_d.jpg"
@@ -595,8 +595,8 @@
       "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip06_A_provocative_real-time_debate_about_cal.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake and Caleb Debate What to Call Women Candidly",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip06_A_provocative_real-time_debate_about_cal.jpg"
@@ -605,8 +605,8 @@
       "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip07_A_shockingly_blunt_provocative_joke_abou.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake's Outrageous Take on Why Girls Don't Adopt",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip07_A_shockingly_blunt_provocative_joke_abou.jpg"
@@ -615,8 +615,8 @@
       "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip08_A_drunk_escalating_argument_over_a_bizar.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake and Caleb Fight Over Dan Aykroyd Inventing Patron",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip08_A_drunk_escalating_argument_over_a_bizar.jpg"
@@ -625,8 +625,8 @@
       "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip09_An_increasingly_absurd_name_that_feeling.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake Plays Name That Feeling and Gets Extremely Explicit",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip09_An_increasingly_absurd_name_that_feeling.jpg"
@@ -635,8 +635,8 @@
       "filename": "DRAKE_Sundae_Conversation_with_Caleb_Pre_clip10_A_surprisingly_heartfelt_yet_comedic_tan.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake's Life Lesson: Always Bet on Fatherhood Over Gambling",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/DRAKE_Sundae_Conversation_with_Caleb_Pre_clip10_A_surprisingly_heartfelt_yet_comedic_tan.jpg"
@@ -645,8 +645,8 @@
       "filename": "Dear_Ed_Sheeran_clip01_A_direct_repeated_demand_aimed_at_a_glob.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Cancel Your Tour, Do Something Brave",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dear_Ed_Sheeran_clip01_A_direct_repeated_demand_aimed_at_a_glob.jpg"
@@ -655,8 +655,8 @@
       "filename": "Dear_Ed_Sheeran_clip02_Naming_Michael_Jackson_Princess_Diana_an.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Hollywood's Secret Mafia-Like Power Structure Exposed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dear_Ed_Sheeran_clip02_Naming_Michael_Jackson_Princess_Diana_an.jpg"
@@ -665,8 +665,8 @@
       "filename": "Dear_Ed_Sheeran_clip03_A_raw_personal_confession_about_being_pu.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Look What They Did to Me for Speaking Out",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dear_Ed_Sheeran_clip03_A_raw_personal_confession_about_being_pu.jpg"
@@ -675,8 +675,8 @@
       "filename": "Dear_Ed_Sheeran_clip04_A_sharply_provocative_reversal_accusatio.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "They're Enacting the Holocaust Against Dissidents",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dear_Ed_Sheeran_clip04_A_sharply_provocative_reversal_accusatio.jpg"
@@ -685,8 +685,8 @@
       "filename": "Dear_Ed_Sheeran_clip05_A_billionaire_is_bluntly_called_a_sexual.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Billionaire Robert Kraft Accused of Orchestrating Takedown",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dear_Ed_Sheeran_clip05_A_billionaire_is_bluntly_called_a_sexual.jpg"
@@ -695,8 +695,8 @@
       "filename": "Dear_Ed_Sheeran_clip06_A_personal_almost_unbelievable_story_of_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Banned From an Entire Country for My Politics",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dear_Ed_Sheeran_clip06_A_personal_almost_unbelievable_story_of_.jpg"
@@ -705,8 +705,8 @@
       "filename": "Dear_Ed_Sheeran_clip07_The_Charlie_Kirk_anecdote_builds_to_a_de.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "More Slaves Than Masters: Charlie Kirk's Final Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dear_Ed_Sheeran_clip07_The_Charlie_Kirk_anecdote_builds_to_a_de.jpg"
@@ -715,8 +715,8 @@
       "filename": "Dear_Ed_Sheeran_clip08_A_sharp_sarcastic_rhetorical_jab_that_la.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Does Saying Genocide Is Wrong Offend Ben Shapiro",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dear_Ed_Sheeran_clip08_A_sharp_sarcastic_rhetorical_jab_that_la.jpg"
@@ -725,8 +725,8 @@
       "filename": "Dear_Ed_Sheeran_clip09_A_playful_humanizing_insult_aimed_at_Ed_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "You'd Blush If the Teacher Called on You, Ed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dear_Ed_Sheeran_clip09_A_playful_humanizing_insult_aimed_at_Ed_.jpg"
@@ -735,8 +735,8 @@
       "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip01_A_personal_surprising_anecdote_that_sets.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I TEXTED MACKLEMORE BEFORE THE CHAOS STARTED",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip01_A_personal_surprising_anecdote_that_sets.jpg"
@@ -745,8 +745,8 @@
       "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip02_A_blunt_quotable_hot_take_delivered_with.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "ED SHEERAN PLAYED HIMSELF AND HERE'S WHY",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip02_A_blunt_quotable_hot_take_delivered_with.jpg"
@@ -755,8 +755,8 @@
       "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip03_A_sharp_nuanced_take_that_builds_to_a_hi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "ED SHEERAN ISNT THE VILLAIN BUT THE TIDE HAS TURNED",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip03_A_sharp_nuanced_take_that_builds_to_a_hi.jpg"
@@ -765,8 +765,8 @@
       "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip04_Hosts_mock_a_public_figures_confusing_st.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "ROBERT KRAFT'S STATEMENT IS COMPLETE WORD SALAD",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip04_Hosts_mock_a_public_figures_confusing_st.jpg"
@@ -775,8 +775,8 @@
       "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip05_A_genuine_vulnerable_personal_story_show.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "A STRANGER CHANGED MY MIND ON ISRAEL IN SECONDS",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip05_A_genuine_vulnerable_personal_story_show.jpg"
@@ -785,8 +785,8 @@
       "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip06_A_punchy_provocative_highly_quotable_lin.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "YOU DID THE IMPOSSIBLE MY DUDE NETANYAHU EDITION",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip06_A_punchy_provocative_highly_quotable_lin.jpg"
@@ -795,8 +795,8 @@
       "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip07_Raw_specific_family_history_story_about_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "MY DAD HUNG A ZIONIST POSTER IN OUR HOME",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip07_Raw_specific_family_history_story_about_.jpg"
@@ -805,8 +805,8 @@
       "filename": "Did_Ed_Sheeran_Make_The_Right_Decision_I_clip08_A_tight_story_with_a_clear_setup_and_pay.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "THEY SAID THE POST LAUGHED AT 9/11 THATS A LIE",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Did_Ed_Sheeran_Make_The_Right_Decision_I_clip08_A_tight_story_with_a_clear_setup_and_pay.jpg"
@@ -815,8 +815,8 @@
       "filename": "Drake_Answers_the_Worlds_Most_Asked_Ques_clip01_Absurdist_repetition_of_Im_a_little_afte.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "ARE YOU DRUNK RIGHT NOW Drake Keeps It Real",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_Answers_the_Worlds_Most_Asked_Ques_clip01_Absurdist_repetition_of_Im_a_little_afte.jpg"
@@ -825,8 +825,8 @@
       "filename": "Drake_Answers_the_Worlds_Most_Asked_Ques_clip02_A_toast_to_the_ladies_spirals_into_an_aw.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "THANK YOU WOMEN IS CRAZY Drake's Awkward Toast",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_Answers_the_Worlds_Most_Asked_Ques_clip02_A_toast_to_the_ladies_spirals_into_an_aw.jpg"
@@ -835,8 +835,8 @@
       "filename": "Drake_Answers_the_Worlds_Most_Asked_Ques_clip03_A_motivational_speech_gets_derailed_repe.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "A MOMENT OF SILENCE FOR THE COW Drake Edition",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_Answers_the_Worlds_Most_Asked_Ques_clip03_A_motivational_speech_gets_derailed_repe.jpg"
@@ -845,8 +845,8 @@
       "filename": "Drake_Answers_the_Worlds_Most_Asked_Ques_clip04_A_sincere_mom_quote_gets_comically_tangl.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "MY MOM SAID FUCK THE OPS Drake's Mom Quote",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_Answers_the_Worlds_Most_Asked_Ques_clip04_A_sincere_mom_quote_gets_comically_tangl.jpg"
@@ -855,8 +855,8 @@
       "filename": "Drake_Answers_the_Worlds_Most_Asked_Ques_clip05_A_reflective_quotable_analogy_comparing_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "EVERY ALBUM IS A NEW CHAPTER Drake on Growth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_Answers_the_Worlds_Most_Asked_Ques_clip05_A_reflective_quotable_analogy_comparing_.jpg"
@@ -865,8 +865,8 @@
       "filename": "Drake_Answers_the_Worlds_Most_Asked_Ques_clip06_A_drunken_self-aware_roast_about_failing.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "YOU'RE A HORRIBLE JOURNALIST Drake Self Aware",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_Answers_the_Worlds_Most_Asked_Ques_clip06_A_drunken_self-aware_roast_about_failing.jpg"
@@ -875,21 +875,11 @@
       "filename": "Drake_Answers_the_Worlds_Most_Asked_Ques_clip07_A_bold_provocative_claim_that_streamers_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "STREAMERS ARE THE NEW RAPPERS Drake's Hot Take",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_Answers_the_Worlds_Most_Asked_Ques_clip07_A_bold_provocative_claim_that_streamers_.jpg"
-    },
-    {
-      "filename": "Drake_and_Bobbi__FULL_INTERVIEW_clip01_A_bizarre_hilarious_family_secret_about_.mp4",
-      "status": "posted",
-      "youtubeId": "VUaZMozrnxM",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "THE OTHER NAME OPTION WAS LARRY",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Drake_and_Bobbi__FULL_INTERVIEW_clip01_A_bizarre_hilarious_family_secret_about_.jpg"
     },
     {
       "filename": "Drake_and_Bobbi__FULL_INTERVIEW_clip02_A_genuinely_funny_back-and-forth_where_n.mp4",
@@ -915,8 +905,8 @@
       "filename": "Drake_and_Bobbi__FULL_INTERVIEW_clip04_A_bold_audacious_ask_followed_by_an_unex.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "BUY ME A LAMBORGHINI RIGHT NOW",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_and_Bobbi__FULL_INTERVIEW_clip04_A_bold_audacious_ask_followed_by_an_unex.jpg"
@@ -925,8 +915,8 @@
       "filename": "Drake_and_Bobbi__FULL_INTERVIEW_clip05_A_shocking_deadpan_confession_of_never_h.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I'VE NEVER HEARD YOUR MUSIC",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_and_Bobbi__FULL_INTERVIEW_clip05_A_shocking_deadpan_confession_of_never_h.jpg"
@@ -935,8 +925,8 @@
       "filename": "Drake_and_Bobbi__FULL_INTERVIEW_clip06_A_raw_emotional_reveal_about_discovering.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "CAUGHT HIM CHEATING THROUGH HIS PHONE",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_and_Bobbi__FULL_INTERVIEW_clip06_A_raw_emotional_reveal_about_discovering.jpg"
@@ -945,8 +935,8 @@
       "filename": "Drake_and_Bobbi__FULL_INTERVIEW_clip07_An_awkward_cringe-funny_cash_handoff_mom.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "DON'T MAKE THIS ABOUT RACE",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_and_Bobbi__FULL_INTERVIEW_clip07_An_awkward_cringe-funny_cash_handoff_mom.jpg"
@@ -955,8 +945,8 @@
       "filename": "Drake_and_Bobbi__FULL_INTERVIEW_clip08_A_surprisingly_candid_deadpan_body_confe.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I ALREADY HAVE A BIG BUTT",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_and_Bobbi__FULL_INTERVIEW_clip08_A_surprisingly_candid_deadpan_body_confe.jpg"
@@ -965,8 +955,8 @@
       "filename": "Drake_and_Bobbi__FULL_INTERVIEW_clip09_A_dark_absurd_comedic_bit_involving_a_fa.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "MISSED MY DAUGHTER'S FIRST BIRTHDAY FOR THIS",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Drake_and_Bobbi__FULL_INTERVIEW_clip09_A_dark_absurd_comedic_bit_involving_a_fa.jpg"
@@ -975,8 +965,8 @@
       "filename": "ED_SHEERAN_Sundae_Conversation_with_Cale_clip01_An_escalating_awkward_word-association_g.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Testing Ed Sheeran With Banned Words Gets Awkward Fast",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/ED_SHEERAN_Sundae_Conversation_with_Cale_clip01_An_escalating_awkward_word-association_g.jpg"
@@ -985,8 +975,8 @@
       "filename": "ED_SHEERAN_Sundae_Conversation_with_Cale_clip02_Quick-fire_absurd_wordplay_where_Ed_dodg.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ed Sheeran Dodges Taboo Words With Harry Potter Reference",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/ED_SHEERAN_Sundae_Conversation_with_Cale_clip02_Quick-fire_absurd_wordplay_where_Ed_dodg.jpg"
@@ -995,8 +985,8 @@
       "filename": "ED_SHEERAN_Sundae_Conversation_with_Cale_clip03_A_clever_guessing_game_turns_into_an_une.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ed Sheeran Reads Body Language Then Gets Roasted",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/ED_SHEERAN_Sundae_Conversation_with_Cale_clip03_A_clever_guessing_game_turns_into_an_une.jpg"
@@ -1005,8 +995,8 @@
       "filename": "ED_SHEERAN_Sundae_Conversation_with_Cale_clip04_A_tight_story_with_setup_and_payoff_abou.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ed Sheeran's Montreal Massage Story Has An Insulting Twist",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/ED_SHEERAN_Sundae_Conversation_with_Cale_clip04_A_tight_story_with_setup_and_payoff_abou.jpg"
@@ -1015,8 +1005,8 @@
       "filename": "ED_SHEERAN_Sundae_Conversation_with_Cale_clip05_A_raunchy_misheard-word_joke_buttholes_p.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ed Sheeran's Drinking Confession Gets Raunchy Real Fast",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/ED_SHEERAN_Sundae_Conversation_with_Cale_clip05_A_raunchy_misheard-word_joke_buttholes_p.jpg"
@@ -1025,8 +1015,8 @@
       "filename": "ED_SHEERAN_Sundae_Conversation_with_Cale_clip06_Ed_gets_confronted_with_pointed_borderli.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Is Ed Sheeran a Ghostwriter Caleb Asks Bluntly",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/ED_SHEERAN_Sundae_Conversation_with_Cale_clip06_Ed_gets_confronted_with_pointed_borderli.jpg"
@@ -1035,8 +1025,8 @@
       "filename": "ED_SHEERAN_Sundae_Conversation_with_Cale_clip07_A_wild_crude_urban_legend_about_Marilyn_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Marilyn Manson Rib Rumor Gets Debated and Roasted",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/ED_SHEERAN_Sundae_Conversation_with_Cale_clip07_A_wild_crude_urban_legend_about_Marilyn_.jpg"
@@ -1116,7 +1106,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Ed Sheeran's Band Walks Out: Inside the Billionaire Meltdown",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip01_A_juicy_real-world_story_with_stakes_bil.jpg"
@@ -1126,7 +1116,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "FBI Director Defends Bestiality: The Policy Nobody Expected",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip02_An_absurd_escalating_comedic_bit_built_o.jpg"
@@ -1136,7 +1126,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Who Do We Have Leverage On? Government Blackmail Theory Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip03_A_dark_rapid-fire_conspiracy_riff_on_gov.jpg"
@@ -1146,7 +1136,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Mitch McConnell Is Now Terri Schiavo: The Devastating Comparison",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip04_A_darkly_funny_wildly_quotable_extended_.jpg"
@@ -1156,7 +1146,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "You're Just a Man Eating Steak in America: Fatherhood Rant",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip05_An_unhinged_emotionally_raw_rant_that_sp.jpg"
@@ -1396,7 +1386,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "How Soviet Spies Stole Navy Secrets",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Elicitation_CIAs_Technique_to_Make_Peopl_clip05_A_gripping_true_Cold_War_espionage_story.jpg"
@@ -1426,7 +1416,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Milkshake Study That Proved Your Mind Controls Your Hormones",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Essentials_Science_of_Mindsets_for_Healt_clip02_A_surprising_scientific_reveal_that_beli.jpg"
@@ -1475,8 +1465,8 @@
       "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip01_A_rapid-fire_hook_montage_of_quotable_li.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Didn't Have a Plan B: Ed Sheeran on Perseverance",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip01_A_rapid-fire_hook_montage_of_quotable_li.jpg"
@@ -1485,8 +1475,8 @@
       "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip02_A_colorful_celebrity-packed_backstage_an.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Freestyling Backstage With Skrillex and Jon Snow",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip02_A_colorful_celebrity-packed_backstage_an.jpg"
@@ -1495,8 +1485,8 @@
       "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip03_A_counterintuitive_well-argued_claim_abo.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Paul McCartney Might Actually Beat John Lennon",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip03_A_counterintuitive_well-argued_claim_abo.jpg"
@@ -1505,8 +1495,8 @@
       "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip04_A_blunt_raw_admission_from_a_global_supe.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Music Industry Is a Foul Place, Says Ed Sheeran",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip04_A_blunt_raw_admission_from_a_global_supe.jpg"
@@ -1515,8 +1505,8 @@
       "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip05_Vulnerable_specific_storytelling_about_e.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Same Socks for a Week: Ed Sheeran's Struggle Years",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip05_Vulnerable_specific_storytelling_about_e.jpg"
@@ -1525,8 +1515,8 @@
       "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip06_A_funny_self-deprecating_origin_story_ab.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Discovered by Jamie Foxx While Broke and Embarrassed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip06_A_funny_self-deprecating_origin_story_ab.jpg"
@@ -1535,8 +1525,8 @@
       "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip07_An_emotional_screenshot-worthy_gratitude.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Thank You on Behalf of All Songwriters: Ed's Emotional Moment",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip07_An_emotional_screenshot-worthy_gratitude.jpg"
@@ -1545,8 +1535,8 @@
       "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip08_A_gut-wrenching_raw_disclosure_of_person.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Cancer, Death and a Lawsuit Collided in One Week",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip08_A_gut-wrenching_raw_disclosure_of_person.jpg"
@@ -1555,8 +1545,8 @@
       "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip09_Surprising_humility_from_the_artist_behi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I'll Never Top Shape of You, Ed Sheeran Admits",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip09_Surprising_humility_from_the_artist_behi.jpg"
@@ -1565,8 +1555,8 @@
       "filename": "How_Ed_Sheeran_Became_One_of_the_Greates_clip10_A_punchy_quotable_piece_of_creative_advi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Dare to Suck: Ed Sheeran's Advice for His Kids",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Ed_Sheeran_Became_One_of_the_Greates_clip10_A_punchy_quotable_piece_of_creative_advi.jpg"
@@ -1616,7 +1606,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Smoking More Weed Won't Stop Paranoia—Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Bluntly_debunks_a_widely_believed_dorm_r.jpg"
@@ -1626,7 +1616,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "One Molecule, Two Opposite Brain Effects",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip04_Explains_the_fascinating_paradox_of_one_.jpg"
@@ -1636,7 +1626,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Smoking More Won't Fix Your Weed Paranoia",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Busts_a_widespread_stoner_myth_with_a_bl.jpg"
@@ -1646,7 +1636,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Science Can't Predict Your Cannabis High—Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
@@ -1656,7 +1646,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "No One Can Predict Your Cannabis Reaction",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_provocative_claim_that_even_science_ca.jpg"
@@ -1666,7 +1656,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why Weed Makes You Crave Pizza—Brain Science Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_satisfying_humorous_science_payoff_exp.jpg"
@@ -1676,7 +1666,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Real Neuroscience Behind the Munchies",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip07_A_detailed_surprising_explanation_of_exa.jpg"
@@ -1686,7 +1676,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Dopamine Is a Good Thing",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_To_Improve_Dopamine_to_Feel_Motivati_clip06_An_uplifting_quotable_closing_statement_.jpg"
@@ -1706,7 +1696,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I'm Not a Real Smart Guy: The ADD Truth Behind the Toughness",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip01_Raw_vulnerable_confession_about_living_w.jpg"
@@ -1736,7 +1726,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "No One Ever Saved Me | David Goggins Raw Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip03_A_gut-punch_emotional_moment_where_Goggi.jpg"
@@ -1746,7 +1736,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "God Put This Lab Rat on the Planet: The Suffering Framework",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip03_A_striking_almost_mythic_framing_of_his_.jpg"
@@ -1756,7 +1746,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Its All Stick No Carrot | David Goggins Philosophy",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip04_A_counterintuitive_quotable_philosophy_o.jpg"
@@ -1776,7 +1766,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "How Do You Want to Be Remembered: Strip Away the Bullshit",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip05_A_rapid-fire_screenshot-worthy_monologue.jpg"
@@ -1786,7 +1776,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Voice That Says That Aint You | Inner Dialogue",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip05_A_vivid_theatrical_recreation_of_his_int.jpg"
@@ -1796,7 +1786,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "There's No Fucking Hack, Bro: The Hard Truth on Shortcuts",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip06_A_provocative_quotable_rejection_of_self.jpg"
@@ -1806,7 +1796,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Brain Region That Controls Will to Live | Neuroscience",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip06_A_surprising_neuroscience_reveal_that_a_.jpg"
@@ -1826,7 +1816,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Found It in the Suck: Redefining Happiness Through Suffering",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip07_An_unexpected_redefinition_of_happinessp.jpg"
@@ -1896,7 +1886,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why Self-Doubt Sinks Like a Golf Ball in Water",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip03_A_vivid_relatable_visual_analogy_showing.jpg"
@@ -1906,7 +1896,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Stop Using Positive Affirmations Right Now",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip04_A_counterintuitive_research-backed_claim.jpg"
@@ -1916,7 +1906,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "82% of People Feel Like Imposters (Here's Why That's Good)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip05_A_surprising_statistic_paired_with_a_ref.jpg"
@@ -1926,7 +1916,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "She Designed a $1.5M Logo on a Napkin",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip06_A_tight_satisfying_story_with_a_punchlin.jpg"
@@ -1936,7 +1926,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Word 'Should' Is Ruining Your Confidence",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip07_A_quotable_instantly_actionable_psycholo.jpg"
@@ -1946,7 +1936,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "This Neck Trick Makes You Feel Instantly Powerful",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip08_A_surprising_bit_of_body-science_with_an.jpg"
@@ -1956,7 +1946,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Pen Trick That Fixes How You Sound When Speaking",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip09_A_fun_visual_try-it-yourself_exercise_wi.jpg"
@@ -1966,7 +1956,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why the Man Kept Breaking Glass: Psychology's Hidden Logic",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip01_A_vivid_psychiatric-ward_story_with_a_su.jpg"
@@ -1976,7 +1966,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "My Success Collapsed Into Depression: The Dark Side of Achievement",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip02_Raw_personal_vulnerability_as_Hollis_des.jpg"
@@ -1986,7 +1976,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "He Didn't Know He Was Alive: The Kierkegaard Wake-Up Call",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip03_A_striking_Kierkegaard_anecdote_paired_w.jpg"
@@ -1996,7 +1986,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Nothing Human Is Alien to Me: Your Shadow Traits Revealed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip04_A_quotable_2000-year-old_line_reframes_j.jpg"
@@ -2006,7 +1996,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "My Dying Mother Feared My Success: The Final Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip05_A_deeply_emotional_true_story_about_his_.jpg"
@@ -2045,8 +2035,8 @@
       "filename": "How_to_Maximize_Dopamine__Motivation_-_A_clip01_Opens_with_a_bold_neuroscience_claim_and.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Dopamine Isn't About Reward — Here's What It Actually Does",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip01_Opens_with_a_bold_neuroscience_claim_and.jpg"
@@ -2055,8 +2045,8 @@
       "filename": "How_to_Maximize_Dopamine__Motivation_-_A_clip02_A_relatable_self-deprecating_personal_st.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Binged TED Talks Until They Stopped Feeling Good",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip02_A_relatable_self-deprecating_personal_st.jpg"
@@ -2065,8 +2055,8 @@
       "filename": "How_to_Maximize_Dopamine__Motivation_-_A_clip03_A_striking_quotable_line_about_how_dopam.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "How Drugs Hijack Your Dopamine and Destroy Motivation",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip03_A_striking_quotable_line_about_how_dopam.jpg"
@@ -2075,8 +2065,8 @@
       "filename": "How_to_Maximize_Dopamine__Motivation_-_A_clip04_A_provocative_screenshot-worthy_claim_th.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Pleasure Without Struggle Is Ruining Your Life",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip04_A_provocative_screenshot-worthy_claim_th.jpg"
@@ -2085,8 +2075,8 @@
       "filename": "How_to_Maximize_Dopamine__Motivation_-_A_clip05_Two_crisp_contrasting_definitions_of_add.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Addiction Narrows Your Pleasures — This Is the Alternative",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip05_Two_crisp_contrasting_definitions_of_add.jpg"
@@ -2095,8 +2085,8 @@
       "filename": "How_to_Maximize_Dopamine__Motivation_-_A_clip06_A_vivid_metaphor_delivered_as_a_memorabl.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Pain-Pleasure Hinge: Your Secret to Sustainable Happiness",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip06_A_vivid_metaphor_delivered_as_a_memorabl.jpg"
@@ -2105,8 +2095,8 @@
       "filename": "How_to_Maximize_Dopamine__Motivation_-_A_clip07_A_surprising_science-backed_reveal_shock.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ice Baths Spike Dopamine 250% — Here's Why Pain Works",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Maximize_Dopamine__Motivation_-_A_clip07_A_surprising_science-backed_reveal_shock.jpg"
@@ -2146,7 +2136,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Eyebrow Flirt Trick That Actually Works",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Unlock_Your_Flirting_Superpowers__clip05_Lands_a_genuinely_funny_scripted_flirt_l.jpg"
@@ -2156,7 +2146,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Count Your Heartbeat Without a Pulse",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip06_A_surprising_testable_neuroscience_fact_.jpg"
@@ -2166,7 +2156,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Science Behind Mind-Muscle Connection",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip07_Reveals_a_peer-reviewed_counterintuitive.jpg"
@@ -2176,7 +2166,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why Gym Mirrors Might Hurt Your Gains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip08_A_little-known_insight_suggesting_watchi.jpg"
@@ -2186,7 +2176,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Steve Jobs: Shut Up And Execute—Not What Customers Want",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip02_A_raw_quotable_Steve_Jobs_anecdote_with_.jpg"
@@ -2196,7 +2186,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why Elon Musk Has Zero Noise: Signal Vs Noise Framework",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip03_A_counterintuitive_framework_signal_vs_n.jpg"
@@ -2206,7 +2196,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Know You're A Winner Before You Speak—Here's How",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip05_A_dramatic_almost_cinematic_description_.jpg"
@@ -2216,7 +2206,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "My Mother's Secret Million Dollar Portfolio: 55 Year Surprise",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip06_An_emotional_surprising_story_about_his_.jpg"
@@ -2246,7 +2236,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "How to Feel Rich While Broke",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip01_Opens_with_a_bold_quotable_claim_that_ri.jpg"
@@ -2256,7 +2246,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Everyone Had Rollerblades, I Didn't",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip02_Raw_vulnerable_childhood_story_about_fee.jpg"
@@ -2266,7 +2256,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "A Millionaire Sleeping on Couches",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip03_Shocking_quotable_contradiction__a_milli.jpg"
@@ -2276,7 +2266,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Believed Good People Stay Poor",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip04_Surprising_deeply_personal_confession_ab.jpg"
@@ -2286,7 +2276,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "She Got 3 Job Offers in Minutes",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip05_Tight_story_with_clear_payoff_showing_ho.jpg"
@@ -2312,31 +2302,11 @@
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip07_Provocative_thought_experiment_personify.jpg"
     },
     {
-      "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip08_Sharp_quotable_line_the_speed_at_which_y.mp4",
-      "status": "posted",
-      "youtubeId": "ouX2O0ICqXc",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Why Quick Money Always Disappears",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip08_Sharp_quotable_line_the_speed_at_which_y.jpg"
-    },
-    {
-      "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip09_Shocking_emotionally_heavy_true_story_th.mp4",
-      "status": "posted",
-      "youtubeId": "AouG9CwV-Ig",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "A Billionaire Jumped From This Building",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip09_Shocking_emotionally_heavy_true_story_th.jpg"
-    },
-    {
       "filename": "MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip01_Scott_Galloway_delivers_a_sharp_quotable.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Rich Is What You See, Wealth Isn't",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip01_Scott_Galloway_delivers_a_sharp_quotable.jpg"
@@ -2346,7 +2316,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The $52K Man Wealthier Than a Millionaire",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip02_A_vivid_surprising_contrast_storya_Wall_.jpg"
@@ -2356,7 +2326,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "A Ghost Told Me We Weren't Worthy",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip03_Raw_vulnerable_personal_storytelling_abo.jpg"
@@ -2366,7 +2336,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Financial Stress Makes Men Less Attractive",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip04_A_provocative_counterintuitive_claim_abo.jpg"
@@ -2386,7 +2356,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Survived on $78 a Week",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip06_A_tight_high-stakes_personal_story_with_.jpg"
@@ -2433,10 +2403,10 @@
     },
     {
       "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip01_Counterintuitive_claim_that_concentrated.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "JEmVAuxCuzw",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "done",
       "title": "Why One AI Lab Scares Mark Zuckerberg More Than You'd Think",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip01_Counterintuitive_claim_that_concentrated.jpg"
@@ -2446,7 +2416,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Mark Zuckerberg's AI Agent Makes Him Cake Pops. Here's What Happened.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip02_A_relatable_funny_mini-story_with_a_clea.jpg"
@@ -2456,7 +2426,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Zuckerberg's AI Roasts Him During MMA Training. He Loved It.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip03_Genuine_humor_as_his_own_AI_agent_calls_.jpg"
@@ -2466,7 +2436,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "A Tech Skeptic Got Hooked on Zuckerberg's AI in One Day",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip04_A_quick_quotable_anecdote_showing_a_tech.jpg"
@@ -2476,7 +2446,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Meta Built Its AI So It Can't Even Spy on You. Here's Why.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip05_A_surprising_high-trust_admission_that_M.jpg"
@@ -2502,21 +2472,11 @@
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip07_A_vivid_screenshot-worthy_thought_experi.jpg"
     },
     {
-      "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip08_Addresses_the_viral_spy_glasses_controve.mp4",
-      "status": "posted",
-      "youtubeId": "-PRg0EpvLvw",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Meta's Smart Glasses Have a Secret Privacy Defense. Here's How It Works.",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip08_Addresses_the_viral_spy_glasses_controve.jpg"
-    },
-    {
       "filename": "Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip02_A_quotable_life_philosophy_paired_with_t.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "If You Love It, You Never Work Again",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip02_A_quotable_life_philosophy_paired_with_t.jpg"
@@ -2536,7 +2496,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "100 Million Wouldn't Make Me Stop",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip05_Raw_emotional_conviction_as_he_turns_dow.jpg"
@@ -2546,7 +2506,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "You've Already Lost Before You Started",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip06_A_sharp_counterintuitive_mindset_insight.jpg"
@@ -2556,7 +2516,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "A Rocket Launch Saved My Worst Day",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip07_A_vivid_emotional_storytelling_momenthat.jpg"
@@ -2566,7 +2526,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Building the First Engine With My Dad",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip08_An_emotional_payoff_story_about_rebuildi.jpg"
@@ -2576,7 +2536,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Beat a Formula One Driver on Track",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip09_A_surprising_brag-worthy_story_with_a_cl.jpg"
@@ -2626,7 +2586,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "One Pair of Jeans Sold Out Instantly and Funded Everything",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip02_A_tight_origin_story_with_clear_stakes_a.jpg"
@@ -2636,7 +2596,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Becoming Famous for One Thing Almost Killed the Brand",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip03_Surprising_business_insight__becoming_fa.jpg"
@@ -2656,7 +2616,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Lifelong Shark Obsession: From Drawings to Cage Diving",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip05_A_raw_funny_personal_story_arc_from_chil.jpg"
@@ -2706,7 +2666,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Indecisive Shark Man: A Nickname Born in Real Time",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip10_A_funny_character_reveal_where_one_broth.jpg"
@@ -2716,7 +2676,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Phones Make Your Team Dumber Even In Meetings",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neuroscientists_Guide_To_10X_Your_Focus__clip01_Shocking_claim_backed_by_a_study_that_a_.jpg"
@@ -2726,7 +2686,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Dead Phone Still Tanks Your IQ By This Much",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neuroscientists_Guide_To_10X_Your_Focus__clip02_Payoff_of_a_live_experiment_revealing_th.jpg"
@@ -2736,30 +2696,10 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why Endless Scrolling Leaves You More Lonely",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Neuroscientists_Guide_To_10X_Your_Focus__clip03_A_vivid_relatable_analogy_explaining_why.jpg"
-    },
-    {
-      "filename": "Rap_Radar_Drake_clip01_A_jaw-dropping_quotable_stat_400_weeks_i.mp4",
-      "status": "posted",
-      "youtubeId": "kgqp0fjhUP0",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Drake's 400+ Weeks in Top 10: A Decade of Pure Dominance",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip01_A_jaw-dropping_quotable_stat_400_weeks_i.jpg"
-    },
-    {
-      "filename": "Rap_Radar_Drake_clip02_Drake_delivers_a_piece_of_timeless_quota.mp4",
-      "status": "posted",
-      "youtubeId": "v0dcdRkq7No",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Before the Fame: Drake's Timeless Advice for New Artists",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Rap_Radar_Drake_clip02_Drake_delivers_a_piece_of_timeless_quota.jpg"
     },
     {
       "filename": "Rap_Radar_Drake_clip03_A_surprising_vivid_celebrity_cameo_story.mp4",
@@ -2876,7 +2816,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why OpenAI Wants to Be the Transistor, Not the Computer",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip04_A_counterintuitive_business_insight_Altm.jpg"
@@ -2906,7 +2846,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Viral AI Water Myth Gets Debunked by Altman",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip07_A_surprising_myth-busting_statistic_clai.jpg"
@@ -2916,7 +2856,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Sam Altman Admits Our Worst Year Was Mostly My Fault",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip08_A_rare_moment_of_corporate_vulnerability.jpg"
@@ -2966,7 +2906,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Judge Pleasure by How You Feel After",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Easy_Habit_That_Sets_Your_Mood_For_T_clip05_A_quotable_personal_rulejudging_pleasure.jpg"
@@ -2986,7 +2926,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "People Chose Anger Over Joy in Brain Study",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Easy_Habit_That_Sets_Your_Mood_For_T_clip07_A_shocking_real_brain-stimulation_study_.jpg"
@@ -3025,8 +2965,8 @@
       "filename": "The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip01_A_vivid_fast-paced_story_about_a_clumsy_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ed Sheeran's Hoverboard Destroys Glass Table in Epic Fail",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip01_A_vivid_fast-paced_story_about_a_clumsy_.jpg"
@@ -3035,8 +2975,8 @@
       "filename": "The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip02_A_surprising_relatable_insight_into_how_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Ed Sheeran Carries Ketchup Everywhere He Goes",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip02_A_surprising_relatable_insight_into_how_.jpg"
@@ -3045,8 +2985,8 @@
       "filename": "The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip03_Classic_setup-and-payoff_comedic_story_a.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ketchup Bottle Explodes on Friend's Expensive Blanket",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip03_Classic_setup-and-payoff_comedic_story_a.jpg"
@@ -3055,8 +2995,8 @@
       "filename": "The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip04_A_wholesome_funny_family_anecdote_about_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Creepy Baby Nickname Nobody Saw Coming",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip04_A_wholesome_funny_family_anecdote_about_.jpg"
@@ -3065,8 +3005,8 @@
       "filename": "The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip05_Raw_vulnerable_admission_about_his_wifes.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Worst Week of His Life: Cancer, Loss, and Survival",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip05_Raw_vulnerable_admission_about_his_wifes.jpg"
@@ -3075,8 +3015,8 @@
       "filename": "The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip06_A_counterintuitive_insight_into_music_in.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "How Ed Sheeran Stopped Music Industry Copyright Claims",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip06_A_counterintuitive_insight_into_music_in.jpg"
@@ -3085,8 +3025,8 @@
       "filename": "The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip07_An_outrageously_detailed_escalating_emba.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ed Sheeran Shits Himself Before a Major Game",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip07_An_outrageously_detailed_escalating_emba.jpg"
@@ -3095,8 +3035,8 @@
       "filename": "The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip08_An_inspiring_tension-filled_story_about_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Lost His Voice Before Stadium Show: How He Performed Anyway",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip08_An_inspiring_tension-filled_story_about_.jpg"
@@ -3105,8 +3045,8 @@
       "filename": "The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip09_A_quotable_reflective_moment_about_how_p.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ed Sheeran Redefines Success: It's Not About Chart Topping",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Ed_Sheeran_Episode__Friends_Keep_Sec_clip09_A_quotable_reflective_moment_about_how_p.jpg"
@@ -3116,7 +3056,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Self-Esteem Is Earned, Not Given",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip01_A_counterintuitive_quotable_claim_that_s.jpg"
@@ -3126,7 +3066,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Was Devastated Watching Springsteen Succeed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip02_A_vivid_relatable_story_of_comparing_his.jpg"
@@ -3136,7 +3076,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "My Mom Chased Me With a Knife",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip03_Raw_vulnerable_disclosure_about_childhoo.jpg"
@@ -3146,7 +3086,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "My Dad Rejected the Thanksgiving Turkey",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip04_A_tightly_told_childhood_story_with_real.jpg"
@@ -3156,7 +3096,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Even Billionaires Focus on What's Missing",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip05_A_sharp_surprising_insight_backed_by_aud.jpg"
@@ -3166,7 +3106,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why Kids Always Beat You at Video Games",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip06_A_hilarious_universally_relatable_bit_ab.jpg"
@@ -3176,7 +3116,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Sugar Pills Work as Well as Antidepressants",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip07_A_provocative_controversial_claim_citing.jpg"
@@ -3186,7 +3126,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Give When You Don't Have Anything",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip08_A_powerful_story_about_a_billionaire_aut.jpg"
@@ -3196,7 +3136,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Hold Hot Coffee to Seem Warmer to Others",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip09_A_fascinating_little-known_Harvard_study.jpg"
@@ -3206,7 +3146,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Always Hoped I Wouldn't Wake Up",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Man_That_Makes_Millionaires_How_To_T_clip01_A_raw_shocking_admission_of_suicidal_des.jpg"
@@ -3216,7 +3156,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Hardest Decision of His Life",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Man_That_Makes_Millionaires_How_To_T_clip02_A_gripping_personal_story_of_quitting_a_.jpg"
@@ -3226,7 +3166,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "My Dad Called to Apologize",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Man_That_Makes_Millionaires_How_To_T_clip03_An_emotionally_charged_unexpected_confro.jpg"
@@ -3236,7 +3176,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "You Can't Hate What You Understand",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Man_That_Makes_Millionaires_How_To_T_clip04_A_counterintuitive_screenshot-worthy_ins.jpg"
@@ -3256,7 +3196,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Think You Should Leave Me",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Man_That_Makes_Millionaires_How_To_T_clip06_A_high-stakes_emotional_rock-bottom_stor.jpg"
@@ -3286,7 +3226,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why Most Businesses Get Stuck at $1-3M",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip05_A_surprising_highly_practical_explanatio.jpg"
@@ -3296,7 +3236,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "A Billionaire Playing $10 Hands Loses Money",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip06_A_vivid_quotable_analogy_about_how_risk_.jpg"
@@ -3306,7 +3246,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Boogeyman in My Closet Taught Me Risk",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip07_A_vulnerable_personal_childhood_story_us.jpg"
@@ -3316,7 +3256,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Fear Only Exists in the Vague",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip08_A_genuinely_surprising_psychological_ins.jpg"
@@ -3326,7 +3266,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Entrepreneurship Is Like a Video Game",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip09_A_clever_highly_shareable_analogy_explai.jpg"
@@ -3336,7 +3276,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "What Will This Change About My Day",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip10_A_simple_powerful_personal_risk-filter_t.jpg"
@@ -3346,7 +3286,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "We're In Interest Media Now, Not Social Media",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip01_Opens_with_a_bold_reframing_of_social_me.jpg"
@@ -3356,7 +3296,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "A Banana Video Could Go Viral Tomorrow",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip02_A_wildly_specific_funny_hypothetical_ban.jpg"
@@ -3376,7 +3316,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Platforms Finally Want You to Win",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip04_A_surprising_historical_contrast_1992_TV.jpg"
@@ -3386,7 +3326,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Your Content Is Actually a Research Machine",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip05_Reveals_a_little-known_tactic__deliberat.jpg"
@@ -3396,7 +3336,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Trend-Haters Are Just Retired Athletes",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip06_A_sharp_funny_metaphor_overweight_athlet.jpg"
@@ -3406,7 +3346,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Sneakers Prove Trends Become Culture",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip07_A_relatable_visual_mini-story_with_a_cle.jpg"
@@ -3416,7 +3356,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "People Who Ignore Trends Are Just Lazy",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip08_Builds_a_rapid-fire_rhetorical_why_strea.jpg"
@@ -3456,7 +3396,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The False Ending Trick Steve Jobs Mastered",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_One_Social_Skill_That_Beats_All_The__clip05_Reveals_a_little-known_high-value_storyt.jpg"
@@ -3486,7 +3426,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Sufi Tale About Going Insane",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Power_Expert_Nothing_Is_Real_And_I_C_clip02_A_quotable_parable_about_a_sane_man_who_.jpg"
@@ -3496,7 +3436,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "My Bones Were Dissolving at My Own Funeral",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Power_Expert_Nothing_Is_Real_And_I_C_clip03_A_gripping_first-person_near-death_accou.jpg"
@@ -3506,7 +3446,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Death Reveals the World Is Fake",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Power_Expert_Nothing_Is_Real_And_I_C_clip04_A_mind-bending_claim_that_the_brain_cons.jpg"
@@ -3546,7 +3486,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "How Epstein Manipulated the Powerful",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Power_Expert_Nothing_Is_Real_And_I_C_clip08_A_chillingly_specific_breakdown_of_Epste.jpg"
@@ -3576,7 +3516,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why She Won't Spend Her Millions",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip03_Raw_vulnerable_admission_from_a_wealthy_.jpg"
@@ -3586,7 +3526,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Your Self-Image Caps Your Income",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip04_Counterintuitive_thermostat_theory_of_we.jpg"
@@ -3596,7 +3536,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "She Hired a $40K Coach When Broke",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip06_Tight_story_with_real_stakes_and_a_satis.jpg"
@@ -3606,7 +3546,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Paid $3 Million for a Lesson",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip07_A_shockingly_quotable_line_about_reframi.jpg"
@@ -3616,7 +3556,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Cleaning Your House Is Costing You Millions",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip08_Counterintuitive_math_showing_how_saving.jpg"
@@ -3626,7 +3566,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "My 8-Year-Old Named the Charismatic Kids",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip01_A_relatable_heartwarming_story_where_the.jpg"
@@ -3636,7 +3576,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Signal Everyone Forgets to Send",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip02_Reveals_the_counterintuitive_signal_ampl.jpg"
@@ -3646,7 +3586,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Fell for His Flattery Trick",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip03_A_funny_self-deprecating_dating_story_wi.jpg"
@@ -3656,7 +3596,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why Trying to Impress Backfires",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip04_A_provocative_counterintuitive_claim__tr.jpg"
@@ -3666,7 +3606,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Billionaire Introduction Circle",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip05_A_vivid_escalating_story_billionaire_can.jpg"
@@ -3676,7 +3616,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "The Easiest Person in the Room",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip06_The_surprising_payoff_to_the_party_story.jpg"
@@ -3696,7 +3636,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Teaching Your Competitors Actually Makes You Smarter",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip01_Counterintuitive_research_finding_helpin.jpg"
@@ -3735,8 +3675,8 @@
       "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip01_Tim_reveals_a_shocking_personal_experime.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "One Day Cured His Anxiety: The Shocking Treatment",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip01_Tim_reveals_a_shocking_personal_experime.jpg"
@@ -3745,8 +3685,8 @@
       "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip02_A_vivid_almost_unbelievable_story_of_an_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ketone Shot Like Stage Magic: Memory Restored Instantly",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip02_A_vivid_almost_unbelievable_story_of_an_.jpg"
@@ -3755,8 +3695,8 @@
       "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip03_A_relatable_surprising_personal_story_sh.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Vitamin D Was the Real Problem: Not What You Think",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip03_A_relatable_surprising_personal_story_sh.jpg"
@@ -3765,8 +3705,8 @@
       "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip04_A_jaw-dropping_little-known_scientific_c.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "This Drug Reversed Brain Age in Trauma Survivors",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip04_A_jaw-dropping_little-known_scientific_c.jpg"
@@ -3775,8 +3715,8 @@
       "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip05_A_funny_painfully_relatable_story_about_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "He Quit Social Media, Then Got Dragged Back In",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip05_A_funny_painfully_relatable_story_about_.jpg"
@@ -3785,8 +3725,8 @@
       "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip06_A_punchy_quotable_framework_for_living__.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Avoid the Simmering Six: On or Off, Never In-Between",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip06_A_punchy_quotable_framework_for_living__.jpg"
@@ -3795,8 +3735,8 @@
       "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip07_An_extremely_provocative_screenshot-wort.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Two Weeks Beats 10 Years of Therapy, Says Ferriss",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip07_An_extremely_provocative_screenshot-wort.jpg"
@@ -3805,8 +3745,8 @@
       "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip08_A_sharp_memorable_metaphor_for_productiv.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Are You Hunting Antelope or Mice: Focus Redefined",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip08_A_sharp_memorable_metaphor_for_productiv.jpg"
@@ -3815,8 +3755,8 @@
       "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip09_Tim_answers_directly_what_made_him_the_m.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Advice That Made Him Rich: The Strategy",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip09_Tim_answers_directly_what_made_him_the_m.jpg"
@@ -3825,8 +3765,8 @@
       "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip10_A_counterintuitive_insight_into_what_tru.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "What Top 1% Secretly Obsess Over: Attention Control",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip10_A_counterintuitive_insight_into_what_tru.jpg"
@@ -3835,8 +3775,8 @@
       "filename": "Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip01_Self-deprecating_quotable_admission_that.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tom Holland's Most-Watched Episode Was A Total Disaster",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip01_Self-deprecating_quotable_admission_that.jpg"
@@ -3845,8 +3785,8 @@
       "filename": "Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip02_A_running_in-joke_about_Tom_Hollands_odd.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-01T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Producer's Obsession With Lamb's Lettuce Escalates Fast",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip02_A_running_in-joke_about_Tom_Hollands_odd.jpg"
@@ -3855,8 +3795,8 @@
       "filename": "Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip03_A_silly_escalating_mix-up_over_how_to_pr.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-01T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "How Do You Even Pronounce Lionel Messi's Name",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip03_A_silly_escalating_mix-up_over_how_to_pr.jpg"
@@ -3865,8 +3805,8 @@
       "filename": "Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip04_Tom_Hollands_vivid_awe-filled_story_of_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-01T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tom Holland Went Starstruck Meeting Lionel Messi",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip04_Tom_Hollands_vivid_awe-filled_story_of_t.jpg"
@@ -3875,8 +3815,8 @@
       "filename": "Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip05_A_relatable_funny_teenage_barbecue_disas.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-01T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "His Halloumi Just Kept Disappearing Off The Grill",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip05_A_relatable_funny_teenage_barbecue_disas.jpg"
@@ -3885,8 +3825,8 @@
       "filename": "Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip06_A_surprising_little-known_detail_about_h.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-01T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Christopher Nolan Doesn't Own A Phone Or Email",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip06_A_surprising_little-known_detail_about_h.jpg"
@@ -3895,8 +3835,8 @@
       "filename": "Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip07_A_wild_vivid_behind-the-scenes_story_abo.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-01T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "IMAX Cameras Only Run For 2.5 Minutes, Then They Whisper",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip07_A_wild_vivid_behind-the-scenes_story_abo.jpg"
@@ -3905,8 +3845,8 @@
       "filename": "Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip08_A_short_perfectly_delivered_anecdote_whe.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-01T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Nolan Was Baffled Movies Get Sent On iPads Now",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip08_A_short_perfectly_delivered_anecdote_whe.jpg"
@@ -3915,8 +3855,8 @@
       "filename": "Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip09_A_brutally_honest_self-aware_one-liner_a.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-01T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Celebrities Can't Even Make Their Own Dinner Reservations",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_LOVES_Our_Halloumi_and_Padró_clip09_A_brutally_honest_self-aware_one-liner_a.jpg"
@@ -3925,8 +3865,8 @@
       "filename": "Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip01_A_fun_quotable_hypothetical_about_an_alt.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Timothy Chalamet As Spider-Man? Tom Holland Reacts",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip01_A_fun_quotable_hypothetical_about_an_alt.jpg"
@@ -3935,8 +3875,8 @@
       "filename": "Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip02_Genuinely_funny_replayed_clip_of_Zendaya.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "What If Spider-Man Throws Up In The Mask?",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip02_Genuinely_funny_replayed_clip_of_Zendaya.jpg"
@@ -3945,8 +3885,8 @@
       "filename": "Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip03_Surprising_behind-the-scenes_reveal_that.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Real Story Behind 'I Don't Feel So Good'",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip03_Surprising_behind-the-scenes_reveal_that.jpg"
@@ -3955,8 +3895,8 @@
       "filename": "Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip04_A_tight_funny_on-set_story_with_a_clear_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Anthony Mackie Surprised Tom Holland On Set",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip04_A_tight_funny_on-set_story_with_a_clear_.jpg"
@@ -3965,8 +3905,8 @@
       "filename": "Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip05_Raw_honest_moment_about_the_emotional_we.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tom Holland Kept The Secret For A Year",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip05_Raw_honest_moment_about_the_emotional_we.jpg"
@@ -3975,8 +3915,8 @@
       "filename": "Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip06_A_hilariously_specific_quotable_pitch_ve.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tom Holland Pitched 'Spider Puberty' To Marvel",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip06_A_hilariously_specific_quotable_pitch_ve.jpg"
@@ -3985,8 +3925,8 @@
       "filename": "Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip07_Kevin_Feiges_candid_funny_rapid-fire_adm.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Kevin Feige's Brutal Adam Driver Confession",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_SPIDER-MAN_BRAND_NEW_DAY__clip07_Kevin_Feiges_candid_funny_rapid-fire_adm.jpg"
@@ -3995,8 +3935,8 @@
       "filename": "We_made_Tom_Holland_the_best_Christmas_f_clip01_A_raw_vulnerable_admission_about_early_s.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Made My Own Beer to Get Sober",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/We_made_Tom_Holland_the_best_Christmas_f_clip01_A_raw_vulnerable_admission_about_early_s.jpg"
@@ -4005,8 +3945,8 @@
       "filename": "We_made_Tom_Holland_the_best_Christmas_f_clip02_A_vulnerable_tightly-told_story_with_rea.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Alone With COVID on Christmas Day",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/We_made_Tom_Holland_the_best_Christmas_f_clip02_A_vulnerable_tightly-told_story_with_rea.jpg"
@@ -4015,8 +3955,8 @@
       "filename": "We_made_Tom_Holland_the_best_Christmas_f_clip03_An_awkward_funny_live_blooper_moment_wit.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "They Burnt the Pigs in Blankets Live",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/We_made_Tom_Holland_the_best_Christmas_f_clip03_An_awkward_funny_live_blooper_moment_wit.jpg"
@@ -4025,8 +3965,8 @@
       "filename": "We_made_Tom_Holland_the_best_Christmas_f_clip04_Escalating_naturally_funny_riff_on_dogs_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Sitting Next to a Doberman at the Cinema",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/We_made_Tom_Holland_the_best_Christmas_f_clip04_Escalating_naturally_funny_riff_on_dogs_.jpg"
@@ -4035,8 +3975,8 @@
       "filename": "We_made_Tom_Holland_the_best_Christmas_f_clip05_A_rapid-fire_run_of_groan-worthy_Christm.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tom Holland's Worst Christmas Jokes",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/We_made_Tom_Holland_the_best_Christmas_f_clip05_A_rapid-fire_run_of_groan-worthy_Christm.jpg"
@@ -4045,8 +3985,8 @@
       "filename": "We_made_Tom_Holland_the_best_Christmas_f_clip06_A_perfectly_structured_surprising_story_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Found Out I Was Spider-Man on Instagram",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/We_made_Tom_Holland_the_best_Christmas_f_clip06_A_perfectly_structured_surprising_story_.jpg"
@@ -4055,8 +3995,8 @@
       "filename": "We_made_Tom_Holland_the_best_Christmas_f_clip07_A_quotable_self-deprecating_confession_f.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-01T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Haven't Worked in Three Years",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/We_made_Tom_Holland_the_best_Christmas_f_clip07_A_quotable_self-deprecating_confession_f.jpg"
@@ -4065,8 +4005,8 @@
       "filename": "We_made_Tom_Holland_the_best_Christmas_f_clip08_A_fast_quotable_quickfire_round_packed_w.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-01T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tom Holland's Rapid Christmas Food Quiz",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/We_made_Tom_Holland_the_best_Christmas_f_clip08_A_fast_quotable_quickfire_round_packed_w.jpg"
@@ -4076,7 +4016,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why Perfection Is Impossible: The Psychology of Instant Relief",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip01_A_sharp_relatable_insight_that_chasing_p.jpg"
@@ -4086,7 +4026,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Can't Stop Doing This: The Burden of Helping Others",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip02_A_raw_emotional_confession_about_being_u.jpg"
@@ -4096,7 +4036,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Why Criticism Feels Like Rejection: An Evolutionary Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip03_A_counterintuitive_evolutionary_explanat.jpg"
@@ -4106,7 +4046,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "I Thought My Dad Was in Prison: How Childhood Shapes Love",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip04_A_stunning_tightly-told_personal_story_w.jpg"
@@ -4116,7 +4056,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "A Fake Story Almost Cost Me My Girlfriend: Media Lies",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip05_Raw_vulnerable_admission_that_a_baseless.jpg"
@@ -4146,7 +4086,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Confidence Can't Grow Without This: The Vulnerability Balloon",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip08_A_memorable_balloon_analogy_explaining_t.jpg"
@@ -4156,7 +4096,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "failed",
+      "scheduleStatus": "uploading",
       "title": "Death Makes Life More Precious: The Scarcity Reframe",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip09_A_striking_provocative_reframe_using_the.jpg"
