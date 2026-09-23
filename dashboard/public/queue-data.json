@@ -2292,13 +2292,13 @@
       "id": "muebh1yejc0k",
       "url": "https://www.youtube.com/watch?v=GOqEl4ADyVk",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-09-23T16:27:58.118Z",
       "startedAt": "2026-09-23T17:57:16.836Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-09-23T19:06:56.249Z",
+      "clipsCount": 8,
+      "batchId": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi",
       "error": null
     }
   ]
