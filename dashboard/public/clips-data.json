@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:22:56.027Z",
+  "lastUpdated": "2026-09-23T16:23:01.449Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1996,7 +1996,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "My Dying Mother Feared My Success: The Final Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip05_A_deeply_emotional_true_story_about_his_.jpg"
@@ -2503,10 +2503,10 @@
     },
     {
       "filename": "Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip06_A_sharp_counterintuitive_mindset_insight.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "0Ybjh3zettM",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "You've Already Lost Before You Started",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip06_A_sharp_counterintuitive_mindset_insight.jpg"
@@ -3326,7 +3326,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "Your Content Is Actually a Research Machine",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip05_Reveals_a_little-known_tactic__deliberat.jpg"
