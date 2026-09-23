@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:20:13.448Z",
+  "lastUpdated": "2026-09-23T16:20:21.227Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2496,7 +2496,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "100 Million Wouldn't Make Me Stop",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip05_Raw_emotional_conviction_as_he_turns_dow.jpg"
