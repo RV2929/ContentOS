@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:21:57.020Z",
+  "lastUpdated": "2026-09-23T16:22:03.291Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -396,7 +396,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "What's In Your Heart? Silence: A Friendship Moment",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip04_A_raw_vulnerable_personal_story_with_gen.jpg"
@@ -1893,10 +1893,10 @@
     },
     {
       "filename": "How_to_Eliminate_Self-Doubt_Forever__Bui_clip04_A_counterintuitive_research-backed_claim.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "FEusSN2SORU",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Stop Using Positive Affirmations Right Now",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Eliminate_Self-Doubt_Forever__Bui_clip04_A_counterintuitive_research-backed_claim.jpg"
