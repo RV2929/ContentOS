@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T23:16:08.408Z",
+  "lastUpdated": "2026-09-23T23:27:17.849Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1295,8 +1295,8 @@
       "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip04_A_high-stakes_dramatic_story_about_a_sta.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Stadium Stage Collapsed 20 Minutes Before Show",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip04_A_high-stakes_dramatic_story_about_a_sta.jpg"
