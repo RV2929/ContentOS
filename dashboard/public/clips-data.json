@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:20:50.814Z",
+  "lastUpdated": "2026-09-23T16:21:00.676Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2133,10 +2133,10 @@
     },
     {
       "filename": "How_to_Unlock_Your_Flirting_Superpowers__clip05_Lands_a_genuinely_funny_scripted_flirt_l.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "8LNTWltUv5M",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "The Eyebrow Flirt Trick That Actually Works",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Unlock_Your_Flirting_Superpowers__clip05_Lands_a_genuinely_funny_scripted_flirt_l.jpg"
@@ -2146,7 +2146,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "Count Your Heartbeat Without a Pulse",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip06_A_surprising_testable_neuroscience_fact_.jpg"
@@ -3296,7 +3296,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "A Banana Video Could Go Viral Tomorrow",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip02_A_wildly_specific_funny_hypothetical_ban.jpg"
@@ -4026,7 +4026,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "I Can't Stop Doing This: The Burden of Helping Others",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip02_A_raw_emotional_confession_about_being_u.jpg"
