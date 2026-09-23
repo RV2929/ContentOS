@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:23:12.939Z",
+  "lastUpdated": "2026-09-23T16:23:16.173Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1106,7 +1106,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "Ed Sheeran's Band Walks Out: Inside the Billionaire Meltdown",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip01_A_juicy_real-world_story_with_stakes_bil.jpg"
