@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:21:38.146Z",
+  "lastUpdated": "2026-09-23T16:21:51.201Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -43,10 +43,10 @@
     },
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip08_A_counterintuitive_claimthat_many_people.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "L-PfHGbyzmk",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "You're Not Famous Because You Can't Handle Success",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip08_A_counterintuitive_claimthat_many_people.jpg"
@@ -1973,10 +1973,10 @@
     },
     {
       "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip03_A_striking_Kierkegaard_anecdote_paired_w.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "fU-s7SISREg",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "He Didn't Know He Was Alive: The Kierkegaard Wake-Up Call",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip03_A_striking_Kierkegaard_anecdote_paired_w.jpg"
@@ -2926,7 +2926,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "People Chose Anger Over Joy in Brain Study",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Easy_Habit_That_Sets_Your_Mood_For_T_clip07_A_shocking_real_brain-stimulation_study_.jpg"
@@ -3096,7 +3096,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "Even Billionaires Focus on What's Missing",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip05_A_sharp_surprising_insight_backed_by_aud.jpg"
