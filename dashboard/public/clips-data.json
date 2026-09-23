@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:23:40.022Z",
+  "lastUpdated": "2026-09-23T16:23:53.611Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -266,7 +266,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "Can You Build Courage? Yes. Here's the Protocol.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip07_A_direct_hopeful_question_answered_with_.jpg"
@@ -1726,7 +1726,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "No One Ever Saved Me | David Goggins Raw Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip03_A_gut-punch_emotional_moment_where_Goggi.jpg"
@@ -3263,10 +3263,10 @@
     },
     {
       "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip09_A_clever_highly_shareable_analogy_explai.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "rpBuMbROGIo",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Entrepreneurship Is Like a Video Game",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip09_A_clever_highly_shareable_analogy_explai.jpg"
@@ -3423,10 +3423,10 @@
     },
     {
       "filename": "The_Power_Expert_Nothing_Is_Real_And_I_C_clip02_A_quotable_parable_about_a_sane_man_who_.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "omVg9avAWno",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "The Sufi Tale About Going Insane",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Power_Expert_Nothing_Is_Real_And_I_C_clip02_A_quotable_parable_about_a_sane_man_who_.jpg"
@@ -3576,7 +3576,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "The Signal Everyone Forgets to Send",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip02_Reveals_the_counterintuitive_signal_ampl.jpg"
@@ -4036,7 +4036,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "Why Criticism Feels Like Rejection: An Evolutionary Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip03_A_counterintuitive_evolutionary_explanat.jpg"
