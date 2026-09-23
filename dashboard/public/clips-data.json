@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T01:48:45.509Z",
+  "lastUpdated": "2026-09-23T01:48:48.838Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1135,8 +1135,8 @@
       "filename": "Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip03_A_dark_rapid-fire_conspiracy_riff_on_gov.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Who Do We Have Leverage On? Government Blackmail Theory Explained",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip03_A_dark_rapid-fire_conspiracy_riff_on_gov.jpg"
@@ -2175,8 +2175,8 @@
       "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip08_A_little-known_insight_suggesting_watchi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Gym Mirrors Might Hurt Your Gains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip08_A_little-known_insight_suggesting_watchi.jpg"
@@ -3305,8 +3305,8 @@
       "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip07_A_vulnerable_personal_childhood_story_us.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Boogeyman in My Closet Taught Me Risk",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip07_A_vulnerable_personal_childhood_story_us.jpg"
@@ -3645,8 +3645,8 @@
       "filename": "The_Real_Secret_to_Having_Aura_Science-B_clip03_A_funny_self-deprecating_dating_story_wi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Fell for His Flattery Trick",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip03_A_funny_self-deprecating_dating_story_wi.jpg"
