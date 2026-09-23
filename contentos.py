@@ -227,8 +227,8 @@ Description: "{video_description}"
 {clips_block}
 
 For EACH clip generate:
-- title: 60–100 chars, punchy, curiosity-driven, expert/authority framing when relevant. No emojis.
-- description: 2 sentences that tease without spoiling. No hashtags in the description text.
+- title: 60–100 chars, punchy, curiosity-driven, expert/authority framing when relevant. Include 1–2 relevant emojis naturally within the title to match the content's tone (e.g. 🔥 for bold claims, 😱 for shocking reveals, 💪 for motivation, 🧠 for insight) — tasteful, not random or excessive.
+- description: 2 sentences that tease without spoiling. Open with 1 relevant emoji that matches the clip's tone. No hashtags in the description text.
 - speaker_hashtag: a single lowercase hashtag for the video's main speaker/guest (e.g. "#taylorswift"), identified from the uploader/description/title above — not the channel's own brand name unless the channel IS the speaker. No spaces or punctuation besides the leading #. If no individual speaker can be confidently identified, return "".
 - topical_hashtags: an array of 6–10 hashtags specific to this clip's content (e.g. "#Entrepreneurship", "#PersonalBrand", "#StartupLife") — do NOT include the channel hashtags ({channel_hashtags_str}){' or #Shorts' if leading_tag else ''}, and do not repeat the speaker_hashtag.
 
