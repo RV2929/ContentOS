@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:19:33.063Z",
+  "lastUpdated": "2026-09-23T16:19:39.287Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2153,10 +2153,10 @@
     },
     {
       "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip07_Reveals_a_peer-reviewed_counterintuitive.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "dIZ1TMKayUk",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "The Science Behind Mind-Muscle Connection",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip07_Reveals_a_peer-reviewed_counterintuitive.jpg"
