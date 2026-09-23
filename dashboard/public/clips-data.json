@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:22:03.291Z",
+  "lastUpdated": "2026-09-23T16:22:15.481Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -323,10 +323,10 @@
     },
     {
       "filename": "Andrew_Huberman_My_Exact_Routine_To_Opti_clip05_A_jarring_quotable_claim_you_are_brain_d.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "TU8TGIhMtyM",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Cold Plunges Cause Temporary Brain Damage, Here's Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_My_Exact_Routine_To_Opti_clip05_A_jarring_quotable_claim_you_are_brain_d.jpg"
@@ -1646,7 +1646,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "No One Can Predict Your Cannabis Reaction",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_provocative_claim_that_even_science_ca.jpg"
@@ -2206,7 +2206,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "My Mother's Secret Million Dollar Portfolio: 55 Year Surprise",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip06_An_emotional_surprising_story_about_his_.jpg"
@@ -2413,10 +2413,10 @@
     },
     {
       "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip02_A_relatable_funny_mini-story_with_a_clea.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "dmscIAzJMOY",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Mark Zuckerberg's AI Agent Makes Him Cake Pops. Here's What Happened.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip02_A_relatable_funny_mini-story_with_a_clea.jpg"
@@ -3246,7 +3246,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "The Boogeyman in My Closet Taught Me Risk",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip07_A_vulnerable_personal_childhood_story_us.jpg"
@@ -3636,7 +3636,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "Teaching Your Competitors Actually Makes You Smarter",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip01_Counterintuitive_research_finding_helpin.jpg"
