@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:20:04.334Z",
+  "lastUpdated": "2026-09-23T16:20:13.448Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2423,10 +2423,10 @@
     },
     {
       "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip03_Genuine_humor_as_his_own_AI_agent_calls_.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "nP3ryHip-CU",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Zuckerberg's AI Roasts Him During MMA Training. He Loved It.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip03_Genuine_humor_as_his_own_AI_agent_calls_.jpg"
