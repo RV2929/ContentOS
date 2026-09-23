@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:19:39.287Z",
+  "lastUpdated": "2026-09-23T16:19:45.101Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -96,7 +96,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "Why Failing Reps Are Actually Your Best Friend",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip06_A_sharp_screenshot-worthy_mindset_shift_.jpg"
