@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T22:13:11.391Z",
+  "lastUpdated": "2026-09-23T22:13:14.895Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1285,8 +1285,8 @@
       "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip03_A_rapid-fire_absurd_comedic_bit_about_ho.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Id Yell I Have a Meat Cleaver During Home Invasion",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip03_A_rapid-fire_absurd_comedic_bit_about_ho.jpg"
@@ -2875,8 +2875,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip03_Relatable_underdog_story_with_built-in_h.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Bullied for Ballet at Rugby School 🩰 | Tom Holland",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip03_Relatable_underdog_story_with_built-in_h.jpg"
