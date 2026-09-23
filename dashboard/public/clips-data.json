@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:23:31.802Z",
+  "lastUpdated": "2026-09-23T16:23:40.022Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2853,10 +2853,10 @@
     },
     {
       "filename": "Sam_Altman_on_Astra_AGI_and_the_future_o_clip08_A_rare_moment_of_corporate_vulnerability.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "xh49pSb38oA",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Sam Altman Admits Our Worst Year Was Mostly My Fault",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip08_A_rare_moment_of_corporate_vulnerability.jpg"
@@ -3356,7 +3356,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "People Who Ignore Trends Are Just Lazy",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_New_Era_of_Social_Media_Has_Just_Beg_clip08_Builds_a_rapid-fire_rhetorical_why_strea.jpg"
