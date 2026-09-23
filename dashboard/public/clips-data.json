@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:23:16.173Z",
+  "lastUpdated": "2026-09-23T16:23:20.157Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2813,10 +2813,10 @@
     },
     {
       "filename": "Sam_Altman_on_Astra_AGI_and_the_future_o_clip04_A_counterintuitive_business_insight_Altm.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "xEWSegAWCYM",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Why OpenAI Wants to Be the Transistor, Not the Computer",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip04_A_counterintuitive_business_insight_Altm.jpg"
@@ -3523,10 +3523,10 @@
     },
     {
       "filename": "The_Psychology_of_Making_Money_clip04_Counterintuitive_thermostat_theory_of_we.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "1WK46ozIWfs",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "Your Self-Image Caps Your Income",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip04_Counterintuitive_thermostat_theory_of_we.jpg"
