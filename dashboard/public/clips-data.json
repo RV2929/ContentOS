@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T05:15:05.817Z",
+  "lastUpdated": "2026-09-23T05:15:09.106Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3335,8 +3335,8 @@
       "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip10_A_simple_powerful_personal_risk-filter_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T05:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "What Will This Change About My Day",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip10_A_simple_powerful_personal_risk-filter_t.jpg"
@@ -3675,8 +3675,8 @@
       "filename": "The_Real_Secret_to_Having_Aura_Science-B_clip06_The_surprising_payoff_to_the_party_story.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T05:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Easiest Person in the Room",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Real_Secret_to_Having_Aura_Science-B_clip06_The_surprising_payoff_to_the_party_story.jpg"
