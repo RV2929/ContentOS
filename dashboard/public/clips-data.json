@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T19:28:58.031Z",
+  "lastUpdated": "2026-09-23T20:52:06.265Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1275,8 +1275,8 @@
       "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip02_A_genuinely_funny_relatable_story_about_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ed Sheeran Fished for an Hour Without Bait",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip02_A_genuinely_funny_relatable_story_about_.jpg"
@@ -2865,8 +2865,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip02_A_sharp_screenshot-worthy_Christian_Bale.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-23T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "If You Have My Number, Text Me 💬 | Tom Holland",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip02_A_sharp_screenshot-worthy_Christian_Bale.jpg"
