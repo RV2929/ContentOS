@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T16:21:12.503Z",
+  "lastUpdated": "2026-09-23T16:21:21.144Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2336,7 +2336,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "Financial Stress Makes Men Less Attractive",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/MONEY_EXPERTS_If_I_Had_to_Make_1_MILLION_clip04_A_provocative_counterintuitive_claim_abo.jpg"
@@ -2446,7 +2446,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "failed",
       "title": "Meta Built Its AI So It Can't Even Spy on You. Here's Why.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip05_A_surprising_high-trust_admission_that_M.jpg"
@@ -4043,10 +4043,10 @@
     },
     {
       "filename": "World_Leading_Psychologist_How_To_Detach_clip04_A_stunning_tightly-told_personal_story_w.mp4",
-      "status": "ready",
-      "youtubeId": "",
+      "status": "posted",
+      "youtubeId": "JAzfopPsfDs",
       "scheduledAt": null,
-      "scheduleStatus": "uploading",
+      "scheduleStatus": "done",
       "title": "I Thought My Dad Was in Prison: How Childhood Shapes Love",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip04_A_stunning_tightly-told_personal_story_w.jpg"
