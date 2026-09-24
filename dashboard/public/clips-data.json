@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T15:29:50.779Z",
+  "lastUpdated": "2026-09-24T15:48:39.486Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1283,10 +1283,10 @@
     },
     {
       "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip02_A_sharp_funny_cultural_observation_from_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-24T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "LkmXEIO-ql4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "British Guy Discovers American Chicken Wings Are on Steroids",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip02_A_sharp_funny_cultural_observation_from_.jpg"
