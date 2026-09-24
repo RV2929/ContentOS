@@ -2716,6 +2716,19 @@
       "clipsCount": 0,
       "batchId": null,
       "error": null
+    },
+    {
+      "id": "mufokhxk3xlz",
+      "url": "https://www.youtube.com/watch?v=Gu04f6aFuBY",
+      "title": "",
+      "status": "queued",
+      "channel": "podcast",
+      "addedAt": "2026-09-24T15:22:19.976Z",
+      "startedAt": null,
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
