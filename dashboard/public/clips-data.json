@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T05:02:33.110Z",
+  "lastUpdated": "2026-09-24T06:26:39.376Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1035,8 +1035,8 @@
       "filename": "Ed_Sheeran_No_Fluff_Interview_Overcoming_clip01_Ed_reveals_an_insider_secret_music-indus.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Taylor Swift's Briefcase Wasn't Even Locked",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_No_Fluff_Interview_Overcoming_clip01_Ed_reveals_an_insider_secret_music-indus.jpg"
