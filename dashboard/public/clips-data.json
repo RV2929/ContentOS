@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T16:55:25.880Z",
+  "lastUpdated": "2026-09-24T17:00:51.950Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1413,10 +1413,10 @@
     },
     {
       "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip03_Counterintuitive_insight_about_fandom_ps.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-24T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "TxiGOt6CKZM",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why People Either LOVE or HATE Ed Sheeran (The Real Reason)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip03_Counterintuitive_insight_about_fandom_ps.jpg"
