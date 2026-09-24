@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T03:01:22.327Z",
+  "lastUpdated": "2026-09-24T04:13:04.574Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1335,8 +1335,8 @@
       "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip08_A_vulnerable_emotional_confession_about_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ed Sheeran Missed His Grandmother's Funeral",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip08_A_vulnerable_emotional_confession_about_.jpg"
