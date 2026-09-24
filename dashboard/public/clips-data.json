@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T09:54:05.569Z",
+  "lastUpdated": "2026-09-24T11:00:51.793Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1073,10 +1073,10 @@
     },
     {
       "filename": "Ed_Sheeran_No_Fluff_Interview_Overcoming_clip05_Raw_relatable_vulnerability_as_Ed_admits.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-24T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "O7mHGqRfZbU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Ed Sheeran is Jealous of Parents Pushing Swings",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_No_Fluff_Interview_Overcoming_clip05_Raw_relatable_vulnerability_as_Ed_admits.jpg"
@@ -4023,10 +4023,10 @@
     },
     {
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip03_Bizarre_funny_tangent_about_lab-grown_ch.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-24T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Xb8SWBb-9f4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Could You Grow Human Meat? 🤔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip03_Bizarre_funny_tangent_about_lab-grown_ch.jpg"
