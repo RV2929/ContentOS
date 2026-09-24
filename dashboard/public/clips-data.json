@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T00:32:02.742Z",
+  "lastUpdated": "2026-09-24T01:54:00.424Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1315,8 +1315,8 @@
       "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip06_A_counterintuitive_insight_into_songwrit.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Shape of You Came From 4 Terrible Songs",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip06_A_counterintuitive_insight_into_songwrit.jpg"
