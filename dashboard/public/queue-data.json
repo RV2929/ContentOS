@@ -2237,19 +2237,6 @@
       "error": null
     },
     {
-      "id": "mucwq88zizr6",
-      "url": "https://www.youtube.com/watch?v=Sj8VlTGFBIs",
-      "title": "",
-      "status": "failed",
-      "channel": "podcast",
-      "addedAt": "2026-09-22T16:47:25.763Z",
-      "startedAt": "2026-09-22T18:07:03.055Z",
-      "completedAt": "2026-09-22T18:07:06.746Z",
-      "clipsCount": 0,
-      "batchId": null,
-      "error": "\", self.Styles.ERROR)} {message}', *args, **kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1103, in trouble\n    raise DownloadError(message, ex"
-    },
-    {
       "id": "mucwqd704uya",
       "url": "https://www.youtube.com/watch?v=GOqEl4ADyVk",
       "title": "",
@@ -2335,6 +2322,19 @@
       "channel": "podcast",
       "addedAt": "2026-09-24T12:51:48.972Z",
       "startedAt": "2026-09-24T12:51:48.983Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
+    },
+    {
+      "id": "mufj71vcyrs6",
+      "url": "https://www.youtube.com/watch?v=Sj8VlTGFBIs",
+      "title": "",
+      "status": "queued",
+      "channel": "podcast",
+      "addedAt": "2026-09-24T12:51:54.552Z",
+      "startedAt": null,
       "completedAt": null,
       "clipsCount": 0,
       "batchId": null,
