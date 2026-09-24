@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T04:13:04.574Z",
+  "lastUpdated": "2026-09-24T05:02:33.110Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1343,10 +1343,10 @@
     },
     {
       "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip09_A_raw_intimate_moment_where_Ed_Sheeran_s.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-24T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "O-sV8LtOtDE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Ed Sheeran Sings the Song He Wants at His Funeral",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip09_A_raw_intimate_moment_where_Ed_Sheeran_s.jpg"
