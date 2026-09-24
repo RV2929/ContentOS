@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T19:14:27.263Z",
+  "lastUpdated": "2026-09-24T19:24:52.679Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1583,10 +1583,10 @@
     },
     {
       "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip05_A_perfectly_structured_embarrassing_stor.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-24T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "J49dNdM2i7c",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Caught NAKED in Hotel Hallway at 4AM by Security",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip05_A_perfectly_structured_embarrassing_stor.jpg"
@@ -1820,6 +1820,86 @@
       "title": "Skydiving Spikes Testosterone Because of How Your Mind Interprets Stress",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Essentials_Science_of_Mindsets_for_Healt_clip06_A_surprising_mechanistic_science_nugget_.jpg"
+    },
+    {
+      "filename": "Everything_Revealed_-_My_Most_Personal_I_clip01_A_jaw-dropping_untold_story_Ronaldo_terr.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Everything_Revealed_-_My_Most_Personal_I_clip01_A_jaw-dropping_untold_story_Ronaldo_terr.jpg"
+    },
+    {
+      "filename": "Everything_Revealed_-_My_Most_Personal_I_clip02_A_playful_back-and-forth_where_the_inter.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Everything_Revealed_-_My_Most_Personal_I_clip02_A_playful_back-and-forth_where_the_inter.jpg"
+    },
+    {
+      "filename": "Everything_Revealed_-_My_Most_Personal_I_clip03_Raw_honesty_and_visible_sadness_as_Ronal.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Everything_Revealed_-_My_Most_Personal_I_clip03_Raw_honesty_and_visible_sadness_as_Ronal.jpg"
+    },
+    {
+      "filename": "Everything_Revealed_-_My_Most_Personal_I_clip04_A_rare_reflective_insight_from_a_billion.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Everything_Revealed_-_My_Most_Personal_I_clip04_A_rare_reflective_insight_from_a_billion.jpg"
+    },
+    {
+      "filename": "Everything_Revealed_-_My_Most_Personal_I_clip05_A_genuinely_funny_unexpected_confession_.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Everything_Revealed_-_My_Most_Personal_I_clip05_A_genuinely_funny_unexpected_confession_.jpg"
+    },
+    {
+      "filename": "Everything_Revealed_-_My_Most_Personal_I_clip06_An_absurd_highly_quotable_moment_where_a.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Everything_Revealed_-_My_Most_Personal_I_clip06_An_absurd_highly_quotable_moment_where_a.jpg"
+    },
+    {
+      "filename": "Everything_Revealed_-_My_Most_Personal_I_clip07_A_rare_vulnerable_admission_from_a_globa.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Everything_Revealed_-_My_Most_Personal_I_clip07_A_rare_vulnerable_admission_from_a_globa.jpg"
+    },
+    {
+      "filename": "Everything_Revealed_-_My_Most_Personal_I_clip08_A_heartwarming_funny_and_unpredictable_s.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
     },
     {
       "filename": "Harvard_Dropout_Hard_Work_Is_Dead_Use_AI_clip10_A_bold_controversial_claim_delivered_wit.mp4",
