@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T13:21:20.901Z",
+  "lastUpdated": "2026-09-24T13:24:40.487Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1196,7 +1196,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-24T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Ed Sheeran is Terrified of Being Alone",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_No_Fluff_Interview_Overcoming_clip07_A_surprising_and_vulnerable_confession_f.jpg"
@@ -4143,10 +4143,10 @@
     },
     {
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip05_Raw_self-aware_vulnerability_about_strug.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-24T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "yw6YOat8Mjs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "My First World Spider-Man Problem 🕷️",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip05_Raw_self-aware_vulnerability_about_strug.jpg"
