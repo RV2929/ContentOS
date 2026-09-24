@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T18:07:31.248Z",
+  "lastUpdated": "2026-09-24T18:12:52.063Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1573,10 +1573,10 @@
     },
     {
       "filename": "Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip04_A_heartfelt_story_about_preserving_both_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-24T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "B5Kk59yGyq4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "He Built a Pub to Honor Both Moms' Maiden Names",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip04_A_heartfelt_story_about_preserving_both_.jpg"
