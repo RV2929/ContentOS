@@ -2305,13 +2305,13 @@
       "id": "muf7l100ivax",
       "url": "https://www.youtube.com/watch?v=Sj8VlTGFBIs",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-09-24T07:26:51.216Z",
       "startedAt": "2026-09-24T07:26:51.220Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-09-24T07:51:22.069Z",
+      "clipsCount": 7,
+      "batchId": "Tom_Holland_on_Going_Sober__Building_a_B",
       "error": null
     },
     {
