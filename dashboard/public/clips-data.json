@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T11:00:51.793Z",
+  "lastUpdated": "2026-09-24T12:12:18.374Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1083,10 +1083,10 @@
     },
     {
       "filename": "Ed_Sheeran_No_Fluff_Interview_Overcoming_clip06_Genuine_raw_emotion_as_Ed_opens_up_about.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-24T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "9dJQE5jD5qM",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "What Made Ed Sheeran Cry in the Interview",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_No_Fluff_Interview_Overcoming_clip06_Genuine_raw_emotion_as_Ed_opens_up_about.jpg"
@@ -4033,10 +4033,10 @@
     },
     {
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip04_Startling_emotional_explanation_of_a_rar.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-24T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "pYYP_zhb7_o",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Skin Disease No One Knows About 💔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip04_Startling_emotional_explanation_of_a_rar.jpg"
