@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T01:54:00.424Z",
+  "lastUpdated": "2026-09-24T03:01:22.327Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1325,8 +1325,8 @@
       "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip07_A_gripping_story_with_real_tension_and_s.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-24T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Toughest Gig of Ed Sheeran's Life",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip07_A_gripping_story_with_real_tension_and_s.jpg"
