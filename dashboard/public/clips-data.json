@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T21:55:36.371Z",
+  "lastUpdated": "2026-09-24T23:00:34.159Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1236,7 +1236,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-24T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "GUN TO MY HEAD: The Moment That Changed Everything 🔫",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Druski_Theyre_Lying_To_You_About_Overnig_clip01_Opens_with_shocking_violence_and_a_life-.jpg"
@@ -1616,7 +1616,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-24T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "NEVER HAVE A PLAN B: Career Advice That Changed Everything",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_You_Either_Love_Me_or_Hate_Me_clip08_A_powerful_quotable_piece_of_career_advi.jpg"
@@ -3936,7 +3936,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-24T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "IF YOU HAVE A PROBLEM, TEXT ME 📱 | Celebrity Advice",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_A_punchy_screenshot-worthy_Christian_Bal.jpg"
@@ -3956,7 +3956,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-24T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "ADDICTED TO A FALSE LIFE 📱 | Tom Holland's Raw Confession",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_vulnerable_confession_about_social_m.jpg"
@@ -4116,7 +4116,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-24T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Dry January Became Forever Sober 🛑 | Tom Holland",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip04_Honest_escalating_personal_story_of_real.jpg"
@@ -5202,6 +5202,66 @@
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip05_A_genuinely_funny_anecdote_about_a_kid_t.jpg"
     },
     {
+      "filename": "The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip01_A_bizarre_quotable_analogy_comparing_Cha.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip01_A_bizarre_quotable_analogy_comparing_Cha.jpg"
+    },
+    {
+      "filename": "The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip02_Chaotic_energy_repeated_yeah_chanting_an.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip02_Chaotic_energy_repeated_yeah_chanting_an.jpg"
+    },
+    {
+      "filename": "The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip03_Reveals_a_little-known_fact_that_Ronaldo.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip03_Reveals_a_little-known_fact_that_Ronaldo.jpg"
+    },
+    {
+      "filename": "The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip04_Shocking_reveal_that_Ronaldos_name_comes.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip04_Shocking_reveal_that_Ronaldos_name_comes.jpg"
+    },
+    {
+      "filename": "The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip05_A_jaw-dropping_stat_about_Ronaldos_socia.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip05_A_jaw-dropping_stat_about_Ronaldos_socia.jpg"
+    },
+    {
+      "filename": "The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip06_An_unexpected_personal_detailChampagne_S.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
+    },
+    {
       "filename": "The_Ultimate_Christmas_Surprise_for_Cris_clip01_A_cute_repetitive_toddler_exchange_vamos.mp4",
       "status": "ready",
       "youtubeId": "",
@@ -5706,7 +5766,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-24T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Sobriety Is Cheaper, Not Free 🧠",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip07_Sharp_quotable_insight_reframing_sobriet.jpg"
