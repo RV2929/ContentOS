@@ -1348,6 +1348,26 @@ async function runScheduler() {
   const schedule = loadSchedule();
   const now = new Date();
 
+  const DAILY_CAP = 20;
+  // Count clips already started uploading or done today per channel (UTC date),
+  // so overdue/backlogged clips respect the same cap as freshly scheduled ones.
+  const todayStr = now.toISOString().slice(0, 10); // YYYY-MM-DD UTC
+  const ytPostedToday   = {}; // { channel: count } for YouTube uploads
+  const bufPostedToday  = {}; // { channel: count } for Buffer/Instagram posts
+  for (const [, entry] of Object.entries(schedule)) {
+    const ch = normalizeChannel(entry.channel);
+    if (['uploading', 'done'].includes(entry.status)) {
+      const ts = entry.ytDoneAt || entry.uploadStartedAt;
+      if (ts && ts.slice(0, 10) === todayStr)
+        ytPostedToday[ch] = (ytPostedToday[ch] || 0) + 1;
+    }
+    if (['uploading', 'done'].includes(entry.bufferStatus)) {
+      const ts = entry.bufferDoneAt || entry.bufferStartedAt;
+      if (ts && ts.slice(0, 10) === todayStr)
+        bufPostedToday[ch] = (bufPostedToday[ch] || 0) + 1;
+    }
+  }
+
   const anyConnected = getYoutubeAccounts().some(a => fs.existsSync(tokensFileFor(a.id)));
   if (!anyConnected) return; // no connected YouTube account yet
 
@@ -1362,6 +1382,10 @@ async function runScheduler() {
     const accountId = entry.accountId || accountIdForChannel(normalizeChannel(entry.channel));
     if (!fs.existsSync(tokensFileFor(accountId))) continue; // chosen account got disconnected — skip until reconnected
 
+    // Enforce daily cap even for overdue clips (e.g. after a token reconnect).
+    const ch = normalizeChannel(entry.channel);
+    if ((ytPostedToday[ch] || 0) >= DAILY_CAP) continue;
+
     const filePath = resolveClipPath(filename);
     if (!fs.existsSync(filePath)) {
       entry.status = 'failed';
@@ -1374,11 +1398,16 @@ async function runScheduler() {
     }
 
     schedulingInProgress.add(filename);
+    ytPostedToday[ch] = (ytPostedToday[ch] || 0) + 1; // count against today's cap within this tick
     console.log(`[scheduler] Starting upload: ${filename} (account: ${accountId})`);
 
     // Mark as uploading so the dashboard reflects it immediately
     const s0 = loadSchedule();
-    if (s0[filename]) { s0[filename].status = 'uploading'; saveJSON(SCHEDULE_FILE, s0); }
+    if (s0[filename]) {
+      s0[filename].status = 'uploading';
+      s0[filename].uploadStartedAt = now.toISOString();
+      saveJSON(SCHEDULE_FILE, s0);
+    }
 
     const jobId = `sched-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`;
     uploadJobs.set(jobId, { status: 'starting', percent: 0, filename });
@@ -1423,6 +1452,7 @@ async function runScheduler() {
       const filePath = resolveClipPath(filename);
       const title    = entry.title || path.basename(filename, path.extname(filename)).replace(/_/g, ' ');
 
+      const bufCh = normalizeChannel(entry.channel);
       if (!['uploading', 'done', 'failed'].includes(entry.bufferStatus) && !bufferInProgress.has(filename)) {
         if (!fs.existsSync(filePath)) {
           const s = loadSchedule();
@@ -1431,12 +1461,19 @@ async function runScheduler() {
             s[filename].bufferError  = 'File not found';
             saveJSON(SCHEDULE_FILE, s);
           }
+        } else if ((bufPostedToday[bufCh] || 0) >= DAILY_CAP) {
+          // Daily cap reached for this channel — overdue clips wait until tomorrow.
         } else {
           bufferInProgress.add(filename);
+          bufPostedToday[bufCh] = (bufPostedToday[bufCh] || 0) + 1;
           const caption = buildBufferCaption(title, entry);
 
           const s0 = loadSchedule();
-          if (s0[filename]) { s0[filename].bufferStatus = 'uploading'; saveJSON(SCHEDULE_FILE, s0); }
+          if (s0[filename]) {
+            s0[filename].bufferStatus = 'uploading';
+            s0[filename].bufferStartedAt = now.toISOString();
+            saveJSON(SCHEDULE_FILE, s0);
+          }
           console.log(`[buffer:instagram] Posting: ${filename}`);
 
           doBufferPost(filePath, filename, caption, 'instagram')
