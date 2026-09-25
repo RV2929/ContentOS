@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T13:31:50.288Z",
+  "lastUpdated": "2026-09-25T13:31:55.078Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -285,8 +285,8 @@
       "filename": "A_day_in_the_life_of_Cristiano_Ronaldo___clip08_A_nostalgic_recounting_of_career-definin.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "MANCHESTER & REAL MADRID MEMORIES 🏟️ | Career Arc",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_day_in_the_life_of_Cristiano_Ronaldo___clip08_A_nostalgic_recounting_of_career-definin.jpg"
@@ -1670,16 +1670,6 @@
       "title": "What Made Ed Sheeran Cry in the Interview",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_No_Fluff_Interview_Overcoming_clip06_Genuine_raw_emotion_as_Ed_opens_up_about.jpg"
-    },
-    {
-      "filename": "Ed_Sheeran_No_Fluff_Interview_Overcoming_clip07_A_surprising_and_vulnerable_confession_f.mp4",
-      "status": "posted",
-      "youtubeId": "g9FFOuTlutA",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Ed Sheeran is Terrified of Being Alone",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Ed_Sheeran_No_Fluff_Interview_Overcoming_clip07_A_surprising_and_vulnerable_confession_f.jpg"
     },
     {
       "filename": "Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip01_A_juicy_real-world_story_with_stakes_bil.mp4",
@@ -5960,16 +5950,6 @@
       "title": "The Skin Disease With No Cure Yet 💔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip05_Emotional_little-known_medical_story_abo.jpg"
-    },
-    {
-      "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip05_Raw_self-aware_vulnerability_about_strug.mp4",
-      "status": "posted",
-      "youtubeId": "yw6YOat8Mjs",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "My First World Spider-Man Problem 🕷️",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip05_Raw_self-aware_vulnerability_about_strug.jpg"
     },
     {
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip05_Raw_vulnerability_from_Tom_Holland_about.mp4",
