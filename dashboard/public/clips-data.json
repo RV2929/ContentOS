@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T10:06:55.950Z",
+  "lastUpdated": "2026-09-25T10:06:59.809Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -255,8 +255,8 @@
       "filename": "A_day_in_the_life_of_Cristiano_Ronaldo___clip05_An_emotionally_sincere_moment_where_he_e.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T09:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I WANT TO MAKE FANS HAPPY 💙 | CR7's Real Why",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_day_in_the_life_of_Cristiano_Ronaldo___clip05_An_emotionally_sincere_moment_where_he_e.jpg"
