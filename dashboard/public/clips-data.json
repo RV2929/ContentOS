@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T04:50:33.098Z",
+  "lastUpdated": "2026-09-25T05:22:20.213Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -213,10 +213,10 @@
     },
     {
       "filename": "A_day_in_the_life_of_Cristiano_Ronaldo___clip01_A_simple_question_about_how_a_young_play.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-25T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "NyB0mIvGXlg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "UNIQUE PLAYER, GOOD MAN 💪 | CR7's Self-Portrait",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_day_in_the_life_of_Cristiano_Ronaldo___clip01_A_simple_question_about_how_a_young_play.jpg"
@@ -4363,10 +4363,10 @@
     },
     {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip06_A_sharp_funny_thought_experiment_that_re.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-25T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "SM_P_q6pG50",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "IF ALCOHOL WAS INVENTED TODAY 🤔 | Thought Experiment",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip06_A_sharp_funny_thought_experiment_that_re.jpg"
