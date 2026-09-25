@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T01:45:25.379Z",
+  "lastUpdated": "2026-09-25T01:45:29.210Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1345,8 +1345,8 @@
       "filename": "Druski_Theyre_Lying_To_You_About_Overnig_clip03_Fast-paced_name-dropping_story_with_a_fu.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Drake Called & He Roasted Jim Carrey's Pay 💰",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Druski_Theyre_Lying_To_You_About_Overnig_clip03_Fast-paced_name-dropping_story_with_a_fu.jpg"
