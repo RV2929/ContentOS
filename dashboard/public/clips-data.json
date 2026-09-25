@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T02:53:17.718Z",
+  "lastUpdated": "2026-09-25T04:02:16.187Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -243,6 +243,26 @@
     },
     {
       "filename": "A_day_in_the_life_of_Cristiano_Ronaldo___clip04_A_genuinely_quotable_screenshot-worthy_l.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/A_day_in_the_life_of_Cristiano_Ronaldo___clip04_A_genuinely_quotable_screenshot-worthy_l.jpg"
+    },
+    {
+      "filename": "A_day_in_the_life_of_Cristiano_Ronaldo___clip05_An_emotionally_sincere_moment_where_he_e.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/A_day_in_the_life_of_Cristiano_Ronaldo___clip05_An_emotionally_sincere_moment_where_he_e.jpg"
+    },
+    {
+      "filename": "A_day_in_the_life_of_Cristiano_Ronaldo___clip06_A_heartfelt_vulnerable_admission_that_hi.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
@@ -4276,7 +4296,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-25T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "I THOUGHT I HAD A DRINKING PROBLEM 🍷 | Sobriety Journey",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_Candid_relatable_arc_of_self-doubt_throu.jpg"
@@ -4386,7 +4406,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-25T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Surrounded by Wild Mountain Gorillas 🦍 | Tom Holland",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip08_A_vivid_suspenseful_story_with_a_surpris.jpg"
