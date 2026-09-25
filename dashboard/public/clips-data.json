@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T23:25:07.463Z",
+  "lastUpdated": "2026-09-25T23:25:10.694Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1595,8 +1595,8 @@
       "filename": "Druski_Theyre_Lying_To_You_About_Overnig_clip05_Harrowing_childhood_story_of_domestic_vi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Trapped Between Violence & His Mom's Door 😢",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Druski_Theyre_Lying_To_You_About_Overnig_clip05_Harrowing_childhood_story_of_domestic_vi.jpg"
@@ -6085,8 +6085,8 @@
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip01_A_surprising_specific_industry_insight_e.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why All Non-Alcoholic Beers Are Blue 🔵",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip01_A_surprising_specific_industry_insight_e.jpg"
