@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T00:37:41.792Z",
+  "lastUpdated": "2026-09-25T01:45:25.379Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -213,6 +213,16 @@
     },
     {
       "filename": "A_day_in_the_life_of_Cristiano_Ronaldo___clip01_A_simple_question_about_how_a_young_play.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/A_day_in_the_life_of_Cristiano_Ronaldo___clip01_A_simple_question_about_how_a_young_play.jpg"
+    },
+    {
+      "filename": "A_day_in_the_life_of_Cristiano_Ronaldo___clip02_A_direct_tell_me_the_truth_challenge_pro.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
@@ -1336,7 +1346,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-25T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Drake Called & He Roasted Jim Carrey's Pay 💰",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Druski_Theyre_Lying_To_You_About_Overnig_clip03_Fast-paced_name-dropping_story_with_a_fu.jpg"
@@ -4153,10 +4163,10 @@
     },
     {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip03_Surprising_reveal_that_his_entire_acting.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-25T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "yRjCZhNQIys",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "SPIDER-MAN WAS NEVER THE PLAN 🕷️ | Origin Story",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip03_Surprising_reveal_that_his_entire_acting.jpg"
