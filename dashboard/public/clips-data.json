@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T02:53:14.418Z",
+  "lastUpdated": "2026-09-25T02:53:17.718Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -233,6 +233,16 @@
     },
     {
       "filename": "A_day_in_the_life_of_Cristiano_Ronaldo___clip03_A_powerful_personal_story_of_leaving_hom.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/A_day_in_the_life_of_Cristiano_Ronaldo___clip03_A_powerful_personal_story_of_leaving_hom.jpg"
+    },
+    {
+      "filename": "A_day_in_the_life_of_Cristiano_Ronaldo___clip04_A_genuinely_quotable_screenshot-worthy_l.mp4",
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": null,
@@ -1365,8 +1375,8 @@
       "filename": "Druski_Theyre_Lying_To_You_About_Overnig_clip04_Devastating_surprising_confession_about_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "His Brother's Dark Diagnosis Changed Everything 🧠",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Druski_Theyre_Lying_To_You_About_Overnig_clip04_Devastating_surprising_confession_about_.jpg"
@@ -4225,8 +4235,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip04_Shocking_vivid_true_story_of_a_teammate_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "A KID KNOCKED OUT A GROWN MAN 😲 | Wild Story",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip04_Shocking_vivid_true_story_of_a_teammate_.jpg"
@@ -4315,8 +4325,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip07_A_gripping_awe-filled_real-life_story_wi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-25T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "A Whale Swam UP From Beneath Them 🐋 | Tom Holland",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip07_A_gripping_awe-filled_real-life_story_wi.jpg"
