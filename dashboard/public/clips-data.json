@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T11:00:55.405Z",
+  "lastUpdated": "2026-09-25T12:12:55.324Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -273,10 +273,10 @@
     },
     {
       "filename": "A_day_in_the_life_of_Cristiano_Ronaldo___clip07_A_tribute_filled_with_bold_praise_and_a_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-25T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "DyZFFXjzY0Q",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "WE THINK ABOUT CRISTIANO 😂 | Teammate Tribute",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_day_in_the_life_of_Cristiano_Ronaldo___clip07_A_tribute_filled_with_bold_praise_and_a_.jpg"
