@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T06:15:04.060Z",
+  "lastUpdated": "2026-09-25T07:37:54.834Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -236,7 +236,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-25T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "MY WHOLE LIFE IS ABOUT CHALLENGE 🔥 | Age 11",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_day_in_the_life_of_Cristiano_Ronaldo___clip03_A_powerful_personal_story_of_leaving_hom.jpg"
@@ -3102,6 +3102,26 @@
       "thumbnailPath": "/thumbnails/Khloé_Kardashian_on_the_Cost_of_Pretendi_clip10_A_genuine_heartwarming_emotional_payoff_.jpg"
     },
     {
+      "filename": "Las_5_cosas_que_NO_SABÍAS_sobre_Cristian_clip01_A_playful_outfit-roasting_game_with_genu.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/Las_5_cosas_que_NO_SABÍAS_sobre_Cristian_clip01_A_playful_outfit-roasting_game_with_genu.jpg"
+    },
+    {
+      "filename": "Las_5_cosas_que_NO_SABÍAS_sobre_Cristian_clip02_Rapid-fire_scoring_of_old_looks_with_fun.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
+    },
+    {
       "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip01_Opens_with_a_bold_quotable_claim_that_ri.mp4",
       "status": "ready",
       "youtubeId": "",
@@ -4446,7 +4466,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-25T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "A KILLER WHALE LOOKED ME IN THE EYE 🐋 | Unforgettable",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip08_Breathtaking_awe-filled_true_story_of_sw.jpg"
