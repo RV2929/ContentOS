@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T10:06:59.809Z",
+  "lastUpdated": "2026-09-25T11:00:55.405Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -263,10 +263,10 @@
     },
     {
       "filename": "A_day_in_the_life_of_Cristiano_Ronaldo___clip06_A_heartfelt_vulnerable_admission_that_hi.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-25T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "2_LMjLHauLI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "MY KIDS WATCH ME SCORE 👨‍👧‍👦 | Family First",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/A_day_in_the_life_of_Cristiano_Ronaldo___clip06_A_heartfelt_vulnerable_admission_that_hi.jpg"
@@ -1660,16 +1660,6 @@
       "title": "John Mayer Told Ed Sheeran He Was Happy Being Replaced",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_No_Fluff_Interview_Overcoming_clip02_A_touching_quotable_story_about_John_May.jpg"
-    },
-    {
-      "filename": "Ed_Sheeran_No_Fluff_Interview_Overcoming_clip05_Raw_relatable_vulnerability_as_Ed_admits.mp4",
-      "status": "posted",
-      "youtubeId": "O7mHGqRfZbU",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Ed Sheeran is Jealous of Parents Pushing Swings",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Ed_Sheeran_No_Fluff_Interview_Overcoming_clip05_Raw_relatable_vulnerability_as_Ed_admits.jpg"
     },
     {
       "filename": "Ed_Sheeran_No_Fluff_Interview_Overcoming_clip06_Genuine_raw_emotion_as_Ed_opens_up_about.mp4",
@@ -5920,16 +5910,6 @@
       "title": "Why All Non-Alcoholic Beers Are Blue 😅",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip03_A_surprising_little-known_industry_insig.jpg"
-    },
-    {
-      "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip03_Bizarre_funny_tangent_about_lab-grown_ch.mp4",
-      "status": "posted",
-      "youtubeId": "Xb8SWBb-9f4",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Could You Grow Human Meat? 🤔",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip03_Bizarre_funny_tangent_about_lab-grown_ch.jpg"
     },
     {
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip03_Raw_funny_relatable_reaction_as_he_quest.mp4",
