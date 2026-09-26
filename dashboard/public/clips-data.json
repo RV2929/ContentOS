@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T03:03:44.501Z",
+  "lastUpdated": "2026-09-26T03:03:47.642Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1625,8 +1625,8 @@
       "filename": "Druski_Theyre_Lying_To_You_About_Overnig_clip08_Intense_quotable_declaration_of_all-or-n.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Become Great or I'm Done: All-In on the Floor 💪",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Druski_Theyre_Lying_To_You_About_Overnig_clip08_Intense_quotable_declaration_of_all-or-n.jpg"
@@ -4685,8 +4685,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_Honest_relatable_arc_from_denial_to_real.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "WHY AM I ENSLAVED TO DRINK 🍺 | Tom's Wake-Up Call",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_Honest_relatable_arc_from_denial_to_real.jpg"
