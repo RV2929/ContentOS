@@ -2799,14 +2799,14 @@
       "id": "mui1thqninnh",
       "url": "https://www.youtube.com/watch?v=aiYzX7FGkqQ",
       "title": "",
-      "status": "transcribing",
+      "status": "failed",
       "channel": "podcast",
       "addedAt": "2026-09-26T07:08:46.991Z",
       "startedAt": "2026-09-26T08:57:24.041Z",
-      "completedAt": null,
+      "completedAt": "2026-09-26T08:57:52.611Z",
       "clipsCount": 0,
       "batchId": null,
-      "error": null
+      "error": "py\", line 11, in load_align_model\n    return alignment.load_align_model(*args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/whisperx/alignment.py\", line 91, in load_align_model\n    raise ValueError(f\"No defa"
     }
   ]
 }
