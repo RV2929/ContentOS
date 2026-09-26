@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T11:36:11.176Z",
+  "lastUpdated": "2026-09-26T12:23:30.403Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3405,8 +3405,8 @@
       "filename": "Jude_Bellingham__The_Full_Story_clip05_Deeply_emotional_reflection_on_his_broth.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "HIS HAPPINESS MEANS MORE THAN MY OWN 💜",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Jude_Bellingham__The_Full_Story_clip05_Deeply_emotional_reflection_on_his_broth.jpg"
