@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T05:04:51.876Z",
+  "lastUpdated": "2026-09-26T05:04:58.572Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -6203,10 +6203,10 @@
     },
     {
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip06_Vulnerable_surprising_confession_about_t.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-26T05:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "WcImdHSynLE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Hardest Part of Being Spider-Man 🕷️",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip06_Vulnerable_surprising_confession_about_t.jpg"
