@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T23:32:33.143Z",
+  "lastUpdated": "2026-09-26T23:32:36.750Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4775,8 +4775,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_vulnerable_story_of_deleting_Instagr.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Press Twisted My Mental Health Break 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_vulnerable_story_of_deleting_Instagr.jpg"
@@ -5015,8 +5015,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip09_A_vivid_suspenseful_nature_encounter_sto.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "SURROUNDED BY WILD GORILLAS 🦍 | Tense Standoff",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip09_A_vivid_suspenseful_nature_encounter_sto.jpg"
@@ -6065,8 +6065,8 @@
       "filename": "This_Science-Backed_Morning_Routine_Will_clip01_Opens_with_an_irresistible_hook_revealin.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "THE MOST PROGRAMMABLE HOUR 🧠 OF YOUR DAY",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Science-Backed_Morning_Routine_Will_clip01_Opens_with_an_irresistible_hook_revealin.jpg"
@@ -6425,8 +6425,8 @@
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip01_A_personal_origin_story_with_real_stakes.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-26T23:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Tom Holland Created a Sober Beer 🍺",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip01_A_personal_origin_story_with_real_stakes.jpg"
