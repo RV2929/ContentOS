@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T21:06:44.401Z",
+  "lastUpdated": "2026-09-26T23:12:24.152Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -570,16 +570,6 @@
       "title": "$500K SHOT from MIDFIELD 🤯",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Neymar_Win_500000_clip09_A_disallowed_goal_turns_into_a_once-in-a.jpg"
-    },
-    {
-      "filename": "Beat_Ronaldo_Win_1000000_clip01_An_audacious_cash-prize_hook_combined_wi.mp4",
-      "status": "posted",
-      "youtubeId": "kg_txqfTXw8",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "🏆 $8 MILLION IF YOU BEAT RONALDO",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Beat_Ronaldo_Win_1000000_clip01_An_audacious_cash-prize_hook_combined_wi.jpg"
     },
     {
       "filename": "Beat_Ronaldo_Win_1000000_clip02_Escalating_tension_a_quotable_overrated_.mp4",
@@ -3212,16 +3202,6 @@
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip08_A_little-known_insight_suggesting_watchi.jpg"
     },
     {
-      "filename": "Jude_Bellingham__The_Full_Story_clip01_A_raw_vulnerable_admission_about_public_.mp4",
-      "status": "posted",
-      "youtubeId": "rjwMcC2MnUs",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "I GET CALLED ARROGANT A LOT 🔥",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Jude_Bellingham__The_Full_Story_clip01_A_raw_vulnerable_admission_about_public_.jpg"
-    },
-    {
       "filename": "Jude_Bellingham__The_Full_Story_clip01_Raw_vulnerable_admission_about_public_pe.mp4",
       "status": "posted",
       "youtubeId": "qhW2BnVqqbs",
@@ -4776,7 +4756,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-26T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "IF YOU HAVE A PROBLEM TEXT ME 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_A_screenshot-worthy_Christian_Bale_quote.jpg"
@@ -4796,20 +4776,10 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-26T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Press Twisted My Mental Health Break 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip01_Raw_vulnerable_story_of_deleting_Instagr.jpg"
-    },
-    {
-      "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip02_A_sharp_quotable_line_about_celebrity_cr.mp4",
-      "status": "posted",
-      "youtubeId": "0YJvTfEVK80",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "CHRISTIAN BALE'S BRUTAL TEXT RULE 💬 | Why He's Right",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip02_A_sharp_quotable_line_about_celebrity_cr.jpg"
     },
     {
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip02_A_sharp_screenshot-worthy_Christian_Bale.mp4",
@@ -5046,7 +5016,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-26T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "SURROUNDED BY WILD GORILLAS 🦍 | Tense Standoff",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip09_A_vivid_suspenseful_nature_encounter_sto.jpg"
@@ -6096,7 +6066,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-26T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "THE MOST PROGRAMMABLE HOUR 🧠 OF YOUR DAY",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Science-Backed_Morning_Routine_Will_clip01_Opens_with_an_irresistible_hook_revealin.jpg"
@@ -6456,7 +6426,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-26T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Why Tom Holland Created a Sober Beer 🍺",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip01_A_personal_origin_story_with_real_stakes.jpg"
