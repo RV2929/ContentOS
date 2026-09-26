@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T01:42:10.393Z",
+  "lastUpdated": "2026-09-26T03:03:44.501Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1626,7 +1626,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-26T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Become Great or I'm Done: All-In on the Floor 💪",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Druski_Theyre_Lying_To_You_About_Overnig_clip08_Intense_quotable_declaration_of_all-or-n.jpg"
@@ -4686,7 +4686,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-26T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "WHY AM I ENSLAVED TO DRINK 🍺 | Tom's Wake-Up Call",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_Honest_relatable_arc_from_denial_to_real.jpg"
@@ -6143,10 +6143,10 @@
     },
     {
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip04_An_absurd_laugh-out-loud_tangent_about_l.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-26T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "PdI9D8Iy7oA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Could You Grow Human Meat to Eat? 🤔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip04_An_absurd_laugh-out-loud_tangent_about_l.jpg"
