@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T06:15:24.934Z",
+  "lastUpdated": "2026-09-27T07:34:23.021Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1942,16 +1942,6 @@
       "thumbnailPath": "/thumbnails/Elicitation_CIAs_Technique_to_Make_Peopl_clip06_Ends_on_a_sharp_quotable_rule_of_thumb_a.jpg"
     },
     {
-      "filename": "Essentials_Optimal_Protocols_to_Build_St_clip01_A_bold_counterintuitive_claim_that_stren.mp4",
-      "status": "posted",
-      "youtubeId": "Z54bWlZdfcU",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "THE BIGGEST LIE IN FITNESS 🔥",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Essentials_Optimal_Protocols_to_Build_St_clip01_A_bold_counterintuitive_claim_that_stren.jpg"
-    },
-    {
       "filename": "Essentials_Optimal_Protocols_to_Build_St_clip02_Surprising_specific_statistic_1_muscle_l.mp4",
       "status": "posted",
       "youtubeId": "_URA2qppGwQ",
@@ -3190,16 +3180,6 @@
       "title": "Why Gym Mirrors Might Hurt Your Gains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip08_A_little-known_insight_suggesting_watchi.jpg"
-    },
-    {
-      "filename": "Jude_Bellingham__The_Full_Story_clip01_Raw_vulnerable_admission_about_public_pe.mp4",
-      "status": "posted",
-      "youtubeId": "qhW2BnVqqbs",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "I GET CALLED ARROGANT A LOT 🔥",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Jude_Bellingham__The_Full_Story_clip01_Raw_vulnerable_admission_about_public_pe.jpg"
     },
     {
       "filename": "Jude_Bellingham__The_Full_Story_clip02_Devastating_real-time_footage_of_losing_.mp4",
@@ -6515,8 +6495,8 @@
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip08_A_simple_highly_quotable_piece_of_advice.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "You'll Never Regret Not Drinking 💪",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip08_A_simple_highly_quotable_piece_of_advice.jpg"
