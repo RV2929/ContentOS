@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T02:52:52.403Z",
+  "lastUpdated": "2026-09-27T02:52:55.508Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4885,8 +4885,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip04_Blunt_honest_self-admission_of_alcohol_a.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Was Addicted to Alcohol 😱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip04_Blunt_honest_self-admission_of_alcohol_a.jpg"
@@ -6095,8 +6095,8 @@
       "filename": "This_Science-Backed_Morning_Routine_Will_clip04_Reveals_a_free_science-backed_trick_with.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T02:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "SUNLIGHT IS A FREE DRUG 🌅 FOR YOUR BRAIN",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Science-Backed_Morning_Routine_Will_clip04_Reveals_a_free_science-backed_trick_with.jpg"
@@ -6480,16 +6480,6 @@
       "title": "This Non-Alc Beer Freaked Him Out 😱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip03_Raw_funny_relatable_reaction_as_he_quest.jpg"
-    },
-    {
-      "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip04_An_absurd_laugh-out-loud_tangent_about_l.mp4",
-      "status": "posted",
-      "youtubeId": "PdI9D8Iy7oA",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Could You Grow Human Meat to Eat? 🤔",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip04_An_absurd_laugh-out-loud_tangent_about_l.jpg"
     },
     {
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip04_An_absurd_unexpected_turn_in_conversatio.mp4",
