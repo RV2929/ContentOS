@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T01:48:38.723Z",
+  "lastUpdated": "2026-09-27T02:52:52.403Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4886,7 +4886,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-27T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "I Was Addicted to Alcohol 😱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip04_Blunt_honest_self-admission_of_alcohol_a.jpg"
@@ -6096,7 +6096,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-09-27T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "SUNLIGHT IS A FREE DRUG 🌅 FOR YOUR BRAIN",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Science-Backed_Morning_Routine_Will_clip04_Reveals_a_free_science-backed_trick_with.jpg"
@@ -6493,10 +6493,10 @@
     },
     {
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip04_An_absurd_unexpected_turn_in_conversatio.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-27T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "jDjjBZiQzsY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Could You Grow Human Meat? 🧬",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip04_An_absurd_unexpected_turn_in_conversatio.jpg"
