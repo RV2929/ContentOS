@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T05:08:35.175Z",
+  "lastUpdated": "2026-09-27T06:15:24.934Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4965,8 +4965,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip07_A_surprising_vivid_nature_encounter_comb.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Made Peace Sounds With Wild Gorillas 🦍",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip07_A_surprising_vivid_nature_encounter_comb.jpg"
@@ -6502,21 +6502,11 @@
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip06_An_emotional_vulnerable_story_about_need.jpg"
     },
     {
-      "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip07_A_short_screenshot-worthy_piece_of_advic.mp4",
-      "status": "posted",
-      "youtubeId": "Z8dg3VCEgqs",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "You'll Never Wish You Had a Drink 🙏",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip07_A_short_screenshot-worthy_piece_of_advic.jpg"
-    },
-    {
       "filename": "Tom_Holland_on_Going_Sober__Building_a_B_clip07_An_inspirational_quotable_closing_philos.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-27T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Try a Life of Less 🌱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Tom_Holland_on_Going_Sober__Building_a_B_clip07_An_inspirational_quotable_closing_philos.jpg"
