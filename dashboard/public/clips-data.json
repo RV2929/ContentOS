@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T02:38:33.975Z",
+  "lastUpdated": "2026-09-28T03:54:04.799Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3485,8 +3485,8 @@
       "filename": "Khloé_Kardashian_on_the_Cost_of_Pretendi_clip05_A_sharp_quotable_distinction_between_act.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Made a Mistake, Not a Mistake 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Khloé_Kardashian_on_the_Cost_of_Pretendi_clip05_A_sharp_quotable_distinction_between_act.jpg"
@@ -4855,8 +4855,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip06_A_gripping_awe-filled_first-person_story.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "A KILLER WHALE LOOKED HIM IN THE EYE 🐋",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip06_A_gripping_awe-filled_first-person_story.jpg"
