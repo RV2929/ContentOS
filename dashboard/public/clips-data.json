@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T08:49:45.682Z",
+  "lastUpdated": "2026-09-28T09:48:08.685Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3535,8 +3535,8 @@
       "filename": "Khloé_Kardashian_on_the_Cost_of_Pretendi_clip10_A_genuine_heartwarming_emotional_payoff_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "My 6-Year-Old Wrote This About Me 🥺",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Khloé_Kardashian_on_the_Cost_of_Pretendi_clip10_A_genuine_heartwarming_emotional_payoff_.jpg"
