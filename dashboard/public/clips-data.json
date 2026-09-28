@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T09:48:08.685Z",
+  "lastUpdated": "2026-09-28T23:01:05.712Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -795,8 +795,8 @@
       "filename": "Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip01_Ronaldo_delivers_a_raw_confident_monolog.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I KNOW WHAT I AM 🔥 | Ronaldo's Raw Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip01_Ronaldo_delivers_a_raw_confident_monolog.jpg"
@@ -895,8 +895,8 @@
       "filename": "Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip01_Raw_emotional_recollection_of_finding_ou.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ronaldo On Hearing Jota Died 😢",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip01_Raw_emotional_recollection_of_finding_ou.jpg"
@@ -2915,8 +2915,8 @@
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip01_Insider_tip_from_a_mega-creator_keep_you.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "MrBeast Reveals Thumbnail Secrets 🧠",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip01_Insider_tip_from_a_mega-creator_keep_you.jpg"
