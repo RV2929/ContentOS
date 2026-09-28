@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T00:12:48.690Z",
+  "lastUpdated": "2026-09-28T01:27:30.150Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3465,8 +3465,8 @@
       "filename": "Khloé_Kardashian_on_the_Cost_of_Pretendi_clip03_Raw_vulnerable_admission_of_a_daily_self.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Look in the Mirror & Choose Happy 💪",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Khloé_Kardashian_on_the_Cost_of_Pretendi_clip03_Raw_vulnerable_admission_of_a_daily_self.jpg"
@@ -4775,8 +4775,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip04_A_shocking_perfectly-paced_story_that_es.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "RUGBY MATCH ENDED IN A KNOCKOUT 😱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip04_A_shocking_perfectly-paced_story_that_es.jpg"
@@ -6015,8 +6015,8 @@
       "filename": "This_Science-Backed_Morning_Routine_Will_clip07_Shares_striking_research_stats_on_journa.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "WRITING BY HAND CHANGES 🧠 YOUR BRAIN CHEMISTRY",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Science-Backed_Morning_Routine_Will_clip07_Shares_striking_research_stats_on_journa.jpg"
