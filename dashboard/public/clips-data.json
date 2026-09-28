@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T06:13:58.092Z",
+  "lastUpdated": "2026-09-28T07:26:45.792Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3515,8 +3515,8 @@
       "filename": "Khloé_Kardashian_on_the_Cost_of_Pretendi_clip08_A_tight_emotional_story_with_a_clear_set.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-28T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "She Saved His Dead Mother's Jewelry 💎",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Khloé_Kardashian_on_the_Cost_of_Pretendi_clip08_A_tight_emotional_story_with_a_clear_set.jpg"
