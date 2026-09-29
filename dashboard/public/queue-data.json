@@ -2536,19 +2536,6 @@
       "error": null
     },
     {
-      "id": "mufjmffo7tjd",
-      "url": "https://www.youtube.com/watch?v=aiYzX7FGkqQ",
-      "title": "",
-      "status": "failed",
-      "channel": "podcast",
-      "addedAt": "2026-09-24T13:03:51.972Z",
-      "startedAt": "2026-09-24T19:41:34.915Z",
-      "completedAt": "2026-09-24T19:42:07.340Z",
-      "clipsCount": 0,
-      "batchId": null,
-      "error": "py\", line 11, in load_align_model\n    return alignment.load_align_model(*args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/whisperx/alignment.py\", line 91, in load_align_model\n    raise ValueError(f\"No defa"
-    },
-    {
       "id": "mufjmnvl3tay",
       "url": "https://www.youtube.com/watch?v=cN6RgkthoXM",
       "title": "",
@@ -2638,19 +2625,6 @@
       "clipsCount": 8,
       "batchId": "ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a",
       "error": null
-    },
-    {
-      "id": "mufl6owp4khy",
-      "url": "https://www.youtube.com/watch?v=pjbB95lAho8",
-      "title": "",
-      "status": "failed",
-      "channel": "podcast",
-      "addedAt": "2026-09-24T13:47:36.985Z",
-      "startedAt": "2026-09-25T09:38:55.340Z",
-      "completedAt": "2026-09-25T13:00:35.725Z",
-      "clipsCount": 0,
-      "batchId": null,
-      "error": "     model_copy(input_options), stream=stream, retries_taken=retries_taken\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/anthropic/_base_client.py\", line 1308, in _attempt_request\n   "
     },
     {
       "id": "mufl6svlp2bt",
@@ -2796,23 +2770,10 @@
       "error": null
     },
     {
-      "id": "mui1thqninnh",
-      "url": "https://www.youtube.com/watch?v=aiYzX7FGkqQ",
-      "title": "",
-      "status": "failed",
-      "channel": "podcast",
-      "addedAt": "2026-09-26T07:08:46.991Z",
-      "startedAt": "2026-09-26T08:57:24.041Z",
-      "completedAt": "2026-09-26T08:57:52.611Z",
-      "clipsCount": 0,
-      "batchId": null,
-      "error": "py\", line 11, in load_align_model\n    return alignment.load_align_model(*args, **kwargs)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/whisperx/alignment.py\", line 91, in load_align_model\n    raise ValueError(f\"No defa"
-    },
-    {
       "id": "mumee93lj1l5",
       "url": "https://www.youtube.com/watch?v=aiYzX7FGkqQ",
       "title": "",
-      "status": "downloading",
+      "status": "transcribing",
       "channel": "podcast",
       "addedAt": "2026-09-29T08:11:55.665Z",
       "startedAt": "2026-09-29T08:11:55.674Z",
