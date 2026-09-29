@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T08:36:53.790Z",
+  "lastUpdated": "2026-09-29T09:48:52.616Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3165,8 +3165,8 @@
       "filename": "Jude_Bellingham__The_Full_Story_clip02_A_gut-wrenching_title-loss_moment_with_g.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "HEARTBREAK, HEARTBREAK, HEARTBREAK 💔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Jude_Bellingham__The_Full_Story_clip02_A_gut-wrenching_title-loss_moment_with_g.jpg"
