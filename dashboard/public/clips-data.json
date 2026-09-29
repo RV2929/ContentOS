@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T00:22:13.826Z",
+  "lastUpdated": "2026-09-29T01:59:14.733Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -815,8 +815,8 @@
       "filename": "Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip03_An_emotionally_striking_quotable_declara.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I DON'T CARE IF I PLAY 💎 | Ronaldo's Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip03_An_emotionally_striking_quotable_declara.jpg"
@@ -915,8 +915,8 @@
       "filename": "Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip03_A_complete_heartwarming_story_with_setup.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Reuniting With The McDonald's Lady 🍔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip03_A_complete_heartwarming_story_with_setup.jpg"
@@ -2935,8 +2935,8 @@
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip03_Funny_imaginative_riff_between_two_mega-.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "If Ronaldo Flew Commercial 🛫💀",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip03_Funny_imaginative_riff_between_two_mega-.jpg"
