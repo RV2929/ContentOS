@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T02:56:12.711Z",
+  "lastUpdated": "2026-09-29T04:21:04.673Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -935,8 +935,8 @@
       "filename": "Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip05_A_punchy_quotable_monologue_on_loyalty_b.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Loyalty Is Everything To Me 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip05_A_punchy_quotable_monologue_on_loyalty_b.jpg"
@@ -2955,8 +2955,8 @@
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip05_Shocking_high-stakes_story_with_a_real_p.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Buried Myself Alive for a Week 😱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip05_Shocking_high-stakes_story_with_a_real_p.jpg"
