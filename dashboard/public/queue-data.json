@@ -2786,13 +2786,13 @@
       "id": "mumeed5qpsn3",
       "url": "https://www.youtube.com/watch?v=pjbB95lAho8",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-09-29T08:12:00.926Z",
       "startedAt": "2026-09-29T08:12:30.320Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-09-29T08:28:43.046Z",
+      "clipsCount": 9,
+      "batchId": "Jude_Bellingham__The_Full_Story",
       "error": null
     }
   ]
