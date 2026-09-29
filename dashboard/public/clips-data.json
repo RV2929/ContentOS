@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T06:30:05.815Z",
+  "lastUpdated": "2026-09-29T07:34:00.374Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -965,8 +965,8 @@
       "filename": "Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip08_A_bold_debate-sparking_claim_that_he_is_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Me Or Trump: Who's More Famous? 🌍",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip08_A_bold_debate-sparking_claim_that_he_is_.jpg"
@@ -2985,8 +2985,8 @@
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip08_A_record-breaking_claim_most-viewed_vide.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Video That Broke YouTube in 24 Hours 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip08_A_record-breaking_claim_most-viewed_vide.jpg"
