@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T05:30:51.838Z",
+  "lastUpdated": "2026-09-29T06:30:05.815Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -955,8 +955,8 @@
       "filename": "Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip07_Naturally_funny_ego-driven_banter_compar.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I'm Perfect, He's Normal 😂",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip07_Naturally_funny_ego-driven_banter_compar.jpg"
@@ -2975,8 +2975,8 @@
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip07_Counterintuitive_massive-scale_stunt_100.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Recreated Squid Game for Real Money 🎮💰",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip07_Counterintuitive_massive-scale_stunt_100.jpg"
