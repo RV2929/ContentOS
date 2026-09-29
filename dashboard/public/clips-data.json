@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T17:02:50.842Z",
+  "lastUpdated": "2026-09-29T18:20:58.357Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3345,8 +3345,8 @@
       "filename": "Jude_Bellingham__The_Full_Story_clip09_Devastating_deeply_personal_raw_emotion_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "SORRY I COULDN'T DO IT FOR YOU 😔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Jude_Bellingham__The_Full_Story_clip09_Devastating_deeply_personal_raw_emotion_.jpg"
