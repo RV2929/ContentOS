@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T11:00:13.704Z",
+  "lastUpdated": "2026-09-29T12:16:43.745Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3215,8 +3215,8 @@
       "filename": "Jude_Bellingham__The_Full_Story_clip04_Natural_funny_sibling_banter_about_texti.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "MY BROTHER SENDS ME KISSES 😂",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Jude_Bellingham__The_Full_Story_clip04_Natural_funny_sibling_banter_about_texti.jpg"
