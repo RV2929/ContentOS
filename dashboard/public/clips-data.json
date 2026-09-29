@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T23:01:05.712Z",
+  "lastUpdated": "2026-09-29T00:22:13.826Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -805,8 +805,8 @@
       "filename": "Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip02_A_heartfelt_insight_into_his_legacy_and_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "WHY KIDS LOVE CRISTIANO 😱 | Legacy Revealed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip02_A_heartfelt_insight_into_his_legacy_and_.jpg"
@@ -905,8 +905,8 @@
       "filename": "Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip02_Candid_defiant_explanation_for_not_atten.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why I Skipped The Funeral 🚫",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip02_Candid_defiant_explanation_for_not_atten.jpg"
@@ -2925,8 +2925,8 @@
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip02_A_wild_escalating_fame_story_with_a_clea.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-29T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Fans Surrounded Our Hotel in Chile 😱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip02_A_wild_escalating_fame_story_with_a_clea.jpg"
