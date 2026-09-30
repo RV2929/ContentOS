@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T05:22:25.996Z",
+  "lastUpdated": "2026-09-30T06:14:06.240Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -705,8 +705,8 @@
       "filename": "Cristiano_Ronaldo_Didnt_Want_To_End_His__clip07_A_tight_funny_anecdote_with_a_clear_setu.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "His Son Spotted the Missing Lamborghini 🚗",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Didnt_Want_To_End_His__clip07_A_tight_funny_anecdote_with_a_clear_setu.jpg"
@@ -885,8 +885,8 @@
       "filename": "Cristiano_Ronaldo_The_Worlds_Best_Footba_clip07_Reveals_the_hidden_breathing_ritual_that.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "His Secret Breathing Ritual Before Free Kicks 🫁",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_The_Worlds_Best_Footba_clip07_Reveals_the_hidden_breathing_ritual_that.jpg"
