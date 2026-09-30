@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T00:39:09.714Z",
+  "lastUpdated": "2026-09-30T01:27:56.816Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -665,8 +665,8 @@
       "filename": "Cristiano_Ronaldo_Didnt_Want_To_End_His__clip03_A_raw_emotional_story_with_a_clear_setup.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ferguson's Heartbreaking Decision 😭",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Didnt_Want_To_End_His__clip03_A_raw_emotional_story_with_a_clear_setup.jpg"
@@ -845,8 +845,8 @@
       "filename": "Cristiano_Ronaldo_The_Worlds_Best_Footba_clip03_Raw_emotional_story_of_leaving_his_famil.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Left Home at 11 to Chase Dreams 🥺",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_The_Worlds_Best_Footba_clip03_Raw_emotional_story_of_leaving_his_famil.jpg"
@@ -4465,8 +4465,8 @@
       "filename": "NEXT_STOP_MIAMI_clip03_A_quietly_quotable_philosophical_line_ab.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Factors We Cannot Control 🧠",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/NEXT_STOP_MIAMI_clip03_A_quietly_quotable_philosophical_line_ab.jpg"
