@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T06:14:06.240Z",
+  "lastUpdated": "2026-09-30T07:27:31.259Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -715,8 +715,8 @@
       "filename": "Cristiano_Ronaldo_Didnt_Want_To_End_His__clip08_A_hilarious_awkward-but-charming_exchang.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "You're a Beautiful Man, Cristiano 😂",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Didnt_Want_To_End_His__clip08_A_hilarious_awkward-but-charming_exchang.jpg"
