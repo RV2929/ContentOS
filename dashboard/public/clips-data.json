@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T23:18:10.820Z",
+  "lastUpdated": "2026-09-30T00:39:09.714Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -655,8 +655,8 @@
       "filename": "Cristiano_Ronaldo_Didnt_Want_To_End_His__clip02_A_surprising_quotable_statement_about_hi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Ronaldo: I Don't Have Rivals 💪",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Didnt_Want_To_End_His__clip02_A_surprising_quotable_statement_about_hi.jpg"
@@ -835,8 +835,8 @@
       "filename": "Cristiano_Ronaldo_The_Worlds_Best_Footba_clip02_A_quotable_debate-sparking_claim_about_w.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Talent Without Work Is Nothing 💪",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_The_Worlds_Best_Footba_clip02_A_quotable_debate-sparking_claim_about_w.jpg"
@@ -4455,8 +4455,8 @@
       "filename": "NEXT_STOP_MIAMI_clip02_An_emotionally_charged_buildup_about_hop.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Hope Before the Big Games 💪",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/NEXT_STOP_MIAMI_clip02_An_emotionally_charged_buildup_about_hop.jpg"
