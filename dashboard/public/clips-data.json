@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T01:27:56.816Z",
+  "lastUpdated": "2026-09-30T02:49:01.336Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -675,8 +675,8 @@
       "filename": "Cristiano_Ronaldo_Didnt_Want_To_End_His__clip04_A_funny_unexpected_question-and-answer_m.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Would You Let Your Son Tattoo Messi? 😂",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Didnt_Want_To_End_His__clip04_A_funny_unexpected_question-and-answer_m.jpg"
@@ -855,8 +855,8 @@
       "filename": "Cristiano_Ronaldo_The_Worlds_Best_Footba_clip04_A_cocky_quotable_challenge_about_discipl.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-09-30T02:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I'll Give You the Map 🗺️",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_The_Worlds_Best_Footba_clip04_A_cocky_quotable_challenge_about_discipl.jpg"
