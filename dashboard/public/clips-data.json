@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T22:09:50.673Z",
+  "lastUpdated": "2026-09-30T23:21:35.990Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3553,10 +3553,10 @@
     },
     {
       "filename": "Khloé_Kardashian_on_the_Cost_of_Pretendi_clip03_Raw_vulnerable_admission_of_a_daily_self.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-09-30T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "0qqzIv4wsJQ",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Look in the Mirror & Choose Happy 💪",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Khloé_Kardashian_on_the_Cost_of_Pretendi_clip03_Raw_vulnerable_admission_of_a_daily_self.jpg"
