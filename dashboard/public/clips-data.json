@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T17:00:26.749Z",
+  "lastUpdated": "2026-10-01T18:15:34.824Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -893,10 +893,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip01_Raw_emotional_recollection_of_finding_ou.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-01T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "rzLIgaNnn7I",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Ronaldo On Hearing Jota Died 😢",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip01_Raw_emotional_recollection_of_finding_ou.jpg"
@@ -6080,16 +6080,6 @@
       "title": "SUNLIGHT IS A FREE DRUG 🌅 FOR YOUR BRAIN",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Science-Backed_Morning_Routine_Will_clip04_Reveals_a_free_science-backed_trick_with.jpg"
-    },
-    {
-      "filename": "This_Science-Backed_Morning_Routine_Will_clip06_Busts_a_common_myth_about_needing_long_w.mp4",
-      "status": "posted",
-      "youtubeId": "o-MEOwDa0P8",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "YOU ONLY NEED 7 MINUTES 🔥 OF EXERCISE",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/This_Science-Backed_Morning_Routine_Will_clip06_Busts_a_common_myth_about_needing_long_w.jpg"
     },
     {
       "filename": "This_Science-Backed_Morning_Routine_Will_clip07_Shares_striking_research_stats_on_journa.mp4",
