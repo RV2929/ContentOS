@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T20:58:14.573Z",
+  "lastUpdated": "2026-10-01T22:06:34.397Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -923,10 +923,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip04_Tight_underdog_story_of_13-year-old_Rona.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-01T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "rIOdmWSFUnc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "He Saved His Friend's Spot 💪",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip04_Tight_underdog_story_of_13-year-old_Rona.jpg"
@@ -3530,16 +3530,6 @@
       "title": "Talk Money On The Third Date: The Relationship Rule",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip10_A_specific_actionable_and_slightly_provo.jpg"
-    },
-    {
-      "filename": "Khloé_Kardashian_on_the_Cost_of_Pretendi_clip02_A_quotable_widely-relatable_piece_of_adv.mp4",
-      "status": "posted",
-      "youtubeId": "goB-HOvSaD8",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Comparison Is the Thief of Joy 🎯",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Khloé_Kardashian_on_the_Cost_of_Pretendi_clip02_A_quotable_widely-relatable_piece_of_adv.jpg"
     },
     {
       "filename": "Khloé_Kardashian_on_the_Cost_of_Pretendi_clip03_Raw_vulnerable_admission_of_a_daily_self.mp4",
