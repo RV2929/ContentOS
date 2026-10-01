@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T15:49:04.609Z",
+  "lastUpdated": "2026-10-01T17:00:26.749Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -813,10 +813,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip03_An_emotionally_striking_quotable_declara.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-01T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "U9etC9fEoqc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I DON'T CARE IF I PLAY 💎 | Ronaldo's Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip03_An_emotionally_striking_quotable_declara.jpg"
