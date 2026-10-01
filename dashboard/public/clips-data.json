@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T19:24:35.173Z",
+  "lastUpdated": "2026-10-01T20:58:14.573Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -913,10 +913,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip03_A_complete_heartwarming_story_with_setup.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-01T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "QvZw_I4U0yY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Reuniting With The McDonald's Lady 🍔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_x_Piers_Morgan_Part_2__clip03_A_complete_heartwarming_story_with_setup.jpg"
@@ -3532,16 +3532,6 @@
       "thumbnailPath": "/thumbnails/Kevin_OLeary_Every_Time_You_Get_Paid_Do__clip10_A_specific_actionable_and_slightly_provo.jpg"
     },
     {
-      "filename": "Khloé_Kardashian_on_the_Cost_of_Pretendi_clip01_A_surprising_cultural_insight_Golden_Gir.mp4",
-      "status": "posted",
-      "youtubeId": "A_qTCeSMiDc",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Why We Fear 40 🧠 (Golden Girls Got It Right)",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Khloé_Kardashian_on_the_Cost_of_Pretendi_clip01_A_surprising_cultural_insight_Golden_Gir.jpg"
-    },
-    {
       "filename": "Khloé_Kardashian_on_the_Cost_of_Pretendi_clip02_A_quotable_widely-relatable_piece_of_adv.mp4",
       "status": "posted",
       "youtubeId": "goB-HOvSaD8",
@@ -6090,16 +6080,6 @@
       "title": "WRITING BY HAND CHANGES 🧠 YOUR BRAIN CHEMISTRY",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Science-Backed_Morning_Routine_Will_clip07_Shares_striking_research_stats_on_journa.jpg"
-    },
-    {
-      "filename": "This_Science-Backed_Morning_Routine_Will_clip08_Explains_the_neurochemical_cost_of_morni.mp4",
-      "status": "posted",
-      "youtubeId": "L-T56qC7C68",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "WHY CHECKING YOUR PHONE 📵 IS SABOTAGE",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/This_Science-Backed_Morning_Routine_Will_clip08_Explains_the_neurochemical_cost_of_morni.jpg"
     },
     {
       "filename": "This_Will_Be_The_Most_Violent_Election_O_clip01_A_shocking_reframeclaiming_tens_of_milli.mp4",
