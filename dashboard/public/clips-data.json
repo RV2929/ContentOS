@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T14:37:06.263Z",
+  "lastUpdated": "2026-10-01T15:49:04.609Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -803,10 +803,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip02_A_heartfelt_insight_into_his_legacy_and_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-01T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "nRUDcwPBcfc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "WHY KIDS LOVE CRISTIANO 😱 | Legacy Revealed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip02_A_heartfelt_insight_into_his_legacy_and_.jpg"
@@ -6080,16 +6080,6 @@
       "title": "SUNLIGHT IS A FREE DRUG 🌅 FOR YOUR BRAIN",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Science-Backed_Morning_Routine_Will_clip04_Reveals_a_free_science-backed_trick_with.jpg"
-    },
-    {
-      "filename": "This_Science-Backed_Morning_Routine_Will_clip05_Counters_the_ice-bath_extreme_with_a_sim.mp4",
-      "status": "posted",
-      "youtubeId": "7UQGiS2EVBE",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "THE 90 SECOND COLD SHOWER 💪 HACK",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/This_Science-Backed_Morning_Routine_Will_clip05_Counters_the_ice-bath_extreme_with_a_sim.jpg"
     },
     {
       "filename": "This_Science-Backed_Morning_Routine_Will_clip06_Busts_a_common_myth_about_needing_long_w.mp4",
