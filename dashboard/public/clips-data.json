@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T13:24:45.629Z",
+  "lastUpdated": "2026-10-01T14:37:06.263Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -793,10 +793,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip01_Ronaldo_delivers_a_raw_confident_monolog.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-01T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "07OIySEroOw",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I KNOW WHAT I AM 🔥 | Ronaldo's Raw Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip01_Ronaldo_delivers_a_raw_confident_monolog.jpg"
