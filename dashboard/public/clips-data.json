@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T11:03:10.291Z",
+  "lastUpdated": "2026-10-01T12:20:19.785Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4915,8 +4915,8 @@
       "filename": "TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_An_honest_relatable_arc_from_realizing_h.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-01T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "QUITTING ALCOHOL WAS THE HARDEST THING 🌟",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/TOM_HOLLAND_How_Tom_Overcame_Social_Anxi_clip05_An_honest_relatable_arc_from_realizing_h.jpg"
