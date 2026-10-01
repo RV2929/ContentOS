@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T23:21:35.990Z",
+  "lastUpdated": "2026-10-01T00:42:07.480Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3563,10 +3563,10 @@
     },
     {
       "filename": "Khloé_Kardashian_on_the_Cost_of_Pretendi_clip04_Deeply_vulnerable_personal_story_about_r.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-01T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "KS0mkSOqIV0",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Shame I Carried From Cheating 💔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Khloé_Kardashian_on_the_Cost_of_Pretendi_clip04_Deeply_vulnerable_personal_story_about_r.jpg"
