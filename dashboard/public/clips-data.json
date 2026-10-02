@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T13:26:45.816Z",
+  "lastUpdated": "2026-10-02T14:39:46.359Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -790,16 +790,6 @@
       "title": "The Goal in His Museum 🏛️ Euro 2020 Nerves",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_REACTS_to_ALL_his_14_G_clip07_A_striking_screenshot-worthy_opening_lin.jpg"
-    },
-    {
-      "filename": "Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip01_Ronaldo_delivers_a_raw_confident_monolog.mp4",
-      "status": "posted",
-      "youtubeId": "07OIySEroOw",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "I KNOW WHAT I AM 🔥 | Ronaldo's Raw Truth",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip01_Ronaldo_delivers_a_raw_confident_monolog.jpg"
     },
     {
       "filename": "Cristiano_Ronaldo_TURNS_a_SIMPLE_QUESTIO_clip02_A_heartfelt_insight_into_his_legacy_and_.mp4",
@@ -2995,8 +2985,8 @@
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip09_A_charming_personal_moment_referencing_L.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-02T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Will Ronaldo's Son Play With Him? ⚽",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip09_A_charming_personal_moment_referencing_L.jpg"
