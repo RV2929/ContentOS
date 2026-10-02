@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T21:56:47.089Z",
+  "lastUpdated": "2026-10-02T23:01:13.641Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -823,10 +823,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_The_Worlds_Best_Footba_clip04_A_cocky_quotable_challenge_about_discipl.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-02T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "46LiVYrL7gs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I'll Give You the Map 🗺️",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_The_Worlds_Best_Footba_clip04_A_cocky_quotable_challenge_about_discipl.jpg"
