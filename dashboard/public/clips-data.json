@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T14:39:46.359Z",
+  "lastUpdated": "2026-10-02T15:48:36.953Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4403,10 +4403,10 @@
     },
     {
       "filename": "NEXT_STOP_MIAMI_clip01_The_relentless_almost_absurd_repetition_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-02T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "MH7-wvMjANg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Asked the Same Question 15 Times 😱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/NEXT_STOP_MIAMI_clip01_The_relentless_almost_absurd_repetition_.jpg"
