@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T02:57:20.569Z",
+  "lastUpdated": "2026-10-03T04:15:30.522Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -643,10 +643,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_Didnt_Want_To_End_His__clip01_A_cheeky_quotable_joke_about_Sepp_Blatte.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-03T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "N-xV5atKgvM",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Ronaldo's Savage Ballon d'Or Joke 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Didnt_Want_To_End_His__clip01_A_cheeky_quotable_joke_about_Sepp_Blatte.jpg"
