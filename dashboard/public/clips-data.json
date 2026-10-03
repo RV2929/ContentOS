@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T07:25:01.580Z",
+  "lastUpdated": "2026-10-03T08:40:21.605Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -685,8 +685,8 @@
       "filename": "Cristiano_Ronaldo_Didnt_Want_To_End_His__clip05_A_shocking_vulnerable_revelation_deliver.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-03T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "His Mother Didn't Want Him 😢",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Didnt_Want_To_End_His__clip05_A_shocking_vulnerable_revelation_deliver.jpg"
@@ -2900,16 +2900,6 @@
       "title": "If Ronaldo Flew Commercial 🛫💀",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip03_Funny_imaginative_riff_between_two_mega-.jpg"
-    },
-    {
-      "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip04_Raw_quotable_ambition_talk_about_aging_l.mp4",
-      "status": "posted",
-      "youtubeId": "LW-Fn3b00ZM",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "I Want to Live to 100 & Never Retire 💪",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/I_Meet_MrBeast_To_Break_The_Internet_clip04_Raw_quotable_ambition_talk_about_aging_l.jpg"
     },
     {
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip05_Shocking_high-stakes_story_with_a_real_p.mp4",
