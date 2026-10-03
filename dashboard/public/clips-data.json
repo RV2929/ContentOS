@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T23:01:13.641Z",
+  "lastUpdated": "2026-10-03T00:27:19.729Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -833,10 +833,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_The_Worlds_Best_Footba_clip05_A_relatable_surprising_comparison_that_r.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-03T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "4ZS7Pg9V1uI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Cold Plunge Like Brushing Teeth 🧊",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_The_Worlds_Best_Footba_clip05_A_relatable_surprising_comparison_that_r.jpg"
