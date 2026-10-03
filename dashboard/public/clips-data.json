@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T08:40:21.605Z",
+  "lastUpdated": "2026-10-03T09:50:30.269Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -695,8 +695,8 @@
       "filename": "Cristiano_Ronaldo_Didnt_Want_To_End_His__clip06_A_quotable_half-joking_threat_about_loya.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-03T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Don't Mess With His Mother 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Didnt_Want_To_End_His__clip06_A_quotable_half-joking_threat_about_loya.jpg"
