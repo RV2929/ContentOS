@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T06:34:31.705Z",
+  "lastUpdated": "2026-10-03T07:25:01.580Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -673,10 +673,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_Didnt_Want_To_End_His__clip04_A_funny_unexpected_question-and-answer_m.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-03T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "ewDL0RCc-TQ",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Would You Let Your Son Tattoo Messi? 😂",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Didnt_Want_To_End_His__clip04_A_funny_unexpected_question-and-answer_m.jpg"
