@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T09:50:30.269Z",
+  "lastUpdated": "2026-10-03T11:00:15.192Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -703,10 +703,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_Didnt_Want_To_End_His__clip07_A_tight_funny_anecdote_with_a_clear_setu.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-03T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "mMTbg_a_sKw",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "His Son Spotted the Missing Lamborghini 🚗",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_Didnt_Want_To_End_His__clip07_A_tight_funny_anecdote_with_a_clear_setu.jpg"
