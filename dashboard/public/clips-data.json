@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T17:10:37.773Z",
+  "lastUpdated": "2026-10-03T18:19:23.303Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3163,10 +3163,10 @@
     },
     {
       "filename": "Jude_Bellingham__The_Full_Story_clip04_Natural_funny_sibling_banter_about_texti.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-03T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "f2VOa9pz2Vw",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "MY BROTHER SENDS ME KISSES 😂",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Jude_Bellingham__The_Full_Story_clip04_Natural_funny_sibling_banter_about_texti.jpg"
@@ -4380,16 +4380,6 @@
       "title": "Hope Before the Big Games 💪",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/NEXT_STOP_MIAMI_clip02_An_emotionally_charged_buildup_about_hop.jpg"
-    },
-    {
-      "filename": "NEXT_STOP_MIAMI_clip03_A_quietly_quotable_philosophical_line_ab.mp4",
-      "status": "posted",
-      "youtubeId": "h1ukQyQ93i0",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Factors We Cannot Control 🧠",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/NEXT_STOP_MIAMI_clip03_A_quietly_quotable_philosophical_line_ab.jpg"
     },
     {
       "filename": "Neuroscientists_Guide_To_10X_Your_Focus__clip01_Shocking_claim_backed_by_a_study_that_a_.mp4",
