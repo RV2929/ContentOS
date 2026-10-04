@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T05:09:13.227Z",
+  "lastUpdated": "2026-10-04T06:18:00.280Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -5063,10 +5063,10 @@
     },
     {
       "filename": "The_FULL_Cristiano_Ronaldo_Interview_Wit_clip02_A_provocative_quotable_attack_on_Ralf_Ra.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-04T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "TF8k8Nr3hFs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "A Sport Director Running a Club? 💀",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_FULL_Cristiano_Ronaldo_Interview_Wit_clip02_A_provocative_quotable_attack_on_Ralf_Ra.jpg"
