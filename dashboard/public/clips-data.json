@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T01:52:34.337Z",
+  "lastUpdated": "2026-10-04T01:52:37.692Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4185,8 +4185,8 @@
       "filename": "My_FULL_Interview_With_Piers_Morgan_clip02_Raw_quotable_reaction_to_becoming_the_fi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-04T01:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Football's First Billionaire 💰 (His Reaction)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/My_FULL_Interview_With_Piers_Morgan_clip02_Raw_quotable_reaction_to_becoming_the_fi.jpg"
