@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T11:01:35.157Z",
+  "lastUpdated": "2026-10-05T12:27:46.551Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4403,10 +4403,10 @@
     },
     {
       "filename": "Real_Madrid_Manchester_United_Euro_24_I__clip06_A_tight_motivational_philosophy_on_movin.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-05T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "gfsKz203b7E",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "LIFE CONTINUES, PAST IS PASSED 🧠 Ronaldo's Winning Mindset",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Real_Madrid_Manchester_United_Euro_24_I__clip06_A_tight_motivational_philosophy_on_movin.jpg"
@@ -4980,16 +4980,6 @@
       "title": "Worst Moment Since My Father Died 😢",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_FULL_Cristiano_Ronaldo_Interview_Wit_clip03_Raw_vulnerable_admission_about_losing_hi.jpg"
-    },
-    {
-      "filename": "The_FULL_Cristiano_Ronaldo_Interview_Wit_clip04_A_deeply_emotional_quotable_line_about_f.mp4",
-      "status": "posted",
-      "youtubeId": "90X1ivqq_Fw",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Happy and Sad at Once 🖤",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_FULL_Cristiano_Ronaldo_Interview_Wit_clip04_A_deeply_emotional_quotable_line_about_f.jpg"
     },
     {
       "filename": "The_FULL_Cristiano_Ronaldo_Interview_Wit_clip05_A_genuinely_surprising_reveal_that_the_R.mp4",
