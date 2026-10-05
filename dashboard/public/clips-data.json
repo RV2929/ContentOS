@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T06:40:41.917Z",
+  "lastUpdated": "2026-10-05T07:32:26.163Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1953,10 +1953,10 @@
     },
     {
       "filename": "Everything_Revealed_-_My_Most_Personal_I_clip02_A_playful_back-and-forth_where_the_inter.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-05T07:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "jTodKZzz6Jc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Getting Ronaldo to Predict Arsenal 🎯 Finally!",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Everything_Revealed_-_My_Most_Personal_I_clip02_A_playful_back-and-forth_where_the_inter.jpg"
@@ -4380,16 +4380,6 @@
       "title": "NO COUNTRY IS PERFECT 🔥 Ronaldo's Sharp Saudi Defense",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Real_Madrid_Manchester_United_Euro_24_I__clip01_Ronaldo_delivers_a_sharp_quotable_line_d.jpg"
-    },
-    {
-      "filename": "Real_Madrid_Manchester_United_Euro_24_I__clip02_A_raw_counterintuitive_redefinition_of_p.mp4",
-      "status": "posted",
-      "youtubeId": "9Z6aRcG81cY",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "REAL PRESSURE 💪 Ronaldo Redefines What Matters Most",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Real_Madrid_Manchester_United_Euro_24_I__clip02_A_raw_counterintuitive_redefinition_of_p.jpg"
     },
     {
       "filename": "Real_Madrid_Manchester_United_Euro_24_I__clip03_A_vulnerable_emotional_story_about_leavi.mp4",
