@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T14:36:20.906Z",
+  "lastUpdated": "2026-10-06T15:50:04.840Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3623,10 +3623,10 @@
     },
     {
       "filename": "Los_Secretos_del_Real_Madrid_Messi_Barce_clip04_A_funny_self-deprecating_and_surprisingl.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-06T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "AFIYa7mN3Og",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "They Called Me 'El Llorón' as a Kid 😅",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Los_Secretos_del_Real_Madrid_Messi_Barce_clip04_A_funny_self-deprecating_and_surprisingl.jpg"
@@ -4130,16 +4130,6 @@
       "title": "HE DOESN'T KNOW HOW MANY CARS HE OWNS 😂",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/My_FULL_Interview_With_Piers_Morgan_clip04_Absurd_quotable_wealth_flex_delivered_wi.jpg"
-    },
-    {
-      "filename": "My_FULL_Interview_With_Piers_Morgan_clip05_A_genuinely_touching_unscripted_emotiona.mp4",
-      "status": "posted",
-      "youtubeId": "Pq-DNmBGQDc",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "HIS DAUGHTERS MADE HIM PROPOSE 💍",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/My_FULL_Interview_With_Piers_Morgan_clip05_A_genuinely_touching_unscripted_emotiona.jpg"
     },
     {
       "filename": "My_FULL_Interview_With_Piers_Morgan_clip05_An_emotional_full-circle_story_of_a_hung.mp4",
