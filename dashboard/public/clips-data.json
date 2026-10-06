@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T21:48:17.937Z",
+  "lastUpdated": "2026-10-06T23:17:33.029Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3643,10 +3643,10 @@
     },
     {
       "filename": "Los_Secretos_del_Real_Madrid_Messi_Barce_clip06_An_unexpectedly_poetic_and_screenshot-wo.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-06T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "hnot9NTduFI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Brave Men Still Shoot With Fear 🎯",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Los_Secretos_del_Real_Madrid_Messi_Barce_clip06_An_unexpectedly_poetic_and_screenshot-wo.jpg"
