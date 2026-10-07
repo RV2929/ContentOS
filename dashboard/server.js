@@ -1037,7 +1037,7 @@ function dedupeTags(tags) {
 function buildBufferCaption(title, entry = {}) {
   const clean = title.split(' ').filter(w => !w.startsWith('#')).join(' ');
   const tags = dedupeTags([...pickHashtags(entry), '#Reels', '#Instagram', '#FYP', '#Viral']);
-  return `${clean}\n\n${tags.join(' ')}`;
+  return `${clean}\n\nFollow @clipperz2929 for daily clips\n\n${tags.join(' ')}`;
 }
 
 function doBufferPost(filePath, filename, caption, platform = 'instagram') {
