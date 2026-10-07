@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T01:11:22.890Z",
+  "lastUpdated": "2026-10-07T01:46:35.935Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -5705,8 +5705,8 @@
       "filename": "The_Ultimate_Christmas_Surprise_for_Cris_clip02_An_outrageous_attention-grabbing_claim_o.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-07T01:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Buried Alive 7 Days?! 😱 The Plot Twist",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Ultimate_Christmas_Surprise_for_Cris_clip02_An_outrageous_attention-grabbing_claim_o.jpg"
