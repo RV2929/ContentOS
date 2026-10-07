@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T13:26:23.180Z",
+  "lastUpdated": "2026-10-07T14:47:15.269Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2902,16 +2902,6 @@
       "thumbnailPath": "/thumbnails/I_believe_in_Al_Nassr_I_believe_in_this__clip03_A_vulnerable_personal_insight_into_what_.jpg"
     },
     {
-      "filename": "I_believe_in_Al_Nassr_I_believe_in_this__clip04_A_vivid_personal_story_about_the_Red_Sea.mp4",
-      "status": "posted",
-      "youtubeId": "iE1bUmNkRwI",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "COME AND SEE WITH YOUR OWN EYES ✈️",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/I_believe_in_Al_Nassr_I_believe_in_this__clip04_A_vivid_personal_story_about_the_Red_Sea.jpg"
-    },
-    {
       "filename": "I_believe_in_Al_Nassr_I_believe_in_this__clip05_A_surprisingly_definitive_strongly-worde.mp4",
       "status": "posted",
       "youtubeId": "Yehal5VG5eM",
@@ -5385,8 +5375,8 @@
       "filename": "The_Psychology_of_Making_Money_clip03_Raw_vulnerable_admission_from_a_wealthy_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-07T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why She Won't Spend Her Millions",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Psychology_of_Making_Money_clip03_Raw_vulnerable_admission_from_a_wealthy_.jpg"
