@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T07:36:51.416Z",
+  "lastUpdated": "2026-10-08T08:36:06.485Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4965,8 +4965,8 @@
       "filename": "The_Formula_For_Freedom_Confidence__Happ_clip09_A_fascinating_little-known_Harvard_study.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-08T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Hold Hot Coffee to Seem Warmer to Others",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Formula_For_Freedom_Confidence__Happ_clip09_A_fascinating_little-known_Harvard_study.jpg"
