@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T11:06:27.438Z",
+  "lastUpdated": "2026-10-08T12:19:58.441Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -305,8 +305,8 @@
       "filename": "Andrew_Huberman_Become_Mentally_Dangerou_clip08_A_tight_deeply_quotable_monologue_defini.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-08T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Losers vs Winners: The ONE Difference That Matters",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip08_A_tight_deeply_quotable_monologue_defini.jpg"
@@ -5550,16 +5550,6 @@
       "title": "WHO IS THIS GUY? 😂 Ronaldo's Chaotic Energy Moment",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip02_Chaotic_energy_repeated_yeah_chanting_an.jpg"
-    },
-    {
-      "filename": "The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip03_Reveals_a_little-known_fact_that_Ronaldo.mp4",
-      "status": "posted",
-      "youtubeId": "nDnSaCBX9QA",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Galaxia CR7 Secret 🌌 The Cosmic Truth Behind His Brand",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip03_Reveals_a_little-known_fact_that_Ronaldo.jpg"
     },
     {
       "filename": "The_ULTIMATE_Cristiano_Ronaldo_Quiz_How__clip04_Shocking_reveal_that_Ronaldos_name_comes.mp4",
