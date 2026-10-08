@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T15:50:14.391Z",
+  "lastUpdated": "2026-10-08T17:00:33.240Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2343,10 +2343,10 @@
     },
     {
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip07_An_unexpected_redefinition_of_happinessp.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-08T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Ngbb4HvaaFY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Found It in the Suck: Redefining Happiness Through Suffering",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip07_An_unexpected_redefinition_of_happinessp.jpg"
