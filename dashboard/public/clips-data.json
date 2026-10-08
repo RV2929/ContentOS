@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T21:48:30.453Z",
+  "lastUpdated": "2026-10-08T23:24:29.402Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -105,8 +105,8 @@
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip07_A_tight_funny_and_relatable_personal_sto.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-08T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "In-N-Out Burgers and the Cost of Obsession",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip07_A_tight_funny_and_relatable_personal_sto.jpg"
