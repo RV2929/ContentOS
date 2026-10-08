@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T08:36:06.485Z",
+  "lastUpdated": "2026-10-08T10:02:13.969Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -700,16 +700,6 @@
       "title": "7/10 Goal vs Czech Republic 🔥 Ronaldo Rates Himself",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_REACTS_to_ALL_his_14_G_clip01_A_player_brutally_self-grading_his_own_g.jpg"
-    },
-    {
-      "filename": "Cristiano_Ronaldo_REACTS_to_ALL_his_14_G_clip02_A_tight_story_with_a_twisthe_upgrades_hi.mp4",
-      "status": "posted",
-      "youtubeId": "ds0cZsD7Cn8",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Smart Movement Changes Everything 🧠 From 6 to 8",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_REACTS_to_ALL_his_14_G_clip02_A_tight_story_with_a_twisthe_upgrades_hi.jpg"
     },
     {
       "filename": "Cristiano_Ronaldo_REACTS_to_ALL_his_14_G_clip03_A_clean_setup-and-payoff_story_huge_spri.mp4",
@@ -1835,8 +1825,8 @@
       "filename": "Elicitation_CIAs_Technique_to_Make_Peopl_clip05_A_gripping_true_Cold_War_espionage_story.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-08T09:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "How Soviet Spies Stole Navy Secrets",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Elicitation_CIAs_Technique_to_Make_Peopl_clip05_A_gripping_true_Cold_War_espionage_story.jpg"
