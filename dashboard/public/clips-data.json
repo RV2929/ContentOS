@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T12:19:58.441Z",
+  "lastUpdated": "2026-10-08T13:32:23.367Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -315,8 +315,8 @@
       "filename": "Andrew_Huberman_Become_Mentally_Dangerou_clip09_A_provocative_question_and_answer_about_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-08T13:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Immigrants Outperform Everyone: The Real Reason",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip09_A_provocative_question_and_answer_about_.jpg"
