@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T20:36:40.209Z",
+  "lastUpdated": "2026-10-08T21:48:30.453Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -73,10 +73,10 @@
     },
     {
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip04_A_live_demonstration_of_the_physiologica.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-08T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "8wraqNTS94w",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Breathing Technique That Calms You Instantly",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip04_A_live_demonstration_of_the_physiologica.jpg"
