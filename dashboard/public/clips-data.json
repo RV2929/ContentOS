@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T18:12:34.079Z",
+  "lastUpdated": "2026-10-08T19:31:58.801Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -5253,10 +5253,10 @@
     },
     {
       "filename": "The_Power_Expert_Nothing_Is_Real_And_I_C_clip04_A_mind-bending_claim_that_the_brain_cons.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-08T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "s6rssWDKoZI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Death Reveals the World Is Fake",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Power_Expert_Nothing_Is_Real_And_I_C_clip04_A_mind-bending_claim_that_the_brain_cons.jpg"
