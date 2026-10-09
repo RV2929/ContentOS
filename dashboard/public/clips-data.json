@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T05:20:36.158Z",
+  "lastUpdated": "2026-10-09T06:18:53.291Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2275,8 +2275,8 @@
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip04_A_counterintuitive_quotable_philosophy_o.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-09T06:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Its All Stick No Carrot | David Goggins Philosophy",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip04_A_counterintuitive_quotable_philosophy_o.jpg"
