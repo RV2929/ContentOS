@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T15:03:21.221Z",
+  "lastUpdated": "2026-10-09T15:49:38.501Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -23,10 +23,10 @@
     },
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip06_Rick_Rubins_vivid_thought_experiment_abo.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-09T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "-KBd-JAOMes",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The House on the Mountain: Rick Rubin's Authenticity Test",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip06_Rick_Rubins_vivid_thought_experiment_abo.jpg"
