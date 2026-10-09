@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T15:49:38.501Z",
+  "lastUpdated": "2026-10-09T17:02:30.956Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -33,10 +33,10 @@
     },
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip07_James_Dysons_staggering_failure_count_an.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-09T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "TayyDSEpiig",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "5,126 Failed Prototypes: James Dyson's Decade of Pain",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/14_Patterns_Behind_the_Worlds_Greatest_M_clip07_James_Dysons_staggering_failure_count_an.jpg"
