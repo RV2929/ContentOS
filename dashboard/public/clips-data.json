@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T04:00:11.686Z",
+  "lastUpdated": "2026-10-09T05:20:36.158Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -443,10 +443,10 @@
     },
     {
       "filename": "Andrew_Hubermans_Hack_To_Increase_Your_D_clip06_A_little-known_neuroscience_discovery_re.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-09T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Qy-PKB_d0Fg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Brain Region Behind Willpower: A Surgery Story",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip06_A_little-known_neuroscience_discovery_re.jpg"
