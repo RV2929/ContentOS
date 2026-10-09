@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T17:02:30.956Z",
+  "lastUpdated": "2026-10-09T18:36:20.835Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2483,10 +2483,10 @@
     },
     {
       "filename": "How_to_Find_Your_True_Purpose__Create_Yo_clip01_A_vivid_psychiatric-ward_story_with_a_su.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-09T18:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "fvumy4StXUo",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why the Man Kept Breaking Glass: Psychology's Hidden Logic",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Find_Your_True_Purpose__Create_Yo_clip01_A_vivid_psychiatric-ward_story_with_a_su.jpg"
