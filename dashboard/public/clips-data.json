@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T11:08:39.131Z",
+  "lastUpdated": "2026-10-09T12:13:08.666Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3773,10 +3773,10 @@
     },
     {
       "filename": "Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip08_An_emotional_payoff_story_about_rebuildi.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-09T12:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "3lTS2KFDVV4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Building the First Engine With My Dad",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mat_Armstrong_On_His_Worst_Car_Rebuild_I_clip08_An_emotional_payoff_story_about_rebuildi.jpg"
