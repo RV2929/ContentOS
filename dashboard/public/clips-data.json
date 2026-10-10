@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T23:22:37.125Z",
+  "lastUpdated": "2026-10-10T00:44:18.548Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3485,8 +3485,8 @@
       "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip04_Surprising_deeply_personal_confession_ab.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-10T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Believed Good People Stay Poor",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip04_Surprising_deeply_personal_confession_ab.jpg"
