@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:36:51.942Z",
+  "lastUpdated": "2026-10-10T21:56:28.820Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -735,8 +735,8 @@
       "filename": "Cristiano_Ronaldo_REACTS_to_ALL_his_14_G_clip06_A_surprising_insight_that_the_score_refl.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-10T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Team Goal = Perfect 10 🤝 The Real Story",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_REACTS_to_ALL_his_14_G_clip06_A_surprising_insight_that_the_score_refl.jpg"
