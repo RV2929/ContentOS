@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T09:49:14.994Z",
+  "lastUpdated": "2026-10-10T11:00:15.470Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1663,10 +1663,10 @@
     },
     {
       "filename": "Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip04_A_darkly_funny_wildly_quotable_extended_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-10T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "qPB6zQvdqUE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Mitch McConnell Is Now Terri Schiavo: The Devastating Comparison",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip04_A_darkly_funny_wildly_quotable_extended_.jpg"
