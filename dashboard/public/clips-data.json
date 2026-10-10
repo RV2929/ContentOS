@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:54:17.343Z",
+  "lastUpdated": "2026-10-10T17:04:34.095Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3405,8 +3405,8 @@
       "filename": "Las_5_cosas_que_NO_SABÍAS_sobre_Cristian_clip04_A_sincere_emotionally_raw_answer_about_m.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-10T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "WHAT SHE'S MOST PROUD OF AS A MOTHER 💚",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Las_5_cosas_que_NO_SABÍAS_sobre_Cristian_clip04_A_sincere_emotionally_raw_answer_about_m.jpg"
