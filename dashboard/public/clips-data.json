@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T07:35:26.878Z",
+  "lastUpdated": "2026-10-11T08:37:06.739Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1563,10 +1563,10 @@
     },
     {
       "filename": "ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a_clip03_Sharp_controversial_back-and-forth_on_re.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-11T08:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "SLHazrKoENo",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Can You Push a Referee? 😂 | Ronaldo Gets Real",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a_clip03_Sharp_controversial_back-and-forth_on_re.jpg"
