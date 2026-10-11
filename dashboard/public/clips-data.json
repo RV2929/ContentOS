@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T13:40:16.419Z",
+  "lastUpdated": "2026-10-11T14:36:18.414Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1583,10 +1583,10 @@
     },
     {
       "filename": "ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a_clip05_A_striking_quotable_self-description__yo.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-11T14:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "SsO7C1tT5oA",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I'm My Own Psychologist 🧠 | Ronaldo's Control Secret",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a_clip05_A_striking_quotable_self-description__yo.jpg"
