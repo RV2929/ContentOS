@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T08:38:42.135Z",
+  "lastUpdated": "2026-10-12T08:45:20.744Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -593,10 +593,10 @@
     },
     {
       "filename": "Beat_Ronaldo_Win_1000000_clip04_A_frantic_chaotic_sprint_with_escalating.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-12T08:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "RU9kuisJV7A",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "🔥 RACING THE FASTEST MAN ON EARTH",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Ronaldo_Win_1000000_clip04_A_frantic_chaotic_sprint_with_escalating.jpg"
