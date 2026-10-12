@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T16:02:31.099Z",
+  "lastUpdated": "2026-10-12T17:07:47.381Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -625,8 +625,8 @@
       "filename": "Beat_Ronaldo_Win_1000000_clip07_The_reveal_of_the_biggest_guest_ever_plu.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-12T17:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "😱 MEETING RONALDO FOR $1,000,000",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Ronaldo_Win_1000000_clip07_The_reveal_of_the_biggest_guest_ever_plu.jpg"
