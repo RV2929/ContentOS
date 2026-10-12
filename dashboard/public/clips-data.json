@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T19:24:38.087Z",
+  "lastUpdated": "2026-10-12T19:24:56.172Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -635,8 +635,8 @@
       "filename": "Beat_Ronaldo_Win_1000000_clip08_A_jaw-dropping_underdog_comeback_against.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-12T19:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "🏆 KID BEATS RONALDO, WINS $1,000,000",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Ronaldo_Win_1000000_clip08_A_jaw-dropping_underdog_comeback_against.jpg"
