@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T15:55:01.155Z",
+  "lastUpdated": "2026-10-12T16:02:31.099Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -525,8 +525,8 @@
       "filename": "Beat_Neymar_Win_500000_clip05_A_nail-biting_shootout_against_a_70-poin.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-12T15:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "20,000 FANS Watch CLUTCH SHOT 😭",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Neymar_Win_500000_clip05_A_nail-biting_shootout_against_a_70-poin.jpg"
