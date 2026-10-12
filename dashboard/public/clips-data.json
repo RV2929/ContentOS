@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T13:26:24.342Z",
+  "lastUpdated": "2026-10-12T13:26:40.530Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -513,10 +513,10 @@
     },
     {
       "filename": "Beat_Neymar_Win_500000_clip04_Real_100k_stakes_plus_visceral_commentar.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-12T13:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "67kdKohaPw0",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "F1 Champion vs Amateur Racer 💨",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Neymar_Win_500000_clip04_Real_100k_stakes_plus_visceral_commentar.jpg"
