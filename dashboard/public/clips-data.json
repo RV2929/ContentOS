@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T20:50:55.932Z",
+  "lastUpdated": "2026-10-12T21:07:56.486Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -545,8 +545,8 @@
       "filename": "Beat_Neymar_Win_500000_clip07_A_Lamborghini-for-the-taking_bet_turns_i.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-12T20:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "FIVE GUYS vs BREATH HOLDING LEGEND 😨",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Neymar_Win_500000_clip07_A_Lamborghini-for-the-taking_bet_turns_i.jpg"
