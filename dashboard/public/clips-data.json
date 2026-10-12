@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T06:20:11.815Z",
+  "lastUpdated": "2026-10-12T06:29:04.430Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -495,8 +495,8 @@
       "filename": "Beat_Neymar_Win_500000_clip02_A_back-and-forth_underdog_race_against_G.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-12T06:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Random Guy SHOCKS NBA Champion 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Neymar_Win_500000_clip02_A_back-and-forth_underdog_race_against_G.jpg"
