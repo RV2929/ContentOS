@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T02:59:07.560Z",
+  "lastUpdated": "2026-10-12T03:52:27.959Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2895,8 +2895,8 @@
       "filename": "Its_not_what_everyone_thinks_clip01_Ronaldo_gives_a_raw_vulnerable_explanati.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-12T03:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "WHY I REALLY CRIED 😢 The Truth Behind the Tears",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Its_not_what_everyone_thinks_clip01_Ronaldo_gives_a_raw_vulnerable_explanati.jpg"
