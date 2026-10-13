@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T14:40:38.914Z",
+  "lastUpdated": "2026-10-13T16:00:32.621Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -5675,8 +5675,8 @@
       "filename": "This_Will_Be_The_Most_Violent_Election_O_clip04_Combining_left_and_right_numbers_into_a_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-13T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "100 MILLION Americans Back Violence 🔥 (Both Sides)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Will_Be_The_Most_Violent_Election_O_clip04_Combining_left_and_right_numbers_into_a_.jpg"
