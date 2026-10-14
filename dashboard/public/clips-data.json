@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T14:39:16.253Z",
+  "lastUpdated": "2026-10-14T15:52:16.916Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3805,8 +3805,8 @@
       "filename": "McLaren_Are_Making_An_SUV_S9_E5_clip04_A_jaw-dropping_comedic_breakdown_of_ridi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-14T15:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "THE ABSURD PORSCHE SERVICE BILL 😱💸",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/McLaren_Are_Making_An_SUV_S9_E5_clip04_A_jaw-dropping_comedic_breakdown_of_ridi.jpg"
