@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T19:24:41.292Z",
+  "lastUpdated": "2026-10-14T20:36:43.188Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -5395,8 +5395,8 @@
       "filename": "The_REAL_REASON_Real_Madrid_ALWAYS_win_C_clip05_A_thoughtful_emotionally_nuanced_take_on.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-14T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Respecting Toni Kroos' Choice 🧠",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_REAL_REASON_Real_Madrid_ALWAYS_win_C_clip05_A_thoughtful_emotionally_nuanced_take_on.jpg"
@@ -5690,16 +5690,6 @@
       "title": "Who Actually Commits Political Violence? 🧠 (Shocking Answer)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Will_Be_The_Most_Violent_Election_O_clip05_A_genuinely_surprising_insight_that_poli.jpg"
-    },
-    {
-      "filename": "This_Will_Be_The_Most_Violent_Election_O_clip06_A_raw_disturbing_true_story_of_an_attack.mp4",
-      "status": "posted",
-      "youtubeId": "Y5y4GGRXtWQ",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "He Apologized for Failing to Kill Pelosi 😳",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/This_Will_Be_The_Most_Violent_Election_O_clip06_A_raw_disturbing_true_story_of_an_attack.jpg"
     },
     {
       "filename": "This_Will_Be_The_Most_Violent_Election_O_clip07_The_relatable_darkly_funny_coffee-maker_.mp4",
