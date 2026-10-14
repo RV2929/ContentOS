@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T20:36:43.188Z",
+  "lastUpdated": "2026-10-14T22:13:28.546Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3175,8 +3175,8 @@
       "filename": "KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip05_A_bold_quotable_declaration_of_unconditi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-14T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Trust My Friends 100%—Do You? 🤝",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip05_A_bold_quotable_declaration_of_unconditi.jpg"
@@ -5700,16 +5700,6 @@
       "title": "Your Coworkers Support Assassination 💼 (Uncomfortable Truth)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Will_Be_The_Most_Violent_Election_O_clip07_The_relatable_darkly_funny_coffee-maker_.jpg"
-    },
-    {
-      "filename": "This_Will_Be_The_Most_Violent_Election_O_clip08_A_provocative_data-backed_claim_about_Am.mp4",
-      "status": "posted",
-      "youtubeId": "aTgkUaqaKFI",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "America's Demographic Shift 📊 (Why It Matters)",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/This_Will_Be_The_Most_Violent_Election_O_clip08_A_provocative_data-backed_claim_about_Am.jpg"
     },
     {
       "filename": "This_Will_Be_The_Most_Violent_Election_O_clip09_Concrete_surprising_multiplier_statistic.mp4",
