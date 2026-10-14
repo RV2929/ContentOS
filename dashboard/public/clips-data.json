@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T22:13:28.546Z",
+  "lastUpdated": "2026-10-14T23:24:19.734Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2755,8 +2755,8 @@
       "filename": "IShowSpeed_Calls_Out_Kai_Cenat_Tyreek_Hi_clip10_A_heartfelt_quotable_moment_about_using_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-14T23:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "WHY I CARRY CASH TO HELP STRANGERS 💵",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/IShowSpeed_Calls_Out_Kai_Cenat_Tyreek_Hi_clip10_A_heartfelt_quotable_moment_about_using_.jpg"
@@ -5700,16 +5700,6 @@
       "title": "Your Coworkers Support Assassination 💼 (Uncomfortable Truth)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Will_Be_The_Most_Violent_Election_O_clip07_The_relatable_darkly_funny_coffee-maker_.jpg"
-    },
-    {
-      "filename": "This_Will_Be_The_Most_Violent_Election_O_clip09_Concrete_surprising_multiplier_statistic.mp4",
-      "status": "posted",
-      "youtubeId": "O1sd7bCHGk8",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "4X More Likely to Support Violence 📈 (The Data)",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/This_Will_Be_The_Most_Violent_Election_O_clip09_Concrete_surprising_multiplier_statistic.jpg"
     },
     {
       "filename": "Tim_Ferriss_The_1_Reason_You_Feel_Stuck__clip01_Tim_reveals_a_shocking_personal_experime.mp4",
