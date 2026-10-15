@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T23:24:19.734Z",
+  "lastUpdated": "2026-10-15T00:13:28.476Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3185,8 +3185,8 @@
       "filename": "KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip06_Raw_emotional_confession_about_locking_h.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-15T00:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Mom Guilt Is Breaking Me 😭",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip06_Raw_emotional_confession_about_locking_h.jpg"
