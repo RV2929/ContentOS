@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T18:36:44.043Z",
+  "lastUpdated": "2026-10-16T19:24:42.866Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -585,8 +585,8 @@
       "filename": "Anti-Aging_Expert_Missing_This_Vitamin_I_clip01_A_rapid-fire_cold_open_of_shocking_stats.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-16T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Don't People Know This? 🧠 80% Higher Dementia Risk",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Anti-Aging_Expert_Missing_This_Vitamin_I_clip01_A_rapid-fire_cold_open_of_shocking_stats.jpg"
