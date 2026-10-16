@@ -2942,13 +2942,13 @@
       "id": "mvba6thougb8",
       "url": "https://www.youtube.com/watch?v=NFRaUKXlAg8",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-10-16T18:08:24.780Z",
       "startedAt": "2026-10-16T21:00:57.536Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-10-16T21:10:56.390Z",
+      "clipsCount": 8,
+      "batchId": "You_Have_to_Win_the_Battle_Within_-_Djok",
       "error": null
     }
   ]
