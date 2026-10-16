@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T09:48:32.310Z",
+  "lastUpdated": "2026-10-16T09:48:37.889Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -483,10 +483,10 @@
     },
     {
       "filename": "Andrew_Tate_vs_Therapist_Round_2_clip01_A_bold_provocative_claim_that_he_rejects.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-16T09:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "KZOgv07wWnc",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I DON'T BELIEVE IN DEPRESSION 🧠",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Tate_vs_Therapist_Round_2_clip01_A_bold_provocative_claim_that_he_rejects.jpg"
