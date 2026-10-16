@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T21:10:59.420Z",
+  "lastUpdated": "2026-10-16T21:48:44.287Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -605,8 +605,8 @@
       "filename": "Anti-Aging_Expert_Missing_This_Vitamin_I_clip03_A_raw_almost_disturbing_true_story_of_fi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-16T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The 3-Week Bed Rest Experiment 😱 What Happened Next",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Anti-Aging_Expert_Missing_This_Vitamin_I_clip03_A_raw_almost_disturbing_true_story_of_fi.jpg"
@@ -2225,8 +2225,8 @@
       "filename": "FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip01_A_sharp_quotable_joke_about_Manchester_U.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-16T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "MIRACLES ONLY HAPPEN IN FATIMA 🙏 Ronaldo on Man United",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip01_A_sharp_quotable_joke_about_Manchester_U.jpg"
@@ -6985,8 +6985,8 @@
       "filename": "You_Have_to_Win_the_Battle_Within_-_Djok_clip01_A_gripping_opening_line_framing_success_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-16T21:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "SUCCESS IS NOT AN OPTION FOR ME 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/You_Have_to_Win_the_Battle_Within_-_Djok_clip01_A_gripping_opening_line_framing_success_.jpg"
