@@ -2911,6 +2911,45 @@
       "clipsCount": 9,
       "batchId": "Hayley_Williams_on_the_State_of_Paramore",
       "error": null
+    },
+    {
+      "id": "mvba6tfu179i",
+      "url": "https://www.youtube.com/watch?v=JCTb3QSrGMQ",
+      "title": "",
+      "status": "downloading",
+      "channel": "podcast",
+      "addedAt": "2026-10-16T18:08:24.714Z",
+      "startedAt": "2026-10-16T18:08:24.724Z",
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
+    },
+    {
+      "id": "mvba6thcyeby",
+      "url": "https://www.youtube.com/watch?v=P3rPkeapzAw",
+      "title": "",
+      "status": "queued",
+      "channel": "podcast",
+      "addedAt": "2026-10-16T18:08:24.768Z",
+      "startedAt": null,
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
+    },
+    {
+      "id": "mvba6thougb8",
+      "url": "https://www.youtube.com/watch?v=NFRaUKXlAg8",
+      "title": "",
+      "status": "queued",
+      "channel": "podcast",
+      "addedAt": "2026-10-16T18:08:24.780Z",
+      "startedAt": null,
+      "completedAt": null,
+      "clipsCount": 0,
+      "batchId": null,
+      "error": null
     }
   ]
 }
