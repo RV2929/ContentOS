@@ -2903,13 +2903,13 @@
       "id": "mvaps9g0bf0p",
       "url": "https://www.youtube.com/watch?v=fN5rvIvjpnc",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-10-16T08:37:13.296Z",
       "startedAt": "2026-10-16T13:04:53.992Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-10-16T13:21:21.658Z",
+      "clipsCount": 9,
+      "batchId": "Hayley_Williams_on_the_State_of_Paramore",
       "error": null
     }
   ]
