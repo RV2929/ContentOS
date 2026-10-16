@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T18:36:35.329Z",
+  "lastUpdated": "2026-10-16T18:36:44.043Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -815,8 +815,8 @@
       "filename": "Beat_Ronaldo_Win_1000000_clip06_The_cocky_trash_talk_Im_about_to_take_hi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-16T18:36:00.000Z",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Streamer CALLS OUT Fastest Man Alive 🎯 Cocky Bet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Ronaldo_Win_1000000_clip06_The_cocky_trash_talk_Im_about_to_take_hi.jpg"
