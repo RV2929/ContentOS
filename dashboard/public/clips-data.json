@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T17:24:33.542Z",
+  "lastUpdated": "2026-10-16T17:24:46.656Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -685,8 +685,8 @@
       "filename": "Beat_Ronaldo_Win_1000000_clip03_The_absurd_counterintuitive_negotiation_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-16T17:24:00.000Z",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "💨 PAYING TO RACE THE FASTEST MAN ALIVE",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Ronaldo_Win_1000000_clip03_The_absurd_counterintuitive_negotiation_.jpg"
