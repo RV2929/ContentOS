@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T07:54:24.930Z",
+  "lastUpdated": "2026-10-17T07:54:31.353Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3235,8 +3235,8 @@
       "filename": "IShowSpeed_Calls_Out_Kai_Cenat_Tyreek_Hi_clip02_A_wild_escalating_story_of_a_random_chal.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-17T07:48:00.000Z",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "3-HOUR DRIVE TO RACE OLYMPIC SPRINTER 😱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/IShowSpeed_Calls_Out_Kai_Cenat_Tyreek_Hi_clip02_A_wild_escalating_story_of_a_random_chal.jpg"
