@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T03:32:59.319Z",
+  "lastUpdated": "2026-10-17T04:30:32.131Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2105,8 +2105,8 @@
       "filename": "Essentials_Optimal_Protocols_to_Build_St_clip07_A_common_relatable_training_mistake_expl.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-17T04:12:00.000Z",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "STOP CALLING LEGS ONE MUSCLE 😅",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Essentials_Optimal_Protocols_to_Build_St_clip07_A_common_relatable_training_mistake_expl.jpg"
