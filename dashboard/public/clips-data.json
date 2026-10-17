@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T22:13:11.327Z",
+  "lastUpdated": "2026-10-17T23:51:04.607Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3785,8 +3785,8 @@
       "filename": "KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip03_A_counterintuitive_redefinition_of_compa.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-17T23:24:00.000Z",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Compassion Isn't What You Think 💚",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip03_A_counterintuitive_redefinition_of_compa.jpg"
