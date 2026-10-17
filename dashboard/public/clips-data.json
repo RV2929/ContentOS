@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T01:54:33.792Z",
+  "lastUpdated": "2026-10-17T02:11:30.242Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1835,8 +1835,8 @@
       "filename": "ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a_clip06_A_hilarious_vivid_story_with_a_perfect_s.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-17T01:48:00.000Z",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Police Raid His Yacht 😴 | Ronaldo's Funniest Story",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a_clip06_A_hilarious_vivid_story_with_a_perfect_s.jpg"
