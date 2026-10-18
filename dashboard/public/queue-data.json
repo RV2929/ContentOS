@@ -2835,19 +2835,6 @@
       "error": null
     },
     {
-      "id": "mvaps1k3y2oz",
-      "url": "https://www.youtube.com/watch?v=JCTb3QSrGMQ",
-      "title": "",
-      "status": "failed",
-      "channel": "podcast",
-      "addedAt": "2026-10-16T08:37:03.075Z",
-      "startedAt": "2026-10-16T12:05:57.157Z",
-      "completedAt": "2026-10-16T12:05:59.320Z",
-      "clipsCount": 0,
-      "batchId": null,
-      "error": "\", self.Styles.ERROR)} {message}', *args, **kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1103, in trouble\n    raise DownloadError(message, ex"
-    },
-    {
       "id": "mvaps34xbau8",
       "url": "https://www.youtube.com/watch?v=a7BSGdyjAL4",
       "title": "",
@@ -2861,19 +2848,6 @@
       "error": null
     },
     {
-      "id": "mvaps4pukceh",
-      "url": "https://www.youtube.com/watch?v=P3rPkeapzAw",
-      "title": "",
-      "status": "failed",
-      "channel": "podcast",
-      "addedAt": "2026-10-16T08:37:07.170Z",
-      "startedAt": "2026-10-16T12:33:24.498Z",
-      "completedAt": "2026-10-16T12:38:21.033Z",
-      "clipsCount": 0,
-      "batchId": null,
-      "error": "\", self.Styles.ERROR)} {message}', *args, **kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1103, in trouble\n    raise DownloadError(message, ex"
-    },
-    {
       "id": "mvaps6aj17wu",
       "url": "https://www.youtube.com/watch?v=3hptKYix4X8",
       "title": "",
@@ -2885,19 +2859,6 @@
       "clipsCount": 10,
       "batchId": "Joe_Rogan_Experience_2422_-_Jensen_Huang",
       "error": null
-    },
-    {
-      "id": "mvaps7vbtfni",
-      "url": "https://www.youtube.com/watch?v=NFRaUKXlAg8",
-      "title": "",
-      "status": "failed",
-      "channel": "podcast",
-      "addedAt": "2026-10-16T08:37:11.255Z",
-      "startedAt": "2026-10-16T13:04:50.201Z",
-      "completedAt": "2026-10-16T13:04:51.986Z",
-      "clipsCount": 0,
-      "batchId": null,
-      "error": "\", self.Styles.ERROR)} {message}', *args, **kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/rajvi/Desktop/ContentOS/venv/lib/python3.13/site-packages/yt_dlp/YoutubeDL.py\", line 1103, in trouble\n    raise DownloadError(message, ex"
     },
     {
       "id": "mvaps9g0bf0p",
