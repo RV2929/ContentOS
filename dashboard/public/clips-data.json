@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T04:29:06.340Z",
+  "lastUpdated": "2026-10-18T05:35:08.609Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3845,8 +3845,8 @@
       "filename": "KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip09_An_emotionally_resonant_story_from_a_wed.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-18T05:24:00.000Z",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Loving Someone You Can't Live With 💔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip09_An_emotionally_resonant_story_from_a_wed.jpg"
