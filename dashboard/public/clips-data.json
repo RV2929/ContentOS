@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T05:35:08.609Z",
+  "lastUpdated": "2026-10-18T06:37:50.612Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3855,8 +3855,8 @@
       "filename": "KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip10_A_satisfying_final-question_payoff_with_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-18T06:36:00.000Z",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The One Law She'd Make for Everyone 👑",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip10_A_satisfying_final-question_payoff_with_.jpg"
