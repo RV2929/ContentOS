@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T20:37:08.974Z",
+  "lastUpdated": "2026-10-21T20:37:19.461Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2752,6 +2752,16 @@
       "thumbnailPath": "/thumbnails/How_to_Best_Guide_Your_Life_Decisions__P_clip04_A_raw_emotional_high-stakes_redemption_s.jpg"
     },
     {
+      "filename": "How_to_Best_Guide_Your_Life_Decisions__P_clip05_Counterintuitive_science_fish_with_red_d.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
+    },
+    {
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip01_Goggins_delivers_a_raw_vulnerable_confes.mp4",
       "status": "posted",
       "youtubeId": "GlDObGMj2EU",
@@ -3163,10 +3173,10 @@
     },
     {
       "filename": "How_to_Improve_Memory__Accelerate_Learni_clip02_A_punchy_counterintuitive_claim_backed_b.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-21T20:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "hC3txXJSmU4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "You HAVE to Make Errors to Learn 😱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Improve_Memory__Accelerate_Learni_clip02_A_punchy_counterintuitive_claim_backed_b.jpg"
@@ -4173,10 +4183,10 @@
     },
     {
       "filename": "Kylian_Mbappe_interview_Liverpool_talks__clip01_The_interviewer_gives_a_vivid_surprising.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-21T20:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "D9IcG2zBOeg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Journalist Reveals Mbappe's 'Natural Arrogance' 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kylian_Mbappe_interview_Liverpool_talks__clip01_The_interviewer_gives_a_vivid_surprising.jpg"
@@ -7253,10 +7263,10 @@
     },
     {
       "filename": "You_Have_to_Win_the_Battle_Within_-_Djok_clip02_A_tight_emotional_origin_story_with_clea.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-21T20:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "6rwJ1hyM-bQ",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "MY FATHER'S $10 THAT CHANGED EVERYTHING 💔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/You_Have_to_Win_the_Battle_Within_-_Djok_clip02_A_tight_emotional_origin_story_with_clea.jpg"
