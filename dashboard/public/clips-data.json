@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T21:57:15.721Z",
+  "lastUpdated": "2026-10-21T21:57:46.559Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1233,10 +1233,10 @@
     },
     {
       "filename": "Dana_White_This_Generation_Thinks_You_Ca_clip02_Raw_specific_childhood_story_with_a_clea.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-21T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "NHKktj_ZsYE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "My Dad Showed Up Drunk 😢 | Dana White's Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dana_White_This_Generation_Thinks_You_Ca_clip02_Raw_specific_childhood_story_with_a_clea.jpg"
@@ -2253,10 +2253,10 @@
     },
     {
       "filename": "FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip04_A_nostalgic_well-told_story_with_a_satis.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-21T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "status": "posted",
+      "youtubeId": "itGTtis0aYw",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "HIS FIRST GOAL WAS UNBELIEVABLE 🎯 Career-Defining Moment",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip04_A_nostalgic_well-told_story_with_a_satis.jpg"
@@ -2715,8 +2715,8 @@
       "filename": "How_to_Best_Guide_Your_Life_Decisions__P_clip01_Surprising_neuroscience_fact_that_a_tiny.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-21T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Your Brain Has RAGE Switches 🧠🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Best_Guide_Your_Life_Decisions__P_clip01_Surprising_neuroscience_fact_that_a_tiny.jpg"
@@ -3235,8 +3235,8 @@
       "filename": "How_to_Improve_Memory__Accelerate_Learni_clip03_Huberman_reveals_self-testing_as_the_sin.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-21T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Most Overlooked Memory Hack 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Improve_Memory__Accelerate_Learni_clip03_Huberman_reveals_self-testing_as_the_sin.jpg"
@@ -4245,8 +4245,8 @@
       "filename": "Kylian_Mbappe_interview_Liverpool_talks__clip02_A_genuinely_funny_self-deprecating_child.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-21T21:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Mbappe's Zidane Haircut Disaster 😱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kylian_Mbappe_interview_Liverpool_talks__clip02_A_genuinely_funny_self-deprecating_child.jpg"
