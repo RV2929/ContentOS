@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T20:04:02.827Z",
+  "lastUpdated": "2026-10-21T20:36:57.703Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1226,7 +1226,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-10-21T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "UFC Worth $50 BILLION 🔥 | Dana White's Empire",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dana_White_This_Generation_Thinks_You_Ca_clip01_Bold_valuation_claim_plus_addicted_to_ch.jpg"
@@ -2712,6 +2712,46 @@
       "thumbnailPath": "/thumbnails/How_an_Interview_DISASTER_Became_a_HUGE__clip07_A_warm_genuine_on-camera_reaction_to_an_.jpg"
     },
     {
+      "filename": "How_to_Best_Guide_Your_Life_Decisions__P_clip01_Surprising_neuroscience_fact_that_a_tiny.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Best_Guide_Your_Life_Decisions__P_clip01_Surprising_neuroscience_fact_that_a_tiny.jpg"
+    },
+    {
+      "filename": "How_to_Best_Guide_Your_Life_Decisions__P_clip02_Fascinating_little-known_story_of_Viking.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Best_Guide_Your_Life_Decisions__P_clip02_Fascinating_little-known_story_of_Viking.jpg"
+    },
+    {
+      "filename": "How_to_Best_Guide_Your_Life_Decisions__P_clip03_A_vivid_surprising_real_experiment_showi.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": "/thumbnails/How_to_Best_Guide_Your_Life_Decisions__P_clip03_A_vivid_surprising_real_experiment_showi.jpg"
+    },
+    {
+      "filename": "How_to_Best_Guide_Your_Life_Decisions__P_clip04_A_raw_emotional_high-stakes_redemption_s.mp4",
+      "status": "ready",
+      "youtubeId": "",
+      "scheduledAt": null,
+      "scheduleStatus": null,
+      "title": "",
+      "channel": "podcast",
+      "thumbnailPath": null
+    },
+    {
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip01_Goggins_delivers_a_raw_vulnerable_confes.mp4",
       "status": "posted",
       "youtubeId": "GlDObGMj2EU",
@@ -3126,7 +3166,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-10-21T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "You HAVE to Make Errors to Learn 😱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Improve_Memory__Accelerate_Learni_clip02_A_punchy_counterintuitive_claim_backed_b.jpg"
@@ -4136,7 +4176,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-10-21T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Journalist Reveals Mbappe's 'Natural Arrogance' 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Kylian_Mbappe_interview_Liverpool_talks__clip01_The_interviewer_gives_a_vivid_surprising.jpg"
@@ -4916,7 +4956,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-10-21T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "ARE WE THAT PERFECT? 🔥 Ronaldo's Bold Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/My_thoughts_on_my_202324_season_and_the__clip01_Ronaldo_flips_Western_criticism_of_Saudi.jpg"
@@ -5496,7 +5536,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-10-21T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "MASCULINITY HAS BECOME A DIRTY WORD 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Clearest_Sign_a_Man_Is_Actually_Inse_clip01_Opens_with_a_direct_question_hook_and_de.jpg"
@@ -7216,7 +7256,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-10-21T20:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "MY FATHER'S $10 THAT CHANGED EVERYTHING 💔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/You_Have_to_Win_the_Battle_Within_-_Djok_clip02_A_tight_emotional_origin_story_with_clea.jpg"
