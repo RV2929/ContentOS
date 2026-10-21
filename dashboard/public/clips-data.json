@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T19:19:16.070Z",
+  "lastUpdated": "2026-10-21T19:24:54.254Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2143,10 +2143,10 @@
     },
     {
       "filename": "FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip03_A_genuinely_surprising_pause-then-reveal.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-21T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "-byGMi1lvx0",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "THE MOST EXPENSIVE THING HE OWNS 😱 Shocking Reveal",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip03_A_genuinely_surprising_pause-then-reveal.jpg"
@@ -3016,7 +3016,7 @@
       "status": "ready",
       "youtubeId": "",
       "scheduledAt": "2026-10-21T19:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduleStatus": "uploading",
       "title": "Why Exercise Boosts Memory 🧠 (Not How You Think)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Improve_Memory__Accelerate_Learni_clip01_Reveals_the_counterintuitive_neuroscienc.jpg"
