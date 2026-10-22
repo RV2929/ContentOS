@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T17:55:05.625Z",
+  "lastUpdated": "2026-10-22T17:55:17.707Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3655,8 +3655,8 @@
       "filename": "Its_not_what_everyone_thinks_clip01_Ronaldo_gives_a_raw_vulnerable_explanati.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-22T10:54:00.000Z",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "WHY I REALLY CRIED 😢 The Truth Behind the Tears",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Its_not_what_everyone_thinks_clip01_Ronaldo_gives_a_raw_vulnerable_explanati.jpg"
@@ -4325,8 +4325,8 @@
       "filename": "Las_5_cosas_que_NO_SABÍAS_sobre_Cristian_clip05_A_blunt_unfiltered_confession_aquí_polít.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-22T09:44:00.000Z",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "NO FILTER: WHAT HER PHONE REALLY MEANS 📱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Las_5_cosas_que_NO_SABÍAS_sobre_Cristian_clip05_A_blunt_unfiltered_confession_aquí_polít.jpg"
@@ -7365,8 +7365,8 @@
       "filename": "You_Have_to_Win_the_Battle_Within_-_Djok_clip07_A_simple_surprising_mental_health_hack_e.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-22T08:36:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "WHY I WALK UPHILL WHEN I'M STRUGGLING 🚶‍♂️",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/You_Have_to_Win_the_Battle_Within_-_Djok_clip07_A_simple_surprising_mental_health_hack_e.jpg"
@@ -7375,8 +7375,8 @@
       "filename": "You_Have_to_Win_the_Battle_Within_-_Djok_clip08_An_awe-inspiring_recounting_of_achieving.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-22T11:00:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "WIMBLEDON & NUMBER ONE IN ONE DAY 👑",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/You_Have_to_Win_the_Battle_Within_-_Djok_clip08_An_awe-inspiring_recounting_of_achieving.jpg"
