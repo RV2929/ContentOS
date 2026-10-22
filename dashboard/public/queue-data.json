@@ -3007,13 +3007,13 @@
       "id": "mvihkgjud0a8",
       "url": "https://www.youtube.com/watch?v=SrJU7v5w4QM",
       "title": "",
-      "status": "transcribing",
+      "status": "scheduled",
       "channel": "podcast",
       "addedAt": "2026-10-21T19:09:21.738Z",
       "startedAt": "2026-10-22T19:18:37.902Z",
-      "completedAt": null,
-      "clipsCount": 0,
-      "batchId": null,
+      "completedAt": "2026-10-22T19:26:40.187Z",
+      "clipsCount": 8,
+      "batchId": "JUST_RECORDED_SpaceX_Just_Stunned_Wall_S",
       "error": null
     }
   ]
