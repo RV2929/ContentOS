@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T17:55:17.707Z",
+  "lastUpdated": "2026-10-22T17:55:24.277Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2295,8 +2295,8 @@
       "filename": "FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip08_A_touching_underdog_loyalty_story__a_13-.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-22T07:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "HE SAVED HIS FRIEND'S CAREER AT 13 💪 Loyalty Wins",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip08_A_touching_underdog_loyalty_story__a_13-.jpg"
@@ -4865,8 +4865,8 @@
       "filename": "Money_Business_Family__Ambition__George__clip10_A_funny_character_reveal_where_one_broth.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-22T13:24:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Indecisive Shark Man: A Nickname Born in Real Time",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Money_Business_Family__Ambition__George__clip10_A_funny_character_reveal_where_one_broth.jpg"
