@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T17:55:31.171Z",
+  "lastUpdated": "2026-10-22T17:55:37.019Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2315,8 +2315,8 @@
       "filename": "FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip10_Hilarious_ego-soaked_banter_comparing_hi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-22T12:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I'M NOT NORMAL, I'M PERFECT 😂 Beckham Comparison",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip10_Hilarious_ego-soaked_banter_comparing_hi.jpg"
