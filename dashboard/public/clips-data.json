@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T17:55:24.277Z",
+  "lastUpdated": "2026-10-22T17:55:31.171Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2305,8 +2305,8 @@
       "filename": "FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip09_A_fiery_combative_rant_where_Ronaldo_pus.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-22T09:48:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "DEFENDING THE SAUDI LEAGUE 🔥 Fiery Pushback",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip09_A_fiery_combative_rant_where_Ronaldo_pus.jpg"
@@ -4315,8 +4315,8 @@
       "filename": "Las_5_cosas_que_NO_SABÍAS_sobre_Cristian_clip04_A_sincere_emotionally_raw_answer_about_m.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-22T09:09:00.000Z",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "WHAT SHE'S MOST PROUD OF AS A MOTHER 💚",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Las_5_cosas_que_NO_SABÍAS_sobre_Cristian_clip04_A_sincere_emotionally_raw_answer_about_m.jpg"
@@ -4395,8 +4395,8 @@
       "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip04_Surprising_deeply_personal_confession_ab.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-22T07:59:00.000Z",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Believed Good People Stay Poor",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip04_Surprising_deeply_personal_confession_ab.jpg"
