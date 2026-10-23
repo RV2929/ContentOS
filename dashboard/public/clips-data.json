@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T00:12:30.792Z",
+  "lastUpdated": "2026-10-23T00:29:18.764Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -7265,8 +7265,8 @@
       "filename": "World_Leading_Psychologist_How_To_Detach_clip05_Raw_vulnerable_admission_that_a_baseless.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-23T00:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "A Fake Story Almost Cost Me My Girlfriend: Media Lies",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/World_Leading_Psychologist_How_To_Detach_clip05_Raw_vulnerable_admission_that_a_baseless.jpg"
