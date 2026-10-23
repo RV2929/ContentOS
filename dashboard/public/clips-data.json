@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T10:21:01.125Z",
+  "lastUpdated": "2026-10-23T10:55:59.561Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4085,8 +4085,8 @@
       "filename": "KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip05_A_bold_quotable_declaration_of_unconditi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-23T10:55:00.000Z",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "I Trust My Friends 100%—Do You? 🤝",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip05_A_bold_quotable_declaration_of_unconditi.jpg"
