@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T04:05:45.851Z",
+  "lastUpdated": "2026-10-23T05:15:08.526Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -6705,8 +6705,8 @@
       "filename": "This_Will_Be_The_Most_Violent_Election_O_clip01_A_shocking_reframeclaiming_tens_of_milli.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-23T05:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "America's REAL #1 Threat 🚨 (It's Not What You Think)",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/This_Will_Be_The_Most_Violent_Election_O_clip01_A_shocking_reframeclaiming_tens_of_milli.jpg"
