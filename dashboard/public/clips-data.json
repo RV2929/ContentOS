@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T11:30:10.684Z",
+  "lastUpdated": "2026-10-23T12:10:02.497Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4105,8 +4105,8 @@
       "filename": "KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip07_A_gripping_escalating_story_of_packing_u.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-23T12:05:00.000Z",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Four House Fires Taught Me What Matters 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip07_A_gripping_escalating_story_of_packing_u.jpg"
