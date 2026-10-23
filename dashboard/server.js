@@ -362,6 +362,16 @@ function saveJSON(file, data) {
   fs.writeFileSync(file, JSON.stringify(data, null, 2));
 }
 
+function saveSchedule(data) {
+  if (Array.isArray(data) || typeof data !== 'object' || data === null) {
+    const msg = `saveSchedule REFUSED: attempted to write a ${Array.isArray(data) ? 'array' : typeof data} to schedule.json — caller stack:\n${new Error().stack}`;
+    console.error(msg);
+    appendAlert('CRITICAL: saveSchedule refused a non-dictionary write to schedule.json. Check server logs immediately.');
+    throw new Error(msg);
+  }
+  saveJSON(SCHEDULE_FILE, data);
+}
+
 function ensureConfig() {
   if (!fs.existsSync(CONFIG_FILE)) saveJSON(CONFIG_FILE, DEFAULT_CONFIG);
 }
@@ -403,7 +413,7 @@ function migrateChannelTags() {
   for (const entry of Object.values(sched)) {
     if (!entry.channel) { entry.channel = 'podcast'; schedChanged = true; }
   }
-  if (schedChanged) saveJSON(SCHEDULE_FILE, sched);
+  if (schedChanged) saveSchedule(sched);
 }
 migrateChannelTags();
 
@@ -703,7 +713,7 @@ app.post('/api/upload/buffer', (req, res) => {
 
   const s = loadSchedule();
   s[filename].bufferStatus = 'uploading';
-  saveJSON(SCHEDULE_FILE, s);
+  saveSchedule(s);
 
   bufferInProgress.add(filename);
   res.json({ ok: true });
@@ -715,7 +725,7 @@ app.post('/api/upload/buffer', (req, res) => {
         s2[filename].bufferStatus = 'done';
         if (result?.updateId) s2[filename].bufferPostId = result.updateId;
         delete s2[filename].bufferError;
-        saveJSON(SCHEDULE_FILE, s2);
+        saveSchedule(s2);
       }
       console.log(`[buffer:instagram] Manual post done: ${filename}`);
       scheduleSyncToGitHub(`buffer instagram done ${filename}`);
@@ -726,7 +736,7 @@ app.post('/api/upload/buffer', (req, res) => {
       if (s2[filename]) {
         s2[filename].bufferStatus = 'failed';
         s2[filename].bufferError  = err.message.slice(0, 200);
-        saveJSON(SCHEDULE_FILE, s2);
+        saveSchedule(s2);
       }
       scheduleSyncToGitHub(`buffer instagram failed ${filename}`);
     })
@@ -759,10 +769,14 @@ async function doUpload(jobId, filePath, filename, meta) {
     const youtube = google.youtube({ version: 'v3', auth: client });
     const fileSize = fs.statSync(filePath).size;
 
+    const FOLLOW_LINE = 'Follow @Clipperz29 for daily clips';
     const rawDesc = meta.description?.trim() || '';
-    const desc = rawDesc
-      ? (rawDesc.toLowerCase().includes('#shorts') ? rawDesc : rawDesc + '\n\n#Shorts')
-      : '#Shorts';
+    const descWithFollow = rawDesc.includes(FOLLOW_LINE)
+      ? rawDesc
+      : (rawDesc ? rawDesc + '\n\n' + FOLLOW_LINE : FOLLOW_LINE);
+    const desc = descWithFollow.toLowerCase().includes('#shorts')
+      ? descWithFollow
+      : descWithFollow + '\n\n#Shorts';
 
     const { data } = await youtube.videos.insert(
       {
@@ -844,7 +858,7 @@ app.delete('/api/schedule/:filename', (req, res) => {
     return res.status(409).json({ error: 'Upload already in progress' });
   const schedule = loadSchedule();
   delete schedule[filename];
-  saveJSON(SCHEDULE_FILE, schedule);
+  saveSchedule(schedule);
   res.json({ ok: true });
 });
 
@@ -900,7 +914,7 @@ async function crossLinkBatch(batchId, batch) {
       // Guard against running twice if the footer is already there
       if ((snippet.description || '').includes('--- Watch the full series ---')) {
         const s = loadSchedule();
-        if (s[filename]) { s[filename].crossLinked = true; saveJSON(SCHEDULE_FILE, s); }
+        if (s[filename]) { s[filename].crossLinked = true; saveSchedule(s); }
         continue;
       }
 
@@ -919,7 +933,7 @@ async function crossLinkBatch(batchId, batch) {
       });
 
       const s = loadSchedule();
-      if (s[filename]) { s[filename].crossLinked = true; saveJSON(SCHEDULE_FILE, s); }
+      if (s[filename]) { s[filename].crossLinked = true; saveSchedule(s); }
       console.log(`[cross-link] Updated clip ${entry.clipIndex}: ${entry.videoId}`);
     } catch (err) {
       if (err.code === 403 || err.message?.includes('insufficientPermissions')) {
@@ -1037,7 +1051,7 @@ function dedupeTags(tags) {
 function buildBufferCaption(title, entry = {}) {
   const clean = title.split(' ').filter(w => !w.startsWith('#')).join(' ');
   const tags = dedupeTags([...pickHashtags(entry), '#Reels', '#Instagram', '#FYP', '#Viral']);
-  return `${clean}\n\nFollow @clipperz2929 for daily clips\n\n${tags.join(' ')}`;
+  return `${clean}\n\nFollow @clipperz29_ for daily clips\n\n${tags.join(' ')}`;
 }
 
 function doBufferPost(filePath, filename, caption, platform = 'instagram') {
@@ -1179,6 +1193,14 @@ function getRecentPipelineErrors() {
 }
 
 async function runPipelineErrorCheck() {
+  // Guard: schedule.json must be a plain object (dict keyed by filename).
+  // If it is an array the scheduler treats numeric indices as filenames and
+  // marks every pending clip failed with "File not found".
+  const schedRaw = loadSchedule();
+  if (Array.isArray(schedRaw)) {
+    appendAlert('CRITICAL: schedule.json is an array, not a dictionary — scheduler is broken. Restore from a .bak backup immediately.');
+  }
+
   for (const item of getRecentPipelineErrors()) {
     appendAlert(`Video processing failed for "${item.url}" (queue id ${item.id}): ${item.error}`);
   }
@@ -1266,7 +1288,7 @@ async function runDiskCleanup() {
     if (!fs.existsSync(filePath)) {
       // File already gone — just mark it so we don't re-check
       const s = loadSchedule();
-      if (s[filename]) { s[filename].fileDeleted = true; saveJSON(SCHEDULE_FILE, s); }
+      if (s[filename]) { s[filename].fileDeleted = true; saveSchedule(s); }
       continue;
     }
 
@@ -1276,7 +1298,7 @@ async function runDiskCleanup() {
       if (s[filename]) {
         s[filename].fileDeleted = true;
         s[filename].deletedAt   = now.toISOString();
-        saveJSON(SCHEDULE_FILE, s);
+        saveSchedule(s);
       }
       console.log(`[cleanup] Deleted clip: ${filename}`);
       anyDeleted = true;
@@ -1390,10 +1412,10 @@ async function runScheduler() {
     if (!fs.existsSync(filePath)) {
       entry.status = 'failed';
       entry.error = 'File not found';
-      saveJSON(SCHEDULE_FILE, loadSchedule()); // reload to avoid stomping concurrent writes
+      saveSchedule(loadSchedule()); // reload to avoid stomping concurrent writes
       const s = loadSchedule();
       s[filename] = { ...s[filename], status: 'failed', error: 'File not found' };
-      saveJSON(SCHEDULE_FILE, s);
+      saveSchedule(s);
       continue;
     }
 
@@ -1406,7 +1428,7 @@ async function runScheduler() {
     if (s0[filename]) {
       s0[filename].status = 'uploading';
       s0[filename].uploadStartedAt = now.toISOString();
-      saveJSON(SCHEDULE_FILE, s0);
+      saveSchedule(s0);
     }
 
     const jobId = `sched-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`;
@@ -1426,7 +1448,7 @@ async function runScheduler() {
         if (job?.videoId) s[filename].videoId = job.videoId;
         if (job?.error)   s[filename].error   = job.error;
         if (finalStatus === 'done') s[filename].ytDoneAt = new Date().toISOString();
-        saveJSON(SCHEDULE_FILE, s);
+        saveSchedule(s);
       }
       console.log(`[scheduler] ${filename}: ${finalStatus}`);
       scheduleSyncToGitHub(`${filename} ${finalStatus}`);
@@ -1441,12 +1463,17 @@ async function runScheduler() {
   }
 
   // ── Buffer auto-post: Instagram ────────────────────────────────────────────
-  // Fires on the same tick as the YouTube upload: entry.status === 'pending'
-  // means the clip is due now (same scheduledAt gate below).
+  // Normal path: entry.status === 'pending' (same trigger as YouTube upload).
+  // bufferRetry path: entry.status === 'done' + entry.bufferRetry === true,
+  //   for clips whose YouTube upload already succeeded but Instagram post failed.
+  //   scheduledAt is still used as the "not before" gate so retries can be
+  //   spread out. YouTube loop skips status==='done' entries, so no re-upload risk.
   const bufferToken = readBufferToken();
   if (bufferToken) {
     for (const [filename, entry] of Object.entries(schedule)) {
-      if (entry.status !== 'pending') continue;      // same trigger as YouTube
+      const isNormalPending = entry.status === 'pending';
+      const isBufferRetry   = entry.status === 'done' && entry.bufferRetry === true;
+      if (!isNormalPending && !isBufferRetry) continue;
       if (new Date(entry.scheduledAt) > now) continue;
 
       const filePath = resolveClipPath(filename);
@@ -1459,7 +1486,7 @@ async function runScheduler() {
           if (s[filename]) {
             s[filename].bufferStatus = 'failed';
             s[filename].bufferError  = 'File not found';
-            saveJSON(SCHEDULE_FILE, s);
+            saveSchedule(s);
           }
         } else if ((bufPostedToday[bufCh] || 0) >= DAILY_CAP) {
           // Daily cap reached for this channel — overdue clips wait until tomorrow.
@@ -1472,7 +1499,7 @@ async function runScheduler() {
           if (s0[filename]) {
             s0[filename].bufferStatus = 'uploading';
             s0[filename].bufferStartedAt = now.toISOString();
-            saveJSON(SCHEDULE_FILE, s0);
+            saveSchedule(s0);
           }
           console.log(`[buffer:instagram] Posting: ${filename}`);
 
@@ -1483,7 +1510,8 @@ async function runScheduler() {
                 s[filename].bufferStatus = 'done';
                 s[filename].bufferDoneAt = new Date().toISOString();
                 if (result?.updateId) s[filename].bufferPostId = result.updateId;
-                saveJSON(SCHEDULE_FILE, s);
+                delete s[filename].bufferRetry;
+                saveSchedule(s);
               }
               console.log(`[buffer:instagram] Done: ${filename}`);
               scheduleSyncToGitHub(`buffer done ${filename}`);
@@ -1494,7 +1522,7 @@ async function runScheduler() {
               if (s[filename]) {
                 s[filename].bufferStatus = 'failed';
                 s[filename].bufferError  = err.message.slice(0, 200);
-                saveJSON(SCHEDULE_FILE, s);
+                saveSchedule(s);
               }
               scheduleSyncToGitHub(`buffer failed ${filename}`);
             })
