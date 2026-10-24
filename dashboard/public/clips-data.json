@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T08:43:53.609Z",
+  "lastUpdated": "2026-10-24T11:00:47.597Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -523,10 +523,10 @@
     },
     {
       "filename": "Andrew_Tate_vs_Therapist_Round_2_clip10_A_raw_awkward_genuinely_tense_moment_of_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-24T11:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "PbzfTpkN5Rg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "TRYING TO BE PRESENT TOGETHER 😅",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Tate_vs_Therapist_Round_2_clip10_A_raw_awkward_genuinely_tense_moment_of_.jpg"
@@ -3412,16 +3412,6 @@
       "thumbnailPath": "/thumbnails/IShowSpeed_Calls_Out_Kai_Cenat_Tyreek_Hi_clip09_A_vulnerable_emotional_origin_story_abou.jpg"
     },
     {
-      "filename": "IShowSpeed_Calls_Out_Kai_Cenat_Tyreek_Hi_clip10_A_heartfelt_quotable_moment_about_using_.mp4",
-      "status": "posted",
-      "youtubeId": "zePzHSEisO8",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "WHY I CARRY CASH TO HELP STRANGERS 💵",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/IShowSpeed_Calls_Out_Kai_Cenat_Tyreek_Hi_clip10_A_heartfelt_quotable_moment_about_using_.jpg"
-    },
-    {
       "filename": "I_Meet_MrBeast_To_Break_The_Internet_clip01_Insider_tip_from_a_mega-creator_keep_you.mp4",
       "status": "ready",
       "youtubeId": "",
@@ -4020,16 +4010,6 @@
       "title": "SORRY I COULDN'T DO IT FOR YOU, GAFFER 💔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Jude_Bellingham__The_Full_Story_clip09_Devastating_post-final_heartbreak_with_r.jpg"
-    },
-    {
-      "filename": "KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip01_A_surprising_relatable_insight_about_cra.mp4",
-      "status": "posted",
-      "youtubeId": "-Fpig6VP40A",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "The Paradox of Fame: Craving Invisibility 👤",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip01_A_surprising_relatable_insight_about_cra.jpg"
     },
     {
       "filename": "KIM_KARDASHIAN_OPENS_UP_About_Insecurity_clip02_A_striking_Japanese_proverb_about_hidden.mp4",
