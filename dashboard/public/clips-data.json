@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T07:22:10.651Z",
+  "lastUpdated": "2026-10-25T09:42:05.277Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -933,10 +933,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_This_is_how_Manchester_clip04_A_sharp_counterintuitive_analogy_about_w.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-25T09:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "BltcPyF0W9k",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "YOU DON'T CALL A PLUMBER FOR ELECTRICS 😂",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_This_is_how_Manchester_clip04_A_sharp_counterintuitive_analogy_about_w.jpg"
