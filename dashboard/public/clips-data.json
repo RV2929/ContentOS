@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T23:00:15.549Z",
+  "lastUpdated": "2026-10-25T02:41:20.680Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -903,10 +903,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_This_is_how_Manchester_clip01_A_raw_personal_story_with_real_stakes__a.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-25T02:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "66Xki8WJCgg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "1AM CALL ABOUT GOING BACK 📞",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_This_is_how_Manchester_clip01_A_raw_personal_story_with_real_stakes__a.jpg"
