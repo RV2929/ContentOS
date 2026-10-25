@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T09:42:05.277Z",
+  "lastUpdated": "2026-10-25T12:09:42.406Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -943,10 +943,10 @@
     },
     {
       "filename": "Cristiano_Ronaldo_This_is_how_Manchester_clip05_A_behind-the-scenes_insight_into_how_you.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-25T12:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "gceAD2r30d4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "WHAT I LEARNED FROM GIGGS & KEANE 💪",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_This_is_how_Manchester_clip05_A_behind-the-scenes_insight_into_how_you.jpg"
