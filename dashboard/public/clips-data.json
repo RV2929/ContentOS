@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T19:12:15.893Z",
+  "lastUpdated": "2026-10-26T21:38:37.228Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2683,10 +2683,10 @@
     },
     {
       "filename": "How_an_Interview_DISASTER_Became_a_HUGE__clip07_A_warm_genuine_on-camera_reaction_to_an_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-26T21:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "gpEQmKKjrLU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "He Drew Me a Surprise Gift ✨",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_an_Interview_DISASTER_Became_a_HUGE__clip07_A_warm_genuine_on-camera_reaction_to_an_.jpg"
@@ -3490,26 +3490,6 @@
       "title": "PRESS TURNED MY HEALTH BREAK INTO A BREAKDOWN 😔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/I_Was_Losing_Myself__Tom_Holland_clip02_A_vulnerable_quotable_story_about_media_.jpg"
-    },
-    {
-      "filename": "I_Was_Losing_Myself__Tom_Holland_clip03_A_highly_quotable_line_borrowed_from_Bil.mp4",
-      "status": "posted",
-      "youtubeId": "PMXv_DXkDmk",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "PRESSURE IS A PRIVILEGE 🎯💪",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/I_Was_Losing_Myself__Tom_Holland_clip03_A_highly_quotable_line_borrowed_from_Bil.jpg"
-    },
-    {
-      "filename": "I_Was_Losing_Myself__Tom_Holland_clip04_A_complete_tension-filled_story_arcfrom_.mp4",
-      "status": "posted",
-      "youtubeId": "wAdBUts9Np0",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "DRY JANUARY TURNED INTO SOBRIETY 🌟",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/I_Was_Losing_Myself__Tom_Holland_clip04_A_complete_tension-filled_story_arcfrom_.jpg"
     },
     {
       "filename": "I_Was_Losing_Myself__Tom_Holland_clip05_Genuinely_funny_relatable_humor_about_wa.mp4",
