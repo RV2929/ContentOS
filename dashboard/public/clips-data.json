@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T21:38:37.228Z",
+  "lastUpdated": "2026-10-27T00:37:06.185Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3695,8 +3695,8 @@
       "filename": "Joe_Rogan_Experience_2422_-_Jensen_Huang_clip01_A_wild_funny_story_about_President_Trump.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-27T00:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Trump Called Joe Mid-Archery 🎯",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_2422_-_Jensen_Huang_clip01_A_wild_funny_story_about_President_Trump.jpg"
