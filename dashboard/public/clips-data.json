@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T00:37:06.185Z",
+  "lastUpdated": "2026-10-27T02:53:45.138Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3703,10 +3703,10 @@
     },
     {
       "filename": "Joe_Rogan_Experience_2422_-_Jensen_Huang_clip02_A_provocative_quotable_take_on_Trumps_in.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-27T02:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "hxvninecojY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "\"Quiet Piggy\" Was Objectively Funny 😬",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_Experience_2422_-_Jensen_Huang_clip02_A_provocative_quotable_take_on_Trumps_in.jpg"
