@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T21:36:49.281Z",
+  "lastUpdated": "2026-10-28T00:18:51.995Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2313,10 +2313,10 @@
     },
     {
       "filename": "Hayley_Williams_on_the_State_of_Paramore_clip01_A_surprising_funny_reveal_that_Paramores.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-28T00:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "Gwz-yuBXOCg",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Paramore Fired Their Singer Via AOL 💀",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Hayley_Williams_on_the_State_of_Paramore_clip01_A_surprising_funny_reveal_that_Paramores.jpg"
