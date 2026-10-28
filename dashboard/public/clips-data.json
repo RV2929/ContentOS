@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T07:26:14.208Z",
+  "lastUpdated": "2026-10-28T09:36:58.852Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3183,10 +3183,10 @@
     },
     {
       "filename": "How_to_Improve_Memory__Accelerate_Learni_clip05_A_surprising_personal_admission_and_prac.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-28T09:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "q-3JMb6unf0",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I Use ChatGPT to Test My Memory 🤖",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Improve_Memory__Accelerate_Learni_clip05_A_surprising_personal_admission_and_prac.jpg"
