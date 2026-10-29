@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T00:46:28.929Z",
+  "lastUpdated": "2026-10-29T02:46:04.353Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2395,8 +2395,8 @@
       "filename": "Hayley_Williams_on_the_State_of_Paramore_clip09_A_raw_emotional_confession_about_boundar.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-29T02:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Choosing Herself Still Breaks Hayley's Heart 💔",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Hayley_Williams_on_the_State_of_Paramore_clip09_A_raw_emotional_confession_about_boundar.jpg"
