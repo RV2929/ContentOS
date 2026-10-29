@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T07:37:44.855Z",
+  "lastUpdated": "2026-10-29T07:37:49.153Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -575,8 +575,8 @@
       "filename": "Anti-Aging_Expert_Missing_This_Vitamin_I_clip05_A_stunning_screenshot-worthy_finding_tha.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-29T07:12:00+00:00",
-      "scheduleStatus": "uploading",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Exercise Made Their Hearts 20 Years Younger 💪 Proven",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Anti-Aging_Expert_Missing_This_Vitamin_I_clip05_A_stunning_screenshot-worthy_finding_tha.jpg"
