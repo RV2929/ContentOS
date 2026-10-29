@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T04:08:13.905Z",
+  "lastUpdated": "2026-10-29T05:16:46.402Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -565,8 +565,8 @@
       "filename": "Anti-Aging_Expert_Missing_This_Vitamin_I_clip04_A_jaw-dropping_quotable_payoff_three_wee.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-10-29T04:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Bed Rest Worse Than 30 Years Aging 😱 The Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Anti-Aging_Expert_Missing_This_Vitamin_I_clip04_A_jaw-dropping_quotable_payoff_three_wee.jpg"
