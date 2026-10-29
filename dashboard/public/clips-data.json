@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T19:16:06.462Z",
+  "lastUpdated": "2026-10-29T22:00:51.699Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2223,10 +2223,10 @@
     },
     {
       "filename": "FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip02_Playful_confident_banter_where_Ronaldo_i.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-29T21:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "DxLaLkj6_tw",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "I KNOW MY OWN MONEY 💰 Ronaldo's Billionaire Swagger",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip02_Playful_confident_banter_where_Ronaldo_i.jpg"
@@ -2360,16 +2360,6 @@
       "title": "Taylor Swift Texts Hayley Before Her Family 😂",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Hayley_Williams_on_the_State_of_Paramore_clip05_A_warm_surprising_detail_about_Taylor_Sw.jpg"
-    },
-    {
-      "filename": "Hayley_Williams_on_the_State_of_Paramore_clip07_A_blunt_funny_screenshot-worthy_lyric_re.mp4",
-      "status": "posted",
-      "youtubeId": "OKTtqIQI7ZM",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Hayley's Proudest Lyric About Getting Rich 💰",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Hayley_Williams_on_the_State_of_Paramore_clip07_A_blunt_funny_screenshot-worthy_lyric_re.jpg"
     },
     {
       "filename": "Hayley_Williams_on_the_State_of_Paramore_clip08_A_powerful_storytelling_moment_weaving_r.mp4",
