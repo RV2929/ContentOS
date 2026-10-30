@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T12:06:10.145Z",
+  "lastUpdated": "2026-10-30T14:28:00.096Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1243,10 +1243,10 @@
     },
     {
       "filename": "Dana_White_This_Generation_Thinks_You_Ca_clip04_A_funny_highly_relatable_rant_about_a_ch.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-30T14:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "bSvwOwJzlGU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Universe Tried To F**K With Me 😂 | Chaotic Morning",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dana_White_This_Generation_Thinks_You_Ca_clip04_A_funny_highly_relatable_rant_about_a_ch.jpg"
