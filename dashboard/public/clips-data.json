@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T09:36:36.066Z",
+  "lastUpdated": "2026-10-31T12:01:07.285Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1273,10 +1273,10 @@
     },
     {
       "filename": "Dana_White_This_Generation_Thinks_You_Ca_clip07_Two_surprising_origin_stories_back-to-ba.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-31T12:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "TJKwOCB7tLs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Ronda Rousey Shocked Me 😱 | Hidden Origin Stories",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dana_White_This_Generation_Thinks_You_Ca_clip07_Two_surprising_origin_stories_back-to-ba.jpg"
