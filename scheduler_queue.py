@@ -1,10 +1,11 @@
 """
 Per-channel daily posting queue.
 
-Caps each channel (podcast, football, streamers) at DAILY_CAP posts per calendar day
-(system local time), spread evenly across the full 24 hours. When a day
-fills up, overflow rolls to the next day, then the next, etc. —
-first-in-first-out across whatever order filenames are handed in.
+Caps each channel (podcast, football, streamers) at DAILY_CAP_YT YouTube uploads
+and DAILY_CAP_IG Instagram/Buffer posts per calendar day (system local time),
+spread evenly across the full 24 hours. When a day fills up, overflow rolls to
+the next day, then the next, etc. — first-in-first-out across whatever order
+filenames are handed in.
 
 Used by contentos.py to slot newly generated clips, and by reslot_backlog.py
 to re-spread any already-pending entries in schedule.json.
@@ -14,7 +15,9 @@ import datetime
 import os
 import zoneinfo
 
-DAILY_CAP = 20
+DAILY_CAP_YT = 10   # YouTube uploads per channel per day (144-min spacing)
+DAILY_CAP_IG = 20   # Instagram/Buffer posts per channel per day (72-min spacing)
+DAILY_CAP = DAILY_CAP_YT  # default used by allocate_slots() and reslot_backlog.py
 
 # Statuses that occupy a slot on their scheduled day (already posted, actively
 # posting, or waiting to post). "failed" clips never posted, so they don't

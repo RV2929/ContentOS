@@ -117,6 +117,10 @@ const uploadJobs = new Map();
 
 // Filenames the scheduler is currently uploading (prevents double-firing)
 const schedulingInProgress = new Set();
+// Upload start times — used to detect stuck entries (> 30 min)
+const schedulingStartedAt = new Map();
+// Epoch ms when the last YT upload finished — Buffer skips for 2 min after
+let lastYtDoneAt = 0;
 
 // Filenames currently being sent to Buffer
 const bufferInProgress = new Set();
@@ -1370,7 +1374,8 @@ async function runScheduler() {
   const schedule = loadSchedule();
   const now = new Date();
 
-  const DAILY_CAP = 20;
+  const DAILY_CAP_YT = 10;  // YouTube uploads per channel per day (144-min spacing)
+  const DAILY_CAP_IG = 20;  // Instagram/Buffer posts per channel per day (72-min spacing)
   // Count clips already started uploading or done today per channel (UTC date),
   // so overdue/backlogged clips respect the same cap as freshly scheduled ones.
   const todayStr = now.toISOString().slice(0, 10); // YYYY-MM-DD UTC
@@ -1406,7 +1411,7 @@ async function runScheduler() {
 
     // Enforce daily cap even for overdue clips (e.g. after a token reconnect).
     const ch = normalizeChannel(entry.channel);
-    if ((ytPostedToday[ch] || 0) >= DAILY_CAP) continue;
+    if ((ytPostedToday[ch] || 0) >= DAILY_CAP_YT) continue;
 
     const filePath = resolveClipPath(filename);
     if (!fs.existsSync(filePath)) {
@@ -1420,6 +1425,7 @@ async function runScheduler() {
     }
 
     schedulingInProgress.add(filename);
+    schedulingStartedAt.set(filename, Date.now());
     ytPostedToday[ch] = (ytPostedToday[ch] || 0) + 1; // count against today's cap within this tick
     console.log(`[scheduler] Starting upload: ${filename} (account: ${accountId})`);
 
@@ -1459,74 +1465,115 @@ async function runScheduler() {
       }
     }).finally(() => {
       schedulingInProgress.delete(filename);
+      schedulingStartedAt.delete(filename);
+      lastYtDoneAt = Date.now();
     });
   }
 
   // ── Buffer auto-post: Instagram ────────────────────────────────────────────
   // Normal path: entry.status === 'pending' (same trigger as YouTube upload).
-  // bufferRetry path: entry.status === 'done' + entry.bufferRetry === true,
-  //   for clips whose YouTube upload already succeeded but Instagram post failed.
-  //   scheduledAt is still used as the "not before" gate so retries can be
-  //   spread out. YouTube loop skips status==='done' entries, so no re-upload risk.
+  // bufferRetry path: entry.bufferRetry === true (any status), for clips whose
+  //   Instagram post hit a transient error. bufferRetryAt gates when the retry
+  //   fires. YouTube loop skips status==='done' entries, so no re-upload risk.
   const bufferToken = readBufferToken();
   if (bufferToken) {
-    for (const [filename, entry] of Object.entries(schedule)) {
-      const isNormalPending = entry.status === 'pending';
-      const isBufferRetry   = entry.status === 'done' && entry.bufferRetry === true;
-      if (!isNormalPending && !isBufferRetry) continue;
-      if (new Date(entry.scheduledAt) > now) continue;
+    // Purge stuck YT-upload entries older than 30 min so they never permanently
+    // block Instagram posting.
+    const STALE_YT_MS = 30 * 60 * 1000;
+    for (const [f, startedAt] of schedulingStartedAt) {
+      if (Date.now() - startedAt > STALE_YT_MS) {
+        console.warn(`[buffer] Stale YT upload entry for "${f}" (${Math.round((Date.now() - startedAt) / 60000)} min) — ignoring`);
+        schedulingInProgress.delete(f);
+        schedulingStartedAt.delete(f);
+      }
+    }
 
-      const filePath = resolveClipPath(filename);
-      const title    = entry.title || path.basename(filename, path.extname(filename)).replace(/_/g, ' ');
+    const YT_COOLDOWN_MS = 2 * 60 * 1000;
+    const ytInFlight = schedulingInProgress.size > 0;
+    const inCooldown = lastYtDoneAt > 0 && Date.now() - lastYtDoneAt < YT_COOLDOWN_MS;
+    if (ytInFlight || inCooldown) {
+      const reason = ytInFlight
+        ? `${schedulingInProgress.size} YT upload(s) in flight`
+        : `YT cooldown (${Math.round((YT_COOLDOWN_MS - (Date.now() - lastYtDoneAt)) / 1000)}s remaining)`;
+      console.log(`[buffer:instagram] Skipping tick — ${reason}`);
+    } else {
+      for (const [filename, entry] of Object.entries(schedule)) {
+        const isNormalPending = entry.status === 'pending';
+        const isBufferRetry   = entry.bufferRetry === true;
+        if (!isNormalPending && !isBufferRetry) continue;
+        if (new Date(entry.scheduledAt) > now) continue;
+        if (entry.bufferRetryAt && new Date(entry.bufferRetryAt) > now) continue;
 
-      const bufCh = normalizeChannel(entry.channel);
-      if (!['uploading', 'done', 'failed'].includes(entry.bufferStatus) && !bufferInProgress.has(filename)) {
-        if (!fs.existsSync(filePath)) {
-          const s = loadSchedule();
-          if (s[filename]) {
-            s[filename].bufferStatus = 'failed';
-            s[filename].bufferError  = 'File not found';
-            saveSchedule(s);
+        const filePath = resolveClipPath(filename);
+        const title    = entry.title || path.basename(filename, path.extname(filename)).replace(/_/g, ' ');
+
+        const bufCh = normalizeChannel(entry.channel);
+        if (!['uploading', 'done', 'failed'].includes(entry.bufferStatus) && !bufferInProgress.has(filename)) {
+          if (!fs.existsSync(filePath)) {
+            const s = loadSchedule();
+            if (s[filename]) {
+              s[filename].bufferStatus = 'failed';
+              s[filename].bufferError  = 'File not found';
+              saveSchedule(s);
+            }
+          } else if ((bufPostedToday[bufCh] || 0) >= DAILY_CAP_IG) {
+            // Daily cap reached for this channel — overdue clips wait until tomorrow.
+          } else {
+            bufferInProgress.add(filename);
+            bufPostedToday[bufCh] = (bufPostedToday[bufCh] || 0) + 1;
+            const caption = buildBufferCaption(title, entry);
+
+            const s0 = loadSchedule();
+            if (s0[filename]) {
+              s0[filename].bufferStatus = 'uploading';
+              s0[filename].bufferStartedAt = now.toISOString();
+              saveSchedule(s0);
+            }
+            console.log(`[buffer:instagram] Posting: ${filename}`);
+
+            doBufferPost(filePath, filename, caption, 'instagram')
+              .then((result) => {
+                const s = loadSchedule();
+                if (s[filename]) {
+                  s[filename].bufferStatus = 'done';
+                  s[filename].bufferDoneAt = new Date().toISOString();
+                  if (result?.updateId) s[filename].bufferPostId = result.updateId;
+                  delete s[filename].bufferRetry;
+                  delete s[filename].bufferRetryCount;
+                  delete s[filename].bufferRetryAt;
+                  saveSchedule(s);
+                }
+                console.log(`[buffer:instagram] Done: ${filename}`);
+                scheduleSyncToGitHub(`buffer done ${filename}`);
+              })
+              .catch(err => {
+                const msg = err.message || '';
+                const isTransient = /could not be read|unable to connect|connection pool/i.test(msg)
+                  || /\b530\b/.test(msg)
+                  || /read.?timeout/i.test(msg);
+                const s = loadSchedule();
+                if (s[filename]) {
+                  const retryCount = s[filename].bufferRetryCount || 0;
+                  if (isTransient && retryCount < 2) {
+                    s[filename].bufferRetry      = true;
+                    s[filename].bufferRetryCount = retryCount + 1;
+                    s[filename].bufferRetryAt    = new Date(Date.now() + 15 * 60 * 1000).toISOString();
+                    s[filename].bufferStatus     = null;
+                    s[filename].bufferError      = msg.slice(0, 200);
+                    console.log(`[buffer:instagram] Transient error for "${filename}" — retry ${retryCount + 1}/2 in 15 min: ${msg}`);
+                  } else {
+                    s[filename].bufferStatus = 'failed';
+                    s[filename].bufferError  = retryCount >= 2
+                      ? `gave up after 2 retries: ${msg}`.slice(0, 300)
+                      : msg.slice(0, 200);
+                    console.error(`[buffer:instagram] Failed "${filename}": ${s[filename].bufferError}`);
+                  }
+                  saveSchedule(s);
+                }
+                scheduleSyncToGitHub(`buffer failed ${filename}`);
+              })
+              .finally(() => bufferInProgress.delete(filename));
           }
-        } else if ((bufPostedToday[bufCh] || 0) >= DAILY_CAP) {
-          // Daily cap reached for this channel — overdue clips wait until tomorrow.
-        } else {
-          bufferInProgress.add(filename);
-          bufPostedToday[bufCh] = (bufPostedToday[bufCh] || 0) + 1;
-          const caption = buildBufferCaption(title, entry);
-
-          const s0 = loadSchedule();
-          if (s0[filename]) {
-            s0[filename].bufferStatus = 'uploading';
-            s0[filename].bufferStartedAt = now.toISOString();
-            saveSchedule(s0);
-          }
-          console.log(`[buffer:instagram] Posting: ${filename}`);
-
-          doBufferPost(filePath, filename, caption, 'instagram')
-            .then((result) => {
-              const s = loadSchedule();
-              if (s[filename]) {
-                s[filename].bufferStatus = 'done';
-                s[filename].bufferDoneAt = new Date().toISOString();
-                if (result?.updateId) s[filename].bufferPostId = result.updateId;
-                delete s[filename].bufferRetry;
-                saveSchedule(s);
-              }
-              console.log(`[buffer:instagram] Done: ${filename}`);
-              scheduleSyncToGitHub(`buffer done ${filename}`);
-            })
-            .catch(err => {
-              console.error(`[buffer:instagram] Failed ${filename}: ${err.message}`);
-              const s = loadSchedule();
-              if (s[filename]) {
-                s[filename].bufferStatus = 'failed';
-                s[filename].bufferError  = err.message.slice(0, 200);
-                saveSchedule(s);
-              }
-              scheduleSyncToGitHub(`buffer failed ${filename}`);
-            })
-            .finally(() => bufferInProgress.delete(filename));
         }
       }
     }
