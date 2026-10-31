@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T14:24:25.657Z",
+  "lastUpdated": "2026-10-31T16:48:28.969Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1283,10 +1283,10 @@
     },
     {
       "filename": "Dana_White_This_Generation_Thinks_You_Ca_clip08_A_vulnerable_specific_story_with_clear_s.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-10-31T16:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "c89Yxq45c6I",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "How My Mom & I Split 💔 | Family Fallout Revealed",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dana_White_This_Generation_Thinks_You_Ca_clip08_A_vulnerable_specific_story_with_clear_s.jpg"
@@ -4940,16 +4940,6 @@
       "title": "LEAVING HOME AT ELEVEN 😢 His Story",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/My_thoughts_on_my_202324_season_and_the__clip03_An_emotional_vulnerable_story_about_leav.jpg"
-    },
-    {
-      "filename": "My_thoughts_on_my_202324_season_and_the__clip04_A_bold_self-aware_explanation_of_fame_an.mp4",
-      "status": "posted",
-      "youtubeId": "fvfYmO7a1i0",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "WHY I'M THE MOST FOLLOWED 🧠 Self-Aware",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/My_thoughts_on_my_202324_season_and_the__clip04_A_bold_self-aware_explanation_of_fame_an.jpg"
     },
     {
       "filename": "My_thoughts_on_my_202324_season_and_the__clip05_Raw_emotional_vulnerability_as_Ronaldo_e.mp4",
