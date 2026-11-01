@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T09:40:06.107Z",
+  "lastUpdated": "2026-11-01T12:14:50.258Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1270,16 +1270,6 @@
       "title": "I LOVE The Haters 🔥 | Criticism As Fuel",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dana_White_This_Generation_Thinks_You_Ca_clip06_A_short_screenshot-ready_quote_reframing.jpg"
-    },
-    {
-      "filename": "Dana_White_This_Generation_Thinks_You_Ca_clip07_Two_surprising_origin_stories_back-to-ba.mp4",
-      "status": "posted",
-      "youtubeId": "TJKwOCB7tLs",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Ronda Rousey Shocked Me 😱 | Hidden Origin Stories",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Dana_White_This_Generation_Thinks_You_Ca_clip07_Two_surprising_origin_stories_back-to-ba.jpg"
     },
     {
       "filename": "Dana_White_This_Generation_Thinks_You_Ca_clip08_A_vulnerable_specific_story_with_clear_s.mp4",
@@ -3605,8 +3595,8 @@
       "filename": "JUST_RECORDED_SpaceX_Just_Stunned_Wall_S_clip04_A_single_eye-popping_number__500B_to_1_t.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-01T12:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Half a Trillion Dollars by 2027 💰",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/JUST_RECORDED_SpaceX_Just_Stunned_Wall_S_clip04_A_single_eye-popping_number__500B_to_1_t.jpg"
