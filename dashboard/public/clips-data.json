@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T16:48:43.520Z",
+  "lastUpdated": "2026-11-01T19:12:09.489Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3595,8 +3595,8 @@
       "filename": "JUST_RECORDED_SpaceX_Just_Stunned_Wall_S_clip05_A_surprisingly_candid_admission_of_uncer.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-01T19:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "We're Just Figuring Out Chips 🧠",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/JUST_RECORDED_SpaceX_Just_Stunned_Wall_S_clip05_A_surprisingly_candid_admission_of_uncer.jpg"
