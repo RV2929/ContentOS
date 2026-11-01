@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T00:05:46.798Z",
+  "lastUpdated": "2026-11-01T02:43:59.188Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -7243,10 +7243,10 @@
     },
     {
       "filename": "Zuckerbergs_100_Billion_Bet_clip04_A_relatable_funny_rant_about_how_confusi.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-11-01T02:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "7rgejzHnRAs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "AI MODEL NAMES ARE TERRIBLE 😅",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Zuckerbergs_100_Billion_Bet_clip04_A_relatable_funny_rant_about_how_confusi.jpg"
