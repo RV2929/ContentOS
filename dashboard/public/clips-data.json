@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T02:43:59.188Z",
+  "lastUpdated": "2026-11-01T05:20:58.289Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3593,10 +3593,10 @@
     },
     {
       "filename": "JUST_RECORDED_SpaceX_Just_Stunned_Wall_S_clip03_A_striking_quotable_line_about_a_once-im.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-11-01T04:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "4ohz3M-3nb4",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "From Zero to 20 Gigawatts 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/JUST_RECORDED_SpaceX_Just_Stunned_Wall_S_clip03_A_striking_quotable_line_about_a_once-im.jpg"
