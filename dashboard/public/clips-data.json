@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T16:57:51.897Z",
+  "lastUpdated": "2026-11-02T19:12:25.357Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2705,8 +2705,8 @@
       "filename": "How_to_Best_Guide_Your_Life_Decisions__P_clip09_A_punchy_quotable_claim_that_reframes_re.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-02T19:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Adventure & Responsibility Are The SAME 💪🎯",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Best_Guide_Your_Life_Decisions__P_clip09_A_punchy_quotable_claim_that_reframes_re.jpg"
