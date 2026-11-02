@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T02:38:04.198Z",
+  "lastUpdated": "2026-11-02T04:49:53.776Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2685,8 +2685,8 @@
       "filename": "How_to_Best_Guide_Your_Life_Decisions__P_clip07_A_striking_etymological_insight_that_ref.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-02T04:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "'SIN' Literally Means MISS THE TARGET 🎯📖",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Best_Guide_Your_Life_Decisions__P_clip07_A_striking_etymological_insight_that_ref.jpg"
