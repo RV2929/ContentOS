@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T14:28:26.702Z",
+  "lastUpdated": "2026-11-02T16:57:51.897Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3615,8 +3615,8 @@
       "filename": "JUST_RECORDED_SpaceX_Just_Stunned_Wall_S_clip08_A_genuinely_funny_unexpected_Monty_Pytho.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-02T16:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Cheese Shop With No Cheese 🧀",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/JUST_RECORDED_SpaceX_Just_Stunned_Wall_S_clip08_A_genuinely_funny_unexpected_Monty_Pytho.jpg"
