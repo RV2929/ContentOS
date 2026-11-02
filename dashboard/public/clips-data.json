@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T07:14:39.596Z",
+  "lastUpdated": "2026-11-02T10:08:25.039Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3605,8 +3605,8 @@
       "filename": "JUST_RECORDED_SpaceX_Just_Stunned_Wall_S_clip07_Raw_guarded_and_quotable_discomfort_as_h.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-02T09:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tap Dancing Through a Minefield 😅",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/JUST_RECORDED_SpaceX_Just_Stunned_Wall_S_clip07_Raw_guarded_and_quotable_discomfort_as_h.jpg"
