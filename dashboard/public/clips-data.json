@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T21:36:33.779Z",
+  "lastUpdated": "2026-11-02T00:18:56.121Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1280,16 +1280,6 @@
       "title": "The Movie That Changed My Life 🎬 | Mortality Lesson",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Dana_White_This_Generation_Thinks_You_Ca_clip09_An_emotionally_charged_cinematic_story_a.jpg"
-    },
-    {
-      "filename": "Dana_White_This_Generation_Thinks_You_Ca_clip10_A_punchy_quotable_call-to-action_about_r.mp4",
-      "status": "posted",
-      "youtubeId": "gfW1TFScUg8",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Don't Be Afraid To Take The Risk 💪 | The Real Regret",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Dana_White_This_Generation_Thinks_You_Ca_clip10_A_punchy_quotable_call-to-action_about_r.jpg"
     },
     {
       "filename": "Dear_Ed_Sheeran_clip01_A_direct_repeated_demand_aimed_at_a_glob.mp4",
@@ -7245,8 +7235,8 @@
       "filename": "Zuckerbergs_100_Billion_Bet_clip07_A_heartwarming_specific_and_surprisingly.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-02T00:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "AI SURPRISED ME WITH A WATERMELON 🍉",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Zuckerbergs_100_Billion_Bet_clip07_A_heartwarming_specific_and_surprisingly.jpg"
