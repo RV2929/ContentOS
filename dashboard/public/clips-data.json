@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T16:50:07.704Z",
+  "lastUpdated": "2026-11-05T19:13:54.762Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4473,10 +4473,10 @@
     },
     {
       "filename": "Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip05_A_surprising_high-trust_admission_that_M.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-11-05T19:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "T2qVAbEHQQY",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Meta Built Its AI So It Can't Even Spy on You. Here's Why.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Mark_Zuckerberg_on_how_Metas_Muse_AI_age_clip05_A_surprising_high-trust_admission_that_M.jpg"
