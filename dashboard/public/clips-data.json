@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T18:56:45.196Z",
+  "lastUpdated": "2026-11-05T00:39:43.719Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -95,8 +95,8 @@
       "filename": "1_Neuroscientist_Truth_About_Laziness_Di_clip06_A_sharp_screenshot-worthy_mindset_shift_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-04T04:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Why Failing Reps Are Actually Your Best Friend",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/1_Neuroscientist_Truth_About_Laziness_Di_clip06_A_sharp_screenshot-worthy_mindset_shift_.jpg"
@@ -295,8 +295,8 @@
       "filename": "Andrew_Huberman_Become_Mentally_Dangerou_clip07_A_direct_hopeful_question_answered_with_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-04T02:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Can You Build Courage? Yes. Here's the Protocol.",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Huberman_Become_Mentally_Dangerou_clip07_A_direct_hopeful_question_answered_with_.jpg"
@@ -425,8 +425,8 @@
       "filename": "Andrew_Hubermans_Hack_To_Increase_Your_D_clip04_A_raw_vulnerable_personal_story_with_gen.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-04T12:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "What's In Your Heart? Silence: A Friendship Moment",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip04_A_raw_vulnerable_personal_story_with_gen.jpg"
@@ -2525,8 +2525,8 @@
       "filename": "How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-04T09:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Science Can't Predict Your Cannabis High—Yet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip05_Provocative_claim_that_science_cannot_pr.jpg"
@@ -2535,8 +2535,8 @@
       "filename": "How_Marijuana_Affects_the_Brain__Body__D_clip06_A_provocative_claim_that_even_science_ca.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-04T07:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "No One Can Predict Your Cannabis Reaction",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_Marijuana_Affects_the_Brain__Body__D_clip06_A_provocative_claim_that_even_science_ca.jpg"
@@ -2765,8 +2765,8 @@
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip03_A_gut-punch_emotional_moment_where_Goggi.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-04T14:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "No One Ever Saved Me | David Goggins Raw Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip03_A_gut-punch_emotional_moment_where_Goggi.jpg"
@@ -2815,8 +2815,8 @@
       "filename": "How_to_Build_Immense_Inner_Strength__Dav_clip05_A_vivid_theatrical_recreation_of_his_int.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-04T16:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Voice That Says That Aint You | Inner Dialogue",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_to_Build_Immense_Inner_Strength__Dav_clip05_A_vivid_theatrical_recreation_of_his_int.jpg"
@@ -5165,8 +5165,8 @@
       "filename": "Sam_Altman_on_Astra_AGI_and_the_future_o_clip07_A_surprising_myth-busting_statistic_clai.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-04T19:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Viral AI Water Myth Gets Debunked by Altman",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Sam_Altman_on_Astra_AGI_and_the_future_o_clip07_A_surprising_myth-busting_statistic_clai.jpg"
@@ -5515,8 +5515,8 @@
       "filename": "The_Easy_Habit_That_Sets_Your_Mood_For_T_clip07_A_shocking_real_brain-stimulation_study_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-04T00:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "People Chose Anger Over Joy in Brain Study",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Easy_Habit_That_Sets_Your_Mood_For_T_clip07_A_shocking_real_brain-stimulation_study_.jpg"
@@ -6345,8 +6345,8 @@
       "filename": "The_Top_Study_Habits_to_Improve_Learning_clip01_Counterintuitive_research_finding_helpin.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-04T21:36:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Teaching Your Competitors Actually Makes You Smarter",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Top_Study_Habits_to_Improve_Learning_clip01_Counterintuitive_research_finding_helpin.jpg"
