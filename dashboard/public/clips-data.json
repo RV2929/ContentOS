@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T19:13:54.762Z",
+  "lastUpdated": "2026-11-05T21:37:12.233Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -4233,10 +4233,10 @@
     },
     {
       "filename": "Lewis_Howes_Youre_69_Minutes_Away_From_N_clip01_Opens_with_a_bold_quotable_claim_that_ri.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-11-05T21:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "q9qoZtJN_IM",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "How to Feel Rich While Broke",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Lewis_Howes_Youre_69_Minutes_Away_From_N_clip01_Opens_with_a_bold_quotable_claim_that_ri.jpg"
