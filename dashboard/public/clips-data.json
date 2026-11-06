@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T02:44:55.041Z",
+  "lastUpdated": "2026-11-06T05:17:27.342Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3743,10 +3743,10 @@
     },
     {
       "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip08_A_little-known_insight_suggesting_watchi.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-11-06T04:48:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "P1Guq0uL5YI",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Gym Mirrors Might Hurt Your Gains",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip08_A_little-known_insight_suggesting_watchi.jpg"
