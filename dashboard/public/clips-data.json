@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T16:48:13.804Z",
+  "lastUpdated": "2026-11-06T19:12:56.043Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1913,10 +1913,10 @@
     },
     {
       "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip01_Ed_Sheeran_calls_out_Jordan_Belfort_as_h.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-11-06T19:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "uoMtZn1Qghs",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Ed Sheeran Names His Least Favorite Podcast Guest Ever",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip01_Ed_Sheeran_calls_out_Jordan_Belfort_as_h.jpg"
