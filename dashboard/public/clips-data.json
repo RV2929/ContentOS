@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T00:14:13.595Z",
+  "lastUpdated": "2026-11-06T02:44:55.041Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3723,10 +3723,10 @@
     },
     {
       "filename": "Joe_Rogan_on_How_Weed_Affects_Discipline_clip06_A_surprising_testable_neuroscience_fact_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-11-06T02:24:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "7oKiojiIj9E",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Count Your Heartbeat Without a Pulse",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Joe_Rogan_on_How_Weed_Affects_Discipline_clip06_A_surprising_testable_neuroscience_fact_.jpg"
