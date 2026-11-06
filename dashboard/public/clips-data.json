@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T05:48:21.865Z",
+  "lastUpdated": "2026-11-06T07:12:37.786Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -5903,10 +5903,10 @@
     },
     {
       "filename": "The_Most_Valuable_64_Minutes_Youll_Spend_clip07_A_vulnerable_personal_childhood_story_us.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-11-06T07:12:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "9pj-90q_wYM",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "The Boogeyman in My Closet Taught Me Risk",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_Most_Valuable_64_Minutes_Youll_Spend_clip07_A_vulnerable_personal_childhood_story_us.jpg"
