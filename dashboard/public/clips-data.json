@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T19:12:56.043Z",
+  "lastUpdated": "2026-11-06T21:41:11.965Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1893,10 +1893,10 @@
     },
     {
       "filename": "Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip07_A_perfect_closing_riff_that_lays_out_a_c.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-11-06T21:36:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "3TYWI0eKSYU",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "AI Billionaires Admit They're Just Creeps: The PR Conspiracy",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran_Sydney_Sweeney__Kash_Patels_P_clip07_A_perfect_closing_riff_that_lays_out_a_c.jpg"
