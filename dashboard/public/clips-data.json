@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T21:37:12.233Z",
+  "lastUpdated": "2026-11-06T00:14:07.803Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2563,10 +2563,10 @@
     },
     {
       "filename": "How_To_Improve_Dopamine_to_Feel_Motivati_clip06_An_uplifting_quotable_closing_statement_.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-11-06T00:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "OTcaAuVab8c",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Dopamine Is a Good Thing",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/How_To_Improve_Dopamine_to_Feel_Motivati_clip06_An_uplifting_quotable_closing_statement_.jpg"
