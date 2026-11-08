@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T21:54:18.590Z",
+  "lastUpdated": "2026-11-08T00:28:39.137Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1803,10 +1803,10 @@
     },
     {
       "filename": "ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a_clip07_Fast_unfiltered_answers__a_country_hes_n.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-11-08T00:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "m2AjKt703To",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Rapid Fire Confessions 🔥 | Never Seen This Country",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a_clip07_Fast_unfiltered_answers__a_country_hes_n.jpg"
