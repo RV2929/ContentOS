@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T00:28:39.137Z",
+  "lastUpdated": "2026-11-08T02:48:31.304Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1910,16 +1910,6 @@
       "title": "Ed Sheeran Names His Least Favorite Podcast Guest Ever",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip01_Ed_Sheeran_calls_out_Jordan_Belfort_as_h.jpg"
-    },
-    {
-      "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip02_A_genuinely_funny_relatable_story_about_.mp4",
-      "status": "posted",
-      "youtubeId": "8Y-pt5RMMr0",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Ed Sheeran Fished for an Hour Without Bait",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip02_A_genuinely_funny_relatable_story_about_.jpg"
     },
     {
       "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip03_A_rapid-fire_absurd_comedic_bit_about_ho.mp4",
@@ -3845,8 +3835,8 @@
       "filename": "Jude_Bellingham__The_Full_Story_clip08_The_emotional_climax_of_the_entire_film_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-08T02:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "WINNING THE CHAMPIONS LEAGUE IN TEARS 🏆",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Jude_Bellingham__The_Full_Story_clip08_The_emotional_climax_of_the_entire_film_.jpg"
