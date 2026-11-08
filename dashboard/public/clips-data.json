@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T04:58:39.969Z",
+  "lastUpdated": "2026-11-08T07:43:10.782Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -655,8 +655,8 @@
       "filename": "Beat_Neymar_Win_500000_clip06_A_tension-packed_final_home_run_swing_na.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-08T07:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Last Swing for $100,000 😅",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Neymar_Win_500000_clip06_A_tension-packed_final_home_run_swing_na.jpg"
@@ -1940,16 +1940,6 @@
       "title": "Ed Sheeran Opens Up About His Drug of Choice",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip05_Surprising_raw_honesty_from_a_global_sup.jpg"
-    },
-    {
-      "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip06_A_counterintuitive_insight_into_songwrit.mp4",
-      "status": "posted",
-      "youtubeId": "4nfzKe5tjao",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Shape of You Came From 4 Terrible Songs",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip06_A_counterintuitive_insight_into_songwrit.jpg"
     },
     {
       "filename": "Ed_Sheeran__This_Past_Weekend_w_Theo_Von_clip07_A_gripping_story_with_real_tension_and_s.mp4",
