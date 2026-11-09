@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T21:37:06.814Z",
+  "lastUpdated": "2026-11-09T00:30:10.956Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -675,8 +675,8 @@
       "filename": "Beat_Ronaldo_Win_1000000_clip02_Escalating_tension_a_quotable_overrated_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-09T00:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "Tom Brady vs High Schooler 😱 $100K on the line",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Ronaldo_Win_1000000_clip02_Escalating_tension_a_quotable_overrated_.jpg"
@@ -1800,16 +1800,6 @@
       "title": "Police Raid His Yacht 😴 | Ronaldo's Funniest Story",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a_clip06_A_hilarious_vivid_story_with_a_perfect_s.jpg"
-    },
-    {
-      "filename": "ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a_clip07_Fast_unfiltered_answers__a_country_hes_n.mp4",
-      "status": "posted",
-      "youtubeId": "m2AjKt703To",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Rapid Fire Confessions 🔥 | Never Seen This Country",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a_clip07_Fast_unfiltered_answers__a_country_hes_n.jpg"
     },
     {
       "filename": "ENTREVISTA_EXCLUSIVA_de_JOSEP_PEDREROL_a_clip08_Playful_ego-driven_banter_with_a_self-aw.mp4",
