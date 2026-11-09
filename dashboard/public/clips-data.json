@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T10:00:40.729Z",
+  "lastUpdated": "2026-11-09T12:27:07.740Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -533,10 +533,10 @@
     },
     {
       "filename": "Anti-Aging_Expert_Missing_This_Vitamin_I_clip01_A_rapid-fire_cold_open_of_shocking_stats.mp4",
-      "status": "ready",
-      "youtubeId": "",
-      "scheduledAt": "2026-11-09T12:00:00+00:00",
-      "scheduleStatus": "pending",
+      "status": "posted",
+      "youtubeId": "NytGUVB2avE",
+      "scheduledAt": null,
+      "scheduleStatus": "done",
       "title": "Why Don't People Know This? 🧠 80% Higher Dementia Risk",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Anti-Aging_Expert_Missing_This_Vitamin_I_clip01_A_rapid-fire_cold_open_of_shocking_stats.jpg"
@@ -6160,16 +6160,6 @@
       "title": "40 Years Old, Body Has Memory 😱",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/The_REAL_REASON_Real_Madrid_ALWAYS_win_C_clip03_A_surprising_philosophical_take_on_longe.jpg"
-    },
-    {
-      "filename": "The_REAL_REASON_Real_Madrid_ALWAYS_win_C_clip04_Genuine_emotional_vulnerability_about_ob.mp4",
-      "status": "posted",
-      "youtubeId": "j1RrqpOkZj8",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "I'm Addicted to Football 🔥",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/The_REAL_REASON_Real_Madrid_ALWAYS_win_C_clip04_Genuine_emotional_vulnerability_about_ob.jpg"
     },
     {
       "filename": "The_REAL_REASON_Real_Madrid_ALWAYS_win_C_clip05_A_thoughtful_emotionally_nuanced_take_on.mp4",
