@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T00:31:27.282Z",
+  "lastUpdated": "2026-11-10T02:38:29.014Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -480,16 +480,6 @@
       "title": "What My Bulldog Taught Me: Calm Presence Changes It All",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip09_A_heartfelt_story-driven_insight_about_c.jpg"
-    },
-    {
-      "filename": "Andrew_Tate_vs_Therapist_Round_2_clip07_A_tight_funny_high-stakes_story_with_a_c.mp4",
-      "status": "posted",
-      "youtubeId": "PKCj2D_AqrM",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "WE FLEW TO SWEDEN MID-COVID 😂✈️",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Andrew_Tate_vs_Therapist_Round_2_clip07_A_tight_funny_high-stakes_story_with_a_c.jpg"
     },
     {
       "filename": "Andrew_Tate_vs_Therapist_Round_2_clip08_A_counterintuitive_emotionally_loaded_cl.mp4",
@@ -6975,8 +6965,8 @@
       "filename": "You_Have_to_Win_the_Battle_Within_-_Djok_clip01_A_gripping_opening_line_framing_success_.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-10T02:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "SUCCESS IS NOT AN OPTION FOR ME 🔥",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/You_Have_to_Win_the_Battle_Within_-_Djok_clip01_A_gripping_opening_line_framing_success_.jpg"
