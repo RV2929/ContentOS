@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T04:57:37.107Z",
+  "lastUpdated": "2026-11-10T07:24:45.873Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -482,16 +482,6 @@
       "thumbnailPath": "/thumbnails/Andrew_Hubermans_Hack_To_Increase_Your_D_clip09_A_heartfelt_story-driven_insight_about_c.jpg"
     },
     {
-      "filename": "Andrew_Tate_vs_Therapist_Round_2_clip08_A_counterintuitive_emotionally_loaded_cl.mp4",
-      "status": "posted",
-      "youtubeId": "nJYravXiNzU",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "RAISED BY MY FATHER'S ABSENCE 😔",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Andrew_Tate_vs_Therapist_Round_2_clip08_A_counterintuitive_emotionally_loaded_cl.jpg"
-    },
-    {
       "filename": "Andrew_Tate_vs_Therapist_Round_2_clip09_A_surprising_pivot_from_a_man_known_for_.mp4",
       "status": "posted",
       "youtubeId": "ACS5O1q6klk",
@@ -815,8 +805,8 @@
       "filename": "Cristiano_Ronaldo_REACTS_to_ALL_his_14_G_clip07_A_striking_screenshot-worthy_opening_lin.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-10T07:12:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "The Goal in His Museum 🏛️ Euro 2020 Nerves",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Cristiano_Ronaldo_REACTS_to_ALL_his_14_G_clip07_A_striking_screenshot-worthy_opening_lin.jpg"
