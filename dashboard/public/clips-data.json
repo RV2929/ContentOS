@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T12:04:00.929Z",
+  "lastUpdated": "2026-11-10T14:32:06.030Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -502,16 +502,6 @@
       "thumbnailPath": "/thumbnails/Andrew_Tate_vs_Therapist_Round_2_clip10_A_raw_awkward_genuinely_tense_moment_of_.jpg"
     },
     {
-      "filename": "Anti-Aging_Expert_Missing_This_Vitamin_I_clip01_A_rapid-fire_cold_open_of_shocking_stats.mp4",
-      "status": "posted",
-      "youtubeId": "NytGUVB2avE",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Why Don't People Know This? 🧠 80% Higher Dementia Risk",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Anti-Aging_Expert_Missing_This_Vitamin_I_clip01_A_rapid-fire_cold_open_of_shocking_stats.jpg"
-    },
-    {
       "filename": "Anti-Aging_Expert_Missing_This_Vitamin_I_clip02_Counterintuitive_claim_that_a_creatine_d.mp4",
       "status": "posted",
       "youtubeId": "lMVnhB5LUPk",
@@ -680,16 +670,6 @@
       "title": "Streamer CALLS OUT Fastest Man Alive 🎯 Cocky Bet",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Beat_Ronaldo_Win_1000000_clip06_The_cocky_trash_talk_Im_about_to_take_hi.jpg"
-    },
-    {
-      "filename": "Beat_Ronaldo_Win_1000000_clip07_The_reveal_of_the_biggest_guest_ever_plu.mp4",
-      "status": "posted",
-      "youtubeId": "Ip8nZ-_NLhQ",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "😱 MEETING RONALDO FOR $1,000,000",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Beat_Ronaldo_Win_1000000_clip07_The_reveal_of_the_biggest_guest_ever_plu.jpg"
     },
     {
       "filename": "Beat_Ronaldo_Win_1000000_clip08_A_jaw-dropping_underdog_comeback_against.mp4",
@@ -1955,8 +1935,8 @@
       "filename": "Essentials_Optimal_Protocols_to_Build_St_clip07_A_common_relatable_training_mistake_expl.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-10T14:24:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "STOP CALLING LEGS ONE MUSCLE 😅",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Essentials_Optimal_Protocols_to_Build_St_clip07_A_common_relatable_training_mistake_expl.jpg"
