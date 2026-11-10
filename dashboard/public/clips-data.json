@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T09:43:32.139Z",
+  "lastUpdated": "2026-11-10T12:04:00.929Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -1935,8 +1935,8 @@
       "filename": "Essentials_Optimal_Protocols_to_Build_St_clip05_Debunks_a_widespread_fitness_myth_with_a.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-10T12:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "STRONGER DOESN'T MEAN BIGGER 🧠",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Essentials_Optimal_Protocols_to_Build_St_clip05_Debunks_a_widespread_fitness_myth_with_a.jpg"
