@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T14:32:06.030Z",
+  "lastUpdated": "2026-11-10T16:49:38.891Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -500,16 +500,6 @@
       "title": "TRYING TO BE PRESENT TOGETHER 😅",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Andrew_Tate_vs_Therapist_Round_2_clip10_A_raw_awkward_genuinely_tense_moment_of_.jpg"
-    },
-    {
-      "filename": "Anti-Aging_Expert_Missing_This_Vitamin_I_clip02_Counterintuitive_claim_that_a_creatine_d.mp4",
-      "status": "posted",
-      "youtubeId": "lMVnhB5LUPk",
-      "scheduledAt": null,
-      "scheduleStatus": "done",
-      "title": "Sleep Deprived? Take This 💪 Outperform The Well-Rested",
-      "channel": "podcast",
-      "thumbnailPath": "/thumbnails/Anti-Aging_Expert_Missing_This_Vitamin_I_clip02_Counterintuitive_claim_that_a_creatine_d.jpg"
     },
     {
       "filename": "Anti-Aging_Expert_Missing_This_Vitamin_I_clip03_A_raw_almost_disturbing_true_story_of_fi.mp4",
@@ -1945,8 +1935,8 @@
       "filename": "Essentials_Optimal_Protocols_to_Build_St_clip08_Concrete_actionable_numbers_10_to_25_set.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-10T16:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "HOW MANY SETS YOU ACTUALLY NEED 📊",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/Essentials_Optimal_Protocols_to_Build_St_clip08_Concrete_actionable_numbers_10_to_25_set.jpg"
