@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T14:27:15.290Z",
+  "lastUpdated": "2026-11-11T17:04:27.554Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -2075,8 +2075,8 @@
       "filename": "FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip05_A_genuinely_heartwarming_vulnerable_stor.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-11T16:48:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "HIS DAUGHTERS MADE HIM PROPOSE 💍 Heartwarming Truth",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/FULL_Cristiano_Ronaldo_Piers_Morgan_Inte_clip05_A_genuinely_heartwarming_vulnerable_stor.jpg"
