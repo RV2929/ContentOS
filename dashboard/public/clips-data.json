@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T09:42:02.645Z",
+  "lastUpdated": "2026-11-13T12:07:24.998Z",
   "clips": [
     {
       "filename": "14_Patterns_Behind_the_Worlds_Greatest_M_clip02_A_rags-to-riches_story_of_a_homeless_17-.mp4",
@@ -3135,8 +3135,8 @@
       "filename": "IShowSpeed_Calls_Out_Kai_Cenat_Tyreek_Hi_clip03_A_bold_quotable_claim_that_an_NFL_star_w.mp4",
       "status": "ready",
       "youtubeId": "",
-      "scheduledAt": "2026-11-13T12:00:00+00:00",
-      "scheduleStatus": "pending",
+      "scheduledAt": null,
+      "scheduleStatus": "failed",
       "title": "TYREEK HILL DODGED MY RACE 💨",
       "channel": "podcast",
       "thumbnailPath": "/thumbnails/IShowSpeed_Calls_Out_Kai_Cenat_Tyreek_Hi_clip03_A_bold_quotable_claim_that_an_NFL_star_w.jpg"
